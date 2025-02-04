@@ -1,0 +1,10 @@
+bfiocpp-0.3.2.dist-info/RECORD,,
+bfiocpp-0.3.2.dist-info/LICENSE,sha256=lXOm7HXiI4Fgd0wAdvf28d-jNO1x_C8tJuyy2V-uuIQ,1064
+bfiocpp-0.3.2.dist-info/WHEEL,sha256=HT9DItsiCKAlgetD4iMC7YOWVLzLoYYdbI1FCOtS0cE,109
+bfiocpp-0.3.2.dist-info/top_level.txt,sha256=nkNO9zrsONNDyuBrzna9Zf-PMGQoOS1d_Jc0sETI_QQ,27
+bfiocpp-0.3.2.dist-info/METADATA,sha256=EzpYInp1wSAP8o_zbvYwd_qsksAXGMwnGySVuIoAhGQ,1835
+bfiocpp/_version.py,sha256=8smLwBQiD14TaKw9l5Wu0xQ3HGDuEeWB8RS7Oewb-_0,497
+bfiocpp/__init__.py,sha256=3H9b4xi5nkvFmjKeq1vMqtkIfTZpz1EWHIVxPGzPmJA,191
+bfiocpp/tswriter.py,sha256=BNYKskcrYMicYWFH5krDV3sDCbVSkEk5opODj6eshg0,1826
+bfiocpp/libbfiocpp.cpython-39-darwin.so,sha256=_6W9ghT4ybttY11V7RFIpA1liXNZ8s0hGJIHx4pNTDM,27779168
+bfiocpp/tsreader.py,sha256=pp7kYmrG4wM0t9TkSU3Hc4oroonrF9qILqHoKn8051k,1805
