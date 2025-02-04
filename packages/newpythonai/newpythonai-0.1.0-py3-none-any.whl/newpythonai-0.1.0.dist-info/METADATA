@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: newpythonai
+Version: 0.1.0
+Summary: Библиотека для генерации кода с использованием Together AI
+Home-page: https://github.com/25423523/pythonai
+Author: InnoWave
+Author-email: bodnar.2009@inbox.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+# PythonAI
+
+PythonAI — это библиотека для генерации кода с помощью Together AI.
+
+## Установка
+
+pip install pythonai
+
