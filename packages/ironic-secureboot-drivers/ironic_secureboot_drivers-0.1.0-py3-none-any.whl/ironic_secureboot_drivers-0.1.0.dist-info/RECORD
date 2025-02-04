@@ -1,0 +1,7 @@
+ironic-secureboot-driver/__init__.py,sha256=_RwUAni73zGltGQ04sbBtEgefTYov5zblFq3XCGK7WU,121
+ironic-secureboot-driver/main.py,sha256=VjvShPDEU0nFwmrSFdPkKU2LUH82TXWoi1L8sCxGo-U,1671
+ironic_secureboot_drivers-0.1.0.dist-info/METADATA,sha256=ryN7_P8tu8OQ--ZFUEDj4PXc6OkJIJqhOWPntTgA98I,893
+ironic_secureboot_drivers-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ironic_secureboot_drivers-0.1.0.dist-info/entry_points.txt,sha256=YM9-R5KRT15kEgtrwxRcOOpftbAXQf3e_u9NrgpZS-0,69
+ironic_secureboot_drivers-0.1.0.dist-info/top_level.txt,sha256=pUDLVKtclI497aMlCB6fbUG1R0hCQng0cYMcuuFc0Cc,25
+ironic_secureboot_drivers-0.1.0.dist-info/RECORD,,
