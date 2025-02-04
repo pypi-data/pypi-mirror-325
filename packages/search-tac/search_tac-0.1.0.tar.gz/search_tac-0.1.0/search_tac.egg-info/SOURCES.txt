@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+search_tac/__init__.py
+search_tac/search_tac.py
+search_tac.egg-info/PKG-INFO
+search_tac.egg-info/SOURCES.txt
+search_tac.egg-info/dependency_links.txt
+search_tac.egg-info/requires.txt
+search_tac.egg-info/top_level.txt
