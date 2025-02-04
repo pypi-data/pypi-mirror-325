@@ -1,0 +1,79 @@
+# Project information
+site_name: "agenty"
+site_url: !ENV [ READTHEDOCS_CANONICAL_URL, "https://agenty.readthedocs.io/" ]
+repo_url: https://github.com/jonchun/agenty
+
+# Navigation structure
+nav:
+- Home: index.md
+- Getting Started:
+  - Installation: quickstart/install.md
+  - Getting Started: quickstart/getting_started.md
+- Highlights:
+  - Tools: documentation/tools.md
+  - Structured I/O: documentation/structured_io.md
+  - Pipelines: documentation/pipelines.md
+  - Templates: documentation/templates.md
+- User Guide:
+  - Agent Configuration: documentation/agent_configuration.md
+  - Hooks: documentation/hooks.md
+- Integrations:
+  - smolagents: integrations/smol.md
+- API Reference:
+  - Core: agenty.md
+  - Decorators: decorators.md
+  - Components:
+    - Memory: components/memory.md
+    - Usage: components/usage.md
+  - Integrations:
+    - smol: integrations/smol-api.md
+  - Exceptions: exceptions.md
+  - Types: types.md
+
+# Theme configuration
+theme:
+  name: "material"
+  custom_dir: docs/overrides
+  features:
+  - navigation.instant
+  - navigation.tracking
+  - toc.follow
+  - content.code.copy
+
+  palette:
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: black
+    accent: blue
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: black
+    accent: blue
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
+
+# Plugin configuration
+plugins:
+- search
+- mkdocstrings:
+    handlers:
+      python:
+        options:
+          filters:
+          - "!^_"
+
+# Markdown extensions
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+
+# Additional assets
+extra_css:
+- stylesheets/extra.css
+extra_javascript:
+- javascript/readthedocs.js
