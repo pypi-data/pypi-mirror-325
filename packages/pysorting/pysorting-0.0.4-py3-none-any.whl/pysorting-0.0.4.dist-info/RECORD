@@ -1,0 +1,10 @@
+pysorting/__init__.py,sha256=zlmChETNYeLFhqJBSpfqu3uTzDqTmpav4PAkCrdi400,480
+pysorting/bubblesort.py,sha256=d45oJ-Y6D9S0wdfEwwIRApN8oCS1a8yS1Lg-5zhQx_o,3195
+pysorting/insertionsort.py,sha256=78qfA11JWaodQrs-pUgeAq1l_C2P5oIn5BTVxoznUps,4187
+pysorting/quicksort.py,sha256=tgGJ2LSV0D90ydHV_IMDnrlAYKy1cTkmzR65UqdbpSM,2912
+pysorting/shellsort.py,sha256=FHsu8xt9C7Ec0s9zXaxGNxsdVLkcT7WA5RkG4nLrhn4,3061
+pysorting/utils.py,sha256=4I4VczLZgNRjzAIyulMsbxR6S15aaV5cUB__JX8-k2Y,9812
+pysorting-0.0.4.dist-info/LICENSE,sha256=VU9J38DPCXqKEaBfUGGms2PhRGhDGmp3ung4yIBJgzY,1091
+pysorting-0.0.4.dist-info/METADATA,sha256=ORANbX8xMEAXv7tBeTmr0hdJL3J_nqqESvzqaekLaFc,5809
+pysorting-0.0.4.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+pysorting-0.0.4.dist-info/RECORD,,
