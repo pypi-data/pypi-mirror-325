@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+chai_config/__init__.py
+chai_config/config.py
+chai_model_config.egg-info/PKG-INFO
+chai_model_config.egg-info/SOURCES.txt
+chai_model_config.egg-info/dependency_links.txt
+chai_model_config.egg-info/requires.txt
+chai_model_config.egg-info/top_level.txt
