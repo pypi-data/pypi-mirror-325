@@ -1,0 +1,71 @@
+Metadata-Version: 2.4
+Name: basic-memory
+Version: 0.0.0
+Summary: Local-first knowledge management combining Zettelkasten with knowledge graphs
+Project-URL: Homepage, https://github.com/basicmachines-co/basic-memory
+Project-URL: Repository, https://github.com/basicmachines-co/basic-memory
+Project-URL: Documentation, https://github.com/basicmachines-co/basic-memory#readme
+Author-email: Basic Machines <hello@basic-machines.co>
+License: AGPL-3.0-or-later
+License-File: LICENSE
+Requires-Python: >=3.12.1
+Requires-Dist: aiosqlite>=0.20.0
+Requires-Dist: basic-foundation
+Requires-Dist: dateparser>=1.2.0
+Requires-Dist: greenlet>=3.1.1
+Requires-Dist: icecream>=2.1.3
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: markdown-it-py>=3.0.0
+Requires-Dist: mcp>=1.2.0
+Requires-Dist: pydantic-settings>=2.6.1
+Requires-Dist: pydantic[email,timezone]>=2.10.3
+Requires-Dist: pyright>=1.1.390
+Requires-Dist: python-frontmatter>=1.1.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: rich>=13.9.4
+Requires-Dist: sqlalchemy>=2.0.0
+Requires-Dist: typer>=0.9.0
+Requires-Dist: unidecode>=1.3.8
+Requires-Dist: watchfiles>=1.0.4
+Provides-Extra: dev
+Requires-Dist: pytest-asyncio>=0.24.0; extra == 'dev'
+Requires-Dist: pytest-cov>=4.1.0; extra == 'dev'
+Requires-Dist: pytest-mock>=3.12.0; extra == 'dev'
+Requires-Dist: pytest>=8.3.4; extra == 'dev'
+Requires-Dist: ruff>=0.1.6; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Basic Memory
+
+> Local-first knowledge management combining Zettelkasten with knowledge graphs.
+
+Basic Memory helps you capture and explore information the way your brain naturally works - across multiple dimensions and perspectives. Built on open standards and powered by proven technology, it's ready for the future of human-AI collaboration.
+
+## Features
+
+- Local-first design - your files stay yours
+- Knowledge graph with natural relations
+- Markdown files with automatic parsing
+- Rich context building and search
+- Native AI integration via MCP protocol
+
+## Quick Start
+
+```bash
+pip install basic-memory
+```
+
+Initialize a new knowledge base:
+```bash
+basic-memory init my-knowledge
+cd my-knowledge
+basic-memory status
+```
+
+## Contributing
+
+Basic Memory is open source (AGPL-3.0) and welcomes contributions. See our [Contributing Guide](CONTRIBUTING.md) for details.
+
+## License
+
+AGPL-3.0 - See [LICENSE](LICENSE) for details.
