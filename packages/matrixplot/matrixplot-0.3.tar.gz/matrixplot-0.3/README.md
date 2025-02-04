@@ -1,0 +1,13 @@
+# matrixplot
+
+## Description
+While playing with Deep Learning (DL), I repeatedly needed to visualize 2D tensors (=matrices). This package is just a wrapper around matplotlib.pyplot.imshow() that makes the whole process more convenient. It also supports printing the values inside the axis cells and perfectly square axes. Combine it with [Kitty](https://sw.kovidgoyal.net/kitty/) and [kitcat](https://github.com/mil-ad/kitcat) for an even more convenient workflow.
+
+## Installation
+1)
+    pip install matrixplot
+
+2)
+    import matrixplot
+    
+    matrixplot.plot(matrix, values=False, box=True)
