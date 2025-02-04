@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: rustree
+Version: 0.0.1
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Utilities
+Requires-Dist: typing-extensions >=4.5.0
+Summary: Optimized PyTree Utilities written in Rust.
+Author: Xuehai Pan <XuehaiPan@pku.edu.cn>
+Author-email: Xuehai Pan <XuehaiPan@pku.edu.cn>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/metaopt/optree
+Project-URL: Repository, https://github.com/metaopt/optree
+Project-URL: Documentation, https://optree.readthedocs.io
+Project-URL: Bug Report, https://github.com/metaopt/optree/issues
+
+# RusTree
+
