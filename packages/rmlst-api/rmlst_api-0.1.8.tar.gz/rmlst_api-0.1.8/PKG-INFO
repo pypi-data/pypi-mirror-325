@@ -1,0 +1,47 @@
+Metadata-Version: 2.3
+Name: rmlst-api
+Version: 0.1.8
+Summary: Python package to perform rMLST through the PubMLST API
+License: MIT
+Author: Domenico Simone
+Author-email: dome.simone@gmail.com
+Requires-Python: >3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (>=8.1.8,<9.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/domenico-simone/rmlst_api/issues
+Project-URL: Homepage, https://github.com/domenico-simone/rmlst_api
+Description-Content-Type: text/markdown
+
+# rmlst_api
+
+Run rmlst API through python script for species identification of a bacterial assembly.
+
+```bash
+Usage: rmlst-api [OPTIONS] ASSEMBLY_FILE
+
+  Run rMLST API, then write output files (tab and json).
+
+  ``sample`` can be optionally defined and will be used in the tabular output.
+  If neither ``output_tab`` and ``output_json`` are provided, they will
+  default to ``rmlst_output.tab`` and ``rmlst_output.json`` respectively.
+
+  :param assembly_file: bacterial assembly file :param sample: sample name
+  :param output_tab: name of tabular output file :param output_json: name of
+  json output file :return:
+
+Options:
+  --sample TEXT       sample name used in tab output
+  --output-tab TEXT   rMLST tab output file
+  --output-json TEXT  rMLST json output file
+  --help              Show this message and exit.
+```
+
+API source: https://pubmlst.org/species-id/species-identification-via-api.
+  
