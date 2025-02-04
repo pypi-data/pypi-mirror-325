@@ -1,0 +1,3 @@
+[console_scripts]
+nextlayer-auth=nextlayer.sdk.auth:main
+
