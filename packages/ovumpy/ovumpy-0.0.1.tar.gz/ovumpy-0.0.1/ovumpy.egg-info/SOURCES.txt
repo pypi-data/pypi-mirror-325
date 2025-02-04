@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+ovum/__init__.py
+ovum/client.py
+ovum/test.py
+ovum/dto/ovum_dto.py
+ovumpy.egg-info/PKG-INFO
+ovumpy.egg-info/SOURCES.txt
+ovumpy.egg-info/dependency_links.txt
+ovumpy.egg-info/requires.txt
+ovumpy.egg-info/top_level.txt
