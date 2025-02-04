@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "openaivec"
+version = "0.2.1"
+description = ""
+authors = ["Hiroki Mizukami <hmizukami@microsoft.com>"]
+license = "MIT License"
+readme = "README.md"
+homepage = "https://github.com/anaregdesign/vectorize-openai"
+repository = "https://github.com/anaregdesign/vectorize-openai"
+packages = [
+    { include = "openaivec", from = "." }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+pyspark = "^3.5.1"
+openai = "^1.57.2"
+httpx = {extras = ["http2"], version = "^0.28.1"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
