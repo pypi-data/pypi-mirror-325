@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools==75.8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pvradar"
+version = "0.0.3"
+requires-python = ">=3.12"
+dependencies = [
+    'pandas',
+    'httpx',
+]
+description = "constants and shared function for PVRADAR SDK and API client"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    { name="Kostiantyn Pogorelov", email="kp@pvradar.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+exclude = ["notebooks*"]
+
+[tool.ruff.format]
+quote-style = 'single'
+
+[project.urls]
+homepage = "https://pvradar.com"
