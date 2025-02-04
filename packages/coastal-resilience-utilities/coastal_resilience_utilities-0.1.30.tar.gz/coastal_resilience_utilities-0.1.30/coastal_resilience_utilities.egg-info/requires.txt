@@ -1,0 +1,2 @@
+geospatial-analysis-environment==0.1.8
+python-dotenv
