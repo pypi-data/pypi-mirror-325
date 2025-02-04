@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: niche-space
+Version: 2025.2.3
+Summary: Niche space analysis in Python
+Home-page: https://github.com/jolespin/niche-space
+Author: Josh L. Espinoza
+License: GPLv3
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy>=1.9
+Requires-Dist: scipy>=1.11
+Requires-Dist: pandas
+Requires-Dist: scikit-learn<=1.3.0,>=1.2.1
+Requires-Dist: tqdm
+Requires-Dist: memory_profiler
+Requires-Dist: datafold>=2.0.1
+Requires-Dist: clairvoyance-feature-selection>=2024.7.19
+
+# niche-space
+Niche space analysis in Python

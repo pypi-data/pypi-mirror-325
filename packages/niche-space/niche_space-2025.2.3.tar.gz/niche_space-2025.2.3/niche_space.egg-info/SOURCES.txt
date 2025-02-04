@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+niche_space.egg-info/PKG-INFO
+niche_space.egg-info/SOURCES.txt
+niche_space.egg-info/dependency_links.txt
+niche_space.egg-info/requires.txt
+niche_space.egg-info/top_level.txt
+nichespace/__init__.py
