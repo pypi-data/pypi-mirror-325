@@ -1,0 +1,16 @@
+MoDiSc/__init__.py,sha256=0IMDr8Di1muu5_ALYHbSnqwqLKuSkK8W7pGOQv1UJR0,47
+MoDiSc/packages.py,sha256=4hsD1vMM8OPbBCbpZIvMNaXFtNSjY3IGWshf-4YjtDM,522
+MoDiSc/plot_mcmc_results.py,sha256=NyOZ8vnMkNaX-eLEx5zGyNzu5ojQ9RLkxJ4ZjOm6AZU,46087
+MoDiSc/run_modisc.py,sha256=e5wn_ixsjkTP9-XBqTfeJ5tlVLKsVfVFHDbjrtSbe_U,53306
+MoDiSc/functions/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+MoDiSc/functions/chisquare_test.py,sha256=E74ltY43iJWFxc_SnE2nX7bfWwwMRUjgCNYTbzMh-rM,4039
+MoDiSc/functions/dataset_load_and_process.py,sha256=2SMU4PsjutlTc8IiseXNXXCL1FEjer9lNQoKzmMsraA,35457
+MoDiSc/functions/mcmc_plot_results.py,sha256=uU3Fn9sgQ2WNefPEg9rws0vhhY7ssYUXyyPhGa-hpQk,20169
+MoDiSc/functions/noise_map_derive.py,sha256=EUT7MqRl1032RbdYx8KUirh-af_LHac3guiHyxep5tQ,7332
+MoDiSc/functions/parameters_rearrange_print.py,sha256=HzGoKbnv4gRRNOKNO5qW_6cmv7RMI4tQjYCKR7FJxyg,15624
+MoDiSc/functions/simulations.py,sha256=MI26bhtZ0md7Hh93KYMX4dcKGQipZTC0OmySj5BPYvo,30945
+MoDiSc/functions/utils.py,sha256=2YAowS1xem1YrvEhNP6RZW49soz06DBEuSZqJqzxS0Q,22973
+MoDiSc-1.0.111111111111.dist-info/METADATA,sha256=RSjZ9AFd0igSbYx-2-zkhcy9Pa7jfrt_bvZ2FYGnBzI,549
+MoDiSc-1.0.111111111111.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+MoDiSc-1.0.111111111111.dist-info/top_level.txt,sha256=qROxyRdrB0JVmcboslQolr-SdMSthDR0VE8lPbJmftU,7
+MoDiSc-1.0.111111111111.dist-info/RECORD,,
