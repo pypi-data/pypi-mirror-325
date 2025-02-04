@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/unslothify/__init__.py
+src/unslothify.egg-info/PKG-INFO
+src/unslothify.egg-info/SOURCES.txt
+src/unslothify.egg-info/dependency_links.txt
+src/unslothify.egg-info/top_level.txt
