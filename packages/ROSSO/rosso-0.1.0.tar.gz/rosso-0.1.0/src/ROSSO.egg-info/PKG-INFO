@@ -1,0 +1,44 @@
+Metadata-Version: 2.2
+Name: ROSSO
+Version: 0.1.0
+Summary: A simple Hello World package
+Home-page: https://github.com/yourusername/hello_world
+Author: Gabriele Gabrielli
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: click>=7.0
+
+# Hello World Package
+
+A simple Python package that prints "Hello World!" when run from the command line.
+
+## Installation
+
+```bash
+pip install hello-world
+```
+
+## Usage
+
+After installation, run:
+
+```bash
+hello-world
+```
+
+## Development
+
+1. Clone the repository
+2. Create a virtual environment
+3. Install in development mode:
+   ```bash
+   pip install -e .
+   ```
+
+## License
+
+MIT

@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+src/ROSSO/__init__.py
+src/ROSSO/cli.py
+src/ROSSO.egg-info/PKG-INFO
+src/ROSSO.egg-info/SOURCES.txt
+src/ROSSO.egg-info/dependency_links.txt
+src/ROSSO.egg-info/entry_points.txt
+src/ROSSO.egg-info/requires.txt
+src/ROSSO.egg-info/top_level.txt
