@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weetags"
+version = "1.0.1"
+description = "Small and simple permanent tree database builded on top of Sqlite"
+readme = "README.md"
+keywords = ["Permanent Tree", "database"]
+authors = [{ name = "Romain Viry", email = "rom88.viry@gmail.com" }]
+maintainers = [{ name = "Romain Viry", email = "rom88.viry@gmail.com" }]
+requires-python = ">=3.8"
+dependencies = ["attrs>=23.2.0"]
+
+[project.urls]
+Source = "https://github.com/morague/weetags"
+
+[project.optional-dependencies]
+test = [
+    "pytest>=6.2.5", 
+    "pytest-cov>=3.0.0"
+]
+dev = [
+    "commitizen>=2.27.1",
+    "yamllint>=1.35.1",
+    "ruff>=0.2.2",
+    "safety >=3.0.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["weetags", "weetags.*"]
+exclude = ["tests.*"]
+
+[tool.commitizen]
+version = "1.0.1"
+version_files = [
+    "pyproject.toml:^version",
+    "weetags/VERSION"
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--no-header -l --cov weetags -m 'not running_server'"
+
+testpaths = ["tests"]
+
+[tool.coverage.run]
+omit = ["tests/*"]

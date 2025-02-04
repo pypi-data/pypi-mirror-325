@@ -1,0 +1,11 @@
+attrs>=23.2.0
+
+[dev]
+commitizen>=2.27.1
+yamllint>=1.35.1
+ruff>=0.2.2
+safety>=3.0.1
+
+[test]
+pytest>=6.2.5
+pytest-cov>=3.0.0
