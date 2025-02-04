@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "PyPSP"
+version = "1.0.1"
+authors = [
+  { name="GepingYi", email="ygp3737@gmail.com" },
+]
+description = "In development package designed to parse Partition Schemes such as MBR, GPT and allow disks to change between them without data loss"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/GepingY/PyPSP"

@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: PyPSP
+Version: 1.0.1
+Summary: In development package designed to parse Partition Schemes such as MBR, GPT and allow disks to change between them without data loss
+Project-URL: Homepage, https://github.com/GepingY/PyPSP
+Author-email: GepingYi <ygp3737@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+PyPartitionSchemesParse
+*****************************************************************
+This program is under development to read most partitioning schemes, such as MBR, GPT, etc.
+
+Usage-----------------
+import PyPSP.py
+
+then you use use PyPSP.parse_partition(your_rawHEX_32digit_partition_table) to analyse the data from a single partition table
+
+Or PyPSP.parse_mbr(r'your_disk_path') to get a list of all the data from the mbr
