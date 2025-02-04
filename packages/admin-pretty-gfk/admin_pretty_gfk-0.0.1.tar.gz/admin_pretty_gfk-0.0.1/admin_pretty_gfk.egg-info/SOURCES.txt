@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+admin_pretty_gfk/__init__.py
+admin_pretty_gfk/mixins.py
+admin_pretty_gfk/widgets.py
+admin_pretty_gfk.egg-info/PKG-INFO
+admin_pretty_gfk.egg-info/SOURCES.txt
+admin_pretty_gfk.egg-info/dependency_links.txt
+admin_pretty_gfk.egg-info/requires.txt
+admin_pretty_gfk.egg-info/top_level.txt
+admin_pretty_gfk/templates/widgets/foreign_key_content_id.html
