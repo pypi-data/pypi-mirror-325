@@ -1,0 +1,2 @@
+[console_scripts]
+your-package-install = scripts.install_and_test:run_script
