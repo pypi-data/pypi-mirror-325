@@ -1,0 +1,9 @@
+kani/ext/vllm/__init__.py,sha256=kinl_1iLhSPSFy7PNhkV-iUQqXKCv3fLadewTjUo58o,114
+kani/ext/vllm/bases.py,sha256=nPxXwowt02UlMnNAR0GlqcUI-WRy3OEX292AGHpFxJw,3530
+kani/ext/vllm/commandr.py,sha256=P_Tx8b4_RZ1b6ptkxrEOxoi0lWUgv02lMc5HpSsSpHY,11131
+kani/ext/vllm/engine.py,sha256=DERUTEDxez5lJbKskpN9nKvIXQkmdEzpkqTtyP-oG_Q,5716
+kani/ext/vllm/http_engine.py,sha256=cYqUa6vHAbQaiwjje4-OcMhGKZxY8gdPEdTYQH6pnIA,6146
+kani_ext_vllm-0.0.8.dist-info/METADATA,sha256=GLp_mDDbsk4XiAdfdyULkupmpVSr9XkEkW0gEwdsri8,5056
+kani_ext_vllm-0.0.8.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+kani_ext_vllm-0.0.8.dist-info/licenses/LICENSE,sha256=iKL69dWh9tpHBrm4dL8ZxP9lzav9X0drgJGD-6OBIGA,1075
+kani_ext_vllm-0.0.8.dist-info/RECORD,,
