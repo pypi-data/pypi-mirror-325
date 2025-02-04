@@ -1,0 +1,5 @@
+debian
+dist
+images
+seiko_converter
+test_data

@@ -1,0 +1,2 @@
+[console_scripts]
+seiko_converter = seiko_converter.__main__:main
