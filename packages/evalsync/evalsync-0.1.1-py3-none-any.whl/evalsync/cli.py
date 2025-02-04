@@ -1,0 +1,31 @@
+import time
+from loguru import logger
+import typer
+from evalsync.manager import ExperimentManager
+from evalsync.worker import ExperimentWorker
+
+app = typer.Typer()
+
+@app.command()
+def server(experiment_id: str = typer.Option(), num_workers: int = typer.Option(1), duration: int = typer.Option(10)):
+    manager = ExperimentManager(experiment_id, num_workers)
+    manager.wait_all_workers()
+    logger.info("All workers are ready")
+    manager.start()
+    time.sleep(duration)
+    manager.stop()
+    manager.cleanup()
+
+@app.command()
+def client(experiment_id: str = typer.Option(), client_id: str = typer.Option()):
+    worker = ExperimentWorker(experiment_id, client_id)
+    worker.ready()
+    worker.wait_for_start()
+    worker.wait_for_end()
+    worker.cleanup()
+
+def main():
+    app()
+
+if __name__ == "__main__":
+    app()
