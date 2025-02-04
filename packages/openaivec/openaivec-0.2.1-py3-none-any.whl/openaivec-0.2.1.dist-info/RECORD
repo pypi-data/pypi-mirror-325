@@ -1,0 +1,10 @@
+openaivec/__init__.py,sha256=BySiBe6b-qm7r-q9_OLPi0tEaw9mXsqf7Hmjac4j7Zs,141
+openaivec/embedding.py,sha256=a1YK_hK6dSA7TUuN8G6fZW_K4sVB4tROOi3mTWyghs4,720
+openaivec/spark.py,sha256=YgZpwWE12MYQXWveXyPMK3ia7fm-AUYQxCUDKhzNfSw,2782
+openaivec/test_util.py,sha256=6JXeRVrFh__16r_nM1wzBWx1xMbWdQXZOYpmA7XNUT4,2699
+openaivec/util.py,sha256=b9kvlxKDJDrxLqFW1Am7GMTEybjmYwCfa7m7u8wZjAc,1700
+openaivec/vectorize.py,sha256=pSnwgEni7BkOSR8HXehxVxuc2_MEIkKbV4yPdW0z8w0,3368
+openaivec-0.2.1.dist-info/LICENSE,sha256=D9iZfJjILSq9cI_RJRoguvm_cGOrspEd1FoFWluFUcE,1069
+openaivec-0.2.1.dist-info/METADATA,sha256=tDWxKMQhCenBzsQucKpFkUk2GQP01kkKdgqQOOCU9bQ,4449
+openaivec-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+openaivec-0.2.1.dist-info/RECORD,,
