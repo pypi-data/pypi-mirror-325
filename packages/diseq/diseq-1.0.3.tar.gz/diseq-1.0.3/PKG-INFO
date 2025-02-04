@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: diseq
+Version: 1.0.3
+Summary: A tool for disease embeddings and queries
+Author: Christian Hoffmann
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: torch
+Requires-Dist: gensim
+Requires-Dist: langchain_community
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: tabulate
+Requires-Dist: tqdm
+Requires-Dist: transformers
+Requires-Dist: gdown
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
