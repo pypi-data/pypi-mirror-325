@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pygifconvt_yyummmm/__init__.py
+pygifconvt_yyummmm/converter.py
+pygifconvt_yyummmm.egg-info/PKG-INFO
+pygifconvt_yyummmm.egg-info/SOURCES.txt
+pygifconvt_yyummmm.egg-info/dependency_links.txt
+pygifconvt_yyummmm.egg-info/not-zip-safe
+pygifconvt_yyummmm.egg-info/requires.txt
+pygifconvt_yyummmm.egg-info/top_level.txt
