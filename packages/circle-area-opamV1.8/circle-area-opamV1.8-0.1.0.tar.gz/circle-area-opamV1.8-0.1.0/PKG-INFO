@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: circle-area-opamV1.8
+Version: 0.1.0
+Summary: A simple package to calculate circle area.
+Home-page: https://github.com/yourusername/circle_area
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# circle_area
+
+A simple Python package to calculate the area of a circle.
+
+## Installation
+
+```bash
+pip install circle_area
