@@ -1,0 +1,36 @@
+Metadata-Version: 2.2
+Name: smdpy
+Version: 1.0.0
+Summary: It is download videos and audios from social media. That is why it is called smdpy
+Home-page: https://github.com/Shaxzodbek16/smdpy
+Author: Muxtorov Shaxzodbek
+Author-email: muxtorovshaxzodbek16@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: yt-dlp
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# SMDP - Social Media Downloader (PyPI Package)
+
+**SMDP** is a Python package that simplifies downloading videos from **YouTube** and **Instagram**. It provides a lightweight, developer-friendly API for fetching videos at various resolutions on YouTube and quickly grabbing Reels or standard videos on Instagram.
+
+## Installation
+
+Install **SMDP** using `pip`:
+
+```bash
+pip install smdp
+```
