@@ -1,0 +1,10 @@
+py_uconnect/__init__.py,sha256=zh5z5Ei_aA3nw370PKbXjLiENPAYciQDukLtpiQSoMY,48
+py_uconnect/api.py,sha256=6SMqwty-TtAkV8rUxGEmjMA5SBWS2TD8HfsziHBo23Q,9773
+py_uconnect/brands.py,sha256=EcUfg7qOyOa2TDWJGjA-8L-jU7mWUPbCRg0b2k-oAlU,7125
+py_uconnect/client.py,sha256=5HyF38LV-WGrUwGdKVhXDapo3b_Q5vX7NI-VGCMAq40,8640
+py_uconnect/command.py,sha256=W6NOsm8YGi32df60KOcKUqfnzFNOt7HRGkY17dphCKw,1570
+py_uconnect-0.1.12.dist-info/LICENSE,sha256=z5DWWd5cHmQYJnq4BDt1bmVQjuXY1Qsp6y0v5ETCw-s,11360
+py_uconnect-0.1.12.dist-info/METADATA,sha256=td9Y9seUbc-gwUdafaHSnboGUb9xZsCDiQfo6l_KqgQ,1014
+py_uconnect-0.1.12.dist-info/WHEEL,sha256=9Hm2OB-j1QcCUq9Jguht7ayGIIZBRTdOXD1qg9cCgPM,109
+py_uconnect-0.1.12.dist-info/top_level.txt,sha256=xjad7680s7COfo7qBRnPX9_BkbHosPJ5ZC_RxPb0xRQ,12
+py_uconnect-0.1.12.dist-info/RECORD,,
