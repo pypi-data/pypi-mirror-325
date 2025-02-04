@@ -1,0 +1,11 @@
+sgnova/__init__.py,sha256=HLjL8tAycrdb3MAAgq-bAOqt6ypmsPim077BP3w83Sw,235
+sgnova/_version.py,sha256=pMnmqZnpVmaqR5nqHztNWzbbtb1oy5bPN_v7uhOH8K8,411
+sgnova/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sgnova/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sgnova/transforms/__init__.py,sha256=sUarIm3tncZ5mcKXLMtwsbmRZtlq1Vf30l5uiOFUEm4,92
+sgnova/transforms/power.py,sha256=C_BLdgN1QQ35p4iaLx7-MrNxiweg-ZZggd_yW6lZyWw,98
+sgnova-0.0.1.dist-info/LICENSE,sha256=3tuq34H-cz5SIWZfFOLD9ScsotWEeMLY4UfL7sEgri4,16756
+sgnova-0.0.1.dist-info/METADATA,sha256=WqnE_zeszX2Kw_ICe2ai9xhushggCbslmDK-ZAuWw2M,2580
+sgnova-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+sgnova-0.0.1.dist-info/top_level.txt,sha256=KljSuk-dgikal4hQao41B2E80yCycCe-NR-pwKPc0Uw,7
+sgnova-0.0.1.dist-info/RECORD,,
