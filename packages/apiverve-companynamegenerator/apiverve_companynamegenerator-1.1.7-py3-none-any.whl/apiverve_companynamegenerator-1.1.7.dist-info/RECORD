@@ -1,0 +1,12 @@
+apiverve_companynamegenerator/__init__.py,sha256=7jD6TVcnzgFk88MO5zoN16a3fFv_uaWVdL7y9mZ89wg,52
+apiverve_companynamegenerator/apiClient.py,sha256=IlGoLQR9CsBRrm-hrojESzFxMKg6QmuWhGKzFTJeZqA,1250
+apiverve_companynamegenerator/exceptions.py,sha256=RWRBTV44bPDBv47lovcgBne43QLV8cy_r2RYblbuoss,123
+apiverve_companynamegenerator/setup.py,sha256=LTQmUQobVy1ZpPXXesoYzUc2v1XNPpS-jhTcspCXqSE,968
+apiverve_companynamegenerator/setup_dep.py,sha256=cfXIaYu0i4zqfCO1ghACElEflGP-ixniPDVQPktY9DQ,667
+apiverve_companynamegenerator/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_companynamegenerator/tests/test_api.py,sha256=6LTN8a6kTM5OFicG-voIwnG3pHbpLM2P8WOnUXkT73M,644
+apiverve_companynamegenerator-1.1.7.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_companynamegenerator-1.1.7.dist-info/METADATA,sha256=GdGJn1WS1YYyzLqjn4EUa5QQ3PD8ibrUjriQWHXMyxE,5789
+apiverve_companynamegenerator-1.1.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+apiverve_companynamegenerator-1.1.7.dist-info/top_level.txt,sha256=PIhb7UB0JnQ0X-j7npfn8g_y_Mg0bIBLg3YkLSrsZRE,30
+apiverve_companynamegenerator-1.1.7.dist-info/RECORD,,
