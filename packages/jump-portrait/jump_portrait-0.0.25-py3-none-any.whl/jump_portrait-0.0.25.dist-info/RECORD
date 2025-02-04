@@ -1,0 +1,10 @@
+jump_portrait/__init__.py,sha256=2M_QEWfGGhmIGrI_paLLZ5c9Je3_X8xW8X2_JFYcAU4,81
+jump_portrait/fetch.py,sha256=6C0VP2SbvoXeq7Cmd6qlXJxfV5YBVrWcVUYQ1aVGivk,12124
+jump_portrait/s3.py,sha256=n1SjRvc9KtLhD3C5LhLUNmFBoMCD63bFuP9OZEnJDyk,7177
+jump_portrait/save.py,sha256=ayKqKC_gvRQAGDA5VwefE562R_y6Cg9Wu8NFSlP2_EA,3439
+jump_portrait/utils.py,sha256=hFbk3iBfH3WydkfCXTCX5ctuxIAmh0h1U_Z_f4by2xs,5472
+jump_portrait-0.0.25.dist-info/LICENSE,sha256=m6sHswZbfin2T1vD-uRn-GN3-wqankXvtXLSBSuluQI,1506
+jump_portrait-0.0.25.dist-info/LICENSE.txt,sha256=LF_pnwYdvRHVi3Z2xBjQ0PWdhwisXbCta2i3EqhAEGk,1079
+jump_portrait-0.0.25.dist-info/METADATA,sha256=RdVOg_I6rCfQk2g8oAF0K6WNgoAwvsx2mCHf5tydGIY,9133
+jump_portrait-0.0.25.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+jump_portrait-0.0.25.dist-info/RECORD,,
