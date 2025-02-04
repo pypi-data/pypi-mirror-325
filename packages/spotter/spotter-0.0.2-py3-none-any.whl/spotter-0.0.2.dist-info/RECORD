@@ -1,0 +1,14 @@
+spotter/Untitled-1.ipynb,sha256=3DuKrctI0rAWnjcd42AZpzmnTG8EOwsef-j0mKq-pA4,7115276
+spotter/__init__.py,sha256=CNcNXEN6Nrrt0DV8SyB9XWu805vzHqR9n5HlH6cswOo,96
+spotter/core.py,sha256=usmhVFWaZepVueMx3qSUSF_9hBOYY3-HAVqF67qcHyo,5509
+spotter/distributions.py,sha256=ubMvzSP5xu7A8xYpwpypu_fu67kKtnUUnNB_MSk6tNQ,1224
+spotter/doppler.py,sha256=tXcTfv72ke1fRhfzROaqTInN4zs_nCDg0KwUFV_UYrc,806
+spotter/kernels.py,sha256=wKCbFi7O-qcjBKKfztLtUVPSfMn1BevQrHGK3jk2GfA,1300
+spotter/light_curves.py,sha256=yKtgupJX0ixbQssRLp4uFwVwsAW2SexTrcmlIasaM7M,3859
+spotter/star.py,sha256=Z2YeQqYnmcWdivwwftq_3U54RhgS8M3-eVXA6zdBlWM,8495
+spotter/utils.py,sha256=OlCDyJU4pvMVNk5lJQnTe2mzJpJ8_rduK3rt_4vxkgk,855
+spotter/viz.py,sha256=x1REwgCyTlUOqBf8FLvFqvXCchdOWYFqhTkDc599JG0,4869
+spotter-0.0.2.dist-info/METADATA,sha256=-KYZ6JkpqJZZAXaW6lpnzMZkVrPAuIC6mruCQvB71Yo,2422
+spotter-0.0.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+spotter-0.0.2.dist-info/licenses/LICENSE,sha256=5t2CSimN0aFZkQeqlPlEw6fLYcKaCOfptHJMmS4L-2E,1118
+spotter-0.0.2.dist-info/RECORD,,
