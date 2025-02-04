@@ -1,0 +1,14 @@
+fakeyou/__init__.py,sha256=YSt52D-f9mreXEEgPqbBfkOP60v8Zs2AdDB8qsLefGE,567
+fakeyou/asynchronous_fakeyou.py,sha256=sVCwkTvfFHEdfDfbqRuzw_58XmYFcYo1nCsbXXePLG0,13410
+fakeyou/exception.py,sha256=uYn89TkBXv48CJK1ClKEewQTmCmUSyiqDQN86R8aNPc,2065
+fakeyou/fakeyou.py,sha256=mTR0LVc7DmMFz5vb0ZGmvukFd58V-rY64BkQro-oerU,5325
+fakeyou/objects.py,sha256=iUNvlfKVF1zqIXONi5pp9yop92Wrk4qtxdE2yrcYoFE,16382
+fakeyou/util/__init__.py,sha256=zAtDLkVyoW8Im4789r0Kx9aQLh8kYBHpOH12-0Jix7c,78
+fakeyou/util/exceptions.py,sha256=A8aw2dOEMPTNUsitYTVKdGKl1vjBsnFj8MGdqtS3tHg,1808
+fakeyou/util/objects.py,sha256=SAh8UgD9OhBA3o85RWVaG_aYOJSH5mNUqc9Zl5iFBkg,19366
+fakeyou/util/service.py,sha256=BPIILlLTyG4u9rc7TID44vstyAgrJn6XuTaOoeIZBb0,1250
+fakeyou-1.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fakeyou-1.3.0.dist-info/METADATA,sha256=sw34-2gMWOkFcAFzgLCLdfPw4QWQzyL-HqNM_AyZQ_w,2051
+fakeyou-1.3.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+fakeyou-1.3.0.dist-info/top_level.txt,sha256=_AyMTeqGRzeKu3lJihvZM-ncXYCsLVlGNLDEG3AyQ4c,8
+fakeyou-1.3.0.dist-info/RECORD,,
