@@ -1,0 +1,11 @@
+mantis/__init__.py,sha256=Fq348x0PozEBGQvpZKevSrHJJ4-zNtCCAwkhWuc4Nl0,188
+mantis/cli.py,sha256=_kaPEUS5sqU7s0rE2sTaL3CrtpkpfkX0CUmMYMHOaVU,2260
+mantis/extract.py,sha256=p-_Wu5LxBc-IZj5ZA04EnAHL9wyAyz2Raduwfay2G4M,2346
+mantis/models.py,sha256=TTA_xLqQ1TmUU0Na_ePILmaopMOUi3ViIGyF99anFVg,1957
+mantis/summarize.py,sha256=k0r8RmcSEGJALlKeb5yuLs-ja_Xx0kJ3VQLmqWaQLHw,2294
+mantis/transcription.py,sha256=bHzxGnFXibBcdVTaMDRiGMuUQ-IH_vMSq0-Yqi8j99M,2326
+mantis/utils.py,sha256=i46FPsPufP7Z0B6eZzbRyWyChWIbuHctzeR79lxAlM0,2045
+mantisai-0.1.2.dist-info/METADATA,sha256=5CSPHt7b8PhfUWsY8vWn2mEObkB5L7Tb7nA6l59_gnU,3459
+mantisai-0.1.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mantisai-0.1.2.dist-info/licenses/LICENSE,sha256=NA52Zj_pzflOc8jde43GKXSixCUuYmmv7HC4B7ZD-RE,7928
+mantisai-0.1.2.dist-info/RECORD,,
