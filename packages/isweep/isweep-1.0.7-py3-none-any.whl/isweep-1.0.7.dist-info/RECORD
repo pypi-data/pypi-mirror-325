@@ -1,0 +1,11 @@
+isweep/__init__.py,sha256=euta9MFYgbqy68kqAaWo6vme-MacXWIKoHsk034AjbI,457
+isweep/coalescent.py,sha256=Za2SJ645BXEpM1g3EmjR2DVKA719eva1XaEmmH6JaOM,50728
+isweep/favoredalleles.py,sha256=g1yXCsHalbELFqVwDIANM6y4UI0_z0a8VsDC3wP1TjY,6018
+isweep/inference.py,sha256=FZZ9WP7QQFOhc3P0endJ_1lE9Nj0KwjxOQOozEHjNT0,13393
+isweep/outgroups.py,sha256=GtKLOz70Z5Nw6-2CUyI7w0OftrD1S6z1Xoi66SucGdE,4084
+isweep/slow.py,sha256=8xgyEVFBgsxeyggID9LYqU4D_jD6snnbF-vyHnYThlA,12895
+isweep/utilities.py,sha256=62jcltAiuTbombGURP7fUCk0tAjZcERg5se1h3fr0dc,10306
+isweep-1.0.7.dist-info/METADATA,sha256=EYFWT8rpDuy2wyNVx650PdIdHAd-HxJV5ECPZo1vXbY,3850
+isweep-1.0.7.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+isweep-1.0.7.dist-info/licenses/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+isweep-1.0.7.dist-info/RECORD,,
