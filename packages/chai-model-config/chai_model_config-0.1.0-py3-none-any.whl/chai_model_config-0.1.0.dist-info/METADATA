@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: chai-model-config
+Version: 0.1.0
+Summary: A package for evaluating model configurations based on accuracy, latency, and size
+Home-page: https://github.com/yourusername/chai_model_config
+Author: Your Name
+Author-email: your_email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: datasets
+Requires-Dist: scikit-learn
+Requires-Dist: kneed
+Requires-Dist: numpy
+
