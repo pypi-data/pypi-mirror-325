@@ -1,0 +1,2 @@
+[console_scripts]
+filecrypt = crytto.main:entrypoint
