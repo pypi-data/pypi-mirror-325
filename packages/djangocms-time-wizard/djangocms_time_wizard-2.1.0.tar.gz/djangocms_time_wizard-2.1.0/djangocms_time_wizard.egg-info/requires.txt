@@ -1,0 +1,2 @@
+django-cms
+django-time-wizard<4.1.0
