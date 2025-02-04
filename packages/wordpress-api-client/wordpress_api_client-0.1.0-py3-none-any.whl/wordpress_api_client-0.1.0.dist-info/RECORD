@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=HRhBNhfB4DmZozji4oqyvHcXXQTjcdU5hmfslCdlUtQ,1164
+wordpress_api_client/__init__.py,sha256=7-_KIWDEjXY7uYpyR1yYQUxzPKTkaFBEAOi1XeZG5FE,78
+wordpress_api_client/client.py,sha256=jb-DBRFR12S8CJPGTdhINWokQFVuyCeT05nVqj3c_wk,20877
+wordpress_api_client/exceptions.py,sha256=ZYeZBIRczJjgAJgY5vThF4uWuD9AtZgjjBWbQ2zJ7Tg,146
+wordpress_api_client/logger.py,sha256=Q6GuVy26YYS5CwnQ61k_f37tqizI7p0UAOp_K-6AowE,222
+wordpress_api_client-0.1.0.dist-info/LICENSE,sha256=p5JGOM7CU-I7UqxCWtnAerLR1LqYmBiofzFICV2-gjg,238
+wordpress_api_client-0.1.0.dist-info/METADATA,sha256=kmHTLRsZH_hkISrAi1RnOyM4G2qzCNMYmWGgyq4HfnQ,4076
+wordpress_api_client-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+wordpress_api_client-0.1.0.dist-info/top_level.txt,sha256=k41uBOs145dk2GMkRVSMH8qL8Y-y7NO0fv2pbuXPFeQ,27
+wordpress_api_client-0.1.0.dist-info/RECORD,,
