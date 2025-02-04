@@ -1,0 +1,76 @@
+Metadata-Version: 2.2
+Name: postalsend
+Version: 0.1.0
+Summary: A library to send messages with the Postal server API.
+Home-page: https://github.com/steelproxy/postal-sender-lib
+Author: Collin Rodes
+Author-email: steelproxy@protonmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.31.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Postal Sender Library
+
+This is a library to send messages with the Postal server API.
+
+## Installation
+
+```bash
+pip install postalsend
+```
+
+
+## Usage
+
+```python
+import postalsend
+``` 
+
+## Login
+
+```python
+postalsend.login(server, api_key)
+```
+
+## Send a message
+
+```python
+postalsend.send(from_address, to_address, subject, text)
+```
+
+## Setup push notifications
+
+```python
+postalsend.push_setup(to_address, from_address)
+```
+
+## Send a push notification
+
+```python
+postalsend.push_send(subject, text)
+``` 
+
+## Example
+
+```python
+python examples/send-mail.py
+``` 
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.    
+
+

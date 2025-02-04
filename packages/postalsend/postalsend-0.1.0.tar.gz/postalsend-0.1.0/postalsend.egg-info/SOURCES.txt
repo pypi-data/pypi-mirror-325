@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+postalsend/__init__.py
+postalsend/_app.py
+postalsend/_server.py
+postalsend/authentication.py
+postalsend/errors.py
+postalsend/message.py
+postalsend/push.py
+postalsend.egg-info/PKG-INFO
+postalsend.egg-info/SOURCES.txt
+postalsend.egg-info/dependency_links.txt
+postalsend.egg-info/requires.txt
+postalsend.egg-info/top_level.txt
+tests/test.py
