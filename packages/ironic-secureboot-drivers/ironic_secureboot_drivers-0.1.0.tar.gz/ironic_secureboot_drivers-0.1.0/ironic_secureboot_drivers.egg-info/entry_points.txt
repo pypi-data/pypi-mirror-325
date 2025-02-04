@@ -1,0 +1,2 @@
+[console_scripts]
+hello = ironic_secureboot_driver.main:collect_data
