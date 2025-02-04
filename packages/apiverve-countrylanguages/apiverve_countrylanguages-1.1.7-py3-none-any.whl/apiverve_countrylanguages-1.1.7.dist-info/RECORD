@@ -1,0 +1,12 @@
+apiverve_countrylanguages/__init__.py,sha256=8gtT_9yGtUa3x44p61Gc7cfBiWAvA03ezqVNZdfHAy8,48
+apiverve_countrylanguages/apiClient.py,sha256=iKga9_KTWtJXJd-G-dS9wkQYTvrVv2mFpuKcYdT_aUs,1238
+apiverve_countrylanguages/exceptions.py,sha256=9_q6VpHTwsrz6Ft51kEZ07cqlbWFCPtKpKEAVEeXxRM,115
+apiverve_countrylanguages/setup.py,sha256=slSW1jBtKYeb_hWZ2GjDgbwoEoFPqWpQ_Vu7DSB-Ybk,948
+apiverve_countrylanguages/setup_dep.py,sha256=CMNqflXJ46604_kzrUFFkXU7A1UrNGQ02-AbSzSx1rE,647
+apiverve_countrylanguages/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_countrylanguages/tests/test_api.py,sha256=kjhttzpZWZ1aVi3gftu2lUGXY1OsymbyyZQV0LFYWfI,632
+apiverve_countrylanguages-1.1.7.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_countrylanguages-1.1.7.dist-info/METADATA,sha256=O23x-dOfm7ZYl98CRdNZ-uE6ksLyQacammU-hQV67p4,5915
+apiverve_countrylanguages-1.1.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+apiverve_countrylanguages-1.1.7.dist-info/top_level.txt,sha256=m_tVXjP9H4DDc3ixw1RV_814UUF8yJFH5ZfLZPVUUxg,26
+apiverve_countrylanguages-1.1.7.dist-info/RECORD,,
