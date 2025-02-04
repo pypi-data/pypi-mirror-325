@@ -1,0 +1,2 @@
+[console_scripts]
+fsb = file_structure_builder.cli:main
