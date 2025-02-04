@@ -1,0 +1,335 @@
+"""HypoidGearSetSteadyStateSynchronousResponseOnAShaft"""
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, ClassVar
+
+from mastapy._private._internal import constructor, conversion, utility
+from mastapy._private._internal.cast_exception import CastException
+from mastapy._private._internal.dataclasses import extended_dataclass
+from mastapy._private._internal.python_net import (
+    python_net_import,
+    pythonnet_property_get,
+)
+from mastapy._private.system_model.analyses_and_results.steady_state_synchronous_responses_on_a_shaft import (
+    _3333,
+)
+
+_HYPOID_GEAR_SET_STEADY_STATE_SYNCHRONOUS_RESPONSE_ON_A_SHAFT = python_net_import(
+    "SMT.MastaAPI.SystemModel.AnalysesAndResults.SteadyStateSynchronousResponsesOnAShaft",
+    "HypoidGearSetSteadyStateSynchronousResponseOnAShaft",
+)
+
+if TYPE_CHECKING:
+    from typing import Any, List, Type, TypeVar
+
+    from mastapy._private.system_model.analyses_and_results import _2726, _2728, _2732
+    from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+        _7706,
+        _7709,
+    )
+    from mastapy._private.system_model.analyses_and_results.static_loads import _7595
+    from mastapy._private.system_model.analyses_and_results.steady_state_synchronous_responses_on_a_shaft import (
+        _3328,
+        _3361,
+        _3387,
+        _3390,
+        _3392,
+        _3409,
+        _3428,
+    )
+    from mastapy._private.system_model.part_model.gears import _2607
+
+    Self = TypeVar("Self", bound="HypoidGearSetSteadyStateSynchronousResponseOnAShaft")
+    CastSelf = TypeVar(
+        "CastSelf",
+        bound="HypoidGearSetSteadyStateSynchronousResponseOnAShaft._Cast_HypoidGearSetSteadyStateSynchronousResponseOnAShaft",
+    )
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("HypoidGearSetSteadyStateSynchronousResponseOnAShaft",)
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True)
+class _Cast_HypoidGearSetSteadyStateSynchronousResponseOnAShaft:
+    """Special nested class for casting HypoidGearSetSteadyStateSynchronousResponseOnAShaft to subclasses."""
+
+    __parent__: "HypoidGearSetSteadyStateSynchronousResponseOnAShaft"
+
+    @property
+    def agma_gleason_conical_gear_set_steady_state_synchronous_response_on_a_shaft(
+        self: "CastSelf",
+    ) -> "_3333.AGMAGleasonConicalGearSetSteadyStateSynchronousResponseOnAShaft":
+        return self.__parent__._cast(
+            _3333.AGMAGleasonConicalGearSetSteadyStateSynchronousResponseOnAShaft
+        )
+
+    @property
+    def conical_gear_set_steady_state_synchronous_response_on_a_shaft(
+        self: "CastSelf",
+    ) -> "_3361.ConicalGearSetSteadyStateSynchronousResponseOnAShaft":
+        from mastapy._private.system_model.analyses_and_results.steady_state_synchronous_responses_on_a_shaft import (
+            _3361,
+        )
+
+        return self.__parent__._cast(
+            _3361.ConicalGearSetSteadyStateSynchronousResponseOnAShaft
+        )
+
+    @property
+    def gear_set_steady_state_synchronous_response_on_a_shaft(
+        self: "CastSelf",
+    ) -> "_3387.GearSetSteadyStateSynchronousResponseOnAShaft":
+        from mastapy._private.system_model.analyses_and_results.steady_state_synchronous_responses_on_a_shaft import (
+            _3387,
+        )
+
+        return self.__parent__._cast(
+            _3387.GearSetSteadyStateSynchronousResponseOnAShaft
+        )
+
+    @property
+    def specialised_assembly_steady_state_synchronous_response_on_a_shaft(
+        self: "CastSelf",
+    ) -> "_3428.SpecialisedAssemblySteadyStateSynchronousResponseOnAShaft":
+        from mastapy._private.system_model.analyses_and_results.steady_state_synchronous_responses_on_a_shaft import (
+            _3428,
+        )
+
+        return self.__parent__._cast(
+            _3428.SpecialisedAssemblySteadyStateSynchronousResponseOnAShaft
+        )
+
+    @property
+    def abstract_assembly_steady_state_synchronous_response_on_a_shaft(
+        self: "CastSelf",
+    ) -> "_3328.AbstractAssemblySteadyStateSynchronousResponseOnAShaft":
+        from mastapy._private.system_model.analyses_and_results.steady_state_synchronous_responses_on_a_shaft import (
+            _3328,
+        )
+
+        return self.__parent__._cast(
+            _3328.AbstractAssemblySteadyStateSynchronousResponseOnAShaft
+        )
+
+    @property
+    def part_steady_state_synchronous_response_on_a_shaft(
+        self: "CastSelf",
+    ) -> "_3409.PartSteadyStateSynchronousResponseOnAShaft":
+        from mastapy._private.system_model.analyses_and_results.steady_state_synchronous_responses_on_a_shaft import (
+            _3409,
+        )
+
+        return self.__parent__._cast(_3409.PartSteadyStateSynchronousResponseOnAShaft)
+
+    @property
+    def part_static_load_analysis_case(
+        self: "CastSelf",
+    ) -> "_7709.PartStaticLoadAnalysisCase":
+        from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+            _7709,
+        )
+
+        return self.__parent__._cast(_7709.PartStaticLoadAnalysisCase)
+
+    @property
+    def part_analysis_case(self: "CastSelf") -> "_7706.PartAnalysisCase":
+        from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+            _7706,
+        )
+
+        return self.__parent__._cast(_7706.PartAnalysisCase)
+
+    @property
+    def part_analysis(self: "CastSelf") -> "_2732.PartAnalysis":
+        from mastapy._private.system_model.analyses_and_results import _2732
+
+        return self.__parent__._cast(_2732.PartAnalysis)
+
+    @property
+    def design_entity_single_context_analysis(
+        self: "CastSelf",
+    ) -> "_2728.DesignEntitySingleContextAnalysis":
+        from mastapy._private.system_model.analyses_and_results import _2728
+
+        return self.__parent__._cast(_2728.DesignEntitySingleContextAnalysis)
+
+    @property
+    def design_entity_analysis(self: "CastSelf") -> "_2726.DesignEntityAnalysis":
+        from mastapy._private.system_model.analyses_and_results import _2726
+
+        return self.__parent__._cast(_2726.DesignEntityAnalysis)
+
+    @property
+    def hypoid_gear_set_steady_state_synchronous_response_on_a_shaft(
+        self: "CastSelf",
+    ) -> "HypoidGearSetSteadyStateSynchronousResponseOnAShaft":
+        return self.__parent__
+
+    def __getattr__(self: "CastSelf", name: str) -> "Any":
+        try:
+            return self.__getattribute__(name)
+        except AttributeError:
+            class_name = utility.camel(name)
+            raise CastException(
+                f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+            ) from None
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True, eq=False)
+class HypoidGearSetSteadyStateSynchronousResponseOnAShaft(
+    _3333.AGMAGleasonConicalGearSetSteadyStateSynchronousResponseOnAShaft
+):
+    """HypoidGearSetSteadyStateSynchronousResponseOnAShaft
+
+    This is a mastapy class.
+    """
+
+    TYPE: ClassVar["Type"] = (
+        _HYPOID_GEAR_SET_STEADY_STATE_SYNCHRONOUS_RESPONSE_ON_A_SHAFT
+    )
+
+    wrapped: "Any"
+
+    def __post_init__(self: "Self") -> None:
+        """Override of the post initialisation magic method."""
+        if not hasattr(self.wrapped, "reference_count"):
+            self.wrapped.reference_count = 0
+
+        self.wrapped.reference_count += 1
+
+    @property
+    def assembly_design(self: "Self") -> "_2607.HypoidGearSet":
+        """mastapy.system_model.part_model.gears.HypoidGearSet
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(self.wrapped, "AssemblyDesign")
+
+        if temp is None:
+            return None
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp)
+
+    @property
+    def assembly_load_case(self: "Self") -> "_7595.HypoidGearSetLoadCase":
+        """mastapy.system_model.analyses_and_results.static_loads.HypoidGearSetLoadCase
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(self.wrapped, "AssemblyLoadCase")
+
+        if temp is None:
+            return None
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp)
+
+    @property
+    def agma_gleason_conical_gears_steady_state_synchronous_response_on_a_shaft(
+        self: "Self",
+    ) -> "List[_3392.HypoidGearSteadyStateSynchronousResponseOnAShaft]":
+        """List[mastapy.system_model.analyses_and_results.steady_state_synchronous_responses_on_a_shaft.HypoidGearSteadyStateSynchronousResponseOnAShaft]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(
+            self.wrapped,
+            "AGMAGleasonConicalGearsSteadyStateSynchronousResponseOnAShaft",
+        )
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def hypoid_gears_steady_state_synchronous_response_on_a_shaft(
+        self: "Self",
+    ) -> "List[_3392.HypoidGearSteadyStateSynchronousResponseOnAShaft]":
+        """List[mastapy.system_model.analyses_and_results.steady_state_synchronous_responses_on_a_shaft.HypoidGearSteadyStateSynchronousResponseOnAShaft]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(
+            self.wrapped, "HypoidGearsSteadyStateSynchronousResponseOnAShaft"
+        )
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def agma_gleason_conical_meshes_steady_state_synchronous_response_on_a_shaft(
+        self: "Self",
+    ) -> "List[_3390.HypoidGearMeshSteadyStateSynchronousResponseOnAShaft]":
+        """List[mastapy.system_model.analyses_and_results.steady_state_synchronous_responses_on_a_shaft.HypoidGearMeshSteadyStateSynchronousResponseOnAShaft]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(
+            self.wrapped,
+            "AGMAGleasonConicalMeshesSteadyStateSynchronousResponseOnAShaft",
+        )
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def hypoid_meshes_steady_state_synchronous_response_on_a_shaft(
+        self: "Self",
+    ) -> "List[_3390.HypoidGearMeshSteadyStateSynchronousResponseOnAShaft]":
+        """List[mastapy.system_model.analyses_and_results.steady_state_synchronous_responses_on_a_shaft.HypoidGearMeshSteadyStateSynchronousResponseOnAShaft]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(
+            self.wrapped, "HypoidMeshesSteadyStateSynchronousResponseOnAShaft"
+        )
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def cast_to(
+        self: "Self",
+    ) -> "_Cast_HypoidGearSetSteadyStateSynchronousResponseOnAShaft":
+        """Cast to another type.
+
+        Returns:
+            _Cast_HypoidGearSetSteadyStateSynchronousResponseOnAShaft
+        """
+        return _Cast_HypoidGearSetSteadyStateSynchronousResponseOnAShaft(self)
