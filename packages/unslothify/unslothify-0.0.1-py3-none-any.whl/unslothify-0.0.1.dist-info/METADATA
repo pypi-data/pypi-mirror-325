@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: unslothify
+Version: 0.0.1
+Summary: unslothify
+Author: abhishek
+Project-URL: Homepage, https://github.com/abhishekkrthakur/unslothify
+Project-URL: Issues, https://github.com/abhishekkrthakur/unslothify/issues
+Keywords: unslothify
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# unslothify
+
+`unslothify` is a simple no-code trainer for unsloth models.
