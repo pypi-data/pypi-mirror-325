@@ -1,0 +1,17 @@
+sqldeps/__init__.py,sha256=XU8dM3EvpCtMb1lmmrW5OV_FmLJIVGn4Oa5AArrU0CE,73
+sqldeps/config.py,sha256=trNB_slqkYX5__4gMJmKSTIg4eAYtIBFHynOsXBkjIY,149
+sqldeps/models.py,sha256=dOKweMmGIDXy6gFlNnBF-f1kckPihM14-jnB0DpC624,480
+sqldeps/configs/params/deepseek.yml,sha256=kI3ITqvuahiMIzIYveSIbwZmVxw4JqAIst4UyJWhMjo,42
+sqldeps/configs/params/groq.yml,sha256=StDTh9-_kicHzpVe85AOeWpJDIFxFj3wjAFQffXj1oc,57
+sqldeps/configs/params/openai.yml,sha256=nTdvrYFy7kzBStoCPk-ec_4g2TzYw2O1ihM1wpVZFRM,40
+sqldeps/configs/prompts/custom_prompt.yml,sha256=NMwdHQKvnOLVd7kBknH8r39g9meUXbHMLW5Fg78imB8,1365
+sqldeps/configs/prompts/default.yml,sha256=iSX-Yu26uJc5jTie9UwGsQfzGBrdojuB5tnPaqm7-jI,1844
+sqldeps/llm_parsers/__init__.py,sha256=OH34nC4KSZ6hd7kotDmEqCVbRhIlhxMpN2tKOI7OWRc,175
+sqldeps/llm_parsers/base.py,sha256=ayjlsxjZsh0ZBxVt3QXvzQzFGcBZQCUd8men0eo4Mwg,2649
+sqldeps/llm_parsers/deepseek.py,sha256=SPAXErnyJj1ju8JVEWkB9IoWa-l9VCNhvy9i4FmDqus,1504
+sqldeps/llm_parsers/groq.py,sha256=EiwEfcDJHSA3p6yHmyDqPwFjKlDl-XQMqAzAKJq2fRg,1398
+sqldeps/llm_parsers/openai.py,sha256=6p1aUUIQA0JhjRJH1vsp9BN7xjMhne0ffzAuGbnwPGk,1424
+sqldeps-0.0.103.dist-info/METADATA,sha256=JbhuI9iKHKjvRrpH80OwyOSyJW9RTDPPJHmrmUgbAqg,6849
+sqldeps-0.0.103.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+sqldeps-0.0.103.dist-info/top_level.txt,sha256=W657yaaa_z0FB3NTDOM58JReJ9HgzoN127bfcRKNgRA,8
+sqldeps-0.0.103.dist-info/RECORD,,
