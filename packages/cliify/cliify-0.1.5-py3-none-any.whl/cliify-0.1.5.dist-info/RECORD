@@ -1,0 +1,15 @@
+cliify/CommandWrapper.py,sha256=YpfHU6frTp9rUPXZ39QW8u9eFYZD38DPw6WtAeNP8hE,23685
+cliify/__init__.py,sha256=CUmXFGZKJbiLMzlZHY8HNS3vkmpFlVJZw9O2hyp9PWA,12642
+cliify/demo.py,sha256=AFKiqjfDyqcOuADMkyFdyp8CVrh7jevZoegLgcbQ2kg,1492
+cliify/splitHelper.py,sha256=wsdPp0ohu5_tPrx4hnBpZixpXN_mykAhsslEBG--R_0,1916
+cliify/completers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cliify/completers/prompt_toolkit.py,sha256=qnKc7VWwtZT-HzaTtPr0YbnZiuyNKwtd5YgrQK-b8iU,1586
+cliify/test/test_command_wrapper.py,sha256=Bh4aSFvgNiFMkrnzB20FW_R_Sbcu11nmQ6-CVgPHyf0,12627
+cliify/test/test_helpers.py,sha256=qkFCS_t2VviIywMtVxUZK2ETwswfYSpUOT7n9Cz_yEQ,3153
+cliify/ui/LogRouter.py,sha256=wpxn7Q4q54iI_6ZKdiWkrEZZ14sjOaE8rtWoHbXbd-A,1829
+cliify/ui/prompt_toolkit.py,sha256=F9lHugQ6g_tLlMpFmchbrwYhqBTxyx_efXo-s_O5xZ0,6971
+cliify-0.1.5.dist-info/METADATA,sha256=HAYOQs-O54Fk0tbJ0xAORh0KhszF6bace3aSFTXc--A,8909
+cliify-0.1.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+cliify-0.1.5.dist-info/entry_points.txt,sha256=FaFm1JS0NaAFS0IPk0JhDQSa1vcUnP_GoYmVKpZ6jFg,49
+cliify-0.1.5.dist-info/licenses/LICENSE,sha256=r9XOwMMyXFF-hb3fvlAWSruDcZfae6nBeVEGZQVn844,1059
+cliify-0.1.5.dist-info/RECORD,,
