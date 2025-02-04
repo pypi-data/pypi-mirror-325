@@ -1,0 +1,4 @@
+include sample_config.toml
+include packaging/wallman.desktop
+recursive-include icons *
+exclude README.org
