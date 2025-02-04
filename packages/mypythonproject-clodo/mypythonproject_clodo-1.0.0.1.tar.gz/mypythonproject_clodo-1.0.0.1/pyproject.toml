@@ -1,0 +1,69 @@
+[build-system]
+requires = ["hatchling", "toml"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mypythonproject_clodo"]
+
+[project]
+name = "mypythonproject_clodo"
+version = "1.0.0.1"
+authors = [
+    {name="Clodomir Vianna", email="clovianna@gmail.com"},
+]
+description = "PyProjectCLI simplifies the creation of custom CLIs for any modular Python library"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { text = "BSD-3-Clause" }
+dependencies = [
+    # "ipython",
+    # "pyautogui",
+    # "pyfiglet",
+]
+
+[project.urls]
+Homepage = "https://github.com/clodoN1109"
+Issues = "https://github.com/clodoN1109"
+Contributions = "https://github.com/clodoN1109"
+
+[tool.header]
+brand_name = 'MY PYTHON PROJECT'
+slogan = 'Custom CLIs for python libraries.'
+creators = [
+    {name="Clodomir Vianna", email="clovianna@gmail.com"},
+]
+tags = []
+
+[tool.template]
+Data = {folderA = {folderA = 'A files'}, folderB = 'B files'}
+Outputs = {folderA = 'A files', folderB = 'B files'}
+Benchmark = {}
+
+[tool.modules]
+sample_module = { version = "1.0.0.0" , description = "Perform several useful processes." }
+another_module = { version = "1.0.0.0" , description = "Perform several other useful processes." }
+
+[tool.help]
+repository = 'https://github.com/clodo1109N'
+# documentation = ''
+tutorials = { sample_module ='https://example.com'}
+
+[tool.style]
+primary_color = "#FFFFFF"
+secodary_color = "#FFFFFF"
+accent_color = "#FFFFFF"
+
+[tool.hatch.build.targets.wheel.hooks.custom]
+path = "src/mypythonproject_clodo/cli/hatch_build.py"
+
+[tool.hatch.build.targets.wheel.force-include]
+"./src/header.json" = "src/mypythonproject_clodo/cli/header.json"
+"./src/modules.json" = "src/mypythonproject_clodo/cli/modules.json"
+"./src/help.json" = "src/mypythonproject_clodo/cli/help.json"
+"./src/template.json" = "src/mypythonproject_clodo/cli/template.json"
+
+[project.scripts]
+mypythonproject_clodo = "mypythonproject_clodo.__cli__:cli"
