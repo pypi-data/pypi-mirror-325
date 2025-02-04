@@ -1,0 +1,13 @@
+{
+    "Data": {
+        "folderA": {
+            "folderA": "A files"
+        },
+        "folderB": "B files"
+    },
+    "Outputs": {
+        "folderA": "A files",
+        "folderB": "B files"
+    },
+    "Benchmark": {}
+}
