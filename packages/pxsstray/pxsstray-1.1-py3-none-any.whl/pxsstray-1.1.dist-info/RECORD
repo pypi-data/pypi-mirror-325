@@ -1,0 +1,11 @@
+pxsstray/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pxsstray/_version.py,sha256=1OGDPdghxyVVArLd8TLFlQ0VeHpQ4nX9XqrmpSDoNT8,406
+pxsstray/main.py,sha256=bPQVF9PpiUZtVXauhwd9olo_LOOUDLAh_tCEvEkHz7g,639
+pxsstray/trayMenu.py,sha256=NKei63yR2BpF4KnRTwagr4a65AXCuopnU_NYUCZqj8I,3059
+pxsstray/images/cross.png,sha256=0rVegabZcnAOM3PtkXi5Ne7i4tcLhQpaChkFQFz9rhY,539
+pxsstray-1.1.dist-info/LICENSE.txt,sha256=ma2zZpn3B8m2T4UmTmcXNgU54ylr7GD3SX1mAgixp5Y,1058
+pxsstray-1.1.dist-info/METADATA,sha256=dSfxGNHB2yegZ0qsY7TSi5aU2alRjDGpJEqbO30Fxm0,1303
+pxsstray-1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pxsstray-1.1.dist-info/entry_points.txt,sha256=Pj-mqyRlNO2iuEFLhcFIroUMmetUFtYvVBBCVVbAr3Y,47
+pxsstray-1.1.dist-info/top_level.txt,sha256=g1RXgtOBDqbMehszwbwYLRnGILIs-FtdqLvm_JEFEO0,9
+pxsstray-1.1.dist-info/RECORD,,
