@@ -1,0 +1,2 @@
+[console_scripts]
+createRulesetProjectDescription = energyplus_rpd.runner:run
