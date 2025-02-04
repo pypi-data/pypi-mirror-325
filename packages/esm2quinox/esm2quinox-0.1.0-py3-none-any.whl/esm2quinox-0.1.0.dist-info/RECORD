@@ -1,0 +1,9 @@
+esm2quinox/__init__.py,sha256=EGFa4TcoSMxSYHmsAyLWVqIqVZrGXH-awyCoUoKUXFM,374
+esm2quinox/_custom_types.py,sha256=QUkjZpFHXBSyjXWYDjy3G8BS7s35zTwLvuxPHqf-NUc,120
+esm2quinox/_esm2.py,sha256=qAhZ48m6WSWEwUv2HA2cKMDT6IsGEoxQV5meJ8P-Fxc,8048
+esm2quinox/_layer.py,sha256=9CDODOdGmLv8Ay_fDZhC8QqmT5RtXq2NwFFHmuW8h1o,2799
+esm2quinox/_torch2eqx.py,sha256=kiNGOvFiI482s6nBvIhtdobwvp393eAgdDf6E9yTKBI,7236
+esm2quinox-0.1.0.dist-info/METADATA,sha256=8v6XtGEtxDrwmkE0_aSZbRc0Bk-9HR_bV0DIB-QK3vA,15856
+esm2quinox-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+esm2quinox-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+esm2quinox-0.1.0.dist-info/RECORD,,
