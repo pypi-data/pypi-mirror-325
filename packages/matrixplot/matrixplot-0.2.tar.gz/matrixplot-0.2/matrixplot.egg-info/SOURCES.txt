@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+matrixplot.py
+pyproject.toml
+setup.py
+matrixplot.egg-info/PKG-INFO
+matrixplot.egg-info/SOURCES.txt
+matrixplot.egg-info/dependency_links.txt
+matrixplot.egg-info/requires.txt
+matrixplot.egg-info/top_level.txt
