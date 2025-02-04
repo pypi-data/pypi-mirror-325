@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: shaml
+Version: 0.0.1
+Summary: A shameless library for auto-correcting variable types.
+Home-page: https://github.com/mgks/shaml
+Author: Ghazi Khan
+Author-email: hello@mgks.dev
+License: MIT
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary
+
+# shaml
+ A shameless library for auto-correcting variable types.

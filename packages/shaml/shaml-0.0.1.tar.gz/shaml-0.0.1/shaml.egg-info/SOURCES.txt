@@ -1,0 +1,8 @@
+setup.py
+shaml/__init__.py
+shaml/__main__.py
+shaml/core.py
+shaml.egg-info/PKG-INFO
+shaml.egg-info/SOURCES.txt
+shaml.egg-info/dependency_links.txt
+shaml.egg-info/top_level.txt
