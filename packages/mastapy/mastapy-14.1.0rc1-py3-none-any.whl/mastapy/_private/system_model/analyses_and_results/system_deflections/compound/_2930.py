@@ -1,0 +1,224 @@
+"""AbstractShaftOrHousingCompoundSystemDeflection"""
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, ClassVar
+
+from mastapy._private._internal import conversion, utility
+from mastapy._private._internal.cast_exception import CastException
+from mastapy._private._internal.dataclasses import extended_dataclass
+from mastapy._private._internal.python_net import (
+    python_net_import,
+    pythonnet_property_get,
+)
+from mastapy._private.system_model.analyses_and_results.system_deflections.compound import (
+    _2953,
+)
+
+_ABSTRACT_SHAFT_OR_HOUSING_COMPOUND_SYSTEM_DEFLECTION = python_net_import(
+    "SMT.MastaAPI.SystemModel.AnalysesAndResults.SystemDeflections.Compound",
+    "AbstractShaftOrHousingCompoundSystemDeflection",
+)
+
+if TYPE_CHECKING:
+    from typing import Any, List, Type, TypeVar
+
+    from mastapy._private.system_model.analyses_and_results import _2726
+    from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+        _7704,
+        _7707,
+    )
+    from mastapy._private.system_model.analyses_and_results.system_deflections import (
+        _2761,
+    )
+    from mastapy._private.system_model.analyses_and_results.system_deflections.compound import (
+        _2929,
+        _2973,
+        _2985,
+        _3010,
+        _3026,
+    )
+
+    Self = TypeVar("Self", bound="AbstractShaftOrHousingCompoundSystemDeflection")
+    CastSelf = TypeVar(
+        "CastSelf",
+        bound="AbstractShaftOrHousingCompoundSystemDeflection._Cast_AbstractShaftOrHousingCompoundSystemDeflection",
+    )
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("AbstractShaftOrHousingCompoundSystemDeflection",)
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True)
+class _Cast_AbstractShaftOrHousingCompoundSystemDeflection:
+    """Special nested class for casting AbstractShaftOrHousingCompoundSystemDeflection to subclasses."""
+
+    __parent__: "AbstractShaftOrHousingCompoundSystemDeflection"
+
+    @property
+    def component_compound_system_deflection(
+        self: "CastSelf",
+    ) -> "_2953.ComponentCompoundSystemDeflection":
+        return self.__parent__._cast(_2953.ComponentCompoundSystemDeflection)
+
+    @property
+    def part_compound_system_deflection(
+        self: "CastSelf",
+    ) -> "_3010.PartCompoundSystemDeflection":
+        from mastapy._private.system_model.analyses_and_results.system_deflections.compound import (
+            _3010,
+        )
+
+        return self.__parent__._cast(_3010.PartCompoundSystemDeflection)
+
+    @property
+    def part_compound_analysis(self: "CastSelf") -> "_7707.PartCompoundAnalysis":
+        from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+            _7707,
+        )
+
+        return self.__parent__._cast(_7707.PartCompoundAnalysis)
+
+    @property
+    def design_entity_compound_analysis(
+        self: "CastSelf",
+    ) -> "_7704.DesignEntityCompoundAnalysis":
+        from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+            _7704,
+        )
+
+        return self.__parent__._cast(_7704.DesignEntityCompoundAnalysis)
+
+    @property
+    def design_entity_analysis(self: "CastSelf") -> "_2726.DesignEntityAnalysis":
+        from mastapy._private.system_model.analyses_and_results import _2726
+
+        return self.__parent__._cast(_2726.DesignEntityAnalysis)
+
+    @property
+    def abstract_shaft_compound_system_deflection(
+        self: "CastSelf",
+    ) -> "_2929.AbstractShaftCompoundSystemDeflection":
+        from mastapy._private.system_model.analyses_and_results.system_deflections.compound import (
+            _2929,
+        )
+
+        return self.__parent__._cast(_2929.AbstractShaftCompoundSystemDeflection)
+
+    @property
+    def cycloidal_disc_compound_system_deflection(
+        self: "CastSelf",
+    ) -> "_2973.CycloidalDiscCompoundSystemDeflection":
+        from mastapy._private.system_model.analyses_and_results.system_deflections.compound import (
+            _2973,
+        )
+
+        return self.__parent__._cast(_2973.CycloidalDiscCompoundSystemDeflection)
+
+    @property
+    def fe_part_compound_system_deflection(
+        self: "CastSelf",
+    ) -> "_2985.FEPartCompoundSystemDeflection":
+        from mastapy._private.system_model.analyses_and_results.system_deflections.compound import (
+            _2985,
+        )
+
+        return self.__parent__._cast(_2985.FEPartCompoundSystemDeflection)
+
+    @property
+    def shaft_compound_system_deflection(
+        self: "CastSelf",
+    ) -> "_3026.ShaftCompoundSystemDeflection":
+        from mastapy._private.system_model.analyses_and_results.system_deflections.compound import (
+            _3026,
+        )
+
+        return self.__parent__._cast(_3026.ShaftCompoundSystemDeflection)
+
+    @property
+    def abstract_shaft_or_housing_compound_system_deflection(
+        self: "CastSelf",
+    ) -> "AbstractShaftOrHousingCompoundSystemDeflection":
+        return self.__parent__
+
+    def __getattr__(self: "CastSelf", name: str) -> "Any":
+        try:
+            return self.__getattribute__(name)
+        except AttributeError:
+            class_name = utility.camel(name)
+            raise CastException(
+                f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+            ) from None
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True, eq=False)
+class AbstractShaftOrHousingCompoundSystemDeflection(
+    _2953.ComponentCompoundSystemDeflection
+):
+    """AbstractShaftOrHousingCompoundSystemDeflection
+
+    This is a mastapy class.
+    """
+
+    TYPE: ClassVar["Type"] = _ABSTRACT_SHAFT_OR_HOUSING_COMPOUND_SYSTEM_DEFLECTION
+
+    wrapped: "Any"
+
+    def __post_init__(self: "Self") -> None:
+        """Override of the post initialisation magic method."""
+        if not hasattr(self.wrapped, "reference_count"):
+            self.wrapped.reference_count = 0
+
+        self.wrapped.reference_count += 1
+
+    @property
+    def component_analysis_cases(
+        self: "Self",
+    ) -> "List[_2761.AbstractShaftOrHousingSystemDeflection]":
+        """List[mastapy.system_model.analyses_and_results.system_deflections.AbstractShaftOrHousingSystemDeflection]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(self.wrapped, "ComponentAnalysisCases")
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def component_analysis_cases_ready(
+        self: "Self",
+    ) -> "List[_2761.AbstractShaftOrHousingSystemDeflection]":
+        """List[mastapy.system_model.analyses_and_results.system_deflections.AbstractShaftOrHousingSystemDeflection]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(self.wrapped, "ComponentAnalysisCasesReady")
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def cast_to(self: "Self") -> "_Cast_AbstractShaftOrHousingCompoundSystemDeflection":
+        """Cast to another type.
+
+        Returns:
+            _Cast_AbstractShaftOrHousingCompoundSystemDeflection
+        """
+        return _Cast_AbstractShaftOrHousingCompoundSystemDeflection(self)
