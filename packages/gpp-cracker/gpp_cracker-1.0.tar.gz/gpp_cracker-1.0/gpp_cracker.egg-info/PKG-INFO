@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: gpp-cracker
+Version: 1.0
+Summary: A tool to decrypt GPP passwords
+Author: Chowdhury Faizal Ahammed
+License: MIT
+Requires-Dist: pycryptodome
+Requires-Dist: rich
+Dynamic: author
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
