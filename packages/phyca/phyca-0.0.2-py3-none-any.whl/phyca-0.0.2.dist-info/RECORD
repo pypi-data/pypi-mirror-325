@@ -1,0 +1,9 @@
+phyca/CUS.tsv,sha256=iUqHsCl0_mpuKQ7CxFOwnbAaAwSWfZxHqrmkqHdfqdI,334999
+phyca/__init__.py,sha256=wvYIWJHVnb66_IJK0MIWiZjF5V87e-g_r93rr9xhbpc,23
+phyca/phyca.py,sha256=JdcyXlWunMIN52R0cJqKu5S5rHJGV_omcv8FGQQBclI,32266
+phyca-0.0.2.dist-info/LICENSE,sha256=2Tjo9vEozFwmnf-Te-DRqrV756sDHm405uIsRzgaGcU,1077
+phyca-0.0.2.dist-info/METADATA,sha256=YzNMeAkuNlAHpAouiwDYpQ0Q3LYNtdcv254-5C5n4Qk,4825
+phyca-0.0.2.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+phyca-0.0.2.dist-info/entry_points.txt,sha256=yUR69RAMgsARz-7LBpJA6eFGy-Vfw_ViLs8b7T7ZRsg,37
+phyca-0.0.2.dist-info/top_level.txt,sha256=1ZIUhoMr74QZrr89ceKZCVYgf1zMiAnwDemO8an0B4o,6
+phyca-0.0.2.dist-info/RECORD,,
