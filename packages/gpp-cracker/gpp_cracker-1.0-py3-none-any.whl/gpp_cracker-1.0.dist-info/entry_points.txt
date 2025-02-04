@@ -1,0 +1,2 @@
+[console_scripts]
+gpp-cracker = gpp_cracker.cli:main
