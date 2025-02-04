@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+src/stockanalysis_scraper/__init__.py
+src/stockanalysis_scraper/config.ini
+src/stockanalysis_scraper.egg-info/PKG-INFO
+src/stockanalysis_scraper.egg-info/SOURCES.txt
+src/stockanalysis_scraper.egg-info/dependency_links.txt
+src/stockanalysis_scraper.egg-info/requires.txt
+src/stockanalysis_scraper.egg-info/top_level.txt
+src/stockanalysis_scraper/scraper/__init__.py
+src/stockanalysis_scraper/scraper/config.py
+src/stockanalysis_scraper/scraper/enums.py
+src/stockanalysis_scraper/scraper/scraper.py
+src/stockanalysis_scraper/scraper/urls.py
+src/stockanalysis_scraper/tests/__init__.py
+src/stockanalysis_scraper/tests/test_scraper.py
