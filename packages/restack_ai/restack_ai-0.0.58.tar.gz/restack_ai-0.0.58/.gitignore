@@ -1,0 +1,10 @@
+__pycache__
+.pytest_cache
+venv
+.env
+# Poetry
+poetry.lock
+# PyPI credentials
+.pypirc
+.venv
+uv.lock
