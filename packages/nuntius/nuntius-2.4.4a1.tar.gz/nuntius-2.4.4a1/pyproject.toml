@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "nuntius"
+version = "2.4.4a1"
+description = "A newsletter app to be used with Django or standalone."
+authors = ["Jill Royer <hello@jillroyer.me>", "Salomé Cheysson <salome@cheysson.fr>", "Alexandra Puret <alex.loo@protonmail.com>"]
+license = "GPLv3"
+readme = "README.md"
+repository = "https://github.com/lafranceinsoumise/nuntius"
+
+classifiers= [
+    "Development Status :: 4 - Beta",
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 2.0",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Communications :: Email",
+]
+
+packages = [
+    { include = "nuntius" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.2"
+pillow = "^10.4.0"
+django-stdimage = "^6.0.2"
+inscriptis = "^2.5"
+tenacity = "^9.0.0"
+django-anymail = "^12.0"
+boto3 = "^1.36.11"
+django-push-notifications = "^3.1.0"
+pywebpush = "^2.0.3"
+dj-database-url = "^1.2.0"
+django-htmx = "^1.21.0"
+firebase-admin = "^6.6.0"
+
+[tool.poetry.extras]
+anymail = ["django-anymail", "boto3"]
+mysql = ["mysqlclient"]
+push = ["django-push-notifications", "apns", "pywebpush"]
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+tqdm = "^4.60.0"
+ipython = "^8.11.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
