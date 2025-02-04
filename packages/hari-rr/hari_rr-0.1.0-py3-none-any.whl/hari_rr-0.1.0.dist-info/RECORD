@@ -1,0 +1,16 @@
+hari_rr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hari_rr/decision_tree_classifier.py,sha256=GnONc8Vu_MJjtPLreR2QP3s7GsEO2KeulE5-UDKrhu4,4396
+hari_rr/imports.py,sha256=3O-n6vGmIqjRb3KFfYfJRB6NBAe2lcDgLVxmBWdbaxo,223
+hari_rr/knn.py,sha256=1g1dS764cSPcJS3j6CbK_1_jebEljo5VdIDpsmuax-Q,1580
+hari_rr/linear_regression.py,sha256=Rc88-9vVSKpZeDL-jLRvLePWULMzgvsNo3EAPbd8s9c,4497
+hari_rr/logistic_regression.py,sha256=_PfD-yKvgSm_5DJsVyUq1B0YBnfluMD6S5EoratmHhg,2021
+hari_rr/multivariate_regression.py,sha256=3w4bod2DBlKP3XClSQSQu5yc_RfZmj3oCaUw3kBnYL0,1851
+hari_rr/performance_metrics.py,sha256=sgTeprqw61lFgk5M2AXyBPDCQ5GdeH9Tch6-QFsvZE4,370
+hari_rr/random_forest.py,sha256=SOUIRR_AYMVRCpY0fqUYxhNfUjgt-M1d0gb9-quVRRU,3249
+hari_rr/svm.py,sha256=fTOMJTBI_dwUJZ0_tCR6SPCpPrtRzJN4BsivEzvcltc,2319
+hari_rr/xgboost_classifier.py,sha256=dfibRhCWpbxdQqrQyoh23MWvTkmZMtkfA9Gko4622_I,5194
+hari_rr/xgboost_regressor.py,sha256=Jhihd1PeHKbD4Xrcgo9us-D9pW0A2Z3rS7pHEE_2CrU,4626
+hari_rr-0.1.0.dist-info/METADATA,sha256=bpKgDF0j1Pp2peQMg8YXS6vW5Y7UtqtlzUpjM7ouaJM,716
+hari_rr-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+hari_rr-0.1.0.dist-info/top_level.txt,sha256=fSmzIS-WPNpzzhz_QlYOAuVELZ-35cBKKs3Dsh5bWUQ,8
+hari_rr-0.1.0.dist-info/RECORD,,
