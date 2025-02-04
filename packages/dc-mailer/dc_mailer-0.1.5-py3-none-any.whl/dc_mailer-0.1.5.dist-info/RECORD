@@ -1,0 +1,8 @@
+dc_mailer/__init__.py,sha256=hgz0Le13K8SoLY3e5tILqbn-dG2sPyItMrdRmeHnP44,227
+dc_mailer/config.py,sha256=UgX1gOH-iS94ai8s6V_0LnbrWfQJj7siEehbAIEMgm0,4184
+dc_mailer/mailer.py,sha256=gc6fRa9aP5KKh1n5AbOtLAIJPXRdDzVUeuHFEUWvES4,3483
+dc_mailer-0.1.5.dist-info/LICENSE.txt,sha256=WTidFxd6pBtTfM3ZPoluSwm_1fZzTYaZZjPWZr5o23o,1068
+dc_mailer-0.1.5.dist-info/METADATA,sha256=1saPpJkeNHH5qr_QETOXM0AuPfeqniZIpZrU5Uly0qc,4783
+dc_mailer-0.1.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+dc_mailer-0.1.5.dist-info/top_level.txt,sha256=8tTkOvUUvuZfCtrIpmiapI3EAANg_zLkiQX4yxCLntQ,10
+dc_mailer-0.1.5.dist-info/RECORD,,
