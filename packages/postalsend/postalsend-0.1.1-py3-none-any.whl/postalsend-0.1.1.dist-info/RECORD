@@ -1,0 +1,11 @@
+postalsend/__init__.py,sha256=iMaD3yWRZZmbRCYs3zd6S43SzYrjgZD6dO-NJ_GuMz8,162
+postalsend/_app.py,sha256=vbH0PxF4JpX-lf-9LbWFpa8MEDgCFQQ7AOlVv3ZSzzI,1125
+postalsend/authentication.py,sha256=f74hB_I8wwOHgbKMoKBW8oNCWTOsfNZWg6qn_3aj-tI,118
+postalsend/errors.py,sha256=Lkh6fhwFh3iQR7UidMSSDJS1Sy8cQvehx26lEVq4SOM,2341
+postalsend/message.py,sha256=T6zth7f2HXyWgyqytqOxgNahTb73rDi4vmN_X3FMRfQ,5383
+postalsend/push.py,sha256=1yZo_C-V5JxVKEKch7G56wu93YdBdx1bS4Z4xu0mD1Y,1378
+postalsend-0.1.1.dist-info/LICENSE,sha256=5zP4NIe6oVOguDTcVZ6DpEQoR0FrvuqJJPcn-YrqFdU,1090
+postalsend-0.1.1.dist-info/METADATA,sha256=yHz_5qJWgXzlnpGUhpjgohHnu6_icye_fLMUdO_hhDA,1453
+postalsend-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+postalsend-0.1.1.dist-info/top_level.txt,sha256=QKiQGmpfqKZH_dQh57bJsUkxXWsHwnNGWubn_lCcN9U,11
+postalsend-0.1.1.dist-info/RECORD,,
