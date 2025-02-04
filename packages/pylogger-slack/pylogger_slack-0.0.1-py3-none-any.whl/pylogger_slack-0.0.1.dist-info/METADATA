@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pylogger-slack
+Version: 0.0.1
+Summary: Python logger with an option to format it for YAML/JSON format and support for Slack Notification. (Helpful for monitoring codebase in production/testing)
+Home-page: https://github.com/VinayIN/pylogger-slack.git
+License: GPL-3.0
+Keywords: logger,slack notification,logger yaml,logger json,python logging
+Author: Binay Kumar Pradhan
+Author-email: bpradhan.asli@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: ecs-logging (==2.0.0)
+Requires-Dist: slack-sdk (==3.18.1)
+Project-URL: Repository, https://github.com/VinayIN/pylogger-slack.git
