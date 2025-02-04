@@ -1,0 +1,32 @@
+Metadata-Version: 2.2
+Name: xlsp
+Version: 0.1.1
+Summary: A Python library for interacting with Excel files on SharePoint.
+Home-page: https://github.com/sdavis9248/xlsp
+Author: Steven P. Davis
+Author-email: sdavis@davisportal.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: openpyxl
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# xlsp Library
+
+This library provides functionality to work with Excel files stored on SharePoint using `openpyxl` and `requests`.
+
+## Installation
+
+```sh
+pip install xlsp
