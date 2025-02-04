@@ -1,0 +1,12 @@
+payne/__init__.py,sha256=UWZwAHUg-WYRPNiLIF4GlMrMCnrnisMssQ8QRfgDpEA,136
+payne/app.py,sha256=OsFZSZ1TKpcMeuXg0U2YohAenJQVTeeO5YACjxiII8E,1251
+payne/app_metadata.py,sha256=VRqk5K50IIVe8Xx5MStiF2GoZmkKp4yCpqmDspyBFkU,413
+payne/cli.py,sha256=Nb6cNXogECbN4_PsoMHJ0lnpPhetnhW4jkmCL1FXy3E,469
+payne/payne.py,sha256=vABz_O12VWJUdUHr6fI6bgNkzbVc-VeNF7Iot4PHhHs,2941
+payne/pyproject.py,sha256=WiW1WOIzHBCUwrOUhz08tV8yke9c5tGRN4aWCPkZFks,476
+payne/uv.py,sha256=E9vk1wr1PGwVXiCaXgmRblwRsRkgpLbtOQJGbH65wLA,1160
+payne-0.1.0.dist-info/METADATA,sha256=W3cz5KR80YJjXhe4y3l_G163kiqVZc8JA2FTGtgThd8,595
+payne-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+payne-0.1.0.dist-info/entry_points.txt,sha256=kt1S7emRI8STskxyjhzFcby_lmKE6wXdmx7N9D9Kh8U,40
+payne-0.1.0.dist-info/licenses/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+payne-0.1.0.dist-info/RECORD,,

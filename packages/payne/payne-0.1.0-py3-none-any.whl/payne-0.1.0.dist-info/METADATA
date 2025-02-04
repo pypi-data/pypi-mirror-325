@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: payne
+Version: 0.1.0
+Summary: Install Python applications
+Author-email: Martin Herrmann <martin@famherrmann.de>
+License-File: LICENSE
+Requires-Python: >=3.11
+Requires-Dist: cyclopts>=3.3.1
+Description-Content-Type: text/markdown
+
+# payne
+
+Payne allows a user to install multiple versions of a Python application at the
+same time. It uses `uv` for isolation between applications and caching.
+
+**Note**: there may be incompatible chages before version 1.0. If you use an 
+earlier version, you may have to delete your applications directory and
+re-install applications.

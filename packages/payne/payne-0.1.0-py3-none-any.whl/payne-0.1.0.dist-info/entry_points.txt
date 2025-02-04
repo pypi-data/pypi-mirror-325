@@ -1,0 +1,2 @@
+[console_scripts]
+payne = payne.cli:app
