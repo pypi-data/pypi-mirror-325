@@ -1,0 +1,15 @@
+README.md
+setup.py
+scpapi/__init__.py
+scpapi/client.py
+scpapi.egg-info/PKG-INFO
+scpapi.egg-info/SOURCES.txt
+scpapi.egg-info/dependency_links.txt
+scpapi.egg-info/requires.txt
+scpapi.egg-info/top_level.txt
+scpapi/resource/__init__.py
+scpapi/resource/file_storage.py
+scpapi/resource/image.py
+scpapi/resource/server_group.py
+scpapi/resource/subnet.py
+scpapi/resource/virtual_server.py
