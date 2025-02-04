@@ -1,0 +1,7 @@
+[project]
+name = "qdrl"
+authors = [
+    {name = "Quang Phong", email = "quang.phong@outlook.com"},
+]
+version = "0.0.0"
+description = "Coming soon - Under construction"
