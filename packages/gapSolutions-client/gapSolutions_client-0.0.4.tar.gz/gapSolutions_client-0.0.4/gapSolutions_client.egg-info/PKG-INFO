@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: gapSolutions-client
+Version: 0.0.4
+Summary: gapSolutions client package
+Author: Samer Hisham
+Author-email: samerrhisham@gmail.com
+Keywords: python,gapSolutions
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+# gapSolutions Client
+
+**gapSolutions Client** is a Python library designed to interact with the gapSolutions API, enabling developers to seamlessly integrate gapSolutions features into their applications.
+
+This client simplifies communication with the API, offering functions to interact with **measurement locations**, **organizations**, and **users**. Whether you are looking to fetch data, modify records, or perform deletion tasks, **gapSolutions Client** has got you covered.
+
+---
+
+## Features
+
+- **Easy Authentication**: Use an API token for quick, secure access.
+- **Measurement Locations**: Fetch, create, update, and delete measurement locations.
+- **Organizations**: Manage organizations easily with simple API requests.
+- **User Management**: Handle users' data with ease, including adding, deleting, and updating.
+- **Automatic Handling of Responses**: Built-in error handling for clean and efficient workflows.
+
+---
+
+## Installation
+
+You can install **gapSolutions Client** from PyPI using pip:
+
+```bash
+pip install gapSolutions_client
+```

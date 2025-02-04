@@ -1,0 +1,11 @@
+README.md
+setup.py
+gapSolutions_client.egg-info/PKG-INFO
+gapSolutions_client.egg-info/SOURCES.txt
+gapSolutions_client.egg-info/dependency_links.txt
+gapSolutions_client.egg-info/top_level.txt
+test_folder/__init__.py
+test_folder/test_account.py
+test_folder/test_account_type.py
+test_folder/test_folder.py
+test_folder/test_folder_type.py
