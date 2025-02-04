@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+main.py
+pyproject.toml
+setup.py
+requirement.txt.egg-info/PKG-INFO
+requirement.txt.egg-info/SOURCES.txt
+requirement.txt.egg-info/dependency_links.txt
+requirement.txt.egg-info/top_level.txt
