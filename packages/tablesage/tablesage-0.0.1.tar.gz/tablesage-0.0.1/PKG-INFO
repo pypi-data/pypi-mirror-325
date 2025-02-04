@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: tablesage
+Version: 0.0.1
+Summary: A profiling tool for tabular data leveraging the powerful capabilities of LLMs, appropriate for data scientists.
+Author-email: Alexandros Zeakis <azeakis@athenarc.gr>
+Project-URL: Homepage, https://github.com/stelar-eu/TableSage
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TableSage

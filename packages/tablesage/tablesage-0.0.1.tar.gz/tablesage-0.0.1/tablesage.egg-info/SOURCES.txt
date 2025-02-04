@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+tablesage.egg-info/PKG-INFO
+tablesage.egg-info/SOURCES.txt
+tablesage.egg-info/dependency_links.txt
+tablesage.egg-info/top_level.txt
