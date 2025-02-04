@@ -1,0 +1,47 @@
+[project]
+name = "dataset-translator"
+authors = [{ name = "Iván Moreno", email = "ivan@ivan.build" }]
+version = "0.1.4"
+description = "⚡️ Efficient dataset translation using Google Translate's API"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = ["googletrans", "pandas", "pyarrow", "tqdm", "typer"]
+keywords = ["dataset", "translate", "hf", "google", "api"]
+license = { text = "MIT" }
+
+[project.urls]
+Repository = "https://github.com/ivanvmoreno/dataset-translator"
+Issues = "https://github.com/ivanvmoreno/dataset-translator/issues"
+
+[project.scripts]
+dataset-translator = "src.main:app"
+
+[dependency-groups]
+dev = ["black", "isort", "pytest", "pytest-asyncio"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+license-files = []
+
+[tool.black]
+line-length = 80
+include = './.pyi?$'
+exclude = 'venv/'
+
+[tool.isort]
+profile = 'black'
+src_paths = ['./']
+skip_glob = ["**/.env*", "**/.venv/*"]
+
+[tool.pytest.ini_options]
+asyncio_default_fixture_loop_scope = "session"
