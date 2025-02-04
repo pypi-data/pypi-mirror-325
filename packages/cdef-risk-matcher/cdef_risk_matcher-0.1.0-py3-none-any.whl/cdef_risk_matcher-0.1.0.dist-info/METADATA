@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: cdef-risk-matcher
+Version: 0.1.0
+Summary: Your package description
+Author-email: Tobias Kragholm <tobias.kragholm@regionh.dk>
+License-Expression: MIT
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: cvxpy[scip]>=1.6.0
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: polars>=1.21.0
+Requires-Dist: scienceplots>=2.1.1
+Requires-Dist: scipy>=1.15.1
+Requires-Dist: seaborn>=0.13.2
+Description-Content-Type: text/markdown
+
+# README
