@@ -1,0 +1,24 @@
+identifier: sdxl_blocks-supermerger
+components:
+  blocks:
+    BASE: {shape: [1], dtype: float32}
+    IN00: {shape: [1], dtype: float32}
+    IN01: {shape: [1], dtype: float32}
+    IN02: {shape: [1], dtype: float32}
+    IN03: {shape: [1], dtype: float32}
+    IN04: {shape: [1], dtype: float32}
+    IN05: {shape: [1], dtype: float32}
+    IN06: {shape: [1], dtype: float32}
+    IN07: {shape: [1], dtype: float32}
+    IN08: {shape: [1], dtype: float32}
+    M00: {shape: [1], dtype: float32}
+    OUT00: {shape: [1], dtype: float32}
+    OUT01: {shape: [1], dtype: float32}
+    OUT02: {shape: [1], dtype: float32}
+    OUT03: {shape: [1], dtype: float32}
+    OUT04: {shape: [1], dtype: float32}
+    OUT05: {shape: [1], dtype: float32}
+    OUT06: {shape: [1], dtype: float32}
+    OUT07: {shape: [1], dtype: float32}
+    OUT08: {shape: [1], dtype: float32}
+    VAE: {shape: [1], dtype: float32}
