@@ -1,0 +1,10 @@
+gstools_cython-1.0.0rc1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+gstools_cython-1.0.0rc1.dist-info/WHEEL,sha256=hP2N_hS4PKw-M4krXQgMGtCEsQMkokQDIc5uU4EZO1Y,147
+gstools_cython-1.0.0rc1.dist-info/RECORD,,
+gstools_cython-1.0.0rc1.dist-info/top_level.txt,sha256=ixTzVPKGMID1plGf2p2ce4GkDjHt28CorVwCQS5IoZY,15
+gstools_cython-1.0.0rc1.dist-info/METADATA,sha256=Mh_arOe6S0Qss3nTRX3QAUh0fvHpmHrUZDDceYcVV-8,7200
+gstools_cython/krige.cpython-39-x86_64-linux-gnu.so,sha256=0P2Gc3IaPsOmwJnMnq2CWq_l0F0lw_n19epFjEHfPYw,1503512
+gstools_cython/field.cpython-39-x86_64-linux-gnu.so,sha256=31_Me-Su3v1N3JVAAf4HAPTJkXH7-uGL97PgeXID-_0,1573888
+gstools_cython/variogram.cpython-39-x86_64-linux-gnu.so,sha256=XrsbmKVqBKs5WFYDn6hph6pHTywK74EDBvs-JzJwv1s,1895664
+gstools_cython/_version.py,sha256=TZaKMzNY6PVSmtg-j0ORIgPV1vk_uY-dKLv4sFan6Z0,24
+gstools_cython/__init__.py,sha256=yRE0Hzm997_PO_Fc506u93TkIM9SPw0vUmZv306m0b8,673
