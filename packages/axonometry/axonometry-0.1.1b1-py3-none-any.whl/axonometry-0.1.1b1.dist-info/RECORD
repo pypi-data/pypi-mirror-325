@@ -1,0 +1,15 @@
+axonometry/__init__.py,sha256=8TaL31FfJiiymwVb1AVRYRD76kdnemHU2OekoOQCJEI,464
+axonometry/axonometry.alpha.py,sha256=Qz4CoAS8mQRJuhVOa21baR9_t1z7g3uwvbrhGD3yq58,13980
+axonometry/axonometry.py,sha256=oSdTpX1g8WCMCo5TIxYGTyeirWDTiXtoGeJUpb3coDY,3039
+axonometry/config.alpha.py,sha256=jram7MBELtyr6FVOA_2ASwB9DiTnI4VCqpI55w11VBk,3468
+axonometry/config.py,sha256=k9GHHm6GS8INNuFu4BI9lSF91ennFnui1Ij0hO8okE8,2807
+axonometry/drawing.alpha.py,sha256=_MEFy0HNGoVG9GSAfseME_BawWQPHUpuDcT1jZSrbeQ,6864
+axonometry/drawing.py,sha256=Lg5XYExvQFCJZHiXgp1_AuffjJIx7T5VWwKsFNXnZG0,4316
+axonometry/geometry.alpha.py,sha256=0V9ubZX780GsRNGB1pPsVZu1udrHEOJm37xdvD-Y3Nw,18435
+axonometry/geometry.py,sha256=mnfecp1XuknMCmXkKQI3BHB4Tzabf3ERTXvKMpJhm90,14154
+axonometry/trihedron.py,sha256=y3l8_544Um6orRxOPjbw2xiZpk7Vkxzt8O34pSqhJ6Q,9960
+axonometry/utils.alpha.py,sha256=IOoj45C7g5UjLRqYec-TM7YTsDwhkIUSLONGzOctE44,4433
+axonometry-0.1.1b1.dist-info/METADATA,sha256=xW9G8ECmsK5iTbFsYdVqmZKnNZHl4xn88mTarqW0kko,4298
+axonometry-0.1.1b1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+axonometry-0.1.1b1.dist-info/top_level.txt,sha256=mkIfPeywiKs5y9vkstVBRrUhpucQ8_zzVuVCqAfRcoE,11
+axonometry-0.1.1b1.dist-info/RECORD,,
