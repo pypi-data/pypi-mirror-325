@@ -1,0 +1,22 @@
+# 1. 包含所有 Python 源文件
+include *.py
+
+# 2. 包含所有的文档文件
+include *.txt
+include *.rst
+include README.md
+
+# 3. 包含所有的配置文件（例如 .ini、.json 等）
+include *.ini
+include *.json
+
+# 4. 包含所有的静态资源和数据文件
+recursive-include chinese_library_classification/static *
+recursive-include chinese_library_classification/data *
+
+# 5. 排除一些不必要的文件（例如临时文件）
+exclude *.pyc
+exclude *.pyo
+exclude *.log
+exclude .DS_Store
+

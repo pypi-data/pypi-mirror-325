@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+chinese_library_classification/__init__.py
+chinese_library_classification/chinese_library_classification.py
+chinese_library_classification/utils.py
+chinese_library_classification.egg-info/PKG-INFO
+chinese_library_classification.egg-info/SOURCES.txt
+chinese_library_classification.egg-info/dependency_links.txt
+chinese_library_classification.egg-info/top_level.txt
+chinese_library_classification/data/data.json
+tests/test_Chinese_library_classification.py
