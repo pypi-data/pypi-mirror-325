@@ -1,0 +1,2 @@
+[console_scripts]
+pipenv-tools-hook = pipenv_tools_hook:main
