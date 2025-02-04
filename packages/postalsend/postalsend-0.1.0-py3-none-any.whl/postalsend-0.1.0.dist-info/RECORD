@@ -1,0 +1,12 @@
+postalsend/__init__.py,sha256=iMaD3yWRZZmbRCYs3zd6S43SzYrjgZD6dO-NJ_GuMz8,162
+postalsend/_app.py,sha256=BDiIyyJhifvIcxekRS48ZoeL5ea98JrAm-Fu0DJplKE,808
+postalsend/_server.py,sha256=LHxtg3FcSuyTFFY4THPIyt4ttowBOcg2fXiDLAxlJOE,294
+postalsend/authentication.py,sha256=8-YHahthRchaxtFX3c85YCDUTbM3bbwvdcaefsUt01Q,121
+postalsend/errors.py,sha256=Lkh6fhwFh3iQR7UidMSSDJS1Sy8cQvehx26lEVq4SOM,2341
+postalsend/message.py,sha256=bPt644KtZWcsPemL9fLdmkyuTPfqTu1uvmDSw7H_9ew,5386
+postalsend/push.py,sha256=1yZo_C-V5JxVKEKch7G56wu93YdBdx1bS4Z4xu0mD1Y,1378
+postalsend-0.1.0.dist-info/LICENSE,sha256=5zP4NIe6oVOguDTcVZ6DpEQoR0FrvuqJJPcn-YrqFdU,1090
+postalsend-0.1.0.dist-info/METADATA,sha256=Z-Vz5hjWkUIMrq9x5Uhdy5VtZvibaDfsx60j7818UJM,1453
+postalsend-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+postalsend-0.1.0.dist-info/top_level.txt,sha256=QKiQGmpfqKZH_dQh57bJsUkxXWsHwnNGWubn_lCcN9U,11
+postalsend-0.1.0.dist-info/RECORD,,
