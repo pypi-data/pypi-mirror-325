@@ -1,0 +1,6 @@
+Metadata-Version: 2.2
+Name: ads_napari
+Version: 0.0.1
+Classifier: Framework :: napari
+Requires-Dist: napari[all]
+Requires-Dist: qtpy

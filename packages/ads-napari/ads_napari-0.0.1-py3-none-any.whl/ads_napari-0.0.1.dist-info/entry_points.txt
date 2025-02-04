@@ -1,0 +1,2 @@
+[napari.manifest]
+ads_napari = ads_napari:napari.yaml
