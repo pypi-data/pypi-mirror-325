@@ -1,0 +1,52 @@
+{
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+  "python.testing.pytestArgs": ["tests"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.analysis.exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    ".git",
+    "**/build",
+    "venv/**",
+    "src/drolta/parsing/**"
+  ],
+  "cSpell.words": [
+    "Addam",
+    "Aemma",
+    "Aemond",
+    "alicent",
+    "Alyn",
+    "Arryn",
+    "baela",
+    "Baratheon",
+    "Belmont",
+    "corlys",
+    "Cristen",
+    "Daenerys",
+    "Datalog",
+    "debuffs",
+    "Drolta",
+    "harwin",
+    "Hightower",
+    "interestingness",
+    "Jacaerys",
+    "jace",
+    "laena",
+    "Laenor",
+    "Lannister",
+    "marilda",
+    "rhaenyra",
+    "Rhaenys",
+    "Targaryen",
+    "Velaryon",
+    "Viserys"
+  ]
+}
