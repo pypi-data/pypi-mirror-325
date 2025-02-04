@@ -1,0 +1,12 @@
+[build-system]
+requires = ["hatchling", "wheel"]
+build-backend = "hatchling.build"
+
+[project]
+name = "json_js"
+version = "0.1.8.1"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["src/__pycache__", "src/json_js/__pycache__"]
