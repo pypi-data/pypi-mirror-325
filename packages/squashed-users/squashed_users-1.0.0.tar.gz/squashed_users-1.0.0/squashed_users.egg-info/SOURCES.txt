@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+django/contrib/auth/migrations/0001_squashed_0012_alter_user_first_name_max_length.py
+squashed_users.egg-info/PKG-INFO
+squashed_users.egg-info/SOURCES.txt
+squashed_users.egg-info/dependency_links.txt
+squashed_users.egg-info/top_level.txt

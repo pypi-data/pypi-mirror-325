@@ -1,0 +1,80 @@
+Metadata-Version: 2.2
+Name: squashed-users
+Version: 1.0.0
+Summary: django.contrib.auth migrations squashed into a single migration
+Author-email: "Bugsink B.V." <info@bugsink.com>
+License: Copyright 2025 Bugsink B.V.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+        list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+        this list of conditions and the following disclaimer in the documentation
+        and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its contributors
+        may be used to endorse or promote products derived from this software without
+        specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND
+        ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Squash migrations in django.contrib.auth for better performance and nicer output
+
+As requested on the [Django Ticket Tracker](https://code.djangoproject.com/ticket/35707), but as a separate package.
+
+### Why?
+
+* Faster migrations (for every (test) run)!
+* Less pollution on screen
+
+Counter-arguments about supposed breaking changes, stability etc. can be simply refuted by the fact that all such
+arguments would equally apply to _any_ use of squashed migrations.
+
+I believe in `squashmigrations`, so let's just "squash all the things"!
+
+### Usage
+
+```
+pip install squashed-users
+# migrate as usual
+```
+
+### How it's made
+
+On Django 4.2, the following was run:
+
+```
+pyton manage.py squashmigrations auth 0001 0012
+```
+
+The comments in the generated file were followed (copying RunMigration code over).
+
+Then, the file was moved from my virtualenv to this package.
+
+(No django.contrib.auth migrations have been made between Django 4.2 and 5.2, so this works for any supported Django
+version)
+
+### A Magic Wheel A.K.A. package-level Monkey-patching
+
+`django/contrib/auth/migrations/0001_squashed_0012_alter_user_first_name_max_length.py` is the only file in this
+"package", no `__init__.py` in any of the directories, and nothing else.
+
+Surprisingly, such a setup "works" in the sense that this squashed migration ends up in the right location, whether you
+install this package or Django first. Django then sees the file, and the usual migration magic kicks in from there.
