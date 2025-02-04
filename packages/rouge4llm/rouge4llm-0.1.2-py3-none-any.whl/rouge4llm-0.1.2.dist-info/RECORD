@@ -1,0 +1,8 @@
+rouge4llm/evaluator.py,sha256=43AQohQvjVKam1JHqOGc0GVyU9R17-TMqT0KWXS-ivM,1935
+rouge4llm/summarizer.py,sha256=34sVIn1Eh0zZq-KGSUKHK0AR6Ei4JCtPTm1c9zYB3Xo,1923
+rouge4llm/utils.py,sha256=zrkxgsg9wiiakjQZZp7c1ebHKaoNS8ZJ9HLc-BRMqJE,905
+rouge4llm/commands/run.py,sha256=zhuI_DA65S85R3lAHNZFnXLaH4EGA3J6vsEiZ2BacfE,2069
+rouge4llm-0.1.2.dist-info/METADATA,sha256=xZzXoASmdtjp4gvNdZuRa96_bD5JSYCjEjm3xFHe19E,836
+rouge4llm-0.1.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+rouge4llm-0.1.2.dist-info/top_level.txt,sha256=rQlcMF5SHg8uDX7fvtQUbrJFU54oPboVjTY6Uwb7DsY,10
+rouge4llm-0.1.2.dist-info/RECORD,,
