@@ -1,0 +1,13 @@
+ml_goodput_measurement/__init__.py,sha256=4S7jHwB4X39_wSmONaS87E5f8qheE9EIK1tfSpOBsTA,848
+ml_goodput_measurement/src/checkpoint_badput_calculator.py,sha256=UxazGnyVsZX8buTXgMNSkFdLTiO9nsCkFDgCtTrKvJI,22992
+ml_goodput_measurement/src/goodput.py,sha256=_JVtPjbAb5w3ZRN2KiI290tv0oKRVtX9cRwKBj-BzxI,42966
+ml_goodput_measurement/src/goodput_cache.py,sha256=IrLG-PwJpF_ZzBN6UEqJxW71p0UfRUjtkww_r4-N3qc,2613
+ml_goodput_measurement/src/goodput_utils.py,sha256=MzbVqG98YcV2BDQc66iBLhS-we4ZW1J6z7V6szPWldk,3059
+ml_goodput_measurement/src/monitoring.py,sha256=l8hMNLIob1dOuxSSYUqvFFsmSxvTVGfT6S_0psxGudQ,9907
+ml_goodput_measurement/tests/checkpoint_badput_calculator_test.py,sha256=ifj1stK-gTlgzNFSZYIUf2_8VlLEdh_00gsjghh_rxs,18588
+ml_goodput_measurement/tests/goodput_cache_test.py,sha256=27JqsAuyJAYd6DBqvQmw_iosSK5fUTjN8uAe_CCV9t0,4486
+ml_goodput_measurement/tests/goodput_test.py,sha256=XEse-FR2E0XjYAu2UBkZ8ON_xPDN4EilYMi-oB0_d30,60477
+ml_goodput_measurement/tests/monitoring_test.py,sha256=r6OXRB3-JJe03PTpx42WlLjgqX8OuDNtLjhoeAIrYzQ,9159
+ml_goodput_measurement-0.0.5.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+ml_goodput_measurement-0.0.5.dist-info/METADATA,sha256=dSHTVvzzwPGe5zNIFfbvrqKUsw6QdCV6tDHGsXr0HE4,19826
+ml_goodput_measurement-0.0.5.dist-info/RECORD,,
