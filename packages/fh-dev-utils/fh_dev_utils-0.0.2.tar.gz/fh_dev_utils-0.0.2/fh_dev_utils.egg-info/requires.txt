@@ -1,0 +1,6 @@
+python-fasthtml
+pytailwindcss
+jupyterlab
+sqlite-web
+
+[dev]
