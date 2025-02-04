@@ -1,0 +1,2 @@
+[console_scripts]
+cyclope = alcor_cyclope.cli:main

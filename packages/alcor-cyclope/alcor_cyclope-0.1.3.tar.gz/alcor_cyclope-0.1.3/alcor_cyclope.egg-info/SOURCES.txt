@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+alcor_cyclope/__init__.py
+alcor_cyclope/cli.py
+alcor_cyclope/client.py
+alcor_cyclope.egg-info/PKG-INFO
+alcor_cyclope.egg-info/SOURCES.txt
+alcor_cyclope.egg-info/dependency_links.txt
+alcor_cyclope.egg-info/entry_points.txt
+alcor_cyclope.egg-info/top_level.txt
