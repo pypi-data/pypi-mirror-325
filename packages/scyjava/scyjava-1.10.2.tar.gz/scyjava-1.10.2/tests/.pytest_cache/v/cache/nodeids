@@ -1,0 +1,4 @@
+[
+  "test_types.py::TestTypes::test_numeric_bounds",
+  "test_types.py::TestTypes::test_value_bounds"
+]
