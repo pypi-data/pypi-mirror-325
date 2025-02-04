@@ -1,0 +1,7 @@
+include src/braindynamics_starprotocol/sca/sca_cy.pyx
+
+exclude .gitignore
+recursive-exclude **/__pycache__ *
+recursive-exclude docs/ *
+recursive-exclude build/ *
+recursive-exclude example/ *
