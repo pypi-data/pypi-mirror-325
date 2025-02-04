@@ -1,0 +1,12 @@
+extended_settings/__init__.py,sha256=1cHpTCr5lFBKdHP0YTO_ATx9nq0aMEyF_mLH0-SnPpY,412
+extended_settings/admin.py,sha256=7PlJbVjCsysq_VkFkWmcr2cLKZzaciuDNMtpnffa2v4,962
+extended_settings/apps.py,sha256=200iSvLmsCh5ICPFlXcwk60a-O-EAVw6DDFl_yBCrJA,3523
+extended_settings/models.py,sha256=vHQV4qj5Z08umssc_p_eso5iyHi1xTTiKVaZ0bS7sc8,4529
+extended_settings/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+extended_settings/migrations/0001_initial.py,sha256=84BFKNAbrsexxOnxxMwx7ewAL0nhnB_k8wWZ-y498u0,1262
+extended_settings/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_extended_settings-1.3.1.dist-info/LICENSE.txt,sha256=xyhljVz1JeDzIfD07Zf0t0DhNPN1GOkA---cH3yfiKc,1545
+django_extended_settings-1.3.1.dist-info/METADATA,sha256=ijtLaXfObCX4UyqXOSYCS1km9Yw4pSfYz2U-jGYxTNs,3998
+django_extended_settings-1.3.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+django_extended_settings-1.3.1.dist-info/top_level.txt,sha256=ft4sMss0yLIm1auyC6m8WGfW4pq-ovo-BPDXRP7_Pd4,18
+django_extended_settings-1.3.1.dist-info/RECORD,,
