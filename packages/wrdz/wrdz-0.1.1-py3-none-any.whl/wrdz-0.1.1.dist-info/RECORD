@@ -1,0 +1,9 @@
+wrdz/__init__.py,sha256=T2WxzmFqxOXlTxu-9QCa5EwuCyG1uBmp6zuxXtP0B_U,1371
+wrdz/base.py,sha256=QXqXD66o4dVOdm6XjEFyVVAlFwRQ8zmEawKHCWV53h0,2891
+wrdz/bit_io.py,sha256=7LiQCX8d8g8YrsLJGSpvGPTtmZEuUNWdPbBXitcQGeY,1771
+wrdz/train.py,sha256=MzMEBoHgg7T71Gwr0DR0I9N1JwjAafspDxV4XPawC9A,2647
+wrdz/dicts/en_US.dict,sha256=KOQWeqSTKJmxPKDEnOHavM6l681g1dDiKn9twX_WTqc,316777
+wrdz/dicts/urls.dict,sha256=8J-ATdxfVuHVM-3uv_XPJ6Ei_HhHUjKPKmTlfI-Ccb8,312823
+wrdz-0.1.1.dist-info/METADATA,sha256=i7ofqwQalA2WjWes6HD2vwgyhCMmlsrfvtwQktaAMuk,5017
+wrdz-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+wrdz-0.1.1.dist-info/RECORD,,
