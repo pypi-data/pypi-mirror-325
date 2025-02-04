@@ -1,0 +1,242 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ ls
+LICENSE					src
+README.md				stdin.txt
+debug.log				stdout.txt
+pyproject.toml				web_socket_error_message_sink.py
+requirements.txt
+bash-3.2$ 
+bash-3.2$ exit
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ ls
+LICENSE					requirements.txt
+README.md				src
+command.log				stdin.txt
+debug.log				stdout.txt
+error_analysis.json			web_socket_error_message_sink.py
+pyproject.toml
+bash-3.2$ 
+bash-3.2$ exit
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ 
+bash-3.2$ ls asdf
+ls: asdf: No such file or directory
+bash-3.2$ 
+bash-3.2$ exit
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ lsa [K[K adf
+ls: adf: No such file or directory
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ ls
+LICENSE					pyproject.toml
+README.md				requirements.txt
+command.log				src
+debug.log				stdin.txt
+dist					stdout.txt
+error_analysis.json			web_socket_error_message_sink.py
+bash-3.2$ 
+bash-3.2$ uptime
+10:55  up 6 days,  3:50, 17 users, load averages: 2.89 3.08 3.08
+bash-3.2$ 
+bash-3.2$ exit
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ ls
+LICENSE					pyproject.toml
+README.md				requirements.txt
+command.log				src
+debug.log				stdin.txt
+dist					stdout.txt
+error_analysis.json			web_socket_error_message_sink.py
+poetry.lock
+bash-3.2$ exit
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ c
+bash: c: command not found
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ exit
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ exit
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ ls
+LICENSE					pyproject.toml
+README.md				requirements.txt
+command.log				src
+debug.log				stdin.txt
+dist					stdout.txt
+error_analysis.json			web_socket_error_message_sink.py
+poetry.lock
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ exit
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ 
+bash-3.2$ exit
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ t[Ktop
+[?1049h[1;24r(B[m[4l[?7h[?1034h[?1h=[H[2JProcesses: 775 total, 4 running, 771 sleeping, 6341 threads[1;72H06:00:24[2dLoad Avg: 4.70, 5.35, 5.68  CPU usage: 20.32% user, 13.82% sys, 65.85% idle[3dSharedLibs: 599M resident, 93M data, 33M linkedit.[4dMemRegions: 1102895 total, 10G resident, 233M private, 6797M shared.[5dPhysMem: 35G used (4546M wired, 13G compressor), 561M unused.[6dVM: 377T vsize, 4921M framework vsize, 1253339(0) swapins, 2506611(0) swapouts.[7dNetworks: packets: 54755236/64G in, 36706783/35G out.[8dDisks: 28118232/565G read, 13983307/316G written.[10dPID    COMMAND[21G(B[0;7m%CPU(B[m TIME     #TH    #WQ  #POR MEM   PURG  CMPRS PGRP  PPID[11d99387  com.apple.ap 0.0  00:04.42 3[42G1    311  65M   0B    30M   99387 1[12d99135  Google Chrom 0.0  01:15.19 23     1    243  101M  0B    97M   78000 78000[13;1H97636  node[13;21H0.0  00:28.99 13     1    52   365M  0B    337M  97541 1[14d96760  Google Chrom 0.0  00:05.95 21     1    180  39M   0B    32M   78000 78000[15;1H95873  PerfPowerSer 0.0  01:43.01 5[42G2    597  20M   128K  6096K 95873 1[16d94780  talagent     0.0  00:00.88 2[42G1    142  8530K 0B    4896K 94780 1[17d92669  netbiosd     0.0  00:03.20 2[42G1    26   2785K 0B    1088K 92669 1[18d91329  copilot-lang 0.0  00:28.46 20     0    53   277M  0B    249M  91323 91323[19;1H91327  fsnotifier   0.0  00:19.47 3[42G1    29   4561K 0B    2272K 91323 91323[20;1H91323  rustrover    0.0  05:09:19 96     2    625  4529M 0B    3439M 91323 1[21d90257  com.apple.We 0.0  00:14.05 5[42G1    246  33M   0B    15M   90257 1[22d90249  com.apple.We 0.0  00:02.35 3[42G1    72   6626K 0B    4464K 90249 1[23d90246  com.apple.We 0.0  00:10.73 2[42G1    69   36M   0B    14M   90246 1[24d90244  com.apple.Sa 0.0  00:00.23 2[42G1    68   10M   0B    9888K 90244 1[1;50H26[79G5[2;40H19.75[2;53H6.36% sys, 73.88[1P[5;23H5[5;51H49[7;25H343[7;42H881[8;12H9284[8;32H4394[10;51HT MEM    PURG  CMPRS  PGRP[K[11d2270 [11;18HVi 71.5 13:18:46 24     2    83    6079M  0B    8370M- 2270[12d54223  com.apple.Mo 55.6 04:09.65 7/1    5/1  177   37M+   0B    22M    54223[K[13d316    fseventsd    16.4 25:23.27 22[13;47H316+  8546K- 0B    2640K  316[K[14d91323  rustrover    12.0 05:09:19 96     2    625   4529M  0B    3435M- 91323[K[15d380    WindowServer 8.4  10:40:59 21     5    7625- 2914M- 235M+ 443M-  380[K[16d10796  pycharm      7.9  05:06:39 158/3  3    896-  7679M- 334M  2637M  10796[17d0      kernel_task  6.5  09:40:37 734/13 0    0     9952K- 0B    0B     0[K[18d56148  top          5.2  00:00.88 1/1[18;47H27+   12M+   0B    0B     56148[K[19d646    iTerm2       3.8  02:50:41 15[43G2   525   903M-  165M+ 329M-  646[K[20d737    Activity Mon 2.5  01:44:18 5      3    686   89M-   48K+  38M-   737[K[21d340    mds          2.4  30:47.92 8[42G5    655   65M    0B    52M    340[K[22d54024  Google Chrom 2.2[30G5.10 24[22;47H343   184M+  0B    73M-   78000[23d578    mds_stores   2.1  03:31:19 6[42G4    117   67M+   0B    37M    578[K[24d54856  Google Chrom 2.1  02:09.26 35[24;47H400   493M+  0B    256M   78000[24;1H[?1049l[?1l>bash-3.2$ 
+bash-3.2$ top
+[?1049h[1;24r(B[m[4l[?7h[?1034h[?1h=[H[2JProcesses: 785 total, 2 running, 783 sleeping, 6538 threads[1;72H06:03:50[2dLoad Avg: 18.11, 8.13, 6.59  CPU usage: 14.75% user, 10.66% sys, 74.57% idle[3dSharedLibs: 583M resident, 91M data, 33M linkedit.[4dMemRegions: 1104961 total, 12G resident, 258M private, 5986M shared.[5dPhysMem: 35G used (4801M wired, 12G compressor), 421M unused.[6dVM: 381T vsize, 4921M framework vsize, 1254153(0) swapins, 2506611(0) swapouts.[7dNetworks: packets: 54769783/64G in, 36716926/35G out.[8dDisks: 28818829/582G read, 14142565/320G written.[10dPID    COMMAND[21G(B[0;7m%CPU(B[m TIME     #TH    #WQ  #POR MEM   PURG  CMPRS PGRP  PPID[11d99387  com.apple.ap 0.0  00:04.43 5[42G3    312  65M   0B    29M   99387 1[12d99135  Google Chrom 0.0  01:15.20 23     1    243  101M  0B    97M   78000 78000[13;1H97636  node[13;21H0.0  00:29.46 13     1    52   365M  0B    335M  97541 1[14d96760  Google Chrom 0.0  00:05.96 21     1    180  39M   0B    27M   78000 78000[15;1H95873  PerfPowerSer 0.0  01:43.37 6[42G3    595  20M   128K  6752K 95873 1[16d94780  talagent     0.0  00:00.89 3[42G2    143  8562K 0B    5168K 94780 1[17d92669  netbiosd     0.0  00:03.20 2[42G1    26   2801K 0B    2432K 92669 1[18d91329  copilot-lang 0.0  00:28.46 20     0    53   277M  0B    249M  91323 91323[19;1H91327  fsnotifier   0.0  00:19.77 3[42G1    29   4561K 0B    2576K 91323 91323[20;1H91323  rustrover    0.0  05:09:50 97     2    625  4529M 0B    3236M 91323 1[21d90257  com.apple.We 0.0  00:14.05 6[42G1    249  33M   0B    14M   90257 1[22d90249  com.apple.We 0.0  00:02.35 4[42G1    74   6674K 0B    4672K 90249 1[23d90246  com.apple.We 0.0  00:10.74 3[42G1    71   36M   0B    14M   90246 1[24d90244  com.apple.Sa 0.0  00:00.23 2[42G1    68   10M   0B    9888K 90244 1[24;1H[?1049l[?1l>bash-3.2$ exit
+
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ 
+bash-3.2$ ls
+LICENSE					pyproject.toml
+README.md				requirements.txt
+command.log				src
+debug.log				stdin.txt
+dist					stdout.txt
+error_analysis.json			web_socket_error_message_sink.py
+poetry.lock
+bash-3.2$ 
+bash-3.2$ top
+[?1049h[1;24r(B[m[4l[?7h[?1034h[?1h=[H[2JProcesses: 782 total, 3 running, 1 stuck, 778 sleeping, 6489 threads   06:04:07[2dLoad Avg: 15.42, 8.01, 6.58  CPU usage: 13.52% user, 10.68% sys, 75.79% idle[3dSharedLibs: 584M resident, 91M data, 33M linkedit.[4dMemRegions: 1104485 total, 13G resident, 258M private, 5844M shared.[5dPhysMem: 35G used (4575M wired, 11G compressor), 384M unused.[6dVM: 380T vsize, 4921M framework vsize, 1254157(0) swapins, 2506611(0) swapouts.[7dNetworks: packets: 54771021/64G in, 36717698/35G out.[8dDisks: 28833615/582G read, 14143383/320G written.[10dPID    COMMAND[21G(B[0;7m%CPU(B[m TIME     #TH    #WQ  #POR MEM   PURG  CMPRS PGRP  PPID[11d99387  com.apple.ap 0.0  00:04.43 3[42G1    310  65M   0B    29M   99387 1[12d99135  Google Chrom 0.0  01:15.20 23     1    243  101M  0B    97M   78000 78000[13;1H97636  node[13;21H0.0  00:29.46 13     1    52   365M  0B    334M  97541 1[14d96760  Google Chrom 0.0  00:05.96 21     1    180  39M   0B    27M   78000 78000[15;1H95873  PerfPowerSer 0.0  01:43.84 6[42G3    594  20M   512K  5072K 95873 1[16d94780  talagent     0.0  00:00.89 2[42G1    142  8514K 0B    5168K 94780 1[17d92669  netbiosd     0.0  00:03.20 2[42G1    26   2801K 0B    2432K 92669 1[18d91329  copilot-lang 0.0  00:28.47 20     0    53   277M  0B    249M  91323 91323[19;1H91327  fsnotifier   0.0  00:19.78 3[42G1    29   4561K 0B    2432K 91323 91323[20;1H91323  rustrover    0.0  05:09:52 99     2    628  4529M 0B    3207M 91323 1[21d90257  com.apple.We 0.0  00:14.05 7[42G3    247  33M   0B    14M   90257 1[22d90249  com.apple.We 0.0  00:02.35 3[42G1    72   6658K 0B    4672K 90249 1[23d90246  com.apple.We 0.0  00:10.74 2[42G1    69   36M   0B    14M   90246 1[24d90244  com.apple.Sa 0.0  00:00.23 2[42G1    68   10M   0B    9888K 90244 1[24;1H[?1049l[?1l>bash-3.2$ top
+[?1049h[1;24r(B[m[4l[?7h[?1034h[?1h=[H[2JProcesses: 782 total, 2 running, 780 sleeping, 6463 threads[1;72H06:04:10[2dLoad Avg: 14.26, 7.90, 6.54  CPU usage: 13.59% user, 11.46% sys, 74.94% idle[3dSharedLibs: 584M resident, 91M data, 33M linkedit.[4dMemRegions: 1104437 total, 13G resident, 258M private, 5843M shared.[5dPhysMem: 35G used (4691M wired, 11G compressor), 333M unused.[6dVM: 380T vsize, 4921M framework vsize, 1254157(0) swapins, 2506611(0) swapouts.[7dNetworks: packets: 54771128/64G in, 36717805/35G out.[8dDisks: 28833616/582G read, 14143416/320G written.[10dPID    COMMAND[21G(B[0;7m%CPU(B[m TIME     #TH    #WQ  #POR MEM   PURG  CMPRS PGRP  PPID[11d99387  com.apple.ap 0.0  00:04.43 3[42G1    310  65M   0B    29M   99387 1[12d99135  Google Chrom 0.0  01:15.20 23     1    243  101M  0B    97M   78000 78000[13;1H97636  node[13;21H0.0  00:29.47 13     1    52   365M  0B    334M  97541 1[14d96760  Google Chrom 0.0  00:05.96 21     1    180  39M   0B    27M   78000 78000[15;1H95873  PerfPowerSer 0.0  01:43.84 6[42G3    594  20M   512K  5072K 95873 1[16d94780  talagent     0.0  00:00.89 2[42G1    142  8514K 0B    5168K 94780 1[17d92669  netbiosd     0.0  00:03.20 2[42G1    26   2801K 0B    2432K 92669 1[18d91329  copilot-lang 0.0  00:28.47 20     0    53   277M  0B    249M  91323 91323[19;1H91327  fsnotifier   0.0  00:19.78 3[42G1    29   4561K 0B    2432K 91323 91323[20;1H91323  rustrover    0.0  05:09:53 98     2    626  4529M 0B    3202M 91323 1[21d90257  com.apple.We 0.0  00:14.05 7[42G3    247  33M   0B    14M   90257 1[22d90249  com.apple.We 0.0  00:02.35 3[42G1    72   6658K 0B    4672K 90249 1[23d90246  com.apple.We 0.0  00:10.74 2[42G1    69   36M   0B    14M   90246 1[24d90244  com.apple.Sa 0.0  00:00.23 2[42G1    68   10M   0B    9888K 90244 1[24;1H[?1049l[?1l>bash-3.2$ 
+bash-3.2$ w
+ 6:04  up 6 days, 22:59, 5 users, load averages: 14.26 7.90 6.54
+USER       TTY      FROM    LOGIN@  IDLE WHAT
+kuscsik    console  -      Tue07   6days -
+kuscsik    s000     -      Thu14      17 -fish
+kuscsik    s002     -      Fri10   3days fish
+kuscsik    s003     -       5:46       - /opt/homebrew/Cellar/python@3.10/3.10.
+kuscsik    s015     -      Sun14   23:20 -fish
+bash-3.2$ top
+[?1049h[1;24r(B[m[4l[?7h[?1034h[?1h=[H[2JProcesses: 782 total, 3 running, 779 sleeping, 6374 threads[1;72H06:04:13[2dLoad Avg: 14.26, 7.90, 6.54  CPU usage: 16.9% user, 11.52% sys, 72.37% idle[3dSharedLibs: 584M resident, 91M data, 33M linkedit.[4dMemRegions: 1104262 total, 13G resident, 258M private, 5844M shared.[5dPhysMem: 35G used (4601M wired, 11G compressor), 335M unused.[6dVM: 380T vsize, 4921M framework vsize, 1254157(0) swapins, 2506611(0) swapouts.[7dNetworks: packets: 54771667/64G in, 36718089/35G out.[8dDisks: 28833725/582G read, 14143525/320G written.[10dPID    COMMAND[21G(B[0;7m%CPU(B[m TIME     #TH    #WQ  #POR MEM   PURG  CMPRS PGRP  PPID[11d99387  com.apple.ap 0.0  00:04.43 3[42G1    310  65M   0B    29M   99387 1[12d99135  Google Chrom 0.0  01:15.20 23     1    243  101M  0B    97M   78000 78000[13;1H97636  node[13;21H0.0  00:29.47 13     1    52   365M  0B    334M  97541 1[14d96760  Google Chrom 0.0  00:05.96 21     1    180  39M   0B    27M   78000 78000[15;1H95873  PerfPowerSer 0.0  01:43.84 4[42G1    591  20M   512K  5072K 95873 1[16d94780  talagent     0.0  00:00.89 2[42G1    142  8514K 0B    5168K 94780 1[17d92669  netbiosd     0.0  00:03.20 2[42G1    26   2801K 0B    2432K 92669 1[18d91329  copilot-lang 0.0  00:28.47 20     0    53   277M  0B    249M  91323 91323[19;1H91327  fsnotifier   0.0  00:19.78 3[42G1    29   4561K 0B    2432K 91323 91323[20;1H91323  rustrover    0.0  05:09:53 98     2    626  4529M 0B    3198M 91323 1[21d90257  com.apple.We 0.0  00:14.05 5[42G1    244  33M   0B    14M   90257 1[22d90249  com.apple.We 0.0  00:02.35 3[42G1    72   6658K 0B    4672K 90249 1[23d90246  com.apple.We 0.0  00:10.74 3[42G1    70   36M   0B    14M   90246 1[24d90244  com.apple.Sa 0.0  00:00.23 2[42G1    68   10M   0B    9888K 90244 1[1;23H2[1;35H80[1;51H5[79G4[2;12H3.68, 7.88, 6.55[2;42H3.10% user, 4.28[65G82.60[5;21H530[5;52H3[7;26H95[7;42H126[8;14H30[8;33H661[10;51HT MEM    PURG  CMPRS  PGRP[K[11d2270 [11;18HVi 72.6 13:21:51 24     2    83    6079M  0B    8396M- 2270[12d54856[12;21H12.1 03:12.26 36[12;47H404   547M-  0B    288M  [3P[13d91323  rustrover    11.3 05:09:53 98     2    626   4529M  0B    3195M- 91323[14d380    WindowServer 7.9  10:41:37 24     7    7636- 2914M- 237M+ 444M   380[K[15d10796  pycharm      7.7  05:08:00 154    3    893-  7684M- 340M  1250M  10796[16d56512  top          6.6[16;32H92 1/1    0    27+   12M+   0B    0B     56512[17d0      kernel_task  6.1  09:41:12 734/11 0    0     10M+   0B    0B     0[K[18d737    Activity Mon 5.6  01:44:24 5      3    686   89M-   48K+  37M    737[K[19d646    iTerm2       4.1  02:50:47 15[43G2   523   902M+  165M+ 331M-  646[K[20d714    gateway      3.3  91:36.44 8[42G1    519   1010M- 0B    476M-  714[K[21d971    sysmond      2.9  60:00.68 2[21;48H0    2801K  0B    1248K  971[K[22d946    adb          1.5  34:38.87 4[42G0    24    10M    0B    9184K  946[K[23d79411  clion        1.4  45:50.77 87[23;47H517   3222M  0B    1779M  79411[24d690    WhatsApp     1.3  50:51.00 22     3    1093  228M   256K  159M   690[K[24;1H[?1049l[?1l>bash-3.2$ 
+bash-3.2$ top
+[?1049h[1;24r(B[m[4l[?7h[?1034h[?1h=[H[2JProcesses: 782 total, 2 running, 780 sleeping, 6370 threads[1;72H06:04:16[2dLoad Avg: 13.68, 7.88, 6.55  CPU usage: 12.81% user, 10.52% sys, 76.65% idle[3dSharedLibs: 584M resident, 91M data, 33M linkedit.[4dMemRegions: 1104267 total, 13G resident, 258M private, 5844M shared.[5dPhysMem: 35G used (4575M wired, 11G compressor), 320M unused.[6dVM: 380T vsize, 4921M framework vsize, 1254157(0) swapins, 2506611(0) swapouts.[7dNetworks: packets: 54771715/64G in, 36718147/35G out.[8dDisks: 28833747/582G read, 14143738/320G written.[10dPID    COMMAND[21G(B[0;7m%CPU(B[m TIME     #TH    #WQ  #POR MEM   PURG  CMPRS PGRP  PPID[11d99387  com.apple.ap 0.0  00:04.43 3[42G1    310  65M   0B    29M   99387 1[12d99135  Google Chrom 0.0  01:15.20 23     1    243  101M  0B    97M   78000 78000[13;1H97636  node[13;21H0.0  00:29.47 13     1    52   365M  0B    334M  97541 1[14d96760  Google Chrom 0.0  00:05.96 21     1    180  39M   0B    27M   78000 78000[15;1H95873  PerfPowerSer 0.0  01:43.84 5[42G2    591  20M   512K  5072K 95873 1[16d94780  talagent     0.0  00:00.89 2[42G1    142  8514K 0B    5168K 94780 1[17d92669  netbiosd     0.0  00:03.20 2[42G1    26   2801K 0B    2432K 92669 1[18d91329  copilot-lang 0.0  00:28.47 20     0    53   277M  0B    249M  91323 91323[19;1H91327  fsnotifier   0.0  00:19.78 3[42G1    29   4561K 0B    2432K 91323 91323[20;1H91323  rustrover    0.0  05:09:54 98     2    626  4529M 0B    3191M 91323 1[21d90257  com.apple.We 0.0  00:14.05 5[42G1    244  33M   0B    14M   90257 1[22d90249  com.apple.We 0.0  00:02.35 3[42G1    72   6658K 0B    4672K 90249 1[23d90246  com.apple.We 0.0  00:10.74 3[42G1    71   36M   0B    14M   90246 1[24d90244  com.apple.Sa 0.0  00:00.23 2[42G1    68   10M   0B    9888K 90244 1[1;23H4[1;35H78[1;50H52[79G7[2;42H3.62[2;54H5.5% sys, 81.32[2P[5;21H483[5;51H1[7;26H27[7;43H63[8;14H73[8;32H4141/321[10;51HT MEM    PURG  CMPRS  PGRP[K[11d2270 [11;18HVi 74.6 13:21:53 23/1[11;47H82-   6079M- 0B    8396M  2270[12d54856[12;21H11.7 03:12.89 36/1[12;47H404   547M   0B    288M  [3P[13d91323  rustrover    11.4 05:09:54 98     2    626   4529M  0B    3189M- 91323[14d380    WindowServer 8.8  10:41:37 23     6    7637  2914M- 238M+ 444M   380[K[15d10796  pycharm      7.9  05:08:01 154    3    894   7684M  340M  1242M  10796[16d56518  top          6.8[16;32H92 1/1    0    27+   11M+   0B    0B     56518[17d0      kernel_task  6.5  09:41:12 734/11 0    0     10M-   0B    0B     0[K[18d1      launchd      5.3  16:23.46 3      2    4103  24M    0B    5184K  1[K[19d646    iTerm2       4.7  02:50:48 15[43G2   523   904M-  165M+ 331M-  646[K[20d714    gateway      1.6  91:36.50 8[42G1    519   1010M  0B    476M   714[K[21d536    syspolicyd   1.5  47:42.01[21;42H3    184   64M    544K  42M    536[K[22d79411  clion        1.4  45:50.83 87[22;47H517   3222M  0B    1779M  79411[23d690    WhatsApp     1.4  50:51.05 22     3    1094+ 228M+  256K  159M-  690[K[24d59837  zoom.us      1.3  02:24:06 46     4    750   237M   0B    178M   59837[1;23H3[1;36H9[79G9[2;14H38, 7.92, 6.57[2;42H7.88[2;54H6.20% sys, 75.90% idle[5;20H5008[5;50H241[7;25H823[7;42H259[8;15H7[8;35H9[11;21H88.2[11;33H4 23  [11;49H [11;58H [11;71H-[12d1188   Slack Helper 43.0 17:14.74 22  [12;47H289+  276M-[12;66H66M-   656[K[13d54856  Google Chrom 22.0 03:13.14 36     1    404   547M [13;66H288M   78000[14d91323  rustrover    14.9 05:09:54 98     2    626   4529M  0B    3187M- 91323[15;21H13.5[15;49H5+  7947M+ 286M-[16;21H11.9 00:01.05[16;49H [17d380    WindowServer 11.4 10:41:37 23     6    7637  2916M+ 235M- 444M-  380[18d971    sysmon[21G9.1  60:00.79 2[42G1    20    2801K[18;66H1248K  971[19d737    Activity Mon 7.5  01:44:24 5      3    684-  89M-   0B    37M    737[20d0      kernel_task  7.2  09:41:12 734/11 0    0     10M  [20;66H0B     0[K[21d646    iTerm2       5.5  02:50:48 15     12   523   901M-  165M  331M   64[22d95873  PerfPowerSer 2.3  01:43.87 6      3    594+  20M+   512K  5056K- 95873[23d79411  clion   [23G9  45:50.85 87     1    517   3222M  0B    1779M  79411[24;23H7[24;70H-[77G[1;14H4[1;23H5[1;50H81[78G20[2;44H57[2;54H7.54[2;66H4.87[4;17H536[4;58H57[5;21H231[5;50H163[7;26H59[7;43H86[8;13H81[8;34H67[11;33H5 24/1   2    83+[11;58H+[11;69H5[12d646    iTerm2       30.6 02:50:48 15[43G2   523   903M+  165M- 331M-  64[13d0      kernel_task  27.7 09:41:13 734/11 0    0     10M+[13;66H0B     0[K[14d54856  Google Chrom 21.6 03:13.39 36     1    404   547M [14;66H288M   78000[15d91323  rustrover    16.1 05:09:54 98     2    626   4529M  0B    3185M- 91323[16;22H2.1[32G19[16;48H9+   12[17d10796  pycharm      10.9 05:08:01 154    3    895   7947M  281M- 1242M  10796[18d380    WindowServer 9.3  10:41:37 23/1   6    7639+ 2916M+ 234M- 444M-  380[19d2189   com.docker.b 3.9  38:13.55 28     1    279   806M[19;66H578M-  2188[20d59837  zoom.us      1.9  02:24:06 46     4    750   237M[20;66H178M   59837[21d1168   Slack Helper 1.8  04:04.92 16     3    370+  452M+  160M+ 42M-   65[22d690    WhatsApp     1.8  50:51.09 22[22;47H1094  228M   0B-   159M   690[K[23;23H7[23;33H7[24d78010  Google Chrom 1.6  18:13.75 1[42G1    804   770M   247M- 135M   78000[1;50H78[79G1[2;44H45[2;54H5.50[2;66H7.4[1P[5;20H4583[7d1884[7;42H308[8;13H961[8;34H72[11;21H92.4[11;33H6[11;49H [11;58H [12d54856  Google Chrom 36.3 03:13.81 36[43G    404   548M+  0B    288M   78000[13d91323  rustrover    15.7 05:09:54 98/1   2    626   4529M[13;66H3183M- 91323[14d380    WindowServer 14.1 10:41:37 23     6    7637- 2916M- 235M+ 444M   380[K[15d646    iTerm2       12.0 02:50:48 9      6    501-  901M-  165M+ 331M-  646[K[16;22H1.9[32G33[16;49H [17d0      kernel_task  11.0 09:41:13 734/12 0    0     10M    0B    0B     0[K[18d10796  pycharm      10.5 05:08:01 154    3    895   7670M- 335M+ 1242M  10796[19d351    opendirector 7.3  12:51.83 8      7    2038  23M    128K  6128K  351[K[20d609    RTProtection 4.0  13:50.04 19     6    4924  118[20;66H98M-   609[K[21d737    Activity Mon 3.7  01:44:24 5 [21;47H685-  89M    0B    37M-   737[22d79411  clion   [23G9  45:50.89 87/1   1    517   3222M  0B    1779M  79411[23d707    Microsoft Wo 1.9  15:37.78 54[43G3   898+  499M+[23;66H395M-  707[K[24d690    WhatsApp     1.8  50:51.11 22     3    1094  228M   0B    159M   690[K[1;14H2[1;23H3[1;50H65[79G2[2;42H9[2;56H95[2;66H4.58% idle[4;17H267[5d4612[5;51H89[7;24H2253[7;42H430[8;14H72[8;33H259[11;24H2[11;33H7 24  [12d2279   Docker Deskt 24.6 99:18.58 21[12;47H161   102M-[12;67H7M    2188[K[13d54856  Google Chrom 22.4 03:14.07 36     1    404   547M-[13;66H288M   78000[14;22H9[14;33H8[14;51H [15d91323  rustrover    16.8 05:09:55 98     2    626   4529M  0B    3182M- 91323[16d646    iTerm2[16;22H4.7 02:50:48 9      6    501   901M   165M  331M-  646[K[17;24H9[17;40H1[17;56H-[18d56518  top    [22G1.7 00:01.47 1/1    0    27-   12M+   0B    0B     56518[19d10796  pycharm      11.1 05:08:01 154    3    895   7670M  335M  1242M  10796[20d714    gateway      6.2  91:36.61 8[42G2    521   1010M[20;66H476M   714[21d402    airportd     4.1  46:58.73 11     9    325+  21M+[21;66H5344K- 402[22d690    WhatsApp     2.0  50:51.13 21     2    1092- 228M-[22;67H59M   690[K[23d79411  clion       [26G45:50.92 87[43G    517   3222M[23;66H1779M  79411[24d59837  zoom.us [23G9  02:24:06 46     4    750   237[24;67H78M   59837[24;1H[?1049l[?1l>bash-3.2$ ls
+LICENSE					pyproject.toml
+README.md				requirements.txt
+command.log				src
+debug.log				stdin.txt
+dist					stdout.txt
+error_analysis.json			web_socket_error_message_sink.py
+poetry.lock
+bash-3.2$ upt
+bash: upt: command not found
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ p          
+bash: p: command not found
+bash-3.2$ 
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ w
+ 6:05  up 6 days, 23 hrs, 5 users, load averages: 5.79 6.89 6.30
+USER       TTY      FROM    LOGIN@  IDLE WHAT
+kuscsik    console  -      Tue07   6days -
+kuscsik    s000     -      Thu14      19 -fish
+kuscsik    s002     -      Fri10   3days fish
+kuscsik    s003     -       5:46       - /opt/homebrew/Cellar/python@3.10/3.10.
+kuscsik    s015     -      Sun14   23:21 -fish
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ ls /sadf
+ls: /sadf: No such file or directory
+bash-3.2$ 
+bash-3.2$ 
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ ls
+LICENSE					pyproject.toml
+README.md				requirements.txt
+command.log				src
+debug.log				stdin.txt
+dist					stdout.txt
+error_analysis.json			web_socket_error_message_sink.py
+poetry.lock
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ ls
+LICENSE					pyproject.toml
+README.md				requirements.txt
+command.log				src
+debug.log				stdin.txt
+dist					stdout.txt
+error_analysis.json			web_socket_error_message_sink.py
+poetry.lock
+bash-3.2$ 
+bash-3.2$ 
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ ls
+LICENSE					pyproject.toml
+README.md				requirements.txt
+command.log				src
+debug.log				stdin.txt
+dist					stdout.txt
+error_analysis.json			web_socket_error_message_sink.py
+poetry.lock
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ ls
+LICENSE					pyproject.toml
+README.md				requirements.txt
+command.log				src
+debug.log				stdin.txt
+dist					stdout.txt
+error_analysis.json			web_socket_error_message_sink.py
+poetry.lock
+bash-3.2$ ls
+LICENSE					pyproject.toml
+README.md				requirements.txt
+command.log				src
+debug.log				stdin.txt
+dist					stdout.txt
+error_analysis.json			web_socket_error_message_sink.py
+poetry.lock
+bash-3.2$ 
+bash-3.2$ 
