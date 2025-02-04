@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+cryptojs/__init__.py
+cryptojs/crypto.py
+encryptJS.egg-info/PKG-INFO
+encryptJS.egg-info/SOURCES.txt
+encryptJS.egg-info/dependency_links.txt
+encryptJS.egg-info/requires.txt
+encryptJS.egg-info/top_level.txt
