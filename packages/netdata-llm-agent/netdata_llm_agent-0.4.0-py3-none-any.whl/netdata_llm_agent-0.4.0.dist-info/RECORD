@@ -1,0 +1,11 @@
+netdata_llm_agent/__init__.py,sha256=uXixwwWrhgC_jxRM8BnndoUiI7tx9soTGxnQWNgGmOk,153
+netdata_llm_agent/agent.py,sha256=9lazRrnJw2wz0ljr0QNLoIx_NfwLGhviNTiarkQ_gCs,8642
+netdata_llm_agent/app.py,sha256=pOR-XTmZpKkbyxTyW2ez1dz7DGc-ckRK4dKdAvjRDFE,4810
+netdata_llm_agent/cli.py,sha256=lEHHEPD9nGwHMQBim0-XTXMFI9lwVXjUQHZn3d1tSl4,9146
+netdata_llm_agent/tools.py,sha256=cjSNuRM0vAj9UcniiOev2ZA8MfydSjzjC0QtzL-8p9Y,10366
+netdata_llm_agent-0.4.0.dist-info/LICENSE,sha256=0ZMKUM_RgZVRVR_Q4qKGq9giMbUU3ASUokT7aDD5x10,1092
+netdata_llm_agent-0.4.0.dist-info/METADATA,sha256=j36JwbIxVz7c4tX0SwD-Q52nzbkAGbUhjNiDTED1Xmk,16196
+netdata_llm_agent-0.4.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+netdata_llm_agent-0.4.0.dist-info/entry_points.txt,sha256=U7kayKeqhmaLOEQxvtGG-ZeAvjMPd_84cbF4BFNR-so,111
+netdata_llm_agent-0.4.0.dist-info/top_level.txt,sha256=JE1o4XI7Y_rhbZpJCLn9Y1hnSYs5qw-jF5VbWNeexJ8,18
+netdata_llm_agent-0.4.0.dist-info/RECORD,,
