@@ -1,0 +1,39 @@
+Metadata-Version: 2.3
+Name: rspyredis
+Version: 0.1.1
+Summary: A light python package for redis management.
+License: MIT
+Author: Reza Shirazi
+Author-email: itreza7@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: redis (>=5.2.1,<6.0.0)
+Project-URL: Repository, https://github.com/itreza7/rspyredis
+Description-Content-Type: text/markdown
+
+# Redis
+
+A light Python package for Redis management.
+
+## Features
+- **Singleton Redis Connection**: Ensures a single instance of the Redis connection for both synchronous and asynchronous operations.
+- **Flexible Configuration**: Easily configure the Redis connection with options for host, port, database, username, password, and SSL support.
+- **Synchronous Redis Client**: Provides a synchronous Redis client for basic Redis operations such as setting and getting keys.
+- **Asynchronous Redis Client**: Supports asynchronous Redis operations using `asyncio`, enabling non-blocking interactions with Redis.
+- **Automatic URL Construction**: Automatically constructs the Redis connection URL based on the provided configuration, including optional username, password, and SSL support.
+- **Error Handling**: Raises clear errors if required configuration values are missing, helping to debug connection issues quickly.
+- **Easy Integration**: Designed to integrate easily into any Python project for managing Redis connections without additional overhead.
+
+
+## Installation
+
+You can install the package directly with pip.
+
+```bash
+pip install rspyredis
+```
+
