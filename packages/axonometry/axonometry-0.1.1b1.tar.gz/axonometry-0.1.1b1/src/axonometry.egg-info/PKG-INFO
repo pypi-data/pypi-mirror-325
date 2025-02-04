@@ -1,0 +1,97 @@
+Metadata-Version: 2.2
+Name: axonometry
+Version: 0.1.1b1
+Summary: A Python library implementing axonometric projection by intersection in order to generate animations or vector drawings of curious objects.
+Author: Julien Rippinger
+Keywords: architecture,research,drawing,axonometry,projection
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Education
+Classifier: Topic :: Multimedia :: Graphics :: Editors :: Vector-Based
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: <3.13,>=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: compas~=2.6.1
+Requires-Dist: vpype[all]~=1.14.0
+Requires-Dist: setuptools
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: sphinx_copybutton; extra == "docs"
+
+<!--
+SPDX-FileCopyrightText: 2024 Julien Rippinger
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+[![pypi](https://img.shields.io/pypi/v/axonometry?label=PyPI&logo=pypi&color=blue)](https://pypi.org/project/axonometry/)
+[![license](https://img.shields.io/pypi/l/axonometry?color=blue)](https://axonometry.readthedocs.io/en/latest/license.html)
+[![reuse-status](https://api.reuse.software/badge/codeberg.org/mononym/axonometry)](https://api.reuse.software/info/codeberg.org/mononym/axonometry)
+[![rtd-status](https://img.shields.io/readthedocs/axonometry?label=Read%20the%20Docs&logo=read-the-docs)](https://axonometry.readthedocs.io/en/latest/)
+[![pipeline-status](https://ci.codeberg.org/api/badges/14144/status.svg?branch=beta)](https://ci.codeberg.org/repos/14144/branches/beta)
+
+#### Contents
+
+* [What is _axonometry_?](#what-is-_axonometry_)
+* [How does it work?](#how-does-it-work)
+* [Examples](#examples)
+* [What _axonometry_ isn't?](#what-_axonometry_-isn-t)
+* [Installation](#installation)
+* [Contributing](#contributing)
+* [License](#license)
+
+## What is _axonometry_?
+
+_axonometry_ is actualizing pre-CAD geometry and instrumental drawing knowledge.
+
+_axonometry_ is the top of the iceberg of my PhD project in Architecture
+
+Check the [documentation](https://axonometry.readthedocs.io/en/latest/) for a more thorough introduction to _axonometry_.
+
+## How does it work?
+
+_axonometry_ is a scripting library to generate axonometric vector drawings.
+
+## Examples
+
+You don't like computers and just want an axonometry layout and continue drawing by hand:
+```python
+import axonometry
+axo = axonometry.Axonometry(15,45)
+axo.save_svg()
+```
+
+## What _axonometry_ isn't?
+
+_axonometry_ caters to plotter generative art and does not aim to be a general purpose (think
+Illustrator/InkScape) vector graphic tools. One of the main reason for this is the fact _axonometry_ converts everything
+curvy (circles, bezier curves, etc.) to lines made of small segments. _axonometry_ does import metadata such stroke and fill color, stroke width, etc., it only makes partial use of them and does not aim to maintain a full consistency with the SVG specification. These design choices make _axonometry_'s rich feature set possible, but limits its use for, e.g., printed media.
+
+## Installation
+
+Detailed installation instructions are available in the [latest documentation](https://axonometry.readthedocs.io/en/latest/install.html).
+
+TL;DR:
+- Python 3.12 is recommended, but _axonometry_ is also compatible with Python 3.10 and 3.11.
+- _axonometry_ is published on the [Python Package Index](https://pypi.org/project/axonometry/).
+
+```bash
+python -m pip install axonometry
+```
+
+## Contributing
+
+All type of feedback is welcome. Contributions can take any form and do not necessarily require software development skills! Check the
+[Contributing section](https://axonometry.readthedocs.io/en/latest/contributing.html) of the documentation for more
+information.
+
+## License
+
+This project is licensed under the GPLv3 License - see the [LICENSE](./LICENSES/GPL-3.0-or-later.txt) file for details. Check the
+[Liceneses section](https://axonometry.readthedocs.io/en/latest/license.html) for more information.
