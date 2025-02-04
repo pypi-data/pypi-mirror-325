@@ -1,0 +1,5 @@
+nacl
+requests
+urllib3
+dacite
+pandas
