@@ -1,0 +1,5 @@
+[console_scripts]
+bumpver=deploy:bump_version_minor
+docs=deploy:build_documentation
+unittest=deploy:all_unit_tests
+

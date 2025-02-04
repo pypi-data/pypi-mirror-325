@@ -1,0 +1,15 @@
+rickled/__init__.py,sha256=tyI5XlVTqusQveZZwgKQoCw7k29pCFbyZi_C0hfTXSw,94913
+rickled/__version__.py,sha256=UrqV9ajK-fIhZkesd2p1aACwWR9Yv80n11JyTu58dac,48
+rickled/cli/__init__.py,sha256=NKsPydIJ1lqEs1MMRza4hl-IBO0t5oQzew8SeEXccK0,31153
+rickled/cli/__main__.py,sha256=O4SBhHoDuzxwTvmALRvsN171HZQied6KiD-B7pi9iMY,38
+rickled/cli/conv.py,sha256=NuuQxVIUYdMMI_vdCGKkCknRpnktlI5i-w87Wa9lZJk,903
+rickled/cli/obj.py,sha256=h6bXN2dWJp5SzZ0VWd1fCgUDBSAJx9jyJbS1nHEocis,12642
+rickled/cli/schema.py,sha256=wKqi3hhzMSwxp40TGXkazoB5kkAYKG1DQgET-gnyQU0,3202
+rickled/cli/serve.py,sha256=fCeK3jGhXmMsR1GAakVOR3x3Mwa86o8-kPwVhx0ORSQ,1552
+rickled/net.py,sha256=-tYDmsHEhcl8DZWxk65hsp_i7UktjqFGSRKTQM7JItA,4962
+rickled/tools.py,sha256=X--MwqZ_vbG_st7QRd0kH02ndZYRryCGv0JnEY1H5cY,57633
+rickled-1.2.0.dist-info/entry_points.txt,sha256=J7kopvWVQuq-oc3jn-IQlnWExyKB3VzcD1P-zB2jmew,116
+rickled-1.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+rickled-1.2.0.dist-info/METADATA,sha256=Sk2JUBAcV4mysc-bhLiR5HDxLxcu5wNyVmkV6Q3b14Q,10731
+rickled-1.2.0.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+rickled-1.2.0.dist-info/RECORD,,
