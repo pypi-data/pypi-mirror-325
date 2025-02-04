@@ -1,0 +1,13 @@
+README.md
+setup.py
+file_structure_builder/__init__.py
+file_structure_builder/builder.py
+file_structure_builder/cli.py
+file_structure_builder/parser.py
+file_structure_builder/utils.py
+file_structure_builder.egg-info/PKG-INFO
+file_structure_builder.egg-info/SOURCES.txt
+file_structure_builder.egg-info/dependency_links.txt
+file_structure_builder.egg-info/entry_points.txt
+file_structure_builder.egg-info/top_level.txt
+tests/test_builder.py

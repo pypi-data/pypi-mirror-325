@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: file-structure-builder
+Version: 1.0.2
+Summary: A CLI tool to build file structures
+Author: aliasghar mirshahi
+Author-email: aliasgharmirshahi2004@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: requires-python
+Dynamic: summary
