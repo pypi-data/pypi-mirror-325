@@ -1,0 +1,2 @@
+[console_scripts]
+cropioai = cropioai.cli.cli:cropioai
