@@ -1,0 +1,7 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongo_pckg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongo_pckg/mongo_crud.py,sha256=0d3UTpcTqdaXpFH98ugToSzuXslKH1jj1mwLM4oOm6E,2534
+mongo_pckg-0.0.4.dist-info/METADATA,sha256=TLhh9yPsspUJ6XzxoZKgxlewOo5xMc8q9CaVpTtKnV8,1266
+mongo_pckg-0.0.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mongo_pckg-0.0.4.dist-info/top_level.txt,sha256=KDHIYzaZ8NAEcWsxjhsVkKXlliR7XQAy61wjkROQo9s,20
+mongo_pckg-0.0.4.dist-info/RECORD,,
