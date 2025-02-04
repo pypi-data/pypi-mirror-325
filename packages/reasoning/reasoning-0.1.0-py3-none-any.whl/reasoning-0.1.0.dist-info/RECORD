@@ -1,0 +1,8 @@
+reasoning/__init__.py,sha256=cVM4wy3P8AlJTgScyDvwYrrOFxWj54GreMflq_i8hwM,243
+reasoning/core.py,sha256=yKWgSZ_eIcZGti_a5tIbrVC7GIKQJPNnupInvrdv9pk,4855
+reasoning/examples/anthropic_example.py,sha256=8t1qwwQObP71NdX6OH-FHizBJM8DUf2n_Gqd0kvdmuk,2263
+reasoning/examples/openai_example.py,sha256=aKgr6zatnEkNPwDDIUZkQwufVe6jomrxlI6r1IMGWc4,2245
+reasoning/examples/openrouter_example.py,sha256=bTDrmcfNFgSLqG-LMgBreEUHKovQoeWHrTRf5fhuYvw,5387
+reasoning-0.1.0.dist-info/METADATA,sha256=m6_W9rX6HArTy4CIKoVN64INOGZhtd-7he3E2jnfPRI,5533
+reasoning-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+reasoning-0.1.0.dist-info/RECORD,,
