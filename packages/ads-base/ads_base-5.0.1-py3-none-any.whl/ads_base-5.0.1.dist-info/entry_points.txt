@@ -1,0 +1,6 @@
+[console_scripts]
+axondeepseg = ads_base.segment:main
+axondeepseg_morphometrics = ads_base.morphometrics.launch_morphometrics_computation:main
+axondeepseg_test = ads_base.integrity_test:main
+download_model = ads_base.download_model:main
+download_tests = ads_base.download_tests:main
