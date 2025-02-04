@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+agente/__init__.py
+agente.egg-info/PKG-INFO
+agente.egg-info/SOURCES.txt
+agente.egg-info/dependency_links.txt
+agente.egg-info/requires.txt
+agente.egg-info/top_level.txt
