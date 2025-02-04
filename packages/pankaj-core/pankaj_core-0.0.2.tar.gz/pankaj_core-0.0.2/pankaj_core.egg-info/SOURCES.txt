@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+pankaj_core/__init__.py
+pankaj_core/example.py
+pankaj_core.egg-info/PKG-INFO
+pankaj_core.egg-info/SOURCES.txt
+pankaj_core.egg-info/dependency_links.txt
+pankaj_core.egg-info/top_level.txt

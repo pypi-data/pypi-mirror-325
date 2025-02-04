@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: pankaj_core
+Version: 0.0.2
+Summary: A example package for test
+Author-email: Pankaj Pratap Singh <pankajsys.engg@gmail.com>
+Project-URL: Homepage, https://github.com/pankajps/pankaj_core
+Project-URL: Issues, https://github.com/pankajps/pankaj_core/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Pankaj_Code
+
+Pankaj_Code is a test example Python package designed for demonstration purposes.
+
+## Installation
+
+You can install Pankaj_Code using pip:
+
+```bash
+pip install pankaj_code
