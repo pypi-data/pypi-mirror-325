@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/ALSTracker/__init__.py
+src/ALSTracker/alstracker.py
+src/ALSTracker.egg-info/PKG-INFO
+src/ALSTracker.egg-info/SOURCES.txt
+src/ALSTracker.egg-info/dependency_links.txt
+src/ALSTracker.egg-info/requires.txt
+src/ALSTracker.egg-info/top_level.txt
