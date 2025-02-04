@@ -1,0 +1,2 @@
+[console_scripts]
+timestream-cleaner = timestream_cleaner.timestream_cleaner:app
