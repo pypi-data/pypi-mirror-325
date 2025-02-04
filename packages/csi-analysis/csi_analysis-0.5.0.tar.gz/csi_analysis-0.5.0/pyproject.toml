@@ -1,0 +1,82 @@
+[project]
+name = "csi_analysis"
+version = "0.5.0"
+description = "CSI-Cancer analysis pipeline templates."
+requires-python = ">=3.11"
+authors = [
+    { name = "Brian Zhang", email = "8885230+brianjzhang@users.noreply.github.com" }
+]
+readme = "README.md"
+
+dependencies = [
+    "csi_images >= 3.0.0",
+    "numpy",
+    "pandas",
+    "loguru",
+    "tqdm",
+]
+
+
+[project.optional-dependencies]
+images = [
+    "csi_images[imageio] >= 3.0.0",
+    "scikit-image",
+    "opencv-python",
+]
+cpu_ml = [
+    "torch",
+    "torchvision",
+    "torchsummary",
+    "scikit-learn",
+]
+gpu_ml = [
+    "torch",
+    "torchvision",
+    "torchsummary",
+    "cuml",
+]
+cellpose = [
+    "cellpose",
+]
+training = [
+    "torch",
+    "torchvision",
+    "torchsummary",
+]
+dev = [
+    "pdoc",
+    "pytest",
+    "hatchling",
+    "build",
+    "twine",
+]
+all = [
+    "csi_analysis[images]",
+    "csi_analysis[cpu_ml]",
+    "csi_analysis[gpu_ml]",
+    "csi_analysis[cellpose]",
+    "csi_analysis[dev]",
+]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+
+[tool.poetry]
+name = "channel_classifier"
+version = "0.1.0"
+description = "Channel Classifier for lb-x"
+authors = ["Rajiv Mandya Nagaraju <mandyana@usc.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+csi_utils = { git = "git@github.com:CSI-Cancer/csi_utils.git", branch = "main" }
+csi_images = { git = "git@github.com:CSI-Cancer/csi_images.git", branch = "main" }
+python-dotenv = "*"
+pandas = "*"
+numpy = "*"
