@@ -1,0 +1,29 @@
+Metadata-Version: 2.2
+Name: asset_management
+Version: 0.1.0
+Summary: A Python package for asset management
+Home-page: https://github.com/sajjad-shokrgozar/asset_management
+Author: sajjad_shokrgozar
+Author-email: shokrgozarsajjad@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: requests
+Requires-Dist: matplotlib
+Requires-Dist: jdatetime
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
