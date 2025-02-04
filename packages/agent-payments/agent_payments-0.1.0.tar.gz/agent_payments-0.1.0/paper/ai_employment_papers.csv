@@ -1,0 +1,1646 @@
+Title,Authors,Summary,URL
+"Towards the Terminator Economy: Assessing Job Exposure to AI through
+  LLMs","Emilio Colombo, Fabio Mercorio, Mario Mezzanzanica, Antonio Serino","The spread and rapid development of AI-related technologies are influencing
+many aspects of our daily lives, from social to educational, including the
+labour market. Many researchers have been highlighting the key role AI and
+technologies play in reshaping jobs and their related tasks, either by
+automating or enhancing human capabilities in the workplace. Can we estimate
+if, and to what extent, jobs and related tasks are exposed to the risk of being
+automatized by state-of-the-art AI-related technologies? Our work tackles this
+question through a data-driven approach: (i) developing a reproducible
+framework that exploits a battery of open-source Large Language Models to
+assess current AI and robotics' capabilities in performing job-related tasks;
+(ii) formalising and computing an AI exposure measure by occupation, namely the
+teai (Task Exposure to AI) index. Our results show that about one-third of U.S.
+employment is highly exposed to AI, primarily in high-skill jobs (aka, white
+collars). This exposure correlates positively with employment and wage growth
+from 2019 to 2023, indicating a beneficial impact of AI on productivity. The
+source codes and results are publicly available, enabling the whole community
+to benchmark and track AI and technology capabilities over time.",http://arxiv.org/abs/2407.19204v1
+"What Type of Explanation Do Rejected Job Applicants Want? Implications
+  for Explainable AI","Matthew Olckers, Alicia Vidler, Toby Walsh","Rejected job applicants seldom receive explanations from employers.
+Techniques from Explainable AI (XAI) could provide explanations at scale.
+Although XAI researchers have developed many different types of explanations,
+we know little about the type of explanations job applicants want. We use a
+survey of recent job applicants to fill this gap. Our survey generates three
+main insights. First, the current norm of, at most, generic feedback frustrates
+applicants. Second, applicants feel the employer has an obligation to provide
+an explanation. Third, job applicants want to know why they were unsuccessful
+and how to improve.",http://arxiv.org/abs/2205.09649v1
+A Psychopathological Approach to Safety Engineering in AI and AGI,"Vahid Behzadan, Arslan Munir, Roman V. Yampolskiy","The complexity of dynamics in AI techniques is already approaching that of
+complex adaptive systems, thus curtailing the feasibility of formal
+controllability and reachability analysis in the context of AI safety. It
+follows that the envisioned instances of Artificial General Intelligence (AGI)
+will also suffer from challenges of complexity. To tackle such issues, we
+propose the modeling of deleterious behaviors in AI and AGI as psychological
+disorders, thereby enabling the employment of psychopathological approaches to
+analysis and control of misbehaviors. Accordingly, we present a discussion on
+the feasibility of the psychopathological approaches to AI safety, and propose
+general directions for research on modeling, diagnosis, and treatment of
+psychological disorders in AGI.",http://arxiv.org/abs/1805.08915v1
+"What does it mean to be a responsible AI practitioner: An ontology of
+  roles and skills","Shalaleh Rismani, AJung Moon","With the growing need to regulate AI systems across a wide variety of
+application domains, a new set of occupations has emerged in the industry. The
+so-called responsible AI practitioners or AI ethicists are generally tasked
+with interpreting and operationalizing best practices for ethical and safe
+design of AI systems. Due to the nascent nature of these roles, however, it is
+unclear to future employers and aspiring AI ethicists what specific function
+these roles serve and what skills are necessary to serve the functions. Without
+clarity on these, we cannot train future AI ethicists with meaningful learning
+objectives.
+  In this work, we examine what responsible AI practitioners do in the industry
+and what skills they employ on the job. We propose an ontology of existing
+roles alongside skills and competencies that serve each role. We created this
+ontology by examining the job postings for such roles over a two-year period
+(2020-2022) and conducting expert interviews with fourteen individuals who
+currently hold such a role in the industry. Our ontology contributes to
+business leaders looking to build responsible AI teams and provides educators
+with a set of competencies that an AI ethics curriculum can prioritize.",http://arxiv.org/abs/2205.03946v2
+"Designing an AI-Driven Talent Intelligence Solution: Exploring Big Data
+  to extend the TOE Framework","Ali Faqihi, Shah J Miah","AI has the potential to improve approaches to talent management enabling
+dynamic provisions through implementing advanced automation. This study aims to
+identify the new requirements for developing AI-oriented artifacts to address
+talent management issues. Focusing on enhancing interactions between
+professional assessment and planning attributes, the design artifact is an
+intelligent employment automation solution for career guidance that is largely
+dependent on a talent intelligent module and an individuals growth needs. A
+design science method is adopted for conducting the experimental study with
+structured machine learning techniques which is the primary element of a
+comprehensive AI solution framework informed through a proposed moderation of
+the technology-organization-environment theory.",http://arxiv.org/abs/2207.12052v1
+Skills or Degree? The Rise of Skill-Based Hiring for AI and Green Jobs,"Matthew Bone, Eugenia Ehlinger, Fabian Stephany","Emerging professions in fields like Artificial Intelligence (AI) and
+sustainability (green jobs) are experiencing labour shortages as industry
+demand outpaces labour supply. In this context, our study aims to understand
+whether employers have begun focusing more on individual skills rather than
+formal qualifications in their recruitment processes. We analysed a large
+time-series dataset of approximately eleven million online job vacancies in the
+UK from 2018 to mid-2024, drawing on diverse literature on technological change
+and labour market signalling. Our findings provide evidence that employers have
+initiated ""skill-based hiring"" for AI roles, adopting more flexible hiring
+practices to expand the available talent pool. From 2018-2023, demand for AI
+roles grew by 21% as a proportion of all postings (and accelerated into 2024).
+Simultaneously, mentions of university education requirements for AI roles
+declined by 15%. Our regression analysis shows that university degrees have a
+significantly lower wage premium for both AI and green roles. In contrast, AI
+skills command a wage premium of 23%, exceeding the value of degrees up until
+the PhD-level (33%). In occupations with high demand for AI skills, the premium
+for skills is high, and the reward for degrees is relatively low. We recommend
+leveraging alternative skill-building formats such as apprenticeships,
+on-the-job training, MOOCs, vocational education and training,
+micro-certificates, and online bootcamps to fully utilise human capital and
+address talent shortages.",http://arxiv.org/abs/2312.11942v2
+Predicting the Impact of Generative AI Using an Agent-Based Model,"Joao Tiago Aparicio, Manuela Aparicio, Sofia Aparicio, Carlos J. Costa","Generative artificial intelligence (AI) systems have transformed various
+industries by autonomously generating content that mimics human creativity.
+However, concerns about their social and economic consequences arise with
+widespread adoption. This paper employs agent-based modeling (ABM) to explore
+these implications, predicting the impact of generative AI on societal
+frameworks. The ABM integrates individual, business, and governmental agents to
+simulate dynamics such as education, skills acquisition, AI adoption, and
+regulatory responses. This study enhances understanding of AI's complex
+interactions and provides insights for policymaking. The literature review
+underscores ABM's effectiveness in forecasting AI impacts, revealing AI
+adoption, employment, and regulation trends with potential policy implications.
+Future research will refine the model, assess long-term implications and
+ethical considerations, and deepen understanding of generative AI's societal
+effects.",http://arxiv.org/abs/2408.17268v1
+"Fairness And Bias in Artificial Intelligence: A Brief Survey of Sources,
+  Impacts, And Mitigation Strategies",Emilio Ferrara,"The significant advancements in applying Artificial Intelligence (AI) to
+healthcare decision-making, medical diagnosis, and other domains have
+simultaneously raised concerns about the fairness and bias of AI systems. This
+is particularly critical in areas like healthcare, employment, criminal
+justice, credit scoring, and increasingly, in generative AI models (GenAI) that
+produce synthetic media. Such systems can lead to unfair outcomes and
+perpetuate existing inequalities, including generative biases that affect the
+representation of individuals in synthetic data. This survey paper offers a
+succinct, comprehensive overview of fairness and bias in AI, addressing their
+sources, impacts, and mitigation strategies. We review sources of bias, such as
+data, algorithm, and human decision biases - highlighting the emergent issue of
+generative AI bias where models may reproduce and amplify societal stereotypes.
+We assess the societal impact of biased AI systems, focusing on the
+perpetuation of inequalities and the reinforcement of harmful stereotypes,
+especially as generative AI becomes more prevalent in creating content that
+influences public perception. We explore various proposed mitigation
+strategies, discussing the ethical considerations of their implementation and
+emphasizing the need for interdisciplinary collaboration to ensure
+effectiveness. Through a systematic literature review spanning multiple
+academic disciplines, we present definitions of AI bias and its different
+types, including a detailed look at generative AI bias. We discuss the negative
+impacts of AI bias on individuals and society and provide an overview of
+current approaches to mitigate AI bias, including data pre-processing, model
+selection, and post-processing. We emphasize the unique challenges presented by
+generative AI models and the importance of strategies specifically tailored to
+address these.",http://arxiv.org/abs/2304.07683v2
+Harnessing Generative AI for Economic Insights,"Manish Jha, Jialin Qian, Michael Weber, Baozhong Yang","We use generative AI to extract managerial expectations about their economic
+outlook from over 120,000 corporate conference call transcripts. The overall
+measure, AI Economy Score, robustly predicts future economic indicators such as
+GDP growth, production, and employment, both in the short term and to 10
+quarters. This predictive power is incremental to that of existing measures,
+including survey forecasts. Moreover, industry and firm-level measures provide
+valuable information about sector-specific and individual firm activities. Our
+findings suggest that managerial expectations carry unique insights about
+economic activities, with implications for both macroeconomic and microeconomic
+decision-making.",http://arxiv.org/abs/2410.03897v2
+"Accessibility evaluation of major assistive mobile applications
+  available for the visually impaired","Saidarshan Bhagat, Padmaja Joshi, Avinash Agarwal, Shubhanshu Gupta","People with visual impairments face numerous challenges in their daily lives,
+including mobility, access to information, independent living, and employment.
+Artificial Intelligence (AI) with Computer Vision (CV) has the potential to
+improve their daily lives, provide them with necessary independence, and it
+will also spawn new opportunities in education and employment. However, while
+many such AI/CV-based mobile applications are now available, these apps are
+still not the preferred choice amongst visually impaired persons and are
+generally limited to advanced users only, due to certain limitations. This
+study evaluates the challenges faced by visually impaired persons when using
+AI/CV-based mobile apps. Four popular AI/CV- based apps, namely Seeing AI,
+Supersense, Envision and Lookout, are assessed by blind and low-vision users.
+Hence these mobile applications are evaluated on a set of parameters, including
+generic parameters based on the Web Content Accessibility Guidelines (WCAG) and
+specific parameters related to mobile app testing. The evaluation not only
+focused on the guidelines but also on the feedback that was gathered from these
+users on parameters covering the apps' accuracy, response time, reliability,
+accessibility, privacy, energy efficiency and usability. The paper also
+identifies the areas of improvement in the development and innovation of these
+assistive apps. This work will help developers create better accessible
+AI-based apps for the visually impaired.",http://arxiv.org/abs/2407.17496v1
+"Collaborative Design for Job-Seekers with Autism: A Conceptual Framework
+  for Future Research","Sungsoo Ray Hong, Marcos Zampieri, Brittany N. Hand, Vivian Motti, Dongjun Chung, Ozlem Uzuner","The success of employment is highly related to a job seeker's capability of
+communicating and collaborating with others. While leveraging one's network
+during the job-seeking process is intuitive to the neurotypical, this can be
+challenging for people with autism. Recent empirical findings have started to
+show how facilitating collaboration between people with autism and their social
+surroundings through new design can improve their chances of employment. This
+work aims to provide actionable guidelines and conceptual frameworks that
+future researchers and practitioners can apply to improve collaborative design
+for job-seekers with autism. Built upon the literature on past technological
+interventions built for supporting job-seekers with autism, we define three
+major research challenges of (1) communication support, (2) employment
+stage-wise support, and (3) group work support. For each challenge, we review
+the current state-of-the-art practices and possible future solutions. We then
+suggest future designs that can provide breakthroughs from the
+interdisciplinary lens of human-AI collaboration, health services, group work,
+accessibility computing, and natural language processing.",http://arxiv.org/abs/2405.06078v2
+"Activism by the AI Community: Analysing Recent Achievements and Future
+  Prospects",Haydn Belfield,"The artificial intelligence community (AI) has recently engaged in activism
+in relation to their employers, other members of the community, and their
+governments in order to shape the societal and ethical implications of AI. It
+has achieved some notable successes, but prospects for further political
+organising and activism are uncertain. We survey activism by the AI community
+over the last six years; apply two analytical frameworks drawing upon the
+literature on epistemic communities, and worker organising and bargaining; and
+explore what they imply for the future prospects of the AI community. Success
+thus far has hinged on a coherent shared culture, and high bargaining power due
+to the high demand for a limited supply of AI talent. Both are crucial to the
+future of AI activism and worthy of sustained attention.",http://arxiv.org/abs/2001.06528v1
+"The Self 2.0: How AI-Enhanced Self-Clones Transform Self-Perception and
+  Improve Presentation Skills","Qingxiao Zheng, Yun Huang","This study explores the impact of AI-generated digital self-clones on
+improving online presentation skills. We carried out a mixed-design experiment
+involving 44 international students, comparing self-recorded videos (control)
+with self-clone videos (AI group) for English presentation practice. The AI
+videos utilized voice cloning, face swapping, lip-sync, and body-language
+simulation to refine participants' original presentations in terms of
+repetition, filler words, and pronunciation. Machine-rated scores indicated
+enhancements in speech performance for both groups. Though the groups didn't
+significantly differ, the AI group exhibited a heightened depth of reflection,
+self-compassion, and a meaningful transition from a corrective to an enhancive
+approach to self-critique. Within the AI group, congruence between
+self-perception and AI self-clones resulted in diminished speech anxiety and
+increased enjoyment. Our findings recommend the ethical employment of digital
+self-clones to enhance the emotional and cognitive facets of skill development.",http://arxiv.org/abs/2310.15112v1
+Roots and Requirements for Collaborative AIs,Mark Stefik,"The vision of AI collaborators is a staple of mythology and science fiction,
+where artificial agents with special talents assist human partners and teams.
+In this dream, sophisticated AIs understand nuances of collaboration and human
+communication. The AI as collaborator dream is different from computer tools
+that augment human intelligence (IA) or intermediate human collaboration. Those
+tools have their roots in the 1960s and helped to drive an information
+technology revolution. They can be useful but they are not intelligent and do
+not collaborate as effectively as skilled people. With the increase of hybrid
+and remote work since the COVID pandemic, the benefits and requirements for
+better coordination, collaboration, and communication are becoming hot topics
+in the workplace. Employers and workers face choices and trade-offs as they
+negotiate the options for working from home versus working at the office. Many
+factors such as the high costs of homes near employers are impeding a mass
+return to the office. Government advisory groups and leaders in AI have
+advocated for years that AIs should be transparent and effective collaborators.
+Nonetheless, robust AIs that collaborate like talented people remain out of
+reach. Are AI teammates part of a solution? How artificially intelligent (AI)
+could and should they be? This position paper reviews the arc of technology and
+public calls for human-machine teaming. It draws on earlier research in
+psychology and the social sciences about what human-like collaboration
+requires. This paper sets a context for a second science-driven paper that
+advocates a radical shift in technology and methodology for creating resilient,
+intelligent, and human-compatible AIs (Stefik & Price, 2023). The aspirational
+goal is that such AIs would learn, share what they learn, and collaborate to
+achieve high capabilities.",http://arxiv.org/abs/2303.12040v7
+"Adapting to the AI Disruption: Reshaping the IT Landscape and
+  Educational Paradigms","Murat Ozer, Yasin Kose, Goksel Kucukkaya, Assel Mukasheva, Kazim Ciris","Artificial intelligence (AI) signals the beginning of a revolutionary period
+where technological advancement and social change interact to completely
+reshape economies, work paradigms, and industries worldwide. This essay
+addresses the opportunities and problems brought about by the AI-driven economy
+as it examines the effects of AI disruption on the IT sector and information
+technology education. By comparing the current AI revolution to previous
+industrial revolutions, we investigate the significant effects of AI
+technologies on workforce dynamics, employment, and organizational procedures.
+Human-centered design principles and ethical considerations become crucial
+requirements for the responsible development and implementation of AI systems
+in the face of the field's rapid advancements. IT education programs must
+change to meet the changing demands of the AI era and give students the skills
+and competencies they need to succeed in a digital world that is changing
+quickly. In light of AI-driven automation, we also examine the possible
+advantages and difficulties of moving to a shorter workweek, emphasizing
+chances to improve worker productivity, well-being, and work-life balance. We
+can build a more incslusive and sustainable future for the IT industry and
+beyond, enhancing human capabilities, advancing collective well-being, and
+fostering a society where AI serves as a force for good by embracing the
+opportunities presented by AI while proactively addressing its challenges.",http://arxiv.org/abs/2409.10541v1
+"On Quantifying and Understanding the Role of Ethics in AI Research: A
+  Historical Account of Flagship Conferences and Journals","Marcelo Prates, Pedro Avelar, Luis C. Lamb","Recent developments in AI, Machine Learning and Robotics have raised concerns
+about the ethical consequences of both academic and industrial AI research.
+Leading academics, businessmen and politicians have voiced an increasing number
+of questions about the consequences of AI not only over people, but also on the
+large-scale consequences on the the future of work and employment, its social
+consequences and the sustainability of the planet. In this work, we analyse the
+use and the occurrence of ethics-related research in leading AI, machine
+learning and robotics venues. In order to do so we perform long term,
+historical corpus-based analyses on a large number of flagship conferences and
+journals. Our experiments identify the prominence of ethics-related terms in
+published papers and presents several statistics on related topics. Finally,
+this research provides quantitative evidence on the pressing ethical concerns
+of the AI community.",http://arxiv.org/abs/1809.08328v1
+Introducing Political Ecology of Creative-Ai,Andre Holzapfel,"This chapter introduces the perspective of political ecology to the
+application of artificial intelligence to artistic processes (Creative-Ai).
+Hence, the environmental and social impact of the development and employment of
+Creative-Ai are the focus of this text, when we consider them as part of an
+economic system that transforms artistic creation to a commodity. I first
+analyse specific Creative-Ai cases, and then conduct a speculation that takes
+Jacques Attali's writing on the role of music in society as a vantage point,
+and investigates the environmental and social consequences of an automatic
+composition network controlled by a large music streaming platform. Whereas the
+possibilities that emerge from Creative-Ai may be promising from an artistic
+perspective, its entanglement with corporate interest raises severe concerns.
+These concerns can only be addressed by a wide cross-sectoral alliance between
+research and arts that develops a critical perspective on the future directions
+of Creative-Ai.",http://arxiv.org/abs/2301.10233v1
+"Designing a Communication Bridge between Communities: Participatory
+  Design for a Question-Answering AI Agent","Jeonghyun Lee, Vrinda Nandan, Harshvardhan Sikka, Spencer Rugaber, Ashok Goel","How do we design an AI system that is intended to act as a communication
+bridge between two user communities with different mental models and
+vocabularies? Skillsync is an interactive environment that engages employers
+(companies) and training providers (colleges) in a sustained dialogue to help
+them achieve the goal of building a training proposal that successfully meets
+the needs of the employers and employees. We used a variation of participatory
+design to elicit requirements for developing AskJill, a question-answering
+agent that explains how Skillsync works and thus acts as a communication bridge
+between company and college users. Our study finds that participatory design
+was useful in guiding the requirements gathering and eliciting user questions
+for the development of AskJill. Our results also suggest that the two Skillsync
+user communities perceived glossary assistance as a key feature that AskJill
+needs to offer, and they would benefit from such a shared vocabulary.",http://arxiv.org/abs/2308.00813v1
+Fair Machine Learning Under Partial Compliance,"Jessica Dai, Sina Fazelpour, Zachary C. Lipton","Typically, fair machine learning research focuses on a single decisionmaker
+and assumes that the underlying population is stationary. However, many of the
+critical domains motivating this work are characterized by competitive
+marketplaces with many decisionmakers. Realistically, we might expect only a
+subset of them to adopt any non-compulsory fairness-conscious policy, a
+situation that political philosophers call partial compliance. This possibility
+raises important questions: how does the strategic behavior of decision
+subjects in partial compliance settings affect the allocation outcomes? If k%
+of employers were to voluntarily adopt a fairness-promoting intervention,
+should we expect k% progress (in aggregate) towards the benefits of universal
+adoption, or will the dynamics of partial compliance wash out the hoped-for
+benefits? How might adopting a global (versus local) perspective impact the
+conclusions of an auditor? In this paper, we propose a simple model of an
+employment market, leveraging simulation as a tool to explore the impact of
+both interaction effects and incentive effects on outcomes and auditing
+metrics. Our key findings are that at equilibrium: (1) partial compliance (k%
+of employers) can result in far less than proportional (k%) progress towards
+the full compliance outcomes; (2) the gap is more severe when fair employers
+match global (vs local) statistics; (3) choices of local vs global statistics
+can paint dramatically different pictures of the performance vis-a-vis fairness
+desiderata of compliant versus non-compliant employers; and (4) partial
+compliance to local parity measures can induce extreme segregation.",http://arxiv.org/abs/2011.03654v4
+Manifestations of Xenophobia in AI Systems,"Nenad Tomasev, Jonathan Leader Maynard, Iason Gabriel","Xenophobia is one of the key drivers of marginalisation, discrimination, and
+conflict, yet many prominent machine learning (ML) fairness frameworks fail to
+comprehensively measure or mitigate the resulting xenophobic harms. Here we aim
+to bridge this conceptual gap and help facilitate safe and ethical design of
+artificial intelligence (AI) solutions. We ground our analysis of the impact of
+xenophobia by first identifying distinct types of xenophobic harms, and then
+applying this framework across a number of prominent AI application domains,
+reviewing the potential interplay between AI and xenophobia on social media and
+recommendation systems, healthcare, immigration, employment, as well as biases
+in large pre-trained models. These help inform our recommendations towards an
+inclusive, xenophilic design of future AI systems.",http://arxiv.org/abs/2212.07877v2
+AI AI Bias: Large Language Models Favor Their Own Generated Content,"Walter Laurito, Benjamin Davis, Peli Grietzer, Tomáš Gavenčiak, Ada Böhm, Jan Kulveit","Are large language models (LLMs) biased towards text generated by LLMs over
+text authored by humans, leading to possible anti-human bias? Utilizing a
+classical experimental design inspired by employment discrimination studies, we
+tested widely-used LLMs, including GPT-3.5 and GPT4, in binary-choice
+scenarios. These involved LLM-based agents selecting between products and
+academic papers described either by humans or LLMs under identical conditions.
+Our results show a consistent tendency for LLM-based AIs to prefer
+LLM-generated content. This suggests the possibility of AI systems implicitly
+discriminating against humans, giving AI agents an unfair advantage.",http://arxiv.org/abs/2407.12856v1
+"Gender, Race, and Intersectional Bias in Resume Screening via Language
+  Model Retrieval","Kyra Wilson, Aylin Caliskan","Artificial intelligence (AI) hiring tools have revolutionized resume
+screening, and large language models (LLMs) have the potential to do the same.
+However, given the biases which are embedded within LLMs, it is unclear whether
+they can be used in this scenario without disadvantaging groups based on their
+protected attributes. In this work, we investigate the possibilities of using
+LLMs in a resume screening setting via a document retrieval framework that
+simulates job candidate selection. Using that framework, we then perform a
+resume audit study to determine whether a selection of Massive Text Embedding
+(MTE) models are biased in resume screening scenarios. We simulate this for
+nine occupations, using a collection of over 500 publicly available resumes and
+500 job descriptions. We find that the MTEs are biased, significantly favoring
+White-associated names in 85.1\% of cases and female-associated names in only
+11.1\% of cases, with a minority of cases showing no statistically significant
+differences. Further analyses show that Black males are disadvantaged in up to
+100\% of cases, replicating real-world patterns of bias in employment settings,
+and validate three hypotheses of intersectionality. We also find an impact of
+document length as well as the corpus frequency of names in the selection of
+resumes. These findings have implications for widely used AI tools that are
+automating employment, fairness, and tech policy.",http://arxiv.org/abs/2407.20371v2
+"If the Prospect of Some Occupations Are Stagnating With Technological
+  Advancement? A Task Attribute Approach to Detect Employment Vulnerability","Iftekhairul Islam, Fahad Shaon","Two distinct trends can prove the existence of technological unemployment in
+the US. First, there are more open jobs than the number of unemployed persons
+looking for a job, and second, the shift of the Beveridge curve. There have
+been many attempts to find the cause of technological unemployment. However,
+all of these approaches fail when it comes to evaluating the impact of modern
+technologies on employment future. This study hypothesizes that rather than
+looking into skill requirement or routine non-routine discrimination of tasks,
+a holistic approach is required to predict which occupations are going to be
+vulnerable with the advent of this 4th industrial revolution, i.e., widespread
+application of AI, ML algorithms, and Robotics. Three critical attributes are
+considered: bottleneck, hazardous, and routine. Forty-five relevant attributes
+are chosen from the O*NET database that can define these three types of tasks.
+Performing Principal Axis Factor Analysis, and K-medoid clustering, the study
+discovers a list of 367 vulnerable occupations. The study further analyzes the
+last nine years of national employment data and finds that over the previous
+four years, the growth of vulnerable occupations is only half than that of
+non-vulnerable ones despite the long rally of economic expansion.",http://arxiv.org/abs/2001.02783v1
+The Pursuit of Fairness in Artificial Intelligence Models: A Survey,"Tahsin Alamgir Kheya, Mohamed Reda Bouadjenek, Sunil Aryal","Artificial Intelligence (AI) models are now being utilized in all facets of
+our lives such as healthcare, education and employment. Since they are used in
+numerous sensitive environments and make decisions that can be life altering,
+potential biased outcomes are a pressing matter. Developers should ensure that
+such models don't manifest any unexpected discriminatory practices like
+partiality for certain genders, ethnicities or disabled people. With the
+ubiquitous dissemination of AI systems, researchers and practitioners are
+becoming more aware of unfair models and are bound to mitigate bias in them.
+Significant research has been conducted in addressing such issues to ensure
+models don't intentionally or unintentionally perpetuate bias. This survey
+offers a synopsis of the different ways researchers have promoted fairness in
+AI systems. We explore the different definitions of fairness existing in the
+current literature. We create a comprehensive taxonomy by categorizing
+different types of bias and investigate cases of biased AI in different
+application domains. A thorough study is conducted of the approaches and
+techniques employed by researchers to mitigate bias in AI models. Moreover, we
+also delve into the impact of biased models on user experience and the ethical
+considerations to contemplate when developing and deploying such models. We
+hope this survey helps researchers and practitioners understand the intricate
+details of fairness and bias in AI systems. By sharing this thorough survey, we
+aim to promote additional discourse in the domain of equitable and responsible
+AI.",http://arxiv.org/abs/2403.17333v1
+Large Language Models at Work in China's Labor Market,"Qin Chen, Jinfeng Ge, Huaqing Xie, Xingcheng Xu, Yanqing Yang","This paper explores the potential impacts of large language models (LLMs) on
+the Chinese labor market. We analyze occupational exposure to LLM capabilities
+by incorporating human expertise and LLM classifications, following Eloundou et
+al. (2023)'s methodology. We then aggregate occupation exposure to the industry
+level to obtain industry exposure scores. The results indicate a positive
+correlation between occupation exposure and wage levels/experience premiums,
+suggesting higher-paying and experience-intensive jobs may face greater
+displacement risks from LLM-powered software. The industry exposure scores
+align with expert assessments and economic intuitions. We also develop an
+economic growth model incorporating industry exposure to quantify the
+productivity-employment trade-off from AI adoption. Overall, this study
+provides an analytical basis for understanding the labor market impacts of
+increasingly capable AI systems in China. Key innovations include the
+occupation-level exposure analysis, industry aggregation approach, and economic
+modeling incorporating AI adoption and labor market effects. The findings will
+inform policymakers and businesses on strategies for maximizing the benefits of
+AI while mitigating adverse disruption risks.",http://arxiv.org/abs/2308.08776v1
+"Designing multi-model conversational AI financial systems: understanding
+  sensitive values of women entrepreneurs in Brazil","Heloisa Candello, Gabriel Meneguelli Soella, Leandro de Carvalho Nascimento","Small business owners (SBOs), specially women, face several challenges in
+everyday life, especially when asking for microcredit loans from financial
+institutions. Usual difficulties include low credit scores, unbaked situations,
+outstanding debts, informal employment situations, inability to showcase their
+payable capacity, and lack of financial guarantor. Moreover, SBOs often need
+help applying for microcredit loans due to the lack of information on how to
+proceed. The task of asking for a loan is a complex practice, and asymmetric
+power relationships might emerge, but that benefits micro-entrepreneurs only
+sometimes. In this paper, we interviewed 20 women entrepreneurs living in a
+low-income community in Brazil. We wanted to unveil value tensions derived from
+this practice that might influence the design of AI technologies for the
+public. In doing so, we used a conversational system as a probe to understand
+the opportunities for empowering their practices with the support of AI
+multimedia conversational systems. We derived seven recommendations for
+designing AI systems for evaluating micro-business health in low-income
+communities.",http://arxiv.org/abs/2406.19601v1
+"An empirical evaluation of using ChatGPT to summarize disputes for
+  recommending similar labor and employment cases in Chinese","Po-Hsien Wu, Chao-Lin Liu, Wei-Jie Li","We present a hybrid mechanism for recommending similar cases of labor and
+employment litigations. The classifier determines the similarity based on the
+itemized disputes of the two cases, that the courts prepared. We cluster the
+disputes, compute the cosine similarity between the disputes, and use the
+results as the features for the classification tasks. Experimental results
+indicate that this hybrid approach outperformed our previous system, which
+considered only the information about the clusters of the disputes. We replaced
+the disputes that were prepared by the courts with the itemized disputes that
+were generated by GPT-3.5 and GPT-4, and repeated the same experiments. Using
+the disputes generated by GPT-4 led to better results. Although our classifier
+did not perform as well when using the disputes that the ChatGPT generated, the
+results were satisfactory. Hence, we hope that the future large-language models
+will become practically useful.",http://arxiv.org/abs/2409.09280v1
+"Definition drives design: Disability models and mechanisms of bias in AI
+  technologies","Denis Newman-Griffis, Jessica Sage Rauchberg, Rahaf Alharbi, Louise Hickman, Harry Hochheiser","The increasing deployment of artificial intelligence (AI) tools to inform
+decision making across diverse areas including healthcare, employment, social
+benefits, and government policy, presents a serious risk for disabled people,
+who have been shown to face bias in AI implementations. While there has been
+significant work on analysing and mitigating algorithmic bias, the broader
+mechanisms of how bias emerges in AI applications are not well understood,
+hampering efforts to address bias where it begins. In this article, we
+illustrate how bias in AI-assisted decision making can arise from a range of
+specific design decisions, each of which may seem self-contained and
+non-biasing when considered separately. These design decisions include basic
+problem formulation, the data chosen for analysis, the use the AI technology is
+put to, and operational design elements in addition to the core algorithmic
+design. We draw on three historical models of disability common to different
+decision-making settings to demonstrate how differences in the definition of
+disability can lead to highly distinct decisions on each of these aspects of
+design, leading in turn to AI technologies with a variety of biases and
+downstream effects. We further show that the potential harms arising from
+inappropriate definitions of disability in fundamental design stages are
+further amplified by a lack of transparency and disabled participation
+throughout the AI design process. Our analysis provides a framework for
+critically examining AI technologies in decision-making contexts and guiding
+the development of a design praxis for disability-related AI analytics. We put
+forth this article to provide key questions to facilitate disability-led design
+and participatory development to produce more fair and equitable AI
+technologies in disability-related contexts.",http://arxiv.org/abs/2206.08287v3
+"Training Is Everything: Artificial Intelligence, Copyright, and Fair
+  Training","Andrew W. Torrance, Bill Tomlinson","To learn how to behave, the current revolutionary generation of AIs must be
+trained on vast quantities of published images, written works, and sounds, many
+of which fall within the core subject matter of copyright law. To some, the use
+of copyrighted works as training sets for AI is merely a transitory and
+non-consumptive use that does not materially interfere with owners' content or
+copyrights protecting it. Companies that use such content to train their AI
+engine often believe such usage should be considered ""fair use"" under United
+States law (sometimes known as ""fair dealing"" in other countries). By contrast,
+many copyright owners, as well as their supporters, consider the incorporation
+of copyrighted works into training sets for AI to constitute misappropriation
+of owners' intellectual property, and, thus, decidedly not fair use under the
+law. This debate is vital to the future trajectory of AI and its applications.
+  In this article, we analyze the arguments in favor of, and against, viewing
+the use of copyrighted works in training sets for AI as fair use. We call this
+form of fair use ""fair training"". We identify both strong and spurious
+arguments on both sides of this debate. In addition, we attempt to take a
+broader perspective, weighing the societal costs (e.g., replacement of certain
+forms of human employment) and benefits (e.g., the possibility of novel
+AI-based approaches to global issues such as environmental disruption) of
+allowing AI to make easy use of copyrighted works as training sets to
+facilitate the development, improvement, adoption, and diffusion of AI.
+Finally, we suggest that the debate over AI and copyrighted works may be a
+tempest in a teapot when placed in the wider context of massive societal
+challenges such as poverty, equality, climate change, and loss of biodiversity,
+to which AI may be part of the solution.",http://arxiv.org/abs/2305.03720v1
+"The Case for an Industrial Policy Approach to AI Sector of Pakistan for
+  Growth and Autonomy","Atif Hussain, Rana Rizwan","This paper argues for the strategic treatment of artificial intelligence as a
+key industry within broader industrial policy framework of Pakistan,
+underscoring the importance of aligning it with national goals such as economic
+resilience and preservation of autonomy. The paper starts with defining
+industrial policy as a set of targeted government interventions to shape
+specific sectors for strategic outcomes and argues for its application to AI in
+Pakistan due to its huge potential, the risks of unregulated adoption, and
+prevailing market inefficiencies. The paper conceptualizes AI as a layered
+ecosystem, comprising foundational infrastructure, core computing, development
+platforms, and service and product layers, supported by education, government
+policy, and research and development. The analysis highlights that AI sector of
+Pakistan is predominantly service oriented, with limited product innovation and
+dependence on foreign technologies, posing risks to economic independence,
+national security, and employment. To address these challenges, the paper
+recommends educational reforms, support for local AI product development,
+initiatives for indigenous cloud and hardware capabilities, and public-private
+collaborations on foundational models. Additionally, it advocates for public
+procurement policies and infrastructure incentives to foster local solutions
+and reduce reliance on foreign providers. This strategy aims to position
+Pakistan as a competitive, autonomous player in the global AI ecosystem.",http://arxiv.org/abs/2411.01337v2
+Inventing art styles with no artistic training data,"Nilin Abrahamsen, Jiahao Yao","We propose two procedures to create painting styles using models trained only
+on natural images, providing objective proof that the model is not plagiarizing
+human art styles. In the first procedure we use the inductive bias from the
+artistic medium to achieve creative expression. Abstraction is achieved by
+using a reconstruction loss. The second procedure uses an additional natural
+image as inspiration to create a new style. These two procedures make it
+possible to invent new painting styles with no artistic training data. We
+believe that our approach can help pave the way for the ethical employment of
+generative AI in art, without infringing upon the originality of human
+creators.",http://arxiv.org/abs/2305.12015v2
+"A Century Long Commitment to Assessing Artificial Intelligence and its
+  Impact on Society","Barbara J. Grosz, Peter Stone","In September 2016, Stanford's ""One Hundred Year Study on Artificial
+Intelligence"" project (AI100) issued the first report of its planned long-term
+periodic assessment of artificial intelligence (AI) and its impact on society.
+The report, entitled ""Artificial Intelligence and Life in 2030,"" examines eight
+domains of typical urban settings on which AI is likely to have impact over the
+coming years: transportation, home and service robots, healthcare, education,
+public safety and security, low-resource communities, employment and workplace,
+and entertainment. It aims to provide the general public with a scientifically
+and technologically accurate portrayal of the current state of AI and its
+potential and to help guide decisions in industry and governments, as well as
+to inform research and development in the field. This article by the chair of
+the 2016 Study Panel and the inaugural chair of the AI100 Standing Committee
+describes the origins of this ambitious longitudinal study, discusses the
+framing of the inaugural report, and presents the report's main findings. It
+concludes with a brief description of the AI100 project's ongoing efforts and
+planned next steps.",http://arxiv.org/abs/1808.07899v1
+"The Gig's Up: How ChatGPT Stacks Up Against Quora on Gig Economy
+  Insights",Thomas Lancaster,"Generative AI is changing the way in which humans seek to find answers to
+questions in different fields including on the gig economy and labour markets,
+but there is limited information available about closely ChatGPT simulated
+output matches that obtainable from existing question and answer platforms.
+This paper uses ChatGPT as a research assistant to explore how far ChatGPT can
+replicate Quora question and answers, using data from the gig economy as an
+indicative case study. The results from content analysis suggest that Quora is
+likely to be asked questions from users looking to make money and answers are
+likely to include personal experiences and examples. ChatGPT simulated versions
+are less personal and more concept-based, including considerations on
+employment implications and labour rights. It appears therefore that generative
+AI simulates only part of what a human would want in their answers relating to
+the gig economy. The paper proposes that a similar comparative methodology
+would also be useful across other research fields to help in establishing the
+best real world uses of generative AI.",http://arxiv.org/abs/2402.02676v1
+"Fairness in AI: challenges in bridging the gap between algorithms and
+  law","Giorgos Giannopoulos, Maria Psalla, Loukas Kavouras, Dimitris Sacharidis, Jakub Marecek, German M Matilla, Ioannis Emiris","In this paper we examine algorithmic fairness from the perspective of law
+aiming to identify best practices and strategies for the specification and
+adoption of fairness definitions and algorithms in real-world systems and use
+cases. We start by providing a brief introduction of current
+anti-discrimination law in the European Union and the United States and
+discussing the concepts of bias and fairness from an legal and ethical
+viewpoint. We then proceed by presenting a set of algorithmic fairness
+definitions by example, aiming to communicate their objectives to non-technical
+audiences. Then, we introduce a set of core criteria that need to be taken into
+account when selecting a specific fairness definition for real-world use case
+applications. Finally, we enumerate a set of key considerations and best
+practices for the design and employment of fairness methods on real-world AI
+applications",http://arxiv.org/abs/2404.19371v1
+Towards Explainable AI for Channel Estimation in Wireless Communications,"Abdul Karim Gizzini, Yahia Medjahdi, Ali J. Ghandour, Laurent Clavier","Research into 6G networks has been initiated to support a variety of critical
+artificial intelligence (AI) assisted applications such as autonomous driving.
+In such applications, AI-based decisions should be performed in a real-time
+manner. These decisions include resource allocation, localization, channel
+estimation, etc. Considering the black-box nature of existing AI-based models,
+it is highly challenging to understand and trust the decision-making behavior
+of such models. Therefore, explaining the logic behind those models through
+explainable AI (XAI) techniques is essential for their employment in critical
+applications. This manuscript proposes a novel XAI-based channel estimation
+(XAI-CHEST) scheme that provides detailed reasonable interpretability of the
+deep learning (DL) models that are employed in doubly-selective channel
+estimation. The aim of the proposed XAI-CHEST scheme is to identify the
+relevant model inputs by inducing high noise on the irrelevant ones. As a
+result, the behavior of the studied DL-based channel estimators can be further
+analyzed and evaluated based on the generated interpretations. Simulation
+results show that the proposed XAI-CHEST scheme provides valid interpretations
+of the DL-based channel estimators for different scenarios.",http://arxiv.org/abs/2307.00952v2
+"Artificial Intelligence Models and Employee Lifecycle Management: A
+  Systematic Literature Review","Saeed Nosratabadi, Roya Khayer Zahed, Vadim Vitalievich Ponkratov, Evgeniy Vyacheslavovich Kostyrin","Background/Purpose: The use of artificial intelligence (AI) models for
+data-driven decision-making in different stages of employee lifecycle (EL)
+management is increasing. However, there is no comprehensive study that
+addresses contributions of AI in EL management. Therefore, the main goal of
+this study was to address this theoretical gap and determine the contribution
+of AI models to EL. Methods: This study applied the PRISMA method, a systematic
+literature review model, to ensure that the maximum number of publications
+related to the subject can be accessed. The output of the PRISMA model led to
+the identification of 23 related articles, and the findings of this study were
+presented based on the analysis of these articles. Results: The findings
+revealed that AL algorithms were used in all stages of EL management (i.e.,
+recruitment, on-boarding, employability and benefits, retention, and
+off-boarding). It was also disclosed that Random Forest, Support Vector
+Machines, Adaptive Boosting, Decision Tree, and Artificial Neural Network
+algorithms outperform other algorithms and were the most used in the
+literature. Conclusion: Although the use of AI models in solving EL problems is
+increasing, research on this topic is still in its infancy stage, and more
+research on this topic is necessary.",http://arxiv.org/abs/2209.07335v1
+"Artificial Intelligence and Life in 2030: The One Hundred Year Study on
+  Artificial Intelligence","Peter Stone, Rodney Brooks, Erik Brynjolfsson, Ryan Calo, Oren Etzioni, Greg Hager, Julia Hirschberg, Shivaram Kalyanakrishnan, Ece Kamar, Sarit Kraus, Kevin Leyton-Brown, David Parkes, William Press, AnnaLee Saxenian, Julie Shah, Milind Tambe, Astro Teller","In September 2016, Stanford's ""One Hundred Year Study on Artificial
+Intelligence"" project (AI100) issued the first report of its planned long-term
+periodic assessment of artificial intelligence (AI) and its impact on society.
+It was written by a panel of 17 study authors, each of whom is deeply rooted in
+AI research, chaired by Peter Stone of the University of Texas at Austin. The
+report, entitled ""Artificial Intelligence and Life in 2030,"" examines eight
+domains of typical urban settings on which AI is likely to have impact over the
+coming years: transportation, home and service robots, healthcare, education,
+public safety and security, low-resource communities, employment and workplace,
+and entertainment. It aims to provide the general public with a scientifically
+and technologically accurate portrayal of the current state of AI and its
+potential and to help guide decisions in industry and governments, as well as
+to inform research and development in the field. The charge for this report was
+given to the panel by the AI100 Standing Committee, chaired by Barbara Grosz of
+Harvard University.",http://arxiv.org/abs/2211.06318v1
+Towards Equitable Agile Research and Development of AI and Robotics,"Andrew Hundt, Julia Schuller, Severin Kacianka","Machine Learning (ML) and 'Artificial Intelligence' ('AI') methods tend to
+replicate and amplify existing biases and prejudices, as do Robots with AI. For
+example, robots with facial recognition have failed to identify Black Women as
+human, while others have categorized people, such as Black Men, as criminals
+based on appearance alone. A 'culture of modularity' means harms are perceived
+as 'out of scope', or someone else's responsibility, throughout employment
+positions in the 'AI supply chain'. Incidents are routine enough
+(incidentdatabase.ai lists over 2000 examples) to indicate that few
+organizations are capable of completely respecting peoples' rights; meeting
+claimed equity, diversity, and inclusion (EDI or DEI) goals; or recognizing and
+then addressing such failures in their organizations and artifacts. We propose
+a framework for adapting widely practiced Research and Development (R&D)
+project management methodologies to build organizational equity capabilities
+and better integrate known evidence-based best practices. We describe how
+project teams can organize and operationalize the most promising practices,
+skill sets, organizational cultures, and methods to detect and address
+rights-based fairness, equity, accountability, and ethical problems as early as
+possible when they are often less harmful and easier to mitigate; then monitor
+for unforeseen incidents to adaptively and constructively address them. Our
+primary example adapts an Agile development process based on Scrum, one of the
+most widely adopted approaches to organizing R&D teams. We also discuss
+limitations of our proposed framework and future research directions.",http://arxiv.org/abs/2402.08242v1
+"Asking an AI for salary negotiation advice is a matter of concern:
+  Controlled experimental perturbation of ChatGPT for protected and
+  non-protected group discrimination on a contextual task with no clear ground
+  truth answers","R. Stuart Geiger, Flynn O'Sullivan, Elsie Wang, Jonathan Lo","We conducted controlled experimental bias audits for four versions of
+ChatGPT, which we asked to recommend an opening offer in salary negotiations
+for a new hire. We submitted 98,800 prompts to each version, systematically
+varying the employee's gender, university, and major, and tested prompts in
+voice of each side of the negotiation: the employee versus employer. We find
+ChatGPT as a multi-model platform is not robust and consistent enough to be
+trusted for such a task. We observed statistically significant salary offers
+when varying gender for all four models, although with smaller gaps than for
+other attributes tested. The largest gaps were different model versions and
+between the employee- vs employer-voiced prompts. We also observed substantial
+gaps when varying university and major, but many of the biases were not
+consistent across model versions. We tested for fictional and fraudulent
+universities and found wildly inconsistent results across cases and model
+versions. We make broader contributions to the AI/ML fairness literature. Our
+scenario and our experimental design differ from mainstream AI/ML auditing
+efforts in key ways. Bias audits typically test discrimination for protected
+classes like gender, which we contrast with testing non-protected classes of
+university and major. Asking for negotiation advice includes how aggressive one
+ought to be in a negotiation relative to known empirical salary distributions
+and scales, which is a deeply contextual and personalized task that has no
+objective ground truth to validate. These results raise concerns for the
+specific model versions we tested and ChatGPT as a multi-model platform in
+continuous development. Our epistemology does not permit us to definitively
+certify these models as either generally biased or unbiased on the attributes
+we test, but our study raises matters of concern for stakeholders to further
+investigate.",http://arxiv.org/abs/2409.15567v3
+"An Introduction to Artificial Intelligence and Solutions to the Problems
+  of Algorithmic Discrimination","Nicholas Schmidt, Bryce Stephens","There is substantial evidence that Artificial Intelligence (AI) and Machine
+Learning (ML) algorithms can generate bias against minorities, women, and other
+protected classes. Federal and state laws have been enacted to protect
+consumers from discrimination in credit, housing, and employment, where
+regulators and agencies are tasked with enforcing these laws. Additionally,
+there are laws in place to ensure that consumers understand why they are denied
+access to services and products, such as consumer loans. In this article, we
+provide an overview of the potential benefits and risks associated with the use
+of algorithms and data, and focus specifically on fairness. While our
+observations generalize to many contexts, we focus on the fairness concerns
+raised in consumer credit and the legal requirements of the Equal Credit and
+Opportunity Act. We propose a methodology for evaluating algorithmic fairness
+and minimizing algorithmic bias that aligns with the provisions of federal and
+state anti-discrimination statutes that outlaw overt, disparate treatment, and,
+specifically, disparate impact discrimination. We argue that while the use of
+AI and ML algorithms heighten potential discrimination risks, these risks can
+be evaluated and mitigated, but doing so requires a deep understanding of these
+algorithms and the contexts and domains in which they are being used.",http://arxiv.org/abs/1911.05755v1
+"Fairness for Unobserved Characteristics: Insights from Technological
+  Impacts on Queer Communities","Nenad Tomasev, Kevin R. McKee, Jackie Kay, Shakir Mohamed","Advances in algorithmic fairness have largely omitted sexual orientation and
+gender identity. We explore queer concerns in privacy, censorship, language,
+online safety, health, and employment to study the positive and negative
+effects of artificial intelligence on queer communities. These issues
+underscore the need for new directions in fairness research that take into
+account a multiplicity of considerations, from privacy preservation, context
+sensitivity and process fairness, to an awareness of sociotechnical impact and
+the increasingly important role of inclusive and participatory research
+processes. Most current approaches for algorithmic fairness assume that the
+target characteristics for fairness--frequently, race and legal gender--can be
+observed or recorded. Sexual orientation and gender identity are prototypical
+instances of unobserved characteristics, which are frequently missing, unknown
+or fundamentally unmeasurable. This paper highlights the importance of
+developing new approaches for algorithmic fairness that break away from the
+prevailing assumption of observed characteristics.",http://arxiv.org/abs/2102.04257v3
+Using AI for Economic Upliftment of Handicraft Industry,"Nitya Raviprakash, Sonam Damani, Ankush Chatterjee, Meghana Joshi, Puneet Agrawal","The handicraft industry is a strong pillar of Indian economy which provides
+large-scale employment opportunities to artisans in rural and underprivileged
+communities. However, in this era of globalization, diverse modern designs have
+rendered traditional designs old and monotonous, causing an alarming decline of
+handicraft sales. For this age-old industry to survive the global competition,
+it is imperative to integrate contemporary designs with Indian handicrafts. In
+this paper, we use novel AI techniques to generate contemporary designs for two
+popular Indian handicrafts - Ikat and Block Print. These techniques were
+successfully employed by communities across India to manufacture and sell
+products with greater appeal and revenue. The designs are evaluated to be
+significantly more likeable and marketable than the current designs used by
+artisans.",http://arxiv.org/abs/1907.02014v1
+"An AI-assisted Economic Model of Endogenous Mobility and Infectious
+  Diseases: The Case of COVID-19 in the United States","Lin William Cong, Ke Tang, Bing Wang, Jingyuan Wang","We build a deep-learning-based SEIR-AIM model integrating the classical
+Susceptible-Exposed-Infectious-Removed epidemiology model with forecast modules
+of infection, community mobility, and unemployment. Through linking Google's
+multi-dimensional mobility index to economic activities, public health status,
+and mitigation policies, our AI-assisted model captures the populace's
+endogenous response to economic incentives and health risks. In addition to
+being an effective predictive tool, our analyses reveal that the long-term
+effective reproduction number of COVID-19 equilibrates around one before mass
+vaccination using data from the United States. We identify a ""policy frontier""
+and identify reopening schools and workplaces to be the most effective. We also
+quantify protestors' employment-value-equivalence of the Black Lives Matter
+movement and find that its public health impact to be negligible.",http://arxiv.org/abs/2109.10009v1
+"Intelligent Acoustic Module for Autonomous Vehicles using Fast Gated
+  Recurrent approach","Raghav Rawat, Shreyash Gupta, Shreyas Mohapatra, Sujata Priyambada Mishra, Sreesankar Rajagopal","This paper elucidates a model for acoustic single and multi-tone
+classification in resource constrained edge devices. The proposed model is of
+State-of-the-art Fast Accurate Stable Tiny Gated Recurrent Neural Network. This
+model has resulted in improved performance metrics and lower size compared to
+previous hypothesized methods by using lesser parameters with higher efficiency
+and employment of a noise reduction algorithm. The model is implemented as an
+acoustic AI module, focused for the application of sound identification,
+localization, and deployment on AI systems like that of an autonomous car.
+Further, the inclusion of localization techniques carries the potential of
+adding a new dimension to the multi-tone classifiers present in autonomous
+vehicles, as its demand increases in urban cities and developing countries in
+the future.",http://arxiv.org/abs/2112.03174v1
+"Personality Detection of Applicants And Employees Using K-mode Algorithm
+  And Ocean Model","Binisha Mohan, Dinju Vattavayalil Joseph, Bharat Plavelil Subhash","The combination of conduct, emotion, motivation, and thinking is referred to
+as personality. To shortlist candidates more effectively, many organizations
+rely on personality predictions. The firm can hire or pick the best candidate
+for the desired job description by grouping applicants based on the necessary
+personality preferences. A model is created to identify applicants' personality
+types so that employers may find qualified candidates by examining a person's
+facial expression, speech intonation, and resume. Additionally, the paper
+emphasises detecting the changes in employee behaviour. Employee attitudes and
+behaviour towards each set of questions are being examined and analysed. Here,
+the K-Modes clustering method is used to predict employee well-being, including
+job pressure, the working environment, and relationships with peers, utilizing
+the OCEAN Model and the CNN algorithm in the AVI-AI administrative system.
+Findings imply that AVIs can be used for efficient candidate screening with an
+AI decision agent. The study of the specific field is beyond the current
+explorations and needed to be expanded with deeper models and new
+configurations that can patch extremely complex operations.",http://arxiv.org/abs/2212.14675v1
+"Unraveling the Skillsets of Data Scientists: Text Mining Analysis of
+  Dutch University Master Programs in Data Science and Artificial Intelligence","Mathijs J. Mol, Barbara Belfi, Zsuzsa Bakk","The growing demand for data scientists in the global labor market and the
+Netherlands has led to a rise in data science and artificial intelligence (AI)
+master programs offered by universities. However, there is still a lack of
+clarity regarding the specific skillsets of data scientists. This study aims to
+address this issue by employing Correlated Topic Modeling (CTM) to analyse the
+content of 41 master programs offered by seven Dutch universities. We assess
+the differences and similarities in the core skills taught by these programs,
+determine the subject-specific and general nature of the skills, and provide a
+comparison between the different types of universities offering these programs.
+Our findings reveal that research, data processing, statistics and ethics are
+the predominant skills taught in Dutch data science and AI master programs,
+with general universities emphasizing research skills and technical
+universities focusing more on IT and electronic skills. This study contributes
+to a better understanding of the diverse skillsets of data scientists, which is
+essential for employers, universities, and prospective students.",http://arxiv.org/abs/2310.14726v1
+"Analysing the Public Discourse around OpenAI's Text-To-Video Model
+  'Sora' using Topic Modeling",Vatsal Vinay Parikh,"The recent introduction of OpenAI's text-to-video model Sora has sparked
+widespread public discourse across online communities. This study aims to
+uncover the dominant themes and narratives surrounding Sora by conducting topic
+modeling analysis on a corpus of 1,827 Reddit comments from five relevant
+subreddits (r/OpenAI, r/technology, r/singularity, r/vfx, and r/ChatGPT). The
+comments were collected over a two-month period following Sora's announcement
+in February 2024. After preprocessing the data, Latent Dirichlet Allocation
+(LDA) was employed to extract four key topics: 1) AI Impact and Trends in Sora
+Discussions, 2) Public Opinion and Concerns about Sora, 3) Artistic Expression
+and Video Creation with Sora, and 4) Sora's Applications in Media and
+Entertainment. Visualizations including word clouds, bar charts, and t-SNE
+clustering provided insights into the importance of topic keywords and the
+distribution of comments across topics. The results highlight prominent
+narratives around Sora's potential impact on industries and employment, public
+sentiment and ethical concerns, creative applications, and use cases in the
+media and entertainment sectors. While limited to Reddit data within a specific
+timeframe, this study offers a framework for understanding public perceptions
+of emerging generative AI technologies through online discourse analysis.",http://arxiv.org/abs/2407.13071v1
+"Experimenting with Legal AI Solutions: The Case of Question-Answering
+  for Access to Justice","Jonathan Li, Rohan Bhambhoria, Samuel Dahan, Xiaodan Zhu","Generative AI models, such as the GPT and Llama series, have significant
+potential to assist laypeople in answering legal questions. However, little
+prior work focuses on the data sourcing, inference, and evaluation of these
+models in the context of laypersons. To this end, we propose a human-centric
+legal NLP pipeline, covering data sourcing, inference, and evaluation. We
+introduce and release a dataset, LegalQA, with real and specific legal
+questions spanning from employment law to criminal law, corresponding answers
+written by legal experts, and citations for each answer. We develop an
+automatic evaluation protocol for this dataset, then show that
+retrieval-augmented generation from only 850 citations in the train set can
+match or outperform internet-wide retrieval, despite containing 9 orders of
+magnitude less data. Finally, we propose future directions for open-sourced
+efforts, which fall behind closed-sourced models.",http://arxiv.org/abs/2409.07713v1
+Automation from the Worker's Perspective,"Ben Armstrong, Valerie K. Chen, Alex Cuellar, Alexandra Forsey-Smerek, Julie A. Shah","Common narratives about automation often pit new technologies against
+workers. The introduction of advanced machine tools, industrial robots, and AI
+have all been met with concern that technological progress will mean fewer
+jobs. However, workers themselves offer a more optimistic, nuanced perspective.
+Drawing on a far-reaching 2024 survey of more than 9,000 workers across nine
+countries, this paper finds that more workers report potential benefits from
+new technologies like robots and AI for their safety and comfort at work, their
+pay, and their autonomy on the job than report potential costs. Workers with
+jobs that ask them to solve complex problems, workers who feel valued by their
+employers, and workers who are motivated to move up in their careers are all
+more likely to see new technologies as beneficial. In contrast to assumptions
+in previous research, more formal education is in some cases associated with
+more negative attitudes toward automation and its impact on work. In an
+experimental setting, the prospect of financial incentives for workers improve
+their perceptions of automation technologies, whereas the prospect of increased
+input about how new technologies are used does not have a significant effect on
+workers' attitudes toward automation.",http://arxiv.org/abs/2409.20387v1
+"Multi-generational labour markets: data-driven discovery of
+  multi-perspective system parameters using machine learning","Abeer Abdullah Alaql, Fahad Alqurashi, Rashid Mehmood","Economic issues, such as inflation, energy costs, taxes, and interest rates,
+are a constant presence in our daily lives and have been exacerbated by global
+events such as pandemics, environmental disasters, and wars. A sustained
+history of financial crises reveals significant weaknesses and vulnerabilities
+in the foundations of modern economies. Another significant issue currently is
+people quitting their jobs in large numbers. Moreover, many organizations have
+a diverse workforce comprising multiple generations posing new challenges.
+Transformative approaches in economics and labour markets are needed to protect
+our societies, economies, and planet. In this work, we use big data and machine
+learning methods to discover multi-perspective parameters for
+multi-generational labour markets. The parameters for the academic perspective
+are discovered using 35,000 article abstracts from the Web of Science for the
+period 1958-2022 and for the professionals' perspective using 57,000 LinkedIn
+posts from 2022. We discover a total of 28 parameters and categorised them into
+5 macro-parameters, Learning & Skills, Employment Sectors, Consumer Industries,
+Learning & Employment Issues, and Generations-specific Issues. A complete
+machine learning software tool is developed for data-driven parameter
+discovery. A variety of quantitative and visualisation methods are applied and
+multiple taxonomies are extracted to explore multi-generational labour markets.
+A knowledge structure and literature review of multi-generational labour
+markets using over 100 research articles is provided. It is expected that this
+work will enhance the theory and practice of AI-based methods for knowledge
+discovery and system parameter discovery to develop autonomous capabilities and
+systems and promote novel approaches to labour economics and markets, leading
+to the development of sustainable societies and economies.",http://arxiv.org/abs/2302.10146v1
+"Information That Matters: Exploring Information Needs of People Affected
+  by Algorithmic Decisions","Timothée Schmude, Laura Koesten, Torsten Möller, Sebastian Tschiatschek","Every AI system that makes decisions about people has a group of stakeholders
+that are personally affected by these decisions. However, explanations of AI
+systems rarely address the information needs of this stakeholder group, who
+often are AI novices. This creates a gap between conveyed information and
+information that matters to those who are impacted by the system's decisions,
+such as domain experts and decision subjects. To address this, we present the
+""XAI Novice Question Bank,"" an extension of the XAI Question Bank containing a
+catalog of information needs from AI novices in two use cases: employment
+prediction and health monitoring. The catalog covers the categories of data,
+system context, system usage, and system specifications. We gathered
+information needs through task-based interviews where participants asked
+questions about two AI systems to decide on their adoption and received verbal
+explanations in response. Our analysis showed that participants' confidence
+increased after receiving explanations but that their understanding faced
+challenges. These included difficulties in locating information and in
+assessing their own understanding, as well as attempts to outsource
+understanding. Additionally, participants' prior perceptions of the systems'
+risks and benefits influenced their information needs. Participants who
+perceived high risks sought explanations about the intentions behind a system's
+deployment, while those who perceived low risks rather asked about the system's
+operation. Our work aims to support the inclusion of AI novices in
+explainability efforts by highlighting their information needs, aims, and
+challenges. We summarize our findings as five key implications that can inform
+the design of future explanations for lay stakeholder audiences.",http://arxiv.org/abs/2401.13324v6
+"Improving Task Instructions for Data Annotators: How Clear Rules and
+  Higher Pay Increase Performance in Data Annotation in the AI Economy","Johann Laux, Fabian Stephany, Alice Liefgreen","The global surge in AI applications is transforming industries, leading to
+displacement and complementation of existing jobs, while also giving rise to
+new employment opportunities. Data annotation, encompassing the labelling of
+images or annotating of texts by human workers, crucially influences the
+quality of a dataset directly influences the quality of AI models trained on
+it. This paper delves into the economics of data annotation, with a specific
+focus on the impact of task instruction design (that is, the choice between
+rules and standards as theorised in law and economics) and monetary incentives
+on data quality and costs. An experimental study involving 307 data annotators
+examines six groups with varying task instructions (norms) and monetary
+incentives. Results reveal that annotators provided with clear rules exhibit
+higher accuracy rates, outperforming those with vague standards by 14%.
+Similarly, annotators receiving an additional monetary incentive perform
+significantly better, with the highest accuracy rate recorded in the group
+working with both clear rules and incentives (87.5% accuracy). In addition, our
+results show that rules are perceived as being more helpful by annotators than
+standards and reduce annotators' difficulty in annotating images. These
+empirical findings underscore the double benefit of rule-based instructions on
+both data quality and worker wellbeing. Our research design allows us to reveal
+that, in our study, rules are more cost-efficient in increasing accuracy than
+monetary incentives. The paper contributes experimental insights to discussions
+on the economical, ethical, and legal considerations of AI technologies.
+Addressing policymakers and practitioners, we emphasise the need for a balanced
+approach in optimising data annotation processes for efficient and ethical AI
+development and usage.",http://arxiv.org/abs/2312.14565v2
+"Algorithms that ""Don't See Color"": Comparing Biases in Lookalike and
+  Special Ad Audiences","Piotr Sapiezynski, Avijit Ghosh, Levi Kaplan, Aaron Rieke, Alan Mislove","Researchers and journalists have repeatedly shown that algorithms commonly
+used in domains such as credit, employment, healthcare, or criminal justice can
+have discriminatory effects. Some organizations have tried to mitigate these
+effects by simply removing sensitive features from an algorithm's inputs. In
+this paper, we explore the limits of this approach using a unique opportunity.
+In 2019, Facebook agreed to settle a lawsuit by removing certain sensitive
+features from inputs of an algorithm that identifies users similar to those
+provided by an advertiser for ad targeting, making both the modified and
+unmodified versions of the algorithm available to advertisers. We develop
+methodologies to measure biases along the lines of gender, age, and race in the
+audiences created by this modified algorithm, relative to the unmodified one.
+Our results provide experimental proof that merely removing demographic
+features from a real-world algorithmic system's inputs can fail to prevent
+biased outputs. As a result, organizations using algorithms to help mediate
+access to important life opportunities should consider other approaches to
+mitigating discriminatory effects.",http://arxiv.org/abs/1912.07579v3
+"Automatic Dataset Builder for Machine Learning Applications to Satellite
+  Imagery","Alessandro Sebastianelli, Maria Pia Del Rosso, Silvia Liberata Ullo","Nowadays the use of Machine Learning (ML) algorithms is spreading in the
+field of Remote Sensing, with applications ranging from detection and
+classification of land use and monitoring to the prediction of many natural or
+anthropic phenomena of interest. One main limit of their employment is related
+to the need for a huge amount of data for training the neural network, chosen
+for the specific application, and the resulting computational weight and time
+required to collect the necessary data. In this letter the architecture of an
+innovative tool, enabling researchers to create in an automatic way suitable
+datasets for AI (Artificial Intelligence) applications in the EO (Earth
+Observation) context, is presented. Two versions of the architecture have been
+implemented and made available on Git-Hub, with a specific Graphical User
+Interface (GUI) for non-expert users.",http://arxiv.org/abs/2008.01578v1
+"DataOps for Societal Intelligence: a Data Pipeline for Labor Market
+  Skills Extraction and Matching","Damian Andrew Tamburri, Willem-Jan Van den Heuvel, Martin Garriga","Big Data analytics supported by AI algorithms can support skills localization
+and retrieval in the context of a labor market intelligence problem. We
+formulate and solve this problem through specific DataOps models, blending data
+sources from administrative and technical partners in several countries into
+cooperation, creating shared knowledge to support policy and decision-making.
+We then focus on the critical task of skills extraction from resumes and
+vacancies featuring state-of-the-art machine learning models. We showcase
+preliminary results with applied machine learning on real data from the
+employment agencies of the Netherlands and the Flemish region in Belgium. The
+final goal is to match these skills to standard ontologies of skills, jobs and
+occupations.",http://arxiv.org/abs/2104.01966v1
+"Bias Impact Analysis of AI in Consumer Mobile Health Technologies:
+  Legal, Technical, and Policy","Kristine Gloria, Nidhi Rastogi, Stevie DeGroff","Today's large-scale algorithmic and automated deployment of decision-making
+systems threatens to exclude marginalized communities. Thus, the emergent
+danger comes from the effectiveness and the propensity of such systems to
+replicate, reinforce, or amplify harmful existing discriminatory acts.
+Algorithmic bias exposes a deeply entrenched encoding of a range of unwanted
+biases that can have profound real-world effects that manifest in domains from
+employment, to housing, to healthcare. The last decade of research and examples
+on these effects further underscores the need to examine any claim of a
+value-neutral technology. This work examines the intersection of algorithmic
+bias in consumer mobile health technologies (mHealth). We include mHealth, a
+term used to describe mobile technology and associated sensors to provide
+healthcare solutions through patient journeys. We also include mental and
+behavioral health (mental and physiological) as part of our study. Furthermore,
+we explore to what extent current mechanisms - legal, technical, and or
+normative - help mitigate potential risks associated with unwanted bias in
+intelligent systems that make up the mHealth domain. We provide additional
+guidance on the role and responsibilities technologists and policymakers have
+to ensure that such systems empower patients equitably.",http://arxiv.org/abs/2209.05440v1
+Reinforcement Learning with Stepwise Fairness Constraints,"Zhun Deng, He Sun, Zhiwei Steven Wu, Linjun Zhang, David C. Parkes","AI methods are used in societally important settings, ranging from credit to
+employment to housing, and it is crucial to provide fairness in regard to
+algorithmic decision making. Moreover, many settings are dynamic, with
+populations responding to sequential decision policies. We introduce the study
+of reinforcement learning (RL) with stepwise fairness constraints, requiring
+group fairness at each time step. Our focus is on tabular episodic RL, and we
+provide learning algorithms with strong theoretical guarantees in regard to
+policy optimality and fairness violation. Our framework provides useful tools
+to study the impact of fairness constraints in sequential settings and brings
+up new challenges in RL.",http://arxiv.org/abs/2211.03994v1
+Trustworthy Social Bias Measurement,"Rishi Bommasani, Percy Liang","How do we design measures of social bias that we trust? While prior work has
+introduced several measures, no measure has gained widespread trust: instead,
+mounting evidence argues we should distrust these measures. In this work, we
+design bias measures that warrant trust based on the cross-disciplinary theory
+of measurement modeling. To combat the frequently fuzzy treatment of social
+bias in NLP, we explicitly define social bias, grounded in principles drawn
+from social science research. We operationalize our definition by proposing a
+general bias measurement framework DivDist, which we use to instantiate 5
+concrete bias measures. To validate our measures, we propose a rigorous testing
+protocol with 8 testing criteria (e.g. predictive validity: do measures predict
+biases in US employment?). Through our testing, we demonstrate considerable
+evidence to trust our measures, showing they overcome conceptual, technical,
+and empirical deficiencies present in prior measures.",http://arxiv.org/abs/2212.11672v1
+"Extreme Multi-Label Skill Extraction Training using Large Language
+  Models","Jens-Joris Decorte, Severine Verlinden, Jeroen Van Hautte, Johannes Deleu, Chris Develder, Thomas Demeester","Online job ads serve as a valuable source of information for skill
+requirements, playing a crucial role in labor market analysis and e-recruitment
+processes. Since such ads are typically formatted in free text, natural
+language processing (NLP) technologies are required to automatically process
+them. We specifically focus on the task of detecting skills (mentioned
+literally, or implicitly described) and linking them to a large skill ontology,
+making it a challenging case of extreme multi-label classification (XMLC).
+Given that there is no sizable labeled (training) dataset are available for
+this specific XMLC task, we propose techniques to leverage general Large
+Language Models (LLMs). We describe a cost-effective approach to generate an
+accurate, fully synthetic labeled dataset for skill extraction, and present a
+contrastive learning strategy that proves effective in the task. Our results
+across three skill extraction benchmarks show a consistent increase of between
+15 to 25 percentage points in \textit{R-Precision@5} compared to previously
+published results that relied solely on distant supervision through literal
+matches.",http://arxiv.org/abs/2307.10778v1
+WHITE PAPER: A Brief Exploration of Data Exfiltration using GCG Suffixes,Victor Valbuena,"The cross-prompt injection attack (XPIA) is an effective technique that can
+be used for data exfiltration, and that has seen increasing use. In this
+attack, the attacker injects a malicious instruction into third party data
+which an LLM is likely to consume when assisting a user, who is the victim.
+XPIA is often used as a means for data exfiltration, and the estimated cost of
+the average data breach for a business is nearly $4.5 million, which includes
+breaches such as compromised enterprise credentials. With the rise of
+gradient-based attacks such as the GCG suffix attack, the odds of an XPIA
+occurring which uses a GCG suffix are worryingly high. As part of my work in
+Microsoft's AI Red Team, I demonstrated a viable attack model using a GCG
+suffix paired with an injection in a simulated XPIA scenario. The results
+indicate that the presence of a GCG suffix can increase the odds of successful
+data exfiltration by nearly 20%, with some caveats.",http://arxiv.org/abs/2408.00925v1
+SkillMatch: Evaluating Self-supervised Learning of Skill Relatedness,"Jens-Joris Decorte, Jeroen Van Hautte, Thomas Demeester, Chris Develder","Accurately modeling the relationships between skills is a crucial part of
+human resources processes such as recruitment and employee development. Yet, no
+benchmarks exist to evaluate such methods directly. We construct and release
+SkillMatch, a benchmark for the task of skill relatedness, based on expert
+knowledge mining from millions of job ads. Additionally, we propose a scalable
+self-supervised learning technique to adapt a Sentence-BERT model based on
+skill co-occurrence in job ads. This new method greatly surpasses traditional
+models for skill relatedness as measured on SkillMatch. By releasing SkillMatch
+publicly, we aim to contribute a foundation for research towards increased
+accuracy and transparency of skill-based recommendation systems.",http://arxiv.org/abs/2410.05006v1
+"Digital Labor and the Inconspicuous Production of Artificial
+  Intelligence",Antonio A. Casilli,"Digital platforms capitalize on users' labor, often disguising essential
+contributions as casual activities or consumption, regardless of users'
+recognition of their efforts. Data annotation, content creation, and engagement
+with advertising are all aspects of this hidden productivity. Despite playing a
+crucial role in driving AI development, such tasks remain largely unrecognized
+and undercompensated. This chapter exposes the systemic devaluation of these
+activities in the digital economy, by drawing on historical theories about
+unrecognized labor, from housework to audience labor. This approach advocates
+for a broader understanding of digital labor by introducing the concept of
+''inconspicuous production.'' It moves beyond the traditional notion of
+''invisible work'' to highlight the hidden elements inherent in all job types,
+especially in light of growing automation and platform-based employment.",http://arxiv.org/abs/2410.05910v1
+"Underutilized land and sustainable development: effects on employment,
+  economic output, and mitigation of CO2 emissions","Seymur Garibov, Wadim Strielkowski","Climate change, deforestation, and biodiversity loss are calling for
+innovative approaches to effective reforestation and afforestation. This paper
+explores the integration of artificial intelligence and remote sensing
+technologies for optimizing tree planting strategies, estimating labor
+requirements, and determining space needs for various tree species in Gabala
+District of Azerbaijan. The study employs YOLOv8 for precise identification of
+potential planting sites and a Retrieval-Augmented Generation approach,
+combined with the Gemini API, to provide tailored species recommendations. The
+methodology incorporates time-series modeling to forecast the impact of
+reforestation on CO2 emissions reduction, utilizing Holt-Winters for
+predictions. Our results indicate that the AI model can effectively identify
+suitable locations and species, offering valuable insights into the potential
+economic and environmental benefits of large-scale tree planting thus fostering
+sustainable economic development and helping to mitigate the adverse effects of
+global warming and climate change.",http://arxiv.org/abs/2410.09136v1
+"A Set of Distinct Facial Traits Learned by Machines Is Not Predictive of
+  Appearance Bias in the Wild","Ryan Steed, Aylin Caliskan","Research in social psychology has shown that people's biased, subjective
+judgments about another's personality based solely on their appearance are not
+predictive of their actual personality traits. But researchers and companies
+often utilize computer vision models to predict similarly subjective
+personality attributes such as ""employability."" We seek to determine whether
+state-of-the-art, black box face processing technology can learn human-like
+appearance biases. With features extracted with FaceNet, a widely used face
+recognition framework, we train a transfer learning model on human subjects'
+first impressions of personality traits in other faces as measured by social
+psychologists. We find that features extracted with FaceNet can be used to
+predict human appearance bias scores for deliberately manipulated faces but not
+for randomly generated faces scored by humans. Additionally, in contrast to
+work with human biases in social psychology, the model does not find a
+significant signal correlating politicians' vote shares with perceived
+competence bias. With Local Interpretable Model-Agnostic Explanations (LIME),
+we provide several explanations for this discrepancy. Our results suggest that
+some signals of appearance bias documented in social psychology are not
+embedded by the machine learning techniques we investigate. We shed light on
+the ways in which appearance bias could be embedded in face processing
+technology and cast further doubt on the practice of predicting subjective
+traits based on appearances.",http://arxiv.org/abs/2002.05636v3
+"Professional Certification Benchmark Dataset: The First 500 Jobs For
+  Large Language Models","David Noever, Matt Ciolino","The research creates a professional certification survey to test large
+language models and evaluate their employable skills. It compares the
+performance of two AI models, GPT-3 and Turbo-GPT3.5, on a benchmark dataset of
+1149 professional certifications, emphasizing vocational readiness rather than
+academic performance. GPT-3 achieved a passing score (>70% correct) in 39% of
+the professional certifications without fine-tuning or exam preparation. The
+models demonstrated qualifications in various computer-related fields, such as
+cloud and virtualization, business analytics, cybersecurity, network setup and
+repair, and data analytics. Turbo-GPT3.5 scored 100% on the valuable Offensive
+Security Certified Professional (OSCP) exam. The models also displayed
+competence in other professional domains, including nursing, licensed
+counseling, pharmacy, and teaching. Turbo-GPT3.5 passed the Financial Industry
+Regulatory Authority (FINRA) Series 6 exam with a 70% grade without
+preparation. Interestingly, Turbo-GPT3.5 performed well on customer service
+tasks, suggesting potential applications in human augmentation for chatbots in
+call centers and routine advice services. The models also score well on sensory
+and experience-based tests such as wine sommelier, beer taster, emotional
+quotient, and body language reader. The OpenAI model improvement from Babbage
+to Turbo resulted in a median 60% better-graded performance in less than a few
+years. This progress suggests that focusing on the latest model's shortcomings
+could lead to a highly performant AI capable of mastering the most demanding
+professional certifications. We open-source the benchmark to expand the range
+of testable professional skills as the models improve or gain emergent
+capabilities.",http://arxiv.org/abs/2305.05377v1
+"With ChatGPT, do we have to rewrite our learning objectives -- CASE
+  study in Cybersecurity","Peter Jamieson, Suman Bhunia, Dhananjai M. Rao","With the emergence of Artificial Intelligent chatbot tools such as ChatGPT
+and code writing AI tools such as GitHub Copilot, educators need to question
+what and how we should teach our courses and curricula in the future. In
+reality, automated tools may result in certain academic fields being deeply
+reduced in the number of employable people. In this work, we make a case study
+of cybersecurity undergrad education by using the lens of ``Understanding by
+Design'' (UbD). First, we provide a broad understanding of learning objectives
+(LOs) in cybersecurity from a computer science perspective. Next, we dig a
+little deeper into a curriculum with an undergraduate emphasis on cybersecurity
+and examine the major courses and their LOs for our cybersecurity program at
+Miami University. With these details, we perform a thought experiment on how
+attainable the LOs are with the above-described tools, asking the key question
+``what needs to be enduring concepts?'' learned in this process. If an LO
+becomes something that the existence of automation tools might be able to do,
+we then ask ``what level is attainable for the LO that is not a simple query to
+the tools?''. With this exercise, we hope to establish an example of how to
+prompt ChatGPT to accelerate students in their achievements of LOs given the
+existence of these new AI tools, and our goal is to push all of us to leverage
+and teach these tools as powerful allies in our quest to improve human
+existence and knowledge.",http://arxiv.org/abs/2311.06261v1
+"Causal Relationship Network of Risk Factors Impacting Workday Loss in
+  Underground Coal Mines","Shangsi Ren, Cameron A. Beeche, Zhiyi Shi, Maria Acevedo Garcia, Katherine Zychowski, Shuguang Leng, Pedram Roghanchi, Jiantao Pu","This study aims to establish the causal relationship network between various
+factors leading to workday loss in underground coal mines using a novel causal
+artificial intelligence (AI) method. The analysis utilizes data obtained from
+the National Institute for Occupational Safety and Health (NIOSH). A total of
+101,010 injury records from 3,982 unique underground coal mines spanning the
+years from 1990 to 2020 were extracted from the NIOSH database. Causal
+relationships were analyzed and visualized using a novel causal AI method
+called Grouped Greedy Equivalence Search (GGES). The impact of each variable on
+workday loss was assessed through intervention do-calculus adjustment (IDA)
+scores. Model training and validation were performed using the 10-fold
+cross-validation technique. Performance metrics, including adjacency precision
+(AP), adjacency recall (AR), arrowhead precision (AHP), and arrowhead recall
+(AHR), were utilized to evaluate the models. Findings revealed that after 2006,
+key direct causes of workday loss among mining employees included total mining
+experience, mean office employees, mean underground employees, county, and
+total mining experience (years). Total mining experience emerged as the most
+influential factor, whereas mean employees per mine exhibited the least
+influence. The analyses emphasized the significant role of total mining
+experience in determining workday loss. The models achieved optimal
+performance, with AP, AR, AHP, and AHR values measuring 0.694, 0.653, 0.386,
+and 0.345, respectively. This study demonstrates the feasibility of utilizing
+the new GGES method to clarify the causal factors behind the workday loss by
+analyzing employment demographics and injury records and establish their causal
+relationship network.",http://arxiv.org/abs/2402.05940v1
+"A Scoping Review of Energy-Efficient Driving Behaviors and Applied
+  State-of-the-Art AI Methods","Zhipeng Ma, Bo Nørregaard Jørgensen, Zheng Ma","The transportation sector remains a major contributor to greenhouse gas
+emissions. The understanding of energy-efficient driving behaviors and
+utilization of energy-efficient driving strategies are essential to reduce
+vehicles' fuel consumption. However, there is no comprehensive investigation
+into energy-efficient driving behaviors and strategies. Furthermore, many
+state-of-the-art AI models have been applied for the analysis of eco-friendly
+driving styles, but no overview is available. To fill the gap, this paper
+conducts a thorough literature review on ecological driving behaviors and
+styles and analyzes the driving factors influencing energy consumption and
+state-of-the-art methodologies. With a thorough scoping review process, the
+methodological and related data are compared. The results show that the factors
+that impact driving behaviors can be summarized into eleven features including
+speed, acceleration, deceleration, pedal, and so on. This paper finds that
+supervised/unsupervised learning algorithms and reinforcement learning
+frameworks have been popularly used to model the vehicle's energy consumption
+with multi-dimensional data. Furthermore, the literature shows that the driving
+data are collected from either simulators or real-world experiments, and the
+real-world data are mainly stored and transmitted by meters, controller area
+networks, onboard data services, smartphones, and additional sensors installed
+in the vehicle. Based on driving behavior factors, driver characteristics, and
+safety rules, this paper recommends nine energy-efficient driving styles
+including four guidelines for the drivers' selection and adjustment of the
+vehicle parameters, three recommendations for the energy-efficient driving
+styles in different driving scenarios, and two subjective suggestions for
+different types of drivers and employers.",http://arxiv.org/abs/2403.02053v1
+"Dialect prejudice predicts AI decisions about people's character,
+  employability, and criminality","Valentin Hofmann, Pratyusha Ria Kalluri, Dan Jurafsky, Sharese King","Hundreds of millions of people now interact with language models, with uses
+ranging from serving as a writing aid to informing hiring decisions. Yet these
+language models are known to perpetuate systematic racial prejudices, making
+their judgments biased in problematic ways about groups like African Americans.
+While prior research has focused on overt racism in language models, social
+scientists have argued that racism with a more subtle character has developed
+over time. It is unknown whether this covert racism manifests in language
+models. Here, we demonstrate that language models embody covert racism in the
+form of dialect prejudice: we extend research showing that Americans hold
+raciolinguistic stereotypes about speakers of African American English and find
+that language models have the same prejudice, exhibiting covert stereotypes
+that are more negative than any human stereotypes about African Americans ever
+experimentally recorded, although closest to the ones from before the civil
+rights movement. By contrast, the language models' overt stereotypes about
+African Americans are much more positive. We demonstrate that dialect prejudice
+has the potential for harmful consequences by asking language models to make
+hypothetical decisions about people, based only on how they speak. Language
+models are more likely to suggest that speakers of African American English be
+assigned less prestigious jobs, be convicted of crimes, and be sentenced to
+death. Finally, we show that existing methods for alleviating racial bias in
+language models such as human feedback training do not mitigate the dialect
+prejudice, but can exacerbate the discrepancy between covert and overt
+stereotypes, by teaching language models to superficially conceal the racism
+that they maintain on a deeper level. Our findings have far-reaching
+implications for the fair and safe employment of language technology.",http://arxiv.org/abs/2403.00742v1
+Racial Disparities in the Enforcement of Marijuana Violations in the US,"Bradley Butcher, Chris Robinson, Miri Zilka, Riccardo Fogliato, Carolyn Ashurst, Adrian Weller","Racial disparities in US drug arrest rates have been observed for decades,
+but their causes and policy implications are still contested. Some have argued
+that the disparities largely reflect differences in drug use between racial
+groups, while others have hypothesized that discriminatory enforcement policies
+and police practices play a significant role. In this work, we analyze racial
+disparities in the enforcement of marijuana violations in the US. Using data
+from the National Incident-Based Reporting System (NIBRS) and the National
+Survey on Drug Use and Health (NSDUH) programs, we investigate whether
+marijuana usage and purchasing behaviors can explain the racial composition of
+offenders in police records. We examine potential driving mechanisms behind
+these disparities and the extent to which county-level socioeconomic factors
+are associated with corresponding disparities. Our results indicate that the
+significant racial disparities in reported incidents and arrests cannot be
+explained by differences in marijuana days-of-use alone. Variations in the
+location where marijuana is purchased and in the frequency of these purchases
+partially explain the observed disparities. We observe an increase in racial
+disparities across most counties over the last decade, with the greatest
+increases in states that legalized the use of marijuana within this timeframe.
+Income, high school graduation rate, and rate of employment positively
+correlate with larger racial disparities, while the rate of incarceration is
+negatively correlated. We conclude with a discussion of the implications of the
+observed racial disparities in the context of algorithmic fairness.",http://arxiv.org/abs/2203.11771v3
+"High Reversibility of Lattice Oxygen Redox in Na-ion and Li-ion
+  Batteries Quantified by Direct Bulk Probes of both Anionic and Cationic Redox
+  Reactions","Kehua Dai, Jinpeng Wu, Zengqing Zhuo, Qinghao Li, Shawn Sallis, Jing Mao, Guo Ai, Chihang Sun, Zaiyuan Li, William E. Gent, William C. Chueh, Yi-de Chuang, Rong Zeng, Zhi-xun Shen, Feng Pan, Shishen Yan, Louis F. J. Piper, Zahid Hussain, Gao Liu, Wanli Yang","The reversibility and cyclability of anionic redox in battery electrodes hold
+the key to its practical employments. Here, through mapping of resonant
+inelastic X-ray scattering (mRIXS), we have independently quantified the
+evolving redox states of both cations and anions in Na2/3Mg1/3Mn2/3O2. The
+bulk-Mn redox emerges from initial discharge and is quantified by
+inverse-partial fluorescence yield (iPFY) from Mn-L mRIXS. Bulk and surface Mn
+activities likely lead to the voltage fade. O-K super-partial fluorescence
+yield (sPFY) analysis of mRIXS shows 79% lattice oxygen-redox reversibility
+during initial cycle, with 87% capacity sustained after 100 cycles. In
+Li1.17Ni0.21Co0.08Mn0.54O2, lattice-oxygen redox is 76% initial-cycle
+reversible but with only 44% capacity retention after 500 cycles. These results
+unambiguously show the high reversibility of lattice-oxygen redox in both
+Li-ion and Na-ion systems. The contrast between Na2/3Mg1/3Mn2/3O2 and
+Li1.17Ni0.21Co0.08Mn0.54O2 systems suggests the importance of distinguishing
+lattice-oxygen redox from other oxygen activities for clarifying its intrinsic
+properties.",http://arxiv.org/abs/1811.05964v1
+"Wireless Image Transmission Using Deep Source Channel Coding With
+  Attention Modules","Jialong Xu, Bo Ai, Wei Chen, Ang Yang, Peng Sun, Miguel Rodrigues","Recent research on joint source channel coding (JSCC) for wireless
+communications has achieved great success owing to the employment of deep
+learning (DL). However, the existing work on DL based JSCC usually trains the
+designed network to operate under a specific signal-to-noise ratio (SNR)
+regime, without taking into account that the SNR level during the deployment
+stage may differ from that during the training stage. A number of networks are
+required to cover the scenario with a broad range of SNRs, which is
+computational inefficiency (in the training stage) and requires large storage.
+To overcome these drawbacks our paper proposes a novel method called Attention
+DL based JSCC (ADJSCC) that can successfully operate with different SNR levels
+during transmission. This design is inspired by the resource assignment
+strategy in traditional JSCC, which dynamically adjusts the compression ratio
+in source coding and the channel coding rate according to the channel SNR. This
+is achieved by resorting to attention mechanisms because these are able to
+allocate computing resources to more critical tasks. Instead of applying the
+resource allocation strategy in traditional JSCC, the ADJSCC uses the
+channel-wise soft attention to scaling features according to SNR conditions. We
+compare the ADJSCC method with the state-of-the-art DL based JSCC method
+through extensive experiments to demonstrate its adaptability, robustness and
+versatility. Compared with the existing methods, the proposed method takes less
+storage and is more robust in the presence of channel mismatch.",http://arxiv.org/abs/2012.00533v3
+"Practical Skills Demand Forecasting via Representation Learning of
+  Temporal Dynamics","Maysa M. Garcia de Macedo, Wyatt Clarke, Eli Lucherini, Tyler Baldwin, Dilermando Queiroz Neto, Rogerio de Paula, Subhro Das","Rapid technological innovation threatens to leave much of the global
+workforce behind. Today's economy juxtaposes white-hot demand for skilled labor
+against stagnant employment prospects for workers unprepared to participate in
+a digital economy. It is a moment of peril and opportunity for every country,
+with outcomes measured in long-term capital allocation and the life
+satisfaction of billions of workers. To meet the moment, governments and
+markets must find ways to quicken the rate at which the supply of skills reacts
+to changes in demand. More fully and quickly understanding labor market
+intelligence is one route. In this work, we explore the utility of time series
+forecasts to enhance the value of skill demand data gathered from online job
+advertisements. This paper presents a pipeline which makes one-shot multi-step
+forecasts into the future using a decade of monthly skill demand observations
+based on a set of recurrent neural network methods. We compare the performance
+of a multivariate model versus a univariate one, analyze how correlation
+between skills can influence multivariate model results, and present
+predictions of demand for a selection of skills practiced by workers in the
+information technology industry.",http://arxiv.org/abs/2205.09508v1
+Generative Job Recommendations with Large Language Model,"Zhi Zheng, Zhaopeng Qiu, Xiao Hu, Likang Wu, Hengshu Zhu, Hui Xiong","The rapid development of online recruitment services has encouraged the
+utilization of recommender systems to streamline the job seeking process.
+Predominantly, current job recommendations deploy either collaborative
+filtering or person-job matching strategies. However, these models tend to
+operate as ""black-box"" systems and lack the capacity to offer explainable
+guidance to job seekers. Moreover, conventional matching-based recommendation
+methods are limited to retrieving and ranking existing jobs in the database,
+restricting their potential as comprehensive career AI advisors. To this end,
+here we present GIRL (GeneratIve job Recommendation based on Large language
+models), a novel approach inspired by recent advancements in the field of Large
+Language Models (LLMs). We initially employ a Supervised Fine-Tuning (SFT)
+strategy to instruct the LLM-based generator in crafting suitable Job
+Descriptions (JDs) based on the Curriculum Vitae (CV) of a job seeker.
+Moreover, we propose to train a model which can evaluate the matching degree
+between CVs and JDs as a reward model, and we use Proximal Policy Optimization
+(PPO)-based Reinforcement Learning (RL) method to further fine-tine the
+generator. This aligns the generator with recruiter feedback, tailoring the
+output to better meet employer preferences. In particular, GIRL serves as a job
+seeker-centric generative model, providing job suggestions without the need of
+a candidate set. This capability also enhances the performance of existing job
+recommendation models by supplementing job seeking features with generated
+content. With extensive experiments on a large-scale real-world dataset, we
+demonstrate the substantial effectiveness of our approach. We believe that GIRL
+introduces a paradigm-shifting approach to job recommendation systems,
+fostering a more personalized and comprehensive job-seeking experience.",http://arxiv.org/abs/2307.02157v1
+"Towards Carbon Transparency: A High-Resolution Carbon Emissions Database
+  for China's Listed Companies","Xinlei Wang, Junhua Zhao, Haifeng Wu, Zhengwen Zhang, Guolong Liu, Wenxuan Liu, Yuheng Cheng, Jing Qiu, Bohui Zhang, Jianwei Huang","The dual-carbon goals of China necessitate precise accounting of company
+carbon emissions, vital for green development across all industries. Not only
+the company itself but also financial investors require accurate and
+comprehensive company-level emissions data for climate risk management. This
+paper introduces the structure and methodology of the High-resolution Database
+for Carbon Emissions of China-listed companies, integrating three primary data
+sources: self-disclosed environmental data from listed companies,
+long-accumulated national power emission data, and regional high-precision
+emission data derived from multi-source satellites. The database's innovation
+lies in the employment of artificial intelligence (AI) algorithms to aggregate
+multi-source satellite data. This approach enables the precise identification
+of carbon emission sources and the prediction of company-level carbon
+emissions. Consequently, this methodology robustly cross-validates
+self-reported direct emissions, enhancing the accuracy and granularity of
+company-level emission records. Central to the database's utility includes the
+provision of high-resolution company carbon emission data, which is not only
+highly accurate but also instrumental in carbon management and emission market
+transactions. By offering a more nuanced and verifiable picture of company
+emissions, the database supports China's broader efforts to meet its ambitious
+dual-carbon targets and transition towards a more sustainable and
+environmentally responsible economy.",http://arxiv.org/abs/2308.09461v1
+"Unlocking Metasurface Practicality for B5G Networks: AI-assisted RIS
+  Planning","Guillermo Encinas-Lago, Antonio Albanese, Vincenzo Sciancalepore, Marco Di Renzo, Xavier Costa-Pérez","The advent of reconfigurable intelligent surfaces(RISs) brings along
+significant improvements for wireless technology on the verge of
+beyond-fifth-generation networks (B5G).The proven flexibility in influencing
+the propagation environment opens up the possibility of programmatically
+altering the wireless channel to the advantage of network designers, enabling
+the exploitation of higher-frequency bands for superior throughput overcoming
+the challenging electromagnetic (EM) propagation properties at these frequency
+bands.
+  However, RISs are not magic bullets. Their employment comes with significant
+complexity, requiring ad-hoc deployments and management operations to come to
+fruition. In this paper, we tackle the open problem of bringing RISs to the
+field, focusing on areas with little or no coverage. In fact, we present a
+first-of-its-kind deep reinforcement learning (DRL) solution, dubbed as D-RISA,
+which trains a DRL agent and, in turn, obtain san optimal RIS deployment. We
+validate our framework in the indoor scenario of the Rennes railway station in
+France, assessing the performance of our algorithm against state-of-the-art
+(SOA) approaches. Our benchmarks showcase better coverage, i.e., 10-dB increase
+in minimum signal-to-noise ratio (SNR), at lower computational time (up to -25
+percent) while improving scalability towards denser network deployments.",http://arxiv.org/abs/2310.10330v1
+"The Concept of the Tactile Signature System for Individuals with Visual
+  Impairments","Anatoliy Kremenchutskiy, Galymzhan Gabdreshov","The lack of an accessible and effective system for blind individuals to
+create handwritten signatures presents a significant barrier to their
+independence and full participation in various aspects of life. This research
+introduces the Tactile Signature System, a groundbreaking approach that
+empowers individuals with visual impairments to form their unique handwritten
+signatures. Key features of the system include: Personalized customization:
+Through tactile interaction and voice algorithmic guidance, individuals create
+signatures reflecting their preferences and natural writing style. Real-time
+feedback: AI-powered voice prompts and analysis ensure accuracy and consistency
+in signature formation. Accessibility: Installation in local service centers
+provides a secure and supervised environment for signature creation. The
+system's impact reaches beyond the individual level: Promotes inclusivity and
+independence: Blind individuals can engage in legal and financial transactions
+without relying on others. Empowers and fosters equal opportunities:
+Participation in education, employment, and civic engagement becomes more
+accessible. Aligns with international conventions: Upholds the right of persons
+with disabilities to participate fully in society. The Tactile Signature System
+represents a significant step towards an inclusive and accessible future for
+individuals with visual impairments.",http://arxiv.org/abs/2401.04126v2
+Exploring ChatGPT and its Impact on Society,"Md. Asraful Haque, Shuai Li","Artificial intelligence has been around for a while, but suddenly it has
+received more attention than ever before. Thanks to innovations from companies
+like Google, Microsoft, Meta, and other major brands in technology. OpenAI,
+though, has triggered the button with its ground-breaking invention ChatGPT.
+ChatGPT is a Large Language Model (LLM) based on Transformer architecture that
+has the ability to generate human-like responses in a conversational context.
+It uses deep learning algorithms to generate natural language responses to
+input text. Its large number of parameters, contextual generation, and
+open-domain training make it a versatile and effective tool for a wide range of
+applications, from chatbots to customer service to language translation. It has
+the potential to revolutionize various industries and transform the way we
+interact with technology. However, the use of ChatGPT has also raised several
+concerns, including ethical, social, and employment challenges, which must be
+carefully considered to ensure the responsible use of this technology. The
+article provides an overview of ChatGPT, delving into its architecture and
+training process. It highlights the potential impacts of ChatGPT on the
+society. In this paper, we suggest some approaches involving technology,
+regulation, education, and ethics in an effort to maximize ChatGPT's benefits
+while minimizing its negative impacts. This study is expected to contribute to
+a greater understanding of ChatGPT and aid in predicting the potential changes
+it may bring about.",http://arxiv.org/abs/2403.14643v2
+"Predicting Learning Performance with Large Language Models: A Study in
+  Adult Literacy","Liang Zhang, Jionghao Lin, Conrad Borchers, John Sabatini, John Hollander, Meng Cao, Xiangen Hu","Intelligent Tutoring Systems (ITSs) have significantly enhanced adult
+literacy training, a key factor for societal participation, employment
+opportunities, and lifelong learning. Our study investigates the application of
+advanced AI models, including Large Language Models (LLMs) like GPT-4, for
+predicting learning performance in adult literacy programs in ITSs. This
+research is motivated by the potential of LLMs to predict learning performance
+based on its inherent reasoning and computational capabilities. By using
+reading comprehension datasets from the ITS, AutoTutor, we evaluate the
+predictive capabilities of GPT-4 versus traditional machine learning methods in
+predicting learning performance through five-fold cross-validation techniques.
+Our findings show that the GPT-4 presents the competitive predictive abilities
+with traditional machine learning methods such as Bayesian Knowledge Tracing,
+Performance Factor Analysis, Sparse Factor Analysis Lite (SPARFA-Lite), tensor
+factorization and eXtreme Gradient Boosting (XGBoost). While XGBoost (trained
+on local machine) outperforms GPT-4 in predictive accuracy, GPT-4-selected
+XGBoost and its subsequent tuning on the GPT-4 platform demonstrates superior
+performance compared to local machine execution. Moreover, our investigation
+into hyper-parameter tuning by GPT-4 versus grid-search suggests comparable
+performance, albeit with less stability in the automated approach, using
+XGBoost as the case study. Our study contributes to the field by highlighting
+the potential of integrating LLMs with traditional machine learning models to
+enhance predictive accuracy and personalize adult literacy education, setting a
+foundation for future research in applying LLMs within ITSs.",http://arxiv.org/abs/2403.14668v1
+Generative AI in Cybersecurity,"Shivani Metta, Isaac Chang, Jack Parker, Michael P. Roman, Arturo F. Ehuan","The dawn of Generative Artificial Intelligence (GAI), characterized by
+advanced models such as Generative Pre-trained Transformers (GPT) and other
+Large Language Models (LLMs), has been pivotal in reshaping the field of data
+analysis, pattern recognition, and decision-making processes. This surge in GAI
+technology has ushered in not only innovative opportunities for data processing
+and automation but has also introduced significant cybersecurity challenges.
+  As GAI rapidly progresses, it outstrips the current pace of cybersecurity
+protocols and regulatory frameworks, leading to a paradox wherein the same
+innovations meant to safeguard digital infrastructures also enhance the arsenal
+available to cyber criminals. These adversaries, adept at swiftly integrating
+and exploiting emerging technologies, may utilize GAI to develop malware that
+is both more covert and adaptable, thus complicating traditional cybersecurity
+efforts.
+  The acceleration of GAI presents an ambiguous frontier for cybersecurity
+experts, offering potent tools for threat detection and response, while
+concurrently providing cyber attackers with the means to engineer more
+intricate and potent malware. Through the joint efforts of Duke Pratt School of
+Engineering, Coalfire, and Safebreach, this research undertakes a meticulous
+analysis of how malicious agents are exploiting GAI to augment their attack
+strategies, emphasizing a critical issue for the integrity of future
+cybersecurity initiatives. The study highlights the critical need for
+organizations to proactively identify and develop more complex defensive
+strategies to counter the sophisticated employment of GAI in malware creation.",http://arxiv.org/abs/2405.01674v1
+"PENDRAM: Enabling High-Performance and Energy-Efficient Processing of
+  Deep Neural Networks through a Generalized DRAM Data Mapping Policy","Rachmad Vidya Wicaksana Putra, Muhammad Abdullah Hanif, Muhammad Shafique","Convolutional Neural Networks (CNNs), a prominent type of Deep Neural
+Networks (DNNs), have emerged as a state-of-the-art solution for solving
+machine learning tasks. To improve the performance and energy efficiency of CNN
+inference, the employment of specialized hardware accelerators is prevalent.
+However, CNN accelerators still face performance- and energy-efficiency
+challenges due to high off-chip memory (DRAM) access latency and energy, which
+are especially crucial for latency- and energy-constrained embedded
+applications. Moreover, different DRAM architectures have different profiles of
+access latency and energy, thus making it challenging to optimize them for high
+performance and energy-efficient CNN accelerators. To address this, we present
+PENDRAM, a novel design space exploration methodology that enables
+high-performance and energy-efficient CNN acceleration through a generalized
+DRAM data mapping policy. Specifically, it explores the impact of different
+DRAM data mapping policies and DRAM architectures across different CNN
+partitioning and scheduling schemes on the DRAM access latency and energy, then
+identifies the pareto-optimal design choices. The experimental results show
+that our DRAM data mapping policy improves the energy-delay-product of DRAM
+accesses in the CNN accelerator over other mapping policies by up to 96%. In
+this manner, our PENDRAM methodology offers high-performance and
+energy-efficient CNN acceleration under any given DRAM architectures for
+diverse embedded AI applications.",http://arxiv.org/abs/2408.02412v1
+"Enhancing Adaptive Deep Networks for Image Classification via
+  Uncertainty-aware Decision Fusion","Xu Zhang, Zhipeng Xie, Haiyang Yu, Qitong Wang, Peng Wang, Wei Wang","Handling varying computational resources is a critical issue in modern AI
+applications. Adaptive deep networks, featuring the dynamic employment of
+multiple classifier heads among different layers, have been proposed to address
+classification tasks under varying computing resources. Existing approaches
+typically utilize the last classifier supported by the available resources for
+inference, as they believe that the last classifier always performs better
+across all classes. However, our findings indicate that earlier classifier
+heads can outperform the last head for certain classes. Based on this
+observation, we introduce the Collaborative Decision Making (CDM) module, which
+fuses the multiple classifier heads to enhance the inference performance of
+adaptive deep networks. CDM incorporates an uncertainty-aware fusion method
+based on evidential deep learning (EDL), that utilizes the reliability
+(uncertainty values) from the first c-1 classifiers to improve the c-th
+classifier' accuracy. We also design a balance term that reduces fusion
+saturation and unfairness issues caused by EDL constraints to improve the
+fusion quality of CDM. Finally, a regularized training strategy that uses the
+last classifier to guide the learning process of early classifiers is proposed
+to further enhance the CDM module's effect, called the Guided Collaborative
+Decision Making (GCDM) framework. The experimental evaluation demonstrates the
+effectiveness of our approaches. Results on ImageNet datasets show CDM and GCDM
+obtain 0.4% to 2.8% accuracy improvement (under varying computing resources) on
+popular adaptive networks. The code is available at the link
+https://github.com/Meteor-Stars/GCDM_AdaptiveNet.",http://arxiv.org/abs/2408.13744v2
+Model Cards for Model Reporting,"Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, Timnit Gebru","Trained machine learning models are increasingly used to perform high-impact
+tasks in areas such as law enforcement, medicine, education, and employment. In
+order to clarify the intended use cases of machine learning models and minimize
+their usage in contexts for which they are not well suited, we recommend that
+released models be accompanied by documentation detailing their performance
+characteristics. In this paper, we propose a framework that we call model
+cards, to encourage such transparent model reporting. Model cards are short
+documents accompanying trained machine learning models that provide benchmarked
+evaluation in a variety of conditions, such as across different cultural,
+demographic, or phenotypic groups (e.g., race, geographic location, sex,
+Fitzpatrick skin type) and intersectional groups (e.g., age and race, or sex
+and Fitzpatrick skin type) that are relevant to the intended application
+domains. Model cards also disclose the context in which models are intended to
+be used, details of the performance evaluation procedures, and other relevant
+information. While we focus primarily on human-centered machine learning models
+in the application fields of computer vision and natural language processing,
+this framework can be used to document any trained machine learning model. To
+solidify the concept, we provide cards for two supervised models: One trained
+to detect smiling faces in images, and one trained to detect toxic comments in
+text. We propose model cards as a step towards the responsible democratization
+of machine learning and related AI technology, increasing transparency into how
+well AI technology works. We hope this work encourages those releasing trained
+machine learning models to accompany model releases with similar detailed
+evaluation numbers and other relevant documentation.",http://arxiv.org/abs/1810.03993v2
+Employing Multimodal Machine Learning for Stress Detection,"Rahee Walambe, Pranav Nayak, Ashmit Bhardwaj, Ketan Kotecha","In the current age, human lifestyle has become more knowledge oriented
+leading to generation of sedentary employment. This has given rise to a number
+of health and mental disorders. Mental wellness is one of the most neglected
+but crucial aspects of today's world. Mental health issues can, both directly
+and indirectly, affect other sections of human physiology and impede an
+individual's day-to-day activities and performance. However, identifying the
+stress and finding the stress trend for an individual leading to serious mental
+ailments is challenging and involves multiple factors. Such identification can
+be achieved accurately by fusing these multiple modalities (due to various
+factors) arising from behavioral patterns. Certain techniques are identified in
+the literature for this purpose; however, very few machine learning-based
+methods are proposed for such multimodal fusion tasks. In this work, a
+multimodal AI-based framework is proposed to monitor a person's working
+behavior and stress levels. We propose a methodology for efficiently detecting
+stress due to workload by concatenating heterogeneous raw sensor data streams
+(e.g., face expressions, posture, heart rate, computer interaction). This data
+can be securely stored and analyzed to understand and discover personalized
+unique behavioral patterns leading to mental strain and fatigue. The
+contribution of this work is twofold; proposing a multimodal AI-based strategy
+for fusion to detect stress and its level and secondly identify a stress
+pattern over a period of time. We were able to achieve 96.09% accuracy on the
+test set in stress detection and classification. Further, we reduce the stress
+scale prediction model loss to 0.036 using these modalities. This work can
+prove important for the community at large, specifically those working
+sedentary jobs to monitor and identify stress levels, especially in current
+times of COVID-19.",http://arxiv.org/abs/2306.09385v1
+"Characteristics of ChatGPT users from Germany: implications for the
+  digital divide from web tracking data","Celina Kacperski, Denis Bonnay, Juhi Kulshrestha, Peter Selb, Andreas Spitz, Roberto Ulloa","A major challenge of our time is reducing disparities in access to and
+effective use of digital technologies, with recent discussions highlighting the
+role of AI in exacerbating the digital divide. We examine user characteristics
+that predict usage of the AI-powered conversational agent ChatGPT. We combine
+behavioral and survey data in a web tracked sample of N=1376 German citizens to
+investigate differences in ChatGPT activity (usage, visits, and adoption)
+during the first 11 months from the launch of the service (November 30, 2022).
+Guided by a model of technology acceptance (UTAUT- 2), we examine the role of
+socio-demographics commonly associated with the digital divide in ChatGPT
+activity and explore further socio-political attributes identified via
+stability selection in Lasso regressions. We confirm that lower age and higher
+education affect ChatGPT usage, but do not find that gender or income do. We
+find full-time employment and more children to be barriers to ChatGPT activity.
+Using a variety of social media was positively associated with ChatGPT
+activity. In terms of political variables, political knowledge and political
+self-efficacy as well as some political behaviors such as voting, debating
+political issues online and offline and political action online were all
+associated with ChatGPT activity, with online political debating and political
+self-efficacy negatively so. Finally, need for cognition and communication
+skills such as writing, attending meetings, or giving presentations, were also
+associated with ChatGPT engagement, though chairing/organizing meetings was
+negatively associated. Our research informs efforts to address digital
+disparities and promote digital literacy among underserved populations by
+presenting implications, recommendations, and discussions on ethical and social
+issues of our findings.",http://arxiv.org/abs/2309.02142v3
+"Analysis and Applications of Deep Learning with Finite Samples in Full
+  Life-Cycle Intelligence of Nuclear Power Generation","Chenwei Tang, Wenqiang Zhou, Dong Wang, Caiyang Yu, Zhenan He, Jizhe Zhou, Shudong Huang, Yi Gao, Jianming Chen, Wentao Feng, Jiancheng Lv","The advent of Industry 4.0 has precipitated the incorporation of Artificial
+Intelligence (AI) methods within industrial contexts, aiming to realize
+intelligent manufacturing, operation as well as maintenance, also known as
+industrial intelligence. However, intricate industrial milieus, particularly
+those relating to energy exploration and production, frequently encompass data
+characterized by long-tailed class distribution, sample imbalance, and domain
+shift. These attributes pose noteworthy challenges to data-centric Deep
+Learning (DL) techniques, crucial for the realization of industrial
+intelligence. The present study centers on the intricate and distinctive
+industrial scenarios of Nuclear Power Generation (NPG), meticulously
+scrutinizing the application of DL techniques under the constraints of finite
+data samples. Initially, the paper expounds on potential employment scenarios
+for AI across the full life-cycle of NPG. Subsequently, we delve into an
+evaluative exposition of DL's advancement, grounded in the finite sample
+perspective. This encompasses aspects such as small-sample learning, few-shot
+learning, zero-shot learning, and open-set recognition, also referring to the
+unique data characteristics of NPG. The paper then proceeds to present two
+specific case studies. The first revolves around the automatic recognition of
+zirconium alloy metallography, while the second pertains to open-set
+recognition for signal diagnosis of machinery sensors. These cases, spanning
+the entirety of NPG's life-cycle, are accompanied by constructive outcomes and
+insightful deliberations. By exploring and applying DL methodologies within the
+constraints of finite sample availability, this paper not only furnishes a
+robust technical foundation but also introduces a fresh perspective toward the
+secure and efficient advancement and exploitation of this advanced energy
+source.",http://arxiv.org/abs/2311.04247v1
+"OU-CoViT: Copula-Enhanced Bi-Channel Multi-Task Vision Transformers with
+  Dual Adaptation for OU-UWF Images","Yang Li, Jianing Deng, Chong Zhong, Danjuan Yang, Meiyan Li, A. H. Welsh, Aiyi Liu, Xingtao Zhou, Catherine C. Liu, Bo Fu","Myopia screening using cutting-edge ultra-widefield (UWF) fundus imaging and
+joint modeling of multiple discrete and continuous clinical scores presents a
+promising new paradigm for multi-task problems in Ophthalmology. The bi-channel
+framework that arises from the Ophthalmic phenomenon of ``interocular
+asymmetries'' of both eyes (OU) calls for new employment on the SOTA
+transformer-based models. However, the application of copula models for
+multiple mixed discrete-continuous labels on deep learning (DL) is challenging.
+Moreover, the application of advanced large transformer-based models to small
+medical datasets is challenging due to overfitting and computational resource
+constraints. To resolve these challenges, we propose OU-CoViT: a novel
+Copula-Enhanced Bi-Channel Multi-Task Vision Transformers with Dual Adaptation
+for OU-UWF images, which can i) incorporate conditional correlation information
+across multiple discrete and continuous labels within a deep learning framework
+(by deriving the closed form of a novel Copula Loss); ii) take OU inputs
+subject to both high correlation and interocular asymmetries using a bi-channel
+model with dual adaptation; and iii) enable the adaptation of large vision
+transformer (ViT) models to small medical datasets. Solid experiments
+demonstrate that OU-CoViT significantly improves prediction performance
+compared to single-channel baseline models with empirical loss. Furthermore,
+the novel architecture of OU-CoViT allows generalizability and extensions of
+our dual adaptation and Copula Loss to various ViT variants and large DL models
+on small medical datasets. Our approach opens up new possibilities for joint
+modeling of heterogeneous multi-channel input and mixed discrete-continuous
+clinical scores in medical practices and has the potential to advance
+AI-assisted clinical decision-making in various medical domains beyond
+Ophthalmology.",http://arxiv.org/abs/2408.09395v1
+"A Survey of Large Language Models in Medicine: Progress, Application,
+  and Challenge","Hongjian Zhou, Fenglin Liu, Boyang Gu, Xinyu Zou, Jinfa Huang, Jinge Wu, Yiru Li, Sam S. Chen, Peilin Zhou, Junling Liu, Yining Hua, Chengfeng Mao, Chenyu You, Xian Wu, Yefeng Zheng, Lei Clifton, Zheng Li, Jiebo Luo, David A. Clifton","Large language models (LLMs), such as ChatGPT, have received substantial
+attention due to their capabilities for understanding and generating human
+language. While there has been a burgeoning trend in research focusing on the
+employment of LLMs in supporting different medical tasks (e.g., enhancing
+clinical diagnostics and providing medical education), a review of these
+efforts, particularly their development, practical applications, and outcomes
+in medicine, remains scarce. Therefore, this review aims to provide a detailed
+overview of the development and deployment of LLMs in medicine, including the
+challenges and opportunities they face. In terms of development, we provide a
+detailed introduction to the principles of existing medical LLMs, including
+their basic model structures, number of parameters, and sources and scales of
+data used for model development. It serves as a guide for practitioners in
+developing medical LLMs tailored to their specific needs. In terms of
+deployment, we offer a comparison of the performance of different LLMs across
+various medical tasks, and further compare them with state-of-the-art
+lightweight models, aiming to provide an understanding of the advantages and
+limitations of LLMs in medicine. Overall, in this review, we address the
+following questions: 1) What are the practices for developing medical LLMs 2)
+How to measure the medical task performance of LLMs in a medical setting? 3)
+How have medical LLMs been employed in real-world practice? 4) What challenges
+arise from the use of medical LLMs? and 5) How to more effectively develop and
+deploy medical LLMs? By answering these questions, this review aims to provide
+insights into the opportunities for LLMs in medicine and serve as a practical
+resource. We also maintain a regularly updated list of practical guides on
+medical LLMs at https://github.com/AI-in-Health/MedLLMsPracticalGuide",http://arxiv.org/abs/2311.05112v7
