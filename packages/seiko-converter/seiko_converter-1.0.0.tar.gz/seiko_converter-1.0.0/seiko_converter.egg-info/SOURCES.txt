@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+seiko_converter/__init__.py
+seiko_converter/__main__.py
+seiko_converter/commons.py
+seiko_converter/qt2100_converter.py
+seiko_converter/qt2100_parser.py
+seiko_converter.egg-info/PKG-INFO
+seiko_converter.egg-info/SOURCES.txt
+seiko_converter.egg-info/dependency_links.txt
+seiko_converter.egg-info/entry_points.txt
+seiko_converter.egg-info/not-zip-safe
+seiko_converter.egg-info/requires.txt
+seiko_converter.egg-info/top_level.txt
