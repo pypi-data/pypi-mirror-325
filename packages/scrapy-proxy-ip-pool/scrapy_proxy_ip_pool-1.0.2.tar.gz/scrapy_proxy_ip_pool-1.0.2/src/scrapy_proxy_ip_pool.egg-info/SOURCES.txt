@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/scrapy_proxy_ip_pool/__init__.py
+src/scrapy_proxy_ip_pool/proxy_pool_downloader_middleware.py
+src/scrapy_proxy_ip_pool.egg-info/PKG-INFO
+src/scrapy_proxy_ip_pool.egg-info/SOURCES.txt
+src/scrapy_proxy_ip_pool.egg-info/dependency_links.txt
+src/scrapy_proxy_ip_pool.egg-info/entry_points.txt
+src/scrapy_proxy_ip_pool.egg-info/requires.txt
+src/scrapy_proxy_ip_pool.egg-info/top_level.txt

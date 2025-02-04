@@ -1,0 +1,2 @@
+[scrapy.middleware]
+proxy_pool = scrapy_proxy_ip_pool.proxy_pool_downloader_middleware.ProxyPoolDownloaderMiddleware
