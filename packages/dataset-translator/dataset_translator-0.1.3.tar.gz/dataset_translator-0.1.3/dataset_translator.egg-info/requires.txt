@@ -1,0 +1,5 @@
+googletrans
+pandas
+pyarrow
+tqdm
+typer
