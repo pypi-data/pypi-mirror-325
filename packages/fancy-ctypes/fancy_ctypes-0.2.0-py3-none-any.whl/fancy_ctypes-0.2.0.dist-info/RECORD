@@ -1,0 +1,10 @@
+fancytypes/__init__.py,sha256=yxKkHuEXaxf4emyqq-asA_x6jen-xvK0GVZNGu60BSs,3314
+fancytypes/_types.py,sha256=7dD9CrgOjx0V3HM7C5Q6oP_s8Lmx_HELTD8pyCyZ7BI,5858
+fancytypes/ctypes.py,sha256=5q8sY8pfF1nK84gHXLHv_0tQE6Vp49idbzkZ7eeEVWA,5781
+fancytypes/sharedlib.py,sha256=fJgOb5gIqmTGs5A8SxRtZYp9bu8wzHeXMiFtCxCJbfI,9366
+fancytypes/types.py,sha256=IdEM4d2r-s_IRuoG1RfdsSAMj4WNvwknoNHO3Q4sfUs,12388
+fancy_ctypes-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fancy_ctypes-0.2.0.dist-info/METADATA,sha256=ykXgDHuhRpmejSg-WmUMAzHnz1IqovsjJkpjqlsmv-w,44107
+fancy_ctypes-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+fancy_ctypes-0.2.0.dist-info/top_level.txt,sha256=CdipIK2bmsruym6UYk1p6QYEJF0i21N9UjRnWsaAczg,11
+fancy_ctypes-0.2.0.dist-info/RECORD,,
