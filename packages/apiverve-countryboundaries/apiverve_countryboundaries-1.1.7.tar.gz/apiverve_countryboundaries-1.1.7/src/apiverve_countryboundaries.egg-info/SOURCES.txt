@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_countryboundaries/__init__.py
+src/apiverve_countryboundaries/apiClient.py
+src/apiverve_countryboundaries/exceptions.py
+src/apiverve_countryboundaries/setup.py
+src/apiverve_countryboundaries/setup_dep.py
+src/apiverve_countryboundaries.egg-info/PKG-INFO
+src/apiverve_countryboundaries.egg-info/SOURCES.txt
+src/apiverve_countryboundaries.egg-info/dependency_links.txt
+src/apiverve_countryboundaries.egg-info/top_level.txt
+src/apiverve_countryboundaries/tests/__init__.py
+src/apiverve_countryboundaries/tests/test_api.py
+tests/test_api.py
