@@ -1,0 +1,6 @@
+gitgod.sh
+setup.py
+gitgod.egg-info/PKG-INFO
+gitgod.egg-info/SOURCES.txt
+gitgod.egg-info/dependency_links.txt
+gitgod.egg-info/top_level.txt
