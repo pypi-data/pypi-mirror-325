@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: url-to-calibre
+Version: 1.0.0
+Summary: Convert a URL's contents into ebook format and add to Calibre library
+Author: alexcg
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4 (>=4.13.1,<5.0.0)
+Requires-Dist: ebooklib (>=0.18,<0.19)
+Requires-Dist: lxml-html-clean (>=0.4.1,<0.5.0)
+Requires-Dist: newspaper3k (>=0.2.8,<0.3.0)
+Description-Content-Type: text/markdown
+
+# URL to Calibre
+
+Python script to convert a URL's content to ebook format and send directly to [Calibre](https://github.com/kovidgoyal/calibre) library.
+
+## Installation
+
+1. Clone the repo and enter the folder
+2. Run `poetry build`
+3. Run `poetry install`
+
+## Usage
+
+To generate an epub file:
+
+```shell
+url-to-calibre <URL>
+```
+
+You can specify other formats (`mobi` or `azw3`) via the `--format` (or `-f`) parameter, for example:
+
+```shell
+url-to-calibre <URL> -f mobi
+```
+
