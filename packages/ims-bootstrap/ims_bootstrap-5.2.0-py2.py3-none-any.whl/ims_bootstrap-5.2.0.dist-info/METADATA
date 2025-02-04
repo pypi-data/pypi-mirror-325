@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: ims-bootstrap
+Version: 5.2.0
+Summary: A collection of Django widgets and templatetags for Bootstrap integration.
+Project-URL: Homepage, https://github.com/imsweb/django-bootstrap
+Author-email: Dan Watson <watsond@imsweb.com>
+Maintainer-email: Brad Rutten <ruttenb@imsweb.com>, Jacob Tomlinson <tomlinsonj@imsweb.com>
+License-Expression: BSD-2-Clause
+License-File: LICENSE
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+
+Documentation
+=============
+
+To build the documentation, go into the docs directory and type:
+
+    make html
+
+The documentation will be built with an index of docs/_build/index.html
