@@ -1,0 +1,9 @@
+test_folder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_folder/test_account.py,sha256=cRYbKdVLSfthkDtTwkxFJa9TCb6_p-6K3Em_IbIKwDE,5650
+test_folder/test_account_type.py,sha256=gwKbFT8wVHCRgiY5cTbZvD-5W4tZJ4E9bSHJklAqVak,4572
+test_folder/test_folder.py,sha256=f07Haeu-xPOwIUSCZWNhciEEeD40r3U97Zspk1Tw9e4,5077
+test_folder/test_folder_type.py,sha256=ItpDAh4aZTeF--1CUhJVmlvE87IS5LGD7d_h2KOSQoE,5839
+gapSolutions_client-0.0.4.dist-info/METADATA,sha256=h83dFNICNWUkhdly9_1lXkt0S8F4R8dQbgwJmzQNQ94,1567
+gapSolutions_client-0.0.4.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+gapSolutions_client-0.0.4.dist-info/top_level.txt,sha256=p7WDuQUioL2sn7XROf73LooGtQ17XljKHeTH2uzctQw,12
+gapSolutions_client-0.0.4.dist-info/RECORD,,
