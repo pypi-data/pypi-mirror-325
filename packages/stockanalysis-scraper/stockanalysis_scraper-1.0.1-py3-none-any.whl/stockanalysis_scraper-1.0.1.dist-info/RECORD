@@ -1,0 +1,14 @@
+stockanalysis_scraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stockanalysis_scraper/config.ini,sha256=LQ2r7OisE3aclIdP8VBl45FChK6R4RXHYY-quUw1V9U,49
+stockanalysis_scraper/scraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stockanalysis_scraper/scraper/config.py,sha256=ByLZcwG10NbRpC5rdZKHAH73pG-FbsackqwnoZLJt24,290
+stockanalysis_scraper/scraper/enums.py,sha256=AMJwtzN7J8VzwvzAXF1bsIsRtc1OuMfe-PlXFRB8udU,1161
+stockanalysis_scraper/scraper/scraper.py,sha256=lPTkDKa3H8fyfIFyHG3YZtHTm0XK2FGtQ2n8LZ1FkHM,11183
+stockanalysis_scraper/scraper/urls.py,sha256=yp40vtL2XfI5qPDk6Jux7JIDVzvwHGnjrpemI1G5HN4,1407
+stockanalysis_scraper/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stockanalysis_scraper/tests/test_scraper.py,sha256=GLC8gcK1e7TV50vcj0W7eMpOAVw1TicHNyOOAGlABUI,3682
+stockanalysis_scraper-1.0.1.dist-info/LICENSE,sha256=irBDNWsiwhjfsYVubk1oifSy4DoCevKpKnnkTuIr8d4,1074
+stockanalysis_scraper-1.0.1.dist-info/METADATA,sha256=HnKS88Y3Z5SuGP_V8DROsaPa2-Z3RAzq7N5KnUTEYJQ,2124
+stockanalysis_scraper-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+stockanalysis_scraper-1.0.1.dist-info/top_level.txt,sha256=-_sHmO3EwoW0zsILrcveSDDhRJhiI5JoF60iDgQiM-Q,22
+stockanalysis_scraper-1.0.1.dist-info/RECORD,,
