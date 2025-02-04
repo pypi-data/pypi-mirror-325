@@ -1,0 +1,10 @@
+arangoimport/__init__.py,sha256=K9U8nGXn7nHaM2Q8aJ2iOczlVpsIsoQ2h8Gq3crBE30,85
+arangoimport/cli.py,sha256=U64butOxYlSiJETQCYaEYznlcsCW8qrk-m8XP9sj9kc,2741
+arangoimport/connection.py,sha256=wvroi2BWgjgdwW1_ssAwYehZAWspXGoehKWSoTDf3Io,19058
+arangoimport/importer.py,sha256=1BHNxx9IV1Svnkcqy_Q_parpDXyEIDFNfUySgXpBKU8,21492
+arangoimport/logging.py,sha256=z4g3zUSwEP3QCCopxwgYZa1pLqOrRA6RAi3sSvLOUjs,1021
+arangoimport/utils.py,sha256=h8-oVwMxdMZ7D3jgk_N_IRSmx9WQXu06CVUqg3SQHik,7491
+arangoimport-0.1.8.dist-info/METADATA,sha256=wMiPPSf2VX0LvnrZShUuxkecejy-DRYzJ-O6-pNOLl8,5181
+arangoimport-0.1.8.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+arangoimport-0.1.8.dist-info/entry_points.txt,sha256=IJXmUXG3_YFNQCAnlgGOGLICCo8eAoocYGsBakjLlQ4,54
+arangoimport-0.1.8.dist-info/RECORD,,
