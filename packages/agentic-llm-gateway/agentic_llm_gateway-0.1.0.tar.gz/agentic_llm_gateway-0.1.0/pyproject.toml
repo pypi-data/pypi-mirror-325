@@ -1,0 +1,21 @@
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agentic-llm-gateway"
+version = "0.1.0"
+authors = [
+    { name="Shankar", email="shankar@neuralpayments.net" }
+]
+description = "LLM gateway with payments for agentic workflows and applications"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[tool.hatch.build.targets.wheel]
+packages = ["src/agentic_llm_gateway"]

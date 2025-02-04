@@ -1,0 +1,9 @@
+tmp
+pdf
+data
+notebook
+csv
+.env*
+frontend/flagged
+__pycache__
+NOTES*
