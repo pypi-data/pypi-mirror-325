@@ -1,0 +1,3 @@
+[console_scripts]
+url-to-calibre=url_to_calibre:main
+
