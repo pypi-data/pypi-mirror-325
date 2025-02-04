@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: AV-98
+Version: 1.1.0
+Summary: Command line Gemini client
+Author-email: Solderpunk <solderpunk@posteo.net>
+Project-URL: homepage, https://zaibatsu.circumlunar.space/~solderpunk/software/av98/
+Project-URL: source, https://git.sr.ht/~solderpunk/AV-98
+Project-URL: issues, https://todo.sr.ht/~solderpunk/AV-98
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Communications
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Environment :: Console
+Classifier: Development Status :: 5 - Production/Stable
+License-File: LICENSE
+Provides-Extra: tofu
+Requires-Dist: cryptography; extra == "tofu"
+Provides-Extra: colour
+Requires-Dist: ansiwrap; extra == "colour"

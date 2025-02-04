@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "AV-98"
+dynamic = ["version"]
+description = "Command line Gemini client"
+authors = [{name="Solderpunk", email="solderpunk@posteo.net"}]
+classifiers = [
+	"License :: OSI Approved :: BSD License",
+	"Programming Language :: Python :: 3 :: Only",
+	"Topic :: Communications",
+	"Intended Audience :: End Users/Desktop",
+	"Environment :: Console",
+	"Development Status :: 5 - Production/Stable",
+]
+[project.urls]
+homepage = "https://zaibatsu.circumlunar.space/~solderpunk/software/av98/"
+source = "https://git.sr.ht/~solderpunk/AV-98"
+issues = "https://todo.sr.ht/~solderpunk/AV-98"
+[project.scripts]
+av98 = "av98.main:main"
+[project.optional-dependencies]
+tofu = ["cryptography"]
+colour = ["ansiwrap"]
+[tool.setuptools.dynamic]
+version = {attr = "av98.__version__"}
