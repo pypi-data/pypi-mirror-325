@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+sintaktikuz/__init__.py
+uzsyntactic.egg-info/PKG-INFO
+uzsyntactic.egg-info/SOURCES.txt
+uzsyntactic.egg-info/dependency_links.txt
+uzsyntactic.egg-info/top_level.txt
