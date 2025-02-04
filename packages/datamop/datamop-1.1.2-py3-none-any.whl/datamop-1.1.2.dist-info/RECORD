@@ -1,0 +1,8 @@
+datamop/__init__.py,sha256=uexqT6ugSIJSBcHg6-aS1eUSsIpSshm-GV1yeGHxrbk,281
+datamop/column_encoder.py,sha256=UvFUlHrDPSEH7hEB1yyasvYbb0aD9evXLSoXm2LN5M0,5272
+datamop/column_scaler.py,sha256=dMdD2U8S0n3TsHKVQGRBMeIGvAwbGzDnaFDrHwjolv0,4977
+datamop/sweep_nulls.py,sha256=-hv4w1ZqhkTN9gj_dOvXbXi_jzQLVYLlITh5hLC66b4,5592
+datamop-1.1.2.dist-info/LICENSE,sha256=fI-TEtXpMvqPZgT-u6femYNxSh9NggAGDmnhTHuQ-n0,1098
+datamop-1.1.2.dist-info/METADATA,sha256=t5QHOaUoOP72iaSUXaR2swUnIbs4vy9jT6RVZ9hnmRM,5404
+datamop-1.1.2.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+datamop-1.1.2.dist-info/RECORD,,
