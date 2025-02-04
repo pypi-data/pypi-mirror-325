@@ -1,0 +1,10 @@
+README.md
+setup.py
+frappe_setup/__init__.py
+frappe_setup/cli.py
+frappe_setup.egg-info/PKG-INFO
+frappe_setup.egg-info/SOURCES.txt
+frappe_setup.egg-info/dependency_links.txt
+frappe_setup.egg-info/entry_points.txt
+frappe_setup.egg-info/requires.txt
+frappe_setup.egg-info/top_level.txt
