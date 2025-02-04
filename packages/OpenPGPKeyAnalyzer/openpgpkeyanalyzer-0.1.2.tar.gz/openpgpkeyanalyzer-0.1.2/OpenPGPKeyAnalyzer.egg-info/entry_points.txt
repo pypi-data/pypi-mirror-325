@@ -1,0 +1,2 @@
+[console_scripts]
+openpgp-analyze = OpenPGPKeyAnalyzer.OpenPGPKeyAnalyzerApp:main
