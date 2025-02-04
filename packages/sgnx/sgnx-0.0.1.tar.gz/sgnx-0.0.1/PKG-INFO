@@ -1,0 +1,73 @@
+Metadata-Version: 2.2
+Name: sgnx
+Version: 0.0.1
+Summary: Exotic Search Pipeline using SGN Framework
+Author-email: James Kennington <jwkennington@psu.edu>
+License: MPL-2.0
+Project-URL: Homepage, https://git.ligo.org/greg/sgnx
+Project-URL: Documentation, https://greg.docs.ligo.org/sgnx
+Project-URL: Issues, https://git.ligo.org/greg/sgnx/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sgn
+Requires-Dist: sgn-ts
+Requires-Dist: sgn-ligo
+Provides-Extra: visualize
+Requires-Dist: graphviz; extra == "visualize"
+Provides-Extra: test
+Requires-Dist: sgnx[visualize]; extra == "test"
+Requires-Dist: numpy; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-markdown-docs; extra == "test"
+Provides-Extra: docs
+Requires-Dist: mkdocs; extra == "docs"
+Requires-Dist: mkdocstrings; extra == "docs"
+Requires-Dist: mkdocstrings-python; extra == "docs"
+Requires-Dist: mkdocs-material; extra == "docs"
+Requires-Dist: pymdown-extensions; extra == "docs"
+Provides-Extra: lint
+Requires-Dist: black; extra == "lint"
+Requires-Dist: flake8; extra == "lint"
+Requires-Dist: flake8-bandit; extra == "lint"
+Requires-Dist: flake8-black; extra == "lint"
+Requires-Dist: flake8-bugbear; extra == "lint"
+Requires-Dist: flake8-future-annotations; extra == "lint"
+Requires-Dist: flake8-isort; extra == "lint"
+Requires-Dist: flake8-logging-format; extra == "lint"
+Requires-Dist: flake8-pyproject; extra == "lint"
+Requires-Dist: isort; extra == "lint"
+Requires-Dist: mypy; extra == "lint"
+Requires-Dist: mypy-extensions; extra == "lint"
+Provides-Extra: dev
+Requires-Dist: sgnx[docs]; extra == "dev"
+Requires-Dist: sgnx[lint]; extra == "dev"
+Requires-Dist: sgnx[test]; extra == "dev"
+
+<!-- index.rst content start -->
+
+# SGNX(SGN eXotic search)
+
+SGNX is a gravitational wave search pipeline looking for exotic sources, 
+written in the SGN framework.
+Related libraries include:
+
+- [`sgn`](https://docs.ligo.org/greg/sgn/): Base library for SGN
+- [`sgn-event`](https://git.ligo.org/greg/sgn-event): TimeSeries utilities for SGN
+- [`sgn-ts`](https://docs.ligo.org/greg/sgn-ts/): TimeSeries utilities for SGN
+- [`sgn-ligo`](https://docs.ligo.org/greg/sgn-ligo/): LSC specific utilities for SGN
+
+## Installation
+
+To install SGNX, simply run:
+
+```bash
+pip install sgnx
+```
+
+More SGNX-specific documentation coming soon.
+
