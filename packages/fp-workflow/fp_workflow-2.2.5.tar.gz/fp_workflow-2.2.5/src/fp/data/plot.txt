@@ -1,0 +1,55 @@
+#region: Modules.
+from fp.plotting.absorption import BseSpectrumPlot
+from fp.plotting.gwelbands import GwelbandsPlot
+from fp.plotting.phbands import PhbandsPlot, PhonopyPlot
+from fp.plotting.dftelbands import DftelbandsPlot
+from fp.analysis.xctpol import XctPolCalc
+from fp.plotting.xctph import XctphPlot
+import h5py 
+#endregion
+
+#region: Variables.
+#endregion
+
+#region: Functions.
+def plot_bse():
+    # Plot the bsespectrum. 
+    abs = BseSpectrumPlot()
+    abs.save_plot(show=True)
+
+def plot_dftelbands():
+    dftelbands = DftelbandsPlot()
+    dftelbands.save_plot(show=True)
+
+def plot_gwelbands():
+    gwelbands = GwelbandsPlot()
+    gwelbands.save_plot(show=True)
+
+def plot_phbands():
+    phbands = PhbandsPlot()
+    phbands.save_plot(show=True)
+
+def plot_phonopy():
+    phbands = PhonopyPlot()
+    phbands.save_plot(show=True)
+
+def plot_xctph():
+    xctphplot = XctphPlot(xctph_mult_factor=2e3)
+    xctphplot.save_plot(show=True)
+    
+def main():
+    # plot_dftelbands()
+    plot_phbands()
+    plot_phonopy()
+    # plot_gwelbands()
+    # plot_bse()
+    # plot_xctph()
+#endregion
+
+#region: Classes.
+#endregion
+
+#region: Main.
+if __name__=='__main__':
+    main()
+#endregion
