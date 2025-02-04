@@ -1,0 +1,6 @@
+test_dataplatform_toto/__init__.py,sha256=pFxF_1l3ZpfXEhybQ6NN1Mqpxf0AsntnE1zniadAkpE,54
+test_dataplatform_toto/bigquery_async_sensor.py,sha256=wM9pkExsInsAn3-O08J4Caefckrhh4kr99ymX7_unDI,3047
+test_dataplatform_toto-0.3.0.dist-info/METADATA,sha256=MeRtEraFgnhAMndEayk1JnTxPR_kX2-cwD4P1gueQEk,332
+test_dataplatform_toto-0.3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+test_dataplatform_toto-0.3.0.dist-info/top_level.txt,sha256=IsoyzfWeI44XAtbDB_bbbO-TaJyVeWAuipiH5nV8Fyc,23
+test_dataplatform_toto-0.3.0.dist-info/RECORD,,
