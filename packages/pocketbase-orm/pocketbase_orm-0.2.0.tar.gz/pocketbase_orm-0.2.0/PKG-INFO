@@ -1,0 +1,10 @@
+Metadata-Version: 2.3
+Name: pocketbase-orm
+Version: 0.2.0
+Summary: Add your description here
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: pocketbase>=0.14.0
+Requires-Dist: pydantic[email]>=2.10.6
+
+
