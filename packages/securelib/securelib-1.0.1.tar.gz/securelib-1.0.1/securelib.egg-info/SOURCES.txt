@@ -1,0 +1,7 @@
+README.md
+setup.py
+securelib.egg-info/PKG-INFO
+securelib.egg-info/SOURCES.txt
+securelib.egg-info/dependency_links.txt
+securelib.egg-info/requires.txt
+securelib.egg-info/top_level.txt

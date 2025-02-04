@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: securelib
+Version: 1.0.1
+Summary: A comprehensive security utility library for encryption, scanning, and vulnerability detection
+Home-page: https://github.com/Wadakaede/secure_lib.git
+Author: Wada Kaede
+Author-email: kaede04079642@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pycryptodome
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
