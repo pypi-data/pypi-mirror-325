@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+py_uconnect.egg-info/PKG-INFO
+py_uconnect.egg-info/SOURCES.txt
+py_uconnect.egg-info/dependency_links.txt
+py_uconnect.egg-info/not-zip-safe
+py_uconnect.egg-info/requires.txt
+py_uconnect.egg-info/top_level.txt
