@@ -1,0 +1,9 @@
+ovum/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ovum/client.py,sha256=A3TvWva8UiBL7T9yHgrJMr1pt9yaqokvg5RKuJVq1v8,1212
+ovum/test.py,sha256=Wb25D8m4t0WBvBkKNYYcVHBKeySYChQ4N3p2bALzvG0,240
+ovum/dto/ovum_dto.py,sha256=QW8BB2aqy_vrXSQefy3AKtdifgGR7Rk5HiHOn-JixUo,265
+ovumpy-0.0.1.dist-info/LICENSE,sha256=_PjMQALZvRWg7ShjG2qVtqASClDK41Yg7QoOgXO0mzo,1079
+ovumpy-0.0.1.dist-info/METADATA,sha256=VzmzO8iwIWFFYyNGSpga4yx7kvSRI2bsHUVl9gN0bk0,1705
+ovumpy-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ovumpy-0.0.1.dist-info/top_level.txt,sha256=RODWT354D1GN5ALIgZzdnuJ3jneRY1bqRQOjPqVfRzA,5
+ovumpy-0.0.1.dist-info/RECORD,,
