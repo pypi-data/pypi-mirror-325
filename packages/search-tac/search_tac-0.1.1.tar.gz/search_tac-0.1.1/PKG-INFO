@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: search_tac
+Version: 0.1.1
+Summary: A TAC search tool using an Excel database
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
