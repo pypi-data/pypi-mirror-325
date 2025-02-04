@@ -1,0 +1,69 @@
+[build-system]
+requires = ["hatchling", "toml"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/PROJECT_NAME"]
+
+[project]
+name = "PROJECT_NAME"
+version = "1.0.0.0"
+authors = [
+    {name="Clodomir Vianna", email="clovianna@gmail.com"},
+]
+description = "PyProjectCLI simplifies the creation of custom CLIs for any modular Python library"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { text = "BSD-3-Clause" }
+dependencies = [
+    "ipython",
+    "pyautogui",
+    "pyfiglet",
+]
+
+[project.urls]
+Homepage = "https://github.com/clodoN1109"
+Issues = "https://github.com/clodoN1109"
+Contributions = "https://github.com/clodoN1109"
+
+[tool.header]
+brand_name = 'MY PYTHON PROJECT'
+slogan = 'Custom CLIs for python libraries.'
+creators = [
+    {name="Clodomir Vianna", email="clovianna@gmail.com"},
+]
+tags = []
+
+[tool.template]
+Data = {folderA = {folderA = 'A files'}, folderB = 'B files'}
+Outputs = {folderA = 'A files', folderB = 'B files'}
+Benchmark = {}
+
+[tool.modules]
+sample_module_a = { version = "1.0.0.0" , description = "Perform several useful processes." }
+sample_module_b = { version = "1.0.0.0" , description = "Perform several useful processes." }
+
+[tool.help]
+repository = 'https://github.com/clodo1109N'
+# documentation = ''
+tutorials = { sample_module_a ='https://example.com', sample_module_b ='https://example.com' }
+
+[tool.style]
+primary_color = "#FFFFFF"
+secodary_color = "#FFFFFF"
+accent_color = "#FFFFFF"
+
+[tool.hatch.build.targets.wheel.hooks.custom]
+path = "src/PROJECT_NAME/cli/hatch_build.py"
+
+[tool.hatch.build.targets.wheel.force-include]
+"./src/header.json" = "src/PROJECT_NAME/cli/header.json"
+"./src/modules.json" = "src/PROJECT_NAME/cli/modules.json"
+"./src/help.json" = "src/PROJECT_NAME/cli/help.json"
+"./src/template.json" = "src/PROJECT_NAME/cli/template.json"
+
+[project.scripts]
+PROJECT_NAME = "PROJECT_NAME.__cli__:cli"
