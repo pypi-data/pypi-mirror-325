@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: aly
+Version: 0.0.2
+Summary: Python library helps you to create Telegram bots more easily
+Home-page: https://github.com/okhadragy/aly
+Author: Omar Elkhadragy
+License: MIT
+Project-URL: Source Code, https://github.com/okhadragy/aly
+License-File: LICENCE
+Requires-Dist: flask
+Dynamic: author
+Dynamic: home-page
+Dynamic: license
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: summary

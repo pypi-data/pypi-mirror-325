@@ -1,0 +1,2 @@
+[console_scripts]
+aly = aly.cli:main
