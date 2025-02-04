@@ -1,0 +1,15 @@
+kiwify_userAPI/__init__.py,sha256=ugDrS9o_uCW8o5WnCiVXMq_SzBAyVaFU73pDy5feGYk,213
+kiwify_userAPI/__version__.py,sha256=4YjE29jn95ld43tpbbBeAfnYK6alaeKcC5N5kLSvx2I,398
+kiwify_userAPI/api.py,sha256=JrIeOiCIYMWcYBdz6QYcpOSOGozRxeqCcgpiUrzn8sY,102
+kiwify_userAPI/authenticate.py,sha256=BdfqV8D9Os1err4nIsDZm7LDlYTNIVlaFia6_-qEOWw,8770
+kiwify_userAPI/bultins.py,sha256=VIoXaByaPW4aUZCBMZ9X_uRApNB_a5Atfw5VLaoYGwQ,14545
+kiwify_userAPI/exeptions.py,sha256=fvraUVQZdCgC4d1TbhpevGF1qdugtmgxc1aBOP5EOU4,669
+kiwify_userAPI/kiwify.py,sha256=J6q-zRziVQ4wGgEq-9IVdWGdVjy2BH36C0vVLLCJiLo,2365
+kiwify_userAPI/sections.py,sha256=f01EAv2STywxz8HYh3XmmkSQx0IQiyM4Dgb_yDASrYM,3704
+kiwify_userAPI/.cache/.kiwify_userAPI,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kiwify_userAPI/.cache/.refresh,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kiwify_userAPI-1.0.0.0.dist-info/LICENSE,sha256=oBZoDIF27fzzEEBpH1gjSgQRXliBMUfLMGxh1427SWI,1093
+kiwify_userAPI-1.0.0.0.dist-info/METADATA,sha256=tzqwZFsMT29B6ahPMDf5wrRELt9kzTgqxZn-YwovsSY,1365
+kiwify_userAPI-1.0.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+kiwify_userAPI-1.0.0.0.dist-info/top_level.txt,sha256=iIdWg9GlqXyNJI-FOibD1xpUkmYvv9UJWZujJn4oO4o,15
+kiwify_userAPI-1.0.0.0.dist-info/RECORD,,
