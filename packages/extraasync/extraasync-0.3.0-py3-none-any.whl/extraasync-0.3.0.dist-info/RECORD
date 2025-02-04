@@ -1,0 +1,10 @@
+extraasync/__init__.py,sha256=MswY90B6XOh3wuVnv3hjMAUN80tUbJIOW_HyrxhSO10,379
+extraasync/aenumerate.py,sha256=fUODbqgYEWyET4h_zP_UShU-n-YdJy35V5vLjkd6cjo,592
+extraasync/async_hooks.py,sha256=CepFP8l41_RdqQE7e8k-FfIlqcHsUnhCLQe-gf3_Q-M,2410
+extraasync/sync_async_bridge.py,sha256=JGwc6E0PiCNy3CRQR0HiJ3YgoMdEYI5Hz9NPabC5Ib0,9220
+extraasync/taskgroup.py,sha256=jKXRzkaUEjHsZQ4z4tEihYe31LN6rm6UtnQzaJJqC7A,649
+extraasync-0.3.0.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+extraasync-0.3.0.dist-info/METADATA,sha256=cDQzL9XpXNaGlEt_fLg5tCZmPyqKacPOw8gu_17gmCY,6334
+extraasync-0.3.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+extraasync-0.3.0.dist-info/top_level.txt,sha256=tWaMH3Uicyf1NWyrsw2_sheK4rn7Fa3ZeOGfYps-b7E,11
+extraasync-0.3.0.dist-info/RECORD,,
