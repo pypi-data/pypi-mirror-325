@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+pyvp/__init__.py
+pyvp/skl.py
+pyvp.egg-info/PKG-INFO
+pyvp.egg-info/SOURCES.txt
+pyvp.egg-info/dependency_links.txt
+pyvp.egg-info/not-zip-safe
+pyvp.egg-info/requires.txt
+pyvp.egg-info/top_level.txt
