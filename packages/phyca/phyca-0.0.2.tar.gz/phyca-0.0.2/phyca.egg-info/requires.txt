@@ -1,0 +1,7 @@
+numpy
+pandas>=2
+matplotlib
+seaborn
+biopython
+BioNick
+scipy
