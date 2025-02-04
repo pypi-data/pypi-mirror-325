@@ -1,0 +1,317 @@
+Metadata-Version: 2.2
+Name: elliot_markitdown
+Version: 0.1.0
+Summary: 一个文档处理和OCR工具包集合
+Home-page: https://github.com/main2snipercc/markitdown-web----
+Author: Elliot
+Author-email: huang19911021@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask>=2.0.0
+Requires-Dist: werkzeug>=2.0.0
+Requires-Dist: requests>=2.26.0
+Requires-Dist: PyMuPDF>=1.18.0
+Requires-Dist: python-docx>=0.8.11
+Requires-Dist: openpyxl>=3.0.7
+Requires-Dist: python-pptx>=0.6.21
+Requires-Dist: Pillow>=8.3.1
+Requires-Dist: beautifulsoup4>=4.9.3
+Requires-Dist: markdown>=3.3.4
+Requires-Dist: python-magic>=0.4.24
+Requires-Dist: python-magic-bin>=0.4.14; platform_system == "Windows"
+Requires-Dist: openai>=1.0.0
+Requires-Dist: pyautogui>=0.9.53
+Requires-Dist: keyboard>=0.13.5
+Requires-Dist: mss>=6.1.0
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: opencv-python>=4.5.3.56
+Requires-Dist: pytesseract>=0.3.8
+Requires-Dist: pywin32>=223
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# MarkItDown - 智能文档转换工具
+
+MarkItDown 是一个强大的文档转换工具，能够将各种格式的文件转换为 Markdown 格式。它支持 AI 增强功能，可以智能识别图片中的文字，提供更准确的文档结构识别，并支持多种 AI 服务提供商。
+
+## 功能特点
+
+- 🔄 支持多种文件格式转换
+  - 📄 文档：PDF, Word (.doc, .docx), PowerPoint (.pptx), Excel (.xlsx)
+  - 📷 图片：JPG, JPEG, PNG（支持 OCR 和 EXIF 元数据提取）
+  - 🌐 网页：HTML
+  - 📝 文本：TXT, CSV, JSON, XML
+  - 🎵 音频：支持语音转文字和元数据提取
+
+- 📸 屏幕截图功能
+  - 快捷键支持（Ctrl+Alt+S）
+  - 区域选择截图
+  - 自动识别文字内容
+  - 智能布局分析
+  - 一键转换为Markdown
+  - 自动保存截图历史
+
+- 🤖 AI 增强功能
+  - 图片文字识别（OCR）
+  - 智能文档结构分析
+  - 语音转文字
+  - 内容优化和格式化
+  - 截图内容智能分析
+
+- 🔌 支持多个 AI 服务提供商
+  - OpenAI
+  - Anthropic
+  - DeepSeek
+  - Ollama（本地部署）
+  - 硅基流动
+  - OpenRouter
+  - 自定义 OpenAI 兼容接口
+
+- 💾 文件管理功能
+  - 文件上传（支持拖放）
+  - 历史文件管理
+  - 批量删除功能
+
+## 音频转录功能
+
+### 支持的音频格式
+- MP3 (.mp3)
+- WAV (.wav)
+- M4A (.m4a)
+
+### 音频转录提供商
+目前支持以下AI提供商的音频转录服务：
+
+1. 硅基流动（推荐）
+   - 模型：`FunAudioLLM/SenseVoiceSmall`
+   - API端点：`https://api.siliconflow.cn/v1/audio/transcriptions`
+   - 支持中文音频转录
+   - 使用方法：
+     ```
+     1. 选择 AI 提供商为 "硅基流动"
+     2. 填入有效的 API Key
+     3. 选择模型为 "FunAudioLLM/SenseVoiceSmall"
+     4. 上传音频文件
+     ```
+
+2. OpenAI
+   - 模型：`whisper-1`
+   - 支持多语言音频转录
+   - 使用方法：
+     ```
+     1. 选择 AI 提供商为 "OpenAI"
+     2. 填入 OpenAI API Key
+     3. 选择模型为 "whisper-1"
+     4. 上传音频文件
+     ```
+
+### 使用限制
+- 音频文件大小限制：16MB
+- 支持的文件格式：MP3、WAV、M4A
+- 需要有效的 API 密钥
+- 音频质量需要清晰可辨
+
+### 错误处理
+如果遇到转录失败，请检查：
+1. API 密钥是否有效
+2. 音频文件是否完整且未损坏
+3. 文件格式是否正确
+4. 文件大小是否在限制范围内
+5. 网络连接是否正常
+
+### 注意事项
+- 转录过程可能需要一些时间，请耐心等待
+- 建议使用质量较好的音频以获得更准确的转录结果
+- 如果使用硅基流动API，建议选择中文音频以获得最佳效果
+
+## 安装说明
+
+1. 克隆仓库：
+```bash
+git clone https://github.com/yourusername/markitdown.git
+cd markitdown
+```
+
+2. 创建虚拟环境：
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+```
+
+3. 安装 Python 依赖：
+```bash
+pip install -r requirements.txt
+```
+
+4. 安装 Tesseract-OCR（用于文字识别）：
+
+Windows:
+- 下载 [Tesseract-OCR 安装包](https://github.com/UB-Mannheim/tesseract/wiki)
+- 运行安装程序，记住安装路径
+- 将安装路径（例如 `C:\Program Files\Tesseract-OCR`）添加到系统环境变量 Path 中
+- 安装中文语言包：在安装时选择"Additional language data (download)"，并选择"Chinese (Simplified)"
+
+Linux:
+```bash
+sudo apt-get update
+sudo apt-get install tesseract-ocr
+sudo apt-get install tesseract-ocr-chi-sim  # 中文支持
+```
+
+macOS:
+```bash
+brew install tesseract
+brew install tesseract-lang  # 安装所有语言包
+```
+
+5. 创建必要的目录：
+```bash
+mkdir uploads
+mkdir uploads/images
+mkdir uploads/screenshots
+```
+
+6. 验证安装：
+```bash
+# 验证 Tesseract 安装
+tesseract --version
+
+# 验证 Python 包安装
+python -c "import pytesseract; print(pytesseract.get_tesseract_version())"
+```
+
+如果遇到 "tesseract not found" 错误，请确保：
+- Tesseract-OCR 已正确安装
+- 安装路径已添加到系统环境变量
+- 如果使用 Windows，可能需要重启终端或计算机
+
+## 使用方法
+
+1. 启动服务器：
+```bash
+python app.py
+```
+
+2. 打开浏览器访问：`http://localhost:5000`
+
+3. 基础使用：
+   - 直接拖放文件到上传区域或点击"选择文件"
+   - 等待转换完成
+   - 查看转换结果，支持 Markdown 预览和源码视图
+   - 使用"复制 Markdown"按钮复制内容
+
+4. AI 增强功能：
+   - 勾选"使用 AI 增强"
+   - 选择 AI 服务提供商
+   - 输入相应的 API 密钥
+   - 选择合适的模型（根据文件类型）
+   - 上传文件进行转换
+
+5. 文件管理：
+   - 使用下拉菜单查看已上传的文件
+   - 点击"使用选中文件"重新转换
+   - 使用删除按钮移除单个或所有文件
+
+6. 屏幕截图功能：
+   - 使用快捷键 `Ctrl+Alt+S` 启动截图
+   - 鼠标拖动选择截图区域
+   - 自动识别文字内容并转换
+   - 在预览区查看转换结果
+   - 可以编辑和调整转换后的内容
+   - 支持截图历史管理
+
+## 技术实现
+
+### 后端架构
+
+1. **核心框架**
+   - Flask：Web 框架
+   - PyMuPDF：PDF 处理
+   - MarkItDown：文档转换核心库
+
+2. **文件处理流程**
+   - 文件上传验证和安全处理
+   - 格式检测和分类
+   - 内容提取和转换
+   - Markdown 格式化和优化
+
+3. **AI 集成**
+   - 多提供商支持架构
+   - 统一的 API 调用接口
+   - 异步处理和错误处理
+   - 结果优化和格式化
+
+4. **图片处理**
+   - OCR 文字识别
+   - 图片保存和引用
+   - 路径规范化
+   - 元数据提取
+
+5. **屏幕截图处理**
+   - 系统级快捷键监听
+   - 屏幕区域选择
+   - 图像捕获和处理
+   - OCR文字识别
+   - 布局分析和重构
+   - 历史记录管理
+
+### 前端实现
+
+1. **用户界面**
+   - 响应式设计
+   - 拖放上传
+   - 实时预览
+   - 进度反馈
+
+2. **交互功能**
+   - 文件管理
+   - AI 配置
+   - 格式切换
+   - 复制功能
+
+3. **状态管理**
+   - 文件列表维护
+   - 转换状态追踪
+   - 错误处理和显示
+
+## 注意事项
+
+1. API 密钥安全：
+   - 请妥善保管您的 API 密钥
+   - 建议使用环境变量存储敏感信息
+   - 在生产环境中使用 HTTPS
+
+2. 文件限制：
+   - 最大文件大小：16MB
+   - 支持的文件类型见功能列表
+   - 图片文件必须启用 AI 功能
+
+3. AI 模型选择：
+   - 图片处理需要使用支持 vision 的模型
+   - 音频处理需要使用支持语音的模型
+   - 文档处理可使用通用语言模型
+
+## 贡献指南
+
+欢迎提交 Pull Request 和 Issue。在提交之前，请确保：
+
+1. 代码符合 PEP 8 规范
+2. 添加了必要的测试
+3. 更新了相关文档
+4. 提供了清晰的提交信息
+
+## 许可证
+
+本项目采用 MIT 许可证。详见 [LICENSE](LICENSE) 文件。 
