@@ -1,0 +1,221 @@
+# PanelOfAgents
+
+A flexible and powerful framework for orchestrating multiple AI agents in domain-specific applications, with support for any LLM backend.
+
+## Introduction
+
+This framework enables seamless orchestration of multiple AI agents for domain-specific applications. Inspired by OpenAI's swarm framework but addressing its limitations, our solution offers greater flexibility in agent interactions without being tied to specific LLM implementations.
+
+### Purpose
+
+- Create a simple yet powerful multi-agent orchestration framework
+- Enable flexible task handoffs between agents in single-domain applications
+- Provide a production-ready alternative to experimental frameworks
+- Support integration with various LLM implementations
+
+### Why This Framework?
+
+Unlike OpenAI's swarm framework, which is limited to GPT models and requires predefined handoffs, this framework offers:
+- Model-agnostic implementation
+- Dynamic agent interactions
+- Production-ready architecture
+- Flexible integration options
+
+## Features
+
+- **🚀 Flexible Multi-agent Orchestration** - Dynamic task distribution and collaboration between agents
+- **⚡️ Real-time Communication** - Token-by-token streaming with minimal latency
+- **🔄 Rich Context Sharing** - Comprehensive context including conversation history, action results, and artifacts
+- **🔌 Universal LLM Support** - Compatible with any LangChain BaseChatModel implementation
+- **🎯 Targeted Agent Usage** - Smart agent selection based on capabilities rather than predefined rules
+- **⚙️ Developer-First Design** - Flexible state management and easy service integration
+
+## Installation
+
+```bash
+pip install panel-of-agents
+```
+
+## Usage
+
+### Context
+
+The `Context` object is the central object in the framework. It contains the state of the conversation, the artifacts, and any custom properties. It is shared between all agents.
+
+The `Context` can be initialized with the following parameters:
+- `current_question`: The current question to be answered.
+- `conversation_history`: A list of messages between the user and the agents. This is a list of `HumanMessage` and `AIMessage` objects from LangChain.
+- `artifacts`: A dictionary of artifacts. The key is the index of the conversation turn and the value is an `Artifact` object.
+- `target_agent` (optional): The agent that will respond to the user.
+- `custom_props` (optional): A dictionary of custom properties. The key is the name of the property and the value is a list of `CustomProp` objects.
+
+#### Initializing an empty context
+
+```python
+from panel_of_agents.context import Context
+
+context = Context("Hi", [], {})
+```
+
+#### Initializing a context with a conversation history
+
+```python
+from langchain_core.messages import HumanMessage, AIMessage
+
+context = Context("Hi", [HumanMessage("Hi"), AIMessage("Hi, how can I help you today?")], {})
+```
+
+### Decorators
+
+`panel_of_agents` uses decorators to indicate the actions/tools that an agent can use.
+
+#### `capability`
+
+The `capability` decorator is used to indicate that a function is a capability.
+
+```python
+from panel_of_agents.decorators import capability
+
+class SomeAgent(Agent):
+    ...
+
+    @capability
+    def my_capability(self, context: Context) -> CapabilityResult:
+        return CapabilityResult(result="My capability was successful", artifact=None)
+```
+
+Capabilities which are the actions that an agent can perform must return a `CapabilityResult` object.
+
+The `CapabilityResult` object contains the following parameters:
+- `result`: The result of the capability. The output of the function.
+- `artifact`: An optional artifact.
+
+#### Artifacts
+
+Artifacts are outputs of capabilities that may be stored and persisted across multiple conversation turns.
+
+```python
+from panel_of_agents.types.context import Artifact
+
+artifact = Artifact(author="SomeAgent", data={"some_data": "some_data"}, artifact_type=ArtifactType.INTERNAL)
+```
+
+The `artifact_type` can be either `INTERNAL` or `USER`.
+
+- `INTERNAL`: The artifact is internal to the framework and is not visible to the user.
+- `USER`: The artifact is visible to the user and can be used by other capabilities.
+
+Capabilities which create artifacts must be decorated with the `creates_artifact` decorator.
+
+```python
+from panel_of_agents.decorators import capability, creates_artifact
+
+class SomeAgent(Agent):
+    ...
+
+    @creates_artifact("A list of users")
+    @capability
+    def my_capability(self, context: Context) -> CapabilityResult:
+        artifact = Artifact(author=self.name, data={"some_data": "some_data"}, artifact_type=ArtifactType.INTERNAL)
+        return CapabilityResult(result="My capability was successful", artifact=artifact)
+```
+
+### Agents
+
+An agent is a self-contained entity that can perform various related actions. In `panel_of_agents`, custom agents can be created by extending the `Agent` class.
+
+An agent requires the following parameters:
+- `name`: The name of the agent.
+- `personal_biography`: A short biography of the agent.
+- `public_biography`: A short biography of the agent that is visible to other agents.
+- `model`: The model to use for the agent.
+- `max_tries` (optional): The maximum number of tries for an agent to perform an action. Defaults to 3.
+
+#### Creating an agent
+
+```python
+
+class AdditionAgent(Agent):
+    def __init__(self, model: BaseChatModel, max_tries: int = 3):
+        personal_biography = "You are an agent that performs addition on two numbers."
+        public_biography = "An agent that performs addition on two numbers."
+
+        super().__init__(
+            name="Addition Agent",
+            personal_biograhpy=personal_biography,
+            public_biograhpy=public_biography,
+            model=model,
+            max_tries=max_tries
+        )
+
+    @agent_capability
+    def add(self, a: float, b: float) -> CapabilityResult:
+        result = a + b
+        return CapabilityResult(result=result, artifact=None)
+
+
+addition_agent = AdditionAgent(model, max_tries=5)
+```
+
+### Moderator
+
+The `Moderator` is responsible for orchestrating the conversation between the agents. It is responsible for selecting the initial agent (when `target_agent` is not set), and for controlling the number of times agents execute to answer a given question.
+
+#### Creating a moderator
+
+The `Moderator` requires the following parameters:
+- `panel_of_agents`: A list of agents to be used in the conversation. These are instances of the subclassed `Agent` class.
+- `leader`: The agent that will respond to the user.
+- `moderator_cast_vote`: Whether the moderator will cast a vote on whether an agent is capable of answering a given question. If not set, each agent will vote on whether they are capable of answering the question.
+
+```python
+from panel_of_agents.moderator import Moderator
+
+moderator = Moderator(
+    panel_of_agents=[AdditionAgent(), SubtractionAgent()],
+    leader="Addition Agent",
+    moderator_cast_vote=True
+)
+```
+
+### Transmitter
+
+The `Transmitter` is responsible for transmitting the conversation between the agents. It is responsible for formatting the conversation for the user and for streaming the conversation to the user.
+
+#### Creating a transmitter
+
+```python
+from panel_of_agents.transmitter import Transmitter
+
+transmitter = Transmitter(moderator)
+```
+
+#### Invoking the transmitter
+
+##### Streaming
+```python
+
+for token in transmitter.invoke_moderator(context, stream=True):
+    print(token, end="", flush=True)
+```
+
+##### Non-streaming
+
+```python
+response = transmitter.invoke_moderator(context, stream=False)
+```
+
+#### Raw Feed
+
+The `panel_of_agents` framework utilizes a custom communication protocol, for consistent performance, output containing the raw response should be used as the conversation history.
+
+The `raw_feed` can be accessed from the `transmitter` object after an invocation is complete.
+
+```python
+response = transmitter.invoke_moderator(context, stream=False)
+
+conversation_history.append(AIMessage(content=transmitter.raw_feed))
+```
+
+
+
