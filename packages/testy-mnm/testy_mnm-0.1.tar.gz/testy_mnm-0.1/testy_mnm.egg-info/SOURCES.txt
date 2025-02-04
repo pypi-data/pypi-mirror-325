@@ -1,0 +1,11 @@
+setup.py
+testy_mnm/__init__.py
+testy_mnm.egg-info/PKG-INFO
+testy_mnm.egg-info/SOURCES.txt
+testy_mnm.egg-info/dependency_links.txt
+testy_mnm.egg-info/top_level.txt
+testy_mnm/core/src/module.c
+testy_mnm/core/__init__.py
+testy_mnm/core/src/module.c
+testy_mnm/core/testy_mnm/__init__.py
+testy_mnm/core/testy_mnm/core/__init__.py
