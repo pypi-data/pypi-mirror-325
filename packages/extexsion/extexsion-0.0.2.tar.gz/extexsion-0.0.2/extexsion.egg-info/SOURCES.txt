@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+extexsion/Path.py
+extexsion/Path.pyi
+extexsion/__init__.py
+extexsion/__init__.pyi
+extexsion.egg-info/PKG-INFO
+extexsion.egg-info/SOURCES.txt
+extexsion.egg-info/dependency_links.txt
+extexsion.egg-info/requires.txt
+extexsion.egg-info/top_level.txt
