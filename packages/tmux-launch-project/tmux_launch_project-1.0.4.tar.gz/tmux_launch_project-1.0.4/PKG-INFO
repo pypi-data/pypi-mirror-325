@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: tmux-launch-project
+Version: 1.0.4
+Summary: Launch tmux (tmuxifier) sessions in the background and name session to project name
+Author-email: hamolicious <hamolicious@hamolicious.net>
+License-File: LICENSE
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# launch_project
+
+Launch tmux sessions and automatically rename the session and start vim.
+
+## Installation
+
+```bash
+pipx install tmux-launch-project
+```
+
+## Usage
+
+```bash
+launch-project folder1/ folder2/
+```
+
+This creates 3 sessions in running in the background!
+
+```bash
+> launch-project common-lib event-generator event-consumer
+Launching prject common-lib
+Launching prject event-generator
+Launching prject event-consumer
+
+>
+```
