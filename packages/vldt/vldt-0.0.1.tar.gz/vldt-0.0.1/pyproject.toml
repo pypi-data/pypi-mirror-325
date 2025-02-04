@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core>=3.7"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "vldt"
+version = "0.0.1"
+description = "High-performance type-validated base model"
+authors = [{ name = "Roman Right", email = "roman-right@protonmail.com" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = ["typing_extensions>=4.0.0"]
+
+[tool.flit.sdist]
+include = ["src/*.c"]  # Ensure C files are included if needed
