@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nanograd-bgriebel
+Version: 0.1.0
+Summary: Scalar Automatic Differentiation Engine
+Author-Email: Braden Griebel <bgriebel@uw.edu>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Nanograd
+
+A small scalar valued automatic differentiation engine written in C++ with bindings in python. Based on [micrograd](https://github.com/karpathy/micrograd) from Andrej Karpathy.
