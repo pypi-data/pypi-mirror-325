@@ -1,0 +1,9 @@
+shazamio_core-1.1.0.dist-info/METADATA,sha256=2mAPhp2zaeBmcFgCKYKxu3KXGBKIhGstshIXCPjBXys,369
+shazamio_core-1.1.0.dist-info/WHEEL,sha256=lWK3-Bgk0WnWBByE5b3Cq5VR1998HCQ2lZtuFHoBwss,104
+shazamio_core-1.1.0.dist-info/licenses/LICENSE,sha256=kOjT_PnVLtTaAps5r9fmldWPH1VEYp_M3MIGVrepbow,1063
+shazamio_core/__init__.py,sha256=lZF2JD79xNjij0LDSWOfifLyiuLxGKL8q2IiRZUeN0w,118
+shazamio_core/shazamio_core.py,sha256=1mLXikmJ9ww1n_FbXua_8Z4GzsDnvfo7BFoMCt42UuQ,3876
+shazamio_core/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shazamio_core/shazamio_core.pyi,sha256=1mLXikmJ9ww1n_FbXua_8Z4GzsDnvfo7BFoMCt42UuQ,3876
+shazamio_core/shazamio_core.cpython-312-darwin.so,sha256=qLPXuO_Dr6j-k8YHAScJhCr4PI0YiQWPOta7MnfFeVI,2194752
+shazamio_core-1.1.0.dist-info/RECORD,,
