@@ -1,0 +1,1 @@
+Clip the top and bottom 0.5% of values in the movie array, based on the Cumulative Distribution Function, to improve contrast.
