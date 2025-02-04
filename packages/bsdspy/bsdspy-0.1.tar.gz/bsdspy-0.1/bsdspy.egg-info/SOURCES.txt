@@ -1,0 +1,7 @@
+README.md
+setup.py
+bsdspy/__init__.py
+bsdspy.egg-info/PKG-INFO
+bsdspy.egg-info/SOURCES.txt
+bsdspy.egg-info/dependency_links.txt
+bsdspy.egg-info/top_level.txt
