@@ -1,0 +1,6 @@
+pefile
+capstone
+lznt1
+unicorn<=2.0.1.post1
+jsonschema
+pycryptodome
