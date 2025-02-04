@@ -1,0 +1,94 @@
+Metadata-Version: 2.2
+Name: tabsdata
+Version: 0.0.2b1
+Summary: Tabsdata System
+Author: Tabsdata Inc.
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: assets/guides/LICENSE.md
+Requires-Dist: accessify==0.3.1
+Requires-Dist: click==8.1.8
+Requires-Dist: cloudpickle==3.1.1
+Requires-Dist: connectorx==0.4.0
+Requires-Dist: filelock==3.16.1
+Requires-Dist: importlib_metadata==8.6.1
+Requires-Dist: numpy==2.2.2
+Requires-Dist: pandas==2.2.3
+Requires-Dist: pillow==11.1.0
+Requires-Dist: polars==1.20.0
+Requires-Dist: PyYAML==6.0.2
+Requires-Dist: pyarrow==19.0.0
+Requires-Dist: base32hex==1.0.2
+Requires-Dist: pywin32==308; platform_system == "Windows"
+Requires-Dist: requests==2.32.3
+Requires-Dist: rich==13.9.4
+Requires-Dist: rich-click==1.8.5
+Requires-Dist: sqlalchemy==2.0.37
+Requires-Dist: typing_extensions==4.12.2
+Requires-Dist: uuid-v7==1.0.0
+Requires-Dist: uv==0.5.21
+Provides-Extra: test
+Requires-Dist: azure-storage-blob==12.24.0; extra == "test"
+Requires-Dist: black==24.10.0; extra == "test"
+Requires-Dist: boto3==1.36.2; extra == "test"
+Requires-Dist: build; extra == "test"
+Requires-Dist: colorlog==6.9.0; extra == "test"
+Requires-Dist: csvkit==2.0.1; extra == "test"
+Requires-Dist: cx_Oracle==8.3.0; extra == "test"
+Requires-Dist: docker==7.1.0; extra == "test"
+Requires-Dist: flake8==7.1.1; extra == "test"
+Requires-Dist: isort==5.13.2; extra == "test"
+Requires-Dist: licensecheck==2024.3; extra == "test"
+Requires-Dist: mkdocs==1.6.1; extra == "test"
+Requires-Dist: mimesis==18.0.0; extra == "test"
+Requires-Dist: mysql-connector-python==9.2.0; extra == "test"
+Requires-Dist: oracledb==2.5.1; extra == "test"
+Requires-Dist: pdoc==15.0.1; extra == "test"
+Requires-Dist: psycopg2-binary==2.9.10; extra == "test"
+Requires-Dist: pytest==8.3.4; extra == "test"
+Requires-Dist: pytest-check==2.4.1; extra == "test"
+Requires-Dist: pytest-cov==6.0.0; extra == "test"
+Requires-Dist: pytest-xdist==3.6.1; extra == "test"
+Requires-Dist: python-dateutil==2.9.0.post0; extra == "test"
+Requires-Dist: setuptools; extra == "test"
+Requires-Dist: tabulate==0.9.0; extra == "test"
+Requires-Dist: wheel; extra == "test"
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+<!--
+Copyright 2025 Tabs Data Inc.
+-->
+
+![Tabsdata](https://docs.tabsdata.com/tabsdata.png)
+
+<p style="text-align:center;">
+    <a href="https://tabsdata.com">Tabsdata</a>
+    |
+    <a href="https://docs.tabsdata.com/0.9.0/guide/intro.html">User Guide</a>
+    |
+    <a href="https://docs.tabsdata.com/0.9.0/api_ref/index.html">API Reference</a>
+    |
+    <a href="https://github.com/tabsdata/tabsdata">GitHub Repository</a>
+    |
+    <a href="https://github.com/tabsdata/tabsdata/discussions">GitHub Discussions</a>
+    |
+    <a href="https://github.com/tabsdata/tabsdata/issues">GitHub Issues</a>
+    |
+    <a href="https://stackoverflow.com/questions/tagged/tabsdata">StackOverflow</a>
+    |
+    <a href="https://discord.com/invite/5stJks6W">Discord</a>
+</p>
+
+* [Tabsdata](https://tabsdata.com)
+* [TableFrame API](https://docs.tabsdata.com/latest/api_ref/index.html)
+* [Polars](https://github.com/pola-rs/polars)
+* [Tabsdata Getting Started](https://docs.tabsdata.com/latest/guide/02_getting_started/main.html)
+* [Tabsdata User Guide](https://docs.tabsdata.com/latest/guide/intro.html)
+* [User Guide](https://docs.tabsdata.com/0.9.0/guide/intro.html)
+* [API Reference](https://docs.tabsdata.com/0.9.0/api_ref/index.html)
