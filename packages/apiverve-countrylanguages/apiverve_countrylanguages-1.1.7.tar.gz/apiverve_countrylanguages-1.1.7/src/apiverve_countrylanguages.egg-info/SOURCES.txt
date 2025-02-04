@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_countrylanguages/__init__.py
+src/apiverve_countrylanguages/apiClient.py
+src/apiverve_countrylanguages/exceptions.py
+src/apiverve_countrylanguages/setup.py
+src/apiverve_countrylanguages/setup_dep.py
+src/apiverve_countrylanguages.egg-info/PKG-INFO
+src/apiverve_countrylanguages.egg-info/SOURCES.txt
+src/apiverve_countrylanguages.egg-info/dependency_links.txt
+src/apiverve_countrylanguages.egg-info/top_level.txt
+src/apiverve_countrylanguages/tests/__init__.py
+src/apiverve_countrylanguages/tests/test_api.py
+tests/test_api.py
