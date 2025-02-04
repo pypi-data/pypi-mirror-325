@@ -1,0 +1,38 @@
+Metadata-Version: 2.3
+Name: rspyenv
+Version: 0.1.0
+Summary: A light python package for managing environment variables.
+License: MIT
+Author: Reza Shirazi
+Author-email: itreza7@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Repository, https://github.com/itreza7/rspyenv
+Description-Content-Type: text/markdown
+
+# Environment Manager
+
+A Python class for managing environment variables in an organized and controlled manner. This package provides an easy-to-use interface to load environment variables from a file, register allowed variables, and access them statically, with support for case-insensitivity and caching.
+
+## Features
+
+- **Load environment variables** from a `.env` file.
+- **Override existing variables** with the option to allow or deny.
+- **Register allowed variables** to control which variables can be accessed.
+- **Case-insensitive access** to environment variables.
+- **Caching** for efficient future access to environment variables.
+- **Logging** for missing files or unregistered variables.
+
+## Installation
+
+To install this package, run the following command:
+
+```bash
+pip install rspyenv
+```
+
+
