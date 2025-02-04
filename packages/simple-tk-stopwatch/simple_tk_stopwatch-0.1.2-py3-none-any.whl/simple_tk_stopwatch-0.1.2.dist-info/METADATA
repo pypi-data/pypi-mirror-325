@@ -1,0 +1,28 @@
+Metadata-Version: 2.2
+Name: simple-tk-stopwatch
+Version: 0.1.2
+Summary: Simple stopwatch window in tkinter
+License: MIT
+Project-URL: Homepage, https://github.com/shockwavebot/simple-tk-stopwatch
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: twine>=6.1.0
+
+# simple-tk-stopwatch
+
+A simple stopwatch GUI application implemented in Python using tkinter.
+
+## Features
+
+- Start, pause, and reset the stopwatch
+- Display the current time in hours, minutes, and seconds
+- Keep the window on top of all other windows
+
+## Usage
+
+Install: `pip install simple-tk-stopwatch`
+
+Run the following command in the terminal to start the stopwatch: `simple-tk-stopwatch`
