@@ -1,0 +1,10 @@
+README.md
+license.txt
+setup.py
+pro-teste/__init__.py
+pro-teste/camera.py
+pro-teste/video.py
+pro_video_ferramentas_DOUGLAS_DC.egg-info/PKG-INFO
+pro_video_ferramentas_DOUGLAS_DC.egg-info/SOURCES.txt
+pro_video_ferramentas_DOUGLAS_DC.egg-info/dependency_links.txt
+pro_video_ferramentas_DOUGLAS_DC.egg-info/top_level.txt
