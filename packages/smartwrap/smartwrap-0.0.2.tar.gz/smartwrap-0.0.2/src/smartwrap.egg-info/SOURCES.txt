@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/smartwrap/__init__.py
+src/smartwrap.egg-info/PKG-INFO
+src/smartwrap.egg-info/SOURCES.txt
+src/smartwrap.egg-info/dependency_links.txt
+src/smartwrap.egg-info/top_level.txt
+tests/tests.py
