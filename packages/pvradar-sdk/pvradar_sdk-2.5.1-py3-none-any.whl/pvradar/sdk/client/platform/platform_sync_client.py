@@ -1,0 +1,118 @@
+from typing import Any, Optional, Self
+from pandas import DataFrame
+import httpx
+from httpx._types import QueryParamTypes
+from httpx import Response, Timeout
+from authlib.integrations.httpx_client import AsyncOAuth2Client
+import asyncio
+import nest_asyncio
+
+from .jsonapi_utils import jsonapi_to_object
+from ..api_query import Query
+
+_client_instances: dict[str, Any] = {}
+
+
+def _await(coroutine: Any) -> Any:
+    global _loop
+    _loop = asyncio.get_event_loop()
+    return _loop.run_until_complete(coroutine)
+
+
+class PlatformSyncClient:
+    def __init__(
+        self,
+        base_url: str = '',
+        username: str = '',
+        password: str = '',
+        default_project_id: Optional[str] = None,
+        default_variant_id: Optional[str] = None,
+    ) -> None:
+        self._base_url = base_url
+        self._username = username
+        self._password = password
+        self._default_project_id = default_project_id
+        self._default_variant_id = default_variant_id
+
+        self._authed_client: Optional[AsyncOAuth2Client] = None
+
+    @classmethod
+    def instance(
+        cls,
+        base_url: str = '',
+        username: str = '',
+        password: str = '',
+    ) -> Self:
+        id = f'{base_url}:{username}:{password}'
+        global _client_instances
+        _client_instance = _client_instances.get(id)
+        if not _client_instance:
+            if not base_url and not username:
+                raise NotImplementedError('from_config not implement, pass params explicitly')
+            else:
+                _client_instance = cls(base_url=base_url, username=username, password=password)
+            _client_instances[id] = _client_instance
+        return _client_instance
+
+    def _get_authed(self) -> AsyncOAuth2Client:
+        nest_asyncio.apply()
+        if self._authed_client:
+            return self._authed_client
+        keycloak_config = httpx.get(self._base_url + '/pvwave-util/keycloak-config').json()
+        openid_configuration = httpx.get(keycloak_config['openid-configuration']).json()
+        self._authed_client = AsyncOAuth2Client(
+            client_id='platform',
+            token_endpoint=openid_configuration['token_endpoint'],
+            timeout=Timeout(60.0, connect=10.0),
+            base_url=self._base_url,
+        )
+
+        scope = 'openid email profile'
+        endpoint = openid_configuration['token_endpoint']
+        coroutine = self._authed_client.fetch_token(endpoint, username=self._username, password=self._password, scope=scope)
+        _await(coroutine)
+        return self._authed_client
+
+    def _auto_correct_path(self, path: str, project_id: Optional[str] = None, variant_id: Optional[str] = None) -> str:
+        if path.startswith('/'):
+            return path
+        prefix = '/'
+        if project_id is not None:
+            prefix += f'projects/{project_id}/'
+        if variant_id is not None:
+            prefix += f'variants/{variant_id}/'
+        return f'{prefix}{path}'
+
+    def get(self, query: str | Query, params: QueryParamTypes | None = None) -> Response:
+        client = self._get_authed()
+
+        if isinstance(query, str):
+            url = self._auto_correct_path(query, project_id=self._default_project_id, variant_id=self._default_variant_id)
+            coroutine = client.get(url=url, params=params)
+        else:
+            url = self._auto_correct_path(
+                query.path,
+                project_id=query.project_id or self._default_project_id,
+                variant_id=query.variant_id or self._default_variant_id,
+            )
+            coroutine = client.get(url=url, params=query.make_query_params())
+
+        return _await(coroutine)
+
+    def get_csv(self, query: str | Query, params: QueryParamTypes | None = None) -> str: ...
+
+    def get_json(self, query: str | Query, params: QueryParamTypes | None = None) -> Any:
+        return self.get(query, params).json()
+
+    def get_jsonapi_dict(self, query: str | Query, params: QueryParamTypes | None = None) -> dict[str, Any]:
+        raw = self.get_json(query, params)
+        if not raw:
+            raise ValueError('empty response')
+        processed = jsonapi_to_object(raw, 'id')
+        return processed
+
+    def get_df(
+        self,
+        query: str | Query,
+        params: QueryParamTypes | None = None,
+    ) -> DataFrame: ...
