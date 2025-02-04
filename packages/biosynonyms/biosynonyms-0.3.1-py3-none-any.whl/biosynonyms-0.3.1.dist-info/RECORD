@@ -1,0 +1,17 @@
+biosynonyms/__init__.py,sha256=eh486tL_fKz5qSv62pskI8edQDyRktNRipe8htyO3Qo,730
+biosynonyms/generate_owl.py,sha256=i9QaFsdQDEkC-X4c6GgOOSdMGltPLrrc5kKLSy4YxO4,10096
+biosynonyms/lint.py,sha256=w-YeDKca535CIhxQlFtCBobEXa60vQAL8OKLacU-KGA,390
+biosynonyms/model.py,sha256=ZbyA6m2l_jSod86LH32a0tR_lLq7aM5oDUFWE9NtNXo,14420
+biosynonyms/predict.py,sha256=ic21QeA7XwlRsxdotut2sEu2PngaOOFXINIVwslVryg,10285
+biosynonyms/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+biosynonyms/version.py,sha256=4ko4RbDYmNDfwoyb6pT9Bq0AzCvzef2rlhFTB48H5I8,969
+biosynonyms/resources/__init__.py,sha256=kXMrgtWTYejvBTPgPdjYC_iBhNoHQRqU0STYKFjf_bU,2218
+biosynonyms/resources/negatives.tsv,sha256=mKOHO3zFOskiBbNMhQGq-x887RP2RjTJB6zWouj3N1U,160
+biosynonyms/resources/positives.tsv,sha256=CSatKEapZxppfvCgZmvZYPHasZJSaCLnm9t95CsJdKs,3114
+biosynonyms/resources/unentities.tsv,sha256=33BHk0Wvw4d95s0gf1n-ZzoVSvjo7dn6A86XwWhqk2c,5563
+biosynonyms-0.3.1.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+biosynonyms-0.3.1.dist-info/LICENSE-MIT,sha256=QcgJZKGxlW5BwBNnCBL8VZLVtRvXs81Ch9lJRQSIpJg,1076
+biosynonyms-0.3.1.dist-info/METADATA,sha256=otK2GaNl1ZjoSJxPd-Idko_q7OcrvyLJxjQKzECEYvs,27158
+biosynonyms-0.3.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+biosynonyms-0.3.1.dist-info/top_level.txt,sha256=rBrh8rNwU4vh8nDvVG3kwpOWOviv_r2p4ybi0TjtFgk,12
+biosynonyms-0.3.1.dist-info/RECORD,,
