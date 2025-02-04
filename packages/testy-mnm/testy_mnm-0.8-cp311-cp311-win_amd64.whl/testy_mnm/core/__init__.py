@@ -1,0 +1,1 @@
+from . import testy_c_module
