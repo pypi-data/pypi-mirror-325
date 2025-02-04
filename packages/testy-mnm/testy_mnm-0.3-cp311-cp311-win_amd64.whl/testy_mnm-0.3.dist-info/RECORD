@@ -1,0 +1,9 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testy_c_module.cp311-win_amd64.pyd,sha256=uBxfoZ0uEsODu4R1TGQkW82QCSeHyWM5wUQrUFMmi2k,10240
+src/module.c,sha256=T1WHK5Fr9ZMHiFyxhAT-Ew9l5FD6kzJLFw_aW4r77-s,578
+testy_mnm/__init__.py,sha256=79Ih1151rfcqZdr7F8HSZSTs_iT2SKd1xCkehMsXeXs,19
+testy_mnm/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testy_mnm-0.3.dist-info/METADATA,sha256=pG0T7CyQNrpcvMfOZWaONHI7oMGpKdeQl_GlPWtoI5Q,54
+testy_mnm-0.3.dist-info/WHEEL,sha256=yNnHoQL2GZYIUXm9YvoaBpFjGlUoK9qq9oqYeudrWlE,101
+testy_mnm-0.3.dist-info/top_level.txt,sha256=RRnK4vdc2lhyPzyw5NdCwE570ZL_v9UnCOrpaHGsr_4,19
+testy_mnm-0.3.dist-info/RECORD,,
