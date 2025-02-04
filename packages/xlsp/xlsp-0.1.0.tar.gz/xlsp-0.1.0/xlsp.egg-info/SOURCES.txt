@@ -1,0 +1,9 @@
+README.md
+setup.py
+xlsp/__init__.py
+xlsp/xlsp.py
+xlsp.egg-info/PKG-INFO
+xlsp.egg-info/SOURCES.txt
+xlsp.egg-info/dependency_links.txt
+xlsp.egg-info/requires.txt
+xlsp.egg-info/top_level.txt
