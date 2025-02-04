@@ -1,0 +1,151 @@
+Metadata-Version: 2.2
+Name: 5x-google-bigquery-auth-manager
+Version: 0.1.2
+Summary: A simple Python library for creating a Google BigQuery client using either an access token or a service account JSON file.
+Home-page: https://github.com/5x-Platform/5x-nextgen-python-libraries.git
+Author: 5X
+Author-email: support@5x.co
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: google-api-core
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: google-cloud-bigquery-storage
+Requires-Dist: db-dtypes
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# 5X Google BigQuery Client Authentication Library
+
+This Python library provides a simple way to create a **Google BigQuery client** using either an **access token** or a **service account JSON file**. It handles authentication seamlessly, allowing developers to focus on querying BigQuery.
+
+- **Preferred Authentication:** Access Token (`FIVEX_BIGQUERY_ACCESS_TOKEN`)
+- **Fallback Authentication:** Service Account JSON (`FIVEX_BIGQUERY_SERVICE_ACCOUNT_KEY`)
+
+---
+
+## Installation
+
+Install the package from PyPI using:
+
+```bash
+pip install 5x-google-bigquery-auth-manager
+```
+
+---
+
+## **Environment Variables**
+
+This function relies on **environment variables** for authentication.
+
+| Variable                             | Description                               | Example                         |
+| ------------------------------------ | ----------------------------------------- | ------------------------------- |
+| `FIVEX_BIGQUERY_ACCESS_TOKEN`        | Access token for authentication           | `ya29.a0AfH6SMA...`             |
+| `FIVEX_BIGQUERY_DEFAULT_PROJECT_ID`  | Your BigQuery project ID                  | `your-project-id`               |
+| `FIVEX_BIGQUERY_SERVICE_ACCOUNT_KEY` | Path to the service account JSON key file | `/path/to/service_account.json` |
+
+### **Example: Setting Environment Variables**
+
+```bash
+export FIVEX_BIGQUERY_ACCESS_TOKEN="your-access-token"
+export FIVEX_BIGQUERY_DEFAULT_PROJECT_ID="your-project-id"
+export FIVEX_BIGQUERY_SERVICE_ACCOUNT_KEY="/path/to/service_account.json"
+```
+
+---
+
+## **Usage**
+
+### **Import and Use in Python**
+
+```python
+from bigquery_auth import create_bigquery_client
+
+try:
+    client = create_bigquery_client()
+    print("✅ BigQuery Client Created Successfully!")
+except Exception as e:
+    print(f"❌ Error: {e}")
+```
+
+---
+
+## **Function Overview**
+
+### **`create_bigquery_client()`**
+
+Creates a **BigQuery client** using either:
+
+1. **Access Token (Preferred)**
+2. **Service Account JSON File (Fallback)**
+
+### **How It Works**
+
+✔ **First, tries to authenticate using the access token (`FIVEX_BIGQUERY_ACCESS_TOKEN`).**  
+✔ **If the access token is expired or invalid, it raises an exception.**  
+✔ **If no access token is available, it attempts authentication via service account JSON.**  
+✔ **Implements logging and error handling for seamless debugging.**
+
+---
+
+## **Error Handling**
+
+This function will **raise exceptions** in case of failure:
+
+| Exception            | Cause                                       |
+| -------------------- | ------------------------------------------- |
+| `ValueError`         | No authentication method found              |
+| `RefreshError`       | Access token is expired or invalid          |
+| `GoogleAPICallError` | BigQuery API request failure                |
+| `BadRequest`         | Insufficient permissions to access BigQuery |
+
+### **Example Handling in Python**
+
+```python
+try:
+    client = create_bigquery_client()
+except RefreshError as e:
+    print(f"❌ Token Error: {e}")
+except ValueError as e:
+    print(f"❌ Configuration Error: {e}")
+except GoogleAPICallError as e:
+    print(f"❌ BigQuery API Error: {e}")
+except BadRequest as e:
+    print(f"❌ Permission Error: {e}")
+```
+
+---
+
+## **Logging**
+
+This function uses Python’s built-in **`logging`** module to track:
+
+- **Which authentication method is used** (Access Token or Service Account)
+- **Errors and exceptions** for easier debugging
+
+---
+
+## **Why Use This Library?**
+
+✔ **Simplifies Google BigQuery authentication** – No need to manage authentication manually.  
+✔ **Supports both Access Tokens & Service Account authentication** – Provides flexibility.  
+✔ **Ensures proper error handling** – Avoids silent failures with meaningful error messages.  
+✔ **Easy to integrate into any project** – Just install and use.
+
+---
