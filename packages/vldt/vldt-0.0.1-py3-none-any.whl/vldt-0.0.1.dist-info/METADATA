@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: vldt
+Version: 0.0.1
+Summary: High-performance type-validated base model
+Author-email: Roman Right <roman-right@protonmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: typing_extensions>=4.0.0
+
+
