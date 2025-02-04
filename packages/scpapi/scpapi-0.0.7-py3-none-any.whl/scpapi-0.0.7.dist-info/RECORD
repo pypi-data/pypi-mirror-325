@@ -1,0 +1,12 @@
+scpapi/__init__.py,sha256=1L6cbrGTw8RSHC5zoAkX1czOXk1sBQQeUaXFVF9Al4M,119
+scpapi/client.py,sha256=_KUiz-QG70_wM4a-aOvX7lKut-iT8LeJY6PkkW3tVc4,3805
+scpapi/resource/__init__.py,sha256=t8voAw5KjkONulV5Tyi2-ZnK4TUYw4Mia48nkOC3pQs,112
+scpapi/resource/file_storage.py,sha256=fQpVg-9z0IjAnTi6wQMclh_F4bONici-dtZsV9K2doU,941
+scpapi/resource/image.py,sha256=bH6wxLt0Z06f0DD-JCj6AisNo5yimGKyV3t3n0auupk,241
+scpapi/resource/server_group.py,sha256=4YuasukuaM4I4lCnaS8q1zwWEB2CnkKjyFN5qfUDgEo,914
+scpapi/resource/subnet.py,sha256=nz75xDoMb3GWHRLtUB1d_HuGpdlNP3C6j1ibrGbGf5g,610
+scpapi/resource/virtual_server.py,sha256=EIXRUZkxdkhHHMGdGp5RydoA_gZ7NEi_0ly1L8a4WbY,948
+scpapi-0.0.7.dist-info/METADATA,sha256=ZEDjMIlB4Q0nUPKwdnSNwyMISUpBkY0cm0_CM8d2V2w,2075
+scpapi-0.0.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+scpapi-0.0.7.dist-info/top_level.txt,sha256=3PdNapIjWUu3lA1KJU0qfT_AWX2ThI_PqsqQRqPFfaU,7
+scpapi-0.0.7.dist-info/RECORD,,
