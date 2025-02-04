@@ -1,0 +1,16 @@
+mantis/__init__.py,sha256=LmgYZZJSJQENmaTXnakx5EsjlR_N_W28jWkUojrWj4w,238
+mantis/async_api.py,sha256=nN_5tOcieJaB4zpsigGdqklF7L7s4l3eukZBcCPLh2s,627
+mantis/batch.py,sha256=KWvJ69cFdcrPaCuN1qljNfskKoFa89WNhCOCXkf6r1c,1150
+mantis/cache.py,sha256=9dXi0iKO8Cv4w-pjW10cB677lMF2rcjTS5RGUD_iNFs,763
+mantis/cli.py,sha256=xrnvdz8FwYNsI_n_70eT2fobSRbOzZ53DS8uiXY7TGw,3086
+mantis/extract.py,sha256=AtPYHfhVeoi1bYC26-4WJcy-ykwJ9B-U4FMkZyXY59w,609
+mantis/models.py,sha256=Kqdp0L7tEFHEfP5Pr5V7xvfjq6J6lwTzWcWAoREPY_U,2810
+mantis/structured.py,sha256=aGH-We58TSWy9CAFMuPvVMy6rWbjpOQ1yt8d7gwJd9A,2132
+mantis/summarize.py,sha256=Oy3JnQVkF5lhdjNGoUcZOBvCLNZ2sz22r9UZsAE150k,601
+mantis/telemetry.py,sha256=McYwyoaxWOet5VM3kTK6Vzc-RAXBJz_Kc-jxTRDJQ38,660
+mantis/transcription.py,sha256=lEyu92L_g0YVPI15dgBC5vlUltbs6jVwioc4c1J6cwE,631
+mantis/utils.py,sha256=yQeL8r1adfUue5te-aqn-a4SqBCuOAEUQ6JPaf8yaJ4,3812
+mantisai-0.1.5.dist-info/METADATA,sha256=_U7FICtdtEGOUzq8Pu_fI-PFgSpQt22TW_EbuK3nuKw,3633
+mantisai-0.1.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mantisai-0.1.5.dist-info/licenses/LICENSE,sha256=NA52Zj_pzflOc8jde43GKXSixCUuYmmv7HC4B7ZD-RE,7928
+mantisai-0.1.5.dist-info/RECORD,,
