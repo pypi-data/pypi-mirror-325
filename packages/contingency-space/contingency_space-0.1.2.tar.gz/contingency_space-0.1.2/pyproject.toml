@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "contingency_space"
+version = "0.1.2"
+authors = [
+    { name = "Colin Kehoe", email="cdknnz@umsl.edu"},
+]
+description = "A package for creating and analyzing contingency spaces."
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3.5",
+    "License :: OSI Approved :: MIT License",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*",]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/contingency_space"]
+
+[project.urls]
+Homepage = "https://github.com"
+Issues = "https://github.com"
