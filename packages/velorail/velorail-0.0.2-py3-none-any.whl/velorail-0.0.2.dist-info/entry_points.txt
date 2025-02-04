@@ -1,0 +1,3 @@
+[console_scripts]
+gpxviewer = velorail.velorail_cmd:main
+velorail = velorail.velorail_cmd:main
