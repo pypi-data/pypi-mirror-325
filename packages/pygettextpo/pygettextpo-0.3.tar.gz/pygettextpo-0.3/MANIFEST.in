@@ -1,0 +1,6 @@
+include Makefile
+include MANIFEST.in
+include README
+include *.yaml
+include tox.ini
+include *.rst

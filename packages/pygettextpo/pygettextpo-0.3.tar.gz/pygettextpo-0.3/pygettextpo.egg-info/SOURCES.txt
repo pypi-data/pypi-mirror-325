@@ -1,0 +1,15 @@
+.pre-commit-config.yaml
+LICENSE
+MANIFEST.in
+Makefile
+NEWS.rst
+README.rst
+gettextpo.c
+setup.cfg
+setup.py
+tox.ini
+pygettextpo.egg-info/PKG-INFO
+pygettextpo.egg-info/SOURCES.txt
+pygettextpo.egg-info/dependency_links.txt
+pygettextpo.egg-info/top_level.txt
+tests/test_gettextpo.py
