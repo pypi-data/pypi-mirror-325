@@ -1,0 +1,2 @@
+# do not edit this version line, it will be updated in CI-Pipeline!
+__version__ = "0.0.0"
