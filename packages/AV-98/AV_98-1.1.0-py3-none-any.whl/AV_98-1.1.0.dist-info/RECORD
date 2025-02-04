@@ -1,0 +1,13 @@
+av98/__init__.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+av98/cache.py,sha256=i3luuzWJzZ6HoRtIEkyLXXjgOkdyiYdX9uDv_oinYSw,2287
+av98/certmanager.py,sha256=fVP_zMpeXq5nK8kzeIvKjw4pko0czStgucZVXm-C51o,18317
+av98/client.py,sha256=FN9SUhRkpOjbSmZKds0HfjEPOoqFMQZqB53X75JOfss,58821
+av98/main.py,sha256=twdTxKTQ42rCYGS2hR03JRb92QO90iXih2E-JhyhCG4,5358
+av98/tofu.py,sha256=OVxAM99_j54jci-GlWDL_0zpujCB6CQNxp7pp65koZ0,8519
+av98/util.py,sha256=9hgyKArB4kpPmQBsxH1aEoZzqXf21tduG98wNucWuGA,2076
+AV_98-1.1.0.dist-info/LICENSE,sha256=kodEN0Tu7GRcZDgP5IQqzmsbpxChP6niz68YbiG4VmA,1336
+AV_98-1.1.0.dist-info/METADATA,sha256=lAiP8PsNu1GCInS-mhXxTRUfPNLTaEQEuUnZ8d9PHgk,773
+AV_98-1.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+AV_98-1.1.0.dist-info/entry_points.txt,sha256=XOvn4fh3NmRBLRuMeLt6jJezuBk87gEUQ0GjtIgEpec,40
+AV_98-1.1.0.dist-info/top_level.txt,sha256=wdXNfZpCCDujkuudNChBMs0i6IflypkHXNAwvvJ9_FE,5
+AV_98-1.1.0.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+av98 = av98.main:main
