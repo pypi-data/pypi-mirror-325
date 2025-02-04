@@ -1,0 +1,10 @@
+gstools_cython-1.0.0rc1.dist-info/RECORD,,
+gstools_cython-1.0.0rc1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+gstools_cython-1.0.0rc1.dist-info/WHEEL,sha256=FBd6an5AFoPq_6i7rX7RY9hnbsVzpIPkc8xRof4mLK4,111
+gstools_cython-1.0.0rc1.dist-info/top_level.txt,sha256=ixTzVPKGMID1plGf2p2ce4GkDjHt28CorVwCQS5IoZY,15
+gstools_cython-1.0.0rc1.dist-info/METADATA,sha256=Mh_arOe6S0Qss3nTRX3QAUh0fvHpmHrUZDDceYcVV-8,7200
+gstools_cython/field.cpython-312-darwin.so,sha256=FouXpI0GShtPZLr2zOY03TvIEOIaPtK_c3Nj7gXZPjI,222928
+gstools_cython/_version.py,sha256=TZaKMzNY6PVSmtg-j0ORIgPV1vk_uY-dKLv4sFan6Z0,24
+gstools_cython/variogram.cpython-312-darwin.so,sha256=9TSpREm2rQvR-dXs-mK7hgfeoJC_WDvMnmWRgo1a8So,264512
+gstools_cython/__init__.py,sha256=yRE0Hzm997_PO_Fc506u93TkIM9SPw0vUmZv306m0b8,673
+gstools_cython/krige.cpython-312-darwin.so,sha256=OjMRXoSCuDyNmNZpnPKDEuU4ObnYJLlP7f3YJIM4QRg,205888
