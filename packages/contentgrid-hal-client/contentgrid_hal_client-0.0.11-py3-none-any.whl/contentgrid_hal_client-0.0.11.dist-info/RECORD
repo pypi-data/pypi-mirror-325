@@ -1,0 +1,10 @@
+contentgrid_hal_client/__init__.py,sha256=i7W7QAbjzfeQUyGWKepE5A224-cFQw6gY2AeV1n2c0s,251
+contentgrid_hal_client/exceptions.py,sha256=rWyXKqvOTpwJ9lEDdnCi-fvIJsDhDrs58QCZ7ITAEYE,852
+contentgrid_hal_client/hal.py,sha256=np4ciaPuBH5aRqpOjrLfMNGJdT1NIvD8nmSzSgnBxzA,17868
+contentgrid_hal_client/security.py,sha256=JIKGt4KiKBlaJjR9jrQtMabU8YyMTTkOhDwO_bkGpy4,16595
+contentgrid_hal_client/token_utils.py,sha256=9YOhS3ZB3o6l7dm6-UCnBph_dUplrkk-6ZrxJaRBsdo,12428
+contentgrid_hal_client-0.0.11.dist-info/LICENSE,sha256=tk6n-p8lEmzLJg-O4052CkMgfUtt1q2Zoh1QLAyL7S8,555
+contentgrid_hal_client-0.0.11.dist-info/METADATA,sha256=wt6U9PtJ3fC7Z-kdOwx2bKrLT0_UhCch6yBjQPIu5no,4215
+contentgrid_hal_client-0.0.11.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+contentgrid_hal_client-0.0.11.dist-info/top_level.txt,sha256=uQEn8p7MJh0EX94Ar66BCPw2Nc4wrCTPhh2k9QJ9uMI,23
+contentgrid_hal_client-0.0.11.dist-info/RECORD,,
