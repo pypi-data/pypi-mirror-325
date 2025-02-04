@@ -1,0 +1,10 @@
+pdf2m4b/__init__.py,sha256=-GgfLHhAVqP8A57cBTkh8xNZ7EVhtc6m6GZKMniicDk,649
+pdf2m4b/logger_config.py,sha256=0xmwZfuM_H5g0tYX9tOds3oMUAr_TWyeBYQxQ51GMTg,2637
+pdf2m4b/main.py,sha256=vw02p5b6vqTbn4ann3sUN2wEOSfoVhtheKJVoy_sPFo,2241
+pdf2m4b/make_m4b.py,sha256=3_leohd4V5GFBesWMfWpCIVxoiDBV2lokdh3kYlOSpw,5384
+pdf2m4b/md_to_folders.py,sha256=20oWg6s61Ogls0kznLR1g0f5PNARXLQUtD4BhlIxjZ8,3229
+pdf2m4b/pdf_to_md.py,sha256=-9TlRQiBloEKq5kdRV_oeh2AJNkZfXND0WolfI7IXL0,896
+pdf2m4b/tts_polly.py,sha256=msgMxgma1doG27-K8oEJAkItwlzyksZL1NF4SoRhCD4,6351
+pdf2m4b-0.1.1.dist-info/METADATA,sha256=rRIspOSQmMtsyk9QZktCTwedDr9NeZBcHP5SnItQP-Q,5039
+pdf2m4b-0.1.1.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+pdf2m4b-0.1.1.dist-info/RECORD,,
