@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: signal-processing-basics
+Version: 0.1.1
+Summary: 
+Author: Justin Smith
+Author-email: 66smithjustin@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: ipykernel (>=6.29.5,<7.0.0)
+Requires-Dist: matplotlib (>=3.10.0,<4.0.0)
+Requires-Dist: numba (>=0.61.0,<0.62.0)
+Requires-Dist: numpy (<2.2)
+Requires-Dist: scikit-learn (>=1.6.1,<2.0.0)
+Requires-Dist: scipy (>=1.15.1,<2.0.0)
+Requires-Dist: statistics (>=1.0.3.5,<2.0.0.0)
+Description-Content-Type: text/markdown
+
+
