@@ -1,0 +1,3 @@
+[console_scripts]
+mock=fake_api_server.runner:run
+
