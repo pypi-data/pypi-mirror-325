@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "aslan"
+version = "0.0.12"
+description = "Parser for ASLAN"
+authors = ["Jerzy Foss <44465055+jayfoss@users.noreply.github.com>"]
+license = "See LICENSE.md"
+readme = "README.md"
+packages = [{include = "aslan"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+syrupy = "^4.8.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
