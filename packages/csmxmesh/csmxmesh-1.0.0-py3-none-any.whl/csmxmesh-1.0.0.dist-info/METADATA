@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: csmxmesh
+Version: 1.0.0
+Summary: Next-Gen AI-Proof, Post-Quantum Secure Authentication System
+Home-page: https://github.com/Sumedh1599/csmxmesh
+Author: Sumedh Patil
+Author-email: admin@aipresso.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
