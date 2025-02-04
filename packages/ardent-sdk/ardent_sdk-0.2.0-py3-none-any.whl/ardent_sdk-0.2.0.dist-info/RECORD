@@ -1,0 +1,12 @@
+ardent/__init__.py,sha256=XygIN5fmxOQ_Eh-gI3ZIv99F0NSRckyT4kU2wAQ7AmI,274
+ardent/client.py,sha256=JeDD1O5fxGOVOspvf2LCWTZPyAg5D-TjhufOXJJ46HA,17836
+ardent/exceptions.py,sha256=iAXu4b7DGfakUJ9ttPuYa2mOzQdJjpft_zrD0qcsDFU,524
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_delete_config.py,sha256=2Et-bBNLQeQd6Up-M3wf40tsuyL9wLn9IWVMH7jNzQU,892
+tests/test_integration.py,sha256=Qh03xqhVRiNFHPqnrVM2JEW8Aez9_dbpuaFHiWPU3jg,799
+tests/test_mongo.py,sha256=xLBws9lm4Vx_sNC1LcmTCorxaf5h-0seD_aCQMSvtYg,2402
+ardent_sdk-0.2.0.dist-info/LICENSE,sha256=Up9H9GdRel-VDAqlH5-mzfTryAsyv4StXlGIqmTfz3k,1067
+ardent_sdk-0.2.0.dist-info/METADATA,sha256=MtFxL4ajAIz9RCe9VmsshoJ4IEaMZpHZwpNjcYyIHRg,1978
+ardent_sdk-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ardent_sdk-0.2.0.dist-info/top_level.txt,sha256=iMmMvSENnXo49Rt87AiLRpfPt3iwpOA3h9VyHNKIwYg,13
+ardent_sdk-0.2.0.dist-info/RECORD,,
