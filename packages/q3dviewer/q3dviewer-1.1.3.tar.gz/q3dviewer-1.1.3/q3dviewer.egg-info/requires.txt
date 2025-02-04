@@ -1,0 +1,9 @@
+PyOpenGL
+imageio
+imageio[ffmpeg]
+laspy
+meshio
+numpy
+pye57
+pypcd4
+pyside6
