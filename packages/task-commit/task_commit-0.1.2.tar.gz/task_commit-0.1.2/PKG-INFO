@@ -1,0 +1,36 @@
+Metadata-Version: 2.3
+Name: task-commit
+Version: 0.1.2
+Summary: Ferramenta para auxiliar os commits, junto com git flow ela também fornece auxílio.
+License: MIT
+Author: Walefy Lima
+Author-email: walefylima@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Repository, https://github.com/WalefyHG/Task_Commit
+Description-Content-Type: text/markdown
+
+# Task Commit
+
+Ferramenta para commits automatizados seguindo o padrão Conventional Commits e Git Flow.
+
+## Instalação
+
+Para instalar o pacote, use:
+
+```bash
+pip install task_commit
+```
+
+
+## Utilização
+
+Para utilizar digite
+
+```bash
+task_commit
+
+```
