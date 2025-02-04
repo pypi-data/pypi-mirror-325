@@ -1,0 +1,9 @@
+xrfit/__init__.py,sha256=uM7JGTjv_JVJY6SvKeHXnd4Oup7QH_yoDTum1gvA9xY,180
+xrfit/base.py,sha256=QNenatvEK4fUdB0HgsRs-hah2lHKYT6_-vkVEHjvieU,124
+xrfit/display.py,sha256=lBRuD52xIxjBUaiLoTI5KnXBYZ7fMLLGOujBLVeQ9AM,2737
+xrfit/fit.py,sha256=n8U8WqTw-uVipylZXu7TRV5D7oP1IWyOmY_h3Ye-IlY,5603
+xrfit/params.py,sha256=oTSigatywDuIRcJLoH8bJpO4ME--H9yYBJVESMz435E,3289
+xrfit-0.3.0.dist-info/METADATA,sha256=Xa5NdqfGjFWLeMewW9zjI8koXjDzmC4BiszF0ml73-4,43149
+xrfit-0.3.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+xrfit-0.3.0.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+xrfit-0.3.0.dist-info/RECORD,,
