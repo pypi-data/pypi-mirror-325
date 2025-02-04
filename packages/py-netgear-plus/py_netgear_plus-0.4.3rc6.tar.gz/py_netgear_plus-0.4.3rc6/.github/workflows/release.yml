@@ -1,0 +1,41 @@
+on:
+  workflow_run:
+    workflows: ["CI"]
+    types:
+      - completed
+
+name: Release
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Release pushed tag
+    runs-on: ubuntu-latest
+    if: |
+      ${{ github.event.workflow_run.conclusion == 'success' &&
+      contains(github.ref, 'refs/tags/v') }}
+    steps:
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.ref }}
+        run: |
+          tag=${tag/refs\/tags\//}
+          if [[ "$tag" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Create release $tag"
+            gh release create "$tag" \
+                --repo="$GITHUB_REPOSITORY" \
+                --title="${GITHUB_REPOSITORY#*/} ${tag#v}" \
+                --generate-notes
+          elif [[ "$tag" =~ ^v[0-9]+\.[0-9]+\.[0-9]+(pre|rc)[0-9]+$ ]]; then
+            echo "Create prerelease $tag"
+            gh release create "$tag" \
+                --repo="$GITHUB_REPOSITORY" \
+                --title="${GITHUB_REPOSITORY#*/} ${tag#v}" \
+                --prerelease \
+                --generate-notes
+          else
+            echo "Not releasing $tag"
+          fi
