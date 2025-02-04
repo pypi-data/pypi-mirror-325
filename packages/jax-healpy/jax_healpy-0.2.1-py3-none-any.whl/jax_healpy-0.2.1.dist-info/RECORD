@@ -1,0 +1,7 @@
+jax_healpy/__init__.py,sha256=aJH3_vimcE8QNyLvTeaC1bGbe4bvjiF-9ICU9d3iQbo,1266
+jax_healpy/pixelfunc.py,sha256=DuYBMPZLc7v6Hausrf7FXTy3UIS65vJCjMyHUO0PZZs,47398
+jax_healpy/sphtfunc.py,sha256=jiO1fmO9QLMopCQ3CadWM8a_G0ShpfbQlTHsk7oiMYc,10943
+jax_healpy-0.2.1.dist-info/METADATA,sha256=VvUiFU2DH0HjCt07yQzN6JV2KOtR-TQaiFGNSEuvUyo,2130
+jax_healpy-0.2.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+jax_healpy-0.2.1.dist-info/top_level.txt,sha256=2KVOM8NNn2pObd_FjV7TloHIAWxwTGnde65uEuUt124,11
+jax_healpy-0.2.1.dist-info/RECORD,,
