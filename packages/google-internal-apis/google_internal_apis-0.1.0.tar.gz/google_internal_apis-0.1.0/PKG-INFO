@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: google_internal_apis
+Version: 0.1.0
+Summary: A wrapper around various internal (and undocumented) Google APIs that use grpc and json protobufs.
+Author-email: Elliana May <me@mause.me>
+License: MIT
+Project-URL: repository, https://github.com/Mause/gbooks-upload
+Requires-Python: <4.0,>=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: ghunt>=0.1
