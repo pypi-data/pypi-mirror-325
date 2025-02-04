@@ -1,0 +1,8 @@
+kid_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kid_sdk/client.py,sha256=lG_ZLWSanTfzBVxM_T_36YB4s7tU7hcvjVr1_2SmIFg,5661
+kid_sdk/config.py,sha256=Fb5b-5eD9WJ3n02F5zf_hC40s3egonIpkpR1oGPskuA,282
+kid_sdk/utils.py,sha256=_9EFrtANy4TxEfBOErGqATMjTz4RwGsaWIbs0oQcyu8,397
+kid_sdk-0.8.dist-info/METADATA,sha256=JzpdBJa1ylDAq8uThobTGyKwG3YGQ1qMsTTc1DLlQ_w,178
+kid_sdk-0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+kid_sdk-0.8.dist-info/top_level.txt,sha256=0AXXp6T5wcAFKyLx7GuIe-XRaPOdTZZvYWYaeisTX-8,8
+kid_sdk-0.8.dist-info/RECORD,,
