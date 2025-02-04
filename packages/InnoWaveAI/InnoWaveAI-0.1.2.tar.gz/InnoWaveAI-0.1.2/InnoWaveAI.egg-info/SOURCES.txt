@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+InnoWaveAI.egg-info/PKG-INFO
+InnoWaveAI.egg-info/SOURCES.txt
+InnoWaveAI.egg-info/dependency_links.txt
+InnoWaveAI.egg-info/top_level.txt
+pythonai/__init__.py
+pythonai/core.py
