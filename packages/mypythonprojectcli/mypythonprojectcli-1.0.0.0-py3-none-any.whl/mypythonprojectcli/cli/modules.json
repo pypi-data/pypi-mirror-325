@@ -1,0 +1,10 @@
+{
+    "sample_module_a": {
+        "version": "1.0.0.0",
+        "description": "Perform several useful processes."
+    },
+    "sample_module_b": {
+        "version": "1.0.0.0",
+        "description": "Perform several useful processes."
+    }
+}

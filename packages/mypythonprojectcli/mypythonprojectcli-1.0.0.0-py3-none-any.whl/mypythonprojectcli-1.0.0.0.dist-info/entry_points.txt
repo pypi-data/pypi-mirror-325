@@ -1,0 +1,2 @@
+[console_scripts]
+mypythonprojectcli = mypythonprojectcli.__cli__:cli

@@ -1,0 +1,11 @@
+{
+    "brand_name": "MY PYTHON PROJECT",
+    "slogan": "Custom CLIs for python libraries.",
+    "creators": [
+        {
+            "name": "Clodomir Vianna",
+            "email": "clovianna@gmail.com"
+        }
+    ],
+    "tags": []
+}
