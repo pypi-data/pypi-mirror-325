@@ -1,0 +1,12 @@
+apiverve_countryborders/__init__.py,sha256=bkO9Idf-PSJPr2uKLFfApKgww6Dg_a2Cv5N3_eN7MGg,46
+apiverve_countryborders/apiClient.py,sha256=l52MJNi_-9kOZnPFI07B7HyPPAhLnpZB_3NGYqgJS2s,1232
+apiverve_countryborders/exceptions.py,sha256=S1k7RnGhI6ePbbdgTdQu2rxYn72_r6rE0C4Tp91H018,111
+apiverve_countryborders/setup.py,sha256=0Y7zhj1tXInLEdQ_824SjxotXnAu3VYFkHMk7o0c5bg,1000
+apiverve_countryborders/setup_dep.py,sha256=W39W0zt5lCGri3eIWdr6pdQNnOLfOs0Dt658MWj5Gzs,699
+apiverve_countryborders/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_countryborders/tests/test_api.py,sha256=gV97k-c7iKLdlhSoHNF0rm16LfzVJa3DLpecEPOwVIE,626
+apiverve_countryborders-1.1.7.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_countryborders-1.1.7.dist-info/METADATA,sha256=kOoywVUaxjE9qYcCXbjasu0iQyoxYIiGHDl0VLoR-dg,5785
+apiverve_countryborders-1.1.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+apiverve_countryborders-1.1.7.dist-info/top_level.txt,sha256=uAofrMa1pn1v2M2ykeEIqb7wPUhxuCHEmH1vifJSrz0,24
+apiverve_countryborders-1.1.7.dist-info/RECORD,,
