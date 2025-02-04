@@ -1,0 +1,2 @@
+[console_scripts]
+mypythonproject_clodo = mypythonproject_clodo.__cli__:cli
