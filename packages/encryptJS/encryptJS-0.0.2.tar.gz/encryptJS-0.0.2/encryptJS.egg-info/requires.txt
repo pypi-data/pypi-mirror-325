@@ -1,0 +1,5 @@
+PyExecJS2>=1.6.1
+requests
+pycryptodome
+gmssl
+cryptography
