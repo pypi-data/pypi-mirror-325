@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pinger-mqtt"
+version = "0.1.0"
+description = "a CLI app to ping IP-Address then send the status via MQTT"
+authors = ["muflih <nurfaizimuflih10@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1"
+rich = "^13.3"
+rich-click = "^1.6"
+paho-mqtt = "^1.6"
+schedule = "^1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pinger = "pinger_mqtt:cli" #entry point for CLI
