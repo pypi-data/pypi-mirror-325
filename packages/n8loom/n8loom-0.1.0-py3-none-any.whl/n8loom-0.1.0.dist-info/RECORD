@@ -1,0 +1,12 @@
+n8loom/__init__.py,sha256=lylepdcXqBb4kQpAWsRckCbV7LuGH0ODP9yYC0CPuRQ,30
+n8loom/cache_utils.py,sha256=axBs32LN5KQs6p7vlXI5Tw-Wtp989Cg22WrtRSkd0Xs,3186
+n8loom/loom.py,sha256=Z-_AOJwEhjrpvmh9vOzkgPpCcpRbA7UZLXEQ90bQHLw,8269
+n8loom/sample_utils.py,sha256=ytv8nI1UsR4br8JNfjOiIbdwUBMXWqyZGFkyhmLCd7E,8485
+n8loom/utils.py,sha256=DhWIjlUMEChaUqxJ2bEsXNZ6Lz3SRMkOkQzwA7lAKaA,9990
+n8loom/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+n8loom/examples/reflection.py,sha256=oD24wq1Qo55ach8E_NNo9Mnx3kJgS6Gb0NCmAsLqZz4,1087
+n8loom/examples/server.py,sha256=FDk7Ek9eBF2Y49zw-EEKzWHOANVFhjcaE4w-UUeLt1E,15250
+n8loom-0.1.0.dist-info/METADATA,sha256=pC1u6tswPdZv4682JSqlB1NCQ0KcF7i9Uw1NXBZy-4M,50
+n8loom-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+n8loom-0.1.0.dist-info/top_level.txt,sha256=x_OxeMh3h4cTDV4KB2BbplESNsBotM4O3TDzexsizDc,7
+n8loom-0.1.0.dist-info/RECORD,,
