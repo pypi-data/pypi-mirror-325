@@ -1,0 +1,2 @@
+[console_scripts]
+simple-tk-stopwatch = simple_tk_stopwatch.app:main
