@@ -1,0 +1,14 @@
+cliff/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+cliff/cliff.py,sha256=phgNl_tjjQpS2Wsd8iQE4D51gTxGLC5g6axbr1f_eyw,5687
+cliff/config.py,sha256=qlCiw4PeaNJuT_fgW0ujXYXnNQjJz0SOi35dmzzxa6Y,7025
+cliff/memory.py,sha256=xyn4v082h33-IGVMg_ep040MM6T944CFPkdgN8pLjKM,2286
+cliff/prompts/recall.txt,sha256=AKpeZ66n94xO3_J38BoYi8UyOI0_VfZghVrWrGcEbkY,243
+cliff/prompts/system.txt,sha256=2svoMs1CYlXx5uOGdeFeISYr9gh39XXCoPNubZt62Dg,1346
+cliff/resources/config_help.txt,sha256=X-zLCdAa9oMlams8RgwJXJb5ylleyBhu81uYR7cNL_I,2336
+cliff/resources/man_page.txt,sha256=4BiSiGwYXIf7H9nLBF_B9Hjpnj2cC04qaNSN-Xck2rc,1161
+cliff_cli-0.1.0.dist-info/LICENSE,sha256=RFhQPdSOiMTguUX7JSoIuTxA7HVzCbj_p8WU36HjUQQ,10947
+cliff_cli-0.1.0.dist-info/METADATA,sha256=0Ug04D8tfy-x_v749CZgWce_TNXRwPN1FD9FsRV_NoE,17133
+cliff_cli-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+cliff_cli-0.1.0.dist-info/entry_points.txt,sha256=_sCoNFmruF1T4LVH4Z2IZhwN0ATAbrIfCMCII8kr5Wk,43
+cliff_cli-0.1.0.dist-info/top_level.txt,sha256=WuHI1Zo942PVwRcRBm5hyecWEH3R2B_WO9BeRhLPuwI,6
+cliff_cli-0.1.0.dist-info/RECORD,,
