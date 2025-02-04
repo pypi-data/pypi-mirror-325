@@ -1,0 +1,3 @@
+[console_scripts]
+gptassist=chatgpt_voice_assistant.main:main
+
