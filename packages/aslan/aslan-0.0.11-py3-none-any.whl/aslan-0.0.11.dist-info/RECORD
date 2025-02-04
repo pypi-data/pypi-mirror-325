@@ -1,0 +1,9 @@
+aslan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aslan/__main__.py,sha256=mA_pqs0fEFuvtulr715MHYk1WyaCRRCwlrtk3PLSj_4,129
+aslan/aslan_parser.py,sha256=cELG6LB0zBwstxVzTu5z_I1__uO-cHkOLB2YF_77gNQ,57045
+aslan/recent_items.py,sha256=mggiH668iB5_crx1votbmqNp292_sKAT4S7Wtiv8aR4,1269
+aslan/utils.py,sha256=yQJBCYndLj2KTQvYhb2sYp89pqZrA5PuCaJLo0q_P_U,1826
+aslan-0.0.11.dist-info/LICENSE.md,sha256=KIHDdWWA6TSWO0qUub09wT-0l-lIGhHown5RcyowPqM,1247
+aslan-0.0.11.dist-info/METADATA,sha256=3dC73MN6kFcBl_OT73Zv-txNUMweWK2xW-tA3M1pyJ4,394
+aslan-0.0.11.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+aslan-0.0.11.dist-info/RECORD,,
