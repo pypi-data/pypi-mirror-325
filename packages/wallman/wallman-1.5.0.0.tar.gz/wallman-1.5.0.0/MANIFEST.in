@@ -1,0 +1,3 @@
+include sample_config.toml
+recursive-include icons *
+exclude README.org
