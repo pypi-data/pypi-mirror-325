@@ -1,0 +1,11 @@
+simple_transformer/__init__.py,sha256=skoADHLCCqIKMWsY2Hh8WSqlhR_RY8xxyA3isbT6UAY,199
+simple_transformer/decoder.py,sha256=qwcTFcJJtmLqF_eyKzEzCai7K4P1F_xQQgFedFt-oBM,2054
+simple_transformer/encoder.py,sha256=E2n0byScx09xsbvgupA5q6rlPV2SYHGzxm7-z2znjrI,1267
+simple_transformer/self_attention.py,sha256=NZtWioXKnYqYinNA51O6VBUp8TFl4_OPxrtCfwkE2_4,2050
+simple_transformer/transformer.py,sha256=BS9JtsRC2YB8DFglDg_k-s0gYfGme82qzoQ9-f7AdRo,2191
+simple_transformer/transformer_block.py,sha256=3Sa4xuGH4-mcwlsjSFvPG7CCTSbiPHjAVP9QNenjmJo,990
+simple_transformer-0.0.1.dist-info/LICENSE,sha256=PFCDobUIxH4IdN3cJ7GMbCrc8dHXLOnRMpQJot5kuyw,1064
+simple_transformer-0.0.1.dist-info/METADATA,sha256=_RPtwoI_SpNbCiuhI-WJHg4pFqv-cApjLaFxLK7G76w,3298
+simple_transformer-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+simple_transformer-0.0.1.dist-info/top_level.txt,sha256=CA3FoOoBxow1jY08xEserohC7NgcJKyOZWzt4WNTFe8,19
+simple_transformer-0.0.1.dist-info/RECORD,,
