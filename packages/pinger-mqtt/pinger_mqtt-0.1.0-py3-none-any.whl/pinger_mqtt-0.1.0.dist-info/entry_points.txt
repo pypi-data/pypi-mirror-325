@@ -1,0 +1,3 @@
+[console_scripts]
+pinger=pinger_mqtt:cli
+
