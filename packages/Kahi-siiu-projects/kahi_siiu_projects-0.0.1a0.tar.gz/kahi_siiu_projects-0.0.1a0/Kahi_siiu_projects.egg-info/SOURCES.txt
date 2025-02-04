@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+Kahi_siiu_projects.egg-info/PKG-INFO
+Kahi_siiu_projects.egg-info/SOURCES.txt
+Kahi_siiu_projects.egg-info/dependency_links.txt
+Kahi_siiu_projects.egg-info/requires.txt
+Kahi_siiu_projects.egg-info/top_level.txt
+kahi_siiu_projects/Kahi_siiu_projects.py
+kahi_siiu_projects/__init__.py
+kahi_siiu_projects/_version.py
+kahi_siiu_projects/parser.py
+kahi_siiu_projects/process_one.py
