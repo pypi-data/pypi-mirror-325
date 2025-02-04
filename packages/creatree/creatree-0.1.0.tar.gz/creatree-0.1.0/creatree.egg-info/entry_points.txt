@@ -1,0 +1,2 @@
+[console_scripts]
+creatree = creatree.cli:main

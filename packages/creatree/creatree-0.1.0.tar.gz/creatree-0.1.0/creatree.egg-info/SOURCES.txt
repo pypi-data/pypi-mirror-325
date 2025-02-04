@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+creatree/__init__.py
+creatree/cli.py
+creatree/config.py
+creatree/core.py
+creatree/utils.py
+creatree.egg-info/PKG-INFO
+creatree.egg-info/SOURCES.txt
+creatree.egg-info/dependency_links.txt
+creatree.egg-info/entry_points.txt
+creatree.egg-info/top_level.txt
