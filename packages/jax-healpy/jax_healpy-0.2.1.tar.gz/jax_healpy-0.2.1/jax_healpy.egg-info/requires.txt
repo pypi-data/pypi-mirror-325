@@ -1,0 +1,17 @@
+jax
+jaxtyping
+
+[dev]
+healpy
+matplotlib
+mypy
+pandas
+pytest
+pytest-cov
+pytest-mock
+setuptools_scm
+typer
+PyYAML
+
+[recommended]
+s2fft
