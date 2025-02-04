@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hari_rr
+Version: 0.1.0
+Summary: A collection of ML algorithms including Decision Trees, SVM, XGBoost, etc.
+Home-page: https://github.com/yourusername/hari_rr
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# hari_rr
+
+A Python package for various machine learning models including Decision Trees, KNN, SVM, Random Forest, and XGBoost.
+
+## Installation
+
+```sh
+pip install hari_rr
