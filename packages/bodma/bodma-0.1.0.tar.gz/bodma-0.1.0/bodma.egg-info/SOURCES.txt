@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+bodma/__init__.py
+bodma/operations.py
+bodma/parser.py
+bodma.egg-info/PKG-INFO
+bodma.egg-info/SOURCES.txt
+bodma.egg-info/dependency_links.txt
+bodma.egg-info/top_level.txt
+tests/test_operations.py
+tests/test_parser.py

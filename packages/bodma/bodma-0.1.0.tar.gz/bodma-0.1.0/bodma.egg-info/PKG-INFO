@@ -1,0 +1,26 @@
+Metadata-Version: 2.2
+Name: bodma
+Version: 0.1.0
+Summary: A library for mathematical operations
+Home-page: https://github.com/yourusername/bodma
+Author: Your Name
+Author-email: sunilsingh18061995@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# BODMA
+
+A Python library for performing mathematical operations following BODMA rules.
+
+## Installation
