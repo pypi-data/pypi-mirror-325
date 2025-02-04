@@ -1,0 +1,4 @@
+include NChess/core/src/*.pyd
+include NChess/core/src/*.so
+include README.md
+include LICENSE
