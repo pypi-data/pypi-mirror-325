@@ -1,0 +1,94 @@
+[project]
+name = "timestream-cleaner"
+dynamic = ["version"]
+description = "Amazon Timestream Database Table Cleanup Tool"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{ name = "Julio Batista Silva", email = "python@juliobs.com" }]
+license = { text = "MIT" }
+keywords = ["aws", "timestream", "database", "cleanup", "cleaner", "cli", "tool"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Database",
+    "Topic :: Internet",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Systems Administration",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "boto3>=1.36.11",
+    "boto3-stubs[timestream-write]>=1.36.11",
+    "loguru>=0.7.3",
+    "typer>=0.15.1",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.14.1",
+    "ruff>=0.9.4",
+]
+
+[project.urls]
+Homepage = "https://juliobs.com/project/timestream-cleaner"
+Documentation = "https://github.com/jbsilva/timestream-cleaner#readme"
+Repository = "https://github.com/jbsilva/timestream-cleaner"
+CI = "https://github.com/jbsilva/timestream-cleaner/actions"
+Issues = "https://github.com/jbsilva/timestream-cleaner/issues"
+
+[project.scripts]
+timestream-cleaner = "timestream_cleaner.timestream_cleaner:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/timestream_cleaner/__init__.py"
+
+[tool.ruff]
+line-length = 100
+indent-width = 4
+target-version = "py313"
+fix = true
+unsafe-fixes = false
+
+[tool.ruff.lint.flake8-pytest-style]
+fixture-parentheses = true
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "D203", # one-blank-line-before-class
+    "D212", # multi-line-summary-first-line
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101"] # Allow assert in tests
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+force-wrap-aliases = true
+lines-after-imports = 2
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+check_untyped_defs = true

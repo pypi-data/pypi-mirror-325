@@ -1,0 +1,112 @@
+Metadata-Version: 2.4
+Name: timestream-cleaner
+Version: 0.1.0
+Summary: Amazon Timestream Database Table Cleanup Tool
+Project-URL: Homepage, https://juliobs.com/project/timestream-cleaner
+Project-URL: Documentation, https://github.com/jbsilva/timestream-cleaner#readme
+Project-URL: Repository, https://github.com/jbsilva/timestream-cleaner
+Project-URL: CI, https://github.com/jbsilva/timestream-cleaner/actions
+Project-URL: Issues, https://github.com/jbsilva/timestream-cleaner/issues
+Author-email: Julio Batista Silva <python@juliobs.com>
+License: MIT
+License-File: LICENSE
+Keywords: aws,cleaner,cleanup,cli,database,timestream,tool
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Topic :: Database
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.12
+Requires-Dist: boto3-stubs[timestream-write]>=1.36.11
+Requires-Dist: boto3>=1.36.11
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: typer>=0.15.1
+Description-Content-Type: text/markdown
+
+# Amazon Timestream Database Table Cleanup Tool
+
+This Python CLI tool allows you to delete all tables in a specified Amazon Timestream database.
+
+## Features
+
+- List all tables in a Timestream database
+- Delete multiple tables (with user confirmation)
+- Detailed logging
+
+## Requirements
+
+- Python 3.12+
+- AWS credentials with Timestream permissions
+
+## Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/jbsilva/timestream-cleaner.git
+   cd timestream-cleaner
+   ```
+
+2. Install the required dependencies:
+
+   ```bash
+   uv sync
+   ```
+
+   Or use the `Setup Python Environment` VS Code task.
+
+## Usage
+
+To delete all tables in a Timestream database:
+
+```bash
+timestream-cleaner [OPTIONS] DATABASE_NAME
+```
+
+Options:
+
+- `--region TEXT`: AWS region for Timestream database (default: eu-west-1)
+- `--help`: Show help message and exit
+
+Example:
+
+```bash
+timestream-cleaner --region eu-west-2 my-database
+```
+
+## Permissions
+
+Required IAM permissions:
+
+- `timestream:ListTables`
+- `timestream:DeleteTable`
+
+## Development
+
+To contribute to this project:
+
+1. Fork the repository
+2. Create a new branch for your feature
+3. Implement your changes
+4. Run tests
+5. Submit a pull request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Disclaimer
+
+This tool can permanently delete data. Use with caution and always backup your data before running
+deletion operations.
