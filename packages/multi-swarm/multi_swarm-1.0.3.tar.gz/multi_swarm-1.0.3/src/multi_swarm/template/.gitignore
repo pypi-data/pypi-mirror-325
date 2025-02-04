@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+storage/
+logs/
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+
+# Misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.cursorrules
+
+# Keep
+!.env.example
+!examples/test_*.py
+!tests/test_*.py
+
+# Local development
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Monitoring
+prometheus_data/
+grafana_data/
+
+# API Keys and Secrets
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# PyPI credentials
+.pypirc 

@@ -1,0 +1,42 @@
+# Include root files
+include LICENSE
+include README.md
+include requirements.txt
+include pyproject.toml
+include pytest.ini
+include .env.example
+include .cursorrules
+include .pre-commit-config.yaml
+include mkdocs.yml
+include MANIFEST.in
+include setup.cfg
+include RELEASE_NOTES.md
+include agency_manifesto.md
+
+# Include all documentation
+recursive-include docs *.md
+recursive-include docs *.yml
+recursive-include docs *.png
+recursive-include docs *.jpg
+
+# Include all examples
+recursive-include examples *
+
+# Include all tests
+recursive-include tests *
+
+# Include template files
+recursive-include src/multi_swarm/template *
+
+# Include GitHub workflows
+recursive-include .github *
+
+# Exclude unnecessary files
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.pyd
+global-exclude .git
+global-exclude .env
+global-exclude .DS_Store
+global-exclude __pycache__
+global-exclude *.so 
