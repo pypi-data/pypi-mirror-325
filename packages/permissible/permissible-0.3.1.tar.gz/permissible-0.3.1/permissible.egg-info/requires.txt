@@ -1,0 +1,4 @@
+Django<6,>=5
+djangorestframework>=3
+django-guardian
+djangorestframework-guardian
