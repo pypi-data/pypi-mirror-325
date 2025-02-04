@@ -1,0 +1,16 @@
+clak/__init__.py,sha256=Ja1yHpI5vV5rpEBW7SSGelbAMz_Uvlr12Qr9BgPMvPI,1393
+clak/argparse_.py,sha256=gbcKHSAdNLRvYnpyThT24cFgoZTrHN-YrF7bYVJEMN4,11714
+clak/common.py,sha256=KQkIZejiOQyY6aCPRkOKR_OABCUS5vqxo7qCc_PTcsE,1410
+clak/comp/__init__.py,sha256=8OVo_nNemoUheEcBr7QNtDc4m--Nzroqv8v61dRVXIs,808
+clak/comp/completion.py,sha256=JKbrVnOqVbhd346zlCiLT-dhzDExZoLlj8GdO-pYOXg,6495
+clak/comp/config.py,sha256=338fACBYk8EJArd4NonAT1fh7CZVzWK-b2jJuqOETYw,2594
+clak/comp/logging.py,sha256=ZmcvO6-8nTOKZqIgK79ztRH9DTcakG27SPh1ARYp6Z8,7738
+clak/exception.py,sha256=6PQ9VDiKpMe4Pvu8rHEiR0l0zF6oXtRalZooF1yt2s0,885
+clak/nodes.py,sha256=_oaB8p-HEGOQVoCBMr8n12sb8vZ0ecnlvP_B7uvWIqE,10190
+clak/parser.py,sha256=uKuQA3ka5CFqS4ismwMsfQxux-amb3EM24dPfmILgWo,37193
+clak/parser_BROKEN.py,sha256=Q4SLv46mNE_GZGjSVnDrQoFVijrNcwRwkqcyktIv0GQ,35399
+clak/plugins.py,sha256=LTp0JkYqD0FquhLLI6ct5pTCpktkfAyIBqNsADGvuwI,2586
+mrjk_clak-0.3.1.dist-info/LICENSE.txt,sha256=AvGyYtJx4HWTa3-alToczwDh_jNyZPJR3U42MlNf5jM,35182
+mrjk_clak-0.3.1.dist-info/METADATA,sha256=YnTsDJTZji8qn1sIY0EhOADIC_X8xMks-d6PY-nXQsA,4675
+mrjk_clak-0.3.1.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+mrjk_clak-0.3.1.dist-info/RECORD,,
