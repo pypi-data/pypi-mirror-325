@@ -1,0 +1,183 @@
+Metadata-Version: 2.2
+Name: regolo
+Version: 1.0.1
+Summary: Simple client to interact with regolo.ai
+Author-email: "regolo.ai" <dev@regolo.ai>
+License: MIT License
+        
+        Copyright (c) 2025 regolo.ai
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/regolo-ai/python-client
+Keywords: regolo,llm,chat
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx~=0.28.1
+Requires-Dist: pydantic~=2.10.6
+Requires-Dist: json_repair~=0.35.0
+
+# **Regolo.ai Python Client** 
+
+A simple Python client for interacting for **Regolo.ai's** LLM-based API. 
+
+## **Installation** 
+Ensure you have the `regolo` module installed. If not, install it using:
+
+```bash
+  pip install regolo
+``` 
+
+# **Basic Usage**
+
+## **1. Import the regolo module** 
+
+```python
+import regolo
+```
+ ## **2. Set Up Default API Key and Model** 
+
+To avoid manually passing the API key and model in every request, you can set them globally: 
+
+```python
+regolo.default_key = "<EXAMPLE_KEY>"
+regolo.default_model = "meta-llama/Llama-3.3-70B-Instruct"
+```
+
+This ensures that all `RegoloClient` instances and static functions will
+use the specified API key and model.
+
+Still, you can create run methods by passing model and key directly.
+
+ ## **3. Perform a basic request** 
+
+### Completion:
+```python
+print(regolo.static_completions(prompt="Tell me something about Rome."))
+```
+
+### Chat_completion
+```python
+print(regolo.static_chat_completions(messages=[{"role": "user", "content": "Tell me something about rome"}]))
+```
+
+---
+
+# **Other usages**
+
+## **Handling streams**
+
+
+**With full output:**
+
+```python
+import regolo
+regolo.default_key = "<EXAMPLE_KEY>"
+regolo.default_model = "meta-llama/Llama-3.3-70B-Instruct"
+
+# Completions
+
+client = regolo.RegoloClient()
+response = client.completions("Tell me about Rome in a concise manner", full_output=True, stream=True)
+
+while True:
+    try:
+        print(next(response))
+    except StopIteration:
+        break
+
+# Chat completions
+
+client = regolo.RegoloClient()
+response = client.run_chat(user_prompt="Tell me about Rome in a concise manner", full_output=True, stream=True)
+
+
+while True:
+    try:
+        print(next(response))
+    except StopIteration:
+        break
+```
+
+**Without full output:**
+
+```python
+import regolo
+regolo.default_key = "<EXAMPLE_KEY>"
+regolo.default_model = "meta-llama/Llama-3.3-70B-Instruct"
+
+# Completions
+
+client = regolo.RegoloClient()
+response = client.completions("Tell me about Rome in a concise manner", full_output=True, stream=True)
+
+while True:
+    try:
+        print(next(response), end='', flush=True)
+    except StopIteration:
+        break
+        
+# Chat completions
+
+client = regolo.RegoloClient()
+response = client.run_chat(user_prompt="Tell me about Rome in a concise manner", full_output=True, stream=True)
+
+while True:
+    try:
+        res = next(response)
+        if res[0]:
+            print(res[0] + ":")
+        print(res[1], end="", flush=True)
+    except StopIteration:
+        break
+```
+
+## **Handling chat through add_prompt_to_chat()**
+
+```python
+import regolo
+
+regolo.default_key = "<EXAMPLE_KEY>"
+regolo.default_model = "meta-llama/Llama-3.3-70B-Instruct"
+
+client = regolo.RegoloClient()
+
+# Make a request
+
+client.add_prompt_to_chat(role="user", prompt="Tell me about rome!")
+
+print(client.run_chat())
+
+# Continue the conversation
+
+client.add_prompt_to_chat(role="user", prompt="Tell me something more about it!")
+
+print(client.run_chat())
+
+# You can print the whole conversation if needed
+
+print(client.instance.get_conversation())
+```
+
+It is to consider that using the user_prompt parameter in run_chat() is equivalent to adding a prompt with role=user
+through add_prompt_to_chat().
