@@ -1,0 +1,15 @@
+cffi
+coloredlogs
+cryptography
+future
+gmpy2
+humanfriendly
+pgpdump
+pgpy
+pyasn1
+pycparser
+pyreadline3
+python-dateutil
+roca-detect
+setuptools
+six
