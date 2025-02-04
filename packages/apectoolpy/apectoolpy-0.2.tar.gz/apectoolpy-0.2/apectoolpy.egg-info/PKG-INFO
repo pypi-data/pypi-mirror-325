@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: apectoolpy
+Version: 0.2
+Summary: A Python package for probabilistic seismic hazard analysis (PSHA)
+Home-page: https://github.com/albertp16/apec-py
+Author: Albert Pamonag
+Author-email: albert@apeconsultancy.net
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: summary
