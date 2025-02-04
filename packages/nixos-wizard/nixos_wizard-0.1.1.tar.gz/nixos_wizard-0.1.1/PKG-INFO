@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: nixos-wizard
+Version: 0.1.1
+Summary: simple nixos-wizard
+License: MIT
+License-File: LICENSE
+Requires-Dist: rich
+Requires-Dist: pyyaml
+Dynamic: description
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+Simple nixos wizard interface
