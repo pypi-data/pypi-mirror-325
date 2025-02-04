@@ -1,0 +1,33 @@
+# Web 框架相关
+flask>=2.0.0
+werkzeug>=2.0.0
+
+# HTTP 请求
+requests>=2.26.0
+
+# 文档处理
+PyMuPDF>=1.18.0  # PDF处理
+python-docx>=0.8.11  # Word文档处理
+openpyxl>=3.0.7  # Excel文档处理
+python-pptx>=0.6.21  # PPT文档处理
+Pillow>=8.3.1  # 图像处理
+
+# 文本解析和处理
+beautifulsoup4>=4.9.3
+markdown>=3.3.4
+
+# 文件类型检测
+python-magic>=0.4.24
+python-magic-bin>=0.4.14; platform_system == "Windows"
+
+# AI/OpenAI 相关
+openai>=1.0.0
+
+# 屏幕截图和OCR相关
+pyautogui>=0.9.53
+keyboard>=0.13.5
+mss>=6.1.0
+numpy>=1.21.0
+opencv-python>=4.5.3.56
+pytesseract>=0.3.8
+pywin32>=223  # 添加了具体版本号

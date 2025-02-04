@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+elliot_markitdown/__init__.py
+elliot_markitdown.egg-info/PKG-INFO
+elliot_markitdown.egg-info/SOURCES.txt
+elliot_markitdown.egg-info/dependency_links.txt
+elliot_markitdown.egg-info/requires.txt
+elliot_markitdown.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+flask>=2.0.0
+werkzeug>=2.0.0
+requests>=2.26.0
+PyMuPDF>=1.18.0
+python-docx>=0.8.11
+openpyxl>=3.0.7
+python-pptx>=0.6.21
+Pillow>=8.3.1
+beautifulsoup4>=4.9.3
+markdown>=3.3.4
+python-magic>=0.4.24
+openai>=1.0.0
+pyautogui>=0.9.53
+keyboard>=0.13.5
+mss>=6.1.0
+numpy>=1.21.0
+opencv-python>=4.5.3.56
+pytesseract>=0.3.8
+pywin32>=223
+
+[:platform_system == "Windows"]
+python-magic-bin>=0.4.14
