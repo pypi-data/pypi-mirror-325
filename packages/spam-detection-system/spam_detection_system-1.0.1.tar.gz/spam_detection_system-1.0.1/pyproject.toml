@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spam-detection-system"
+version = "1.0.1"
+description = "Machine Learning Spam Detection System"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+dependencies = [
+    "scikit-learn>=1.2.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "flask>=2.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.3.0",
+    "mypy>=1.3.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/bniladridas/spam-detection-system"
+Repository = "https://github.com/bniladridas/spam-detection-system"
+
+[project.scripts]
+spam-detector = "spam_detection_system.cli:main"
