@@ -1,0 +1,6 @@
+README.md
+setup.py
+csmxmesh.egg-info/PKG-INFO
+csmxmesh.egg-info/SOURCES.txt
+csmxmesh.egg-info/dependency_links.txt
+csmxmesh.egg-info/top_level.txt
