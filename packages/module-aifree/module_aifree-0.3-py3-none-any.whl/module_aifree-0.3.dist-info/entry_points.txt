@@ -1,0 +1,2 @@
+[console_scripts]
+run = module_aifree.neural_network_app:main
