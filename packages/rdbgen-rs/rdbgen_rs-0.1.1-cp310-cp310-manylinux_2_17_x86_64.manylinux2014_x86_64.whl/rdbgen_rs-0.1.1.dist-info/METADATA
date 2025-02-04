@@ -1,0 +1,40 @@
+Metadata-Version: 2.4
+Name: rdbgen-rs
+Version: 0.1.1
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Typing :: Typed
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+License-File: LICENSE
+Summary: Generate Redis dump files (.rdb) from native Python objects through Rust
+Author: Jonas Dedden
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://pypi.org/project/rdbgen-rs
+Project-URL: Repository, https://github.com/jonded94/rdbgen_rs.git
+Project-URL: GitHub, https://github.com/jonded94/rdbgen_rs
+Project-URL: Issues, https://github.com/jonded94/rdbgen_rs/issues
+Project-URL: Changelog, https://github.com/jonded94/rdbgen_rs/blob/main/CHANGELOG.md
+
+# rdb-rs
+
+Generate Redis dump files (.rdb) from native Python objects through Rust
+
