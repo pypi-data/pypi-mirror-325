@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: DLLBridge
+Version: 0.1.0
+Summary: A simple Python library to interact with DLLs on Windows.
+Author: Leonardo
+Author-email: leonardonery616@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# DLLBridge
+
+O `DLLBridge` Ã© uma biblioteca Python que facilita a interaÃ§Ã£o com DLLs (Dynamic Link Libraries) em sistemas Windows. Ela permite carregar DLLs, listar suas funÃ§Ãµes exportadas e chamar funÃ§Ãµes especÃ­ficas passando parÃ¢metros definidos.
+
+## Funcionalidades
+
+- **Carregar uma DLL**: A funÃ§Ã£o `loadDLL(dllnameorpath)` permite carregar uma DLL fornecendo seu nome ou caminho absoluto.
+- **Listar funÃ§Ãµes exportadas**: A funÃ§Ã£o `listfunctions(output_file)` lista todas as funÃ§Ãµes exportadas pela DLL carregada e as salva em um arquivo de texto.
+- **Chamar funÃ§Ãµes da DLL**: A funÃ§Ã£o `usefunction(function_name, parameters)` permite chamar uma funÃ§Ã£o especÃ­fica da DLL, passando os parÃ¢metros definidos.
+
+## Requisitos
+
+- Python 3.x
+- Windows (requer que vocÃª tenha DLLs disponÃ­veis no seu sistema)
+- Biblioteca `ctypes` (jÃ¡ incluÃ­da no Python padrÃ£o)
+
+## Exemplo de Uso
+
+### Carregar a DLL
+
+```python
+from DLLBridge import DLLBridge
+
+dll = DLLBridge.loadDLL("user32.dll")
