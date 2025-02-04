@@ -1,0 +1,8 @@
+seaborn
+requests
+pandas
+py_vollib
+py_vollib_vectorized
+scipy
+matplotlib
+numpy
