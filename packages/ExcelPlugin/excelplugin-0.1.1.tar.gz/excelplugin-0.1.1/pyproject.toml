@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ExcelPlugin"
+version = "0.1.1"
+description = "Плагин для гибкой настройки Excel документов."
+readme = "README.md"
+authors = [
+    {name = "Subbotin Alexandr", email = "subbotinstar@gmail.com"},
+]
+license = {text = "MIT"}  # Только ОДИН формат!
+requires-python = ">=3.12"
+keywords = ["excel", "ExcelPlugin", "pandas", "openpyxl", "spreadsheet"]
+dependencies = [
+    "pandas>=2.2.2",
+    "openpyxl>=3.1.3",
+    "typing-extensions>=4.0; python_version<'3.12'"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial :: Spreadsheet",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Natural Language :: English",
+    "Operating System :: OS Independent"
+]
+
+[tool.setuptools]
+include-package-data = true  # Включить не-Python файлы
+package-data = {"*" = ["LICENSE"]}  # Явное указание файла
+
+[tool.setuptools.packages.find]
+exclude = ["tests*", "examples*"] # Исключить все папки начинающиеся на tests examples из финального пакета PyPi

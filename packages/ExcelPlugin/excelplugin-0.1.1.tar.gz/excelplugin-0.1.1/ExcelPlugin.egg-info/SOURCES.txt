@@ -1,0 +1,15 @@
+pyproject.toml
+setup.cfg
+ExcelPlugin/__init__.py
+ExcelPlugin.egg-info/PKG-INFO
+ExcelPlugin.egg-info/SOURCES.txt
+ExcelPlugin.egg-info/dependency_links.txt
+ExcelPlugin.egg-info/requires.txt
+ExcelPlugin.egg-info/top_level.txt
+ExcelPlugin/modules/__init__.py
+ExcelPlugin/modules/excel.py
+ExcelPlugin/modules/multi_excel.py
+ExcelPlugin/utils/__init__.py
+ExcelPlugin/utils/formatter.py
+ExcelPlugin/utils/funstions.py
+ExcelPlugin/utils/header.py
