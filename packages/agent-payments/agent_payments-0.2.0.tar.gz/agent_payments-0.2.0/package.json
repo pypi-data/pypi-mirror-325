@@ -1,0 +1,20 @@
+{
+  "name": "autonomous-payments-systems",
+  "version": "1.0.0",
+  "description": "## Overview This project demonstrates the integration of AI agents with blockchain technology, specifically focusing on facilitating autonomous payments using USDC. By creating a network of specialized AI agents using the AutoGen framework and managing payments via Circle's Programmable Wallets, this system autonomously executes research tasks and compensates agents based on their contributions.",
+  "main": "circle_payment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@circle-fin/developer-controlled-wallets": "^5.0.1",
+    "@circle-fin/smart-contract-platform": "^5.0.0",
+    "@circle-fin/user-controlled-wallets": "^5.0.0",
+    "@skyfire-xyz/skyfire-sdk": "^0.8.3",
+    "dotenv": "^16.4.5",
+    "node-forge": "^1.3.1"
+  }
+}
