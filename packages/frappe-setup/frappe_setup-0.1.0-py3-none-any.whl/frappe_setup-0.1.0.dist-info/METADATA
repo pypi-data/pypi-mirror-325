@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: frappe-setup
+Version: 0.1.0
+Summary: A tool to automate Frappe Framework setup with Docker
+Home-page: https://github.com/yourusername/frappe-setup
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: docker
+Requires-Dist: docker-compose
+
+# Frappe Setup
+
+A Python package to automate Frappe Framework setup with Docker for local development.
+
+## Installation 
+
