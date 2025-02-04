@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "nextlayer-sdk-python"
+packages = [
+    { include = "nextlayer", from="src" }
+]
+version = "v1.0.1"
+description = "Client utilities to interact with next layer public APIs"
+readme = "README.md"
+authors = ["Wolfgang Powisch <wolfgang.powisch@nextlayer.at>"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.scripts]
+nextlayer-auth = "nextlayer.sdk.auth:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-keycloak = "^3.0.0"
+PyYAML = "^6.0"
+pyjwt = "^2.10.1"
+pydantic = "^2.10.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+pytest-cov = "*"  # pytest-cov >= 6 requires python 3.9
+httpx = "^0.28.1"
+bandit = "*"
+black = "*"
+mypy = "*"
+isort = "*"
+types-pyyaml = "*"
+pre-commit = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "--cov=nextlayer.sdk --cov-report xml --junitxml=junit.xml"
+
+[tool.mypy]
+mypy_path = "src"
+explicit_package_bases = true
+files= [ "src", "tests/src" ]
+
+[[tool.mypy.overrides]]
+# TODO: fix to get rid of this
+module = ["keycloak.*"]
+follow_untyped_imports = true
