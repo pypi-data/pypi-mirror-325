@@ -1,0 +1,8 @@
+mcp_server_logseq/__init__.py,sha256=OXIjFRngmRTygJWhtcxe5tlW2RHOElZDyQqVFQSvbdg,1158
+mcp_server_logseq/__main__.py,sha256=ycwmbLPyzbJv61y-4znX8sDhtUB_h3luB3Ovwy3MUig,58
+mcp_server_logseq/server.py,sha256=z_uIlOho432f0UKmvQT_v7cIyL1YK2R3YLEFghYM5Fo,30334
+mcp_server_logseq-0.0.1.dist-info/METADATA,sha256=s4xXzYEKz7WUklFAzNU4xaiAQlV7Dy7Z5OqRNKJiVB0,3970
+mcp_server_logseq-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcp_server_logseq-0.0.1.dist-info/entry_points.txt,sha256=gZmJrfV_SyjnvH7XSrUfEple2L36nzF2GhA6BSUUP_Y,70
+mcp_server_logseq-0.0.1.dist-info/licenses/LICENSE,sha256=sL2jKeHFd2DXT4leTz-fv5ZN9LsFhYIqOyIH7b8hhp0,1063
+mcp_server_logseq-0.0.1.dist-info/RECORD,,
