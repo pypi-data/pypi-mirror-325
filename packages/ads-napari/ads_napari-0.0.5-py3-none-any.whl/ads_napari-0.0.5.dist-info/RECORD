@@ -1,0 +1,9 @@
+ads_napari/__init__.py,sha256=HTXlH51Mz6zzQ8b1ReOyD9Y6sRgI2Y5TidksBl_ZS9E,92
+ads_napari/_widget.py,sha256=HRTC4dgFj4Eh5ID_ks_JohQ_dWZCjf-ksl3ugOPkWRs,46065
+ads_napari/napari.yaml,sha256=z0qV-tXXg9PZQK4oep_3G91xjTYVC7k-60TFy9bAxZk,309
+ads_napari/settings_menu_ui.py,sha256=0pa0oR-Lu4N-R9RWQJ3Q_8zOi9ch0edvw5yvQfABGAc,3890
+ads_napari-0.0.5.dist-info/METADATA,sha256=QeK5TQbU686j9VyNErKsPz1Pf7Bq2t2z7DSPu2Rpy_s,7529
+ads_napari-0.0.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ads_napari-0.0.5.dist-info/entry_points.txt,sha256=HgvrOOY5JoURLzCZ7JO954bym80R0pAjTaoNVKdi0k8,54
+ads_napari-0.0.5.dist-info/top_level.txt,sha256=J9fI--CiaXG6lWl7_jA-xNxGzbBQnv1CFOhh0dGQi_Q,11
+ads_napari-0.0.5.dist-info/RECORD,,
