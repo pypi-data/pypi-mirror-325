@@ -1,0 +1,12 @@
+apiverve_countryboundaries/__init__.py,sha256=eUnjYEDRiZoK2ZRFrTAFm7xZ9urf4BL88TrxRcdVu3U,49
+apiverve_countryboundaries/apiClient.py,sha256=QAUqRb3KKUf9DfJR2A6eeDZN0sjhqeZ4Fr-IHCRRWLA,1241
+apiverve_countryboundaries/exceptions.py,sha256=_vtG4U9IsARqQ73Ri9bFHzuLLOb-Vj2DZ_G8D1VNuno,117
+apiverve_countryboundaries/setup.py,sha256=UHqEmkjmQxllx2Wbw5vgceN63GMNHxt0uyF9LJACfbs,970
+apiverve_countryboundaries/setup_dep.py,sha256=07jANYYFjkhnnvrv-xHSlDRo4Oll13thsAItt_gF9LI,669
+apiverve_countryboundaries/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_countryboundaries/tests/test_api.py,sha256=tjR4qaDK8X_FlqB7Och3ho_egIoRnBk0XG6zyNlKEk0,635
+apiverve_countryboundaries-1.1.7.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_countryboundaries-1.1.7.dist-info/METADATA,sha256=KYzoiyO-OPBs1KBGtzJ-jZ4cpIQow5yl-EBB7EC8Gxo,93293
+apiverve_countryboundaries-1.1.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+apiverve_countryboundaries-1.1.7.dist-info/top_level.txt,sha256=V-Pl1ES1Jvl11Qvd7d8ZLy28GE35U_FL8plzgbxZEIY,27
+apiverve_countryboundaries-1.1.7.dist-info/RECORD,,
