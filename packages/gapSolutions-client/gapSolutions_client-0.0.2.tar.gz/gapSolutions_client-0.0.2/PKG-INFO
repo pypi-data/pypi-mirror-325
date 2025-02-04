@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gapSolutions_client
+Version: 0.0.2
+Summary: Gap client package
+Author: Samer Hisham
+Author-email: samerrhisham@gmail.com
+Keywords: python,first package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Gap client package for connecting apis through functions
