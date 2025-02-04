@@ -1,0 +1,9 @@
+biopython
+pandas
+openpyxl
+ete3
+requests
+minio
+pyyaml
+cutadapt
+bioblend
