@@ -1,0 +1,12 @@
+apiverve_airportslookup/__init__.py,sha256=LYzy3KLVy0xiPeDl_Z1kOl1SOpWoR9AvRAjeNd0Sz7U,40
+apiverve_airportslookup/apiClient.py,sha256=jTmAxyKi0SAKv3XAlWMx2ADSGL3RR2W5Rk8ur0qmeUY,1214
+apiverve_airportslookup/exceptions.py,sha256=PILizZKcoJ0OQxF-7qaB1Xja9winDc1Gl5y4ZesiMDs,105
+apiverve_airportslookup/setup.py,sha256=Yn5hXdS7WIxEDYEHQ7gMEB8JJmu3_9r4DCxaSJewLbI,926
+apiverve_airportslookup/setup_dep.py,sha256=Gs0_7cfWtz4dKaClj59QmmxJPvF720JKx_jJ-5qgsBA,625
+apiverve_airportslookup/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_airportslookup/tests/test_api.py,sha256=3_ro6fzLnNWbxLp3IGEc7KPpzoqte2JI_KY6BpIRzgA,614
+apiverve_airportslookup-1.1.7.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_airportslookup-1.1.7.dist-info/METADATA,sha256=nI4UkatJWQe5Fjc-9ggRZKviDia-nZvQ9eS0JYfIwx0,5688
+apiverve_airportslookup-1.1.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+apiverve_airportslookup-1.1.7.dist-info/top_level.txt,sha256=-J9GL-6NZHuZ-r-mfIXUtg4O-o7t49jm0Bgf64-VskM,24
+apiverve_airportslookup-1.1.7.dist-info/RECORD,,
