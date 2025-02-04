@@ -1,0 +1,10 @@
+zyphra/__init__.py,sha256=Nx9-zI0xXnf-XyQ7GgfiSpyrlSCmMVJXWCBM8FA3NCQ,482
+zyphra/client.py,sha256=tawrrV4g4_L-x9w7zolDYGTldQnFlCOU2k4tmaH316Y,10700
+zyphra/models/__init__.py,sha256=k61srG4yRoRKBiShCq7q1GHrizls5XLvje6Z7xjcXUA,292
+zyphra/models/audio.py,sha256=VXUI0nVPTz2GVeeQaNqIrfJigGwpaYR1XxwqB8HBJCo,1620
+zyphra/models/base.py,sha256=gWEoFinuUgFWK4HDsbh2Oucnt-ZEKsvWsSHOBN69sJ0,441
+zyphra/models/chat.py,sha256=gzcATdGtvc_0-qdcF8b7RAM_j8PLUwsDAAUS1S3r_Pk,459
+zyphra-0.1.0.dist-info/METADATA,sha256=yfEU-dYPeg3tR2fhJDIQBERkoehUKLUKqivj7q-IJcI,1819
+zyphra-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+zyphra-0.1.0.dist-info/top_level.txt,sha256=pp_YWtsO3J_89Lk7eB-v3cHK4gCbsSB6CH4RN_TfXQ0,7
+zyphra-0.1.0.dist-info/RECORD,,
