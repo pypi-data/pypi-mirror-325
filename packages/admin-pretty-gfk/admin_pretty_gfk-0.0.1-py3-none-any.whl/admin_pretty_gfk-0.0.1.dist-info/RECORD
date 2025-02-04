@@ -1,0 +1,9 @@
+admin_pretty_gfk/__init__.py,sha256=dOx9dl72v-CVvGqk6eDHtdbTo_PudjiLUGNfI4YEFJM,138
+admin_pretty_gfk/mixins.py,sha256=9dnE0z9-6_Zcz1oF8z95_HApalBHgtmfBKJn9ioQUVc,2991
+admin_pretty_gfk/widgets.py,sha256=9i-WSI2BLgKdt2HbaXD7ugTCU4qOFQriNg6dQzXcXCM,2188
+admin_pretty_gfk/templates/widgets/foreign_key_content_id.html,sha256=jq9uj4J6uTvO-ITwTb993V2ylnnYUkmDlX5uASWKSgM,363
+admin_pretty_gfk-0.0.1.dist-info/LICENSE,sha256=iE7UTrSC8w_od6YwnHH7urMgLR82Igl5cyrqdMa3vFs,1072
+admin_pretty_gfk-0.0.1.dist-info/METADATA,sha256=kFx4JBzKLfDZ9IqTHD5XdFAwxsCxPoNXPPCCjOwwEAc,3118
+admin_pretty_gfk-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+admin_pretty_gfk-0.0.1.dist-info/top_level.txt,sha256=jw76mbWy7ZpFK6J1O3tz87FF_rVmtc3OiQMKTt4QQrA,17
+admin_pretty_gfk-0.0.1.dist-info/RECORD,,
