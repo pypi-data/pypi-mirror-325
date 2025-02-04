@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cdef-risk-matcher"
+version = "0.1.0"
+description = "Your package description"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [{ name = "Tobias Kragholm", email = "tobias.kragholm@regionh.dk" }]
+dependencies = [
+    "cvxpy[SCIP]>=1.6.0",
+    "matplotlib>=3.10.0",
+    "numpy>=1.26.4",
+    "pandas>=2.2.3",
+    "polars>=1.21.0",
+    "scienceplots>=2.1.1",
+    "seaborn>=0.13.2",
+    "scipy>=1.15.1",
+]
+[project.scripts]
+# We'll add your command-line entry points here if needed
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cdef-risk-matcher"]
+exclude = [
+    "*.pdf",
+    "data/",
+    "guide/",
+    "output/",
+    "*.md",
+    "!README.md", # This ensures README.md is not excluded
+]
+
+[tool.hatch.build.targets.sdist]
+exclude = ["*.pdf", "data/", "guide/", "output/", "*.md", "!README.md"]
