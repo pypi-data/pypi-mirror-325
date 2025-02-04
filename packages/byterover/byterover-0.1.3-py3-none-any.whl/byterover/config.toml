@@ -1,0 +1,8 @@
+#################################### URL ####################################
+# URL configuration
+##############################################################################
+[url]
+byterover_server_url="https://dev.byterover.dev/"
+stargate_server_url="https://stargate-894842108403.asia-southeast1.run.app"
+
+#stargate_server_url="http://localhost:3000"
