@@ -1,0 +1,9 @@
+spotifio/__init__.py,sha256=reW5wK3hEyeYa5_sBS1uMUKAQ0AYGyHAVEFI14VGCgw,93
+spotifio/client.py,sha256=oBsa8z6oXo7SVP3b1WHeQiYyrBIP7KOeWuAUIkRBvMw,34333
+spotifio/oauth.py,sha256=VhKm3KdqA4HuJ7fjdUHYNSck3naeEg-dEq6-GskO348,7828
+spotifio/storage.py,sha256=LfUA8ZYV1nZYSawmANZNRDqNBozjs-xC1byGIIXubQQ,1793
+spotifio-0.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+spotifio-0.1.4.dist-info/METADATA,sha256=72PoT1t3nheSmYc5_-CjG8sR4s5q66UgBuK81-Ol8SA,1761
+spotifio-0.1.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+spotifio-0.1.4.dist-info/top_level.txt,sha256=vJxktkzAr1J1FtVaXC2h4Qu5Xr6wfoiEv32uxbQnv1k,9
+spotifio-0.1.4.dist-info/RECORD,,
