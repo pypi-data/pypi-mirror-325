@@ -1,0 +1,14 @@
+mdify/__init__.py,sha256=mkOFTewDkrbkhdcSnvUf1SjdEKS5f2NcZ2MDWH1cCbU,227
+mdify/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdify/src/extractors.py,sha256=lSVuWbX7vq7sKVwHqJ8lxNwInUWp_CfZiC4CUApoBQQ,6585
+mdify/src/layout.py,sha256=SPmZa5K6Pxcqr4WswDI3OS9F0bPu3c_Mp4GD0V6wRcI,6950
+mdify/src/models.py,sha256=6Li07Cxu4X53JyVLBJjxZ2CPNOyRNtVyATgxkAGWPzo,7986
+mdify/src/ocr.py,sha256=VC1UKf9-ItK-I-hg8MxHwjNMD3NmBPC56I3iu7NmvZY,18484
+mdify/src/output.py,sha256=ypgyB-7TJcQqyNmd9T4WoBxNbPRw4mYvAObUuTKJiGQ,3054
+mdify/src/parsers.py,sha256=YpOpDGMb6ZGJppUKogrbHKXSqtQtKzT__YambZSqwkM,6900
+mdify/src/utils.py,sha256=jmHzLVRDEjGzUtMkZkOhyAdPGhw2y_8v8_1M6jD49bs,5307
+mdify-0.1.5.dist-info/LICENSE,sha256=BBmZA-VJFyZdUQEtPZYtznzKWAUFVFEH9GLEkIrU3d0,698
+mdify-0.1.5.dist-info/METADATA,sha256=m-Wn3WVk1-1zHIPzV2eaWc-vLoVM43IfbrhLv5k4UYY,6161
+mdify-0.1.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mdify-0.1.5.dist-info/top_level.txt,sha256=qltzf7h8owHq7dxCdfCkSHY8gT21hn1_E8P-VWS_OKM,6
+mdify-0.1.5.dist-info/RECORD,,
