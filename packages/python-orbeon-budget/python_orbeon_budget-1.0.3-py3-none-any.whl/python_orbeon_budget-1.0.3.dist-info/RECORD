@@ -1,0 +1,11 @@
+python_orbeon_budget/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_orbeon_budget/budget.py,sha256=N4TNEElTqLyZKTx5IphEBegWCKKlOoOdBzA9tt3OHMM,14140
+python_orbeon_budget/contents/logo.png,sha256=isfwigQGksVX7OBOD8O4jUAXQXRwf12CHgFvN_abqqU,35823
+python_orbeon_budget/contents/watermark.png,sha256=ZT_oomRYF--lPiz_izSvsSj5oQWt23Nfl1g12vi6yho,29139
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_budget.py,sha256=6Cb6DRHxvCjn5zhlJ_GH3ggQ-XTBF7B_B5AiSPzZ5EQ,3775
+python_orbeon_budget-1.0.3.dist-info/LICENSE,sha256=Fxj33TcfVdaUHjdrT9G_MVHXq16AATkNgJZXOK3AnXg,1084
+python_orbeon_budget-1.0.3.dist-info/METADATA,sha256=UAq0U3qyn_glryUh6nIzX-AcBv79ppaFUVyv-bdvtck,833
+python_orbeon_budget-1.0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+python_orbeon_budget-1.0.3.dist-info/top_level.txt,sha256=4kBGIukIrtIe2miysC61r_KxmbNsp1AzmeqCe4Uq26k,27
+python_orbeon_budget-1.0.3.dist-info/RECORD,,
