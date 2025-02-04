@@ -1,0 +1,12 @@
+pyglsl/__init__.py,sha256=0FVOBprhS9RTqculPB146x4cfZUz0t9kGpJtmmlTUL0,992
+pyglsl/glsl.py,sha256=WE3uqmMDALZnhCoAh1Sgqz4tH3JXUdB1xSo7_9WHTFM,7830
+pyglsl/interface.py,sha256=_GOF1yQvIiOAo0S8FtCGU3_aGIxgOFGU0CXBebUL29c,6053
+pyglsl/parse.py,sha256=Bip47WV32-43Ancvs6RE8lN1seAvRdz85HyTD3AIDjQ,9495
+pyglsl/shaderdef.py,sha256=epvBkvTsvGxolnykmmcrN3menuY1e5YijVsZdRrNXZE,1495
+pyglsl/stage.py,sha256=zSBBvgGuaa_8RAaQRzHVorQl7Orr7R7CS4yjYkbjfRk,5718
+pyglsl/types.py,sha256=NmET5VV_KCU7DXrC69n7-rcjzGNmhfxF47Gbk_BiRBk,3034
+pyglsl-0.0.4.dist-info/LICENSE,sha256=D67ewcxzYToElGmbJ4XKARDL0J6oBGDS3D4R8PJwW-Y,35104
+pyglsl-0.0.4.dist-info/METADATA,sha256=ekURdkIqHPPvutJ81tvV7tXqWz8uGE6oi-8dIFU1Cb4,5472
+pyglsl-0.0.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pyglsl-0.0.4.dist-info/top_level.txt,sha256=f9RBe-D7soeadgWHJINo9NSuJvetdRmC-oCrWK9Jt9o,7
+pyglsl-0.0.4.dist-info/RECORD,,
