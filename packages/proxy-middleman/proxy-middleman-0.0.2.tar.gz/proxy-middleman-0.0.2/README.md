@@ -1,0 +1,57 @@
+# How to use proxy-middleman module
+
+1. Create a connector in scrapoxy (<a>http://185.253.7.140:8890/projects/d1bfcfdc-5f71-4a7a-a83a-252d1f25de4a/connectors/view</a>)
+2. Get the ID of the created container (<a>http://185.253.7.140:8080/docs#/default/list_proxies_proxies_get</a>)
+3. Push proxies urls to the container with id from the point '2' using API (<a>http://185.253.7.140:8080/docs#/default/create_proxies_proxies__connector_id__post</a>)
+4. Install the module proxy-middleman.
+
+```bash
+pip install proxy-middleman
+```
+
+5. Import the class ProxyMiddleman from the module proxy-middleman.
+
+```python
+from proxy_middleman.proxy_rotation import ProxyMiddleman
+```
+
+6. Create an instance of the ProxyMiddleman class.
+
+```python
+proxy_middleman = ProxyMiddleman(connector_id=connector_id)
+```
+- connector_id: Optional; the ID of the connector to use. If not specified, the first one found from scrapoxy will be taken
+- number_of_retries: Number of retries for proxy requests. If the response returned with status 401/403/451/503, then the proxy will be changed, it will try to do it `number_of_retries` times
+- backoff_time: Base time for backoff in seconds. If the response returned with status 401/403/451/503, then this proxy will no longer be used at least `backoff_time` seconds
+- exponential_backoff: Boolean indicating if exponential backoff should be used. If True, increases the backoff time exponentially (2^fails * backoff_time).
+
+### For example if `backoff_time = 10` and `exponential_backoff = True` then:
+- 1st retry: 10 seconds
+- 2nd retry: 20 seconds
+- 3rd retry: 40 seconds
+- 4th retry: 80 seconds
+- 5th retry: 160 seconds
+- 6th retry: 320 seconds
+- 7th retry: 640 seconds
+- 8th retry: 1280 seconds
+- 9th retry: 2560 seconds
+
+7. Use the `request` method to send requests to the target site.
+
+```python
+    try:
+        response = await proxy_manager.request("http://example.com")
+        print(response.text)
+    except Exception as e:
+        print(e)
+```
+8. Check the stats of the proxies using the `get_proxy_stats` method.
+
+```python
+    stats = proxy_manager.get_proxy_stats()
+    print(stats)
+```
+
+# How it works
+
+Before sending a request, we look at which proxies are currently available. If there are no available proxies, then we go to scrapoxy and look for connectors that are not yet connected to our class and get our proxies from the new connector. If a new connector was not found, then a message will be sent to slack and the wait for the first available proxy will begin. After sending a request and receiving a response, the response status is checked, if it does not satisfy us (401, 403, 451, 503), then we turn off this proxy for `backoff_time` seconds. And this will continue until a good response_status returns or the attempts end equal to the `number_of_retries` (in this case, a message will be sent to slack and an exception will be raised in the code).
