@@ -1,0 +1,10 @@
+plain/esbuild/README.md,sha256=TfKVJ4M0VlrSqZm7pf0dU_9OmUieO0szrYCsN94CQ-k,102
+plain/esbuild/__init__.py,sha256=9ByBOIdM8DebChjNz-RH2atdz4vWe8somlwNEsbhwh4,40
+plain/esbuild/cli.py,sha256=9FXNCT4t5Qni07EAW1Qd4JiS_kQBAkwdJFIvKigNAJo,1560
+plain/esbuild/core.py,sha256=dfxkF3FVAub55DCFKmXdhuYOx6DmVvT1byMYQ-ux0v0,890
+plain/esbuild/entrypoints.py,sha256=x9iVLrtNCBp3GR6TNjOrHhw_YmwjLwgblV3cI8ECGio,259
+plain_esbuild-0.1.0.dist-info/METADATA,sha256=OEvP5cj3-bKss-HmK4HRQUQngjbxbK0Xn-MB-S2WPQo,504
+plain_esbuild-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+plain_esbuild-0.1.0.dist-info/entry_points.txt,sha256=3oCi6w5VS_Q9lGegEVp5rpG4e6_4iKQnNqjpM6PqB7M,136
+plain_esbuild-0.1.0.dist-info/licenses/LICENSE,sha256=YZdq6Pz8ivjs97eSVLRmoGDI1hjEikX6N49DfM0DWio,1500
+plain_esbuild-0.1.0.dist-info/RECORD,,
