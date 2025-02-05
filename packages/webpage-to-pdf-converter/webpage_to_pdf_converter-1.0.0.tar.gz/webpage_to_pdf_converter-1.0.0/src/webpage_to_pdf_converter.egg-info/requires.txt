@@ -1,0 +1,10 @@
+click
+requests
+selenium
+webdriver_manager
+Pillow
+
+[test]
+pytest>=7.0.0
+pytest-mock>=3.10.0
+responses>=0.23.0
