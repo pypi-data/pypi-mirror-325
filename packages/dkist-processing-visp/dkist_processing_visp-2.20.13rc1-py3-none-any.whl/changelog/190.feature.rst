@@ -1,0 +1,3 @@
+Remove intermediate frame read/write mixin for tasks and use standard read/write
+methods from `dkist-processing-common` instead.  To facilitate intermediate file read/write,
+add new composite tag methods that return lists of tags.
