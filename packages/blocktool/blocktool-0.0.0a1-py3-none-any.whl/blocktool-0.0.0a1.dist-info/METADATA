@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: blocktool
+Version: 0.0.0a1
+Summary: A library for blockchain tools
+Author-email: Hanz <hi@hanz.dev>
+License: MIT
+Project-URL: homepage, https://hanz.dev/blocktool
+Project-URL: repository, https://github.com/hanzceo/blocktool
+License-File: LICENSE
