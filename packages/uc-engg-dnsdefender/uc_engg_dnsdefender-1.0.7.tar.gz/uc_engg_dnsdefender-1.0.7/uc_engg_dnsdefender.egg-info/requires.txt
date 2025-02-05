@@ -1,0 +1,8 @@
+click
+boto3
+awsipranges
+requests
+cloudflare
+slack-sdk
+pydantic==2.9.2
+httpx==0.27.2

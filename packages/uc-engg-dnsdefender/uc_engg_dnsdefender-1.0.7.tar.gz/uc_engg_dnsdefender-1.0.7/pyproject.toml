@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["dnsdefender", "dnsdefender.aws", "dnsdefender.cloudFlare", "dnsdefender.utils"]
+
+[project]
+name = "uc-engg-dnsdefender"
+version = "1.0.7"
+description = "Tool to analyze and eliminate dangling elastic IPs in AWS accounts"
+authors = [{ name = "UC Engineering", email = "abhinavgautam@urbancompany.com" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+    "click",
+    "boto3",
+    "awsipranges",
+    "requests",
+    "cloudflare",
+    "slack-sdk",
+    "pydantic==2.9.2",
+    "httpx==0.27.2" 
+]
+
+[project.scripts]
+uc-engg-dnsdefender = "dnsdefender.cli:cli"
+
+[project.urls]
+"Homepage" = "https://gitlab.urbanclap.com/urbanclap/dangling-dns-service"
+"Bug Tracker" = "https://gitlab.urbanclap.com/urbanclap/dangling-dns-service/-/issues"
