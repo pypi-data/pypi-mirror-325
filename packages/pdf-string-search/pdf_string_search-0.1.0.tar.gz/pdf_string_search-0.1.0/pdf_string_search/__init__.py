@@ -1,0 +1,1 @@
+from .main import process_files, search_pdf_for_string
