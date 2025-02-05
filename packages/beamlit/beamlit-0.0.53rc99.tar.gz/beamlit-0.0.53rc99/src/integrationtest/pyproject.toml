@@ -1,0 +1,17 @@
+[project]
+name = "integrationtest"
+version = "0.1.0"
+description = ""
+
+requires-python = ">=3.12"
+dependencies = [
+    "beamlit",
+]
+
+[tool.uv.sources]
+beamlit = { path = "../../" }
+
+[dependency-groups]
+dev = [
+    "langchain-openai>=0.3.3",
+]
