@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: stabilefrisur
+Version: 0.1.0
+Summary: A short description of your package
+Author-email: Your Name <your.email@example.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Project-URL: Homepage, https://github.com/stabilefrisur/stabilefrisur
+
+# StabileFrisur Package
+
+A Python package for solid haircuts.
+
+## Installation
+```bash
+pip install stabilefrisur
