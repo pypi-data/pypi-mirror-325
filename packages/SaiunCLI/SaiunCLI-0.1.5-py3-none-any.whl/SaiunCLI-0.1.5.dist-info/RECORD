@@ -1,0 +1,13 @@
+saiuncli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+saiuncli/_utils.py,sha256=MbO5Dp98HMFF478-GVkQFTqiIA0CdV6T76rrajmABU4,2624
+saiuncli/argument.py,sha256=JdlXeuOj9WTN4kjDwqE3sKs0_5VApwkhGTQpzFQEguA,1104
+saiuncli/cli.py,sha256=aQ2tz5syFp29TqKcVT7UVV0XHW4NCbN6RHak14xABlM,26956
+saiuncli/command.py,sha256=NJFz_EHuTYYc3caDzRaEnHv2oRtMKc4jK9yv2eRtacU,7972
+saiuncli/constants.py,sha256=SauhoigjaS7KldHdPXIyOYFTOYio7Tsa_UYkRzDgEgE,168
+saiuncli/option.py,sha256=fONgud8aa2a2jEXNncXfWQ6KouylplbLGe9Ks0Apwzs,3627
+saiuncli/theme.py,sha256=BUsfa2l4KxDa18UXnq0YmBgYozpmjM_QVBKXNDFR0ok,2747
+SaiunCLI-0.1.5.dist-info/LICENSE,sha256=ju9CLkRZzlbsi3CetlFuvnpea9YMq-hyaSG8gnjmXo4,1080
+SaiunCLI-0.1.5.dist-info/METADATA,sha256=dGf7UEZtmOcoPVoEnKTWGeY48kkYlMAnEnGMADKoHDo,6349
+SaiunCLI-0.1.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+SaiunCLI-0.1.5.dist-info/top_level.txt,sha256=3_xWwLyoYequ-bUsXnx8CZlqdWyzSLEBN0t7ED6-qNk,9
+SaiunCLI-0.1.5.dist-info/RECORD,,
