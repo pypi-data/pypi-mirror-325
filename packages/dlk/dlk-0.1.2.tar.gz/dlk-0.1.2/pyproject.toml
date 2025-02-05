@@ -1,0 +1,55 @@
+[build-system]
+requires = [
+    "setuptools>=18.0",
+]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name="dlk"
+authors = [
+    {name = "cstsunfu", email = "cstsunfu@gmail.com"},
+]
+readme = "README.md"
+dependencies = [
+    "intc>=0.1.0,<0.2",
+    "hjson>=3.0.2",
+    "pandas>=1.4",
+    "fsspec>=2023.5,<2024.2",
+    "torchmetrics>=1.2.1",
+    "pyarrow>=10.0.1",
+    "transformers>=4.37.0,<4.45",
+]
+dynamic = ["version", "license", "description"]
+requires-python = ">=3.7"
+keywords = ["dlk", "pytorch", "lightning"]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: Apache Software License"
+]
+
+[project.optional-dependencies]
+train = [
+    "lightning>=2.1.0,<=2.2",
+    "torch>=2.1,<=2.6",
+    "tensorboard>=2.7.0,<3.0",
+    "datasets>=2.17.0,<2.20",
+    "torchmetrics>=1.2.1",
+]
+export = [
+    "torch>=1.8.1,<=2.6"
+]
+process = [
+    "datasets>=2.17.0,<2.20",
+]
+all = [
+    "lightning>=2.1.0,<=2.2",
+    "torch>=2.1,<=2.6",
+    "tensorboard>=2.7.0,<3.0",
+    "datasets>=2.17.0,<2.20",
+    "streamlit>=1.32",
+    "svgwrite>=1.4",
+    "pyecharts>=2.0",
+]
