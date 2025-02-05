@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gst-indent
+Version: 1.0.0
+Summary: gst-indent is a fork of GNU indent 2.2.12 with modifications for GStreamer's coding style
+Keywords: indent,gstreamer
+Maintainer: GStreamer maintainers
+Classifier: Programming Language :: C
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Project-URL: GStreamer, https://gstreamer.com/
+Project-URL: Documentation, https://gstreamer.freedesktop.org/documentation/
+Project-URL: Source, https://gitlab.freedesktop.org/gstreamer/gst-indent
+Project-URL: Bug Tracker, https://gitlab.freedesktop.org/gstreamer/gst-indent/-/issues
+Requires-Python: >=3.7
+
