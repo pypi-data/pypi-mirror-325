@@ -1,0 +1,7 @@
+gdsvd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdsvd/svd.py,sha256=-0JzVaZB-6tYxwEr25ik5V6Paxq-BqBLUHvF0-TgPBM,6432
+gdsvd/utils.py,sha256=BWWVbswkV2whOS02dUxVo04RBWwZb9-qa4M5mdWjTvk,3805
+gdsvd-0.1.dist-info/METADATA,sha256=y9btJOY71PVGrZEtSG9SsUPJxO-un8oGosNIjWeF4Ho,495
+gdsvd-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gdsvd-0.1.dist-info/top_level.txt,sha256=o2JYYdupkxhjVOc6QTo1Wg6QbBBwsE_gAv4LpzyIzBI,6
+gdsvd-0.1.dist-info/RECORD,,
