@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: isoviz
+Version: 0.0.3
+Summary: This package visualizes isoform structure and expression.
+Home-page: https://github.com/kolikem/isoviz
+Author: Ko Ikemoto
+Author-email: imko@m.u-tokyo.ac.jp
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib>=3.5
+Requires-Dist: pandas>=1.3
+Requires-Dist: numpy>=1.21
+
+# isoformvisualizer
+
+This package visualizes isoform structure and expression.
+
+## Installation
+
+```shell
+$ pip install isoviz
+```
+
+## Example
+
+```shell
+$ cd test_sample
+$ isoviz -gene AGMO -annot AGMO_annotated.gft -unannot AGMO_novel.gtf -exp expression.tsv.imk.comp.PASS.FILT.count.tx.count.CPM -det edgeRresult_for_isoformvisualizer.reordered.csv -meta metadata.tsv
+```
+

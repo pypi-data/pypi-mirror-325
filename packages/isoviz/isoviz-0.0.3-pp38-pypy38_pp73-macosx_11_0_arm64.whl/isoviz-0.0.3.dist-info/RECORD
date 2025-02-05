@@ -1,0 +1,12 @@
+isoviz-0.0.3.dist-info/RECORD,,
+isoviz-0.0.3.dist-info/LICENSE,sha256=AhmFU0t8CcvjJvNDhYxCkRxaC0z7OD8WAxxlk6jeb3I,103
+isoviz-0.0.3.dist-info/WHEEL,sha256=rOp4SUWva7g42_KOrKAoa56qNv-f3p59x93LQqDJdXU,114
+isoviz-0.0.3.dist-info/entry_points.txt,sha256=D0x9CkGhT434hynMDotE6a7OpPOLxuHRoRPPF94FGPw,57
+isoviz-0.0.3.dist-info/top_level.txt,sha256=kaCTBH4W_ZA4m7YteTPFXAz8zQ6a81SdqQ7vLz06PbI,18
+isoviz-0.0.3.dist-info/METADATA,sha256=uCWLjDACyw4sMQdH0wNz-Bs2AT9slUlz4ZZ9tgPpwhE,762
+isoformvisualizer/isoformvisualizer.pyx,sha256=Mu5h5JnzcoZWj6tO1B_8wahXRPFSfoPSYZ-qCTtaMVQ,18176
+isoformvisualizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+isoformvisualizer/isoformvisualizer.py,sha256=Mu5h5JnzcoZWj6tO1B_8wahXRPFSfoPSYZ-qCTtaMVQ,18176
+isoformvisualizer/isoformvisualizer.pypy38-pp73-darwin.so,sha256=tDfVF61t5AnhzmfUZA_0P_CuOUiPnvxDS0LUvg2DFPI,262472
+isoformvisualizer/isoformvisualizer.c,sha256=k0AldXztV7NaKiBwzpPuupyyu63vt7kmaonAJXDNRAI,1240947
+isoformvisualizer/isoviz.py,sha256=O-GYEcaL6lHQvued7d_0_dvWrMwcWZW4o7C0BLa-JWA,1144
