@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/plasen/HFS.py
+src/plasen/__init__.py
+src/plasen/phys_calc.py
+src/plasen.egg-info/PKG-INFO
+src/plasen.egg-info/SOURCES.txt
+src/plasen.egg-info/dependency_links.txt
+src/plasen.egg-info/requires.txt
+src/plasen.egg-info/top_level.txt
