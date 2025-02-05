@@ -1,0 +1,5 @@
+setup.py
+sjlangzero.egg-info/PKG-INFO
+sjlangzero.egg-info/SOURCES.txt
+sjlangzero.egg-info/dependency_links.txt
+sjlangzero.egg-info/top_level.txt

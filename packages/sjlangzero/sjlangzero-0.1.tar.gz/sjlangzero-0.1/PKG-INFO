@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: sjlangzero
+Version: 0.1
+Summary: Custom Zero-Width Joiner & Stacked Language Processor
+Home-page: https://github.com/yourgithub/sjlangzero
+Author: Sumedh Patil
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+sjlangzero is a foundational library for stacking Sanskrit and Japanese characters using a private zero-width joiner.
