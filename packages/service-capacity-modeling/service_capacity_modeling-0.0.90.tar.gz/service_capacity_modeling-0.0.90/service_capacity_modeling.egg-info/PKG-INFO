@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: service-capacity-modeling
+Version: 0.0.90
+Summary: Contains utilities for modeling database capacity on a cloud
+Author: Joseph Lynch
+Author-email: josephl@netflix.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: pydantic<2.0
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: importlib_resources; python_version < "3.7"
+Requires-Dist: isodate
+Provides-Extra: aws
+Requires-Dist: boto3; extra == "aws"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: summary
