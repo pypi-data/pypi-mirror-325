@@ -1,0 +1,60 @@
+# Wind Load Analysis
+
+This project provides a wind load analysis tool based on the American Society of Civil Engineers (ASCE) and the National Structural Code of the Philippines (NSCP) standards.
+
+## Features
+
+- Calculate wind loads based on ASCE 7-16 and NSCP 2015.
+- Support for different building types and geometries.
+- User-friendly interface for inputting building parameters.
+- Detailed output of wind load calculations.
+
+## Installation
+
+1. Clone the repository:
+    ```
+    git clone https://github.com/yourusername/wind-load-analysis.git
+    ```
+2. Navigate to the project directory:
+    ```
+    cd wind-load-analysis
+    ```
+3. Install the required dependencies:
+    ```
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Run the main script:
+    ```
+    python main.py
+    ```
+2. Enter the required building parameters as prompted.
+3. View the detailed wind load analysis results.
+
+## Building Parameters
+
+- **Building Height**: The height of the building in meters.
+- **Building Width**: The width of the building in meters.
+- **Building Length**: The length of the building in meters.
+- **Exposure Category**: The exposure category as defined by ASCE and NSCP.
+- **Wind Speed**: The basic wind speed in meters per second.
+
+## Output
+
+The output will include detailed calculations of wind pressures and forces acting on the building, based on the input parameters and the selected standard (ASCE or NSCP).
+
+## References
+
+- ASCE 7-16: Minimum Design Loads and Associated Criteria for Buildings and Other Structures.
+- NSCP 2015: National Structural Code of the Philippines.
+
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+## Contact
+
+For any questions or inquiries, please contact [yourname@example.com].
