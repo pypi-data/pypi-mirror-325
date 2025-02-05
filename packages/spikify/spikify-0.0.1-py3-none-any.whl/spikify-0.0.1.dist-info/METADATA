@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: spikify
+Version: 0.0.1
+Summary: 迅速提升开发效率的工具包
+Author: seehar
+Author-email: seehar@qq.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Spikify
+
+[![codecov](https://codecov.io/gh/seehar/spikify/graph/badge.svg?token=RNUFJH5M4B)](https://codecov.io/gh/seehar/spikify)
+
+> 来自“Spike”（短时间内的集中特性），意味着工具包可以迅速提升开发效率
+
