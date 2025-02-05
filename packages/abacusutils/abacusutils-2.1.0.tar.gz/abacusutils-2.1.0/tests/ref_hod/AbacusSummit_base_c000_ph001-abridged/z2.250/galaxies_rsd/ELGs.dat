@@ -1,0 +1,19 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: x, datatype: float64}
+# - {name: y, datatype: float64}
+# - {name: z, datatype: float64}
+# - {name: vx, datatype: float64}
+# - {name: vy, datatype: float64}
+# - {name: vz, datatype: float64}
+# - {name: mass, datatype: float64}
+# - {name: id, datatype: int64}
+# meta: {A_s: 1.0, Acent: 0, Asat: 0, Bcent: 0, Bsat: 0, Gal_type: ELG, Ncent: 2, Q: 100.0, alpha: 1.0, alpha_c: 0, alpha_s: 1, gamma: 4.12,
+#   ic: 1.0, kappa: 1.0, logM1: 13.53, logM_cut: 11.75, p_max: 0.33, s: 0, s_p: 0, s_r: 0, s_v: 0, sigma: 0.58}
+# schema: astropy-2.0
+x y z vx vy vz mass id
+-989.8515106521996 2597.74790397846 4.456388275794544 416.015625 637.3980712890625 2.5475542545318604 700215064790.4169 1190110
+-989.9779939780151 2595.872235514386 174.58946130616962 279.78515625 405.76171875 682.470703125 594760988767.7638 1364044
+-989.4958507458637 2541.0769782689267 569.9216546495883 216.75 -925.75 644.5 15543930805739.074 1360581
+-989.5793640317086 2663.630357230081 338.882715370822 -225.5625 -445.25 483.375 9446576130109.27 1370826
