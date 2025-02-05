@@ -1,0 +1,2 @@
+Remove intermediate loader mixin for tasks and replace with standard read method
+from `dkist-processing-common` and composite tags, task_dark_frame and task_gain_frame.
