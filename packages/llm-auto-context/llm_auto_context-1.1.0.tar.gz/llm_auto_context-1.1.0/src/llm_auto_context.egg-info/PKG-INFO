@@ -1,0 +1,108 @@
+Metadata-Version: 2.2
+Name: llm-auto-context
+Version: 1.1.0
+Summary: CLI tool for creating code snapshots with configurable settings
+Author: Ibrahim Saidi
+License: MIT
+Project-URL: Homepage, https://github.com/yourusername/auto-context
+Project-URL: Repository, https://github.com/yourusername/auto-context.git
+Keywords: cli,code,snapshot,context,llm
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: typer>=0.9.0
+Requires-Dist: rich>=13.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: isort>=5.0.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+
+# LLM-Auto-Context
+
+A CLI tool for generating code snapshots for LLM context windows.
+
+[![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+## Installation
+
+Using UV (recommended):
+```bash
+uv pip install llm-auto-context
+```
+
+Using pip:
+```bash
+pip install llm-auto-context
+```
+
+## Usage
+
+Basic usage:
+```bash
+llm_auto_context
+```
+
+This will use the default config file `.codesnapshot.json` in your current directory.
+
+### Configuration
+
+Create a `.codesnapshot.json` file in your project root:
+
+```json
+{
+    "directories": ["src", "lib"],
+    "output_file": "code_snapshot.md",
+    "include_extensions": [".py", ".js", ".ts"],
+    "exclude_dirs": ["node_modules", ".git", "build"],
+    "exclude_files": ["secrets.env"]
+}
+```
+
+### CLI Options
+
+- `--config`: Path to config file (default: .codesnapshot.json)
+- `-d, --directory`: Override directories to scan (can be used multiple times)
+- `-o, --output`: Override output file path
+- `--include`: Override file extensions to include (can be used multiple times)
+- `--exclude-dir`: Additional directories to exclude (can be used multiple times)
+- `--exclude-file`: Additional files to exclude (can be used multiple times)
+
+Example:
+```bash
+llm_auto_context -d src -d lib -o snapshot.md --exclude-dir tests
+```
+
+## Development
+
+1. Clone the repository
+2. Create a virtual environment:
+```bash
+uv venv
+```
+
+3. Install dependencies:
+```bash
+uv pip install -e ".[dev]"
+```
+
+4. Run tests:
+```bash
+pytest
+```
+
+## License
+
+MIT
