@@ -1,0 +1,9 @@
+task_commit/__init__.py,sha256=6oXoid9coaPQLCEhCF2ENq_XodmXrOkLv5ZwghxofrE,55
+task_commit/core.py,sha256=wTdyFKmvUf1yftB9-0JnuuznvTX9lMgG9z2kJagU0oI,4024
+task_commit/main.py,sha256=nRaR8MoBlOdoq8LWG_NVBdlK80wDMbplUgxXhUROVjM,157
+task_commit/utils.py,sha256=2lajKZiaoCMnbcpKwTyrhWxosVXsQAy_8FElbxAfHJI,3934
+task_commit-0.1.4.dist-info/LICENSE,sha256=MdWgBpfyVWNm85Xi4GBXYfaZMH2U0X3li46HUJyELtA,1065
+task_commit-0.1.4.dist-info/METADATA,sha256=kSuRPNhWwQRQAYACOVUV_Tib7qc0bqXlrEMQ3grQuzE,911
+task_commit-0.1.4.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+task_commit-0.1.4.dist-info/entry_points.txt,sha256=oKKCqmBgrrf0E-87vEcaC47UjysEuA9KklwM3KirIVc,53
+task_commit-0.1.4.dist-info/RECORD,,

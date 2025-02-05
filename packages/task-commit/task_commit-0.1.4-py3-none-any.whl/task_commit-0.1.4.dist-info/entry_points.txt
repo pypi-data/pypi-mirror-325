@@ -1,0 +1,3 @@
+[console_scripts]
+task_commit=task_commit.main:main
+
