@@ -1,0 +1,49 @@
+Metadata-Version: 2.2
+Name: alj-reader
+Version: 1.0.0
+Summary: Read the latest Real Python tutorials
+Home-page: https://github.com/realpython/reader
+Author: Real Python
+Author-email: ajackson54@shaw.ca
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: feedparser
+Requires-Dist: html2text
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+#README.md
+
+The latest tutorials from Real Python (https://realpython.com/)
+  0 A Guide to Modern Python String Formatting Tools
+  1 Natural Language Processing With spaCy in Python
+  2 Python & APIs: A Winning Combo for Reading Public Data
+  3 Providing Multiple Constructors in Your Python Classes
+  4 Build a Tic-Tac-Toe Game With Python and Tkinter
+  5 The Real Python Podcast – Episode #237: Testing Your Python Code Base: Unit vs. Integration
+  6 Split Your Dataset With scikit-learn's train_test_split()
+  7 Creating a Scalable Flask Web Application From Scratch
+  8 How to Split a Python List or Iterable Into Chunks
+  9 Python's Mutable vs Immutable Types: What's the Difference?
+ 10 Python's zipfile: Manipulate Your ZIP Files Efficiently
+ 11 Lists vs Tuples in Python
+ 12 The Real Python Podcast – Episode #236: Simon Willison: Using LLMs for Python Development
+ 13 Exploring Python's tuple Data Type With Examples
+ 14 Quiz: How to Deal With Missing Data in Polars
+ 15 The Real Python Podcast – Episode #235: Principles for Considering Your Python Tooling
+ 16 Building Dictionary Comprehensions in Python
+ 17 The Real Python Podcast – Episode #234: Building New Structures for Learning Pyth 18 Ways to Start Interacting With Python
+ 19 The Real Python Podcast – Episode #233: PyCoder's Weekly 2024 Top Articles & Missing Gems
+ 20 Building HTTP APIs With Django REST Framework
+ 21 The Real Python Podcast – Episode #232: Exploring Modern Sentiment Analysis Approaches in Python
+ 22 Quiz: How to Remove Items From Lists in Python
