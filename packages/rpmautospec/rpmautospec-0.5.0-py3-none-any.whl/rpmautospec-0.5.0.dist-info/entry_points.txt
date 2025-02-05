@@ -1,0 +1,3 @@
+[console_scripts]
+rpmautospec=rpmautospec.cli:main
+
