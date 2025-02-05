@@ -1,0 +1,14 @@
+.gitignore
+README.md
+pyproject.toml
+setup.py
+.github/workflows/python-publish.yml
+examples/main.py
+examples/main.qml
+sideqr/__init__.py
+sideqr/qr_scanner.py
+sideqr.egg-info/PKG-INFO
+sideqr.egg-info/SOURCES.txt
+sideqr.egg-info/dependency_links.txt
+sideqr.egg-info/requires.txt
+sideqr.egg-info/top_level.txt
