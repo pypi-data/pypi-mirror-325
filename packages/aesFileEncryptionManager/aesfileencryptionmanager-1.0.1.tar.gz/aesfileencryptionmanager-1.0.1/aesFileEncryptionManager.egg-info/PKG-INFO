@@ -1,0 +1,32 @@
+Metadata-Version: 2.2
+Name: aesFileEncryptionManager
+Version: 1.0.1
+Summary: A simple encryption manager to encrypt and decrypt files using AES encryption.
+Home-page: https://github.com/Zorba1973/aesFileEncryptionManager
+Author: Zorba1973
+Author-email: zorba1973@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pycryptodome>=3.21.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+# aesFileEncryptionManager Project
+A simple project to encrypt and decrypt files using AES algorithm.
+Functionalities are provided by the pycryptodome library.
+
+## How to use
+1. Clone the repository
+2. Install the pycryptodome library
+```bash
+pip install pycryptodome
+```
+3. Run the main.py file
+```bash
+python main.py
+```
