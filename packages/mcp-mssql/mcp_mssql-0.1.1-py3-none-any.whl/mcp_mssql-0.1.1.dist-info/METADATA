@@ -1,0 +1,54 @@
+Metadata-Version: 2.2
+Name: mcp-mssql
+Version: 0.1.1
+Summary: MSSQL server package for MCP
+Home-page: https://github.com/amornpan/mcp-mssql
+Author: amornpan
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-dotenv
+Requires-Dist: pyodbc
+Requires-Dist: pydantic
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# mcp-mssql
+
+MSSQL server package for MCP (Message Communication Protocol)
+
+## Installation
+
+```bash
+pip install mcp-mssql
+```
+
+## Usage
+
+```python
+from mssql.server import DBConfig
+
+# Configure your database
+db = DBConfig()
+connection = db.get_connection()
+```
+
+## Environment Variables
+
+Required environment variables:
+- MSSQL_SERVER
+- MSSQL_DATABASE
+- MSSQL_USER
+- MSSQL_PASSWORD
+- MSSQL_DRIVER
