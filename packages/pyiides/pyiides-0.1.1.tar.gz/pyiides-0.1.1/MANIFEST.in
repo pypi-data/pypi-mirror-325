@@ -1,0 +1,7 @@
+include README.md
+include requirements.txt
+recursive-include pyiides *
+global-exclude __pycache__/*
+prune unit_tests
+prune docs
+prune base

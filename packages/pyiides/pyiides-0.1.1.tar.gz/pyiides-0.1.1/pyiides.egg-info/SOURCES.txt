@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+pyiides/README.md
+pyiides/__init__.py
+pyiides/pyiides.py
+pyiides.egg-info/PKG-INFO
+pyiides.egg-info/SOURCES.txt
+pyiides.egg-info/dependency_links.txt
+pyiides.egg-info/top_level.txt
+pyiides/utils/bundle_util.py
+pyiides/utils/helper_functions.py
+pyiides/utils/vocab.json
