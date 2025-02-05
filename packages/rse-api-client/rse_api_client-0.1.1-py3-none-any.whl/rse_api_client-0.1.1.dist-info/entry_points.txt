@@ -1,0 +1,2 @@
+[console_scripts]
+rse-api = rse_api_client.main:main
