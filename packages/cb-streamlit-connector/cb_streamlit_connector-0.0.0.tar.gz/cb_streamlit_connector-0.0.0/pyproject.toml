@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cb_streamlit_connector"
+version = "0.0.0"
+description = "Couchbase Connector for Streamlit"
+authors = [{ name = "Viraj Agarwal", email = "virajagarwal15@gmail.com" }]
+dependencies = [
+    "streamlit",
+    "couchbase"
+]

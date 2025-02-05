@@ -1,0 +1,8 @@
+Metadata-Version: 2.2
+Name: cb_streamlit_connector
+Version: 0.0.0
+Summary: Couchbase Connector for Streamlit
+Author-email: Viraj Agarwal <virajagarwal15@gmail.com>
+License-File: LICENSE
+Requires-Dist: streamlit
+Requires-Dist: couchbase
