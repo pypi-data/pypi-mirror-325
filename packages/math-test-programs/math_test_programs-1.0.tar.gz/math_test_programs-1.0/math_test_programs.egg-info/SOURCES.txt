@@ -1,0 +1,6 @@
+README.md
+setup.py
+math_test_programs.egg-info/PKG-INFO
+math_test_programs.egg-info/SOURCES.txt
+math_test_programs.egg-info/dependency_links.txt
+math_test_programs.egg-info/top_level.txt
