@@ -1,0 +1,16 @@
+mongolight/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongolight/base.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongolight/compiler.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongolight/creation.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongolight/fields.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongolight/introspection.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongolight/operations.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongolight/schema.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongolight/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_mongolight.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_mongolight-0.1.0.dist-info/LICENSE,sha256=7CocWG8qsq8Zuf4CgJREcVI7IHTEZ8NaAVZuJcypHrA,1091
+django_mongolight-0.1.0.dist-info/METADATA,sha256=T2LVR0Pu6BB0qja7r26NoSr_M000pj2Wav0HqFtk6cU,1117
+django_mongolight-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+django_mongolight-0.1.0.dist-info/top_level.txt,sha256=C8brbY7zK4EqsH11lCmDe1NIQdKCOofBmkadL9vVuFg,16
+django_mongolight-0.1.0.dist-info/RECORD,,
