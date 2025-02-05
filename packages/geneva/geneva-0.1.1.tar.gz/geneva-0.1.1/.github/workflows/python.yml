@@ -1,0 +1,35 @@
+name: Python
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    paths:
+      - src/python/**
+      - .github/workflows/python.yml
+
+jobs:
+  tests:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+      - name: Install dependencies
+        run: |
+          uv sync --all-groups --all-extras
+      - name: Run lint
+        run: |
+          uv run ruff format --check src
+          uv run ruff check src
+          uv run pyright
+      - name: Run tests
+        run: |
+          uv run pytest --runxfail

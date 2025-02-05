@@ -1,0 +1,52 @@
+Metadata-Version: 2.4
+Name: geneva
+Version: 0.1.1
+Summary: Geneva - Multimodal Data Lake for AI
+License-File: LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Rust
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: <3.13,>=3.10
+Requires-Dist: attrs
+Requires-Dist: cloudpickle
+Requires-Dist: docker==7.*
+Requires-Dist: jinja2==3.*
+Requires-Dist: lancedb>=0.18.1b0
+Requires-Dist: more-itertools
+Requires-Dist: numpy
+Requires-Dist: overrides>=7.7.0
+Requires-Dist: pip==24.3.1
+Requires-Dist: pyarrow>=16
+Requires-Dist: pylance>=0.21.1b1
+Requires-Dist: requests
+Requires-Dist: textual-serve
+Requires-Dist: textual==1.*
+Requires-Dist: typing-extensions>=4.12
+Requires-Dist: urllib3<3,>=2
+Provides-Extra: dataflow
+Requires-Dist: apache-beam[gcp]==2.61.0; extra == 'dataflow'
+Provides-Extra: docs
+Requires-Dist: mkdocs; extra == 'docs'
+Requires-Dist: mkdocs-material; extra == 'docs'
+Provides-Extra: ipy
+Requires-Dist: ipython; extra == 'ipy'
+Provides-Extra: jupyter
+Requires-Dist: ipywidgets; extra == 'jupyter'
+Requires-Dist: jupyterlab; extra == 'jupyter'
+Provides-Extra: torch
+Requires-Dist: torch<3,>=2; extra == 'torch'
+Requires-Dist: torchvision; extra == 'torch'
+Description-Content-Type: text/markdown
+
+# geneva
