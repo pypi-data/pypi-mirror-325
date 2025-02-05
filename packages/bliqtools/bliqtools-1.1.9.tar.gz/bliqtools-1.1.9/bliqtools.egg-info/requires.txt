@@ -1,0 +1,7 @@
+psutil
+numpy
+pyometiff
+matplotlib
+tifffile
+Pillow
+natsort
