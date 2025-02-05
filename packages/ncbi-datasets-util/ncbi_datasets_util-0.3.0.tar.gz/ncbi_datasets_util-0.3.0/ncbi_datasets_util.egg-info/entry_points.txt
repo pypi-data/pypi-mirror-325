@@ -1,0 +1,10 @@
+[console_scripts]
+ncbi_genome_download = ncbi_datasets_util.downloader:cli
+ncbi_genome_download_and_qc = ncbi_datasets_util.downloader_and_summarizer:cli
+ncbi_genome_qc_summary = ncbi_datasets_util.summarizer:cli
+ncbi_nucleotide_download = ncbi_datasets_util.nucleotide_downloader:cli
+ncbi_nucleotide_download_and_qc = ncbi_datasets_util.nucleotide_downloader_and_summarizer:cli
+ncbi_nucleotide_qc_summary = ncbi_datasets_util.nucleotide_summarizer:cli
+
+[nbdev]
+ncbi_datasets_util = ncbi_datasets_util._modidx:d
