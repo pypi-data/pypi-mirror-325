@@ -1,0 +1,6 @@
+requests
+
+[dev]
+flake8
+pytest
+bump2version
