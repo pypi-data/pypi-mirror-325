@@ -1,0 +1,5 @@
+setup.py
+HelloHackers.egg-info/PKG-INFO
+HelloHackers.egg-info/SOURCES.txt
+HelloHackers.egg-info/dependency_links.txt
+HelloHackers.egg-info/top_level.txt
