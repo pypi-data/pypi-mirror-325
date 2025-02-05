@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: spike-prime-connect
+Version: 0.0.1
+Summary: 
+Author: JoJoJux
+Author-email: 80523427+J0J0HA@users.noreply.github.com
+Requires-Python: >=3.13.1,<4.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: compyner (>=0.2.1,<0.3.0)
+Requires-Dist: dataclasses-json (>=0.6.7,<1.0.0)
+Requires-Dist: json-fix (>=1.0.0,<2.0.0)
+Requires-Dist: mpy-cross (>=1.24.1.post2,<2.0.0)
+Requires-Dist: pyserial (>=3.5,<4.0.0)
+Requires-Dist: tqdm (>=4.67.1,<5.0.0)
+Project-URL: Repository, https://github.com/GSG-Robots/spike-prime-upload
+Description-Content-Type: text/markdown
+
+
