@@ -1,0 +1,19 @@
+requests>=2.26.0
+prompt_toolkit>=3.0.0
+typing-extensions>=4.0.0
+openai>=1.60.0
+pytest>=8.0.0
+unidiff>=0.7.0
+tiktoken>=0.8.0
+rich>=13.0.0
+
+[:python_version < "3.7"]
+dataclasses>=0.8
+
+[dev]
+black
+isort
+flake8
+mypy
+pytest
+pre_commit
