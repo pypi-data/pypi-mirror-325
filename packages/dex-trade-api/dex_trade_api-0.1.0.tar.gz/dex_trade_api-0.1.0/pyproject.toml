@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "dex-trade-api"
+version = "0.1.0"
+description = "Python client for the Dex-Trade cryptocurrency exchange API"
+authors = ["endogen <endogen@xian.org>"]
+readme = "README.md"
+packages = [{include = "dextrade"}]
+license = "MIT"
+homepage = "https://github.com/endogen/dex-trade-api"
+repository = "https://github.com/endogen/dex-trade-api"
+keywords = ["cryptocurrency", "exchange", "trading", "api", "dex-trade"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Office/Business :: Financial :: Investment",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+websocket-client = "^1.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
