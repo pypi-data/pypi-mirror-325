@@ -1,0 +1,212 @@
+# hc-mcp-confluence
+
+MCP server for Confluence integration, providing tools to interact with Confluence through the Model Context Protocol (MCP).
+
+## Overview
+
+This server enables seamless integration with Confluence, allowing you to perform common content management operations through MCP tools. It supports comprehensive page management, space exploration, and content organization.
+
+## Features
+
+The server provides the following Confluence integration tools:
+
+- `get_page`: Get content of a specific Confluence page
+- `create_page`: Create a new Confluence page
+- `update_page`: Update an existing Confluence page
+- `delete_page`: Delete a Confluence page
+- `search_content`: Search Confluence content using CQL
+- `get_space`: Get details about a Confluence space
+- `list_spaces`: List all Confluence spaces
+- `add_page_labels`: Add labels to a Confluence page
+- `get_page_labels`: Get labels of a Confluence page
+- `get_page_attachments`: Get attachments of a Confluence page
+
+## Installation
+
+The package supports multiple installation methods:
+
+### Using uvx (Recommended)
+```bash
+uvx hc-mcp-confluence
+```
+
+### Using pip
+```bash
+pip install hc-mcp-confluence
+```
+
+## Configuration
+
+### Required Environment Variables
+
+- `CONFLUENCE_URL`: The URL of your Confluence instance
+- `CONFLUENCE_USERNAME`: Your Confluence username
+- `CONFLUENCE_API_TOKEN`: Your Confluence API token
+
+### Claude Desktop Configuration
+
+There are two options to make the server available in Claude Desktop:
+
+1. Using the CLI:
+   ```bash
+   uvx hc-mcp-confluence --add-to-claude
+   ```
+   If environment variables are not already set, you can specify them:
+   ```bash
+   uvx hc-mcp-confluence --add-to-claude --env CONFLUENCE_URL=your-confluence-url --env CONFLUENCE_USERNAME=your-username --env CONFLUENCE_API_TOKEN=your-api-token
+   ```
+   Any environment variables not explicitly set in the command will be taken from the current environment.
+
+2. Manual configuration:
+   - Location:
+     - MacOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
+     - Windows: `%APPDATA%/Claude/claude_desktop_config.json`
+   
+   ```json
+   {
+     "mcpServers": {
+       "hc-mcp-confluence": {
+         "command": "uvx",
+         "args": ["hc-mcp-confluence"],
+         "env": {
+           "CONFLUENCE_URL": "your-confluence-url",
+           "CONFLUENCE_USERNAME": "your-username",
+           "CONFLUENCE_API_TOKEN": "your-api-token"
+         }
+       }
+     }
+   }
+   ```
+
+### Cline Configuration
+
+There are two options to make the server available in Cline:
+
+1. Using the CLI:
+   ```bash
+   uvx hc-mcp-confluence --add-to-cline
+   ```
+   If environment variables are not already set, you can specify them:
+   ```bash
+   uvx hc-mcp-confluence --add-to-cline --env CONFLUENCE_URL=your-confluence-url --env CONFLUENCE_USERNAME=your-username --env CONFLUENCE_API_TOKEN=your-api-token
+   ```
+   Any environment variables not explicitly set in the command will be taken from the current environment.
+
+2. Manual configuration:
+   - Location:
+     - MacOS: `~/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json`
+     - Cloud9: `~/.vscode-server/data/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json`
+
+   ```json
+   {
+     "mcpServers": {
+       "hc-mcp-confluence": {
+         "command": "uvx",
+         "args": ["hc-mcp-confluence"],
+         "env": {
+           "CONFLUENCE_URL": "your-confluence-url",
+           "CONFLUENCE_USERNAME": "your-username",
+           "CONFLUENCE_API_TOKEN": "your-api-token"
+         }
+       }
+     }
+   }
+   ```
+
+## Usage Examples
+
+Here are common usage patterns for the available tools:
+
+### Page Management
+```
+1. Create a page:
+   "Create a Confluence page titled 'Project Overview' in space 'AWS'"
+
+2. Update a page:
+   "Update page 123456 with new content about deployment procedures"
+
+3. Search content:
+   "Find all pages in space 'AWS' containing 'AWS configuration'"
+
+4. Manage labels:
+   "Add labels 'documentation' and 'aws' to page 123456"
+```
+
+### Space Management
+```
+1. List spaces:
+   "Show me all Confluence spaces I have access to"
+
+2. Get space details:
+   "Get information about the 'TEAM' space"
+```
+
+## Development
+
+### Building and Publishing
+
+1. Prepare development environment:
+```bash
+make prepare
+```
+
+2. Build package:
+```bash
+make build
+```
+
+3. Upload to CodeCommit:
+```bash
+make publish
+```
+
+
+### Debugging
+
+Since MCP servers run over stdio, debugging can be challenging. For the best debugging experience:
+
+1. Use the [MCP Inspector](https://github.com/modelcontextprotocol/inspector):
+```bash
+npx @modelcontextprotocol/inspector uvx hc-mcp-confluence
+```
+
+2. Enable debug logging:
+```bash
+export MCP_DEBUG=1
+uvx hc-mcp-confluence
+```
+
+## Error Handling
+
+The server implements comprehensive error handling:
+
+- Authentication errors: Validates credentials before operations
+- API errors: Provides detailed error messages from Confluence API
+- Input validation: Verifies required fields and formats
+- Rate limiting: Handles Confluence API rate limits gracefully
+
+## Troubleshooting
+
+Common issues and solutions:
+
+1. Authentication Failed
+   - Verify CONFLUENCE_URL, CONFLUENCE_USERNAME, and CONFLUENCE_API_TOKEN are correct
+   - Ensure API token has required permissions
+
+2. Rate Limiting
+   - Implement exponential backoff in requests
+   - Consider batching operations when possible
+
+3. Permission Issues
+   - Verify user has required space permissions
+   - Check page-level restrictions
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
