@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: IoTVision
+Version: 0.1
+License-File: LICENSE
+Requires-Dist: opencv-python==4.10.0.84
+
