@@ -1,0 +1,7 @@
+pynanoflann/nanoflann.py,sha256=2GvGjfOO2JqsGaj6WozMx9WAeXEgptFeQm7lMHrt4jY,6565
+pynanoflann/__init__.py,sha256=yVQ5q7G3VUVY1BPIz7n8W1DEXlhFoYBoOfQaZEQEap0,94
+pynanoflann/nanoflann_ext.cpython-39-darwin.so,sha256=N3fAxZEC8-lzj4NxKaXtDR1mjW9V7P04M8cjW77wjgA,930800
+pynanoflann-0.10.0.dist-info/RECORD,,
+pynanoflann-0.10.0.dist-info/WHEEL,sha256=jI0NjQMRsoqosIAHr5N47UzsE3xIRpExjLGL49_awqc,117
+pynanoflann-0.10.0.dist-info/METADATA,sha256=8TunkF6B8GjyN0qL1129ovxp3AdWQoSYGVvFUAZ_1Po,1663
+pynanoflann-0.10.0.dist-info/licenses/LICENSE,sha256=bTyow1cXC31gkqi-Rp2BqiJpTWU3tKQTzNn7U4u3gSo,1320
