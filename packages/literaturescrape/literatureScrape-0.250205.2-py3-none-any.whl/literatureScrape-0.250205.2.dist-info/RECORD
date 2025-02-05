@@ -1,0 +1,15 @@
+literatureScrape/__init__.py,sha256=9tNevsLvjMWSvGo87JHNjj4Vuxjufad4rSdcFPE8SKc,52
+literatureScrape/run.py,sha256=h2AioHnIkj3_iAffbu-JkscedA5xhdse8o0psF-0eKc,1259
+literatureScrape/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+literatureScrape/core/models.py,sha256=KRFFvTNmIb9WnF3_6xTfM8iNAzDjSk4BOE7W4rI56QY,956
+literatureScrape/core/settings.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+literatureScrape/sources/__init__.py,sha256=Vm36fQL8X6a8v67KE5bU-A1ud57Qbc3EH2w_ultA2pY,117
+literatureScrape/sources/base.py,sha256=0TMGnL1eKmm_yjLmhPXhjyHy_0JCuEBW5TENWPTo5s8,1605
+literatureScrape/sources/openalex.py,sha256=4ykfCRGEC2Jxqo97DEU26yYc4JxMkMdtSs8lONCiwAY,3125
+literatureScrape/sources/pubmed.py,sha256=tplmMYXzXrtWyg6km3H-YtpzICFhmX9OsN86BxEGZOM,3822
+literatureScrape/sources/thirdiron.py,sha256=GmehDHi31Dv3Ltol58l6WV-CooVn_6sSsNxJgY6ISyk,2800
+literatureScrape-0.250205.2.dist-info/LICENSE,sha256=pg1YeP7Y-A4D0S19NunS9UGmJ8bcIARqK4s2x1Byb3o,1082
+literatureScrape-0.250205.2.dist-info/METADATA,sha256=C1Qc-kAvT0h1q_vQw5Slz-JRU9KF2MCwbRXg74UMkhc,881
+literatureScrape-0.250205.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+literatureScrape-0.250205.2.dist-info/top_level.txt,sha256=BnCoRE3FHL1DDn5vh5QCFGSDjuvp-BR2b5x94fHFpkU,17
+literatureScrape-0.250205.2.dist-info/RECORD,,
