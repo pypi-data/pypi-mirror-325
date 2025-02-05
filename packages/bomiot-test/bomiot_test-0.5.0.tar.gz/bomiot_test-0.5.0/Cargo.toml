@@ -1,0 +1,15 @@
+[package]
+name = "bomiot_test"
+version = "0.5.0"
+edition = "2021"
+
+[lib]
+name = "bomiot_test"
+crate-type = ["cdylib"]
+
+[dependencies]
+rand = "0.8.4"
+
+[dependencies.pyo3]
+version = "0.23.3"
+features = ["abi3-py38"]
