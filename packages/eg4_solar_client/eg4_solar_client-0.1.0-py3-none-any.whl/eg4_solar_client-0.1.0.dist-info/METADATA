@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: eg4_solar_client
+Version: 0.1.0
+Summary: A Python client for the EG4 Solar API
+Requires-Python: >=3.12
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: requests>=2.32.3
+Description-Content-Type: text/markdown
+
+# EG4 Solar Client
+
