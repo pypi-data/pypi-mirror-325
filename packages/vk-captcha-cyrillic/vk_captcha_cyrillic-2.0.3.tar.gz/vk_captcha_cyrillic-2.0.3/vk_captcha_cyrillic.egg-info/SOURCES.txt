@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+vk_captcha/__init__.py
+vk_captcha/__main__.py
+vk_captcha/model.onnx
+vk_captcha/solver.py
+vk_captcha_cyrillic.egg-info/PKG-INFO
+vk_captcha_cyrillic.egg-info/SOURCES.txt
+vk_captcha_cyrillic.egg-info/dependency_links.txt
+vk_captcha_cyrillic.egg-info/requires.txt
+vk_captcha_cyrillic.egg-info/top_level.txt
