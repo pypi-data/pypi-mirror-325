@@ -1,0 +1,2 @@
+[console_scripts]
+image_cropper = my_image_cropper.cropper:main
