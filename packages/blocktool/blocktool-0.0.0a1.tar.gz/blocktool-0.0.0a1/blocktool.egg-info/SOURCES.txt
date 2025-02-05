@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+blocktool/__init__.py
+blocktool.egg-info/PKG-INFO
+blocktool.egg-info/SOURCES.txt
+blocktool.egg-info/dependency_links.txt
+blocktool.egg-info/top_level.txt

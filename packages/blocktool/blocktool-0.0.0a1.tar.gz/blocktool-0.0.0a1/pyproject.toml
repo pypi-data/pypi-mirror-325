@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blocktool"
+version = "0.0.0a1"
+description = "A library for blockchain tools"
+authors = [
+    { name = "Hanz", email = "hi@hanz.dev" }
+]
+license = { text = "MIT" }
+dependencies = []
+
+[project.urls]
+homepage = "https://hanz.dev/blocktool"
+repository = "https://github.com/hanzceo/blocktool"
