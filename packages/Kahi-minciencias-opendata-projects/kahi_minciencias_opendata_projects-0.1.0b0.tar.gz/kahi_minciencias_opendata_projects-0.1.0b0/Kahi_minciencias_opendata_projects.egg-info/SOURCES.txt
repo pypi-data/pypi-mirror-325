@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+Kahi_minciencias_opendata_projects.egg-info/PKG-INFO
+Kahi_minciencias_opendata_projects.egg-info/SOURCES.txt
+Kahi_minciencias_opendata_projects.egg-info/dependency_links.txt
+Kahi_minciencias_opendata_projects.egg-info/requires.txt
+Kahi_minciencias_opendata_projects.egg-info/top_level.txt
+kahi_minciencias_opendata_projects/Kahi_minciencias_opendata_projects.py
+kahi_minciencias_opendata_projects/__init__.py
+kahi_minciencias_opendata_projects/_version.py
+kahi_minciencias_opendata_projects/parser.py
+kahi_minciencias_opendata_projects/process_one.py
