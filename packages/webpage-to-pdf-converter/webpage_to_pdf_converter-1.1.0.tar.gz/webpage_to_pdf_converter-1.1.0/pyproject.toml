@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "webpage-to-pdf-converter"
+version = "1.1.0"
+description = "A CLI tool to check URLs and save webpages as PDFs"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [
+    {name = "remixonwin"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "click",
+    "requests",
+    "selenium",
+    "webdriver_manager",
+    "Pillow",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+    "pytest-mock>=3.10.0",
+    "responses>=0.23.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["webpage2pdf", "webpage2pdf.utils"]
+
+[project.scripts]
+webpage-to-pdf = "webpage2pdf.main:main"
