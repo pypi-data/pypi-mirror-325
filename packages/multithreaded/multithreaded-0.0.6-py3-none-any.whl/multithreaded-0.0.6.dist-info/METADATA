@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: multithreaded
+Version: 0.0.6
+Summary: advanced threading made beginner... threading library that expands upon stdlib "threading."
+Home-page: https://github.com/Noah018dev/multithreaded
+Author: Noah018
+Author-email: noahc018@pm.me
+License: This is free and unencumbered software released into the public domain.
+        
+        Anyone is free to copy, modify, publish, use, compile, sell, or
+        distribute this software, either in source code form or as a compiled
+        binary, for any purpose, commercial or non-commercial, and by any
+        means.
+        
+        In jurisdictions that recognize copyright laws, the author or authors
+        of this software dedicate any and all copyright interest in the
+        software to the public domain. We make this dedication for the benefit
+        of the public at large and to the detriment of our heirs and
+        successors. We intend this dedication to be an overt act of
+        relinquishment in perpetuity of all present and future rights to this
+        software under copyright law.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+        IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+        OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+        ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+        OTHER DEALINGS IN THE SOFTWARE.
+        
+        For more information, please refer to <https://unlicense.org/>
+        
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: cloudpickle
+Requires-Dist: logzero
+Requires-Dist: stop-thread
+
+# multithreaded
+***advanced threading made beginner***
+## installation
+Method one: The typical way.
+  Run one of these commands:<br>
+  * `pip install multithreaded` - Should work for Windows, but may not work if `/Scripts/` isn't on path.
+  * `pip3 install multithreaded` - Should work for Windows and Linux, but it may now work if `/Scripts/` isn't on path.
+  *  `py -m pip install multithreaded` - Should work for every Windows installation. If it doesn't, replace `py` with `python` or `python3`.
+  * `python3 -m pip install multithreaded` - Should work for every installation (except certain Windows ones). If **this** doesn't work, use `[py/python/python3] -m ensurepip`.<br>
+Method two: The other way.
+  Go into releases and download the latest one. Then run `[your pip command] install [path to .whl file]`<br>
+Method three: The dev way.
+  Download the source code and there you go.
+  If you don't want to edit anything, copy the `/multithreaded` directory (not the project root!) into your project directory.
+## quick start
+ Start a thread:
+ ```python
+import multithreaded as mt
+
+
+def my_function(arg1 : int, arg2 : str = "Hello, world!") :
+    for i in range(arg2) :
+        print(arg1)
+
+thread = mt.Thread(my_function, 5, kwargs={"arg2" : "Hello, Github!"})
+thread.start()
+```
