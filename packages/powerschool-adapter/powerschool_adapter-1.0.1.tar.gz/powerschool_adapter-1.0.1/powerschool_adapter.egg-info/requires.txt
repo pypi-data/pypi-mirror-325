@@ -1,0 +1,6 @@
+requests>=2.20.0
+diskcache>=5.6.0
+
+[dev]
+python-dotenv>=1.0.1
+faker>=33.3.1
