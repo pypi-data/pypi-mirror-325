@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+IoTVision/__init__.py
+IoTVision/annotator.py
+IoTVision/simulator.py
+IoTVision.egg-info/PKG-INFO
+IoTVision.egg-info/SOURCES.txt
+IoTVision.egg-info/dependency_links.txt
+IoTVision.egg-info/requires.txt
+IoTVision.egg-info/top_level.txt
