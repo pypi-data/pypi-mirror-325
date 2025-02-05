@@ -1,0 +1,10 @@
+vedastro/__init__.py,sha256=ls7kQcTTDM0TiUERo13VU8tYWUARaMMrE-o3cgKOH58,284
+vedastro/build.sh,sha256=WfxQpagW5rISg1tQKaSqG1DGTyjFV74pX2OiHH01BZQ,15
+vedastro/meta.yaml,sha256=ehPZIiT__oSATV4VA-_PfdUBFC4L64wn0lpdHbM4l88,877
+vedastro/runtimeconfig.json,sha256=XUS4KaVodxtXioXQVlTKUz8awDI13GxWcbmCpw0qWeA,204
+vedastro/update_check.py,sha256=ZSxs6xINwXZg-8Exry-DD7yHKSfExNLKwpdsnLZGDao,1100
+vedastro/vedastro.py,sha256=uoiKzB1E7-ITe7RGjS1M5gS0yX49jp4UInWJMDhVyg0,15522
+vedastro-1.23.13.dist-info/LICENSE,sha256=ylahT8IbXwPwaBZxUZhKzwb_nHTdCORLOYiGi53WY0E,1065
+vedastro-1.23.13.dist-info/METADATA,sha256=nNN8v_xSbBJ-PqdFKPecD4nufnqct6gnZfVCFgpTv_A,3558
+vedastro-1.23.13.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+vedastro-1.23.13.dist-info/RECORD,,
