@@ -1,0 +1,2 @@
+[console_scripts]
+git-count = git_count.git_count:main
