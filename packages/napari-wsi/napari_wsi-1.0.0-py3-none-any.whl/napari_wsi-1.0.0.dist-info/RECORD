@@ -1,0 +1,17 @@
+napari_wsi/__init__.py,sha256=WHizC8UzElmTH3641zjnMTLUHmP2rliWLTalgHU6vMA,75
+napari_wsi/color_transform.py,sha256=uYyAmNURzoaT60h4kzVjuBc4AXm1BBRueJQXbqUSRXM,1880
+napari_wsi/common.py,sha256=sFIbiHerEGKlHrZp9Sk5DZ_Ay_sGikP5kLQH6lYbGyY,6116
+napari_wsi/napari.yaml,sha256=VOKLNbYEAEYqe-dAU2_60MFigri4OWcmbNMMOiaWKKA,918
+napari_wsi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_wsi/reader.py,sha256=ZKiZQqPXGnTE1f9l9rfZ1K1bv31pLOsXHpGt2l2XTbU,723
+napari_wsi/widget.py,sha256=qezDIEhhoPsKucSrRcygcJ-meTrcSI-5eLmspKs0194,5169
+napari_wsi/backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_wsi/backends/common.py,sha256=Y8FlHaQTdRmyAbj_FajS7xhkVDtO8nPU5oxox--ToLo,140
+napari_wsi/backends/openslide.py,sha256=BH5W17jrnyJXpWEI8HySkvCmApluUWzjJSueaBhEdfs,4216
+napari_wsi/backends/rasterio.py,sha256=x2qgqL9SR-59QFVL4HAYVGzlu8hZeuzAyoOX15tVMiY,3425
+napari_wsi/backends/wsidicom.py,sha256=_ZwId-I9zvH-hDuL1OU3SwQcQ3A-cukjb9uJsyA6XEM,5520
+napari_wsi-1.0.0.dist-info/METADATA,sha256=xy2a1xryTfJ32K3PwZc0Wi7DeSdjdY8lJ_10L4CVVqI,3783
+napari_wsi-1.0.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+napari_wsi-1.0.0.dist-info/entry_points.txt,sha256=vo9X-9nX-y_ZofQ8hOtWcnnFtEef-IYvCV1TARb5_30,54
+napari_wsi-1.0.0.dist-info/licenses/LICENSE,sha256=CUvt2ilcBwKAfRAnoA4RNPTLcdUj3En21LPK9YkFMGg,11358
+napari_wsi-1.0.0.dist-info/RECORD,,
