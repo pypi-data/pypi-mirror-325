@@ -1,0 +1,7 @@
+mcp[cli]
+ollama
+
+[dev]
+ruff
+build
+twine

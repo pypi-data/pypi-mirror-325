@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/mcp_ollama/__init__.py
+src/mcp_ollama/__main__.py
+src/mcp_ollama/server.py
+src/mcp_ollama.egg-info/PKG-INFO
+src/mcp_ollama.egg-info/SOURCES.txt
+src/mcp_ollama.egg-info/dependency_links.txt
+src/mcp_ollama.egg-info/entry_points.txt
+src/mcp_ollama.egg-info/requires.txt
+src/mcp_ollama.egg-info/top_level.txt
