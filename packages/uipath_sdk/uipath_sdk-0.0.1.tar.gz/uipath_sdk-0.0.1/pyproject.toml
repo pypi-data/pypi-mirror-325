@@ -1,0 +1,56 @@
+[project]
+name = "uipath_sdk"
+version = "0.0.1"
+description = "UiPath Client for the UiPath API"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "python-dotenv>=1.0.1",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "Programming Language :: Python :: 3.13",
+]
+
+[project.urls]
+Homepage = "https://uipath.com"
+Repository = "https://github.com/UiPath/platform-sdk.git"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[dependency-groups]
+dev = [
+    "bandit>=1.8.2",
+    "mypy>=1.14.1",
+    "ruff>=0.9.4",
+]
+
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "I"] 
+
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+
+[tool.mypy]
+strict = true
+follow_imports = "normal"
+
+

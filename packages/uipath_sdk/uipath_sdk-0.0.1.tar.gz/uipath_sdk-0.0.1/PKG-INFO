@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: uipath_sdk
+Version: 0.0.1
+Summary: UiPath Client for the UiPath API
+Project-URL: Homepage, https://uipath.com
+Project-URL: Repository, https://github.com/UiPath/platform-sdk.git
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.13
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: python-dotenv>=1.0.1
+Description-Content-Type: text/markdown
+
+# UiPath SDK
