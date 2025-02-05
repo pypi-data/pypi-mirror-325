@@ -1,0 +1,12 @@
+resources/run-metrics-exporter.sh,sha256=zQzeqhPy3LoBf6YHYy7_hCflMNDxI7TbhgE5hMZ7Kzs,426
+resources/systemd/fsa-metrics.service,sha256=Im8dEirbQP0QVdS3jcNpGzGf2si1Wvo6b98QQ0P0ekY,593
+fsa_metrics/__init__.py,sha256=kLoV2qMI6KuypwXCLlCoOTHSVYpHPJHaomge4VFcF2k,129
+fsa_metrics/cli.py,sha256=2LSIhbahFXQRjbSiCy5l-0wcmKNK0YVQLzeEkmn3DQk,2428
+fsa_metrics/collector.py,sha256=HH89mLfn1TB7vrTyr60z6BJK9WVyGW6W9IpIhOk5Rc4,3340
+fsa_metrics/config.py,sha256=NDGHBAJPGN77FAbPap4fVM8FFGuZi8MbvvuRWVhL_ws,1477
+fsa_metrics/metrics.py,sha256=WztxnrWYR71WWzM3UV1huKkxcvtgfYrWCH9zRxTAcgQ,4876
+file_size_age_metrics-0.0.1a7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+file_size_age_metrics-0.0.1a7.dist-info/METADATA,sha256=ruqFKNYK6D4RRbLm3IvNV4_Dv1XoPDVE_mL1AjIDJ3s,4925
+file_size_age_metrics-0.0.1a7.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+file_size_age_metrics-0.0.1a7.dist-info/entry_points.txt,sha256=BpRid-LxFi0XkqOXbIOAP7M_m6DrQiHg3I3DV2oMiyo,64
+file_size_age_metrics-0.0.1a7.dist-info/RECORD,,
