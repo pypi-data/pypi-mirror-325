@@ -1,0 +1,9 @@
+junction_python-0.3.2.dist-info/METADATA,sha256=rAVXOtczyxaVyLj_6Co_ydTMlc98cRnPMb4MZ4gXd2U,1465
+junction_python-0.3.2.dist-info/WHEEL,sha256=ajTxDRk-ooZz0dnA2NZaw_ASzODvtK_6X8l0woIlBl4,104
+junction_python-0.3.2.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+junction/urllib3.py,sha256=KhtXB6QV73PjxbgcfIEZ4CtZcIxvy3vnRTktoUaQxu0,9781
+junction/config.py,sha256=E94_wIOKozRpjNJD7BZtR4VY5k7MlV_hzENkhqEp9XA,11107
+junction/__init__.py,sha256=pRNCd8iPMilFZatV3FHmxNThp-He0hXrNzpAgn7lePA,1495
+junction/requests.py,sha256=13MABww2TGEUOscAMKqDU-6h9mLdCwB3sxNW8IiSqd0,8424
+junction/junction.abi3.so,sha256=5OvnBHwSFQdD7Q6ydEBNbFiBQsoLHQUKPZd3j9PfZpM,13356360
+junction_python-0.3.2.dist-info/RECORD,,
