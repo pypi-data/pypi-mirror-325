@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: krait-kit
+Version: 25.2.0
+Summary: A versatile Python package for managing and organizing various utilities and tools, including logging, packaging, path handling, and signaled properties.
+Requires-Python: >=3.8
+Requires-Dist: importlib-metadata>=8.5.0
+Requires-Dist: pyyaml>=6.0.2
+Provides-Extra: all
+Provides-Extra: ci
+Requires-Dist: packaging; extra == 'ci'
+Requires-Dist: tomlkit; extra == 'ci'
+Description-Content-Type: text/markdown
+
+# krait-toolkit
+
+Yet another tool kit
