@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: ClusterWrap
+Version: 1.0.1
+Summary: Local machine and specific HPC cluster implementations
+Home-page: https://github.com/GFleishman/ClusterWrap
+Author: Greg M. Fleishman
+Author-email: greg.nli10me@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: dask>=2022.9.1
+Requires-Dist: dask[distributed]>=2022.9.1
+Requires-Dist: dask-jobqueue>=0.7.3
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
