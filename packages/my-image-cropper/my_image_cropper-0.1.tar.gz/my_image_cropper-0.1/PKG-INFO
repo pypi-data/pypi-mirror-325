@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: my_image_cropper
+Version: 0.1
+Summary: A simple image cropping tool
+Home-page: https://github.com/yourusername/my_image_cropper
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Dist: Pillow

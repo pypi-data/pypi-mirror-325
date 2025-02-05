@@ -1,0 +1,10 @@
+README.md
+setup.py
+my_image_cropper/__init__.py
+my_image_cropper/cropper.py
+my_image_cropper.egg-info/PKG-INFO
+my_image_cropper.egg-info/SOURCES.txt
+my_image_cropper.egg-info/dependency_links.txt
+my_image_cropper.egg-info/entry_points.txt
+my_image_cropper.egg-info/requires.txt
+my_image_cropper.egg-info/top_level.txt
