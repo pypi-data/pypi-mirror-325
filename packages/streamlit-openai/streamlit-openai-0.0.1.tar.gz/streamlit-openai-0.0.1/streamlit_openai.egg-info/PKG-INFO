@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: streamlit-openai
+Version: 0.0.1
+Summary: Build AI chatbots with Streamlit and OpenAI's API
+Home-page: https://github.com/sbslee/streamlit-openai
+Author: Seung-been "Steven" Lee
+Author-email: sbstevenlee@gmail.com
+License: MIT
+Description: # streamlit-openai
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
