@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+CelluKeyGA.egg-info/PKG-INFO
+CelluKeyGA.egg-info/SOURCES.txt
+CelluKeyGA.egg-info/dependency_links.txt
+CelluKeyGA.egg-info/requires.txt
+CelluKeyGA.egg-info/top_level.txt
+src/__init__.py
+src/cellukeyga.py
+src/tests/__init__.py
+src/tests/conftest.py
+src/tests/noteontests.txt
+src/tests/test_cellukeyga.py
