@@ -1,0 +1,82 @@
+[project]
+name = "pyloggrid"
+version = "2.3.1.dev1"
+description = "A python library to perform simulations on logarithmic lattices"
+readme = """readme_pypi.md"""
+authors = [
+    { name = "Amaury Barral", email = "amaury.barral@protonmail.com" }
+]
+license = { file = "LICENSE" }
+requires-python = ">=3.9,<3.12"
+dependencies = [
+    "cython~=3.0.4",
+    # manipulate hdf5 files
+    "h5py~=3.8.0",
+    # make videos
+    "imageio~=2.28.1",
+    "imageio-ffmpeg~=0.4.8",
+    # parallelization
+    "joblib~=1.2.0",
+    "matplotlib~=3.8.0",
+    "numpy~=1.26.1",
+    # read .json, more standard-compliant that ujson, fast
+    "orjson~=3.8.11",
+    # allow matplotlib to display figures
+    "pyqt6~=6.5.3",
+    # ODE solver
+    "rkstiff~=0.3.0",
+    # pyplot styles
+    "scienceplots~=2.0.1",
+    "scipy~=1.11.2",
+]
+
+[dependency-groups]
+dev = [
+    # compare content of list/directories (for tests)
+    "deepdiff~=6.3.0",
+    "flake8~=6.0.0",
+    "pre-commit~=3.3.1",
+    # profile python scripts
+    "pyprof2calltree~=1.4.5",
+    # test with coverage
+    "pytest-cov~=4.0.0",
+    "ruff>=0.9.4",
+]
+docs = [
+    "ipython~=8.16.1",
+    "myst-parser~=2.0.0",
+    "sphinx~=7.0.0",
+    "sphinx-autoapi~=3.0.0",
+    "sphinx-rtd-theme~=3.0.2",
+]
+examples = [
+    "jupyter~=1.0.0",
+    "pandas~=2.0.1",
+    "xarray~=2023.4.2",
+]
+
+[build-system]
+requires = ["hatchling", "numpy>=1.26", "Cython>3", "setuptools"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.hooks.custom]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "/pyloggrid/",
+]
+[tool.hatch.build]
+artifacts = [
+  "/pyloggrid/LogGrid/*.so",
+  "/pyloggrid/LogGrid/*.dll",
+]
+
+[tool.hatch.metadata]
+repository = "https://drf-gitlab.cea.fr/amaury.barral/log-grid"
+documentation = "https://pyloggrid.readthedocs.io/"
+
+
+[tool.ruff]
+line-length = 160
+lint.ignore = ["E402","E731","E741"]
+exclude = ["Archive", "docs", "Examples/Fortran_code", "Examples/Draft"]
