@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>fonts/inter.ttf</file>
+</qresource>
+<qresource>
+    <file>fonts/roboto_mono.ttf</file>
+</qresource>
+</RCC>

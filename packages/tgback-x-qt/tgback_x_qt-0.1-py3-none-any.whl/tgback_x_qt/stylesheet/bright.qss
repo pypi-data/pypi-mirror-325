@@ -1,0 +1,84 @@
+QStackedWidget {
+    background: qlineargradient(
+        x1: 0, y1: 0,
+        x2: 0, y2: 1,
+        stop: 0 #cacaca,
+        stop: 1 #cfcfcf
+    );
+}
+
+QPushButton {
+    border-radius: 15px;
+    padding: 6px;
+    background-color: #a8a8a8;
+    color: black;
+}
+QPushButton:hover {
+    background-color: #a3a3a3;
+}
+
+QComboBox {
+    border-radius: 15px;
+    padding: 6px;
+    background-color: #a8a8a8;
+    color: black;
+}
+QComboBox QAbstractItemView {
+    background-color: #a3a3a3;
+    color: black;
+}
+QComboBox:hover {
+    background-color: #a3a3a3;
+}
+QComboBox::drop-down {
+    border: none;
+    background: transparent;
+    width: 30px;
+}
+
+QLineEdit {
+   border: 2px solid #a8a8a8;
+   border-radius: 15px;
+   padding: 6px;
+   background-color: transparent;
+   color: black;
+}
+QLineEdit:hover {
+   background-color: #a3a3a3;
+}
+QLineEdit::placeholder {
+    color: black;
+}
+QLineEdit:focus {
+   border: 2px solid #808080;
+}
+
+#open_backup, #check_code, #sign_in, #request_code {
+   border-radius: 15px;
+   padding: 6px;
+   background-color: transparent;
+   color: black;
+}
+#open_backup:hover, #check_code:hover, #sign_in:hover, #request_code:hover {
+    background-color: #a3a3a3;
+}
+
+#destroy_backup, #are_you_sure {
+    border-radius: 15px;
+    padding: 6px;
+    background-color: #a30000;
+    color: white;
+}
+#destroy_backup:hover, #are_you_sure:hover {
+    background-color: #900000;
+}
+
+#tips_text, #when_born, #name, #username, #login_code {
+    color: black;
+}
+
+#phrase {
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+}

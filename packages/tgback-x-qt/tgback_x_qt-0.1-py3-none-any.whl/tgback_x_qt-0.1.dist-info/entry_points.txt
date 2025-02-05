@@ -1,0 +1,2 @@
+[console_scripts]
+tgback-x-qt = tgback_x_qt.app:start_app
