@@ -1,0 +1,61 @@
+[project]
+name = "bbox_objected"
+version = "0.2.8"
+description = "Manipulate bounding boxes as objects"
+authors = [
+    { name = "SEBROVATER", email = "sebrovskiy.k@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "Apache-2.0"
+
+[project.urls]
+home = "https://github.com/SEBROVATER/bbox_objected"
+
+[project.optional-dependencies]
+contrib = [
+    "numpy>=1.22.0",
+    "opencv-contrib-python>=4.7.0.71",
+]
+contrib-headless = [
+    "numpy>=1.22.0",
+    "opencv-contrib-python-headless>=4.7.0.71",
+]
+opencv = [
+    "numpy>=1.22.0",
+    "opencv-python>=4.7.0.71",
+]
+headless = [
+    "numpy>=1.22.0",
+    "opencv-python-headless>=4.7.0.71",
+]
+
+[tool.uv]
+package = true
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra"
+testpaths = [
+    "tests",
+]
+
+[tool.pdm.build]
+package-dir = "src"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.1.0",
+    "pyright>=1.1.393",
+    "pytest>=8.3.4",
+    "ruff>=0.9.4",
+]
