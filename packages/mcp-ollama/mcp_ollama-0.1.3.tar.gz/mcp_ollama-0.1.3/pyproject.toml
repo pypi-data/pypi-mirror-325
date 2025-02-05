@@ -1,0 +1,33 @@
+[project]
+name = "mcp-ollama"
+version = "0.1.3"
+description = "MCP server for Ollama integration"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Matt Green", email = "emgeee@users.noreply.github.com" }]
+keywords = ["mcp", "ollama", "llm", "claude", "anthropic"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = ["mcp[cli]", "ollama"]
+
+[project.optional-dependencies]
+dev = ["ruff", "hatch"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+mcp-ollama = "mcp_ollama.__main__:main"
+
+[project.urls]
+"Homepage" = "https://github.com/emgeee/mcp-ollama"
+"Bug Tracker" = "https://github.com/emgeee/mcp-ollama/issues"
