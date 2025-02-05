@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/csmxauth.egg-info/PKG-INFO
+src/csmxauth.egg-info/SOURCES.txt
+src/csmxauth.egg-info/dependency_links.txt
+src/csmxauth.egg-info/requires.txt
+src/csmxauth.egg-info/top_level.txt
+tests/test_auth.py
+tests/test_crypto.py
