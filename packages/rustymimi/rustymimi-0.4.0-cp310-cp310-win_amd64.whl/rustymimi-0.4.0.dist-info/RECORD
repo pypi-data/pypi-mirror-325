@@ -1,0 +1,6 @@
+rustymimi-0.4.0.dist-info/METADATA,sha256=rTTlaiH4uhsyQDXqWnOzGwOuGR0SwZA-yu5z_zDFO40,415
+rustymimi-0.4.0.dist-info/WHEEL,sha256=nWeKMpvecbFEmBYQM44p2FChzkAyOaqMiofeuspsYro,96
+rustymimi/__init__.py,sha256=kqTGFkY7EMCKfSF7q_A8JXXtcpaIxRkEoLjB0PuhvIg,26
+rustymimi/__init__.pyi,sha256=uCCT5A9X-IZhCVurUDnNJNgfcTxbidwqWeprDdyAkRc,1205
+rustymimi/rustymimi.cp310-win_amd64.pyd,sha256=ZYuQXZr2Me-CwooibA9OhGezXl0oKvo3v9-mo-dQA98,3908096
+rustymimi-0.4.0.dist-info/RECORD,,
