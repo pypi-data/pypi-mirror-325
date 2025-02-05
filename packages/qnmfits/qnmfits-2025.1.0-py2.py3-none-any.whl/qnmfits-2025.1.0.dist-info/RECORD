@@ -1,0 +1,11 @@
+qnmfits/__init__.py,sha256=alDq8uq2A0Ox6-cZ_516ykDDx3-Afsf7AkxGH8hXiw8,129
+qnmfits/cce.py,sha256=9Ob4Vnc3mskcZmNyWcTn81BZVCl9PGW5-cj7_6vJOz0,4024
+qnmfits/qnmfits.py,sha256=Y_6FhVNBhUtiIGGUvLf1PSXG1m1d_AAueP0M-myqb0M,32430
+qnmfits/read_qnms.py,sha256=cPXoioDn-kYsyOGXU0VU7H5zS-yMxdgJ4akul8RyBf0,2134
+qnmfits/utils.py,sha256=TrMFRqyDz7BuHE9Ku0ZIsY2iGaROg-DLF-uUUSO8KQo,8940
+qnmfits/data/cce-catalog.json,sha256=ER0OO3XKGEPyruZJSL3odnRbPa7n3zm1Ags1XZe9h1A,1757
+qnmfits/data/w228table.dat,sha256=_7jIXlQq6ZLzlsTifjjo19jhcVLzwaW7Eo8dY1jce5g,710222
+qnmfits-2025.1.0.dist-info/METADATA,sha256=y1FL3BSM44_1_Umqp-718T2Fyb9WZMFauvASNcrCcIE,5712
+qnmfits-2025.1.0.dist-info/WHEEL,sha256=tkmg4JIqwd9H8mL30xA7crRmoStyCtGp0VWshokd1Jc,105
+qnmfits-2025.1.0.dist-info/licenses/LICENSE,sha256=3IneHg0SIkoN_6omMe4sf1fyG0oaliuzlDycQFcPfHY,1086
+qnmfits-2025.1.0.dist-info/RECORD,,
