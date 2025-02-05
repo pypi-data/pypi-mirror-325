@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ResultWeaver"
+version = "0.1.0"
+authors = [
+    { name="Garv Khurana", email="projects@garvkhurana.tech" },
+]
+description = "Outcome-first orchestration library for Generative AI usecases"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/garvk/ResultWeaver"
+"Bug Tracker" = "https://github.com/garvk/ResultWeaver/issues"
