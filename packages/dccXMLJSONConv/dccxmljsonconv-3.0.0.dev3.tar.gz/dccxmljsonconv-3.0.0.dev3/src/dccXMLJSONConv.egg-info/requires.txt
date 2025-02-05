@@ -1,0 +1,15 @@
+jinja2
+lxml
+xmlschema
+
+[dev]
+pytest
+pytest-cov
+mypy
+black
+build
+httpx
+
+[web]
+fastapi
+uvicorn
