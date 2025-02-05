@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <div class="mermaid">
+    ---
+title: Information Supply Chain - Clinical Trial Treatment Validation [1f71e403-1187-4f03-a1dd-ae7dc105f06f]
+---
+flowchart TD
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+1f71e403-1187-4f03-a1dd-ae7dc105f06f@{ shape: flip-tri, label: "*Information Supply Chain*
+**Clinical Trial Treatment Validation**"}
+ca5c1980-a6e1-4c48-af90-d4aed6314aaf@{ shape: text, label: "*Description*
+**Delivering data relating to a clinical trial from the hospitals to the Coco Researchers so that they can then determine the efficacy of the treatment to report to the regulators.**"}
+1f71e403-1187-4f03-a1dd-ae7dc105f06f~~~ca5c1980-a6e1-4c48-af90-d4aed6314aaf
+278d35bd-0f2f-4f54-931f-6006d550360c@{ shape: text, label: "*Purpose*
+**Deliver patient measurement data from hospitals to data scientists in research.**"}
+ca5c1980-a6e1-4c48-af90-d4aed6314aaf~~~278d35bd-0f2f-4f54-931f-6006d550360c
+db603776-6152-49b0-9141-c16024c2268e@{ shape: text, label: "*Purpose*
+**Ensure incoming data is only from certified hospitals.**"}
+278d35bd-0f2f-4f54-931f-6006d550360c~~~db603776-6152-49b0-9141-c16024c2268e
+0b74a538-54cd-4a20-9b6b-88d970361a69@{ shape: text, label: "*Purpose*
+**Ensure incoming data is validated and catalogued.**"}
+db603776-6152-49b0-9141-c16024c2268e~~~0b74a538-54cd-4a20-9b6b-88d970361a69
+f3d86b7b-0c4e-4f86-83f9-76680539091a@{ shape: text, label: "*Purpose*
+**Ensure data and process owners are informed of key milestones and issues requiring attention.**"}
+0b74a538-54cd-4a20-9b6b-88d970361a69~~~f3d86b7b-0c4e-4f86-83f9-76680539091a
+1a0c1a1c-c8e9-4556-9c47-537a07c230a6@{ shape: text, label: "*Purpose*
+**Ensure the process of data capture and treatment validation is transparent and auditable.**"}
+f3d86b7b-0c4e-4f86-83f9-76680539091a~~~1a0c1a1c-c8e9-4556-9c47-537a07c230a6
+4b99798c-9918-47f0-9bad-3737cab1e07c@{ shape: text, label: "*Purpose*
+**Ensure the treatment validation report is complete and regulatory compliant.**"}
+1a0c1a1c-c8e9-4556-9c47-537a07c230a6~~~4b99798c-9918-47f0-9bad-3737cab1e07c
+38635d38-f728-400d-a8ec-7c26e68b7c0f@{ shape: hex, label: "*Information Supply Chain Segment*
+**Weekly Measurements Onboarding**"}
+38635d38-f728-400d-a8ec-7c26e68b7c0f-->|"capture and catalog,
+[Information Supply Chain Link]"|7edca02c-e726-4570-815c-280bdf5498b9
+e4303326-e418-4f77-b8e7-fd5d34717594@{ shape: hex, label: "*Information Supply Chain Segment*
+**Assess Treatment under Trial**"}
+e4303326-e418-4f77-b8e7-fd5d34717594-->|"publish results,
+[Information Supply Chain Link]"|4fc47e60-f1b5-469c-b666-e1f4570e749f
+04ae768e-3816-47bc-bddb-c9ae25018684@{ shape: hex, label: "*Information Supply Chain Segment*
+**Hospital Delivers Patient Weekly Readings**"}
+04ae768e-3816-47bc-bddb-c9ae25018684-->|"publish,
+[Information Supply Chain Link]"|38635d38-f728-400d-a8ec-7c26e68b7c0f
+4fc47e60-f1b5-469c-b666-e1f4570e749f@{ shape: hex, label: "*Information Supply Chain Segment*
+**Deliver Treatment Assessment Report**"}
+7edca02c-e726-4570-815c-280bdf5498b9@{ shape: hex, label: "*Information Supply Chain Segment*
+**Data Lake to Sandbox**"}
+7edca02c-e726-4570-815c-280bdf5498b9-->|"assemble,
+[Information Supply Chain Link]"|e4303326-e418-4f77-b8e7-fd5d34717594
+1c150d6e-30cf-481c-9afb-3b06c9c9e78f@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Hospital Landing Area Folder:V1.0**"}
+7f5dca65-50b4-4103-9ac7-3a406a09047a@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Weekly Measurements Onboarding Pipeline:V1.0**"}
+07705e15-efff-4f80-8992-f04ac85e0ef1@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Landing Folder Cataloguer:V1.0**"}
+a5d4d638-6836-47e5-99d0-fdcde637e13f@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Weekly Measurements Data Lake Folder:V1.0**"}
+1c150d6e-30cf-481c-9afb-3b06c9c9e78f-->|"detect new files,
+[Solution Linking Wire]"|07705e15-efff-4f80-8992-f04ac85e0ef1
+ee2bb773-e630-4cf9-bdf1-7c2dd64fe4ec@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Hospital Processes:V1.0**"}
+ee2bb773-e630-4cf9-bdf1-7c2dd64fe4ec-->|"publish,
+[Solution Linking Wire]"|1c150d6e-30cf-481c-9afb-3b06c9c9e78f
+07705e15-efff-4f80-8992-f04ac85e0ef1-->|"request onboarding,
+[Solution Linking Wire]"|7f5dca65-50b4-4103-9ac7-3a406a09047a
+7f5dca65-50b4-4103-9ac7-3a406a09047a-->|"save new files,
+[Solution Linking Wire]"|a5d4d638-6836-47e5-99d0-fdcde637e13f
+26c07ca4-3b8e-484b-812b-36c1ace4b275@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Populate Sandbox:V1.0**"}
+a5d4d638-6836-47e5-99d0-fdcde637e13f-->|"read certified files,
+[Solution Linking Wire]"|26c07ca4-3b8e-484b-812b-36c1ace4b275
+48bc201e-3d4e-4beb-bdb2-0fd9d134f6d5@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Treatment Efficacy Evidence:V1.0**"}
+b5c8da4c-f925-4cf1-8294-e43cd2c1a584@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Analyse Patient Data:V1.0**"}
+d48f579f-76d3-4c49-b1b4-575f5645a9d0@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Treatment Validation Sandbox:V1.0**"}
+72a86eec-9734-4bc0-babb-4fec0aa7c9ff@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Assemble Treatment Assessment Report:V1.0**"}
+48bc201e-3d4e-4beb-bdb2-0fd9d134f6d5-->|"retrieve evidence,
+[Solution Linking Wire]"|72a86eec-9734-4bc0-babb-4fec0aa7c9ff
+b5c8da4c-f925-4cf1-8294-e43cd2c1a584-->|"publish results,
+[Solution Linking Wire]"|48bc201e-3d4e-4beb-bdb2-0fd9d134f6d5
+d48f579f-76d3-4c49-b1b4-575f5645a9d0-->|"retrieve patient data,
+[Solution Linking Wire]"|b5c8da4c-f925-4cf1-8294-e43cd2c1a584
+26c07ca4-3b8e-484b-812b-36c1ace4b275-->|"write patient measurements,
+[Solution Linking Wire]"|d48f579f-76d3-4c49-b1b4-575f5645a9d0
+0bf2547c-937c-41b6-814f-6284849271a1@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Treatment Assessment Report Validation and Delivery:V1.0**"}
+72a86eec-9734-4bc0-babb-4fec0aa7c9ff-->|"publish results,
+[Solution Linking Wire]"|0bf2547c-937c-41b6-814f-6284849271a1
+style 278d35bd-0f2f-4f54-931f-6006d550360c color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style 48bc201e-3d4e-4beb-bdb2-0fd9d134f6d5 color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style ca5c1980-a6e1-4c48-af90-d4aed6314aaf color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style f3d86b7b-0c4e-4f86-83f9-76680539091a color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style 0b74a538-54cd-4a20-9b6b-88d970361a69 color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style e4303326-e418-4f77-b8e7-fd5d34717594 color:#004563, fill:#b7c0c7, stroke:#004563
+style 4fc47e60-f1b5-469c-b666-e1f4570e749f color:#004563, fill:#b7c0c7, stroke:#004563
+style 1a0c1a1c-c8e9-4556-9c47-537a07c230a6 color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style 7f5dca65-50b4-4103-9ac7-3a406a09047a color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style ee2bb773-e630-4cf9-bdf1-7c2dd64fe4ec color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style a5d4d638-6836-47e5-99d0-fdcde637e13f color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style 72a86eec-9734-4bc0-babb-4fec0aa7c9ff color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style 38635d38-f728-400d-a8ec-7c26e68b7c0f color:#004563, fill:#b7c0c7, stroke:#004563
+style 7edca02c-e726-4570-815c-280bdf5498b9 color:#004563, fill:#b7c0c7, stroke:#004563
+style b5c8da4c-f925-4cf1-8294-e43cd2c1a584 color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style 0bf2547c-937c-41b6-814f-6284849271a1 color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style d48f579f-76d3-4c49-b1b4-575f5645a9d0 color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style 1f71e403-1187-4f03-a1dd-ae7dc105f06f color:#FFFFFF, fill:#004563, stroke:#b7c0c7
+style db603776-6152-49b0-9141-c16024c2268e color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style 04ae768e-3816-47bc-bddb-c9ae25018684 color:#004563, fill:#b7c0c7, stroke:#004563
+style 26c07ca4-3b8e-484b-812b-36c1ace4b275 color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style 4b99798c-9918-47f0-9bad-3737cab1e07c color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style 1c150d6e-30cf-481c-9afb-3b06c9c9e78f color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style 07705e15-efff-4f80-8992-f04ac85e0ef1 color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+
+  </div>
+
+  <script>
+    mermaid.initialize({startOnLoad:true});
+  </script>
+</body>
+</html>

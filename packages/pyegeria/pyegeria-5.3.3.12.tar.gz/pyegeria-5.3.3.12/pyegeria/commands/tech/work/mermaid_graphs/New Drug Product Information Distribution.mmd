@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <div class="mermaid">
+    ---
+title: Information Supply Chain - New Drug Product Information Distribution [b0491fd4-6324-4ed8-9a1c-7cbd9892e21b]
+---
+flowchart TD
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+b0491fd4-6324-4ed8-9a1c-7cbd9892e21b@{ shape: flip-tri, label: "*Information Supply Chain*
+**New Drug Product Information Distribution**"}
+11aeaf3c-b24c-4e80-8006-8b2c083e67d3@{ shape: text, label: "*Description*
+**Managing the distribution of information about a new product.**"}
+b0491fd4-6324-4ed8-9a1c-7cbd9892e21b~~~11aeaf3c-b24c-4e80-8006-8b2c083e67d3
+02d4db48-8671-43b2-98e7-563b16f2d2b0@{ shape: text, label: "*Purpose*
+**Ensuring information about a new product is distributed to all of the appropriate system so that it is visible for ordering, manufacturing and invoicing.**"}
+11aeaf3c-b24c-4e80-8006-8b2c083e67d3~~~02d4db48-8671-43b2-98e7-563b16f2d2b0
+c24e9ea0-171a-46d8-a5d8-3fedcfe97aa4@{ shape: rounded, label: "*Software Server*
+**System:MFCTRL9482**"}
+987df321-d940-4ce5-9ae1-8258736f0445@{ shape: rounded, label: "*Software Server*
+**System:KCDEPOT01**"}
+c24e9ea0-171a-46d8-a5d8-3fedcfe97aa4-->|"order ready [Data Flow]"|987df321-d940-4ce5-9ae1-8258736f0445
+afefd870-5616-4f35-a557-774b88b96bef@{ shape: rounded, label: "*Software Server*
+**System:EDDEPOT01**"}
+c24e9ea0-171a-46d8-a5d8-3fedcfe97aa4-->|"order ready [Data Flow]"|afefd870-5616-4f35-a557-774b88b96bef
+c7b1467a-dea2-4288-95e5-8e1bc3ab2ed3@{ shape: rounded, label: "*Software Server*
+**System:WINCHDEPOT01**"}
+c24e9ea0-171a-46d8-a5d8-3fedcfe97aa4-->|"order ready [Data Flow]"|c7b1467a-dea2-4288-95e5-8e1bc3ab2ed3
+dd424526-24e9-4a10-a575-0700dfb8743a@{ shape: rounded, label: "*Software Server*
+**System:cocoProducts**"}
+a2e43afa-386a-4acd-ba1d-7773b368c34a@{ shape: rounded, label: "*Software Server*
+**System:globalCRM**"}
+dd424526-24e9-4a10-a575-0700dfb8743a-->|"new product offering [Data Flow]"|a2e43afa-386a-4acd-ba1d-7773b368c34a
+style b0491fd4-6324-4ed8-9a1c-7cbd9892e21b color:#FFFFFF, fill:#004563, stroke:#b7c0c7
+style c24e9ea0-171a-46d8-a5d8-3fedcfe97aa4 color:#000000, fill:#e0ab18, stroke:#004563
+style a2e43afa-386a-4acd-ba1d-7773b368c34a color:#000000, fill:#e0ab18, stroke:#004563
+style 11aeaf3c-b24c-4e80-8006-8b2c083e67d3 color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style 02d4db48-8671-43b2-98e7-563b16f2d2b0 color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style 987df321-d940-4ce5-9ae1-8258736f0445 color:#000000, fill:#e0ab18, stroke:#004563
+style c7b1467a-dea2-4288-95e5-8e1bc3ab2ed3 color:#000000, fill:#e0ab18, stroke:#004563
+style dd424526-24e9-4a10-a575-0700dfb8743a color:#000000, fill:#e0ab18, stroke:#004563
+style afefd870-5616-4f35-a557-774b88b96bef color:#000000, fill:#e0ab18, stroke:#004563
+
+  </div>
+
+  <script>
+    mermaid.initialize({startOnLoad:true});
+  </script>
+</body>
+</html>

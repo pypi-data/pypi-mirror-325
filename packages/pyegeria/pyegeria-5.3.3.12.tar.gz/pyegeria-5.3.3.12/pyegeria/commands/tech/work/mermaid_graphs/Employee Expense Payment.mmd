@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <div class="mermaid">
+    ---
+title: Information Supply Chain - Employee Expense Payment [79d1d83f-6a37-4c32-bf3f-eb8b4358027c]
+---
+flowchart TD
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+79d1d83f-6a37-4c32-bf3f-eb8b4358027c@{ shape: flip-tri, label: "*Information Supply Chain*
+**Employee Expense Payment**"}
+c881415f-b4fb-487b-a229-3d1e766f6a8d@{ shape: text, label: "*Description*
+**Managing the collection of expense data, its approval and the subsequent payment authorization flows.**"}
+79d1d83f-6a37-4c32-bf3f-eb8b4358027c~~~c881415f-b4fb-487b-a229-3d1e766f6a8d
+61808fb3-5eb6-46a5-b205-ba3730d4754a@{ shape: text, label: "*Purpose*
+**Ensure employees are reimbursed for their expenses in a timely manner.**"}
+c881415f-b4fb-487b-a229-3d1e766f6a8d~~~61808fb3-5eb6-46a5-b205-ba3730d4754a
+88c42780-6fb1-49e2-a584-8af90cdc7728@{ shape: rounded, label: "*Software Server*
+**System:coco-hrim**"}
+ad8eab54-c2f7-494d-82d0-bf5985e5a58d@{ shape: rounded, label: "*Software Server*
+**System:coco-expenses**"}
+88c42780-6fb1-49e2-a584-8af90cdc7728-->|"payment authorization [Data Flow]"|ad8eab54-c2f7-494d-82d0-bf5985e5a58d
+style ad8eab54-c2f7-494d-82d0-bf5985e5a58d color:#000000, fill:#e0ab18, stroke:#004563
+style 61808fb3-5eb6-46a5-b205-ba3730d4754a color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style 79d1d83f-6a37-4c32-bf3f-eb8b4358027c color:#FFFFFF, fill:#004563, stroke:#b7c0c7
+style 88c42780-6fb1-49e2-a584-8af90cdc7728 color:#000000, fill:#e0ab18, stroke:#004563
+style c881415f-b4fb-487b-a229-3d1e766f6a8d color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+
+  </div>
+
+  <script>
+    mermaid.initialize({startOnLoad:true});
+  </script>
+</body>
+</html>
