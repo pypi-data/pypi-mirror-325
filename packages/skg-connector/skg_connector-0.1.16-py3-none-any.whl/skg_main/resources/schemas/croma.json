@@ -1,0 +1,29 @@
+{
+  "event": "Event",
+  "date_format": "ISO8601",
+  "event_labels": [],
+  "event_properties": {
+    "act": "activity",
+    "timestamp": "timestamp",
+    "date": "timestamp"
+  },
+  "entity": "Entity",
+  "entity_labels": [
+    "Object",
+    "Operator"
+  ],
+  "entity_properties": {
+    "id": "internalId"
+  },
+  "item": "Object",
+  "resource": "Operator",
+  "event_to_item": "ACTS_ON",
+  "event_to_resource": "OPERATES",
+  "activity": "Activity",
+  "activity_labels": [],
+  "activity_properties": {
+    "id": [
+      "activity"
+    ]
+  }
+}
