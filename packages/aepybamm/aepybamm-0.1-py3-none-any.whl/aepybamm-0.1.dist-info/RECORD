@@ -1,0 +1,12 @@
+aepybamm/__init__.py,sha256=qXdy68AlQyKHCLiv5PFP4yWPWO0rTDcJpRvFcxbaT64,101
+aepybamm/bpx_tools.py,sha256=ylKdHw8PaTzi0aQCo6xomIqkorwB52QkzJ54uAR0Zyg,1498
+aepybamm/func.py,sha256=6iM4oD9TL2HsxFUNEnnfb50HH6o0kzZRYLTHllXE3ys,3493
+aepybamm/params.py,sha256=18dVSzimy6_JSSty5wzYKy7rl_IAYCGsh__SOQg1lzA,24983
+aepybamm/plot.py,sha256=NBFnD_bkpzLrpYQoXIQDQ8O3E8RldNKIuOEgt_Faogg,2662
+aepybamm/pybamm_tools.py,sha256=czqKCnc0r4peIIBdo3zhmI4lUuxCH4QnS1zfs9Yhbd4,11671
+aepybamm/sci_tools.py,sha256=dt6-GkuiE6AQMB-d7KYD-UQRi989gOI0VGXpWYcPRv0,18385
+aepybamm/simulate.py,sha256=txrsS3H_bHw05fBoP1aK_rFgFRnYN8Fvt4GvknsEb-Y,6520
+aepybamm-0.1.dist-info/METADATA,sha256=ByWz4w4POqqkSbG9LF7uQWt_3ADCDVRwNi0isezk-ow,2503
+aepybamm-0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+aepybamm-0.1.dist-info/licenses/LICENSE,sha256=eDCfqMG_S06FChC-11LJDwRVIfRN5cwIhpR8F-VPrag,1535
+aepybamm-0.1.dist-info/RECORD,,
