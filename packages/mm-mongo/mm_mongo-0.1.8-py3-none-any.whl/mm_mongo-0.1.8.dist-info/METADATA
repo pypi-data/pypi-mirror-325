@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: mm-mongo
+Version: 0.1.8
+Requires-Python: >=3.12
+Requires-Dist: mm-std>=0.2.1
+Requires-Dist: pymongo~=4.11
