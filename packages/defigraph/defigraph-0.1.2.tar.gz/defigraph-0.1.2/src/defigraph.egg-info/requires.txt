@@ -1,0 +1,11 @@
+ipykernel>=6.29.5
+load-dotenv>=0.1.0
+matplotlib>=3.7.5
+networkx>=3.4
+pytest>=8.3.3
+ruff>=0.7.4
+web3>=7.5.0
+
+[dev]
+bumpver
+pytest
