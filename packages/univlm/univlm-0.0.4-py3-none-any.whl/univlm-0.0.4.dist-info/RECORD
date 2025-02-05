@@ -1,0 +1,10 @@
+univlm/Model.py,sha256=d8lnENB74vsXFfargu6mqvKSOZ_mM_vw7a3eT6WKidw,12416
+univlm/Model_utils.py,sha256=KuQJzLJIF2i1sJE8QfHmO1FnGvxS28o_KRO8qk6NIg8,40426
+univlm/__init__.py,sha256=jgaRC1LrGZuS3sD5v1bX9vVfcx3kndPaXQ6aOk3-_5I,84
+univlm/scripts/install_and_test.sh,sha256=_TtcBbF7HpqlMUnYQy9DYy_3B--TzbKBxtvzJw0ai-k,1712
+univlm-0.0.4.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+univlm-0.0.4.dist-info/METADATA,sha256=U8Qz_SV2zucerrrKmTxL103H4YfDzinA1SOQ0UcG6Zc,655
+univlm-0.0.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+univlm-0.0.4.dist-info/entry_points.txt,sha256=LH0Bam-5nnW8clfaNjrboKN4ksS-CNAD6Fru4W1hkM8,78
+univlm-0.0.4.dist-info/top_level.txt,sha256=YeUKy-saFKGxpYK1f6YYU6ZRlJtaWvIaOGuPjWY9DD8,7
+univlm-0.0.4.dist-info/RECORD,,
