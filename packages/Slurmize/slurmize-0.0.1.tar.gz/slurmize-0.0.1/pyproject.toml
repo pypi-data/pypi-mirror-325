@@ -1,0 +1,87 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "Slurmize"
+authors = [{name = "David Palao", email = "david.palao@gmail.com"}]
+readme = "README.rst"
+license = {file = "COPYING"}
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Environment :: Console",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Natural Language :: English",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: Unix",
+  "Operating System :: POSIX",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Topic :: System :: Distributed Computing",
+  "Topic :: System :: Clustering",
+]
+dynamic = ["version", "description"]
+
+[project.urls]
+Home = "https://gitlab.gwdg.de/david.palao/slurmize"
+Documentation = "https://slurmize.readthedocs.io/en/latest/"
+
+[tool.flit.module]
+name = "slurmize"
+
+[tool.bumpversion]
+current_version = "0.0.1"
+parse = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)"
+serialize = ["{major}.{minor}.{patch}"]
+search = "{current_version}"
+replace = "{new_version}"
+regex = false
+ignore_missing_version = false
+ignore_missing_files = false
+tag = true
+sign_tags = false
+tag_name = "v{new_version}"
+tag_message = "Bump version: {current_version} → {new_version}"
+allow_dirty = true
+commit = true
+message = "Bump version: {current_version} → {new_version}"
+commit_args = ""
+setup_hooks = []
+pre_commit_hooks = []
+post_commit_hooks = []
+files = [
+  { filename = "src/slurmize/__init__.py" },
+  { filename = "docs/conf.py" },
+]
+
+[project.optional-dependencies]
+devel = [
+  "flit",
+  "pytest",
+  "pytest-cov",
+  "pytest-subtests",
+  "flake8",
+  "tox",
+  "coverage",
+  "black",
+  "bump-my-version",
+  "mypy",
+]
+
+docs = [
+  "sphinx",
+  "Sphinx-Substitution-Extensions",
+  "sphinx-prompt",
+]
+
+[project.scripts]
+slurmize = "slurmize.main:main"
+
+[tool.pytest.ini_options]
+markers = [
+    "ft: functional tests (select: '-m ft'; deselect with '-m \"not ft\"')",
+    "unit: unit tests (select: '-m unit'; deselect with '-m \"not unit\"')",
+]

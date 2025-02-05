@@ -1,0 +1,44 @@
+stages:
+  - build
+  - test
+
+
+# Change pip's cache directory to be inside the project directory since we can
+# only cache local items.
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+# https://pip.pypa.io/en/stable/topics/caching/
+cache:
+  paths:
+    - .cache/pip
+
+test:
+  image: "python:$VERSION"
+  stage: test
+  before_script:
+    - python --version ; pip --version
+    - python -m venv venv
+    - source venv/bin/activate
+  needs: []
+  script:
+    - pip install -e ".[devel]"
+    - pytest -m unit
+    - pytest -m ft
+  parallel:
+    matrix:
+      - VERSION: ['3.12', '3.13']
+
+static:
+  image: "python:latest"
+  stage: test
+  before_script:
+    - python --version ; pip --version
+    - python -m venv venv
+    - source venv/bin/activate
+  needs: []
+  script:
+    - pip install -e ".[devel]"
+    - flake8 src tests
+    - black --check --diff src tests
+    - mypy src tests

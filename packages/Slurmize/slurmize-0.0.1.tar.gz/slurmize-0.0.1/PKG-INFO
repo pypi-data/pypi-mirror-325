@@ -1,0 +1,52 @@
+Metadata-Version: 2.3
+Name: Slurmize
+Version: 0.0.1
+Summary: TUI program that generated Slurm batch scripts.
+Author-email: David Palao <david.palao@gmail.com>
+Description-Content-Type: text/x-rst
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: System :: Clustering
+Requires-Dist: flit ; extra == "devel"
+Requires-Dist: pytest ; extra == "devel"
+Requires-Dist: pytest-cov ; extra == "devel"
+Requires-Dist: pytest-subtests ; extra == "devel"
+Requires-Dist: flake8 ; extra == "devel"
+Requires-Dist: tox ; extra == "devel"
+Requires-Dist: coverage ; extra == "devel"
+Requires-Dist: black ; extra == "devel"
+Requires-Dist: bump-my-version ; extra == "devel"
+Requires-Dist: mypy ; extra == "devel"
+Requires-Dist: sphinx ; extra == "docs"
+Requires-Dist: Sphinx-Substitution-Extensions ; extra == "docs"
+Requires-Dist: sphinx-prompt ; extra == "docs"
+Project-URL: Documentation, https://slurmize.readthedocs.io/en/latest/
+Project-URL: Home, https://gitlab.gwdg.de/david.palao/slurmize
+Provides-Extra: devel
+Provides-Extra: docs
+
+Slurmize
+========
+
+Little app to generate `Slurm <https://slurm.schedmd.com/>`
+*batch scripts*.
+
+This package provides ``slurmize``: a TUI (Terminal User Interface)
+program based on `Textual <https://textual.textualize.io/>` that guides
+you in the process of creating and managing *batch scripts*. 
+
+.. warning::
+
+   Slurmize is **work In Progress!**
+
