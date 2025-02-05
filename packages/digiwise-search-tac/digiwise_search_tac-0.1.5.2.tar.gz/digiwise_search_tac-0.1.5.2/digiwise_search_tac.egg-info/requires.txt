@@ -1,0 +1,7 @@
+pandas
+openpyxl
+
+[dev]
+pytest
+black
+flake8
