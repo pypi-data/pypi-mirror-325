@@ -1,0 +1,21 @@
+{
+    "config": {
+        "step": {
+            "pick_implementation": {
+                "title": "Kimlik do\u011frulama y\u00f6ntemini se\u00e7"
+            },
+            "reauth_confirm": {
+                "description": "OneDrive entegrasyonunun hesab\u0131n\u0131z\u0131 yeniden do\u011frulamas\u0131 gerekiyor",
+                "title": "{name} i\u00e7in kimlik do\u011frulaman\u0131n s\u00fcresi doldu"
+            }
+        }
+    },
+    "exceptions": {
+        "authentication_failed": {
+            "message": "Kimlik do\u011frulama ba\u015far\u0131s\u0131z oldu"
+        },
+        "failed_to_get_folder": {
+            "message": "{folder} klas\u00f6r\u00fc al\u0131namad\u0131"
+        }
+    }
+}
