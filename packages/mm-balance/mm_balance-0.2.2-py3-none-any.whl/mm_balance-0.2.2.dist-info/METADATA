@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: mm-balance
+Version: 0.2.2
+Requires-Python: >=3.12
+Requires-Dist: mm-aptos==0.2.0
+Requires-Dist: mm-btc==0.3.0
+Requires-Dist: mm-eth==0.3.1
+Requires-Dist: mm-sol==0.3.1
+Requires-Dist: typer>=0.15.1
