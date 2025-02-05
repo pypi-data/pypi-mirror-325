@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+tablesage/__init__.py
+tablesage/base_task.py
+tablesage/column_annotator.py
+tablesage/column_summarizer.py
+tablesage/table_annotator.py
+tablesage/table_summarizer.py
+tablesage/tablesage.py
+tablesage.egg-info/PKG-INFO
+tablesage.egg-info/SOURCES.txt
+tablesage.egg-info/dependency_links.txt
+tablesage.egg-info/requires.txt
+tablesage.egg-info/top_level.txt
