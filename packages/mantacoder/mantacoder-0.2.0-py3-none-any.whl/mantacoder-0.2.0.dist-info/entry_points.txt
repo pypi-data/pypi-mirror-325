@@ -1,0 +1,2 @@
+[console_scripts]
+mantacoder = mantacoder.__main__:main
