@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: feegaffe
+Version: 0.1.0
+Summary: Une librairie simple pour dire Hello
+Author-email: Fée Gaffe <contact@feegaffe.fr>
+Description-Content-Type: text/markdown
+
+# Feegaffe
+
+Une librairie simple pour afficher un message Hello.
+
+## Installation
+
+```bash
+pip install feegaffe
