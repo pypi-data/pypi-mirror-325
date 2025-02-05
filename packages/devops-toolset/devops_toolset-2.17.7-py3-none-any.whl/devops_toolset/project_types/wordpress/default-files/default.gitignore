@@ -1,0 +1,31 @@
+# IDEs
+**/.idea/
+**/.vscode/
+**/.vs/
+
+# devops-toolset
+.devops/devops-toolset/
+
+# WordPress core
+.htaccess
+wordpress/wp-admin/
+wordpress/wp-content/themes/
+wordpress/wp-content/plugins/
+wordpress/wp-content/upgrade/
+wordpress/wp-content/index.php
+wordpress/wp-includes/
+wordpress/wp*.php
+wordpress/index.php
+wordpress/license.txt
+wordpress/readme.html
+wordpress/xmlrpc.php
+
+# 3rd party
+wordpress/wp-content/et-cache/
+
+# temporary development files
+content/themes/*.zip
+
+# scripts in root
+*.ps1
+*.py

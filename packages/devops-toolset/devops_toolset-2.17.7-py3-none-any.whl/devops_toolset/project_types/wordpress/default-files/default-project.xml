@@ -1,0 +1,4 @@
+<project>
+    <name>{{project-name}}</name>
+    <version>{{project-version}}</version>
+</project>
