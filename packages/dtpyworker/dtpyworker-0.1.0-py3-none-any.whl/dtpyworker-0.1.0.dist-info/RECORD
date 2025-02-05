@@ -1,0 +1,6 @@
+dtpyworker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dtpyworker/task.py,sha256=ACj0H8InSxXYBIDguNiBo-sFrqpJZvHMs7Y-K8lWaFg,1069
+dtpyworker/worker.py,sha256=5iavf3VCyr8MW84r6rJ8OKevloK44JCUgcj6fsJ6bYU,4228
+dtpyworker-0.1.0.dist-info/METADATA,sha256=gCR0nRbTHfun8FT6SHZEZySoC66PTx738OOqK-inGqY,3080
+dtpyworker-0.1.0.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+dtpyworker-0.1.0.dist-info/RECORD,,
