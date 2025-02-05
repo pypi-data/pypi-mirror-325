@@ -1,0 +1,8 @@
+maimai_ffi-0.4.1.dist-info/LICENSE,sha256=nLKC944yLzOGrgYabCCPXgbluvuGMaZM2BbJaQVKM3M,1070
+maimai_ffi-0.4.1.dist-info/WHEEL,sha256=DDnBhUM7-L-1MsGgeYzrz5jNXPxsjSo_ECuEBVKVW64,112
+maimai_ffi-0.4.1.dist-info/RECORD,,
+maimai_ffi-0.4.1.dist-info/top_level.txt,sha256=3bx1KFtVvou8igiS3c9umVlMbVRzHLNpv6fOJZFYAIo,11
+maimai_ffi-0.4.1.dist-info/METADATA,sha256=GnQtZvMsQvroIMHWiSr6MurLkO7QoMGCVhzTvUJaTbk,159
+maimai_ffi/request.cpython-310-x86_64-linux-gnu.so,sha256=zW1MY48VhHPA2rYFDSuoXMi9_2pCUCgN6_ZcRrSPppk,721400
+maimai_ffi/arcade.cpython-310-x86_64-linux-gnu.so,sha256=jw6uM2I9TTTbIta1EX2tiHpw3QVHq_60qE1WIccQuGs,841120
+maimai_ffi/model.cpython-310-x86_64-linux-gnu.so,sha256=U3AP3e6wOB50JQQxWXdF1-JRHGkV4HjgwkrmD6ozZ_w,103912
