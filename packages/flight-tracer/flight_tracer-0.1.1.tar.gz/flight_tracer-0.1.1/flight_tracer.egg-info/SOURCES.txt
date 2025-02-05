@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+flight_tracer/__init__.py
+flight_tracer/core.py
+flight_tracer.egg-info/PKG-INFO
+flight_tracer.egg-info/SOURCES.txt
+flight_tracer.egg-info/dependency_links.txt
+flight_tracer.egg-info/requires.txt
+flight_tracer.egg-info/top_level.txt
+tests/__init__.py
+tests/test_core.py
