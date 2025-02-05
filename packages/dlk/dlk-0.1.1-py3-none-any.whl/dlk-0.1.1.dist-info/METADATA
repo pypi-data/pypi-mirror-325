@@ -1,0 +1,465 @@
+Metadata-Version: 2.1
+Name: dlk
+Version: 0.1.1
+Summary: dlk: Deep Learning Kit
+Home-page: https://github.com/cstsunfu/dlk
+Author-email: cstsunfu <cstsunfu@gmail.com>
+License: Copyright 2021 cstsunfu
+        
+                                         Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/
+        
+           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        
+           1. Definitions.
+        
+              "License" shall mean the terms and conditions for use, reproduction,
+              and distribution as defined by Sections 1 through 9 of this document.
+        
+              "Licensor" shall mean the copyright owner or entity authorized by
+              the copyright owner that is granting the License.
+        
+              "Legal Entity" shall mean the union of the acting entity and all
+              other entities that control, are controlled by, or are under common
+              control with that entity. For the purposes of this definition,
+              "control" means (i) the power, direct or indirect, to cause the
+              direction or management of such entity, whether by contract or
+              otherwise, or (ii) ownership of fifty percent (50%) or more of the
+              outstanding shares, or (iii) beneficial ownership of such entity.
+        
+              "You" (or "Your") shall mean an individual or Legal Entity
+              exercising permissions granted by this License.
+        
+              "Source" form shall mean the preferred form for making modifications,
+              including but not limited to software source code, documentation
+              source, and configuration files.
+        
+              "Object" form shall mean any form resulting from mechanical
+              transformation or translation of a Source form, including but
+              not limited to compiled object code, generated documentation,
+              and conversions to other media types.
+        
+              "Work" shall mean the work of authorship, whether in Source or
+              Object form, made available under the License, as indicated by a
+              copyright notice that is included in or attached to the work
+              (an example is provided in the Appendix below).
+        
+              "Derivative Works" shall mean any work, whether in Source or Object
+              form, that is based on (or derived from) the Work and for which the
+              editorial revisions, annotations, elaborations, or other modifications
+              represent, as a whole, an original work of authorship. For the purposes
+              of this License, Derivative Works shall not include works that remain
+              separable from, or merely link (or bind by name) to the interfaces of,
+              the Work and Derivative Works thereof.
+        
+              "Contribution" shall mean any work of authorship, including
+              the original version of the Work and any modifications or additions
+              to that Work or Derivative Works thereof, that is intentionally
+              submitted to Licensor for inclusion in the Work by the copyright owner
+              or by an individual or Legal Entity authorized to submit on behalf of
+              the copyright owner. For the purposes of this definition, "submitted"
+              means any form of electronic, verbal, or written communication sent
+              to the Licensor or its representatives, including but not limited to
+              communication on electronic mailing lists, source code control systems,
+              and issue tracking systems that are managed by, or on behalf of, the
+              Licensor for the purpose of discussing and improving the Work, but
+              excluding communication that is conspicuously marked or otherwise
+              designated in writing by the copyright owner as "Not a Contribution."
+        
+              "Contributor" shall mean Licensor and any individual or Legal Entity
+              on behalf of whom a Contribution has been received by Licensor and
+              subsequently incorporated within the Work.
+        
+           2. Grant of Copyright License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              copyright license to reproduce, prepare Derivative Works of,
+              publicly display, publicly perform, sublicense, and distribute the
+              Work and such Derivative Works in Source or Object form.
+        
+           3. Grant of Patent License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              (except as stated in this section) patent license to make, have made,
+              use, offer to sell, sell, import, and otherwise transfer the Work,
+              where such license applies only to those patent claims licensable
+              by such Contributor that are necessarily infringed by their
+              Contribution(s) alone or by combination of their Contribution(s)
+              with the Work to which such Contribution(s) was submitted. If You
+              institute patent litigation against any entity (including a
+              cross-claim or counterclaim in a lawsuit) alleging that the Work
+              or a Contribution incorporated within the Work constitutes direct
+              or contributory patent infringement, then any patent licenses
+              granted to You under this License for that Work shall terminate
+              as of the date such litigation is filed.
+        
+           4. Redistribution. You may reproduce and distribute copies of the
+              Work or Derivative Works thereof in any medium, with or without
+              modifications, and in Source or Object form, provided that You
+              meet the following conditions:
+        
+              (a) You must give any other recipients of the Work or
+                  Derivative Works a copy of this License; and
+        
+              (b) You must cause any modified files to carry prominent notices
+                  stating that You changed the files; and
+        
+              (c) You must retain, in the Source form of any Derivative Works
+                  that You distribute, all copyright, patent, trademark, and
+                  attribution notices from the Source form of the Work,
+                  excluding those notices that do not pertain to any part of
+                  the Derivative Works; and
+        
+              (d) If the Work includes a "NOTICE" text file as part of its
+                  distribution, then any Derivative Works that You distribute must
+                  include a readable copy of the attribution notices contained
+                  within such NOTICE file, excluding those notices that do not
+                  pertain to any part of the Derivative Works, in at least one
+                  of the following places: within a NOTICE text file distributed
+                  as part of the Derivative Works; within the Source form or
+                  documentation, if provided along with the Derivative Works; or,
+                  within a display generated by the Derivative Works, if and
+                  wherever such third-party notices normally appear. The contents
+                  of the NOTICE file are for informational purposes only and
+                  do not modify the License. You may add Your own attribution
+                  notices within Derivative Works that You distribute, alongside
+                  or as an addendum to the NOTICE text from the Work, provided
+                  that such additional attribution notices cannot be construed
+                  as modifying the License.
+        
+              You may add Your own copyright statement to Your modifications and
+              may provide additional or different license terms and conditions
+              for use, reproduction, or distribution of Your modifications, or
+              for any such Derivative Works as a whole, provided Your use,
+              reproduction, and distribution of the Work otherwise complies with
+              the conditions stated in this License.
+        
+           5. Submission of Contributions. Unless You explicitly state otherwise,
+              any Contribution intentionally submitted for inclusion in the Work
+              by You to the Licensor shall be under the terms and conditions of
+              this License, without any additional terms or conditions.
+              Notwithstanding the above, nothing herein shall supersede or modify
+              the terms of any separate license agreement you may have executed
+              with Licensor regarding such Contributions.
+        
+           6. Trademarks. This License does not grant permission to use the trade
+              names, trademarks, service marks, or product names of the Licensor,
+              except as required for reasonable and customary use in describing the
+              origin of the Work and reproducing the content of the NOTICE file.
+        
+           7. Disclaimer of Warranty. Unless required by applicable law or
+              agreed to in writing, Licensor provides the Work (and each
+              Contributor provides its Contributions) on an "AS IS" BASIS,
+              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+              implied, including, without limitation, any warranties or conditions
+              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+              PARTICULAR PURPOSE. You are solely responsible for determining the
+              appropriateness of using or redistributing the Work and assume any
+              risks associated with Your exercise of permissions under this License.
+        
+           8. Limitation of Liability. In no event and under no legal theory,
+              whether in tort (including negligence), contract, or otherwise,
+              unless required by applicable law (such as deliberate and grossly
+              negligent acts) or agreed to in writing, shall any Contributor be
+              liable to You for damages, including any direct, indirect, special,
+              incidental, or consequential damages of any character arising as a
+              result of this License or out of the use or inability to use the
+              Work (including but not limited to damages for loss of goodwill,
+              work stoppage, computer failure or malfunction, or any and all
+              other commercial damages or losses), even if such Contributor
+              has been advised of the possibility of such damages.
+        
+           9. Accepting Warranty or Additional Liability. While redistributing
+              the Work or Derivative Works thereof, You may choose to offer,
+              and charge a fee for, acceptance of support, warranty, indemnity,
+              or other liability obligations and/or rights consistent with this
+              License. However, in accepting such obligations, You may act only
+              on Your own behalf and on Your sole responsibility, not on behalf
+              of any other Contributor, and only if You agree to indemnify,
+              defend, and hold each Contributor harmless for any liability
+              incurred by, or claims asserted against, such Contributor by reason
+              of your accepting any such warranty or additional liability.
+        
+           END OF TERMS AND CONDITIONS
+        
+           APPENDIX: How to apply the Apache License to your work.
+        
+              To apply the Apache License to your work, attach the following
+              boilerplate notice, with the fields enclosed by brackets "[]"
+              replaced with your own identifying information. (Don't include
+              the brackets!)  The text should be enclosed in the appropriate
+              comment syntax for the file format. We also recommend that a
+              file or class name and description of purpose be included on the
+              same "printed page" as the copyright notice for easier
+              identification within third-party archives.
+        
+           Copyright [yyyy] [name of copyright owner]
+        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at
+        
+               http://www.apache.org/licenses/LICENSE-2.0
+        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+        
+Keywords: dlk,pytorch,lightning
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: intc <0.2,>=0.1.0
+Requires-Dist: hjson >=3.0.2
+Requires-Dist: pandas >=1.4
+Requires-Dist: fsspec <2024.2,>=2023.5
+Requires-Dist: torchmetrics >=1.2.1
+Requires-Dist: pyarrow >=10.0.1
+Requires-Dist: transformers <4.45,>=4.37.0
+Provides-Extra: all
+Requires-Dist: lightning <=2.2,>=2.1.0 ; extra == 'all'
+Requires-Dist: torch <=2.6,>=2.1 ; extra == 'all'
+Requires-Dist: tensorboard <3.0,>=2.7.0 ; extra == 'all'
+Requires-Dist: datasets <2.20,>=2.17.0 ; extra == 'all'
+Requires-Dist: streamlit >=1.32 ; extra == 'all'
+Requires-Dist: svgwrite >=1.4 ; extra == 'all'
+Requires-Dist: pyecharts >=2.0 ; extra == 'all'
+Provides-Extra: export
+Requires-Dist: torch <=2.6,>=1.8.1 ; extra == 'export'
+Provides-Extra: process
+Requires-Dist: datasets <2.20,>=2.17.0 ; extra == 'process'
+Provides-Extra: train
+Requires-Dist: lightning <=2.2,>=2.1.0 ; extra == 'train'
+Requires-Dist: torch <=2.6,>=2.1 ; extra == 'train'
+Requires-Dist: tensorboard <3.0,>=2.7.0 ; extra == 'train'
+Requires-Dist: datasets <2.20,>=2.17.0 ; extra == 'train'
+Requires-Dist: torchmetrics >=1.2.1 ; extra == 'train'
+
+<p align="center">
+  <h2 align="center"> Deep Learning toolKit (dlk)</h2>
+</p>
+
+
+<h3 align="center">
+    <p>Don't Repeat Yourself</p>
+</h3>
+
+<div style="text-align:center">
+<span style="width:80%;display:inline-block">
+
+![Arch](./pics/arch.png)
+
+</div>
+
+<h4 align="center">
+    <p>
+        <b>简体中文</b> |
+        <a href="https://github.com/cstsunfu/dlk/blob/main/README_en.md">English</a>
+    </p>
+</h4>
+
+```
+dlk                                  --
+├── adv_method                       -- adversarial training method like free_lb, fgm, etc.
+├── callback                         -- callbacks, like checkpoint, early_stop, etc.
+├── data                             -- data processor part
+│   ├── data_collate                 -- data collate for collate a batch of data from dataset to dataloader
+│   ├── datamodule                   -- the datamodule a.k.a lightning.LightningDataModule
+│   ├── dataset                      -- the dataset inherit the torch.Dataset
+│   ├── postprocessor                -- the tasks postprocessor
+│   ├── processor                    -- the default processor, which scheduler the subprocessors
+│   └── subprocessor                 -- the subprocessors like tokenizer, token2id, etc.
+├── display                          -- the tasks display setting
+├── imodel                           -- the integrated model, which a.k.a the lightning.LightningModule
+├── initmethod                       -- the initmethod, some classic parameter init methods
+├── nn                               -- builtin nn modules
+│   ├── base_module.py               --
+│   ├── layer                        --
+│   │   ├── decoder                  --
+│   │   ├── embedding                --
+│   │   ├── encoder                  --
+│   │   └── token_gen_decoder        --
+│   ├── loss                         --
+│   ├── model                        --
+│   ├── module                       --
+│   └── utils                        --
+├── token_sample                     -- for text generate, different sample strategies
+├── optimizer                        -- optimizers
+├── scheduler                        -- learning rate schedulers
+├── trainer                          -- the trainer, a.k.a lightning.Trainer
+├── utils                            --
+├── preprocess.py                    -- preprocess datas for train|predict|demo|etc.
+├── train.py                         -- train entry
+├── online.py                        --
+├── predict.py                       -- just predict a bunch of data using the pretrained model
+├── server.py                        -- deploy this to server your pretrained model
+├── demo.py                          -- demo main
+└── version.txt                      --
+```
+
+
+* [Install](#install)
+* [Demo](#demo)
+    * [Grid Search](#grid-search)
+    * [Task Demo](#task-demo)
+* [Usage and Feature](#usage-and-feature)
+    * [使用方法](#使用方法)
+    * [模块注册](#模块注册)
+    * [部分内置模块介绍](#部分内置模块介绍)
+        * [callback](#callback)
+        * [虚拟对抗训练](#虚拟对抗训练)
+        * [复杂训练控制](#复杂训练控制)
+        * [文本生成](#文本生成)
+    * [实现你自己的模型](#你自己的模型)
+    * [More Document](#more-document)
+
+
+虽然最近的一年多通用大模型吸引了大部分人的注意力，但是相信很多人已经意识到任务导向的模型在现阶段仍有其不可替代的一面，而且这些模型在处理某些特定任务时具有更好的可靠性和更高的效率，特别是这些模型可以实现一些Agent来与LLM进行配合。
+
+任务导向的模型开发实际上不像LLM一样可以“一招鲜吃遍天”，而是每个任务的模型都需要针对性的开发，而在工作中我们经常需要对深度神经网络模型进行快速实验，搜索最优结构和参数，并将最优模型进行部署，有时还需要做出demo进行验证.
+
+首先是不同任务的开发实际上有很大一部分是重复的，而同一个任务的训练、预测、部署和demo这几个步骤的核心代码也是一致的，但是在实现上都需要一定的的改动，如果每个步骤都独立开发的话，会使得整个过程非常割裂，而这造成的代码冗余对于长期的代码维护是灾难性的。
+
+`DLK`是一个使用`lightning`的`Trainer`，`intc`为`config`管理系统的集模型训练、参数（架构）搜索、模型预测、模型部署和`demo`为一身，对于同一个模型实现这些功能只需要依赖一份代码，大大降低开发和维护成本.
+
+同时`DLK`作为一个通用的训练框架，我们的各种训练技巧和增强方法也可以非常方便的用于不同的模型, 为此`DLK`内置了很多有用的组件。
+
+除了基础组件之外，`DLK`还为主要的任务提供了丰富的示例，更多的示例会慢慢添加进来
+
+### You Can Edit Your DLK Config Like Python Code
+
+基于[intc](https://github.com/cstsunfu/intc) 所提供的强大的Config管理能力, 你可以像编写python代码一样编写你的config文件
+
+<div style="display:inline-block">
+  <img src="./pics/vscode_intc.gif" alt="vscode" width="412px">
+  <img src="./pics/nvim_intc.gif" alt="nvim" width="412px">
+</div>
+
+
+### Install
+
+
+```bash
+pip install dlk == 0.1.0
+
+# or clone this repo and cd to the project root dir
+pip install .
+```
+
+### Demo
+
+下面是一些基于`dlk`开发的示例:
+
+NOTE: 由于我目前只有一台拥有一张`AMD Radeon VII 16G`的GPU和32G内存的个人PC，算力十分有限，因此这里示例的参数很多都还没有优化至SOTA
+
+
+#### Grid Search
+
+`dlk`基于`intc`进行开发，因此同样提供了参数搜索的能力，而`intc`的`_search`并不仅限于数值类型的参数搜索，也可以对整个模块进行搜索，因此`dlk`实际上也具有模块级的架构搜索能力
+
+`./examples/grid_search_exp`里面提供了一个对超参数进行搜索的示例
+
+训练完模型之后执行：
+
+```bash
+tensorboard --logdir ./logs
+```
+
+<div style="display:inline-block">
+  <img src="./pics/grid_search_hp.png" alt="grid search hyperparameters" width="412px">
+  <img src="./pics/grid_search_scalar.png" alt="grid search scalar" width="412px">
+</div>
+
+#### Task Demo
+
+Demo 均位于`examples`目录下，训练完模型后执行：
+
+```bash
+streamlit run ./demo.py
+```
+
+<div style="display:inline-block">
+  <img src="./pics/span_rel.png" alt="span_rel" width="412px">
+  <img src="./pics/seq_lab.png" alt="seq_lab" width="412px">
+</div>
+
+<div style="display:inline-block">
+  <img src="./pics/img_cls.png" alt="img_cls" width="412px">
+  <img src="./pics/img_cap.png" alt="image caption" width="412px">
+</div>
+
+
+<div style="display:inline-block">
+  <img src="./pics/summary.png" alt="summary" width="412px">
+  <img src="./pics/txt_match.png" alt="text match" width="412px">
+</div>
+
+<div style="display:inline-block">
+  <img src="./pics/txt_reg.png" alt="txt_reg" width="412px">
+  <img src="./pics/txt_cls.png" alt="text classification" width="412px">
+</div>
+
+### Usage and Feature
+
+#### 使用方法
+
+一般来说一个常见的`dlk`开发任务包含两个pipeline，即数据预处理pipeline和模型推理pipeline. *实际上这两个步骤是可以放到同一个pipeline中的, 当前示例中的大多数任务都需要对预处理数据的复用，因此使用两个pipeline*
+
+数据预处理pipeline对应的内置入口是`dlk.preprocess.Process`，我们需要编写`process.jsonc` config文件来对预处理过程(训练、推理、deploy过程全都复用同一个文件，因此配置文件中有针对不同`stage`的不同设置)进行配置并初始化`Process`, 将数据传入并执行`run`即可按要求输出预处理好的数据
+
+模型训练pipeline对应的内置入口是`dlk.train.Train`, 我们需要编写`fit.jsonc` config文件来对模型训练（推理和deploy过程也同样复用这个文件），使用配置文件初始化`Train`之后执行`run`即可获得训练好的模型。
+
+demo则只需要导入训练过程中相同的`process.jsonc`和`fit.jsonc`以及训练好的模型（由`checkpoint` callback组件保存）即可
+
+模型部署只需将`dlk.server.Server`实例化，分发到对应的服务器，通过`Server.fit`接受单条或一个batch的数据即可（TODO: 示例）
+
+
+#### 模块注册
+
+DLK依赖两个注册系统，一套是`intc`的`config`注册`cregister`，一套是`dlk`自己的模块注册，注册原则是一致的，都是将一个模块以`module_type`和`module_name`为`key`注册到注册器中，之所以选择两层的命名作为`key`是因为这样更方便区分不同的模块类型
+
+以`dlk.nn.layer.embedding.static` 为例，我们将`StaticEmbeddingConfig` 作为`StaticEmbedding`的`config`以`("embedding", "static")`为key注册到`intc`的`cregister`中，以同样的`key`将`StaticEmbedding`注册到`dlk`的模块注册器`register`中。
+
+使用注册器的好处是，我们可以不必关注具体类在哪里实现，只要知道注册的名称就可以直接获取这个类，这使得我们可以非常方便的在任意位置扩展`embedding`的类型，对于我们在自己的项目里面扩展`dlk`非常重要，注册模块对于`intc`也同样重要。在我们已知`StaticEmbedding`的注册名的情况下，获取这个模块的方法非常简单，可以直接`register.get("embedding", "static")`即可，而不必关注他的实际存储位置(`cregister`也有同样的功能)
+
+
+#### 部分内置模块介绍
+
+##### callback
+
+`dlk`的`Trainer`是基于`lightning.Trainer`实现的，因此`dlk`同样可以使用`lightning`提供的`callback`, `dlk.callback`中包含一些常用的`callback`
+
+##### 虚拟对抗训练
+
+`Adversarial Training`是一种常见的提升模型效果的技巧，`dlk`内置了一些常用的针对`embedding`的`adv`方法(`dlk.adv_method`)，`./examples/adv_exp`是一个使用示例
+
+##### 复杂训练控制
+
+`dlk`的`dlk.scheduler`模块提供了多种的训练`scheduler`， `dlk.nn.loss`模块中的`multi_loss`同样针对多个`loss`提供了自由控制各种`loss`的能力
+
+##### 文本生成
+
+`dlk`还参考`fairseq`的实现，实现了多种的`token_sample`方法，为文本生成提供非常强大的控制能力
+
+#### 实现你自己的模型
+
+参考`./examples/001_first_example` 实现你自己的模型
+
+看完例子之后。但你可能会有疑问，这似乎并不比我直接实现一个模型简单，甚至有很多概念让我觉得这看起来更复杂。
+是的，如果你只是想训练一个简单的模型，不需要考虑预测、演示等，没错，但是`dlk`提供了一个非常统一的框架，让你只需按照步骤来实现相应的组件，就可以获得一个可用的模型。并且所有的工作都是可重用的，包括你刚刚实现的组件。
+
+而且`dlk`还提供了很多优化方面的工具，让你不是止步于简单模型
+
+记住这个包的原则是Donot Repeat Yourself
+
+
+#### More Document
+
+TODO
