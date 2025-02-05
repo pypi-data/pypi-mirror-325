@@ -1,0 +1,7 @@
+dora_rs-0.3.9rc2.dist-info/METADATA,sha256=4aDA44TmaXVAckYLSoztWKfjJtjue7vcoC9RWTnXLhg,665
+dora_rs-0.3.9rc2.dist-info/WHEEL,sha256=61O7JB4V0YlEfJms9pTr1MdG8H66dBbS7xK_rcCtxgY,104
+dora/__init__.py,sha256=x3SdgwncpcHNnvLdsSc8Jrj1BBEC2uZVOCMYULyTrvo,711
+dora/__init__.pyi,sha256=MZfafEGo1F_Al2RLrD36_cGRfFgOYY8Qa1_14bFYcf0,8342
+dora/cuda.py,sha256=KuB-J8cykDkcbLjeSYWt4oz5lbkrKOUycUh3o1hfJRA,3161
+dora/dora.abi3.so,sha256=rWQJOchDYHHE_KXf7-OP-lKnWubkzY1QLXqsPO_KcNs,18805176
+dora_rs-0.3.9rc2.dist-info/RECORD,,
