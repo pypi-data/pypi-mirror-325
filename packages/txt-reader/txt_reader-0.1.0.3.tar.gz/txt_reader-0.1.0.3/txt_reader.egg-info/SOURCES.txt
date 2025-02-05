@@ -1,0 +1,6 @@
+README.md
+setup.py
+txt_reader.egg-info/PKG-INFO
+txt_reader.egg-info/SOURCES.txt
+txt_reader.egg-info/dependency_links.txt
+txt_reader.egg-info/top_level.txt
