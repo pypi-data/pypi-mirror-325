@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+ssh_publish/__init__.py
+ssh_publish/__main__.py
+ssh_publish/py.typed
+ssh_publish.egg-info/PKG-INFO
+ssh_publish.egg-info/SOURCES.txt
+ssh_publish.egg-info/dependency_links.txt
+ssh_publish.egg-info/entry_points.txt
+ssh_publish.egg-info/requires.txt
+ssh_publish.egg-info/top_level.txt
