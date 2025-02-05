@@ -1,0 +1,11 @@
+simplex/__init__.py,sha256=1mbM4XUk0FNW161WOkM4ayC1s_QSsaBEls6PZ0iBScY,74
+simplex/cli.py,sha256=yirCLDIF7u0d6LIDY2WWZ5IJJrlxdNsGv9B3H8nh34U,2643
+simplex/simplex.py,sha256=ecl9A3Kn3FYPRrsPcbBwGz4FKv_ZwjXUrP9a7hH4Muk,9945
+simplex/deploy/__init__.py,sha256=_JQ81F_Nu7hSAfMA691gzs6a4-8oZ-buJ9h3Au12BKw,96
+simplex/deploy/push.py,sha256=hRAbtFZaECKnBljaOLQ5nzJ6hk7tZgc1c7QdgxKQFoY,6123
+simplex-1.2.13.dist-info/LICENSE,sha256=Xh0SJjYZfNI71pCNMB40aKlBLLuOB0blx5xkTtufFNQ,1075
+simplex-1.2.13.dist-info/METADATA,sha256=5hcmcXT_hn4qTRaNUuE4AvHvUN7LiluRcJmHyToULgQ,1350
+simplex-1.2.13.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+simplex-1.2.13.dist-info/entry_points.txt,sha256=3veL2w3c5vxb3dm8I_M8Fs-370n1ZnvD8uu1nSsL7z8,45
+simplex-1.2.13.dist-info/top_level.txt,sha256=cbMH1bYpN0A3gP-ecibPRHasHoqB-01T_2BUFS8p0CE,8
+simplex-1.2.13.dist-info/RECORD,,
