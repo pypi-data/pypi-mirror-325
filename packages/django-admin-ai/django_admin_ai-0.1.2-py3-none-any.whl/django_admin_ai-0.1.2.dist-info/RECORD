@@ -1,0 +1,13 @@
+django_admin_ai/__init__.py,sha256=HkVRTjnG-RUZ8Sp40mOahy46kJ4bK_ue9ac83qz7wDE,634
+django_admin_ai/admin.py,sha256=HOSv7BrQi1oi6z3O3q5s8aa-Tlu57DUES7PznS5BXYs,1579
+django_admin_ai/apps.py,sha256=87cr1Dni6riy-i-i_5JudVzIrItY4m2dgBC8BXvvKuM,1156
+django_admin_ai/models.py,sha256=4OVMcDDx9fVgBEJ91B7dfMEG2Ni1LRSLJOKzIkVPsKo,60
+django_admin_ai/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+django_admin_ai/urls.py,sha256=RMpwQMomWmJtUaieKehOhgxUIUYBFwQ-J_zqC_TqgA8,190
+django_admin_ai/views.py,sha256=1HiqZGanKjjY7L80x0Xjsk71TRvdlHkR8c-fP7X1EVg,4487
+django_admin_ai/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_ai/templates/admin/change_form.html,sha256=ER4lrIlfcnnz-O-kTh3ANBAlWX03JkOGtvNQucwHPXY,3851
+django_admin_ai-0.1.2.dist-info/METADATA,sha256=NMPbI-MS0RCFj5F-2BsRE2WKWQyzSY9VAcw3CyuzpeY,1322
+django_admin_ai-0.1.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+django_admin_ai-0.1.2.dist-info/top_level.txt,sha256=BIZeln-hs6StT_2bxby56dtaZRXxR2msW8BsKzUtpe4,16
+django_admin_ai-0.1.2.dist-info/RECORD,,
