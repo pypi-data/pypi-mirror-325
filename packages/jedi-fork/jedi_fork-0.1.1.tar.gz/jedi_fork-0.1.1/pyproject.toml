@@ -1,0 +1,17 @@
+[project]
+name = "jedi-fork"
+version = "0.1.1"
+description = "Jedi Fork"
+readme = "README.md"
+authors = [
+    { name = "Sebastian", email = "peraltas@seas.upenn.edu" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+jedi = "jedi:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

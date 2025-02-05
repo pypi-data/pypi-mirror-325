@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/jedi/__init__.py
+src/jedi_fork.egg-info/PKG-INFO
+src/jedi_fork.egg-info/SOURCES.txt
+src/jedi_fork.egg-info/dependency_links.txt
+src/jedi_fork.egg-info/entry_points.txt
+src/jedi_fork.egg-info/top_level.txt
