@@ -1,0 +1,3 @@
+docker
+opencv-python
+pillow
