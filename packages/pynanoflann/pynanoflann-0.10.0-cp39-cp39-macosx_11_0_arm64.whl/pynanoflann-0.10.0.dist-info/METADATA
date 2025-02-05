@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pynanoflann
+Version: 0.10.0
+Summary: python wrapper for nanoflann
+Author-Email: Corin Wagen <corin@rowansci.com>, =?utf-8?q?Dag_W=C3=A4stberg?= <dwastberg@gmail.com>, u1234x1234 <u1234x1234@gmail.com>
+License: BSD-2-Clause
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: scikit-learn; extra == "sklearn"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: codecov; extra == "test"
+Requires-Dist: contexttimer; extra == "test"
+Requires-Dist: tabulate; extra == "test"
+Requires-Dist: scikit-learn; extra == "test"
+Requires-Dist: pandas; extra == "benchmark"
+Requires-Dist: seaborn; extra == "benchmark"
+Requires-Dist: contexttimer; extra == "benchmark"
+Requires-Dist: matplotlib; extra == "benchmark"
+Requires-Dist: scikit-learn; extra == "benchmark"
+Provides-Extra: sklearn
+Provides-Extra: test
+Provides-Extra: benchmark
+Description-Content-Type: text/markdown
+
+# pynanoflann
+
+This is a fork of [a fork](https://github.com/dwastberg/pynanoflann) of [the unofficial python wrapper](https://github.com/u1234x1234/pynanoflann) to the [nanoflann](https://github.com/jlblancoc/nanoflann) library.
+
+The nanoflann implementation of [k-d tree](https://en.wikipedia.org/wiki/K-d_tree) provides one of the best performance for many k-nearest neighbour problems.
+
+The main distinguishing feature of this fork is that it's installable from pip. None of the actual code has been modified. 
+
+# Install
+
+```
+pip install pynanoflann
+```
+
+*Corin Wagen, 2025*
