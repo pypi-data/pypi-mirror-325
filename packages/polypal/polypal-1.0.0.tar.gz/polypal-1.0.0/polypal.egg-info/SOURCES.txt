@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+polypal/__init__.py
+polypal/main.py
+polypal/make_ff.py
+polypal/make_gromacs.py
+polypal/make_pdb.py
+polypal/make_top.py
+polypal.egg-info/PKG-INFO
+polypal.egg-info/SOURCES.txt
+polypal.egg-info/dependency_links.txt
+polypal.egg-info/entry_points.txt
+polypal.egg-info/top_level.txt
+polypal/data/opls_ffnonbonded.itp
