@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/csmxid.egg-info/PKG-INFO
+src/csmxid.egg-info/SOURCES.txt
+src/csmxid.egg-info/dependency_links.txt
+src/csmxid.egg-info/requires.txt
+src/csmxid.egg-info/top_level.txt
+tests/test_crypto.py
+tests/test_did.py
+tests/test_zkp.py
