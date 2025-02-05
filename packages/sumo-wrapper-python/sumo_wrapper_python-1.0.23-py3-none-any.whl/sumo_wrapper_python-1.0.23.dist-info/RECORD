@@ -1,0 +1,17 @@
+sumo/__init__.py,sha256=ftS-xRPSH-vU7fIHlnZQaCTWbNvs4owJivNW65kzsIM,85
+sumo/wrapper/__init__.py,sha256=JK6iMAy2Fdrc7iaIHTn60fHPdRvsgNjZwWD6DJtGUYQ,235
+sumo/wrapper/_auth_provider.py,sha256=Fcg62itYF8MfQit9wa191ZA5kFL4tGFobp7ESVi4qy0,15697
+sumo/wrapper/_blob_client.py,sha256=SyfyFZ1hHVWKU4lmgUqSjl5TaK_OJNQ__0wDETrp-ag,1623
+sumo/wrapper/_decorators.py,sha256=3IEi6GXVkkDACHoo8dOeDoBtZh5TlJ6Tw0qlpOVHqLQ,806
+sumo/wrapper/_logging.py,sha256=jOtMpiVJcF38QBM4ER1VDdHom777L5MkfomtOVHXgu8,1060
+sumo/wrapper/_retry_strategy.py,sha256=m4mK-ZQDr0CSOZGN9ZleZyRSR07PjUjAis3WXXR4jwk,2490
+sumo/wrapper/_version.py,sha256=f2afgyfNj59Aqh0DnuaBrzxyqz1K0o3bJu1DsISS4g4,413
+sumo/wrapper/config.py,sha256=6t7qqjrrmd11m4VMlRryiMYw2JDU_R51305woAP1TAs,865
+sumo/wrapper/login.py,sha256=PGYhKnrwV4NorNbwnWj-5LDvCCIKgn-pnvCTeCDvqXA,2375
+sumo/wrapper/sumo_client.py,sha256=pDJNWSxsTolZWo-xON45bjtVuq3TdiJFTq3R2U_kzhU,18330
+sumo_wrapper_python-1.0.23.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sumo_wrapper_python-1.0.23.dist-info/METADATA,sha256=__ZBI1la4s9lygtBzmlPEC2U8NlYJCiZBPV9RLaCXiA,14593
+sumo_wrapper_python-1.0.23.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+sumo_wrapper_python-1.0.23.dist-info/entry_points.txt,sha256=V_vGky2C3He5vohJAxnBdvpt_fqfUDFj5irUm9HtoFc,55
+sumo_wrapper_python-1.0.23.dist-info/top_level.txt,sha256=rLbKyH9rWgCj3PoLeR7fvC5X8vCaUc5LF8-Y_GBWZL0,5
+sumo_wrapper_python-1.0.23.dist-info/RECORD,,
