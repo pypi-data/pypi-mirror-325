@@ -1,0 +1,16 @@
+opendataformat/__init__.py,sha256=vrXhBZK8QPko85C1dNi6TlkgZ1EVBjHsnwM3ruMWQEo,124
+opendataformat/docu_odf.py,sha256=hk_FZUFoZFC1xN8jPEAd5HzJjfoG6QZrSWSY85QjnAI,9957
+opendataformat/odf2pd.py,sha256=lP-RUsL9I6JN_-Mj7fjV04Xe1SXLKGO7zvsUR5Qs05A,13117
+opendataformat/odf2pd_v1.py,sha256=MfdmgkroDuC-keELgrjH8pT6HZwxB8rBNweGzoh0RNw,10051
+opendataformat/pd2odf.py,sha256=v0SqvMQpkWGieGMHANBtYi4v-JwHjQRcru-VTl_edCU,10900
+opendataformat/read_odf.py,sha256=uVINUztp61z6mLOF7uJnvYc1TtVa-UV4jEo2VC9ZC5I,14861
+opendataformat/write_odf.py,sha256=vzEFLkD61CW1nNea_smFCqJ5Ltn0zuVBuzEEk37WJjU,11412
+opendataformat/data/data.zip,sha256=_Owd7XdR3AU__2gdCSCnBEgEC3cTholiP_QyHFAJR2Y,2210
+opendataformat/data/data_with_default.zip,sha256=bD6eWB-gmRHmBVS7mzHIKAI7lo_Z35gAIkcsYrtIZHI,2323
+opendataformat/data/data_with_missings.zip,sha256=VtRN2Ofc35jPeFI-oFX-pj0qkzEu7SMv7sw5fULddDQ,1885
+opendataformat/data/example_data.zip,sha256=_Owd7XdR3AU__2gdCSCnBEgEC3cTholiP_QyHFAJR2Y,2210
+opendataformat-1.0.0.dist-info/LICENSE,sha256=n0hXQm5oow34_GGhRtDLLJYNH-1_lPomXEhcFheP004,52
+opendataformat-1.0.0.dist-info/METADATA,sha256=w4AE_5x6Xqb84G9AITSJlSyGqYO2H_cHzlja0jEEhF8,3421
+opendataformat-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+opendataformat-1.0.0.dist-info/top_level.txt,sha256=pQWu3ycC4x0KLKmQMmn9PN09HYi45x4fqBWVd6BEPKY,15
+opendataformat-1.0.0.dist-info/RECORD,,
