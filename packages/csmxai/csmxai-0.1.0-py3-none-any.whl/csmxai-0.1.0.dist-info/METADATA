@@ -1,0 +1,26 @@
+Metadata-Version: 2.2
+Name: csmxai
+Version: 0.1.0
+Summary: AI-Powered Cyber Defense & Fraud Detection
+Home-page: https://github.com/Sumedh1599/csmxai
+Author: Sumedh Patil
+Author-email: admin@aipresso.uk
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography
+Requires-Dist: numpy
+Requires-Dist: scipy
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
