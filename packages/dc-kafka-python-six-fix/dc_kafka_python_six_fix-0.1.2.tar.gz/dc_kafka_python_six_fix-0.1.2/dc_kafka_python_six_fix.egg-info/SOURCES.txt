@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+dc_kafka_python_six_fix/__init__.py
+dc_kafka_python_six_fix/fix.py
+dc_kafka_python_six_fix.egg-info/PKG-INFO
+dc_kafka_python_six_fix.egg-info/SOURCES.txt
+dc_kafka_python_six_fix.egg-info/dependency_links.txt
+dc_kafka_python_six_fix.egg-info/requires.txt
+dc_kafka_python_six_fix.egg-info/top_level.txt
