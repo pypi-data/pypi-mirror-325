@@ -1,0 +1,8 @@
+mcp_ollama/__init__.py,sha256=zowV-swmON-uyyLVD3qdlZ6ENh6MMd3CGaRMMLUxo5k,133
+mcp_ollama/__main__.py,sha256=bMAyG5_hVHHV7axhNYSnhW-lhiohfhOW-Dzjqvzw6_w,131
+mcp_ollama/server.py,sha256=02tJVEJwHeDkevn4s7nmZpVqKBJb1fQjVNMeQ4AorQ4,2829
+mcp_ollama-0.1.0.dist-info/METADATA,sha256=DYQks85uj9VR-_Xx-XiMgwIwoFTT_tpSmAYkp1kyy6U,2055
+mcp_ollama-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcp_ollama-0.1.0.dist-info/entry_points.txt,sha256=HjrPOuW3tV_VovUfx23rg4xfJlQhOkanFinuMZqsbWM,56
+mcp_ollama-0.1.0.dist-info/licenses/LICENSE,sha256=KNAADYhXKAIGySYjfCVq6P4ZDhIUFfHxeZFYa3-32ec,1055
+mcp_ollama-0.1.0.dist-info/RECORD,,
