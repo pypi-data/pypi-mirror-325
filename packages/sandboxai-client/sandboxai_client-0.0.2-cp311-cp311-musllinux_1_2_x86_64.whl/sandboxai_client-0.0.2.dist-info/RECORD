@@ -1,0 +1,14 @@
+sandboxai_client-0.0.2.dist-info/WHEEL,sha256=bazm_2wUv8r3ZdI3EFF1W8XzzfWWNf0Zi3x2NpmmA_0,112
+sandboxai_client-0.0.2.dist-info/RECORD,,
+sandboxai_client-0.0.2.dist-info/top_level.txt,sha256=r6wIUpS3ntHlxF0grR0wgK8VBIFK3VFth_dIYAvFKv4,10
+sandboxai_client-0.0.2.dist-info/METADATA,sha256=LsD8EwZxa-nwQPuoavA8-2A_rBe84QuWtOg8BkLEKHI,2420
+sandboxai/sandbox_test.py,sha256=dZ1R0rOEPcAVtrKYSb1wVfBCOYjjyULZ80bG-yBQ3O0,2113
+sandboxai/sandbox.py,sha256=hiqca0mxanvX5xgiP46nS5cVlNEPQH5U4Rr9UJDEZHo,3852
+sandboxai/embedded.py,sha256=AUAgLl1SreocUFUVxMztGE-QzcGjueKmNIoE-NFDvqk,4448
+sandboxai/__init__.py,sha256=SeOqTaDV_yNCZcMaSGPzW71hUCFXDtOFxwx8JOwDs4w,40
+sandboxai/api/v1.py,sha256=GGk5mU0Q6lIuthuz_2CH-jNxXxlVLOzgLnPsBf9WGVE,2598
+sandboxai/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sandboxai/experimental/crewai.py,sha256=7i3-TyhgzXYi5TZmwYppZqYEOAhdCYwYd1zvbvcZ-AA,1514
+sandboxai/test/e2e/test_client_v1.py,sha256=yJtDcRuzMceuKEvPCe9tgDUX_NWeWN7KjWO8GfoyjhA,3670
+sandboxai/client/v1.py,sha256=z8lxz6Px5D_QDK7xPA2VL3PpFKJmtAwqFewtgokOq1A,5549
+sandboxai/bin/sandboxaid,sha256=8vlivLXlhP2etLu89lgC60t1ba-bGdoWHHRmVuTc8cI,8241304
