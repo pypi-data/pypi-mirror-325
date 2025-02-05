@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fastnetar-db
+Version: 0.1.0
+Summary: 
+Author: Samuel Roberts
+Author-email: samuel.roberts@magnetarit.co.uk
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: bcrypt (>=4.2.1,<5.0.0)
+Requires-Dist: libsql-client (>=0.3.1,<0.4.0)
+Requires-Dist: passlib (>=1.7.4,<2.0.0)
+Requires-Dist: pytest (>=8.3.4,<9.0.0)
+Requires-Dist: pytest-asyncio (>=0.25.3,<0.26.0)
+Description-Content-Type: text/markdown
+
+
