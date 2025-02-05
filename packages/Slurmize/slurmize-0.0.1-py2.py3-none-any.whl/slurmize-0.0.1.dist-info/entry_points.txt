@@ -1,0 +1,3 @@
+[console_scripts]
+slurmize=slurmize.main:main
+
