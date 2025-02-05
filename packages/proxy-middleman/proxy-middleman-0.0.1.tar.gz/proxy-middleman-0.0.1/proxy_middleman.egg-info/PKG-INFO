@@ -1,0 +1,247 @@
+Metadata-Version: 2.1
+Name: proxy-middleman
+Version: 0.0.1
+Summary: Proxy rotation is a project designed to simplify working with the proxy rotation
+Home-page: https://github.com/Web-parsers/middleman-proxy-server/tree/proxy_rotation
+Author: Kyrylo Pavlenko
+Author-email: pavlenkokirill120@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# How to use middleman-proxy-server api
+
+## Dynamic API Service
+
+This API allows you to dynamically manage database tables, handle proxy requests, and manage proxy configurations. Below, you will find details of the provided endpoints and their functionality.
+
+---
+
+## Table of Contents
+
+1. [Features](#features)
+2. [Endpoints](#endpoints)
+   - [Create Table](#1-create-table)
+   - [Proxy Request](#2-proxy-request)
+   - [Insert Data](#3-insert-data)
+   - [Get Stored Responses](#4-get-stored-responses)
+   - [List Proxies](#5-list-proxies)
+   - [Delete Proxies](#6-delete-proxies)
+   - [Create Proxies](#7-create-proxies)
+
+---
+
+## Features
+
+- **Dynamic Table Creation:** Create tables with custom schemas dynamically.
+- **Proxy Requests:** Send HTTP requests via proxies and manage proxy configurations.
+- **Data Insertion:** Insert structured data into dynamically created tables.
+- **Proxy Management:** Create, delete, and list proxies for connectors.
+
+---
+
+## Endpoints
+
+### 1. Create Table
+#### **POST** `/create-table`
+
+Dynamically create a new database table with custom columns.
+
+**Request Body:**
+```json
+{
+  "table_name": "example_table",
+  "columns": [
+    { "name": "column1", "type": "String", "nullable": true },
+    { "name": "column2", "type": "Integer", "nullable": false }
+  ]
+}
+```
+**Response**:
+
+```json
+{
+  "message": "Table example_table registered successfully in database."
+}
+```
+`Response status: 200`
+<hr>
+
+### 2. Proxy Request
+#### POST `/proxy-request`
+Send HTTP requests using specified proxies (or without).
+
+**Request Body**:
+
+```json
+{
+  "target_url": "https://example.com",
+  "params": { "key": "value" },
+  "method": "GET",
+  "headers": { "Authorization": "Bearer token" },
+  "body": { "data": "example" },
+  "proxy": "http://proxy:port"
+}
+```
+
+**Response**:
+
+```json
+{
+  "status_code": 200,
+  "headers": { "Content-Type": "application/json" },
+  "body": "response body"
+}
+```
+`Response status: 200`
+<hr>
+
+### 3. Insert Data
+#### POST `/insert-data`
+Insert structured data into a dynamically created table.
+
+**Request Body**:
+
+```json
+{
+  "table_name": "example_table",
+  "data": [
+    { "column_name": "column1", "column_data": "example" },
+    { "column_name": "column2", "column_data": "42" }
+  ]
+}
+```
+
+**Response**:
+
+```json
+{
+  "message": "Data inserted successfully"
+}
+```
+`Response status: 200`
+<hr>
+
+### 4. Get Stored Responses
+#### GET `/stored-responses`
+Retrieve stored data from a specific table.
+
+**Query Parameters**:
+- **table_name** (required, string): Name of the table.
+- **limit** (optional, int): Number of rows to retrieve. Default is 10.
+
+**Response**:
+
+```json
+{
+  "data": [
+    { "column1": "value1", "column2": 42 },
+    { "column1": "value2", "column2": 100 }
+  ]
+}
+```
+`Response status: 200`
+<hr>
+
+### 5. List Proxies
+#### GET `/proxies`
+List all available proxies, optionally filtered by country.
+
+**Query Parameters**:
+
+- **country_code** (optional, string): Filter proxies by country code.
+
+**Response**:
+
+```json
+[
+  {
+    "connector": {
+      "id": "98ed4dae-d05d-4b74-984d-03db14c77666",
+      "projectId": "d1bfcfdc-5f71-4a7a-a83a-252d1f25de4a",
+      "name": "proxies",
+      "type": "freeproxies",
+      "active": true,
+      "proxiesMax": 5,
+      "error": null,
+      "certificateEndAt": null
+    },
+    "proxies": [
+      {
+        "id": "98ed4dae-d05d-4b74-984d-03db14c77666:p-16199.sp6.ovh#89048",
+        "connectorId": "98ed4dae-d05d-4b74-984d-03db14c77666",
+        "projectId": "d1bfcfdc-5f71-4a7a-a83a-252d1f25de4a",
+        "type": "freeproxies",
+        "key": "p-16199.sp6.ovh#89048",
+        "name": "p-16199.sp6.ovh#89048",
+        "status": "STARTED",
+        "removing": false,
+        "removingForce": false,
+        "fingerprint": {
+          "ip": "212.111.197.141",
+          "useragent": "Scrapoxy/4.17.3 (linux; x64; v20.9.0)",
+          "asnName": "User Association of Ukrainian Research and Academic Network URAN",
+          "asnNetwork": "212.111.196.0/23",
+          "continentCode": "EU",
+          "continentName": "Europe",
+          "countryCode": "UA",
+          "countryName": "Ukraine",
+          "cityName": "Kyiv",
+          "timezone": "Europe/Kyiv",
+          "latitude": 50.458,
+          "longitude": 30.5303
+        },
+        "fingerprintError": null,
+        "createdTs": 1733316094422,
+        "requests": 0,
+        "requestsValid": 0,
+        "requestsInvalid": 0,
+        "bytesReceived": 0,
+        "bytesSent": 0
+      }
+    ]
+  }
+]
+```
+`Response status: 200`
+<hr>
+
+### 6. Delete Proxies
+#### DELETE `/proxies`
+Delete specified proxies.
+
+**Request Body:**
+
+```json
+[
+  { "id": "proxy_id", "force": true }
+]
+```
+`Response status: 204 No Content`
+
+#### вљ пёЏ You can get the proxy_id from the [list-proxies endpoint](#5-list-proxies) by getting the response and getting the proxy from `response['proxies']['id']` вљ пёЏ
+<hr>
+
+### 7. Create Proxies
+#### POST `/proxies/{connector_id}`
+Create new proxies for a specific connector.
+
+**Query Parameters**:
+
+- **connector_id** (required, string)
+
+**Request Body:**
+
+```json
+[
+  "http://qAqs6Dj_3:NR6qvyYoz78C@p-16199.sp6.ovh:11004",
+  "http://qAqs6Dj_4:NR6qvyYoz78C@p-16199.sp6.ovh:11005"
+  ...
+]
+```
+`Response status: 204 No Content`
+
+#### вљ пёЏ You can get the connector_id from the [list-proxies endpoint](#5-list-proxies) by getting the response and getting the connector_id from `response['connector']['id']` вљ пёЏ
+<hr>
