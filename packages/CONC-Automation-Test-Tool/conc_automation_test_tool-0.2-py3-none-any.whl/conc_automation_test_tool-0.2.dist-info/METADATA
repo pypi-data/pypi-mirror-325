@@ -1,0 +1,147 @@
+Metadata-Version: 2.2
+Name: conc_automation_test_tool
+Version: 0.2
+Summary: A Python project to establish a unified, automated testing framework for microservices.
+Home-page: https://bitbucket-eng-bgl1.cisco.com/bitbucket/scm/~printrip/conc-5011-python-project-setup.git
+Author: Prince Tripathi
+Author-email: princetripathi093@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Flask>=2.0
+Requires-Dist: Flask-SQLAlchemy>=2.5
+Requires-Dist: psycopg2-binary>=2.9
+Requires-Dist: python-dotenv>=0.19
+Requires-Dist: requests>=2.0
+Requires-Dist: SQLAlchemy>=1.4
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# CONC-Automation-Test-Tool
+
+This project aims to establish a unified, automated testing framework for feature, nightly, and scale tests tailored to each microservice, eliminating node setup dependencies. It involves key microservice components like Kafka messaging, REST calls, cache, and database interactions, orchestrated to ensure thorough validation of microservice functionalities. The framework utilizes a Test Orchestrator to automate test inputs, execute workflows, and validate outputs by leveraging dynamically generated orchestration XLS files. Additionally, it supports concurrent testing of multiple microservices on virtual machines, enabling faster test execution and seamless integration of new features and regression tests.
+
+## Features
+- Modular code structure in the `src/` directory.
+- Unit tests in the `tests/` folder.
+- Configurations separated in the `config/` directory.
+- Comprehensive documentation in `docs/`.
+
+## Setup Instructions
+
+### Prerequisites
+
+1. **Python 3.6+**: Ensure you have Python 3.6 or higher installed on your machine.
+2. **PostgreSQL**: Ensure you have PostgreSQL installed and running.
+
+### Step-by-Step Instructions
+
+1. **Clone the Repository**:
+    ```bash
+    git clone <repository_url>
+    cd conc_automation_test_tool
+    ```
+
+2. **Create and Activate a Virtual Environment**:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+    ```
+
+3. **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Configure Environment Variables**:
+    Create a [`.env`](.env ) file in the root directory of the project. This file will store your environment variables, such as database connection details and secret keys.
+
+    ```bash
+    touch .env
+    ```
+
+    Add the following content to the [`.env`](.env ) file:
+
+    ```
+    DATABASE_URL=postgresql://myuser:prince123@localhost/test1
+    SECRET_KEY=your_secret_key
+    ```
+
+    Replace `myuser`, `prince123`, `localhost`, and `test1` with your actual PostgreSQL username, password, host, and database name, respectively. Replace `your_secret_key` with a secret key of your choice.
+
+5. **Set Up the Database**:
+
+    - **Define Models**:
+        The database schema is defined in the `models.py` file located in [`src/apps/app1`](src/apps/app1 ). Ensure that the models are correctly defined.
+
+    - **Create Tables**:
+        Run the `create_tables.py` script to create the tables in the database.
+
+        ```bash
+        export PYTHONPATH=$(pwd)/src
+        python -m db.create_tables
+        ```
+
+6. **Running the Flask Application**:
+    Start the Flask application by running the `run.py` script.
+
+    ```bash
+    python src/run.py
+    ```
+
+    The application will start, and you can access it at `http://127.0.0.1:5000`.
+
+7. **Accessing API Endpoints**:
+    The following API endpoints are available:
+
+    #### GET Requests
+
+    - **GET `/api/v1/getDataWorkflow`**: Fetch data from the `WorkFlow` table.
+      ```bash
+      curl http://127.0.0.1:5000/api/v1/getDataWorkflow
+      ```
+
+    - **GET `/api/v1/getDataSimulatedData`**: Fetch data from the `SimulatedData` table.
+      ```bash
+      curl http://127.0.0.1:5000/api/v1/getDataSimulatedData
+      ```
+    ##### Note: The above get responses will be of json format.
+    
+    #### POST Requests
+
+    - **POST `/api/v1/postDataWorkflow`**: Insert records into the `WorkFlow` table by uploading an XLSX file.
+      ```bash
+      curl -X POST -F "file=@workflow_data.xlsx" http://127.0.0.1:5000/api/v1/postDataWorkflow
+      ```
+
+    - **POST `/api/v1/postDataSimulatedData`**: Insert records into the `SimulatedData` table by uploading an XLSX file.
+      ```bash
+      curl -X POST -F "file=@simulated_data.xlsx" http://127.0.0.1:5000/api/v1/postDataSimulatedData
+      ```
+
+## Flow Diagram
+
+Below is a flow diagram illustrating the process of uploading an XLSX file, validating the data, and inserting it into the database.
+
+```mermaid
+graph TD;
+    A[Upload XLSX File] --> B[Read XLSX File]
+    B --> C[Validate Data]
+    C -->|Valid| D[Insert into Database]
+    C -->|Invalid| E[Return Error]
+    D --> F[Success Response]
+    E --> F[Error Response]
+```
