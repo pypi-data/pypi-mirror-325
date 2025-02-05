@@ -1,0 +1,2 @@
+[console_scripts]
+db_inspector = db_inspector.script:main
