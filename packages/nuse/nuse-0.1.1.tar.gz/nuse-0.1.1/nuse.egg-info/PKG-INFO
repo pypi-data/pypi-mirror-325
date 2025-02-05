@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: nuse
+Version: 0.1.1
+Author: Jacob Molin Nielsen
+Author-email: jacob.molin@me.com
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description-content-type
