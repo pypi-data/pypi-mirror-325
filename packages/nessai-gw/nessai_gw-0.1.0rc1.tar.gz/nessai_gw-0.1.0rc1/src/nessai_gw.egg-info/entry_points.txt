@@ -1,0 +1,5 @@
+[nessai.proposals]
+augmentedgwflowproposal = nessai_gw.proposals:AugmentedGWFlowProposal
+clusteringgwflowproposal = nessai_gw.proposals:ClusteringGWFlowProposal
+gwflowproposal = nessai_gw.proposals:GWFlowProposal
+mcmcgwflowproposal = nessai_gw.proposals:MCMCGWFlowProposal
