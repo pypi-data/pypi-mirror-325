@@ -1,0 +1,9 @@
+flywheel_alt_data_sdk/__init__.py,sha256=A3MHd8MLxossNJr_YXpZrMWLKYxNCF1LWTPqSqAeOJQ,156
+flywheel_alt_data_sdk/flywheel_alt_data_sdk.py,sha256=oUzBatmaMEwREVF2A8RVQRwA6APP_jh6VbskBwLtyd8,2834
+flywheel_alt_data_sdk/service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flywheel_alt_data_sdk/service/ecom_insights_model.py,sha256=daH92IGmLnEnir4I1ikEC7A1_clkZQdgpPlfkk8ErMY,2949
+flywheel_alt_data_sdk/service/ticker_mapping.py,sha256=9Ctc2-ZmLNAnaaGCpij2kJcX_3pMLklaM46VuDS-u0s,5863
+flywheel_alt_data_sdk-1.0.3.dist-info/METADATA,sha256=OaXxIaMdb39m-PIb_tFMpdLU-p4XcTyS2kxYCwGnfN4,177
+flywheel_alt_data_sdk-1.0.3.dist-info/WHEEL,sha256=Kh9pAotZVRFj97E15yTA4iADqXdQfIVTHcNaZTjxeGM,110
+flywheel_alt_data_sdk-1.0.3.dist-info/top_level.txt,sha256=n1XJlP0mRWOp2DLoFbCtIvZjs6cuhU3bR-5d6nGOh5s,22
+flywheel_alt_data_sdk-1.0.3.dist-info/RECORD,,
