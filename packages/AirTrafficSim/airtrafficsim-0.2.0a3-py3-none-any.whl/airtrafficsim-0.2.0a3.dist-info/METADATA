@@ -1,0 +1,171 @@
+Metadata-Version: 2.4
+Name: AirTrafficSim
+Version: 0.2.0a3
+Summary: A lightweight collection of tools for air traffic management research.
+Project-URL: Repository, https://github.com/HKUST-OCTAD-LAB/AirTrafficSim
+Author-email: Frankie Hui <kyhuiaf@connect.ust.hk>, Abraham Cheung <abraham@ylcheung.com>
+License: MIT License
+        
+        Copyright (c) 2024 Abraham Cheung
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: air transportation,atm,simulations,visualisation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Requires-Dist: annotated-types>=0.7.0
+Requires-Dist: numpy>=2.2.0
+Provides-Extra: all
+Requires-Dist: httpx[http2]>=0.28.1; extra == 'all'
+Requires-Dist: polars[calamine]>=1.18.0; extra == 'all'
+Requires-Dist: xarray>=2024.11.0; extra == 'all'
+Provides-Extra: era5
+Requires-Dist: xarray>=2024.11.0; extra == 'era5'
+Provides-Extra: jax
+Requires-Dist: jax>=0.5.0; extra == 'jax'
+Provides-Extra: networking
+Requires-Dist: httpx[http2]>=0.28.1; extra == 'networking'
+Provides-Extra: plot
+Requires-Dist: matplotlib>=3.10.0; extra == 'plot'
+Provides-Extra: polars
+Requires-Dist: polars[calamine]>=1.18.0; extra == 'polars'
+Description-Content-Type: text/markdown
+
+# AirTrafficSim
+
+[![image](https://img.shields.io/pypi/v/airtrafficsim.svg)](https://pypi.python.org/pypi/airtrafficsim)
+[![image](https://img.shields.io/pypi/l/airtrafficsim.svg)](https://pypi.python.org/pypi/airtrafficsim)
+[![image](https://img.shields.io/pypi/pyversions/airtrafficsim.svg)](https://pypi.python.org/pypi/airtrafficsim)
+[![image](https://img.shields.io/pypi/status/airtrafficsim)](https://pypi.python.org/pypi/airtrafficsim)
+
+<img src="docs/assets/img/Logo-full.png" width=50% />
+
+AirTrafficSim is a lightweight collection of tools for air traffic management research.
+
+This branch (`v0.2`) contains the rewrite of the older `v0.1`[^1] version.
+
+It aims to be significantly more accessible, with absolutely minimal dependencies by default. Extra features (e.g. full web-based simulation environment) must be enabled manually with feature flags.
+
+## Features
+
+- support for modern automatic differentiation (via JAX)
+- support for the [Array API](https://data-apis.org/array-api): Numpy, JAX, PyTorch, CuPy arrays can be passed into functions
+  - partial support for `polars.Expr` with plugin
+- BADA3 ISA atmosphere model
+- thermodynamic calculations
+
+## Installation
+
+`v0.2` is currently under heavy development and not considered stable. For the latest alpha version:
+
+```sh
+pip install airtrafficsim
+```
+
+For the latest bleeding-edge version:
+
+```sh
+pip install "https://github.com/HKUST-OCTAD-LAB/AirTrafficSim/archive/dev.zip"
+```
+
+### Feature Flags
+
+Using the command above will install a version with very minimal footprint. Depending on your use case, you can select one or more optional dependencies:
+
+- `all`: install all optional dependencies
+- `polars`: support for polars DataFrame (used in simulation and postprocessing third party data)
+- `networking`: support for downloading data from external third party sources
+- `era5`: support for parsing NetCDF for Google ARCO ERA5.
+- `jax`: support for automatic differentiation
+- `plot`: utils for nicer plotting
+
+For example:
+
+```sh
+pip install "airtrafficsim[networking,polars]"
+```
+
+## Development
+
+```sh
+git clone https://github.com/HKUST-OCTAD-LAB/AirTrafficSim -b dev --depth=1
+cd AirTrafficSim
+uv venv
+uv sync --all-extras --all-groups
+```
+
+To run scripts:
+
+```sh
+uv run examples/autodiff.py
+```
+
+Alternatively, activate your virtualenv:
+
+```sh
+source .venv/bin/activate
+python3 examples/autodiff.py
+```
+
+### Documentation
+
+```sh
+uv run mkdocs serve
+```
+
+Then, navigate to http://127.0.0.1:8000/AirTrafficSim/.
+
+### Contributing
+
+1. Follow [Black](https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html) style. 
+2. Prefer pure functions over deep inheritance hierarchies.
+3. Use typed code whenever possible.
+
+We use the following tools to check the style on each push:
+
+- [Ruff](https://github.com/astral-sh/ruff) for linting,
+- [MyPy](https://github.com/python/mypy) for type checking 
+
+Locally, run the following before committing:
+
+```sh
+chmod +x ./scripts/style-check.sh
+./scripts/style-check.sh
+```
+
+Recommended VSCode extensions: `charliermarsh.ruff`, `matangover.mypy`, `usernamehw.errorlens`, `ms-toolsai.jupyter`
+
+[^1]: The latest commit can be viewed [here](https://github.com/HKUST-OCTAD-LAB/AirTrafficSim/commit/7a3c3249e602ad17c4b27c7bf900e571d9f7feea). It is considered deprecated and will not receieve futher updates.
+
+## License
+
+Unlike `v0.1` (GPLv3), this branch is licensed under the more permissive [MIT License](./LICENSE).
