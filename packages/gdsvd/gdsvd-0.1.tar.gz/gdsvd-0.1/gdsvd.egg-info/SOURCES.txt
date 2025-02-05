@@ -1,0 +1,10 @@
+README.md
+setup.py
+gdsvd/__init__.py
+gdsvd/svd.py
+gdsvd/utils.py
+gdsvd.egg-info/PKG-INFO
+gdsvd.egg-info/SOURCES.txt
+gdsvd.egg-info/dependency_links.txt
+gdsvd.egg-info/requires.txt
+gdsvd.egg-info/top_level.txt
