@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <div class="mermaid">
+    ---
+title: Information Supply Chain - {{displayName}} [ba3ab0dd-3ec5-4ec5-9db9-f3dc56e3a732]
+---
+flowchart TD
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+ba3ab0dd-3ec5-4ec5-9db9-f3dc56e3a732@{ shape: flip-tri, label: "*Information Supply Chain*
+**{{displayName}}**"}
+f3470059-c239-4a1c-be93-51ef1eae0dd1@{ shape: text, label: "*Description*
+**{{description}}**"}
+ba3ab0dd-3ec5-4ec5-9db9-f3dc56e3a732~~~f3470059-c239-4a1c-be93-51ef1eae0dd1
+style f3470059-c239-4a1c-be93-51ef1eae0dd1 color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style ba3ab0dd-3ec5-4ec5-9db9-f3dc56e3a732 color:#FFFFFF, fill:#004563, stroke:#b7c0c7
+
+  </div>
+
+  <script>
+    mermaid.initialize({startOnLoad:true});
+  </script>
+</body>
+</html>
