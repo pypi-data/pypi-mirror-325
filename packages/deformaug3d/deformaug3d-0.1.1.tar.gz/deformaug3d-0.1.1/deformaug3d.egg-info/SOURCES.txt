@@ -1,0 +1,8 @@
+README.md
+setup.py
+deformaug3d/__init__.py
+deformaug3d.egg-info/PKG-INFO
+deformaug3d.egg-info/SOURCES.txt
+deformaug3d.egg-info/dependency_links.txt
+deformaug3d.egg-info/requires.txt
+deformaug3d.egg-info/top_level.txt
