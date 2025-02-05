@@ -1,0 +1,33 @@
+Metadata-Version: 2.2
+Name: dot_product_beko
+Version: 1.0.7
+Summary: Fast dot product computation using Assembly (AVX2)
+Author: Abdulhamit Güngören
+Author-email: Abdulhamit Güngören <abdulhamitgungoren@gmail.com>
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Dynamic: author
+
+# dot_product
+
+Fast dot product computation using Assembly (AVX2). 
+
+## Installation
+
+```pip install dot-product-beko```
+
+## Usage
+
+```python
+import numpy as np
+from dot_product import dot_product
+
+x = np.random.rand(1000000).astype(np.float64)
+y = np.random.rand(1000000).astype(np.float64)
+
+result = dot_product(x, y)
+print("Dot Product:", result)
+```

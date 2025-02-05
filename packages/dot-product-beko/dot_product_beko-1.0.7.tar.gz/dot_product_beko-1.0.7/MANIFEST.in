@@ -1,0 +1,4 @@
+include LICENSE
+include src/dot_product.asm
+include src/dot_product.c
+include src/dummy.c
