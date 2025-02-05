@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: teon
+Version: 0.4.2
+Requires-Dist: pygame>=2.0.0
+Requires-Dist: opencv-python
+Requires-Dist: Pillow

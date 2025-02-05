@@ -1,0 +1,3 @@
+include teon/icon.png
+include teon/Teon Level Editor.exe
+recursive-include teon/extra *
