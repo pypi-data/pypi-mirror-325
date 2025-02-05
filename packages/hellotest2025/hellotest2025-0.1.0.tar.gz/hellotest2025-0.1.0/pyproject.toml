@@ -1,0 +1,17 @@
+[project]
+name = "hellotest2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "raykang35", email = "raykang35@icloud.com" }
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+hellotest2025 = "hellotest2025:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
