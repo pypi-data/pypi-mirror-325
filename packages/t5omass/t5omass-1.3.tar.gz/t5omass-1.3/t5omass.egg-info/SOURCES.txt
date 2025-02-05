@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+t/__init__.py
+t/thomas.py
+t5omass.egg-info/PKG-INFO
+t5omass.egg-info/SOURCES.txt
+t5omass.egg-info/dependency_links.txt
+t5omass.egg-info/requires.txt
+t5omass.egg-info/top_level.txt
