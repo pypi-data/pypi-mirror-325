@@ -1,0 +1,12 @@
+wealth_discovery_destiny-1.0.0.dist-info/METADATA,sha256=hJ2TrDdUov5_7Egl4O_pugP6QV-oyNC6CMjESbsybVg,3075
+wealth_discovery_destiny-1.0.0.dist-info/WHEEL,sha256=eKn-h6LbuPin9BQdctwIkEq1OLRtDcdOVrhrYyXn53g,129
+wealth_discovery_destiny-1.0.0.dist-info/licenses/LICENSE,sha256=vRnsyclR7bCekcOLsF9-xB9mDRQMN7IYqdIZsuVUy0E,1072
+destiny/destiny.pyi,sha256=lhkS-Dvc3w1hDc3xcOg4yssa0c_3-eb0wk7Wzu2xyLM,7593
+destiny/__init__.py,sha256=S9D343pKGrkGzjZJbcOsyUTUm11A3WBBaD43c8upxtE,413
+destiny/strategy.py,sha256=ZgmmrwGn41PpzCTthfjR-ojp22ZFLEYMeQ2rP4eJMwc,1603
+destiny/tests/download_history_data.py,sha256=6MT_IAkSdPSzH4RG7Gn765iaxCkwLNKp3J9oLT-O3tQ,310
+destiny/tests/backtest.py,sha256=dz-5PufRDTsDn324UUqlk9aJ6JRXdYXPBPmoOXWf3V4,1247
+destiny/tests/test_1.py,sha256=kP1Z0Hl_YLHXLyJqYvoy0rhDCff9m9L4oSf1h42QGy4,150
+destiny/backtest.py,sha256=HTEnmVE_apkV8e_DGHolLz7y4vK0YNEU7xBjZLqT7uw,1404
+destiny/destiny.cpython-311-x86_64-linux-gnu.so,sha256=CFeQhJw2oPJ9cYzLD0x5EuHjjmOJmcEZOJzLw5CmvMc,3100128
+wealth_discovery_destiny-1.0.0.dist-info/RECORD,,
