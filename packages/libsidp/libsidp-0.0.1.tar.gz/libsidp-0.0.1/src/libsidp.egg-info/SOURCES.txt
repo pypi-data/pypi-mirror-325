@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/libsidp.egg-info/PKG-INFO
+src/libsidp.egg-info/SOURCES.txt
+src/libsidp.egg-info/dependency_links.txt
+src/libsidp.egg-info/top_level.txt
+src/package_sidp/__init__.py
+src/package_sidp/libsidp.py
