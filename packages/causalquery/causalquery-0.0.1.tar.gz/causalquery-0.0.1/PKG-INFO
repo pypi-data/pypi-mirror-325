@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: causalquery
+Version: 0.0.1
+Summary: Query causal graphs.
+Home-page: https://github.com/nickgerend/causalquery
+Author: Nick Gerend
+Author-email: nickgerend@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# causalquery
+
+Query a causal graph!
+
+## install
+pip install causalquery
