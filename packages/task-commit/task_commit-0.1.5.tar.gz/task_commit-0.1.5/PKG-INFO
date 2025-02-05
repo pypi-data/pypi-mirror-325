@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: task-commit
+Version: 0.1.5
+Summary: Tool for formatting commits following the Conventional Commits pattern and recognizing Git Flow branches.
+Home-page: https://github.com/WalefyHG/Task_Commit
+License: MIT
+Author: Walefy Lima
+Author-email: walefylima@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Repository, https://github.com/WalefyHG/Task_Commit
+Description-Content-Type: text/markdown
+
+# Task Commit
+
+Tool for formatting commits following the Conventional Commits pattern and recognizing Git Flow branches.
+
+## Installation
+
+To install the package, use:
+
+```bash
+pip install task_commit
+```
+
+## Usage
+
+To use, type
+
+```bash
+task_commit
+
+```
