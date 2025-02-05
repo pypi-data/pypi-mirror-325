@@ -1,0 +1,14 @@
+starmap_client/__init__.py,sha256=Ov-s9QJG-79wAg6kk40UDX82SSBn7wgRl2VnDsXKrHM,106
+starmap_client/client.py,sha256=rqM2s5lIrwtc401eDgMT3gC25wqR1TPQ0sd5N8OWkbk,7986
+starmap_client/models.py,sha256=MnNxK0lL623kMV8WrZ0Mi_DGHlcOWir4ONOHS-TNhGo,17359
+starmap_client/session.py,sha256=RwmFYi86LWVVQ2MR3D9j_1mOk-kOEQORY_XYhOfiGGg,4797
+starmap_client/utils.py,sha256=CNi_5xp4s9yTTTWce-nfdNkr5Tvfh5oo4ZsRvkzhitY,1118
+starmap_client/providers/__init__.py,sha256=AkrjgZBNXxbVsmI8Z02tDuompIn5ibAKGGaC3xhVTgw,196
+starmap_client/providers/base.py,sha256=DCT0EBQTvboBlWOxHCDxFJl_mOJJLEkGPSC9QRiQ820,1178
+starmap_client/providers/memory.py,sha256=nHOgYSPzaJSsfulTcENVvjtob7BK--WWsBww8_hHTuQ,2113
+starmap_client/providers/utils.py,sha256=W4YLzpcIv__ghvzJZ5azF6i3AvAeM2lMnNzQn60W_jA,2107
+starmap_client-2.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+starmap_client-2.2.0.dist-info/METADATA,sha256=QSrVWAGeUSO7t6p68Up0H14HDmooJoo1KNCkL2elHCY,768
+starmap_client-2.2.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+starmap_client-2.2.0.dist-info/top_level.txt,sha256=t_Qx0cURF6Uq1SxsnIuAzk5RgbT0Is2VAlOSiylU4O4,15
+starmap_client-2.2.0.dist-info/RECORD,,
