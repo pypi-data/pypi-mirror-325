@@ -1,0 +1,108 @@
+Metadata-Version: 2.2
+Name: deformaug3d
+Version: 0.1.1
+Summary: A package for 3D volume augmentation with configurable parameters
+Home-page: https://github.com/haifangong/deformaug3d
+Author: Haifan Gong
+Author-email: haifangong@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Deformaug3d
+
+Deformaug3d is a Python package for performing 3D volume augmentation with configurable parameters. Designed with simplicity and flexibility in mind, it allows you to augment 3D masks and volumes easily, making it a great choice for machine learning and data augmentation pipelines.
+
+## Features
+
+- **Configurable Augmentation Parameters:** Define your own augmentation ranges or use sensible defaults.
+- **GPU Support:** Leverage CUDA-enabled GPUs for efficient processing via PyTorch.
+- **Modular Design:** Easily integrate with your existing code and extend functionality.
+
+## Installation
+
+### Requirements
+
+- Python 3.6+
+- [PyTorch](https://pytorch.org/) (with CUDA support if available)
+
+### Installing from PyPI
+
+*(Once published on PyPI, you can install MyPackage using pip)*
+
+    pip install deformaug3d
+
+### Installing Locally
+
+Clone the repository and install in editable mode:
+
+    git clone https://github.com/haifangong/deformaug3d.git
+    cd deformaug3d
+    pip install -e .
+
+## Usage
+
+The package provides functions `augmentation` and `aug_mask_and_img` to perform and manage 3D augmentation. Here is an example of how to use these functions:
+
+    import torch
+    from mypackage.augmentation import aug_mask_and_img
+
+    # Create dummy data for demonstration
+    dummy_mask = torch.zeros((1, 1, 128, 128, 128))
+    dummy_img = torch.ones((1, 1, 128, 128, 128))
+
+    # Custom augmentation parameters (optional)
+    custom_aug_parameters = {
+        "rot_range_x": (-10.0, 10.0),
+        "rot_range_y": (-8.0, 8.0),
+        "rot_range_z": (-8.0, 8.0),
+        "scale_range_x": (0.95, 1.00),
+        "scale_range_y": (0.95, 1.00),
+        "scale_range_z": (0.95, 1.00),
+        "shift_range_x": (-0.02, 0.02),
+        "shift_range_y": (-0.02, 0.02),
+        "shift_range_z": (-0.02, 0.02),
+        "contrast": (1.0, 1.0),
+        "gray_shift": (0.0, 0.0),
+        "flip_x": False,
+        "flip_y": False,
+        "flip_z": False,
+        "elastic_alpha": [3.0, 3.0, 3.0],  # For x, y, z axis
+        "smooth_num": 4,
+        "field_size": [10, 10, 10],        # For x, y, z axis
+        "size_o": (128, 128, 128)
+    }
+
+    # Augment the dummy mask and image using the custom parameters
+    augmented_mask, augmented_img = aug_mask_and_img(
+        dummy_mask, dummy_img, aug_parameters=custom_aug_parameters
+    )
+
+    print("Augmentation complete!")
+
+## API Reference
+
+### aug_mask_and_img(mask, img, aug_parameters=None)
+
+- **mask:** Input mask tensor.
+- **img:** Input image/volume tensor.
+- **aug_parameters (dict, optional):** Dictionary of augmentation parameters. If not provided, the default parameters are used.
+- **Returns:** A tuple containing the augmented mask and image/volume as tensors.
+
+### augmentation(mask, vol, aug_model)
+
+- **mask:** Input mask tensor.
+- **vol:** Input volume tensor.
+- **aug_model:** An instance of the augmentation model that applies transformations.
+- **Returns:** A tuple `(mask_aug, vol_aug)` containing the augmented mask and volume.
