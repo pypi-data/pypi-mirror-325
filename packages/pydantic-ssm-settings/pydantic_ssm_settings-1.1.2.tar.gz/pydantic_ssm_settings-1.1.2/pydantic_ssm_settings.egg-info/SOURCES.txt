@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+pydantic_ssm_settings/__init__.py
+pydantic_ssm_settings/settings.py
+pydantic_ssm_settings/source.py
+pydantic_ssm_settings.egg-info/PKG-INFO
+pydantic_ssm_settings.egg-info/SOURCES.txt
+pydantic_ssm_settings.egg-info/dependency_links.txt
+pydantic_ssm_settings.egg-info/requires.txt
+pydantic_ssm_settings.egg-info/top_level.txt
+tests/test_main.py

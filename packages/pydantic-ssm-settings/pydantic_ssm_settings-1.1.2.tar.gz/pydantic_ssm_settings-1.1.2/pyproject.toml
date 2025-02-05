@@ -1,0 +1,56 @@
+[project]
+dependencies = [
+  "pydantic-settings>=2",
+]
+description = "AWS SSM support for Pydantic Settings"
+name = "pydantic-ssm-settings"
+readme = "README.md"
+requires-python = ">=3.9"
+version = "1.1.2"
+
+[dependency-groups]
+dev = [
+  "boto3>=1.36.12",
+  "boto3-stubs[ssm]>=1.36.12",
+  "pre-commit>=4.1.0",
+  "pytest>=8.3.4",
+  "moto[all]>=5.0.28",
+  "pytest-cov>=6.0.0",
+]
+
+[tool.semantic_release]
+# https://python-semantic-release.readthedocs.io/en/latest/configuration.html
+branch = "main" 
+build_command = "pip install uv && uv build" # https://github.com/python-semantic-release/python-semantic-release/issues/222#issuecomment-2599855898
+upload_to_pypi = true 
+upload_to_release = true 
+version_toml = ["pyproject.toml:project.version"] 
+version_variables = ["pydantic_ssm_settings/__init__.py:__version__"] 
+
+[tool.flake8]
+ignore = ["E203", "W503"]
+max-complexity = 14
+max-line-length = 90
+
+[tool.pytest]
+addopts = "-p no:hypothesispytest"
+testpaths = "tests"
+
+[tool.isort]
+combine_as_imports = "true"
+force_grid_wrap = 0
+include_trailing_comma = "true"
+known_first_party = "pydantic_ssm_settings"
+line_length = 90
+multi_line_output = 3
+
+[tool.mypy]
+files = "pydantic_ssm_settings"
+python_version = "3.9"
+
+[tool.coverage]
+precision = 2
+range = [95, 100]
+
+[tool.coverage.comment]
+layout = "header, diff, flags, files, footer"
