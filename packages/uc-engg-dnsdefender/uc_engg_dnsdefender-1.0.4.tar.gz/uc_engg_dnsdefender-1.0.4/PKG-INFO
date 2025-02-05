@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: uc-engg-dnsdefender
+Version: 1.0.4
+Summary: Tool to analyze and eliminate dangling elastic IPs in AWS accounts
+Author-email: UC Engineering <abhinavgautam@urbancompany.com>
+Project-URL: Homepage, https://gitlab.urbanclap.com/urbanclap/dangling-dns-service
+Project-URL: Bug Tracker, https://gitlab.urbanclap.com/urbanclap/dangling-dns-service/-/issues
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: boto3
+Requires-Dist: requests
+Requires-Dist: cloudflare
+Requires-Dist: slack-sdk
+
+# UC Engg DNS Defender
