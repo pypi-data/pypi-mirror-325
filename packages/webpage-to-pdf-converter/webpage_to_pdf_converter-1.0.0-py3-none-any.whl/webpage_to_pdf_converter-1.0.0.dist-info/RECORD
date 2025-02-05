@@ -1,0 +1,11 @@
+webpage2pdf/__init__.py,sha256=adppC45z5jDXX4AW_kCXYbCmRza7czZoCWAIMuoqZ0I,219
+webpage2pdf/main.py,sha256=DNSWExJggoocplStVpIUsV_HmZNfAA917R3GFHQFhhw,4697
+webpage2pdf/version.py,sha256=1TV2lmvwenVIyF-xGE84ndI1mqz8Xhtmq6T9FGXzRuc,22
+webpage2pdf/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webpage2pdf/utils/browser.py,sha256=T037SsoJCoZ0BJCnkoWPup6yrKDZmFUUPvmPBbrlQpA,3287
+webpage2pdf/utils/pdf.py,sha256=SQK67IgJ2yXg4C2_aoYgF5qMDGYBTKkbdOvXScJcEtM,1162
+webpage_to_pdf_converter-1.0.0.dist-info/METADATA,sha256=EOXDWGjonh_8T6WYqA0LLcsoq0DrAV6FkHWuKGN3Qco,2216
+webpage_to_pdf_converter-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+webpage_to_pdf_converter-1.0.0.dist-info/entry_points.txt,sha256=ybYXRpyxPINJPJnIipqtqIe6ChI-G1XBkqS0URU6JbE,57
+webpage_to_pdf_converter-1.0.0.dist-info/top_level.txt,sha256=eT3PYmdNOXZ3RUdwW4Vxj6TTmwdR_JPjfnrKamkz9eg,12
+webpage_to_pdf_converter-1.0.0.dist-info/RECORD,,
