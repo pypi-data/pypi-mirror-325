@@ -1,0 +1,7 @@
+chatwoot_api/__init__.py,sha256=QEVPzQJ6pZgSSNSYRayrOo-t6k9kNrR3G7_TnCbAnmE,7651
+chatwoot_api/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatwoot_api/settings.py,sha256=zv2msIjlqpfhQdmwItWbC0klyQ9ro4-4PG4B09F7Ez0,315
+chatwoot_api/sql/get_user_token.sql,sha256=IrgaEv58zOQeqJ2rya2H1weEIDm9M4S4LiWzYQuF1WQ,172
+chatwoot_api-0.0.1.dist-info/METADATA,sha256=daVd9BUN36Q8s6UmDeph8OUd2VPTzDoOGAR0QWjTnjo,299
+chatwoot_api-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+chatwoot_api-0.0.1.dist-info/RECORD,,
