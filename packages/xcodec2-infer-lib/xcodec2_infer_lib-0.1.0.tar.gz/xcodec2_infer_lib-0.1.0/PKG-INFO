@@ -1,0 +1,63 @@
+Metadata-Version: 2.2
+Name: xcodec2-infer-lib
+Version: 0.1.0
+Summary: Trying to achieve M chip Macbook support for https://huggingface.co/HKUSTAudio/xcodec2.
+Author: Utku Ege Tuluk
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+Project-URL: homepage, https://github.com/uetuluk/xcodec2-infer-lib
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch==2.4.1
+Requires-Dist: numpy==2.0.2
+Requires-Dist: einops==0.8.0
+Requires-Dist: transformers==4.44.2
+Requires-Dist: rotary-embedding-torch==0.8.6
+Requires-Dist: vector-quantize-pytorch==1.21.7
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: safetensors; extra == "dev"
+
+# xcodec2-infer-lib
+
+CPU support for https://huggingface.co/HKUSTAudio/xcodec2
+
+# Setting up for dev
+
+```
+conda create xcodec2-infer-lib python=3.12 -y
+```
+
+```
+conda activate xcodec2-infer-lib
+```
+
+```
+pip install -e .
+```
+
+# Setting up for use
+
+```
+pip install xcodec2-infer-lib
+```
+
+# Testing
+
+Replace `your_model_path` with the absolute path to your model.
+
+```
+export MODEL_PATH="your_model_path" 
+pytest test_xcodec.py
+```
+
+# Model
+
+You can download the model from https://huggingface.co/HKUSTAudio/xcodec2.
+
+# Using
+
+Check out the example at https://huggingface.co/HKUSTAudio/Llasa-3B.
