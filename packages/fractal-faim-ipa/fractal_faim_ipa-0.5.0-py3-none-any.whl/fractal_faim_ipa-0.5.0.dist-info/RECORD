@@ -1,0 +1,13 @@
+fractal_faim_ipa/__FRACTAL_MANIFEST__.json,sha256=7ZFtekDQ0YrqTcHdYI9EqVnWOdFd8IVR0rRQ5xPRV00,5264
+fractal_faim_ipa/__init__.py,sha256=OvjyD_YJnU6D_kQGZJwYg4hTc8796tLgn6mC1eBhSiE,311
+fractal_faim_ipa/convert_ome_zarr.py,sha256=keJz9LJIHFJctwWicBAjkry6hFBtY02PwXEpoJU9mUc,6929
+fractal_faim_ipa/md_converter_utils.py,sha256=GTtfrkh_8fjIxZuOkgI-aXxywWE7_SJBbNtA4LQYpBc,957
+fractal_faim_ipa/py.typed,sha256=esB4cHc6c07uVkGtqf8at7ttEnprwRxwk8obY8Qumq4,187
+fractal_faim_ipa/roi_tables.py,sha256=qL9Mm1BiuC-nV45P6cp6OsuhwRwZCeA-khq77sbI8SI,4183
+fractal_faim_ipa/dev/create_manifest.py,sha256=L9LFYwa7p1nG-_3g4ed6bDw-hkB47_8lt4DX-2BoK4k,346
+fractal_faim_ipa/dev/task_list.py,sha256=asX1I_p8lLp2VwFyH3IKoba9oFHeOMZ3URJAFybbD18,459
+fractal_faim_ipa/dev/task_info/md_converter.md,sha256=ZFIo6PTL3xYXNNMxHFpnuqkniu0xpGOfUJZp0SLSUpI,701
+fractal_faim_ipa-0.5.0.dist-info/METADATA,sha256=F49niFUowXtXEQLGnU9Z84lw2Maghv4SuNUW0dtCES4,2708
+fractal_faim_ipa-0.5.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+fractal_faim_ipa-0.5.0.dist-info/licenses/LICENSE,sha256=V6SM4uBv5FzHaQU7eVUNu9X6NErVu1LcDcmxMZSoDgs,1498
+fractal_faim_ipa-0.5.0.dist-info/RECORD,,
