@@ -1,0 +1,6 @@
+README.md
+setup.py
+python_bandit.egg-info/PKG-INFO
+python_bandit.egg-info/SOURCES.txt
+python_bandit.egg-info/dependency_links.txt
+python_bandit.egg-info/top_level.txt
