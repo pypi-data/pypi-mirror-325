@@ -1,0 +1,2 @@
+[console_scripts]
+gather-code = gather_code.cli:main

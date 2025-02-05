@@ -1,0 +1,8 @@
+gather_code/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gather_code/cli.py,sha256=5vICzyCc-_rlaR3ss84LX8dmhqgsxj73SqfsW4m7-JI,4817
+gather_code-0.1.0.dist-info/LICENSE,sha256=29JqhBvux-V4L3HWPubnfQRt_41hHnlL1vVcQdY19D0,1062
+gather_code-0.1.0.dist-info/METADATA,sha256=w4dPz0yZNBWW-_31_0a17DU0bimXvsfNXrBZCmoaZpM,569
+gather_code-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+gather_code-0.1.0.dist-info/entry_points.txt,sha256=4moD0gkF7G5yXV6gu9FTi0pICjmamy6ZoTSAltysqec,53
+gather_code-0.1.0.dist-info/top_level.txt,sha256=BZpIdjsPIOawwGgLOeaLvvcUb837uBSkhIyjdAdPRPQ,12
+gather_code-0.1.0.dist-info/RECORD,,
