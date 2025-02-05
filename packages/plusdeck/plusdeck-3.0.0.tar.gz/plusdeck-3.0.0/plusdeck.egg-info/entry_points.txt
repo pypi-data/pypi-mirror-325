@@ -1,0 +1,4 @@
+[console_scripts]
+plusdeck = plusdeck.cli:main
+plusdeckctl = plusdeck.dbus.client:main
+plusdeckd = plusdeck.dbus.service:main
