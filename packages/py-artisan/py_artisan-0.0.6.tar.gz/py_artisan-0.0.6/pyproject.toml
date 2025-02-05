@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py_artisan"
+version = "0.0.6"
+description = "一个优雅好用的 Python 工具包"
+readme = "README.md"
+authors = [
+    {name = "rokywang", email = "wxytjustb@gmail.com"}
+]
+license = {file = "LICENSE"}
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+# 声明动态依赖
+dynamic = ["dependencies", "optional-dependencies"]
+
+[project.urls]
+Homepage = "https://github.com/wxytjustb/py-artisan"
+Repository = "https://github.com/wxytjustb/py-artisan.git"
+
+[tool.setuptools.packages.find]
+include = ["py_artisan", "py_artisan.*"]
+
+[tool.pytest.ini_options]
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+] 
