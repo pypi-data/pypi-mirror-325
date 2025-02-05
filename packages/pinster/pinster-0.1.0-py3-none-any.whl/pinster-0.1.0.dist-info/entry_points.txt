@@ -1,0 +1,2 @@
+[console_scripts]
+pinster = pinster.main:app
