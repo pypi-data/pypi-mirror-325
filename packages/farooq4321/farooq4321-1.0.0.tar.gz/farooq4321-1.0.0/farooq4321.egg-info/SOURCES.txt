@@ -1,0 +1,6 @@
+setup.py
+farooq4321.egg-info/PKG-INFO
+farooq4321.egg-info/SOURCES.txt
+farooq4321.egg-info/dependency_links.txt
+farooq4321.egg-info/not-zip-safe
+farooq4321.egg-info/top_level.txt
