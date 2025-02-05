@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling", "hatch-regex-commit"]
+build-backend = "hatchling.build"
+
+[tool.hatch]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.version]
+source = "regex_commit"
+commit_extra_args = ["-e"]
+path = "python_depends/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["python_depends/"]
+
+[project]
+name = "depends_python"
+dynamic = ['version']
+authors = [
+    { name = "zayycev22" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+
+description = "Dependency injection for python functions"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.urls]
+Source = "https://github.com/zayycev22/python_depends"
