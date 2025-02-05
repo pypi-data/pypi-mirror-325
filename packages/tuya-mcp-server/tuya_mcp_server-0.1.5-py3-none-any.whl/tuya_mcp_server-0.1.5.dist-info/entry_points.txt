@@ -1,0 +1,2 @@
+[console_scripts]
+tuya-mcp-server = tuya_mcp_server:main
