@@ -1,0 +1,28 @@
+Metadata-Version: 2.2
+Name: ascii-forge
+Version: 0.1
+Summary: Turn your images into ASCII art from your terminal
+Home-page: https://github.com/kanakOS01/ascii-forge/
+Author: Kanak Tanwar
+Author-email: kanaktanwarpro@gmail.com
+Keywords: ascii-forge ascii forge ascii-art art
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Click
+Requires-Dist: Pillow
+Requires-Dist: Colorama
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+long_description
