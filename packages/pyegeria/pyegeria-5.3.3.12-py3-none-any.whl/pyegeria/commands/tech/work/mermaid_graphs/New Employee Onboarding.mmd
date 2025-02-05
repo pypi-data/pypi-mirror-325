@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <div class="mermaid">
+    ---
+title: Information Supply Chain - New Employee Onboarding [022009d9-53cb-4469-afeb-16ee81d8f9bc]
+---
+flowchart TD
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+022009d9-53cb-4469-afeb-16ee81d8f9bc@{ shape: flip-tri, label: "*Information Supply Chain*
+**New Employee Onboarding**"}
+5dc47e24-5264-45f4-8431-02f6c0b1f2ca@{ shape: text, label: "*Description*
+**Adding information about a new employee to all appropriate systems and directories.**"}
+022009d9-53cb-4469-afeb-16ee81d8f9bc~~~5dc47e24-5264-45f4-8431-02f6c0b1f2ca
+09cf46b0-6780-4f3d-9e08-03a350c71de6@{ shape: text, label: "*Purpose*
+**Ensure a new employee is productive and engaged in a timely manner.**"}
+5dc47e24-5264-45f4-8431-02f6c0b1f2ca~~~09cf46b0-6780-4f3d-9e08-03a350c71de6
+88c42780-6fb1-49e2-a584-8af90cdc7728@{ shape: rounded, label: "*Software Server*
+**System:coco-hrim**"}
+ae0c7768-c01e-4bd1-8a47-fbacfccf2f63@{ shape: rounded, label: "*Software Server*
+**System:Netherlands payroll**"}
+88c42780-6fb1-49e2-a584-8af90cdc7728-->|"payment authorization [Data Flow]"|ae0c7768-c01e-4bd1-8a47-fbacfccf2f63
+a47906f0-67f0-46ed-890d-85cb049ffa60@{ shape: rounded, label: "*Software Server*
+**System:cocopages**"}
+88c42780-6fb1-49e2-a584-8af90cdc7728-->|"employee directory [Data Flow]"|a47906f0-67f0-46ed-890d-85cb049ffa60
+35bef6c5-25d7-47b1-91db-f9bce0238612@{ shape: rounded, label: "*Software Server*
+**System:Canadian payroll**"}
+88c42780-6fb1-49e2-a584-8af90cdc7728-->|"payment authorization [Data Flow]"|35bef6c5-25d7-47b1-91db-f9bce0238612
+12c9d1a4-2a5d-4e7c-a640-97f206270425@{ shape: rounded, label: "*Software Server*
+**System:UK payroll**"}
+88c42780-6fb1-49e2-a584-8af90cdc7728-->|"payment authorization [Data Flow]"|12c9d1a4-2a5d-4e7c-a640-97f206270425
+style 022009d9-53cb-4469-afeb-16ee81d8f9bc color:#FFFFFF, fill:#004563, stroke:#b7c0c7
+style 09cf46b0-6780-4f3d-9e08-03a350c71de6 color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style ae0c7768-c01e-4bd1-8a47-fbacfccf2f63 color:#000000, fill:#e0ab18, stroke:#004563
+style 88c42780-6fb1-49e2-a584-8af90cdc7728 color:#000000, fill:#e0ab18, stroke:#004563
+style 12c9d1a4-2a5d-4e7c-a640-97f206270425 color:#000000, fill:#e0ab18, stroke:#004563
+style 5dc47e24-5264-45f4-8431-02f6c0b1f2ca color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style a47906f0-67f0-46ed-890d-85cb049ffa60 color:#000000, fill:#e0ab18, stroke:#004563
+style 35bef6c5-25d7-47b1-91db-f9bce0238612 color:#000000, fill:#e0ab18, stroke:#004563
+
+  </div>
+
+  <script>
+    mermaid.initialize({startOnLoad:true});
+  </script>
+</body>
+</html>
