@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+diskcache_decorator/__init__.py
+diskcache_decorator.egg-info/PKG-INFO
+diskcache_decorator.egg-info/SOURCES.txt
+diskcache_decorator.egg-info/dependency_links.txt
+diskcache_decorator.egg-info/requires.txt
+diskcache_decorator.egg-info/top_level.txt
