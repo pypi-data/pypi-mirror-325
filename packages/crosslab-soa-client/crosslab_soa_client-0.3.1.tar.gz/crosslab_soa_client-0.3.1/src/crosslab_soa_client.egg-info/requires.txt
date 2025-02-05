@@ -1,0 +1,2 @@
+crosslab-aiortc>=1.8.0
+crosslab_api_client
