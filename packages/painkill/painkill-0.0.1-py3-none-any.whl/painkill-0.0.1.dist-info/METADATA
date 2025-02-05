@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: painkill
+Version: 0.0.1
+Summary: Use Python for front end web development by generating html,css and javascript code
+Project-URL: Homepage, https://github.com/Rubarion
+Author-email: Sreehari P V <sreehari.mras@gmail.com>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# py4html
+<b>painkill (pronounced pain kill)</b> is a simple Python library that makes it possible to develop websites entirely using python by writing HTML CSS and Javascript code in python or in other words you write your webpage
+appearance in Python and the library generates the equivalent HTML CSS Javascript code for you.
+
+Write everything in Python. No need to type a single word of HTML,CSS or Javascript. Use Python to create web pages. Do web development only using Python. This is an ongoing project and will be updated frequently
