@@ -1,0 +1,8 @@
+code/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+code/create_producer_consumer.py,sha256=5z94Y6BmY3z6DRurWFpoJCwLq5a3lL1a39_XPRrh3Wc,6672
+code/delete_producer_consumer.py,sha256=Bbh2Xr-B_54_vKceCzcfMRtK6CD9ErcUhcueO62zSdo,3052
+code/list_producer_consumers.py,sha256=SoOmSHRqlgULWzLwyhRgn9stCaowh-PIGp22IThw-mQ,9185
+ceda_sentinel_dhs_tools-0.1.0.dist-info/METADATA,sha256=NgUbcqX_vy_eSCZn8yZnjhI5f6lrvooAl4ZI9TSCfQo,5248
+ceda_sentinel_dhs_tools-0.1.0.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+ceda_sentinel_dhs_tools-0.1.0.dist-info/entry_points.txt,sha256=upLMn-84alckllCUKtVFT1PsrSxgBJ7oNIORN8xIZAg,197
+ceda_sentinel_dhs_tools-0.1.0.dist-info/RECORD,,

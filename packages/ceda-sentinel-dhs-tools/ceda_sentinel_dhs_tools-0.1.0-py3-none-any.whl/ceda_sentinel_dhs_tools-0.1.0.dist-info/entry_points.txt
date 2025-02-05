@@ -1,0 +1,5 @@
+[console_scripts]
+create_producer_consumer=code.create_producer_consumer:main
+delete_producer_consumer=code.delete_producer_consumer:main
+list_producer_consumers=code.list_producer_consumers:main
+
