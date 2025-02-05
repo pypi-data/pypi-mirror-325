@@ -1,0 +1,28 @@
+Metadata-Version: 2.2
+Name: csmximage
+Version: 0.1.0
+Summary: AI-Powered, Quantum-Safe, Lightwave-Secured Image Authentication System
+Home-page: https://github.com/Sumedh1599/csmximage
+Author: Sumedh Patil
+Author-email: admin@aipresso.uk
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: scikit-image
+Requires-Dist: imagehash
+Requires-Dist: Pillow
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

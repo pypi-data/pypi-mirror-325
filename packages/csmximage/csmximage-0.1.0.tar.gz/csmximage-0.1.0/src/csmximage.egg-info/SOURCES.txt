@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/csmximage.egg-info/PKG-INFO
+src/csmximage.egg-info/SOURCES.txt
+src/csmximage.egg-info/dependency_links.txt
+src/csmximage.egg-info/requires.txt
+src/csmximage.egg-info/top_level.txt
+tests/test_image_gen.py
+tests/test_lightwave.py
+tests/test_scanner.py
