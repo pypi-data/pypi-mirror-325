@@ -1,0 +1,38 @@
+{
+    "potential": [
+        {
+            "type": "yukawa",
+            "parameters": {
+                "kappa": [[0.1675, 0.1675], [0.1675, 0.1675]],
+                "epsilon": [[0.25125, -0.1675], [-0.1675, 0.111667]],
+                "sigma": [[0.0, 0.0], [0.0, 0.0]]
+            }
+        },
+        {
+            "type": "inverse_power",
+            "parameters": {
+                "exponent": [[12, 12], [12, 12]],
+                "epsilon": [[1.0, 1.0], [1.0, 1.0]],
+                "sigma": [[2.3015, 1.0873], [1.0873, 0.9227]]
+            }
+        }
+    ],
+    "cutoff": [
+        {
+            "type": "linear_cut_shift",
+            "parameters": {"rcut": [[6.0, 6.0], [6.0, 6.0]]}
+        },
+        {
+            "type": "linear_cut_shift",
+            "parameters": {"rcut": [[6.0, 6.0], [6.0, 6.0]]}
+        }
+    ], 
+    "metadata": {
+        "name": "roy_heyde_heuer-II", 
+        "doi": "10.48550/arXiv.2410.10500", 
+        "reference": "arXiv:2410.10500 (2024)",
+        "description": "2d model of a silica bilayer",
+        "notes": "This is a variant of the Roy-Heyde-Heuer model with optimized parameters"
+    }
+}
+
