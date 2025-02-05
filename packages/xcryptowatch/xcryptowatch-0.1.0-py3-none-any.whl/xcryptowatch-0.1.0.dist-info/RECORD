@@ -1,0 +1,13 @@
+xcryptowatch/__init__.py,sha256=EiNlICA8p0SRyvpIwWPq3rlm7NF7uc5G4C_uqiqUZro,76
+xcryptowatch/config_json.py,sha256=XN_Z9JEoQiNixKg9d7ogb8_EbMNF7KdYjfFq-ZJnqpU,5285
+xcryptowatch/gpt.py,sha256=id05wRwDQJQgxsBbxkhYQMXotQ6yvlnOGTQ_J8mdbuQ,3064
+xcryptowatch/log.py,sha256=edUFUg_PrGGwQk0xA5a0S3Gq-uYsVA8MYO2OrpJXwaY,1248
+xcryptowatch/postal.py,sha256=5sbSsvIioAUweNvKWnKkIBN_b7hP7tFGA0-aAHUnh4I,1005
+xcryptowatch/twitter.py,sha256=BKusuPpCpxfdWoMMXm6PqzJ96Q_teoKxT-ueI8KWT_U,3088
+xcryptowatch/xcryptowatch.py,sha256=CIUvt8ea8-xponuu3DxnW5JpNsMACsaAtF9xuplKKT8,5231
+xcryptowatch-0.1.0.dist-info/LICENSE,sha256=5zP4NIe6oVOguDTcVZ6DpEQoR0FrvuqJJPcn-YrqFdU,1090
+xcryptowatch-0.1.0.dist-info/METADATA,sha256=PhK5tr68kOBpyyiJ2ATTRowGH5VPthVmNYqF7LzKaUE,760
+xcryptowatch-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+xcryptowatch-0.1.0.dist-info/entry_points.txt,sha256=gGnQS_YxscBvvpqj-tt1G0j1w1JyPD-_jtG40nXtlX4,64
+xcryptowatch-0.1.0.dist-info/top_level.txt,sha256=_3VOy3ZUvkkH9lIG3E64rK1jr8Ei7m9OLdOTgImt6pk,13
+xcryptowatch-0.1.0.dist-info/RECORD,,
