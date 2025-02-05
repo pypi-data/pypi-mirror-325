@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+nepali_normalizer/__init__.py
+nepali_normalizer/normalizer.py
+nepali_normalizer.egg-info/PKG-INFO
+nepali_normalizer.egg-info/SOURCES.txt
+nepali_normalizer.egg-info/dependency_links.txt
+nepali_normalizer.egg-info/requires.txt
+nepali_normalizer.egg-info/top_level.txt
