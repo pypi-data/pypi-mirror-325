@@ -1,0 +1,27 @@
+# iip config file (generated from `iip --init`)
+
+
+[image]
+    enabled = false
+    # limit number of tags returned in image check
+    #   max size of 65535
+    #   note that tags are returned in 'last updated' order not version order.
+    tag_limit = 100
+    filename = "Dockerfile"
+
+    # filter tags (leave blank for no filter)
+    #   - uses standard regex, see [regex crate](https://docs.rs/regex/1.5.4/regex) for more info
+    tag_filter = ""
+    # example tag filter
+    #tag_filter = "^.*-alpine.*$"
+
+[packaging]
+    enabled = true
+    # using docker-compose
+    #root_dir = "/home/drad/code/dradux/points"
+    #command = "docker-compose run --rm api pip-review"
+    # using docker
+    root_dir = ""
+    #command = "docker run --rm=true points_api pip-review"
+    command = "pip-review"
+

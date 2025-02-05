@@ -1,0 +1,10 @@
+/build
+/dist
+
+# temp
+tmp
+
+# python
+*.pyc
+
+boi.sh

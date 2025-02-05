@@ -1,0 +1,70 @@
+[project]
+name = "ibuilder"
+version = "3.10.1"
+description = "build, tag, and push docker images"
+authors = [{ name = "drad", email = "sa@adercon.com" }]
+requires-python = "~=3.11"
+readme = "README.md"
+license = "GPL-3.0-only"
+maintainers = [{ name = "drad", email = "sa@adercon.com" }]
+keywords = [
+    "cli",
+    "docker",
+    "containers",
+    "build",
+    "ci",
+    "cd",
+    "image",
+    "tag",
+    "git",
+    "push",
+    "sign",
+    "cosign",
+]
+dependencies = [
+    "arrow~=1.3",
+    "click~=8.1",
+    "docker~=7.1",
+    "packaging~=24.1",
+    "pydantic~=2.9",
+    "requests~=2.32",
+    "rich~=13.9",
+    "tinydb~=4.8",
+    "typer>=0.12,<0.13",
+]
+
+[project.urls]
+Source = "https://gitlab.com/drad/ibuilder"
+Documentation = "https://gitlab.com/drad/ibuilder/-/wikis/home"
+"Bug Tracker" = "https://gitlab.com/drad/ibuilder/-/issues"
+
+[project.scripts]
+ib = "ibuilder.main:app"
+
+[internal]
+created = 2019-06-15
+modified = 2024-11-07
+
+[dependency-groups]
+dev = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+target-version = "py38"
+
+[tool.ruff.lint]
+ignore = [
+  "D203", # blank line before class docstring
+  "E501", # line too long
+  "F405", # Method may be undefined or defined from start imports.
+  "W503", # line break before binary operator
+]
+select = [
+  "I", # isort
+  "F", # Pyflakes
+  "E", # pycodestyle
+  "W", # pycodestyle
+]

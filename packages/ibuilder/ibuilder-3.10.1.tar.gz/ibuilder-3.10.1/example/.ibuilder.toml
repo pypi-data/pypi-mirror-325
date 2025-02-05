@@ -1,0 +1,43 @@
+# ibuilder project config file.
+
+[build]
+    image = true
+    # specify any build args needed.
+    args = [ {DEPLOY_ENV = "prd"} ]
+    labels = [ {APP_NAME = "my-app"} ]
+    base_path = "."
+    dockerfile = "Dockerfile"
+    repository = "example.com/my-app"
+    tag_image_latest = true
+    # note: some containers (ukse app) require hist network for building (e.g rails assets:precompile in Dockerfile)
+    network_mode = ""   # [bridge]|host|overlay|macvlan|none
+    # NOTE: you can define a build version; however you likely want to
+    #  pass this via command line or use the auto-generate feature.
+    #version = ""
+
+
+[push]
+    image = true
+    [push.registry]
+        url = "example.com"
+        username = "registry-username"
+        # this is disabled as we use the .dockercfg
+        #password = ""
+        #email = "your-email"
+    # supply a docker config path if you use a non-standard location (the default is: $HOME/.docker/config.json)
+    #docker_config_path = "$HOME/.docker/config.json"
+
+
+[sign]
+    enabled = true
+
+[source]
+    tag = true
+    push_tag = true
+
+[history]
+    save_request_canceled = true
+
+[config]
+    component = "api"
+    dbpath = ".ibuilder.pdb"

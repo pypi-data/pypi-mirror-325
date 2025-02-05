@@ -1,0 +1,6 @@
+[bandit]
+exclude: ./.venv/
+#skips: B413,B601,B501,B602,B605
+
+#[bandit]
+#tests: B101,B102,B301

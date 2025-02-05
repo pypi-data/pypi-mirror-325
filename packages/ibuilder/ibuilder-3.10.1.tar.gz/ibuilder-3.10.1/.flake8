@@ -1,0 +1,14 @@
+[flake8]
+# D203: blank line before class docstring
+# E501: line too long
+# F405: Method may be undefined or defined from start imports.
+# W503: line break before binary operator
+ignore = D203, E501, F405, W503
+
+# NOTICE: flake8 is ran via a pre-commit hook, see the .pre-commit-config.yaml
+#  for exludes as they take precedence over what is listed here.
+exclude = __pycache__, migrations, .venv
+#max-complexity = 10
+
+format = pylint
+statistics = True
