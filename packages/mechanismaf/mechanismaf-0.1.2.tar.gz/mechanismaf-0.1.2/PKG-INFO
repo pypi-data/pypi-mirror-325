@@ -1,0 +1,34 @@
+Metadata-Version: 2.2
+Name: mechanismaf
+Version: 0.1.2
+Summary: A wrapper around the 'mechanism' library for the 'Algorithm Folding' lecture @ HPI for creating and transforming linkage mechanisms.
+Home-page: https://github.com/TobiPeterG/mechanismaf
+Author: Tobias Görgens
+Author-email: tobiasg-privat@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: networkx
+Requires-Dist: mechanism
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# mechanismaf
+A wrapper around the "mechanism" library for the "Algorithm Folding" lecture @ HPI
+
+## Installation
+
+```bash
+pip install mechanismaf
+```
