@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+gdal_installer/__init__.py
+gdal_installer/cli.py
+gdal_installer/install-gdal.py
+gdal_installer.egg-info/PKG-INFO
+gdal_installer.egg-info/SOURCES.txt
+gdal_installer.egg-info/dependency_links.txt
+gdal_installer.egg-info/entry_points.txt
+gdal_installer.egg-info/requires.txt
+gdal_installer.egg-info/top_level.txt
