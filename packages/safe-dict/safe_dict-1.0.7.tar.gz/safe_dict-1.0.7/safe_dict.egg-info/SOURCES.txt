@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+safe_dict.egg-info/PKG-INFO
+safe_dict.egg-info/SOURCES.txt
+safe_dict.egg-info/dependency_links.txt
+safe_dict.egg-info/top_level.txt
+safedict/__init__.py
+safedict/safedict.py
