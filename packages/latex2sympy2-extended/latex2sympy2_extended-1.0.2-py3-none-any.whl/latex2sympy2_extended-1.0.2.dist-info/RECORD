@@ -1,0 +1,12 @@
+latex2sympy2_extended/__init__.py,sha256=IThXDOcntpaxAAB6dTlTlcjWEev7_vqkrYYI5N7vBBs,247
+latex2sympy2_extended/latex2sympy2.py,sha256=CzSD5iix_tJkeGmEf40_42JBZ4eWh6E5ZBiG5dyRiME,60608
+latex2sympy2_extended/math_normalization.py,sha256=5_B0hXgkPR2E1AaCfARnIYVTAWxVlPvSgMwhjTIdte4,14589
+latex2sympy2_extended/symbols.py,sha256=nmvEtYtP1MCCTBxMcHNluQQSfD1kErGsIeTmkdnv5xc,2968
+latex2sympy2_extended/gen/PSLexer.py,sha256=GjYd0GOunILZnXs7BjPNbWe473AtYngwIzdDGS5XGr8,116840
+latex2sympy2_extended/gen/PSListener.py,sha256=27jXT-n8ayqamMdyc2u9YjF20JRTNSsPQenAkEvt8X4,23437
+latex2sympy2_extended/gen/PSParser.py,sha256=hG97sOTIO93N4Cl8Ce3snosD61-eYuMABe0EO7dPhvM,268769
+latex2sympy2_extended-1.0.2.dist-info/LICENSE.txt,sha256=AHvDClj6QKmW53IEcSDeTq8x9REOT5w7X5P8374urKE,1075
+latex2sympy2_extended-1.0.2.dist-info/METADATA,sha256=Pq8L4BpNKUQ6zylt6ubBvW2JSiJYHgAD9U7gof2_gNo,4880
+latex2sympy2_extended-1.0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+latex2sympy2_extended-1.0.2.dist-info/top_level.txt,sha256=cA0An1tBdpBn5TNVuTEHpsKRhS1nwnfVDLU9IrFGtXk,22
+latex2sympy2_extended-1.0.2.dist-info/RECORD,,
