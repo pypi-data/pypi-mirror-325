@@ -1,0 +1,34 @@
+Metadata-Version: 2.2
+Name: gnsstoolbox-timecalc
+Version: 0.1.1
+Summary: CLI tool for converting UTC to GPS Time
+Author-email: Jared Wilson <jared.t.wilson@gmail.com>
+Project-URL: Homepage, https://github.com/jaredw42/gnsstoolbox
+Project-URL: Issues, https://github.com/jaredw42/gnsstoolbox/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# gnsstoolbox
+simple tools for manipulating GNSS data
+
+
+## timecalc
+```
+python3 timecalc/timecalc.py -h
+usage: timecalc.py [-h] [--utc_offset UTC_OFFSET] 
+[--datetime DATETIME | --epoch EPOCH | --epoch_sec EPOCH_SEC | --now NOW]
+
+options:
+  -h, --help            show this help message and exit
+  --utc_offset UTC_OFFSET, -uo UTC_OFFSET
+                        UTC offset in hours (default 0)
+  --datetime DATETIME, -dt DATETIME
+                        Datetime in format YYYY-MM-DD H:M:S
+  --epoch EPOCH, --epoch_ms EPOCH, -em EPOCH
+                        Unix epoch timestamp in milliseconds
+  --epoch_sec EPOCH_SEC, -es EPOCH_SEC
+                        Unix epoch timestamp in seconds
+  --now NOW, -n NOW     The current device time
+```
