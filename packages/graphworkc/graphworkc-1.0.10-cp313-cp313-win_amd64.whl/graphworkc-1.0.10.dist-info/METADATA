@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: graphworkc
+Version: 1.0.10
+Summary: A Python package with pybind11 extensions
+Author: ZC
+Requires-Python: >=3.6
+Requires-Dist: pybind11>=2.5.0
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
