@@ -1,0 +1,4 @@
+[console_scripts]
+octopwn-remote-client = octopwnremote.client:main
+octopwn-remote-proxy = octopwnremote.proxy:main
+octopwn-remote-server = octopwnremote.server:main
