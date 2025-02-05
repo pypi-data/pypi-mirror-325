@@ -1,0 +1,17 @@
+pywssocks/__init__.py,sha256=eM-E7sqV3y9AbxiLqFTBgMp0TenpRrHt_LLJbbI_KJ0,998
+pywssocks/cli.py,sha256=7FfipqeAU_xQHLaaYEZ4NEtoQcxLTjeS7j85KXBHl2w,5023
+pywssocks/client.py,sha256=MLnMar0PgQ2ZN-XHk04woT21FDx09Pr2WJz7IRW9l-M,16624
+pywssocks/common.py,sha256=_K07skHv_0llYpYhYmt6Q-w_tFSLnso42meXsD-CTzY,2236
+pywssocks/relay.py,sha256=-0EALptZJDl9lLnzYJuwwdWNAZUNyBmQlZKw5q_SSqU,26633
+pywssocks/server.py,sha256=X2MVSJ86xKvL4glbyEguA8RgL-JoPCZY65sJOduhezw,22441
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=z3j1Nt5PbyElc6k1w3N_lmg33suKyHQ2QlFVm9neTkw,2199
+tests/test_cli.py,sha256=LefylyboopUyP52ZoUvZo_HUVZCHlr99OU74r-rZQkg,12623
+tests/test_lib.py,sha256=RUbruw73BQJnhNezyQiFVpixqhXVCF0RlE2i0JKLUys,7815
+tests/utils.py,sha256=sE98aUK-VaKw6ZgfE6e6_COLUEDOiQR4WwfdNwsZA5E,4137
+pywssocks-1.0.1.dist-info/LICENSE,sha256=y7HSi1FaOcKUlj1L_CQHfmaaSD_F67qbhKcnr9QYdCY,1067
+pywssocks-1.0.1.dist-info/METADATA,sha256=xtGH5gSYpbzQ4fWYLz-JvictaljvFPdL1KNSIcD_0AQ,3640
+pywssocks-1.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pywssocks-1.0.1.dist-info/entry_points.txt,sha256=MbJz7ucd8kFDhaXgzkKXYsH1D7g9IUpfl4G1By8T5EA,48
+pywssocks-1.0.1.dist-info/top_level.txt,sha256=k0MSIVWJrX7YSEzXf2JW6HCjT6LSpYh9lLzqUrAksIE,16
+pywssocks-1.0.1.dist-info/RECORD,,
