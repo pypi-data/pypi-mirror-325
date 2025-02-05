@@ -1,0 +1,11 @@
+pymc
+bambi
+statsmodels
+numpy
+pandas
+markdown-pdf
+matplotlib
+seaborn
+fastapi
+gunicorn
+uvicorn
