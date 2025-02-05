@@ -1,0 +1,12 @@
+wealth_discovery_destiny-1.0.0.dist-info/METADATA,sha256=1xLBZUkGhUaO8fJocF6dll8f5Srv4oIOfyfZyyiX4A8,3182
+wealth_discovery_destiny-1.0.0.dist-info/WHEEL,sha256=nWeKMpvecbFEmBYQM44p2FChzkAyOaqMiofeuspsYro,96
+wealth_discovery_destiny-1.0.0.dist-info/licenses/LICENSE,sha256=hT3FpiWDfKqsSIljMAmfjfBizDRxTa3j9SzNd_PZ3GA,1092
+destiny/backtest.py,sha256=IuzGPW1UozlD1VxolmiW4pwsW2UfaQHGSWCLCS5V5AU,1457
+destiny/destiny.pyi,sha256=cpFI57vc0iJGc4RnGR4m3QO1DPD1XscNU9yoyMrXsy4,7859
+destiny/strategy.py,sha256=FrQ6_xaH3sC6tR47_0gWEgxgSd6IBxkWT_ETO-YeDZo,1677
+destiny/tests/backtest.py,sha256=btSPSan4mwn78ms0vBj_WhCyEzLm_3sctsRJPl0v7cQ,1298
+destiny/tests/download_history_data.py,sha256=YJ-bBgctpy55dN1W9ZDD0Epb552gXeSqWvWVonceA5A,323
+destiny/tests/test_1.py,sha256=0fBVCumgY3csjoXC0pOnwucEAwLztR8GJJ8HgAUE8AU,159
+destiny/__init__.py,sha256=Gs3VZYx_FvTwoBXZxnLebkd_A7_tdVmRskdS3flEB1c,436
+destiny/destiny.cp310-win_amd64.pyd,sha256=eNcji7DJDZcZF0qlUBPrGqDH1QLPPkGFDIcggpMMemw,2513408
+wealth_discovery_destiny-1.0.0.dist-info/RECORD,,
