@@ -1,0 +1,16 @@
+rpmautospec/__init__.py,sha256=wCqAC500oVpUaEhWHWhxnWSWMhIx_36R3npBDS5fJC8,311
+rpmautospec/changelog.py,sha256=B3egL_vF04rFqlr7E82j-VFNkOLD4T9udHb736_MUEg,4494
+rpmautospec/cli.py,sha256=xfG8SKROCgkop-Br4LXXTVpHSQB7f_eIo83c9tKlEYg,4005
+rpmautospec/pager.py,sha256=RaXVOKnLT5ELu7RCV1ZtR51vtZb-u0z39BG1YW52Shg,467
+rpmautospec/pkg_history.py,sha256=6gG-FmeOIX74fIt3RzGrOq4fsKapI2ahQBSfbpF4Rts,32696
+rpmautospec/subcommands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rpmautospec/subcommands/changelog.py,sha256=vouOPERFk4UT2AglD59pooG2vwOFVQIW208VkJ5z3rE,1674
+rpmautospec/subcommands/convert.py,sha256=FrMWCnUosNZ36R2Ms-tVgE_qj6h5qv1ZleABTKhOKQM,9814
+rpmautospec/subcommands/process_distgit.py,sha256=CD3stCT6botKrnGpGK12snt3iT1nzkp4roBnzk7ZWjo,5415
+rpmautospec/subcommands/release.py,sha256=6NRiFi5wqH0YWtPzZMzchJqrfZkCxlTFPHgv7QPCur0,2247
+rpmautospec/version.py,sha256=PQ50LInafvzb1UhQmB9TQ1zzWrs1X-hkSKg9Z4UlSUQ,143
+rpmautospec-0.4.1.dist-info/LICENSE,sha256=op8tv5GMWYws5Fh86EHJdxFfs1U28mdMwGrIwWcTpvg,1052
+rpmautospec-0.4.1.dist-info/METADATA,sha256=QmxsCJG_LycWbE0bklLi86b3u60Ln3OF-RkqElRcyKk,3431
+rpmautospec-0.4.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+rpmautospec-0.4.1.dist-info/entry_points.txt,sha256=UW6ST_r1SJaFc9JaT6caWB3jzbftg350m2UfH60xaH8,52
+rpmautospec-0.4.1.dist-info/RECORD,,
