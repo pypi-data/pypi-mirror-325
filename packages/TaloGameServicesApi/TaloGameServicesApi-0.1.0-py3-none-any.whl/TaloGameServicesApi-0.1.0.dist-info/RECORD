@@ -1,0 +1,14 @@
+Demo/main.py,sha256=gevRUat4P82B-T4c2I7itQJX2Auy-3xAr8YTU42vJeE,290
+TaloGameServicesApi/__init__.py,sha256=_Fi9Sjw62MfQlPcxlrtp127MKgc4xWuL-aV1Ab2317Y,475
+TaloGameServicesApi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TaloGameServicesApi/version.py,sha256=Okh2ytt1bWxaQ6B7y6-Nj3-0pdknxxV_BtvP_z0lOug,407
+TaloGameServicesApi/Api/BaseApi.py,sha256=tMkDqX1JBepnS2yKXuBUfngRp4Tk123Z4oJJZe4xBTo,276
+TaloGameServicesApi/Api/PlayerApi.py,sha256=HsdyiRr7kEVRLAKnLYDbCImJkM0bECZNh1aqeXpc-W0,1544
+TaloGameServicesApi/Api/PlayerAuthAPI.py,sha256=fWW-kBzzJ1IOI7ck7kCLAdXGv3TJ1wLC3rmLwNrDEr0,1083
+TaloGameServicesApi/Api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TaloGameServicesApi/Types/Prop.py,sha256=31tr062ZsTILUUmnVTmw2P5c2kRp59FMiceFiEVR4JA,102
+TaloGameServicesApi-0.1.0.dist-info/LICENSE,sha256=YvuKOpYh3COIF0yqq-nCMXtpS7mh1GyYvPVlW2j1G-M,11359
+TaloGameServicesApi-0.1.0.dist-info/METADATA,sha256=0FajVXrEwRf3c02ePUyAFV9VibPvtKIxxzMltaiYv5k,15299
+TaloGameServicesApi-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+TaloGameServicesApi-0.1.0.dist-info/top_level.txt,sha256=skk60kdbdyIUjs3GAl_y9Xc-OEP6ODKZ7QTYpr1S98c,30
+TaloGameServicesApi-0.1.0.dist-info/RECORD,,
