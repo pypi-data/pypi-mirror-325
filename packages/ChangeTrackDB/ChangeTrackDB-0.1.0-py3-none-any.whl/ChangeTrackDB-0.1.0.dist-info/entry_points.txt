@@ -1,0 +1,2 @@
+[console_scripts]
+mongo-monitor = my_mongo_monitor.monitor:startMonitoring

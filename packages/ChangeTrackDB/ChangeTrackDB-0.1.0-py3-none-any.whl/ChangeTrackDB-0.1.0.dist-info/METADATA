@@ -1,0 +1,31 @@
+Metadata-Version: 2.2
+Name: ChangeTrackDB
+Version: 0.1.0
+Summary: Monitoramento em tempo real de mudanças no MongoDB
+Home-page: https://github.com/Facelless
+Author: Faceless
+Author-email: facelxss@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pymongo
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Mongo Monitor
+
+Este pacote permite monitorar em tempo real as operações de um banco de dados MongoDB usando o `pymongo` e o recurso de "change streams".
+
+## Instalação
+
+Instale o pacote com o pip:
+
