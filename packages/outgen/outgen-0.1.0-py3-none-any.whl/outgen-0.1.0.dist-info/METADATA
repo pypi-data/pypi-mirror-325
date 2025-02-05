@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: outgen
+Version: 0.1.0
+Summary: Outcome-first orchestration library for Generative AI usecases
+Project-URL: Homepage, https://github.com/garvk/outgen
+Project-URL: Bug Tracker, https://github.com/garvk/outgen/issues
+Author-email: Garv Khurana <projects@garvkhurana.tech>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+Outcome-first orchestration library for Generative AI usecases
