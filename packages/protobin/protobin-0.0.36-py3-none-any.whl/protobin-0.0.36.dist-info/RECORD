@@ -1,0 +1,10 @@
+protobin/__init__.py,sha256=NWu4NIaHCB77Z2ulN82GJCcD4zlNod56Y9XIQwKEi_I,68
+protobin/errors.py,sha256=gbMijhbtazg0m8DunIVVJATHOqqo4Yi4jL7o2l9h1Do,393
+protobin/fields.py,sha256=pe4YUYtciN4O-pFn-x4sIP-3V8CbOiaIgIzCe2VHR88,15169
+protobin/interfaces.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+protobin/protocol.py,sha256=8xVupRo8cGfpJNdrnhYTmHT7WeY6fn_pzzQ_yOsqJls,6766
+protobin/singleton.py,sha256=SJC79NmZS-myUV93mE_PLU1HE7ZoqjysjrPF75NE5uo,568
+protobin-0.0.36.dist-info/METADATA,sha256=TT8gg5aYJcBU1vWuyFjwouBkq42SHjI0hwNPtHOkmnE,5430
+protobin-0.0.36.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+protobin-0.0.36.dist-info/licenses/LICENSE.txt,sha256=R7QvoV5O-yUlJWKMB_L3sYxF8QBURvZglGBf3rZ1s5s,1109
+protobin-0.0.36.dist-info/RECORD,,
