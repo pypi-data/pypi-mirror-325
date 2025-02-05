@@ -1,0 +1,37 @@
+import os
+import logging
+from functools import lru_cache
+
+
+class Env:
+    _allowed_variables = set()
+
+    @staticmethod
+    def load_file(file_path: str, override: bool = False, fail_on_missing: bool = False):
+        if not os.path.exists(file_path):
+            if fail_on_missing:
+                raise FileNotFoundError(f"The file {file_path} does not exist.")
+            logging.warning(f"Environment file {file_path} not found. Skipping loading.")
+            return
+
+        with open(file_path, 'r') as file:
+            for line in file:
+                if '=' in line:
+                    key, value = line.strip().split('=', 1)
+                    key = key.strip().lower()
+                    value = value.strip()
+                    if key in Env._allowed_variables:
+                        if override or key not in os.environ:
+                            os.environ[key] = value
+
+                    else:
+                        logging.warning(f"Skipping unallowed environment variable {key}.")
+
+    @staticmethod
+    def register(variables: list | set):
+        Env._allowed_variables.update([item.lower() for item in variables])
+
+    @staticmethod
+    @lru_cache(maxsize=128)
+    def get(key: str, default: Any = None):
+        return os.getenv(key.lower()) or default
