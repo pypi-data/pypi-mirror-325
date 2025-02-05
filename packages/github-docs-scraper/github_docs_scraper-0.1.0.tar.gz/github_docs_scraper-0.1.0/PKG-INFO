@@ -1,0 +1,50 @@
+Metadata-Version: 2.4
+Name: github-docs-scraper
+Version: 0.1.0
+Summary: CLI tool to scrape GitHub repositories and combine Markdown files
+Project-URL: Homepage, https://github.com/your_org/github-docs-scraper
+Author-email: Jacobus Geluk <jacobus.geluk@ekgf.org>
+License: MIT License
+        
+        Copyright (c) 2025 Object Management Group
+        Copyright (c) 2025 Jacobus Geluk
+        
+        Permission is hereby granted...
+License-File: LICENSE
+Keywords: github,markdown,scraper
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.13
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: requests>=2.31.0
+Description-Content-Type: text/markdown
+
+# github-docs-scraper
+
+Simple CLI tool to scrape a GitHub repository (optionally a private one) and combine all the Markdown files it finds into a single file.
+This file can then be easily uploaded to ChatGPT, Deepseek, Qwen, etc.
+
+## Usage
+
+Create a `.env.local` file with the following variables:
+
+- `REPO_OWNER`: The owner of the GitHub repository.
+- `REPO_NAME`: The name of the GitHub repository.
+- `GITHUB_TOKEN`: The GitHub personal access token.
+
+For instance:
+
+```
+REPO_OWNER=your_org_name
+REPO_NAME=your_repo_name
+GITHUB_TOKEN=your_github_token
+```
+
+## Installation
+
+```bash
+uv sync
+uv run github-docs-scraper
+```
