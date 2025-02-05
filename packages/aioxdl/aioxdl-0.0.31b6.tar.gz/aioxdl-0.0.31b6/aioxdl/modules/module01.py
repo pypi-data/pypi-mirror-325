@@ -1,0 +1,41 @@
+import aiohttp
+from ..scripts import Scripted
+from ..functions import Filename
+from ..functions import Filesize
+from ..functions import Location
+#=============================================================================================
+
+class Cores:
+
+    async def fetch01(self, url, session):
+        async with session.get(url, **self.kwords) as response:
+            return dict(response.headers)
+
+    async def fetch02(self, url, session):
+        async with session.head(url, **self.kwords) as response:
+            return dict(response.headers)
+
+#=============================================================================================
+
+    async def start(self, url, filename, location, progress, proargs, dsizes=0, tsizes=0):
+        async with aiohttp.ClientSession() as session:
+            dlsession = await self.fetch01(url, session)
+            dfilesize = await Filesize.get01(dlsession)
+            dfilenamo = await Filename.get01(url, dlsession)
+            dfilename = await Filename.get04(dfilenamo, filename)
+            dlocation = await Location.get01(dfilename, location)
+            async with session.get(url, **self.kwords) as response:
+                with open(dlocation, Scripted.READ01) as handlexo:
+                    tsizes += dfilesize
+                    while True:
+                        moone = await response.content.read(self.chunks)
+                        if not moones:
+                            break
+                        handlexo.write(moone)
+                        dsizes += self.chunks
+                        await self.display(dsizes, tsizes, progress, proargs)
+
+                await response.release()
+                return dlocation if dlocation else None
+
+#=============================================================================================
