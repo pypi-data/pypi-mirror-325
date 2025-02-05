@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+sjlangunicode.egg-info/PKG-INFO
+sjlangunicode.egg-info/SOURCES.txt
+sjlangunicode.egg-info/dependency_links.txt
+sjlangunicode.egg-info/top_level.txt

@@ -1,0 +1,28 @@
+Metadata-Version: 2.2
+Name: sjlangunicode
+Version: 0.1
+Summary: Advanced Unicode Processing for the SJLang Stacked Language Project.
+Home-page: https://github.com/aipresso/sjlangunicode
+Author: Sumedh Patil
+Author-email: admin@aipresso.uk
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
+
+sjlangunicode is responsible for mapping characters into a custom 
+    Private Unicode range for stacked script processing. This ensures seamless integration
+    of Sanskrit-Japanese hybrids within the SJLang ecosystem.
