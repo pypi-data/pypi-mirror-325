@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+tests/test_tsmorph.py
+tsmorph/__init__.py
+tsmorph/tsmorph.py
+tsmorph/utils.py
+tsmorph.egg-info/PKG-INFO
+tsmorph.egg-info/SOURCES.txt
+tsmorph.egg-info/dependency_links.txt
+tsmorph.egg-info/requires.txt
+tsmorph.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+numpy
+pandas
+matplotlib
+pycatch22
+neuralforecast
