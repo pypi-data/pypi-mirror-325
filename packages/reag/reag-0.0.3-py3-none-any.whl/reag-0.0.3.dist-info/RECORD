@@ -1,0 +1,7 @@
+reag/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reag/client.py,sha256=r2fc2pewxyjvLsAfLfYwmQNNYIJDQSqKII9zAzNbwI4,7617
+reag/prompt.py,sha256=_pmrx-mnvb2SbusQmgxq6ImdYCbLtlCWL2NPuGt6Zkg,726
+reag/schema.py,sha256=jvAlbQJp1twH5iwXLQC9Rb7M8x5Ml4P5d_Pjrpqam60,219
+reag-0.0.3.dist-info/METADATA,sha256=dIBnR0vASbaSZ7H6FwIyF7ECt78aEMgzKD7qYEAgifc,4366
+reag-0.0.3.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+reag-0.0.3.dist-info/RECORD,,
