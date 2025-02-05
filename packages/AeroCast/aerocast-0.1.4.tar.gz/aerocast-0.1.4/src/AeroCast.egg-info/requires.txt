@@ -1,0 +1,4 @@
+requests
+gtts
+playsound3
+Babel
