@@ -1,0 +1,23 @@
+query{
+  phase(id: $phase_id$) {
+    cards(after: $after$) {
+      edges {
+        node {
+          id
+          created_at
+          fields {
+            field {
+              id
+              label
+            }
+            value
+          }
+        }
+      }
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+    }
+  }
+}
