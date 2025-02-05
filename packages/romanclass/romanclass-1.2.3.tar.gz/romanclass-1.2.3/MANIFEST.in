@@ -1,0 +1,4 @@
+include roman.rst
+include *.py
+include test/*.py
+include romanclass/*.py

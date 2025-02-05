@@ -1,0 +1,153 @@
+Metadata-Version: 2.2
+Name: romanclass
+Version: 1.2.3
+Summary: Binary int class using Roman numerals for input and output
+Author: Vernon Cole
+Author-email: vernondcole@gmail.com
+License: MIT
+Project-URL: repository, https://launchpad.net/romanclass
+Project-URL: documentation, https://git.launchpad.net/romanclass/tree/README.rst
+Keywords: Roman numbers,romanclass,emulate int
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: Latin
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+
+**Roman Number demonstration class.**
+
+This demonstration program defines and tests a programmer created object class.
+romanclass.py [1]_
+
+A “Roman” object is stored in the computer as a binary integer,
+but is displayed in Roman numerals. (In technical terms,
+it is a subset of the built-in class **int** with a _str_() method which converts
+to a Roman numeral string.)
+
+Roman objects act very much like the built-in Decimal objects in Python, they can be added, subtracted, multiplied, or divided and the result will be another object of the same class.
+So a programmer can say::
+
+    >>> from romanclass import Roman
+    >>> two = Roman(2)
+    >>> five = Roman('V')
+    >>> print(two+five)
+    VII
+
+The permitted range of a Roman object is [0 to 699_999]. [2]_
+
+**Unicode Roman Symbols**
+
+If you try to create a Roman number larger than 3999, you may have difficulty displaying the result,
+because Roman digits for 5000 and larger cannot be represented in ASCII and must be output in Unicode characters.
+Fonts which define all of the Roman numerals (especially 50,000 and 100,000) are uncommon. [The “Code2000” font does include them.]
+
+If you attempt to 'print(Roman('MMMCMXCIX') + 1)', it will emit the unicode for:
+Mↁ
+which is how you write 4000 (5000 – 1000).
+
+Other Unicode numeric characters exist, and you may send any numeric-valued character
+(from any language) to Roman(), and it will use the value defined by the Unicode standard,
+adding all the values together, subject to the Roman smaller-values-to-the-left rule,
+so 1V converts to 4, not 6. While 9V would convert to 14.
+
+**Installation:**
+
+python3 -m pip install romanclass
+
+This module has been tested using CPython versions 3.10 and 3.12, and IronPython version 3.4.
+If you run test/test_romanclass.py, it will run and print a self-check.
+
+**Usage:**
+
+A call to Roman() will create an new instance of a Roman object.
+The argument may be either a string of Roman Digits, or any input (string or numeric)
+which is accepted by the int() built in function.
+In other words, the following calls are equivalent::
+
+    Roman('MCMLXVI')
+    Roman('mdccccxxxxxxvj')
+    Roman('1966')
+    Roman(1966)
+    Roman(1966.4)
+
+Notice that the input routine for Roman numerals makes no requirement that the number be normalized
+according to modern standards.
+It will attempt to render any jumbled combination of suitable characters.
+
+However, some ancient sources use ‘IIXX’ for 22 and others use XIIX for 18. Such things will not work correctly.
+
+**Class methods:**
+
+**fromRoman()** Accepts a string of Latin numeric characters [IVXLDCM] and/or Unicode characters which have a numeric value
+(that is, where the value of unicodedata.numeric() is defined) and attempts to parse them using a simple rule for the formation of Roman numbers.
+
+*    A blank input, or the strings 'N' or 'Nulla', will be stored as Zero.
+*    Returns an integer number.
+*    Values less than zero or greater than 699,999 will throw an OutOfRangeError exception.
+*    Invalid characters in the input stream will give an InvalidRomanNumeralError exception.
+* *    Both are subtypes of ValueError.
+
+**ToRoman()**
+Accepts an integer and formats a Unicode string as a normalized Roman number. The usual ASCII characters will be used for values in the range 1 ... 3999.
+
+* Zero will be rendered as 'Nulla' which is the Latin  word for 'nothing'.
+* If the value is greater than 3999, Unicode characters will be used for the high order digits.
+* Values less than zero or greater than 699,999 will give an OutOfRangeError exception.
+
+**toUnicodeRoman()**
+Accepts an integer and formats a Unicode string as a normalized Roman number.
+
+* Unicode characters will be used for all digits.
+* If the value is between 1 and 12 a single Unicode character with the appropriate value will be returned. This feature could be used, for example, to generate label values for a clock face.
+* Values outside that range will be rendered as strings of one or more Unicode characters in the usual manner.
+* Values less than zero or greater than 699,999 will give an OutOfRangeError exception.
+
+**Mathematical Operations:**
+
+Addition, subtraction, multiplication and floor division are defined for the Class.
+
+**Caution:** The result will be the type of the left-hand operand. Thus::
+
+    >>> two = Roman(2)
+    >>> print(two + 2)
+    IV
+    >>> print(2 + two)
+    4
+
+**Updates and maintenance:**
+
+Source code is complete in the "sdist" tarball.
+
+    python -m pip download --no-binary :all: romanclass --no-build-isolation
+
+The version control repository is at https://launchpad.net/romanclass
+and has been converted to a git repository as of __version__ = 1.2.1
+
+The original work was done using the bazaar VCS. The bazaar repo is now obsolete.
+
+**CaeserCalc.py sample application**
+
+The program “CaesarCalc.py” is a simple console mode calculator which accepts a typed line with a numbers
+(Roman or Arabic) or two such numbers separated by '+' '-' '*' or '/'.
+It will calculate and print the result.
+
+It can be found in the romanclass/test subdirectory of a source distribution.
+
+.
+
+.. [1] Note: there was already a module called “roman.py” written by Mark Pilgrim and found in his book
+    *Dive Into Python*, which is why this module is named “romanclass” to avoid conflict.
+
+    the methods .toRoman() and .fromRoman in both modules will give compatible results
+    within the restrictions of Mark's algorithm. [1 to 3999]
+
+        >>> import romanclass as roman
+        >>> assert roman.toRoman(123) == str(romanclass.toRoman(123))
+        >>> assert roman.fromRoman('IV') == int(romanclass.fromRoman('IV'))
+
+.. [2] 603,550 men was the size of the Moses’s Israelite army in Numbers 2:32 -- very large number at that time.)

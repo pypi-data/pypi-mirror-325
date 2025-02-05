@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+romanclass/__init__.py
+romanclass/romanclass.py
+romanclass.egg-info/PKG-INFO
+romanclass.egg-info/SOURCES.txt
+romanclass.egg-info/dependency_links.txt
+romanclass.egg-info/top_level.txt
+test/CaesarCalc.py
+test/__init__.py
+test/test_romanclass.py
