@@ -1,0 +1,4 @@
+latex2sympy2_extended==1.0.1
+
+[inference]
+lighteval[accelerate]
