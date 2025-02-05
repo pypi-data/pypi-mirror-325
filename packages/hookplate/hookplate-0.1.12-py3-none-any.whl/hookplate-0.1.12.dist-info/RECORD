@@ -1,0 +1,14 @@
+hookplate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hookplate/api.py,sha256=WqCoX5_gPcyBNzxPp5sAasyWptl8vdAXQo9sqpMuFeo,2027
+hookplate/logger.py,sha256=OhFJ5BSZN4hHAzRsJPOS8ubWP6ophnoG__f3bOvsT_w,435
+hookplate/main.py,sha256=sxyrB-mztTMcdG2R1WSPxur8f3TvGX3SYGTFhS0m8EM,1593
+hookplate/pickle_util.py,sha256=JoOPVi-WD7stucIgzNkxv5itrVBteBkY2JaWlbsI-KA,854
+hookplate/webhook_appservice.py,sha256=AUaddMQfqKWd3hyRMc3qsyx2laTd2wklnYjBJ2WTYQQ,10626
+hookplate/config/sample_config.ini,sha256=c_F32sdstRUrb4na4TgdintwLDVCLQL319Zij2zsHzQ,201
+hookplate/config/templates/emby.jinja,sha256=w9alAbXG3s2fKJ8n0VKMyldbxelgPcp3feXqV3Qo_LA,252
+hookplate/config/templates/webhooks_message.jinja,sha256=5jUD8qWRBYdRaDsFF3fHTRc9Y5BtL-FbcutUznRb_QE,136
+hookplate-0.1.12.dist-info/METADATA,sha256=3QmWgVGShkhyrXXY5lJVPEUOTRu3Y0_Uo_wOO3STdCY,2529
+hookplate-0.1.12.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+hookplate-0.1.12.dist-info/entry_points.txt,sha256=p00L7VgHyV4XtoX48WRvQzBDi9wyXqkQpJ43BvxEi_I,50
+hookplate-0.1.12.dist-info/licenses/LICENSE,sha256=QJXDhoCch-l4se29zxCJbcLZkAdxTM3TgYaBBA3TmHU,1073
+hookplate-0.1.12.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+hookplate = hookplate.main:main
