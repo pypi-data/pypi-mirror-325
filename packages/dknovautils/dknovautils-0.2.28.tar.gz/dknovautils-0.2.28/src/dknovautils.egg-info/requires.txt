@@ -1,0 +1,8 @@
+numpy
+urllib3
+typing-extensions
+dataclasses-json
+atomics
+scp
+paramiko
+pyperclip
