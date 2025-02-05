@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+django_notifiedby.egg-info/PKG-INFO
+django_notifiedby.egg-info/SOURCES.txt
+django_notifiedby.egg-info/dependency_links.txt
+django_notifiedby.egg-info/requires.txt
+django_notifiedby.egg-info/top_level.txt
+notifiedby/__init__.py
+notifiedby/emails.py
