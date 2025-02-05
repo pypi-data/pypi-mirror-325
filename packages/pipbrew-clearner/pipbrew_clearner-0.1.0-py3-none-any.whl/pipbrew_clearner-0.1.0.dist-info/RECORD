@@ -1,0 +1,9 @@
+brew_manager.py,sha256=GN1YZIGH9YSMtdF6qgFZE1rCPEvhSMuMxvqWufkiTj0,4281
+main.py,sha256=fh28GAbr1j6tI4Cuc6810g8dntCsuxorFEXr_f7zc_w,11264
+pip_manager.py,sha256=dHEmgMGhYR6rBcUXfJUx6w-rdFvBdz8YhxM9s75bVao,3336
+pipbrew_clearner-0.1.0.dist-info/LICENCE.md,sha256=nv9Bxc80gQZE9fdSzKzVkka0Xw7hLVx_NU59nuUxMFc,1098
+pipbrew_clearner-0.1.0.dist-info/METADATA,sha256=s7MZe9ZMIoLfUYu28YRc48zpEi11zXgrmxSoh1HKsxY,1752
+pipbrew_clearner-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pipbrew_clearner-0.1.0.dist-info/entry_points.txt,sha256=WlQugHj0eIVi_HziYAmCuUxMiTYSykdRypva51u9sl8,47
+pipbrew_clearner-0.1.0.dist-info/top_level.txt,sha256=l9mBpmRHA8nfRM2Bj-wd-O68EisN5YA2HEL1ZuP1dmQ,30
+pipbrew_clearner-0.1.0.dist-info/RECORD,,

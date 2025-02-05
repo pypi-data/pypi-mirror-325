@@ -1,0 +1,2 @@
+[console_scripts]
+pipbrew-clearner = main:main

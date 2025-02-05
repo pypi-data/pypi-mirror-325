@@ -1,0 +1,3 @@
+brew_manager
+main
+pip_manager
