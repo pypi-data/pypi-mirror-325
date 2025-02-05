@@ -1,0 +1,10 @@
+pipg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pipg/cli.py,sha256=1QM_7ZrQSxFBqfQEGbafoFzv2HCTPjEjnx9Lq5-MZVc,1485
+pipg/package_manager.py,sha256=7YiHcmQflB4RKTiBXotCzAuEzYahr2VLwuaQ5e0wXr4,1861
+pipg/requirements_manager.py,sha256=Wy0Q4-Wr9NEsBNuTCxsWwJNeO06GmCfoT5LMIQ0s4R8,2034
+pipg/utils.py,sha256=RpazQ2oMRCQEi9so4ls6c8-wwXBc7nvDRzzqobeBYs4,1362
+pipg-0.3.1.dist-info/METADATA,sha256=0iTQphQ-HD4SfMsH7XQYC50qrlfeCTTreB-dWTjBzZM,2619
+pipg-0.3.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pipg-0.3.1.dist-info/entry_points.txt,sha256=Ggmi7rR99EABTSDVU3yakb2nCck9NpaXYqozDCJ-k0c,39
+pipg-0.3.1.dist-info/top_level.txt,sha256=G28xZQx1I1TaSkaZ84BxkXz34tPqx0yqEUA2MN0P9KU,5
+pipg-0.3.1.dist-info/RECORD,,
