@@ -1,0 +1,11 @@
+attotools/__init__.py,sha256=YBXKXPfX_Jiw92ppq7Ug0leT3RyXjlnPPapCK9-NYfY,74
+attotools/io.py,sha256=vJRw3wrablRT0m83J1XTFn-_-A7P2GzJnIAQPJZxEWg,2835
+attotools/plot.py,sha256=cjgwv-rpVsn2Q0TFojRl3BArNVwD2cPP-EvznbWfCps,185
+attotools/test.py,sha256=HL-WeVy-iA8iN4z3oDV0rLzcX-4tWcVcS0kByTRKVwk,88
+attotools/toolfunctions.py,sha256=jFa0dbCwlW_8cDChBwz2IAU6nLf0Y54ld0BaMH26eXo,3033
+attotools/version.py,sha256=07NzQXBgNlnw5kSN6ZYxE9By-_RuH3Jyy58Z74sIio0,21
+attotools/data/sci.mplstyle,sha256=72YZvP374HvmyNPGt2fITs1PuBdqza26XmdSpV0aIuw,24984
+attotools-0.0.1.dist-info/METADATA,sha256=tbQbf90uHcagHxJu2NP6ZXeaVbiYn905XIqvgbBE0WA,422
+attotools-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+attotools-0.0.1.dist-info/top_level.txt,sha256=4ugTzU3AKYLeDvvaYcUt18zvOA_ysqDYFB0z_tvPFpM,10
+attotools-0.0.1.dist-info/RECORD,,
