@@ -1,0 +1,52 @@
+# Ansible Target Machine
+
+Ansible Target Machine is a Python package designed to automate the setup of an Ansible target node. It simplifies the configuration of remote systems by handling user creation, SSH key authentication, and inventory setup, making it easier for Ansible Master Nodes to manage multiple machines effortlessly.
+
+This package ensures that target machines are correctly configured to accept commands from an Ansible Controller, reducing manual setup effort and streamlining infrastructure automation.
+## Installation
+```sh
+pip install git+https://github.com/mohammdnoorain/Devops/blob/main/Ansible-TargetNode-Updated-code.txt
+
+
+ChatGPT
+Ansible Target Machine Setup
+
+Ansible Target Machine Setup is a Python package designed to automate the configuration of a target machine to work with an Ansible master node. This package simplifies the process of setting up SSH keys, user creation, and inventory grouping for seamless Ansible automation.
+Features
+
+✅ Automates target machine setup for Ansible control
+✅ Creates a dedicated user for Ansible communication
+✅ Generates and saves public-private key pairs for secure SSH connections
+✅ Supports inventory grouping for better infrastructure management
+✅ Simplifies the onboarding of new target machines
+Installation & Setup Instructions
+
+Follow these steps to install and configure the Ansible Target Machine Setup package on your target machine.
+Step 1: Switch to Root User
+
+sudo -i
+
+Step 2: Update the Package Manager
+
+Ensure your system has the latest package updates:
+
+sudo apt update
+
+Step 3: Install Python and Pip
+
+sudo apt install python3-pip -y
+
+Step 4: Install the Package
+
+Use pip to install the Ansible Target Machine Setup package:
+
+pip install ansible-targetnode-setup
+
+Step 5: Run the Package
+
+Once installed, execute the setup command:
+
+ansible_targetnode_setup
+
+step 6: paste the public key of ansible master node which you have saved if forget then go to ansible master vm >user>
+ cat .ssh/id_ecdsa.pub

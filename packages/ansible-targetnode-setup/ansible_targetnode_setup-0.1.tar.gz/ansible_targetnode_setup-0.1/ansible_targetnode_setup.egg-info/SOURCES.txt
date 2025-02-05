@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ansible_targetnode_setup/__init__.py
+ansible_targetnode_setup/controller.py
+ansible_targetnode_setup.egg-info/PKG-INFO
+ansible_targetnode_setup.egg-info/SOURCES.txt
+ansible_targetnode_setup.egg-info/dependency_links.txt
+ansible_targetnode_setup.egg-info/entry_points.txt
+ansible_targetnode_setup.egg-info/top_level.txt
