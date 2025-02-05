@@ -1,0 +1,15 @@
+octopwnremote/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+octopwnremote/_version.py,sha256=U7EIsWut09P1j4jLohI7Dns55dVSPBMpsgnFPfAk23o,132
+octopwnremote/base.py,sha256=qF3cPudxJ0bGqfDonUZVs7TYMzyJn7qJ-xlZLkVFR4Y,11883
+octopwnremote/client.py,sha256=86EbHZap02kQ7tc_LZxfSZomjipgSS7G1UEIUfqQdvQ,921
+octopwnremote/proxy.py,sha256=irJBjqhyQrMGN2fp45S_NzABY2tCQTvx4h8hYDzA80g,3059
+octopwnremote/proxybase.py,sha256=yV3Myl3bMY26CWJWTe3SlhD6frSyyqmt335saHLiulo,9333
+octopwnremote/server.py,sha256=dEf-CM3lwzuvWq2STXMEy4OFAnu-FnTGXKsERte8fbY,2371
+octopwnremote/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+octopwnremote/examples/basic_example.py,sha256=ohCjMe6ut2KjKACUENmZw-G9oCU42CS-s7R2AcKmmKM,3977
+octopwnremote-0.0.1.dist-info/LICENSE,sha256=LYqTUVQKTaiqTbHZV30qrswlHf_QgPpzbVsHFwBIwyM,1070
+octopwnremote-0.0.1.dist-info/METADATA,sha256=ipQDwOtHOd8mEW5zV8DdSZ50N9U6MY0UV9Ic1Oj7MWs,581
+octopwnremote-0.0.1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+octopwnremote-0.0.1.dist-info/entry_points.txt,sha256=iPb62PJgTLyHP_QuYiNtBZ5tRoZ7YcqLuToT0PetBKU,166
+octopwnremote-0.0.1.dist-info/top_level.txt,sha256=Z-nCJlKoGSCO5dy-XYxkWe1pqvnbMetQMsTBKqiyNN0,14
+octopwnremote-0.0.1.dist-info/RECORD,,
