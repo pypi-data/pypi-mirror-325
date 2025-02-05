@@ -1,0 +1,3 @@
+[console_scripts]
+ansible_targetnode_setup = ansible_targetnode_setup.controller:setup_ansible
+
