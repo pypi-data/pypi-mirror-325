@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: mrio
+Version: 0.1.4
+Summary: Python Package that support the read/write of multidimensional COG files
+Home-page: https://github.com/tacofoundation/mrio-python
+Author: Cesar Aybar
+Author-email: cesar.aybar@uv.es
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: einops (>=0.8.0)
+Requires-Dist: rasterio (>=1.4.3)
+Requires-Dist: typing-extensions (>=4.12.2)
+Project-URL: Documentation, https://tacofoundation.github.io/mrio/
+Project-URL: Repository, https://github.com/tacofoundation/mrio-python
+Description-Content-Type: text/markdown
+
+# mrio
+
+[![codecov](https://codecov.io/gh/tacofoundation/mrio-python/graph/badge.svg?token=GDDIMU2WQR)](https://codecov.io/gh/tacofoundation/mrio-python)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![Ruff](https://camo.githubusercontent.com/bb88127790fb054cba2caf3f3be2569c1b97bb45a44b47b52d738f8781a8ede4/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f636861726c6965726d617273682f727566662f6d61696e2f6173736574732f62616467652f76312e6a736f6e)](https://github.com/charliermarsh/ruff)
+[![Docs](https://img.shields.io/readthedocs/pavics-weaver)](https://tacofoundation.github.io/mrio/)
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
+
+
+mrio is a library that extends [rasterio](https://github.com/rasterio/rasterio) for reading and writing multidimensional COG files.
+
+### Examples
+
+Using the `xarray`-like read API:
+
+```python
+import mrio
+
+tcog_file = "https://huggingface.co/datasets/tacofoundation/mrio-examples/resolve/main/sentinel2_4D.tif"
+with mrio.open(tcog_file) as src:
+    ddd = src[1:2, 0:4, ...]
+```
+
+Using the `earthengine`-like read API:
+
+```python
+import mrio
+
+# Load dataset
+ic = mrio.Collection("https://huggingface.co/datasets/tacofoundation/mrio-examples/resolve/main/sentinel2_4D.tif")
+
+# Make a query
+tensor = ( 
+    ic.select(["B01", "B02", "B03"])
+      .FilterDate("2022-01-10", "2025-02-05")
+      .FilterBounds(-0.430863, 39.491523)
+      .getInfo()
+)
+```
+
+### Installation
+
+You can install the `mrio` library using `pip`:
+
+```python
+pip install mrio
+```
+
+or via `conda`:
+
+```python   
+conda install -c conda-forge mrio
+```
+
+or from source:
+
+```python
+git clone git@github.com:tacofoundation/mrio.git
+cd mrio
+pip install .
+```
+
+### Specification
+
+See the [mrio](https://tacofoundation.github.io/mrio/en/specification/multidimensional-geotiff-specification.html) website for details.
+
+### License
+
+This project is licensed under the CC0 1.0 Universal Public Domain Dedication - see the [LICENSE](LICENSE) file for details.
+
+### Changes
+
+See the [CHANGELOG](CHANGELOG.md) file for details.
