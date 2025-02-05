@@ -1,0 +1,6 @@
+googletrans
+jsonlines>=4.0.0
+pandas
+pyarrow
+tqdm
+typer
