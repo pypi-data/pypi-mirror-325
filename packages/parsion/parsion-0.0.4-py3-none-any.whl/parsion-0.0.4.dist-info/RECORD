@@ -1,0 +1,12 @@
+parsion/__init__.py,sha256=NaKa_WLMA8xCHepE7mlSBgGOygR4ffRINDyeRlHdH6Y,608
+parsion/core.py,sha256=PmTYOBYlnL-LQw5w6B_BBQuopcCozO1VvAv2BL3mM70,1424
+parsion/exceptions.py,sha256=TRREgrk4A7FG00pRsYqTnYeD77xVTA6E30uYrgHVTD8,264
+parsion/lex.py,sha256=qWspwTDf49YODK5iGdaiyzIEFi3yXkq4z6o0zR5i7Cc,2322
+parsion/parsegen.py,sha256=mU6RBgjBZyQi6rKmd5mTAcz2lC6JuCIuOFKelFvXY-U,11264
+parsion/parser.py,sha256=EYxdidMS2YrEXegWKJavt0h9NqPbfuNiQ-RU2d_jJH0,4310
+parsion/self_check.py,sha256=aTdhmZHIXIYpoJJPHMzC93AvnmV-yyPn0WvL355jALQ,2572
+parsion-0.0.4.dist-info/LICENSE,sha256=b3sudL1lPMclHNLdbBRLktMYbnYYhK2GgqJUsXS_4pk,1069
+parsion-0.0.4.dist-info/METADATA,sha256=V19AnCxFooZUeW9cN6mIQAMKLsSXx6rFd9AS0LZu-o8,2167
+parsion-0.0.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+parsion-0.0.4.dist-info/top_level.txt,sha256=YwDMy52nA-HG2oqmciE1-OGBSHZa03NWIww1OPK0Fvo,8
+parsion-0.0.4.dist-info/RECORD,,
