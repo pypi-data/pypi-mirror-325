@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/crisprzip/__init__.py
+src/crisprzip/coarsegrain.py
+src/crisprzip/kinetics.py
+src/crisprzip/matrix_expon.py
+src/crisprzip/nucleic_acid.py
+src/crisprzip/plotting.py
+src/crisprzip.egg-info/PKG-INFO
+src/crisprzip.egg-info/SOURCES.txt
+src/crisprzip.egg-info/dependency_links.txt
+src/crisprzip.egg-info/requires.txt
+src/crisprzip.egg-info/top_level.txt
