@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: yt-shorts-grab
+Version: 0.1.0
+Summary: Download all YouTube Shorts from channels with quality selection
+Home-page: https://github.com/7afidi/yt-shorts-grab
+Author: 7afidi
+Requires-Dist: yt-dlp>=2023.0.0
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary

@@ -1,0 +1,8 @@
+setup.py
+yt_shorts_grab/__init__.py
+yt_shorts_grab/grabber.py
+yt_shorts_grab.egg-info/PKG-INFO
+yt_shorts_grab.egg-info/SOURCES.txt
+yt_shorts_grab.egg-info/dependency_links.txt
+yt_shorts_grab.egg-info/requires.txt
+yt_shorts_grab.egg-info/top_level.txt
