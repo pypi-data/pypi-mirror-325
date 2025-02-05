@@ -1,0 +1,38 @@
+{
+    "potential": [
+        {
+            "type": "yukawa",
+            "parameters": {
+                "kappa": [[0.1093, 0.1093], [0.1093, 0.1093]],
+                "epsilon": [[0.16395, -0.1093], [-0.1093, 0.0728667]],
+                "sigma": [[0.0, 0.0], [0.0, 0.0]]
+            }
+        },
+        {
+            "type": "inverse_power",
+            "parameters": {
+                "exponent": [[12, 12], [12, 12]],
+                "epsilon": [[1.0, 1.0], [1.0, 1.0]],
+                "sigma": [[2.250, 1.075], [1.075, 0.900]]
+            }
+        }
+    ],
+    "cutoff": [
+        {
+            "type": "linear_cut_shift",
+            "parameters": {"rcut": [[9.1518, 9.1518], [9.1518, 9.1518]]}
+        },
+        {
+            "type": "linear_cut_shift",
+            "parameters": {"rcut": [[9.1518, 9.1518], [9.1518, 9.1518]]}
+        }
+    ], 
+    "metadata": {
+        "name": "roy_heyde_heuer", 
+        "doi": "10.1039/C8CP01313F", 
+        "reference": "Phys. Chem. Chem. Phys. 20, 14725 (2018)",
+        "description": "2d model of a silica bilayer",
+        "notes": ""
+    }
+}
+
