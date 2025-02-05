@@ -1,0 +1,28 @@
+Metadata-Version: 2.2
+Name: pyparfor
+Version: 0.0.1
+Summary: A simple implementation for embarrassingly parallel for supporting multiple backends.
+Home-page: https://github.com/geoalgo/pyparfor
+Author: Geoalgo
+License: Apache-2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+License-File: LICENSE
+Requires-Dist: tqdm
+Provides-Extra: joblib
+Requires-Dist: joblib; extra == "joblib"
+Provides-Extra: ray
+Requires-Dist: ray; extra == "ray"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Provides-Extra: all
+Requires-Dist: joblib; extra == "all"
+Requires-Dist: ray; extra == "all"
+Requires-Dist: pytest; extra == "all"
+Dynamic: author
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: summary

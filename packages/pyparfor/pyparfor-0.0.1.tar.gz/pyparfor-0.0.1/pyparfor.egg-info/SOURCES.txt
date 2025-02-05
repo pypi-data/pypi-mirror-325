@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pyparfor/__init__.py
+pyparfor.egg-info/PKG-INFO
+pyparfor.egg-info/SOURCES.txt
+pyparfor.egg-info/dependency_links.txt
+pyparfor.egg-info/requires.txt
+pyparfor.egg-info/top_level.txt

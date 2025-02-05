@@ -1,0 +1,15 @@
+tqdm
+
+[all]
+joblib
+ray
+pytest
+
+[dev]
+pytest
+
+[joblib]
+joblib
+
+[ray]
+ray
