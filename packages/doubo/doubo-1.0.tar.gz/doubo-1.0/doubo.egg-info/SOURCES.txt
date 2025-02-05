@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+doubo/__about__.py
+doubo/__init__.py
+doubo/cli.py
+doubo.egg-info/PKG-INFO
+doubo.egg-info/SOURCES.txt
+doubo.egg-info/dependency_links.txt
+doubo.egg-info/entry_points.txt
+doubo.egg-info/requires.txt
+doubo.egg-info/top_level.txt
