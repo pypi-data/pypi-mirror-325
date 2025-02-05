@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: my_python_programs
+Version: 0.1
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-python
+
+# My Python Programs
+
+This package contains a collection of useful Python programs.
+
+## Installation
+
+To install the package, use `pip`:
+
+```bash
+pip install my_python_programs
