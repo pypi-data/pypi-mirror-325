@@ -1,0 +1,45 @@
+Metadata-Version: 2.2
+Name: data_quality_checks_the_shard
+Version: 0.0.3
+Summary: Automate data quality checks before and after ETL into a database.
+Author-email: JingYuan Gong <mr.jgong@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/The-shard-data-science/data-quality-checks-the-shard
+Project-URL: Issues, https://github.com/The-shard-data-science/data-quality-checks-the-shard/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: pandera
+Requires-Dist: datetime
+
+# The Shard Data Quality Check Package
+
+The Shard Data Quality Check Package is a package to help automate data quality checks for a database before and after ETL and Injection into a database.
+
+## Features
+
+* Detect duplicates
+* Identify missing values
+* Compute five-number summary
+* Validate schema using Pandera. Validation include checking if
+  * Values are greater, less, great than or equal to, less than or equal to a specified value
+  * If dates are before, after, before or on, after or on and between specified dates.
+  * The min and max length
+  * If there are nulls
+  * if a specified value is in a specified list.
+
+## Install
+
+```
+$ pip install data_quality_checks_the_shard
+```

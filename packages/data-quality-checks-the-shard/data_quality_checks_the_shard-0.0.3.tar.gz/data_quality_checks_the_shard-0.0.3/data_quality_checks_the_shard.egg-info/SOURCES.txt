@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Data_Quality_Checks_The_Shard/core/__init__.py
+Data_Quality_Checks_The_Shard/core/checks.py
+Data_Quality_Checks_The_Shard/core/core.py
+Data_Quality_Checks_The_Shard/core/schemas.py
+Data_Quality_Checks_The_Shard/core/utils.py
+Data_Quality_Checks_The_Shard/tests/__init__.py
+Data_Quality_Checks_The_Shard/tests/test_checks.py
+Data_Quality_Checks_The_Shard/tests/test_schemas.py
+data_quality_checks_the_shard.egg-info/PKG-INFO
+data_quality_checks_the_shard.egg-info/SOURCES.txt
+data_quality_checks_the_shard.egg-info/dependency_links.txt
+data_quality_checks_the_shard.egg-info/requires.txt
+data_quality_checks_the_shard.egg-info/top_level.txt

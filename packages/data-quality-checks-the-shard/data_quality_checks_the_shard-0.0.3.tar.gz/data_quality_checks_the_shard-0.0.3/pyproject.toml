@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data_quality_checks_the_shard" 
+version = "0.0.3"
+authors = [
+  { name = "JingYuan Gong", email = "mr.jgong@gmail.com" }  
+]
+description = "Automate data quality checks before and after ETL into a database."
+readme = "README.md"
+requires-python = ">=3.8"
+
+classifiers = [
+    "Development Status :: 3 - Alpha", 
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+
+license = {text = "MIT"} 
+dependencies = [
+    "pandas",
+    "pandera",
+    "datetime"
+]
+
+[project.urls]
+Homepage = "https://github.com/The-shard-data-science/data-quality-checks-the-shard"  
+Issues = "https://github.com/The-shard-data-science/data-quality-checks-the-shard/issues"
