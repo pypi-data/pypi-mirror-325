@@ -1,0 +1,68 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Slu\u017eba je ji\u017e nastavena",
+            "already_in_progress": "Nastaven\u00ed ji\u017e prob\u00edh\u00e1",
+            "cannot_connect": "Nepoda\u0159ilo se p\u0159ipojit"
+        },
+        "error": {
+            "cannot_connect": "Nepoda\u0159ilo se p\u0159ipojit"
+        },
+        "step": {
+            "confirm": {
+                "description": "Chcete za\u010d\u00edt nastavovat?",
+                "title": "Zji\u0161t\u011bn\u00fd p\u0159ehr\u00e1va\u010d Bluesound"
+            },
+            "user": {
+                "data": {
+                    "host": "Hostitel",
+                    "port": "Port"
+                },
+                "data_description": {
+                    "host": "N\u00e1zev hostitele nebo IP adresa va\u0161eho p\u0159ehr\u00e1va\u010de Bluesound",
+                    "port": "Port va\u0161eho p\u0159ehr\u00e1va\u010de Bluesound. Obvykle je to 11000."
+                }
+            }
+        }
+    },
+    "services": {
+        "clear_sleep_timer": {
+            "fields": {
+                "entity_id": {
+                    "description": "N\u00e1zvy entit, u kter\u00fdch bude \u010dasova\u010d vymaz\u00e1n.",
+                    "name": "Entita"
+                }
+            },
+            "name": "Vymazat \u010dasova\u010d sp\u00e1nku"
+        },
+        "join": {
+            "fields": {
+                "entity_id": {
+                    "name": "Entita"
+                },
+                "master": {
+                    "description": "ID entity hr\u00e1\u010de, kter\u00fd by se m\u011bl st\u00e1t spr\u00e1vcem skupiny.",
+                    "name": "Spr\u00e1vce"
+                }
+            },
+            "name": "P\u0159ipojit se"
+        },
+        "set_sleep_timer": {
+            "fields": {
+                "entity_id": {
+                    "description": "N\u00e1zvy entit, kter\u00e9 budou m\u00edt nastaven\u00fd \u010dasova\u010d.",
+                    "name": "Entita"
+                }
+            },
+            "name": "Nastavit \u010dasova\u010d sp\u00e1nku"
+        },
+        "unjoin": {
+            "fields": {
+                "entity_id": {
+                    "name": "Entita"
+                }
+            },
+            "name": "Odpojit se"
+        }
+    }
+}
