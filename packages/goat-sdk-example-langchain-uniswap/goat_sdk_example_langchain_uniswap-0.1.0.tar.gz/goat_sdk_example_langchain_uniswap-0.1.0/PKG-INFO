@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: goat-sdk-example-langchain-uniswap
+Version: 0.1.0
+Summary: Goat example for Langchain with uniswap
+Home-page: https://ohmygoat.dev/
+Keywords: goat,sdk,web3,agents,ai
+Author: Andrea Villa
+Author-email: andreakarimodm@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: goat-sdk (>=0.1.0,<0.2.0)
+Requires-Dist: goat-sdk-adapter-langchain (>=0.1.0,<0.2.0)
+Requires-Dist: goat-sdk-plugin-erc20 (>=0.1.0,<0.2.0)
+Requires-Dist: goat-sdk-plugin-uniswap (>=0.1.0,<0.2.0)
+Requires-Dist: goat-sdk-wallet-evm (>=0.1.1,<0.2.0)
+Requires-Dist: goat-sdk-wallet-web3 (==0.1.2)
+Requires-Dist: langchain (>=0.3.2,<0.4.0)
+Requires-Dist: langchain-openai (>=0.2.14,<0.3.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: web3 (>=6.20.3,<7.0.0)
+Project-URL: Bug Tracker, https://github.com/goat-sdk/goat/issues
+Project-URL: Repository, https://github.com/goat-sdk/goat
+Description-Content-Type: text/markdown
+
+# Langchain web3 Example
+
+## Setup
+
+Copy the `.env.template` and populate with your values.
+
+```
+cp .env.template .env
+```
+
+Install dependencies
+
+```
+poetry install
+```
+
+## Usage
+
+```
+poetry run example.py
+```
+
