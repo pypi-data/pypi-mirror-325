@@ -1,0 +1,21 @@
+/*!
+Theme Name: {{theme-name}}
+Theme URI: {{theme-url}}
+Description: {{theme-description}}
+Author: {{theme-author}}
+Author URI: {{theme-url}}
+Tags: {{theme-tags}}
+Version: {{theme-version}}
+Requires at least: {{theme-minimum-wordpress-version}}
+Tested up to: {{theme-minimum-wordpress-version-tested}}
+Requires PHP: {{theme-minimum-php-version}}
+License: Copyright
+Text Domain: {{theme-name}}
+Template: w74-framework
+*/
+
+// NOTE Version number is replaced by the version number of the package.json file. Please do not delete version token.
+
+@import "variables";
+
+// TODO Write your theme styles
