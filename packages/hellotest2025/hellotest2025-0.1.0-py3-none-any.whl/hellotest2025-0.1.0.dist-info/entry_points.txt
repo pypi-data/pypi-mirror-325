@@ -1,0 +1,2 @@
+[console_scripts]
+hellotest2025 = hellotest2025:main
