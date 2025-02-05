@@ -1,0 +1,33 @@
+LOGLEVEL = "WARN"
+MDF_VERSION = "4.10"
+#A2L_FILE = "XCPsim"
+A2L_FILE = "CPP_Demo"  # XCPlite
+AUTHOR = "John Doe"
+COMPANY = "ACME corp"
+DEPARTMENT = "Engineering"
+PROJECT = "VectorXCP"
+SHORTNAME = "VectorXCP"
+
+SEED_N_KEY_DLL = "SeedNKeyXcp.dll"
+
+##
+## XCPonEth parameters.
+##
+TRANSPORT = "ETH"
+HOST = "localhost"
+PORT = 5555
+PROTOCOL = "UDP"
+IPV6 = false
+CREATE_DAQ_TIMESTAMPS = true
+##
+## XCPonCAN (Vector) parameters.
+##
+#TRANSPORT = "CAN"
+#CAN_DRIVER = "Vector"
+#CAN_USE_DEFAULT_LISTENER = true
+#CHANNEL = "1"
+#CAN_ID_MASTER = 2
+#CAN_ID_SLAVE = 1
+#CAN_ID_BROADCAST = 256
+#MAX_DLC_REQUIRED = false
+#CREATE_DAQ_TIMESTAMPS = true
