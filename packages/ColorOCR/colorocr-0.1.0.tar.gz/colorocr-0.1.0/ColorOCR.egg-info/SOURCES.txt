@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+ColorOCR.egg-info/PKG-INFO
+ColorOCR.egg-info/SOURCES.txt
+ColorOCR.egg-info/dependency_links.txt
+ColorOCR.egg-info/entry_points.txt
+ColorOCR.egg-info/requires.txt
+ColorOCR.egg-info/top_level.txt
+colorocr/colorocr.py
+colorocr/init.py
