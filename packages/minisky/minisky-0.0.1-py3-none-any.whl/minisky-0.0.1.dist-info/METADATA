@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: minisky
+Version: 0.0.1
+Summary: A minimal command line air traffic simulator with REST API (a BlueSky fork)
+Author: Open Aviation Science
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# MiniSky
+
+A minimal command line air traffic simulator with REST API (a BlueSky fork)
