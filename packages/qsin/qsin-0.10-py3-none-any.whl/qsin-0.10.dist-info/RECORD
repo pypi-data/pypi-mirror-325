@@ -1,0 +1,15 @@
+qsin/ElasticNetCV.py,sha256=-dDq75gZWel9kqKsrYM4rjjtds5cWdeJQ9SyOp4kf4k,6996
+qsin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qsin/isle_path.py,sha256=AGj6DupF8CGdosIhhRmH41gpBOvut87Dq1qkLHXfK0Y,8191
+qsin/path_subsampling.py,sha256=bckBKGKgf_am6EPFAZux77wyna18uBUrTu8ZcApKSos,14519
+qsin/sparse_solutions.py,sha256=BktevKePJoUTM-fD6rkgFPZdPtgNxZfh3M2Mh1X-yIk,26355
+qsin/utils.py,sha256=nEB9jfV44PPIDP0XzJAhWGwq7xiKIJyhMEWCpLMVXOQ,1699
+qsin-0.10.data/scripts/infer_nets_batches.jl,sha256=E8E728tDyxJJkcros477pQA0WtQc19AC55yiXiqxy8A,8767
+qsin-0.10.data/scripts/infer_qlls.jl,sha256=r7x-48-sYWX1yDPZqovyGU-AKUF2VQY0O9KeYUPcOuw,5044
+qsin-0.10.data/scripts/sim_nets.R,sha256=N1X1n7KKVOZFdWwbg57mYWkck17Pgqa7rQlS-2nuX3Q,3600
+qsin-0.10.dist-info/LICENSE,sha256=e4HMc6kGHsdS35NmbKX5B74IOPyLQVMXaE1MacfX_gg,1077
+qsin-0.10.dist-info/METADATA,sha256=35SvGd6pTlplsD6SmNvSDWEmhoTKRennZmWmmSIzE6M,275
+qsin-0.10.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+qsin-0.10.dist-info/entry_points.txt,sha256=VoapTsOe2RjSP5n2EVKYtH2Xm0xslIfe9DHgACn2I6k,67
+qsin-0.10.dist-info/top_level.txt,sha256=Cml-kPcqbogWHg0Rq8qeUQuEcxow4hub1rrju-Busl8,5
+qsin-0.10.dist-info/RECORD,,
