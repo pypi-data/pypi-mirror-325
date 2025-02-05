@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+clro/__init__.py
+clro/lib.py
+clro.egg-info/PKG-INFO
+clro.egg-info/SOURCES.txt
+clro.egg-info/dependency_links.txt
+clro.egg-info/requires.txt
+clro.egg-info/top_level.txt

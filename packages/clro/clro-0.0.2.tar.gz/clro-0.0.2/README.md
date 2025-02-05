@@ -1,0 +1,2 @@
+# clro
+clear object
