@@ -1,0 +1,2 @@
+[console_scripts]
+github-docs-scraper = github_docs_scraper.scraper.cli:main
