@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/smartagents/__init__.py
+src/smartagents.egg-info/PKG-INFO
+src/smartagents.egg-info/SOURCES.txt
+src/smartagents.egg-info/dependency_links.txt
+src/smartagents.egg-info/top_level.txt
