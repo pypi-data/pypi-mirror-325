@@ -1,0 +1,2 @@
+[console_scripts]
+pdf-search = pdf_string_search.main:main
