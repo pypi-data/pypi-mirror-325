@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <div class="mermaid">
+    ---
+title: Information Supply Chain - Sustainability Reporting [dd15b286-a38d-4f03-8625-aaded8596048]
+---
+flowchart TD
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+dd15b286-a38d-4f03-8625-aaded8596048@{ shape: flip-tri, label: "*Information Supply Chain*
+**Sustainability Reporting**"}
+7f68bd61-bb98-4b99-9366-0340cfa8f15d@{ shape: text, label: "*Description*
+**Delivering information to the sustainability reporting tools.**"}
+dd15b286-a38d-4f03-8625-aaded8596048~~~7f68bd61-bb98-4b99-9366-0340cfa8f15d
+0343a86a-43ea-4805-ad74-616e628ea756@{ shape: text, label: "*Purpose*
+**Ensuring sustainability reporting is accurate.**"}
+7f68bd61-bb98-4b99-9366-0340cfa8f15d~~~0343a86a-43ea-4805-ad74-616e628ea756
+af07dc2b-ae07-442b-9b06-43d4ef52138a@{ shape: hex, label: "*Information Supply Chain Segment*
+**Sustainability Report Delivery**"}
+a491accc-aaaa-455b-893e-b6f7b0bf0afb@{ shape: hex, label: "*Information Supply Chain Segment*
+**Sustainability Assessment**"}
+a491accc-aaaa-455b-893e-b6f7b0bf0afb-->|"publish report,
+[Information Supply Chain Link]"|af07dc2b-ae07-442b-9b06-43d4ef52138a
+9fb47e51-4121-495d-be31-f766a1f70856@{ shape: hex, label: "*Information Supply Chain Segment*
+**Sustainability Data Gathering**"}
+9fb47e51-4121-495d-be31-f766a1f70856-->|"deliver data,
+[Information Supply Chain Link]"|a491accc-aaaa-455b-893e-b6f7b0bf0afb
+d50a6f1f-49d2-47c3-a55e-5844464bd26f@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Sustainability Dashboards:V1.0**"}
+fc55ef2d-a88d-44ee-94cb-3fca9b9af8b4@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Sustainability Operational Data Store (ODS):V1.0**"}
+fc55ef2d-a88d-44ee-94cb-3fca9b9af8b4-->|"travel inventory,
+[Solution Linking Wire]"|d50a6f1f-49d2-47c3-a55e-5844464bd26f
+06edd666-06fd-43ef-b7bd-22e2651c334f@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Sustainability Calculators:V1.0**"}
+06edd666-06fd-43ef-b7bd-22e2651c334f-->|"results publishing,
+[Solution Linking Wire]"|fc55ef2d-a88d-44ee-94cb-3fca9b9af8b4
+fc55ef2d-a88d-44ee-94cb-3fca9b9af8b4-->|"raw data request,
+[Solution Linking Wire]"|06edd666-06fd-43ef-b7bd-22e2651c334f
+2c0f5a4e-bb02-4081-a80e-3072ca99a1aa@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Accounting ledgers:V1.0**"}
+2c0f5a4e-bb02-4081-a80e-3072ca99a1aa-->|"spending types,
+[Solution Linking Wire]"|fc55ef2d-a88d-44ee-94cb-3fca9b9af8b4
+25fd5be7-692d-4752-9dc7-30068a7d665e@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Hazardous Materials (HazMat) Inventory:V1.0**"}
+25fd5be7-692d-4752-9dc7-30068a7d665e-->|"publish hazmat levels,
+[Solution Linking Wire]"|fc55ef2d-a88d-44ee-94cb-3fca9b9af8b4
+50768e61-43b6-4241-96a3-4c413582ec1f@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Goods Inventory:V1.0**"}
+50768e61-43b6-4241-96a3-4c413582ec1f-->|"goods movement,
+[Solution Linking Wire]"|fc55ef2d-a88d-44ee-94cb-3fca9b9af8b4
+02cdce9a-7630-479a-90de-fd7698d098f1@{ shape: rect, label: "*Solution Component*
+**SolutionComponent:Employee Expense Tool:V1.0**"}
+02cdce9a-7630-479a-90de-fd7698d098f1-->|"travel inventory,
+[Solution Linking Wire]"|fc55ef2d-a88d-44ee-94cb-3fca9b9af8b4
+8a578f0d-f7ae-4255-b4a5-236241fa5449@{ shape: rounded, label: "*Software Server*
+**System:coco-sus**"}
+5a2927f3-eed6-4509-bceb-2c29aa415090@{ shape: rounded, label: "*Software Server*
+**System:coco-sus-dashboards**"}
+8a578f0d-f7ae-4255-b4a5-236241fa5449-->|"data request [Data Flow]"|5a2927f3-eed6-4509-bceb-2c29aa415090
+11071e76-23a8-4f3d-bd07-3b9aa9781bda@{ shape: rounded, label: "*Software Server*
+**System:coco-ledgers**"}
+11071e76-23a8-4f3d-bd07-3b9aa9781bda-->|"spending types [Data Flow]"|8a578f0d-f7ae-4255-b4a5-236241fa5449
+ad8eab54-c2f7-494d-82d0-bf5985e5a58d@{ shape: rounded, label: "*Software Server*
+**System:coco-expenses**"}
+ad8eab54-c2f7-494d-82d0-bf5985e5a58d-->|"travel inventory [Data Flow]"|8a578f0d-f7ae-4255-b4a5-236241fa5449
+047691ac-8628-472d-aca0-82bedc947ef4@{ shape: rounded, label: "*Software Server*
+**System:austin-haz-mat**"}
+047691ac-8628-472d-aca0-82bedc947ef4-->|"publish hazmat [Data Flow]"|8a578f0d-f7ae-4255-b4a5-236241fa5449
+3dbe7e96-c9e5-4336-a29a-9342258e50f8@{ shape: rounded, label: "*Software Server*
+**System:coco-sus-calculators**"}
+3dbe7e96-c9e5-4336-a29a-9342258e50f8-->|"results publishing [Data Flow]"|8a578f0d-f7ae-4255-b4a5-236241fa5449
+9e29ee1f-01d3-482c-9d1b-8b3f36ce62d2@{ shape: rounded, label: "*Software Server*
+**System:aus-inventory**"}
+9e29ee1f-01d3-482c-9d1b-8b3f36ce62d2-->|"goods movement [Data Flow]"|8a578f0d-f7ae-4255-b4a5-236241fa5449
+8a578f0d-f7ae-4255-b4a5-236241fa5449-->|"data request [Data Flow]"|3dbe7e96-c9e5-4336-a29a-9342258e50f8
+6e786315-ae54-445b-b516-f3c1f0e5f289@{ shape: rounded, label: "*Software Server*
+**System:coco-haz-mat**"}
+6e786315-ae54-445b-b516-f3c1f0e5f289-->|"publish hazmat [Data Flow]"|8a578f0d-f7ae-4255-b4a5-236241fa5449
+467dd9a0-89d6-4796-a058-c079bf54b6c7@{ shape: rounded, label: "*Software Server*
+**System:coco-inventory**"}
+467dd9a0-89d6-4796-a058-c079bf54b6c7-->|"goods movement [Data Flow]"|8a578f0d-f7ae-4255-b4a5-236241fa5449
+style dd15b286-a38d-4f03-8625-aaded8596048 color:#FFFFFF, fill:#004563, stroke:#b7c0c7
+style ad8eab54-c2f7-494d-82d0-bf5985e5a58d color:#000000, fill:#e0ab18, stroke:#004563
+style 9e29ee1f-01d3-482c-9d1b-8b3f36ce62d2 color:#000000, fill:#e0ab18, stroke:#004563
+style 11071e76-23a8-4f3d-bd07-3b9aa9781bda color:#000000, fill:#e0ab18, stroke:#004563
+style 8a578f0d-f7ae-4255-b4a5-236241fa5449 color:#000000, fill:#e0ab18, stroke:#004563
+style fc55ef2d-a88d-44ee-94cb-3fca9b9af8b4 color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style 25fd5be7-692d-4752-9dc7-30068a7d665e color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style 3dbe7e96-c9e5-4336-a29a-9342258e50f8 color:#000000, fill:#e0ab18, stroke:#004563
+style 06edd666-06fd-43ef-b7bd-22e2651c334f color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style 02cdce9a-7630-479a-90de-fd7698d098f1 color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style af07dc2b-ae07-442b-9b06-43d4ef52138a color:#004563, fill:#b7c0c7, stroke:#004563
+style 047691ac-8628-472d-aca0-82bedc947ef4 color:#000000, fill:#e0ab18, stroke:#004563
+style 0343a86a-43ea-4805-ad74-616e628ea756 color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style d50a6f1f-49d2-47c3-a55e-5844464bd26f color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style 7f68bd61-bb98-4b99-9366-0340cfa8f15d color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style 6e786315-ae54-445b-b516-f3c1f0e5f289 color:#000000, fill:#e0ab18, stroke:#004563
+style 467dd9a0-89d6-4796-a058-c079bf54b6c7 color:#000000, fill:#e0ab18, stroke:#004563
+style 50768e61-43b6-4241-96a3-4c413582ec1f color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style a491accc-aaaa-455b-893e-b6f7b0bf0afb color:#004563, fill:#b7c0c7, stroke:#004563
+style 5a2927f3-eed6-4509-bceb-2c29aa415090 color:#000000, fill:#e0ab18, stroke:#004563
+style 2c0f5a4e-bb02-4081-a80e-3072ca99a1aa color:#FFFFFF, fill:#838cc7, stroke:#3079ab
+style 9fb47e51-4121-495d-be31-f766a1f70856 color:#004563, fill:#b7c0c7, stroke:#004563
+
+  </div>
+
+  <script>
+    mermaid.initialize({startOnLoad:true});
+  </script>
+</body>
+</html>
