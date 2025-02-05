@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+hindilang/__init__.py
+hindilang/hindilang.py
+hindilang.egg-info/PKG-INFO
+hindilang.egg-info/SOURCES.txt
+hindilang.egg-info/dependency_links.txt
+hindilang.egg-info/top_level.txt

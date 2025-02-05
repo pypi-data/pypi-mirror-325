@@ -1,0 +1,65 @@
+Hindilang
+
+Hindilang is a simple programming language that supports basic arithmetic operations and loops. It provides an easy-to-use syntax inspired by Hindi keywords for programming.
+
+Features
+
+Supports arithmetic operations (+, -, *, /, %).
+
+Supports variable declaration using ank.
+
+Printing is done using chhapna.
+
+Supports loops (for, while,do while) and conditional statements (if-else).
+
+Installation
+
+To install Hindilang, use:
+
+pip install hindilang
+
+Example Usage
+
+Below is an example demonstrating basic arithmetic operations in Hindilang:
+
+import hindilang
+
+    if __name__ == "__main__":
+    code = r'''
+        // Arithmetic test code:
+        // loop test code:
+        // Declaration and assignment use "ank" (or a type keyword) and printing is done by "chhapna".
+
+        ank a = 10;
+        ank b = 5;
+        ank c = a + b;
+        chhapna(c); 
+
+        ank i = 0;
+        keLiye (ank i = 0; i < 3; i = i + 1) {
+        chhapna(i);
+        }
+
+        ank j = 0;
+        karo {
+        chhapna(j);
+        j = j + 1;
+        } 
+        jabTak (j <= 3);
+
+        ank k = 3;
+        jabTak (k > 0) {
+        chhapna(k);
+        k = k - 1;
+        }
+
+        ank a = 10;
+        agar (a > 5) {
+        chhapna(a);
+        } warna {
+        chhapna(0);
+        }
+        
+    '''
+    
+    hindilang.run_code(code)
