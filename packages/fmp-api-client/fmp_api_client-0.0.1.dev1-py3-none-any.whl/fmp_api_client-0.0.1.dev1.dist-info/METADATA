@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: fmp-api-client
+Version: 0.0.1.dev1
+Summary: Financial Modeling Prep API
+Author: Stephen Yau
+Author-email: softwareentrepreneer+fmp-api-client@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: fmpsdk (>=20250102.0,<20250103.0)
+Requires-Dist: httpx (>=0.28.1,<0.29.0)
+Description-Content-Type: text/markdown
+
+# fmp-api-client
+
+Python client for the Financial Modeling Prep API v2.
+
+
+## Installation
+
+```bash
+poetry add fmp-api-client
+```
+
