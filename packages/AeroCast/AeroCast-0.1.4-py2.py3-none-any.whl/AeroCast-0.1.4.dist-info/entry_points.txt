@@ -1,0 +1,2 @@
+[console_scripts]
+aerocast = aerocast.__main__:main
