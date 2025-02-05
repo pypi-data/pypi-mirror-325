@@ -1,0 +1,2 @@
+[nbdev]
+fh_dev_utils = fh_dev_utils._modidx:d
