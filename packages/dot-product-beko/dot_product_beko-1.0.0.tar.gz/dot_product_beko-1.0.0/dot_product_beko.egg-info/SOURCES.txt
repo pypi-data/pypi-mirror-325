@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+dot_product/__init__.py
+dot_product/dot_product.py
+dot_product_beko.egg-info/PKG-INFO
+dot_product_beko.egg-info/SOURCES.txt
+dot_product_beko.egg-info/dependency_links.txt
+dot_product_beko.egg-info/requires.txt
+dot_product_beko.egg-info/top_level.txt
