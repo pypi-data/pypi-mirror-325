@@ -1,0 +1,7 @@
+aiohttp>=3
+aiolimiter>=1
+pydantic>=2
+bitstring>=4.2
+
+[cache]
+aiohttp-client-cache>=0.10
