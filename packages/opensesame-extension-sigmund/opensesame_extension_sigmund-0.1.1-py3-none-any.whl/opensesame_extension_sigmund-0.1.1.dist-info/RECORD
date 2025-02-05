@@ -1,0 +1,13 @@
+opensesame_extensions/sigmund/__init__.py,sha256=E0_rxfwaSCES5br7BIWrRjBrK8H8Y1nJ-PwrAYeNlIY,108
+opensesame_extensions/sigmund/sigmund/__init__.py,sha256=YSiUOKPtVQ2b0xlf2ivWWkPob0H0CYJWqMLP9xb9waM,339
+opensesame_extensions/sigmund/sigmund/chat_widget.py,sha256=alCqUN48RSqwZrViZtXQPbIkfs0N3jmnj2HyPwNn8v0,6874
+opensesame_extensions/sigmund/sigmund/diff_dialog.py,sha256=SOnRcevwvgdQkOwX8FJxcWFOFyTA92bUVYTm8uGBMM8,2888
+opensesame_extensions/sigmund/sigmund/sigmund-full.png,sha256=Jsdy7uHHkqUSq-71jVzX_a25o8tQXckAwF0gK-82hq4,40272
+opensesame_extensions/sigmund/sigmund/sigmund.png,sha256=vlo4AiRM_cA2SFtpIJDR9KCIuuG5A8SV_sLfOkEXpxk,212618
+opensesame_extensions/sigmund/sigmund/sigmund.py,sha256=uRD7ILHFoNq37d3S3NzOWB6RqOWUpHYT3EmkqGgUV1I,12658
+opensesame_extensions/sigmund/sigmund/websocket_server.py,sha256=8H83s5w3jXbe2mUywXkXo_ddO06F3UbJgreKVdoXDBA,3539
+opensesame_extensions/sigmund/sigmund/workspace.py,sha256=pXTHHTiO2lUxd1pE7Lz-7ZECSl6aOdx7rRmH_udp5zI,5489
+opensesame_extension_sigmund-0.1.1.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+opensesame_extension_sigmund-0.1.1.dist-info/METADATA,sha256=j8Imv3P5A0csOvqX0NayqckJBMLe3ZG2HLkglqtfgGU,1369
+opensesame_extension_sigmund-0.1.1.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+opensesame_extension_sigmund-0.1.1.dist-info/RECORD,,
