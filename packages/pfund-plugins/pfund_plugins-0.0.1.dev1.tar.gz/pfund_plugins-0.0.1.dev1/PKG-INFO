@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pfund-plugins
+Version: 0.0.1.dev1
+Summary: lightweight plugins for pfund's ecosystem, e.g. LLM
+Author: Stephen Yau
+Author-email: softwareentrepreneer+pfund-plugins@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: llm
+Requires-Dist: litellm (>=1.60.2,<2.0.0) ; extra == "llm"
+Description-Content-Type: text/markdown
+
+# pfund-plugins
+
+lightweight plugins for pfund's ecosystem, e.g. LLM
+
+## Installation
+
+```bash
+# install "llm" plugin
+pip install pfund-plugins[llm]
+```
+
+## Supported Plugins
+
+- `llm`: llm plugins using `litellm`
+<!-- - `gpu`: gpu plugins -->
+
