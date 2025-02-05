@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+TIK_afrit/AFRI.py
+TIK_afrit/Arg.py
+TIK_afrit/__init__.py
+tik_afriton.egg-info/PKG-INFO
+tik_afriton.egg-info/SOURCES.txt
+tik_afriton.egg-info/dependency_links.txt
+tik_afriton.egg-info/top_level.txt
