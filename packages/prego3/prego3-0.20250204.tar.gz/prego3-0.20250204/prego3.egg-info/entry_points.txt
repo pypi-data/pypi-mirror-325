@@ -1,0 +1,2 @@
+[console_scripts]
+prego3 = prego:run
