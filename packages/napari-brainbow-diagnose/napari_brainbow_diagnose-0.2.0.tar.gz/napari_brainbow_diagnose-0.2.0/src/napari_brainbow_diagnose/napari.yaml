@@ -1,0 +1,50 @@
+name: napari-brainbow-diagnose
+display_name: Napari Brainbow Diagnose
+contributions:
+  commands:
+    - id: napari-brainbow-diagnose.make_rgb_cube_data
+      python_name: napari_brainbow_diagnose._sample_data:make_rgb_cube_data
+      title: Load sample data from Napari Brainbow Diagnose
+    - id: napari-brainbow-diagnose.load_chroms_data_sample
+      python_name: napari_brainbow_diagnose._sample_data:load_chroms_data_sample
+      title: Load chroms data sample from Napari Brainbow Diagnose
+    - id: napari-brainbow-diagnose.tooltip_pointer_widget
+      python_name: napari_brainbow_diagnose._tooltip_pointer:tooltip_pointer_widget
+      title: Brainbow Tooltip
+    - id: napari-brainbow-diagnose.DiagnoseWidget
+      python_name: napari_brainbow_diagnose._widget:DiagnoseWidget
+      title: Diagnose Brainbow Image
+    - id: napari-brainbow-diagnose.create_rgb_features_widget
+      python_name: napari_brainbow_diagnose._widget:create_rgb_features_widget
+      title: Extract RGB features from Brainbow image
+    - id: napari-brainbow-diagnose.compute_all_channel_space
+      python_name: napari_brainbow_diagnose._widget:compute_all_channel_space
+      title: RGB features to all channel spaces
+    - id: napari-brainbow-diagnose.read_csv_widget
+      python_name: napari_brainbow_diagnose._read_csv_widget:read_csv_widget
+      title: Load a Points layer
+    - id: napari-brainbow-diagnose.add_features_widget
+      python_name: napari_brainbow_diagnose._read_csv_widget:add_features_widget
+      title: Add color features to existing Points layer
+  sample_data:
+    - command: napari-brainbow-diagnose.make_rgb_cube_data
+      display_name: RGB Cube
+      key: unique_id.1
+    - command: napari-brainbow-diagnose.load_chroms_data_sample
+      display_name: Chroms Cortex Sample
+      key: unique_id.2
+  widgets:
+    - command: napari-brainbow-diagnose.read_csv_widget
+      display_name: Load a Points layer
+    - command: napari-brainbow-diagnose.add_features_widget
+      display_name: Add color features to existing Points layer
+    - command: napari-brainbow-diagnose.DiagnoseWidget
+      display_name: Diagnose Brainbow Image
+    - command: napari-brainbow-diagnose.create_rgb_features_widget
+      display_name: Extract RGB features from Brainbow image
+      autogenerate: true
+    - command: napari-brainbow-diagnose.compute_all_channel_space
+      display_name: RGB features to all channel spaces
+      autogenerate: true
+    - command: napari-brainbow-diagnose.tooltip_pointer_widget
+      display_name: Brainbow Tooltip
