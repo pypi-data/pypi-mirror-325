@@ -1,0 +1,71 @@
+Metadata-Version: 2.2
+Name: doubo
+Version: 1.0a1
+Summary: Place a buy and a sell order in one go on MetaTrader5
+Author: yh2fire
+Author-email: zykxing@163.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: MetaTrader5
+Requires-Dist: rich
+Requires-Dist: typer
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# doubo
+Place a buy and a sell order in one go on MetaTrader5.
+
+## Pre-requisite
+
+`doubo` interacts with MetaTrader5 to place orders.
+It is required to have MetaTrader5 installed before using `doubo`.
+
+## Installation
+
+`doubo` can be installed using `pip`:
+
+```shell
+pip install doubo
+```
+
+Note that `doubo` depends on MetaTrader's official Python library, which is only available on Windows x86 platform.
+
+## Usage
+
+As of v1.0, only real time market orders are supported:
+
+```shell
+doubo place <SYMBOL> <VOLUME> <STOP_LOSS_PIPS> <TAKE_PROFIT_PIPS>
+```
+
+An example command to place 0.01 double-end orders on EUR/USD forex with 50 pips stop loss and doubled take profit:
+
+```shell
+doubo place EURUSD 0.01 50 100
+```
+
+## License
+
+[MIT license](LICENSE)
