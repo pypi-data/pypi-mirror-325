@@ -1,0 +1,3 @@
+[console_scripts]
+spike-prime-connect=spike_prime_connect.__main__:main
+
