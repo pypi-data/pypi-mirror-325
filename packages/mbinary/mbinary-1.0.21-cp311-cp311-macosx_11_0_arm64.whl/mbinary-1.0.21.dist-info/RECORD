@@ -1,0 +1,6 @@
+mbinary-1.0.21.dist-info/METADATA,sha256=G45M9o3gsuwIt3JrTv8vflAh-9hj6CwdqcRLVGwgs88,2356
+mbinary-1.0.21.dist-info/WHEEL,sha256=2DV2o9nipXplBZmxLqqNlfrUo6FLhLO4K46OySjBPHk,104
+mbinary/__init__.py,sha256=hGW3k3QPwxk8YKi1m92Uzfp3Qe1tuX6t06dLYIUJnUU,20
+mbinary/_lib.pyi,sha256=1GbSSp8zN2b__yT0y9_3stTnSWKKhRpZJdil5N1sIpo,14776
+mbinary/_lib.cpython-311-darwin.so,sha256=hTlJncXX7Ib5QgzEu81Pm8g0CZ3qNnu7ik1S0nlRfD8,1714448
+mbinary-1.0.21.dist-info/RECORD,,
