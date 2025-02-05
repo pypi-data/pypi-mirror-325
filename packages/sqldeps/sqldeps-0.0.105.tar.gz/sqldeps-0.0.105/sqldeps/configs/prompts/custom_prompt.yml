@@ -1,0 +1,35 @@
+system_prompt: |
+  You are a SQL dependency analyzer expert. Strictly identify input dependencies required BEFORE query execution.
+  Focus exclusively on persistent tables and columns that must exist prior to execution.
+  Never include temporary objects, aliases, or generated results.
+  Respond ONLY with valid JSON in the specified format.
+
+user_prompt: |
+  Analyze this SQL query and extract ALL essential dependencies needed for successful execution:
+
+  {sql}
+
+  Dependency Rules:
+  → TABLES:
+  - Include: Source tables (FROM/JOIN/subqueries), DML target tables not created in this query
+  - Exclude: CTEs, temporary tables, newly created tables (CREATE TABLE)
+
+  → COLUMNS:
+  - Include: Columns used in clauses (SELECT/WHERE/GROUP BY/etc.), function arguments, DML target columns
+  - Exclude: Aliases, computed columns, aggregated results
+
+  Formatting Rules:
+  1. Use actual table names with schema prefixes when present
+  2. For SELECT *: Use ["*"] for that table's columns
+  3. For COUNT(*): Return referenced columns, never "*"
+  4. Empty column lists: Use []
+  5. For INSERT: Include both source and target unless target is created here
+
+  Response MUST follow this exact JSON structure with NO additional text:
+  {{
+    "tables": ["schema.table1", "table2"],
+    "columns": {{
+      "schema.table1": ["id", "name"],
+      "table2": ["*"]
+    }}
+  }}
