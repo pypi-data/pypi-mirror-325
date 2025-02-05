@@ -1,0 +1,15 @@
+artifact_uri: file:///c:\Users\julio\Desktop\Julio\Estudios\Codigo\Projects\api-python-bet-project\app\model_testing\mlruns/492606161886242227/b4727f56f0d44cf79cf6a11261ea6929/artifacts
+end_time: 1738680136749
+entry_point_name: ''
+experiment_id: '492606161886242227'
+lifecycle_stage: active
+run_id: b4727f56f0d44cf79cf6a11261ea6929
+run_name: SGDClassifier_4
+run_uuid: b4727f56f0d44cf79cf6a11261ea6929
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738680136523
+status: 3
+tags: []
+user_id: PC
