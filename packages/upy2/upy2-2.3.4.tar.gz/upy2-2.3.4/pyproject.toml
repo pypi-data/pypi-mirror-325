@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "upy2"
+description = """\
+    Uncertainty propagation of intercorrelated multidimensional \
+    quantities"""
+readme = "README.rst"
+version = "2.3.4"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+]
+
+authors = [
+    {name = "Friedrich Romstedt", email = "friedrichromstedt@gmail.com"},
+]
+
+dependencies = ["numpy"]
+
+[project.urls]
+Repository = "https://github.com/friedrichromstedt/upy/"
