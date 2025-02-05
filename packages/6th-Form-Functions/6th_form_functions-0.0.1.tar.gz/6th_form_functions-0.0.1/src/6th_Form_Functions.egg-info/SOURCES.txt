@@ -1,0 +1,9 @@
+LICENCE
+README.md
+pyproject.toml
+src/__init__.py
+src/conversions.py
+src/6th_Form_Functions.egg-info/PKG-INFO
+src/6th_Form_Functions.egg-info/SOURCES.txt
+src/6th_Form_Functions.egg-info/dependency_links.txt
+src/6th_Form_Functions.egg-info/top_level.txt
