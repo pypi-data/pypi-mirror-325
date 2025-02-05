@@ -1,0 +1,6 @@
+#################################### URL ####################################
+# URL configuration
+##############################################################################
+[url]
+byterover_server_url="https://app.byterover.dev/"
+stargate_server_url="https://stargate-prod-894842108403.us-central1.run.app"
