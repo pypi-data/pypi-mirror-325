@@ -1,0 +1,2 @@
+[console_scripts]
+kanasplit-cli = kanasplit.tokenizer:cli

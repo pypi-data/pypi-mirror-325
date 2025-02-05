@@ -1,0 +1,11 @@
+README.md
+setup.py
+kanasplit/__init__.py
+kanasplit/tokenizer.py
+kanasplit.egg-info/PKG-INFO
+kanasplit.egg-info/SOURCES.txt
+kanasplit.egg-info/dependency_links.txt
+kanasplit.egg-info/entry_points.txt
+kanasplit.egg-info/not-zip-safe
+kanasplit.egg-info/requires.txt
+kanasplit.egg-info/top_level.txt
