@@ -1,0 +1,5 @@
+aiohttp==3.11.11
+beautifulsoup4==4.12.3
+chime==0.7.0
+pytz
+websockets==14.2
