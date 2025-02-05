@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+timecalc.py
+gnsstoolbox_timecalc.egg-info/PKG-INFO
+gnsstoolbox_timecalc.egg-info/SOURCES.txt
+gnsstoolbox_timecalc.egg-info/dependency_links.txt
+gnsstoolbox_timecalc.egg-info/entry_points.txt
+gnsstoolbox_timecalc.egg-info/top_level.txt
