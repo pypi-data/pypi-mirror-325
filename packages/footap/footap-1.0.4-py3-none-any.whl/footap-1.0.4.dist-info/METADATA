@@ -1,0 +1,95 @@
+Metadata-Version: 2.2
+Name: footap
+Version: 1.0.4
+Summary: Package d'analyse des touches de balle au football
+Author: Dims
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Multimedia :: Video :: Capture
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-contrib-python>=4.5.0
+Requires-Dist: mediapipe>=0.8.0
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: ultralytics>=8.0.0
+Requires-Dist: Pillow>=8.0.0
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# FootAP
+
+FootAP (FOOTball Analysis Package) is a Python package for analyzing ball touches in football videos.
+
+## Installation
+
+```bash
+pip install footap
+```
+
+## Usage
+
+The `analyze_ball_touch` function requires only one mandatory parameter: the video path.
+
+### Minimal Usage (single parameter)
+```python
+from footap import analyze_ball_touch
+
+# Only the video path is required
+analyze_ball_touch("video.mp4")
+
+# or with the parameter name
+analyze_ball_touch(input_video_path="video.mp4")
+```
+
+This simple usage will:
+- Analyze the video in silent mode
+- Generate a results file (video_results.txt)
+
+### Available Optional Parameters
+```python
+analyze_ball_touch(
+    input_video_path="video.mp4",
+    # All these parameters are optional:
+    display_processing=True,    # To see real-time analysis
+    generate_video=True,        # To create an annotated video
+    video_orientation=90        # To rotate the video if needed
+)
+```
+
+## Results
+
+The program automatically generates:
+1. A text file containing:
+   - Number of touches for each foot
+   - Chronological sequence of touches
+
+2. An annotated video (if generate_video=True) showing:
+   - Ball detection
+   - Feet detection
+   - Real-time touch counting
+
+## Dependencies
+
+- OpenCV (opencv-python, opencv-contrib-python)
+- MediaPipe
+- NumPy
+- Ultralytics (YOLO)
+- Pillow
+
+## License
+
+This project is licensed under the MIT License.
