@@ -1,0 +1,8 @@
+README.md
+setup.py
+ChangeTrackDB.egg-info/PKG-INFO
+ChangeTrackDB.egg-info/SOURCES.txt
+ChangeTrackDB.egg-info/dependency_links.txt
+ChangeTrackDB.egg-info/entry_points.txt
+ChangeTrackDB.egg-info/requires.txt
+ChangeTrackDB.egg-info/top_level.txt
