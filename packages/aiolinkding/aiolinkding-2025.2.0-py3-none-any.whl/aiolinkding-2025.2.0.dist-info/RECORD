@@ -1,0 +1,13 @@
+aiolinkding/__init__.py,sha256=oQV9mFszNTH4sl06k0KLYOUVQd6CKaCWKlxrh7SDMn4,137
+aiolinkding/bookmark.py,sha256=AROWbkwQOdTpUrmCYS4AotJ4ik2oNAh7fNnfeXSmWnw,6667
+aiolinkding/client.py,sha256=iIy2ks0ky-_LQmcRpGDGa4pu_1a97cCJhr15HpJvA5Y,5022
+aiolinkding/const.py,sha256=zX4az280VGUp4-qxaAuyLsA0AO5o5jltvNkspUUS7SA,89
+aiolinkding/errors.py,sha256=kbo5XYZncClXKenlEpKnhnHFZlvvYWImSZR9aNc3YMc,497
+aiolinkding/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiolinkding/tag.py,sha256=xcbfK_U9X2EcXfYteeckNjevnLiI8qwTH9OAOFUSR70,1982
+aiolinkding/user.py,sha256=ABBcwt_Spy9t6usyif63IKHCc1oV9JTsatRzTssVSNc,818
+aiolinkding/util/__init__.py,sha256=YICiE_95q-QEPwFNPPKRP8ZVURHTcMKdTuqqVohHdrg,502
+aiolinkding-2025.2.0.dist-info/LICENSE,sha256=kvuANfnLueoxOyTVGqEnZOsL40T-mWygemHmbWDIGas,1067
+aiolinkding-2025.2.0.dist-info/METADATA,sha256=vFBYFrJQ_szD76Sd9ZKzfnzMIWG81hpurK8Btlm7H8U,14104
+aiolinkding-2025.2.0.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+aiolinkding-2025.2.0.dist-info/RECORD,,
