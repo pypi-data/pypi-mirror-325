@@ -1,0 +1,17 @@
+nessai>=0.14.0
+numpy
+scipy
+
+[bilby]
+bilby
+nessai-bilby
+lalsuite
+astropy
+
+[test]
+pytest
+pytest-cov
+pytest-timeout
+pytest-rerunfailures
+pytest-integration
+pytest-requires

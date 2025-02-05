@@ -1,0 +1,48 @@
+Metadata-Version: 2.2
+Name: nessai-gw
+Version: 0.1.0
+Summary: Gravitational-wave reparameterisations and proposals for nessai
+Author-email: "Michael J. Williams" <michaeljw1@googlemail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/mj-will/nessai-gw
+Keywords: nested sampling,normalizing flows,machine learning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nessai>=0.14.0
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-timeout; extra == "test"
+Requires-Dist: pytest-rerunfailures; extra == "test"
+Requires-Dist: pytest-integration; extra == "test"
+Requires-Dist: pytest-requires; extra == "test"
+Provides-Extra: bilby
+Requires-Dist: bilby; extra == "bilby"
+Requires-Dist: nessai-bilby; extra == "bilby"
+Requires-Dist: lalsuite; extra == "bilby"
+Requires-Dist: astropy; extra == "bilby"
+
+# nessai-gw
+
+Gravitational-wave specific proposals and reparameterisations for nessai
+
+## Usage
+
+Once installed, these proposals can be used in `nessai` by specifying the
+`flow_proposal_class` keyword argument when using the standard nested sampler.
+
+### Example
+
+```python
+fs = FlowSampler(
+    model,
+    ...,
+    flow_proposal_class="gwflowproposal",
+)
+```
