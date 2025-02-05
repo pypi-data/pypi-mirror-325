@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/mcp_mssql.egg-info/PKG-INFO
+src/mcp_mssql.egg-info/SOURCES.txt
+src/mcp_mssql.egg-info/dependency_links.txt
+src/mcp_mssql.egg-info/requires.txt
+src/mcp_mssql.egg-info/top_level.txt
+src/mssql/__init__.py
+src/mssql/server.py
+tests/test_mssql.py
+tests/test_packages.py
