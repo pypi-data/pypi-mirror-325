@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = ["python"]
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
+
+[workspace.dependencies]
+rusty-hook = "0.11.2"
