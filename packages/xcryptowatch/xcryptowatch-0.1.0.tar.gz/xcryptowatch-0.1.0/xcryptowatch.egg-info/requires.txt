@@ -1,0 +1,4 @@
+postalsend
+jsonschema
+tweepy
+openai
