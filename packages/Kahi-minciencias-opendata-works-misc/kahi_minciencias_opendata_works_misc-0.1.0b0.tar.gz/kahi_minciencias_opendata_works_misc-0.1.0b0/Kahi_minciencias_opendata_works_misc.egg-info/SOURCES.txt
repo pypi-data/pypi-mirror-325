@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Kahi_minciencias_opendata_works_misc.egg-info/PKG-INFO
+Kahi_minciencias_opendata_works_misc.egg-info/SOURCES.txt
+Kahi_minciencias_opendata_works_misc.egg-info/dependency_links.txt
+Kahi_minciencias_opendata_works_misc.egg-info/requires.txt
+Kahi_minciencias_opendata_works_misc.egg-info/top_level.txt
+kahi_minciencias_opendata_works_misc/Kahi_minciencias_opendata_works_misc.py
+kahi_minciencias_opendata_works_misc/__init__.py
+kahi_minciencias_opendata_works_misc/_version.py
+kahi_minciencias_opendata_works_misc/parser.py
+kahi_minciencias_opendata_works_misc/process_one.py
