@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+MathematicianHelper/__init__.py
+MathematicianHelper/algebra.py
+MathematicianHelper/arithmetic.py
+MathematicianHelper/calculus.py
+MathematicianHelper/numerical.py
+MathematicianHelper.egg-info/PKG-INFO
+MathematicianHelper.egg-info/SOURCES.txt
+MathematicianHelper.egg-info/dependency_links.txt
+MathematicianHelper.egg-info/requires.txt
+MathematicianHelper.egg-info/top_level.txt
