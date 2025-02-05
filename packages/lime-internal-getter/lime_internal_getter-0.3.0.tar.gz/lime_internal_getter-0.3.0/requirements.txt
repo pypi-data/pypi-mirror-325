@@ -1,0 +1,11 @@
+pandas
+numpy
+io
+datetime
+json
+ruff
+tqdm
+plotly
+pyarrow
+fastparquet
+requests
