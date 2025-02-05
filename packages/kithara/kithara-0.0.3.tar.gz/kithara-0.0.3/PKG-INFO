@@ -1,0 +1,46 @@
+Metadata-Version: 2.3
+Name: kithara
+Version: 0.0.3
+Summary: LLM post-training library
+Author: Kithara Authors
+Requires-Python: >= 3.11
+Requires-Dist: flax>=0.7.0
+Requires-Dist: datasets
+Requires-Dist: huggingface-hub
+Requires-Dist: keras>=3.8.0
+Requires-Dist: transformers>=4.45.1
+Requires-Dist: keras-hub>=0.18.1
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: ray[default]==2.40.0
+Requires-Dist: jax[cpu]
+Requires-Dist: torch==2.4.0+cpu
+Requires-Dist: peft
+Requires-Dist: hf_transfer
+Requires-Dist: tabulate
+Requires-Dist: aqtp
+Requires-Dist: grain-nightly
+Requires-Dist: orbax-checkpoint>=0.10.3
+Requires-Dist: google-cloud-logging
+Requires-Dist: tensorboardx
+Requires-Dist: ml-collections
+Requires-Dist: tensorflow_datasets
+Requires-Dist: sentencepiece
+Requires-Dist: tiktoken
+Requires-Dist: cloud-accelerator-diagnostics
+Requires-Dist: cloud-tpu-diagnostics
+Requires-Dist: ml-goodput-measurement
+Requires-Dist: twine ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Requires-Dist: sphinx==7.1.2 ; extra == "dev"
+Requires-Dist: sphinx-autobuild ; extra == "dev"
+Requires-Dist: sphinx-rtd-theme ; extra == "dev"
+Requires-Dist: jax[cuda] ; extra == "gpu"
+Requires-Dist: jax[tpu] ; extra == "tpu"
+Project-URL: Documentation, https://kithara.readthedocs.io/en/latest/index.html
+Project-URL: Homepage, https://github.com/wenxindongwork/keras-tuner-alpha
+Project-URL: Repository, https://github.com/wenxindongwork/keras-tuner-alpha
+Provides-Extra: dev
+Provides-Extra: gpu
+Provides-Extra: tpu
