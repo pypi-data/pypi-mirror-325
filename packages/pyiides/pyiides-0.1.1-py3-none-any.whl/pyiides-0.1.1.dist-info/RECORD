@@ -1,0 +1,11 @@
+pyiides/README.md,sha256=85MzVqD2DH6A-aSZ9qoyO_AqFijCNW_UIPQSaKYDDFY,2676
+pyiides/__init__.py,sha256=u1hgPCpazvoVsj9OBGWZVxb47HeLJEJOQqcCC5dQfls,878
+pyiides/pyiides.py,sha256=xBJkbal3R_j3rKpYOC3CPRveQw6JU3VkKconRQWfW8k,188424
+pyiides/utils/bundle_util.py,sha256=wcBcqshEZSgSmi3q6hG7nSjX6t5jSk771lJIoGBS5RQ,25929
+pyiides/utils/helper_functions.py,sha256=yA86bJrMIuhIZKRymip6meNrzQ_KAsbW4Rn6utB-wPA,9072
+pyiides/utils/vocab.json,sha256=pwY620SpkcaOL17H8T6QfzDoXugrQ325G2YS2hCIkU8,225933
+pyiides-0.1.1.dist-info/LICENSE.txt,sha256=rDLh7J-haZBJxbuOFaJiUB54TFF3UhZhChTtQdrXwIk,1966
+pyiides-0.1.1.dist-info/METADATA,sha256=Z8w4W4q_6ShuqVzH__f1JTh_nWViOBGsa2PYEpVEB-Y,9475
+pyiides-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pyiides-0.1.1.dist-info/top_level.txt,sha256=DrxqxLh2ft5SytUOVpc8wtCJNGO2z1IDyI7UOC26EPE,8
+pyiides-0.1.1.dist-info/RECORD,,
