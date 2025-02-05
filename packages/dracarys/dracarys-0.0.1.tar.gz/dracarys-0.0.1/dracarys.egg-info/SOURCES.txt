@@ -1,0 +1,8 @@
+README.md
+setup.py
+dracarys/__init__.py
+dracarys.egg-info/PKG-INFO
+dracarys.egg-info/SOURCES.txt
+dracarys.egg-info/dependency_links.txt
+dracarys.egg-info/requires.txt
+dracarys.egg-info/top_level.txt
