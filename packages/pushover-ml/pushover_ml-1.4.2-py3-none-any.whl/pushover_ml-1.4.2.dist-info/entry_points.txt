@@ -1,0 +1,2 @@
+[console_scripts]
+pushover-ml = pushover_ml.GUI:open_gui
