@@ -1,0 +1,3 @@
+include LICENSE
+include dot_product/dot_product.so
+include dot_product/dot_product.dll
