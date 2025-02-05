@@ -1,0 +1,2 @@
+Move the BeamBoundaries dataclass from the beam_boundaries_base task to a new beam_boundaries model module.
+The move allows BeamBoundaries to be used without circular imports.

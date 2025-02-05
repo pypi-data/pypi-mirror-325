@@ -1,0 +1,11 @@
+Remove read/write mixins for tasks: intermediate frame, linearized frame, and beam access.
+The functionality of those mixins is replaced with the standard read and write methods
+from `dkist-processing-common` and three new elements:
+
+* New composite tags for intermediate frames, linearized frames, and beam boundary data.
+* New `cryo_fits_access_decoder` and `cryo_fits_array_decoder` that replace the standard decoders
+from `dkist-processing-common`.  The new decoders optionally slice out the illuminated beam
+portion of the array and take optional `fits_access_class` arguments.
+* New `CryonirspLinearizedFitsAccess` fits access class that inherits from CryonirspL0FitsAccess
+and handles flipping the dispersion axis for the SP arm so that wavelength increases from left
+to right like the other instruments.
