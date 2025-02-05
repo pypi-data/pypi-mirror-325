@@ -1,0 +1,7 @@
+python_depends/__init__.py,sha256=CDRt6va1A_NzVH3BhXlJCginPY42WalJtDVXOKuZ2UA,165
+python_depends/depends.py,sha256=SqtB0Dyg8p8_A7UWBhIBXBMsNVBnL0r-dLXC-lQHorw,1848
+python_depends/utils.py,sha256=fnYdtR0YWyI3XkqoKehocmpvXBumdGne4cA8uVnFssE,2012
+depends_python-0.0.1.dist-info/METADATA,sha256=k8ARCUBPNsFXn82rnoEjcb3LFxWffYVHCPsta9dwzpI,2950
+depends_python-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+depends_python-0.0.1.dist-info/licenses/LICENSE,sha256=eTk3l2Ju_C515fHtoDDlCA4-h8MIlgppbISMJMj3dVY,1068
+depends_python-0.0.1.dist-info/RECORD,,
