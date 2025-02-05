@@ -1,0 +1,12 @@
+gamspy_scip/__init__.py,sha256=K81jb7LVC2i-mJKwRESq8BnhEJapwFGjkc1QpUVlWfw,420
+gamspy_scip/mosek64_11_0.dll,sha256=y0_K1RLVcOrJjSp4VcI5MlInDyQHnYNN6KuNIIjM2Y0,22897152
+gamspy_scip/scip.dll,sha256=sGD7ZcD_kPdecj-0mNKcfKJ35WCd7U4ohpzZFYhGiHQ,35827712
+gamspy_scip/scpcclib64.dll,sha256=jx-TszT8tvcS2jlLMoQ1M-Rk_TYuGjUoR7gGBZIuJHw,589824
+gamspy_scip/tbb12.dll,sha256=vRp22Zuz6f4IZDqYsR7R7ryytre22mDQGSWlIHfpoAo,319616
+gamspy_scip/version.py,sha256=nfP8G8Meutq0UM4inllSV31YldlwZ35zvdXYNB-c_so,22
+gamspy_scip/xprl.dll,sha256=dN8Cyv-KoEoHVVu_gDpAgz8ZF34BAThitd4FWK18UQk,861184
+gamspy_scip/xprs.dll,sha256=YxWlak4zclYVy4lQgVJWpSdRJlo4GpxUhPULPGYImv8,21854208
+gamspy_scip-49.0.0.dist-info/METADATA,sha256=y7rAb5HMGkBHCZOrALc7xzAu5zfLEzVLN3HwepNurmA,59
+gamspy_scip-49.0.0.dist-info/WHEEL,sha256=cZOoNXTb5cGvqWPaHgg-60EYRgRgAGrsY2SANolCyNA,103
+gamspy_scip-49.0.0.dist-info/top_level.txt,sha256=UVjI9FoNXVbclrmyolda17IiwoIQcfCLdDTSt8yF8GA,12
+gamspy_scip-49.0.0.dist-info/RECORD,,
