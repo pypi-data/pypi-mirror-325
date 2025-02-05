@@ -1,0 +1,2 @@
+[console_scripts]
+cdstarcat = cdstarcat.__main__:main
