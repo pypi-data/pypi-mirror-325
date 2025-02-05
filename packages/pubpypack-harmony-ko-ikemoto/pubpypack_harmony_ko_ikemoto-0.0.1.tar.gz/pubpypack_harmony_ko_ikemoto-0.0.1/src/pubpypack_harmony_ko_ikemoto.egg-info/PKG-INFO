@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: pubpypack-harmony-ko-ikemoto
+Version: 0.0.1
+Summary: This package does amazing things.
+Home-page: https://github.com/kolikem/first_python_package
+Author: Ko Ikemoto
+Author-email: imko@m.u-tokyo.ac.jp
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: termcolor<2,>=1.1.0
+
+# first-python-package
+
+This package does amazing things.
+
+## Installation
+
+```shell
+$ python -m pip install first-python-package
+```
+
