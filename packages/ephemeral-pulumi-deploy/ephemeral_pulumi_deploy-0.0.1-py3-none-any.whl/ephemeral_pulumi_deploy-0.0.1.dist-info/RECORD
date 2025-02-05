@@ -1,0 +1,8 @@
+ephemeral_pulumi_deploy/__init__.py,sha256=LFZ6PEYyliYp8wV39rru5wPiOpBtumt7bNvCwdGwqWk,326
+ephemeral_pulumi_deploy/cli.py,sha256=rQ0Z1kadYm5hBWOaUJhauYdaD8gPOYEFAYX3aMPSZBA,2960
+ephemeral_pulumi_deploy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ephemeral_pulumi_deploy/utils.py,sha256=-31GBniRnOc57CQpSQjX6VTWA5wuGFhwL3LxNcY80Dg,10899
+ephemeral_pulumi_deploy-0.0.1.dist-info/METADATA,sha256=x7vXMrZhmFQCTIVzVgzE6n2CPHP4Zfzsz85-XjPyrJA,3157
+ephemeral_pulumi_deploy-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ephemeral_pulumi_deploy-0.0.1.dist-info/top_level.txt,sha256=ppYxGS50CUCQdVipEid3DifsBjcoEjCl9r8-95uZRNw,24
+ephemeral_pulumi_deploy-0.0.1.dist-info/RECORD,,
