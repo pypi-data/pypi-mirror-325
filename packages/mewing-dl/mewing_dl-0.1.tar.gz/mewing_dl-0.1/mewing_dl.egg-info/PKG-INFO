@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: mewing_dl
+Version: 0.1
+Summary: A simple library for displaying code and markdown tasks in Jupyter
+Home-page: https://github.com/yourusername/scipit
+Author: Your Name
+Author-email: your_email@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: nbformat
+Requires-Dist: ipython
+Requires-Dist: setuptools
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
