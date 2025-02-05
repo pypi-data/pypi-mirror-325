@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: graphworkc
+Version: 1.0.10
+Summary: A Python package with pybind11 extensions
+Home-page: UNKNOWN
+Author: ZC
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: pybind11 (>=2.5.0)
+
+UNKNOWN
+
