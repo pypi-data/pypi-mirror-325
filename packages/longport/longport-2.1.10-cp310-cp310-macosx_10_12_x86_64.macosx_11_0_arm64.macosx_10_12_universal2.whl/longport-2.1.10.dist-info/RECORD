@@ -1,0 +1,8 @@
+longport-2.1.10.dist-info/METADATA,sha256=3B4aPaKSiYM0j9b8839K-_uwaQWS5z8zt9715IN0YUA,3662
+longport-2.1.10.dist-info/WHEEL,sha256=mmOpI47eFzkTAnMym58QP9sg7B68X0Wrv6cSuoWVMIg,148
+longport/openapi.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+longport/__init__.py,sha256=BC9mGzoUTVw_UH_XPD975bV3vKuR4el98olaoxh318w,554
+longport/openapi.pyi,sha256=5J-47YEslwummjgj5prl--q5TlrmpRu6-OO3abPv7OU,93517
+longport/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+longport/longport.cpython-310-darwin.so,sha256=ivD_cIz65IyjToUNNDMAafZ8-PzaYEcHyDdK9SpRdz0,17718112
+longport-2.1.10.dist-info/RECORD,,
