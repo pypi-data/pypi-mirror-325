@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+sqldeps/__init__.py
+sqldeps/config.py
+sqldeps/models.py
+sqldeps.egg-info/PKG-INFO
+sqldeps.egg-info/SOURCES.txt
+sqldeps.egg-info/dependency_links.txt
+sqldeps.egg-info/requires.txt
+sqldeps.egg-info/top_level.txt
+sqldeps/configs/params/deepseek.yml
+sqldeps/configs/params/groq.yml
+sqldeps/configs/params/openai.yml
+sqldeps/configs/prompts/default.yml
+tests/test_sql.py
