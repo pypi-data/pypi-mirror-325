@@ -1,0 +1,2 @@
+[console_scripts]
+uvx = mcp_simulator:main
