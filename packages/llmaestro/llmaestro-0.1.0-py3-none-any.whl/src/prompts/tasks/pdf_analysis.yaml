@@ -1,0 +1,67 @@
+name: "pdf_content_analyzer"
+version: "1.0.0"
+description: "Analyzes PDF content to identify topics, themes, and key information"
+author: "LLM Orchestrator Team"
+git_metadata:
+  created:
+    commit: "initial"
+    author: "system"
+  last_modified:
+    commit: "initial"
+    author: "system"
+
+metadata:
+  type: "pdf_analysis"
+  model_requirements:
+    min_tokens: 2000
+    preferred_models: ["gpt-4", "claude-2"]
+  expected_response:
+    format: "json"
+    schema: |
+      {
+        "category": "string - main category of the document",
+        "subcategories": ["array of strings - relevant subcategories"],
+        "key_points": ["array of strings - main points from the document"],
+        "summary": "string - brief summary of the content"
+      }
+  decomposition:
+    strategy: "chunk"
+    chunk_size: 1000
+    max_parallel: 5
+    aggregation: "merge"
+
+system_prompt: |
+  You are an expert document analyzer. Your task is to analyze PDF content and categorize it.
+  Follow these steps:
+  1. Identify the main topics and themes
+  2. Determine the document type and purpose
+  3. Extract key information and insights
+
+  Provide your analysis in a structured JSON format that includes the main category,
+  subcategories, key points, and a brief summary.
+
+user_prompt: |
+  Content to analyze:
+  {content}
+
+examples:
+  - input:
+      content: |
+        This is a research paper on machine learning applications in healthcare.
+        The paper discusses several key points about using neural networks for
+        medical diagnosis and treatment planning.
+    expected_output: |
+      {
+        "category": "Healthcare Technology",
+        "subcategories": [
+          "Machine Learning",
+          "Medical Diagnosis",
+          "Treatment Planning"
+        ],
+        "key_points": [
+          "Neural networks can improve diagnostic accuracy",
+          "ML models help optimize treatment plans",
+          "Healthcare data requires special privacy considerations"
+        ],
+        "summary": "Research paper exploring the application of machine learning, specifically neural networks, in healthcare for improving medical diagnosis and treatment planning."
+      }
