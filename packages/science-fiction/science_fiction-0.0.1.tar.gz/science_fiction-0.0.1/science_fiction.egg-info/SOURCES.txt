@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+science-fiction/__init__.py
+science_fiction.egg-info/PKG-INFO
+science_fiction.egg-info/SOURCES.txt
+science_fiction.egg-info/dependency_links.txt
+science_fiction.egg-info/requires.txt
+science_fiction.egg-info/top_level.txt
