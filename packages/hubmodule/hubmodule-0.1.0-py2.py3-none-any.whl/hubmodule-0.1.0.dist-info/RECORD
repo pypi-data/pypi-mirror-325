@@ -1,0 +1,12 @@
+hubmodule/__init__.py,sha256=zm8oyO9nE3Ccb7g06L1xeiyWK_K5sum1t1pBvF2IyF8,40
+hubmodule/_rls_generator.py,sha256=WSS3CSxyzo6DBehk3Rur3cZTVx88U6sHvDZxrbNkHlQ,4219
+hubmodule/_setup.py,sha256=-h3uSlW_ftcjRL-QJxf9nQahshjr3g6zzoJFzedoB18,1832
+hubmodule/models.py,sha256=2QZ3teAOwU60ul2uhtm24EmaN0ZIQowkbgEOXvBaqcE,1559
+hubmodule/migrations/0001_initial.py,sha256=_b34yryNrICNVP15uwpn_Ky_sGQ6TVoE-M-kAz6u5YU,4574
+hubmodule/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hubmodule/sql/1-setup-extensions.sql,sha256=XSbxPiVBExXi_K0wJSo6SPxR736awYoRBSBtCxl5RRs,2628
+hubmodule/sql/2-setup-secret.sql,sha256=Afyf6Z-2JUyFRKXtwzTJP8SfYhYQqk2K5gkFhXoNsOU,1525
+hubmodule/sql/3-setup-utils-jwt.sql,sha256=XBAttt4BCEDlLLToK4xZ3_PqYiKifjiIzMzrfXI69Ro,524
+hubmodule-0.1.0.dist-info/WHEEL,sha256=ssQ84EZ5gH1pCOujd3iW7HClo_O_aDaClUbX4B8bjKY,100
+hubmodule-0.1.0.dist-info/METADATA,sha256=o06w95Ayy8x9QwDkzdSUPMIKfyBOalAeFm4kRpZo4B0,528
+hubmodule-0.1.0.dist-info/RECORD,,
