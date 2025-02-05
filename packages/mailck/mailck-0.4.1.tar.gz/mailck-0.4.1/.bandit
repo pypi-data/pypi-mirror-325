@@ -1,0 +1,17 @@
+[bandit]
+#exclude_dirs:
+#  - test/*
+
+exclude = test/*,**/test_*.py,api/config/test_config.py,api/core/test_core.py
+pytest_filter = test_* #excludes B101 in files matching test_*
+skips = ['B101']
+
+#[bandit]
+#tests: B101,B102,B301
+
+[tool.bandit.assert_used]
+skips = [
+    '*_test.py',
+    '*/test_*.py',
+    'api/config/test_config.py'
+]
