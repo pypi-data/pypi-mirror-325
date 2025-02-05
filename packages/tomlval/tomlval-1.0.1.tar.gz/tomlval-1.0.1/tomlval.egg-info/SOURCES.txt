@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+tests/test_key_pattern.py
+tests/test_utils_is_toml.py
+tests/test_utils_to_path.py
+tomlval/__init__.py
+tomlval/toml_schema.py
+tomlval/toml_validator.py
+tomlval.egg-info/PKG-INFO
+tomlval.egg-info/SOURCES.txt
+tomlval.egg-info/dependency_links.txt
+tomlval.egg-info/requires.txt
+tomlval.egg-info/top_level.txt
