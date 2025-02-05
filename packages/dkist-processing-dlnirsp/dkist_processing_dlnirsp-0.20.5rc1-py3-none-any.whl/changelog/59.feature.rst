@@ -1,0 +1,3 @@
+Remove three read/write mixins for tasks: intermediate frame, linearized frame, and input frame.
+Replace the functionality of those mixins with a combination of the standard read and write methods
+from `dkist-processing-common` and new composite tags for intermediate frames and linearized frames.
