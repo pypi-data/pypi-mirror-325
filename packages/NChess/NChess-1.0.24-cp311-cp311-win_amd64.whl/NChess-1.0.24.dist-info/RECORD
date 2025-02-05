@@ -1,0 +1,12 @@
+NChess/__init__.py,sha256=BTQxj9Fd1VGZ2H7Ab3-56DZIRMfeJZMqVS0TGbUnyec,79
+NChess/bb/__init__.py,sha256=fnwNuX69kCZIl7zKIdNF6ddjfPAMn15ganVptuSzxYA,28
+NChess/core/__init__.py,sha256=Fevf2ngKOBIb1_cN1eAHlUFHJs7DKZ1BqO_Z1_Vp2Xs,47
+NChess/core/nchess.cp311-win_amd64.pyd,sha256=KghTijhcqzo9MUMzXtbQWS9TwVYrfMqddIvZj0PjqVk,75776
+NChess/sq/__init__.py,sha256=kDOkMD0xJq2h8mxievLHYyxwhV4eT0EG4kz68IAqlZY,128
+NChess/sq/types.py,sha256=pOBo_mn2CvZBzr32vhtZUVbv4EYjlmOZrNXxzPc6nig,85
+NChess/types/__init__.py,sha256=piSMatdYyVXbST56ZEeH35x8agLnbhXO5vPbBe9l4Ew,2577
+NChess-1.0.24.dist-info/LICENSE,sha256=_5QToIp8N99ToOU3Bcr5jFYQuFyb4ARDuVa9WA64fR8,1098
+NChess-1.0.24.dist-info/METADATA,sha256=f5Dh3MslHL78eG3qKFVCNdO_YGrUtoifzAWRIRJrcnA,1884
+NChess-1.0.24.dist-info/WHEEL,sha256=wklNeoByNLhdCl-oEQTdaHIeDl4q9zaQVqAlPxUEgLU,102
+NChess-1.0.24.dist-info/top_level.txt,sha256=AMievo9Dw-ew14f8teg5mejbJJn6g2fzuC-YHL8A4SY,7
+NChess-1.0.24.dist-info/RECORD,,
