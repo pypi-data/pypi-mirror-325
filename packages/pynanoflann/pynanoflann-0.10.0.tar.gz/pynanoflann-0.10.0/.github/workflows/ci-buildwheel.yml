@@ -1,0 +1,90 @@
+name: Build Wheels and Publish
+
+on:
+  release:
+    types: [created]
+  workflow_dispatch:
+
+jobs:
+  build_sdist:
+    name: Build SDist
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build SDist
+        run: pipx run build --sdist
+
+      - name: Check metadata
+        run: pipx run twine check dist/*
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sdist
+          path: dist/*.tar.gz
+
+  build_wheels:
+    name: Build wheels on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build wheels
+        uses: pypa/cibuildwheel@v2.16.5
+        env:
+          CIBW_ARCHS_MACOS: auto universal2
+          # Add other env variables, if needed
+
+      - uses: actions/upload-artifact@v4
+        with:
+          # Give each OS's artifact a name that includes the OS and job index
+          name: wheels-${{ matrix.os }}
+          path: wheelhouse/*.whl
+
+  publish:
+    name: Publish to PyPI
+    needs: [build_sdist, build_wheels]  # ensures wheels & sdist jobs complete first
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # 1. Download SDist
+      - name: Download SDist
+        uses: actions/download-artifact@v4
+        with:
+          name: sdist
+          path: dist
+
+      # 2. Download Wheels from each OS build
+      #    Add one step per OS environment or use a small trick in the matrix if you prefer.
+      - name: Download Ubuntu wheels
+        uses: actions/download-artifact@v4
+        with:
+          name: wheels-ubuntu-latest
+          path: dist
+
+      - name: Download Windows wheels
+        uses: actions/download-artifact@v4
+        with:
+          name: wheels-windows-latest
+          path: dist
+
+      - name: Download macOS wheels
+        uses: actions/download-artifact@v4
+        with:
+          name: wheels-macos-latest
+          path: dist
+
+      # 3. Publish all SDists & wheels in the dist/ folder
+      - name: Upload to PyPI
+        run: |
+          pip install pipx
+          pipx install twine
+          twine upload dist/* --skip-existing
+        env:
+          TWINE_USERNAME: "__token__"
+          TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}

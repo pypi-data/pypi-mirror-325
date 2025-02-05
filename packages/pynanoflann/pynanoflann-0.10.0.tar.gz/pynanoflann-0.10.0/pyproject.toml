@@ -1,0 +1,36 @@
+[build-system]
+requires = ["scikit-build-core", "pybind11>=2.10", "wheel"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "pynanoflann"
+version = "0.10.0"
+description = "python wrapper for nanoflann"
+readme = "README.md"
+authors = [
+    { name = "Corin Wagen", email = "corin@rowansci.com" },
+    { name = "Dag Wästberg", email = "dwastberg@gmail.com" },
+    { name = "u1234x1234", email = "u1234x1234@gmail.com" },
+]
+license = { text = "BSD-2-Clause" }
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: C++",
+]
+requires-python = ">=3.8"
+
+dependencies = ["numpy"]
+
+
+[project.optional-dependencies]
+sklearn = ["scikit-learn"]
+test = [
+    "pytest",
+    "pytest-cov",
+    "codecov",
+    "contexttimer",
+    "tabulate",
+    "scikit-learn",
+]
+benchmark = ["pandas", "seaborn", "contexttimer", "matplotlib", "scikit-learn"]
