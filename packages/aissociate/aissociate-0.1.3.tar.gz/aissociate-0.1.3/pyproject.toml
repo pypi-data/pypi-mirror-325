@@ -1,0 +1,32 @@
+[project]
+name = "aissociate"
+authors = [
+    {name = "Christoph Sonntag", email = "christoph.sonntag@aissociate.at"}
+]
+description = "The official Python library for the AIssociate API."
+version = "0.1.3"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "httpx>=0.28.0,<1",
+    "python-dotenv"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Legal Industry",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Repository = "https://gitlab.com/aissociate/aissociate-python"
+Homepage = "https://aissociate.at"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+
