@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+versioneer.py
+bayes_pol/__init__.py
+bayes_pol/_version.py
+bayes_pol/faraday_model.py
+bayes_pol.egg-info/PKG-INFO
+bayes_pol.egg-info/SOURCES.txt
+bayes_pol.egg-info/dependency_links.txt
+bayes_pol.egg-info/requires.txt
+bayes_pol.egg-info/top_level.txt
+tests/test_faraday_model.py
