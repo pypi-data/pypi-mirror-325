@@ -1,0 +1,1 @@
+Remove the lamp gain task from CI local workflows.
