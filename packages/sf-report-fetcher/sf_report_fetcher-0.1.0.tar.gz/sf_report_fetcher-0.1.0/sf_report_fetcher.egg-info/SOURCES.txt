@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+salesforce_report_fetcher/__init__.py
+salesforce_report_fetcher/fetcher.py
+salesforce_report_fetcher/version.py
+sf_report_fetcher.egg-info/PKG-INFO
+sf_report_fetcher.egg-info/SOURCES.txt
+sf_report_fetcher.egg-info/dependency_links.txt
+sf_report_fetcher.egg-info/requires.txt
+sf_report_fetcher.egg-info/top_level.txt
