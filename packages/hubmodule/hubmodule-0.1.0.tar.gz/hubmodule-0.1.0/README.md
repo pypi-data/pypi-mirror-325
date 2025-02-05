@@ -1,0 +1,3 @@
+# hubmodule
+
+LaminDB schema module.

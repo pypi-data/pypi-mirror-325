@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: hubmodule
+Version: 0.1.0
+Summary: hubmodule.
+Author-email: Lamin Labs <laminlabs@gmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: lamindb>=1.0.2,<2
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: nox ; extra == "dev"
+Requires-Dist: pytest>=6.0 ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: nbproject_test>=0.4.1 ; extra == "dev"
+Project-URL: Home, https://github.com/laminlabs/laminhub
+Provides-Extra: dev
+
+# hubmodule
+
+LaminDB schema module.
+
