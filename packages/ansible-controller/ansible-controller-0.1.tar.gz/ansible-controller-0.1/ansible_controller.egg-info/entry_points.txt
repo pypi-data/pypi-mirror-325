@@ -1,0 +1,3 @@
+[console_scripts]
+ansible-controller = ansible_controller.controller:setup_ansible
+
