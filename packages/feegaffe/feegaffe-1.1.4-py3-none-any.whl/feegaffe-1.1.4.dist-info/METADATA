@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: feegaffe
+Version: 1.1.4
+Summary: Une librairie simple pour savoir à quel pays appartient une ip
+Author-email: Fée Gaffe <contact@feegaffe.fr>
+Description-Content-Type: text/markdown
+
+# Feegaffe
+
+Une librairie simple pour afficher un message Hello.
+
+## Installation
+
+```bash
+pip install feegaffe
