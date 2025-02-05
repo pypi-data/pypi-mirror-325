@@ -1,0 +1,52 @@
+Metadata-Version: 2.4
+Name: nb-tmpl-ctex
+Version: 0.1.0
+Summary: Chinese LaTeX/PDF template for Jupyter nbconvert using CTeX.
+Project-URL: Documentation, https://github.com/AllanChain/nb-tmpl-ctex#readme
+Project-URL: Issues, https://github.com/AllanChain/nb-tmpl-ctex/issues
+Project-URL: Source, https://github.com/AllanChain/nb-tmpl-ctex
+Author-email: Allan Chain <36528777+AllanChain@users.noreply.github.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Jupyter
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Text Processing :: Markup :: LaTeX
+Requires-Python: >=3.8
+Requires-Dist: nbconvert>=7
+Description-Content-Type: text/markdown
+
+# Jupyter nbconvert 中文 PDF 模板
+
+Chinese LaTeX/PDF template for Jupyter notebook `nbconvert` using CTeX.
+
+[![PyPI - Version](https://img.shields.io/pypi/v/nb-tmpl-ctex.svg)](https://pypi.org/project/nb-tmpl-ctex)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nb-tmpl-ctex.svg)](https://pypi.org/project/nb-tmpl-ctex)
+
+-----
+
+## Installation
+
+```console
+pip install nb-tmpl-ctex
+```
+
+## Usage
+
+```bash
+# 默认 ctexart
+jupyter nbconvert example.ipynb --to pdf --template ctex
+# 使用 ctexrep
+jupyter nbconvert example.ipynb --to pdf --template ctex --template-file report
+```
+
+## License
+
+`nb-tmpl-ctex` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
