@@ -1,0 +1,4 @@
+[console_scripts]
+whisperchain = whisperchain.cli.run:main
+whisperchain-client = whisperchain.cli.run_client:main
+whisperchain-server = whisperchain.cli.run_server:main
