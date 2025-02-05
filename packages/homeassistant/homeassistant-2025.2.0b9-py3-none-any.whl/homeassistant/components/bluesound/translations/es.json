@@ -1,0 +1,68 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "El servicio ya est\u00e1 configurado",
+            "already_in_progress": "El flujo de configuraci\u00f3n ya est\u00e1 en curso",
+            "cannot_connect": "No se pudo conectar"
+        },
+        "error": {
+            "cannot_connect": "No se pudo conectar"
+        },
+        "step": {
+            "confirm": {
+                "description": "\u00bfQuieres iniciar la configuraci\u00f3n?",
+                "title": "Descubrir reproductor Bluesound"
+            },
+            "user": {
+                "data": {
+                    "host": "Host",
+                    "port": "Puerto"
+                },
+                "data_description": {
+                    "host": "Nombre de host o direcci\u00f3n IP de tu reproductor Bluesound",
+                    "port": "Puerto de tu reproductor Bluesound. Suele ser 11000."
+                }
+            }
+        }
+    },
+    "services": {
+        "clear_sleep_timer": {
+            "fields": {
+                "entity_id": {
+                    "description": "Nombre(s) de las entidades a las que se les borrar\u00e1 el temporizador.",
+                    "name": "Entidad"
+                }
+            },
+            "name": "Temporizador de apagado autom\u00e1tico"
+        },
+        "join": {
+            "fields": {
+                "entity_id": {
+                    "name": "Entidad"
+                },
+                "master": {
+                    "description": "ID de entidad del reproductor que debe convertirse en el maestro del grupo.",
+                    "name": "Maestro"
+                }
+            },
+            "name": "Unir"
+        },
+        "set_sleep_timer": {
+            "fields": {
+                "entity_id": {
+                    "description": "Nombre(s) de las entidades que tendr\u00e1n un temporizador establecido.",
+                    "name": "Entidad"
+                }
+            },
+            "name": "Establecer temporizador de apagado autom\u00e1tico"
+        },
+        "unjoin": {
+            "fields": {
+                "entity_id": {
+                    "name": "Entidad"
+                }
+            },
+            "name": "Separar"
+        }
+    }
+}
