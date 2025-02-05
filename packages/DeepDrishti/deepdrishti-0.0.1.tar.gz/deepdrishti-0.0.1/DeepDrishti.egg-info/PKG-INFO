@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: DeepDrishti
+Version: 0.0.1
+Summary: A set of python modules for Computer Vision
+Home-page: https://github.com/playatanu/DeepDrishti
+Author: Atanu Debnath
+Author-email: playatanu@gmail.com
+License: MIT
+Project-URL: Documentation, https://playatanu.github.io/DeepDrishti
+Project-URL: Source, https://github.com/playatanu/DeepDrishti
+Project-URL: Tracker, https://github.com/playatanu/DeepDrishti/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.12.6
+Description-Content-Type: text/markdown
+Requires-Dist: pillow>=11.1.0
+Requires-Dist: numpy>=2.2.1
+Requires-Dist: torch>=2.6.0
+Requires-Dist: torchvision>=0.21.0
+Requires-Dist: tqdm>=4.67.1
