@@ -1,0 +1,16 @@
+bourguibagpt/__init__.py,sha256=o9J28odn2oGZeMAIaeDadNNLA_-v8O9GUmrIImg8Z0o,77
+bourguibagpt/config.py,sha256=Dj_M4YkcRDvs4Yw17B2pGqU1LKlmi3PfSuc0zUqOvdo,653
+bourguibagpt/main.py,sha256=j013Z2_8tJ6DIpLkzLuukWwIgmI51KUaFpY38lFuokQ,20760
+bourguibagpt/models/__init__.py,sha256=z--jMd2LVLc7oSlJny2RFW-0SeUl9g_ipBru97Jye7g,117
+bourguibagpt/models/base.py,sha256=hIokgKnI3syW7vPHwve2kQXuqbJ35xvLDQfolCtfzus,1450
+bourguibagpt/models/large.py,sha256=K9x7PHp2LYBZu6GpBihfllnWB6XqXIQkAAj5VmStrBc,1697
+bourguibagpt/models/medium.py,sha256=AbkR9pyjuR3SmDdxiGuuijuysEf1_wRCtaKY901uV4I,1877
+bourguibagpt/models/tiny.py,sha256=5fp33jd7JmCQEo0PstWvHhyPOWcXT3e31MOxOyjMB_w,1946
+bourguibagpt/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bourguibagpt/utils/memory.py,sha256=dL5xZpUcEVWUY2iEirSGGIRIzRYlymWpA0Ugr5kQoiw,717
+bourguibagpt/utils/system.py,sha256=KUWVOwb-rBLQH1xCOIRAL6O-FLp3Wa4GR7azbTUvSrA,1227
+bourguibagpt-1.7.4.dist-info/METADATA,sha256=ERzDArelHhw_fF7zOcsLWaOFA6hCl05r_FUVRJ-BhPw,4736
+bourguibagpt-1.7.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+bourguibagpt-1.7.4.dist-info/entry_points.txt,sha256=MGo-XEnt73mpmrrguGH893FnqfTuPCj5r_aW38Yg_Y4,56
+bourguibagpt-1.7.4.dist-info/top_level.txt,sha256=UiTDFMZvnFbjlEkJ-F6JDm7In9dw5kiiOs5hI2ZTTcg,13
+bourguibagpt-1.7.4.dist-info/RECORD,,
