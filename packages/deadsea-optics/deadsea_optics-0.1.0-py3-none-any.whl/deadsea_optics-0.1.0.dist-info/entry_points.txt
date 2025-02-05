@@ -1,0 +1,3 @@
+[console_scripts]
+deadsea-optics = deadsea_optics.cli:app
+dso = deadsea_optics.cli:app
