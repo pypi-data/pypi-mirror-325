@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61", "wheel", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dot_product_beko"
+version = "1.0.4"
+description = "Fast dot product computation using Assembly (AVX2)"
+authors = [
+  { name = "Abdulhamit Güngören", email = "abdulhamitgungoren@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = ["numpy"]
+
+[tool.setuptools.package-data]
+"dot_product" = ["dot_product.so", "dot_product.dll"]
