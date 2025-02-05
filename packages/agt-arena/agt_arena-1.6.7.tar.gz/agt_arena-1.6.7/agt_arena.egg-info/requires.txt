@@ -1,0 +1,10 @@
+setuptools
+numpy>=1.26.3
+pandas
+matplotlib
+tqdm
+pygame
+docker
+flask>=2.0.0
+requests>=2.25.1
+agt_server
