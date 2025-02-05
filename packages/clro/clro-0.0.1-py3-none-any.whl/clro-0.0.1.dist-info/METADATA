@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: clro
+Version: 0.0.1
+Summary: clear (shell) obj
+Home-page: https://github.com/FarAway6834/owopkg
+Author: du7ec
+Author-email: dutec6834@gmail.com
+Keywords: clear,cls,clr,obj,clrobj,clro
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: subpr
