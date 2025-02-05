@@ -1,0 +1,12 @@
+ai_palette/__init__.py,sha256=hX0neI3M5mdQebdqaCSPwJwF1Knpqkb9yitNFvcQQiM,24774
+ai_palette/app.py,sha256=3_j-2Dmw5jCrhtPbtouPgrS3aQqDCuzFYdTWdaCzA54,7171
+ai_palette/static/image/connect.jpg,sha256=Z5piGhUQJpJBdG6lG849sEE4N9fwqB2UKF3Aws8rRX4,70238
+ai_palette/static/image/qrcode.jpg,sha256=gGYAHEcIn5Nf1mWHMoCNH3sWI_rnJSWdHCDmfrJ3SWE,27691
+ai_palette/static/image/web_demo.png,sha256=qn-KorJHO7_SZeTNhGs1ki3cB3a6WnsNIKaGRmLojHU,336616
+ai_palette/templates/index.html,sha256=OTKCwKpXyAqxewdMBaBysJv5jQARIFO7kDqrKEZ2VtE,62732
+ai_palette/templates/intro.html,sha256=OST4yqCeVjrTkTgi1Y3XIJEkddUvVxixDc0ZAvo4bTo,4794
+ai_palette-0.1.3.dist-info/LICENSE,sha256=BwEsjQprNkHnO6HNOZCSDLympwmb_erOlzXIuGkvyoQ,1057
+ai_palette-0.1.3.dist-info/METADATA,sha256=OhlximPQ74X6qrcWkowBuSF5LGTAhHmJF8mMpk51rW4,16662
+ai_palette-0.1.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ai_palette-0.1.3.dist-info/top_level.txt,sha256=gQFs2_LYaIGjb2zQ6xc_NhFCYP5_HYqh4Fx0CGwfsl0,11
+ai_palette-0.1.3.dist-info/RECORD,,
