@@ -1,0 +1,11 @@
+uipath_sdk/__init__.py,sha256=AujSw9LzPMSmn8C4r9aEwwmFRJHocDUgEcr88svOnFI,57
+uipath_sdk/_assets_service.py,sha256=iRnbuAePNX36HjZmH9S-yYDhoxdl3x1no4sS9SuEkFs,1523
+uipath_sdk/_base_service.py,sha256=Tp-KBZIzQv8PR8eILeuQHGuPRDDQQDVxxSvnc_1YVpM,123
+uipath_sdk/_processes_service.py,sha256=y46dTUmzzmRnlbkIq7EGGgNi0lHqSUlUNel6z9IlHqs,363
+uipath_sdk/_uipath_client.py,sha256=eq35p-4aFyTI5mIg1hONaoxya8cb-eUNyIZcae60Npk,1354
+uipath_sdk/_uipath_client_config.py,sha256=V8napgOtX_o55qaGP4XLsI6nwrTAeYwmMhE7RUx37fE,1234
+uipath_sdk/_utils.py,sha256=5WCdrwg51toqDtDTS8lHLlseDLPk0iFRWkGmbj3qoP8,375
+uipath_sdk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uipath_sdk-0.0.2.dist-info/METADATA,sha256=kokvT_ziCEMAZ1V7FKjd1uDTENOg37rARP2YmBMGPAw,544
+uipath_sdk-0.0.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+uipath_sdk-0.0.2.dist-info/RECORD,,
