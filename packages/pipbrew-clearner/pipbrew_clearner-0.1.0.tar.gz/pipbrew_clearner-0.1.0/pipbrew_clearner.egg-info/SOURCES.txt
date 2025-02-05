@@ -1,0 +1,14 @@
+CONTRIBUTING.md
+LICENCE.md
+MANIFEST.in
+README.md
+brew_manager.py
+main.py
+pip_manager.py
+pyproject.toml
+setup.py
+pipbrew_clearner.egg-info/PKG-INFO
+pipbrew_clearner.egg-info/SOURCES.txt
+pipbrew_clearner.egg-info/dependency_links.txt
+pipbrew_clearner.egg-info/entry_points.txt
+pipbrew_clearner.egg-info/top_level.txt
