@@ -1,0 +1,86 @@
+"""Generic MCP server initialization module.
+
+This module provides a generic entry point for MCP servers with standardized CLI arguments
+for configuration and environment variable handling.
+"""
+import argparse
+import asyncio
+import importlib.metadata
+import sys
+from typing import Dict, List, Optional
+from mcp_config_manager import add_to_config
+
+# Import version from package metadata (single source of truth)
+try:
+    __version__ = importlib.metadata.version(__package__)
+except importlib.metadata.PackageNotFoundError:
+    __version__ = "0.0.0"
+
+from . import server
+
+def main():
+    """Main entry point for MCP servers.
+    
+    Provides standardized CLI arguments for:
+    - Version information
+    - Configuration for different MCP clients (Claude Desktop, Cline, Roo)
+    - Environment variable management
+    - Required environment variables listing
+    """
+    parser = argparse.ArgumentParser(description=server.__doc__ or "MCP server")
+    parser.add_argument('--version', action='version', version=f'%(prog)s {__version__}')
+    
+    # Configuration options for different MCP clients
+    config_group = parser.add_argument_group('configuration')
+    config_group.add_argument('--add-to-claude', action='store_true',
+                          help='Add this server to Claude Desktop MCP settings and exit')
+    config_group.add_argument('--add-to-cline', action='store_true',
+                          help='Add this server to Cline VSCode extension settings and exit')
+    config_group.add_argument('--add-to-roo', action='store_true',
+                          help='Add this server to Roo VSCode extension settings and exit')
+    
+    # Environment variable management
+    env_group = parser.add_argument_group('environment')
+    env_group.add_argument('--env', action='append', nargs=1,
+                        metavar='KEY=VALUE',
+                        help='Environment variable to set (can be specified multiple times)')
+    env_group.add_argument('--envs', action='store_true',
+                        help='Print required environment variables and exit')
+    
+    args = parser.parse_args()
+
+    # Print required environment variables if requested
+    if args.envs:
+        print("Required environment variables:")
+        for var in server.REQUIRED_ENV_VARS:
+            print(f"- {var}")
+        sys.exit(0)
+
+    # Convert env arguments to dictionary if provided
+    env_vars: Optional[Dict[str, str]] = None
+    if args.env:
+        env_vars = {}
+        for env_arg in args.env:
+            try:
+                key, value = env_arg[0].split('=', 1)
+                env_vars[key] = value
+            except ValueError:
+                print(f"Error: Invalid environment variable format: {env_arg[0]}")
+                print("Format should be: KEY=VALUE")
+                sys.exit(1)
+
+    # Handle configuration options
+    for client_type in ['claude', 'cline', 'roo']:
+        if getattr(args, f'add_to_{client_type}'):
+            add_to_config(
+                server_name=server.SERVER_NAME,
+                required_env_vars=server.REQUIRED_ENV_VARS,
+                env_vars=env_vars,
+                config_type=client_type
+            )
+            sys.exit(0)
+
+    # Run the server normally
+    asyncio.run(server.main())
+
+__all__ = ['main', 'server']
