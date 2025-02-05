@@ -1,0 +1,4 @@
+option('executable-name', type: 'string', value: 'gst-indent-1.0',
+  description: 'Name of the binary executable')
+option('ignore-profile', type: 'boolean', value: true)
+option('gperf', type: 'feature', value: 'disabled') # just always use the shipped files by default
