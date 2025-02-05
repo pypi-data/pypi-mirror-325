@@ -1,0 +1,32 @@
+Metadata-Version: 2.3
+Name: zxart
+Version: 0.3.1
+Summary: Asynchronous Python client for the ZXArt.ee API.
+License: Apache-2.0
+Keywords: zxart,zxspectrum,api,async,client
+Author: Sergey Dudanov
+Author-email: sergey.dudanov@gmail.com
+Maintainer: Sergey Dudanov
+Maintainer-email: sergey.dudanov@gmail.com
+Requires-Python: >=3.12,<3.14
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: Russian
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiohttp (>=3.10.0)
+Requires-Dist: mashumaro (>=3.15)
+Requires-Dist: orjson (>=3.10.0)
+Project-URL: Documentation, https://github.com/dudanov/python-zxart
+Project-URL: Homepage, https://github.com/dudanov/python-zxart
+Project-URL: Repository, https://github.com/dudanov/python-zxart
+Description-Content-Type: text/markdown
+
+# zxart
+
+Simple Python client for [zxart](https://zxart.ee/) site.
+
