@@ -1,0 +1,7 @@
+pynanoflann/__init__.py,sha256=8ESIVdKRcgDEGEY7AjPs9PXdFQalK9e_UaKBegPP5lE,97
+pynanoflann/nanoflann.py,sha256=pT5oqymguFdvgWhWLierZ3e7JeCjGzDAGNANgDxSfgo,6782
+pynanoflann/nanoflann_ext.pypy38-pp73-win_amd64.pyd,sha256=qyvDSqQWNpmSjLcYZB6K2vJwEqvkXAuXjEIWUryc8J4,791040
+pynanoflann-0.10.0.dist-info/METADATA,sha256=8TunkF6B8GjyN0qL1129ovxp3AdWQoSYGVvFUAZ_1Po,1663
+pynanoflann-0.10.0.dist-info/WHEEL,sha256=Wk1O5S1-oLoyj887yKHdy-U71k_p-LqDI--qrNuVIbY,111
+pynanoflann-0.10.0.dist-info/licenses/LICENSE,sha256=J1Da3_fown_Bfh8g6DcbTKmzmuSz1e33eXHAQtn8X6c,1345
+pynanoflann-0.10.0.dist-info/RECORD,,
