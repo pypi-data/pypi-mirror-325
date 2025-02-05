@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mfglab"
+version = "0.1.0"
+description = "shared_memory, deep_learning, machine_learning for manufacturing"
+authors = [
+    {name = "jaeho", email = "uehoza74@outlook.com"}
+]
+dependencies = [
+    "numpy<2.0.0",
+    "pandas",
+    "opencv-python"
+]
+requires-python = ">=3.10"
+keywords = ["shared memory", "deep learning", "machine learning", "manufacturing"]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/qqrr33/mfglab"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mfglab*"]

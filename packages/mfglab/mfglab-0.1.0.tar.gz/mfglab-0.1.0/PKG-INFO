@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: mfglab
+Version: 0.1.0
+Summary: shared_memory, deep_learning, machine_learning for manufacturing
+Author-email: jaeho <uehoza74@outlook.com>
+Project-URL: Homepage, https://github.com/qqrr33/mfglab
+Keywords: shared memory,deep learning,machine learning,manufacturing
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: numpy<2.0.0
+Requires-Dist: pandas
+Requires-Dist: opencv-python
