@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+pypacktest1/__init__.py
+pypacktest1/module1.py
+pypacktest1.egg-info/PKG-INFO
+pypacktest1.egg-info/SOURCES.txt
+pypacktest1.egg-info/dependency_links.txt
+pypacktest1.egg-info/requires.txt
+pypacktest1.egg-info/top_level.txt
