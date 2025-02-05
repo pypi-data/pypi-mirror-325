@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dazzed-and-confused/__init__.py
+src/dazzed-and-confused/dazzed.py
+src/dazzed_and_confused.egg-info/PKG-INFO
+src/dazzed_and_confused.egg-info/SOURCES.txt
+src/dazzed_and_confused.egg-info/dependency_links.txt
+src/dazzed_and_confused.egg-info/top_level.txt
