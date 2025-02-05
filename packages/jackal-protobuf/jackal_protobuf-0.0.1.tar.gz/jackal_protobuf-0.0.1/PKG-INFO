@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: jackal-protobuf
+Version: 0.0.1
+Summary: Packaged protobufs for Jackal Blockchain
+Author: Nastor
+License: GPL-3.0 license
+License-File: LICENSE
+Keywords: cosmos,grpcio,grpcio-tools,jackal_protobuf,protobuf
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: grpcio==1.70.0
+Requires-Dist: protobuf==4.22.1
