@@ -1,0 +1,13 @@
+nessai_gw/__init__.py,sha256=wuMLgGqeV305E0vzT2rFDGZKlYEVw0eEuDUhLK-DwuI,395
+nessai_gw/proposals.py,sha256=1DYGkuTXastmZHwtWT0QwgqpMPkGlED7rhZsh7glcdw,4463
+nessai_gw/reparameterisations/__init__.py,sha256=fbWOqa1ysmZykfhD8nRUywnpSBQbrYHwkSjzt0AcMxE,1538
+nessai_gw/reparameterisations/distance.py,sha256=ZLiPy7Qsns0LoZV2GxeNBg_KRnjcD45awmZOGAfKHoU,3291
+nessai_gw/reparameterisations/distance_converters.py,sha256=X5KoykotRdVm6cUi8t-IAhsHW7heWv7eUIK5kAUHJ54,9967
+nessai_gw/reparameterisations/phase.py,sha256=Jj0Iuuw5U4HkXTRIocZ78aro_jz9mbTb9Eqm4Bstqao,2346
+nessai_gw/reparameterisations/utils.py,sha256=6rpRI1Hvnt2UOrW1g9N1chTvK1DPlkWKrD-p3cK_kn4,918
+nessai_gw-0.1.0.dist-info/LICENSE,sha256=DN-eRtBfS9dZyT0Ds0Mdn2Y4nb-ZQ7h71vpASYBm5k4,1076
+nessai_gw-0.1.0.dist-info/METADATA,sha256=Z-vfYq0mtu8GdeQhHH3BKNTRrKiolFWFwBDbfHowkBg,1480
+nessai_gw-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+nessai_gw-0.1.0.dist-info/entry_points.txt,sha256=YgvXNF9ao2YelXLo_zaJw3cZmV1rGDKZ_9ici-m7JZs,273
+nessai_gw-0.1.0.dist-info/top_level.txt,sha256=13V5CUqN4QIlWopOYGi5SW5Addw0WmkjPqf7-kyAGE4,10
+nessai_gw-0.1.0.dist-info/RECORD,,
