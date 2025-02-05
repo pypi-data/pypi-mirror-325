@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+accounda/__init__.py
+accounda/client.py
+accounda.egg-info/PKG-INFO
+accounda.egg-info/SOURCES.txt
+accounda.egg-info/dependency_links.txt
+accounda.egg-info/requires.txt
+accounda.egg-info/top_level.txt
