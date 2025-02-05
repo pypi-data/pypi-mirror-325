@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+runic/cli.py
+runic/docs.py
+runic/memory.py
+runic.egg-info/PKG-INFO
+runic.egg-info/SOURCES.txt
+runic.egg-info/dependency_links.txt
+runic.egg-info/entry_points.txt
+runic.egg-info/requires.txt
+runic.egg-info/top_level.txt
