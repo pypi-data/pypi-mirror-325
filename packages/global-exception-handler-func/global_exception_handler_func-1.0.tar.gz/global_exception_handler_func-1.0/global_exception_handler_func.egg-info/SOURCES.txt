@@ -1,0 +1,8 @@
+README.md
+setup.py
+global_exception_handler_func/__init__.py
+global_exception_handler_func/main.py
+global_exception_handler_func.egg-info/PKG-INFO
+global_exception_handler_func.egg-info/SOURCES.txt
+global_exception_handler_func.egg-info/dependency_links.txt
+global_exception_handler_func.egg-info/top_level.txt
