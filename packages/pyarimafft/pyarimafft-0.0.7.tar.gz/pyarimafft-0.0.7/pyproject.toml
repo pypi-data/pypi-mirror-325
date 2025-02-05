@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name="pyarimafft"
+version="0.0.7"
+authors = [
+{name="Shashank Sharma",email="shashboy@gmail.com"},
+]
+
+description = "Pyarimafft leverages LOESS regression for outlier cleaning, extracts key cyclicities via the fast fourier transform(fft) & performs time series forecasting with the cyclical features with ARIMA"
+
+readme = "README.md"
+
+requires-python=">=3.8"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent"
+					
+]
+
+[project.urls]
+Homepage = "https://github.com/shashboy/pyarimafft"
+Issues = "https://github.com/shashboy/pyarimafft"
+
+
+
+
