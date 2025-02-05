@@ -1,0 +1,49 @@
+Metadata-Version: 2.2
+Name: genai_4_dps_helper
+Version: 0.2.25
+Summary: A common library for reusable and repeated code for the GenAI4DPS Training Courses.
+Author-email: "Benjamin A. Janes" <benjamin.janes@se.ibm.com>
+Project-URL: Homepage, https://github.com/Nniol/genai_4_dps_helper
+Project-URL: Issues, https://github.com/Nniol/genai_4_dps_helper/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ibm_watsonx_ai==1.2.2
+Requires-Dist: pandas==2.1.4
+Requires-Dist: pymilvus==2.4.10
+Requires-Dist: pydantic==2.10.6
+Requires-Dist: pymupdf==1.25.2
+Requires-Dist: SQLAlchemy==2.0.37
+Requires-Dist: pyhive[presto]==0.7.0
+Requires-Dist: presto-python-client==0.8.4
+Requires-Dist: ibm_db==3.2.5
+Requires-Dist: wikipedia==1.4.0
+Requires-Dist: nltk==3.9.1
+Requires-Dist: spacy==3.8.4
+Requires-Dist: scikit-learn==1.6.1
+
+# genai_4_dps_helper
+Common functions for the GenAI 4 DPS Course
+
+### Instructions for deploymet
+https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/
+
+### VS Code settings.json for _ruff_ config
+```
+{
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.organizeImports": "explicit"
+    },
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    }
+  }
+  ```
