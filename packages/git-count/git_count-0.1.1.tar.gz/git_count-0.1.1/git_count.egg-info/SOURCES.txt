@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+git_count/__init__.py
+git_count/git_count.py
+git_count.egg-info/PKG-INFO
+git_count.egg-info/SOURCES.txt
+git_count.egg-info/dependency_links.txt
+git_count.egg-info/entry_points.txt
+git_count.egg-info/top_level.txt
