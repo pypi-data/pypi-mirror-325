@@ -1,0 +1,2 @@
+[distutils.setup_keywords]
+download_libraries = setup:post_install
