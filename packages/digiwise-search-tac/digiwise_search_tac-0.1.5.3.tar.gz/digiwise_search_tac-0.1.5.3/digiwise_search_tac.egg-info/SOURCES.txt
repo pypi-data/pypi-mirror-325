@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+digiwise_search_tac/MSRPLUS20231218.xlsx
+digiwise_search_tac/__init__.py
+digiwise_search_tac/batch_search.py
+digiwise_search_tac/digiwise_search_tac.py
+digiwise_search_tac.egg-info/PKG-INFO
+digiwise_search_tac.egg-info/SOURCES.txt
+digiwise_search_tac.egg-info/dependency_links.txt
+digiwise_search_tac.egg-info/requires.txt
+digiwise_search_tac.egg-info/top_level.txt

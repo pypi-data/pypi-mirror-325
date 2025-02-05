@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include digiwise_search_tac/MSRPLUS20231218.xlsx
+graft digiwise_search_tac
+global-exclude __pycache__ *.pyc
