@@ -1,0 +1,9 @@
+[console_scripts]
+rpmautospec=rpmautospec.cli:cli
+
+[rpmautospec.cli]
+calculate-release=rpmautospec.subcommands.release:calculate_release
+convert=rpmautospec.subcommands.convert:convert
+generate-changelog=rpmautospec.subcommands.changelog:generate_changelog
+process-distgit=rpmautospec.subcommands.process_distgit:process_distgit
+
