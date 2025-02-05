@@ -1,0 +1,5 @@
+numpy<2,>=1.17
+scipy<=1.15
+h5py
+psutil
+cython
