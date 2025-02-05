@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Rabbi/__init__.py
+Rabbi/core.py
+Rabbi.egg-info/PKG-INFO
+Rabbi.egg-info/SOURCES.txt
+Rabbi.egg-info/dependency_links.txt
+Rabbi.egg-info/requires.txt
+Rabbi.egg-info/top_level.txt
