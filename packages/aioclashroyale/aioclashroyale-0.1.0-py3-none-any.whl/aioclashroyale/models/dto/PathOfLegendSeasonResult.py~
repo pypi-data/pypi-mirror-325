@@ -1,0 +1,7 @@
+from msgspec import Struct
+
+
+class PathOfLegendSeasonResult(Struct, rename='camel'):
+    trophies: int = None
+    league_number: int = None
+    rank: int = None
