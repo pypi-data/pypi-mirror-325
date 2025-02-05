@@ -1,0 +1,9 @@
+gdal_installer/__init__.py,sha256=VJI0mbqFOLeYXxOWESKbC1m1ZPvJsJ_MSgm6WqAtq1I,96
+gdal_installer-0.2.0.data/scripts/install-gdal,sha256=gt-ZSn7G9lSkHSppRXtlbKAym0iZ5ygo_opcLLtMb8E,2532
+gdal_installer-0.2.0.data/scripts/install_gdal.bat,sha256=3xJOjM_CMLwKyNUUKXhwu2hle-2bDPHqefsg2Ad6q9w,151
+gdal_installer-0.2.0.data/scripts/install_gdal.sh,sha256=nrX11QcVryBET9P_8wnF91dqMNdIBYuyNiNoVFLY3J4,182
+gdal_installer-0.2.0.dist-info/LICENSE.md,sha256=EuxaawJg_OOCLfikkCGgfXPZmxR-x_5PH7_2e9M-3eA,1099
+gdal_installer-0.2.0.dist-info/METADATA,sha256=vFX_Cox5m89SIHxu37W8p_mFBJKAToafstxp4_mX89M,2845
+gdal_installer-0.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+gdal_installer-0.2.0.dist-info/top_level.txt,sha256=zooIZyM_P3de-COY00NFoSjI6Uc-FjQ2VOoR4BMdEnI,15
+gdal_installer-0.2.0.dist-info/RECORD,,
