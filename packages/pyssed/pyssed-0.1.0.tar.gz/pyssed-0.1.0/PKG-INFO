@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: pyssed
+Version: 0.1.0
+Summary: The Mixture Adaptive Design (MAD): An experimental design for anytime-valid causal inference on Multi-Armed Bandits.
+Author-email: Daniel Molitor <molitdj97@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.24.2
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: plotnine>=0.12.0
+Requires-Dist: tqdm>=4.50.0
+Description-Content-Type: text/markdown
+
+# pyssed
+
+The goal of pyssed is to implement the Mixture Adaptive Design (MAD), as
+proposed by [Liang and Bojinov](https://arxiv.org/abs/2311.05794).
+MAD is an experimental design for multi-armed bandit algorithms that
+enables anytime-valid inference on the Average Treatment Effect (ATE).
