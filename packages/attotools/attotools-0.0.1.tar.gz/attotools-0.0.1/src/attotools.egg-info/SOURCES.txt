@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+src/attotools/__init__.py
+src/attotools/io.py
+src/attotools/plot.py
+src/attotools/test.py
+src/attotools/toolfunctions.py
+src/attotools/version.py
+src/attotools.egg-info/PKG-INFO
+src/attotools.egg-info/SOURCES.txt
+src/attotools.egg-info/dependency_links.txt
+src/attotools.egg-info/top_level.txt
+src/attotools/data/sci.mplstyle
