@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: libtpu
+Version: 0.0.1
+Summary: Wrapper for the libtpu library.
+Author: Google, Inc.
+
+Wrapper for the libtpu library.

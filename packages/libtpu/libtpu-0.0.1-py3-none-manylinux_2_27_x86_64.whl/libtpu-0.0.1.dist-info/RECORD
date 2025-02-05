@@ -1,0 +1,6 @@
+libtpu/__init__.py,sha256=wn3D4izpJC3uDaz3hgH3DaHUJjSTSMbWl-iasUTBzZM,1058
+libtpu/libtpu.so,sha256=3aXA75EFPRoYhfawmNy1HCwLsSY0HHWyd1DKlgvpBWA,305784216
+libtpu-0.0.1.dist-info/METADATA,sha256=rsBIY27B_CvSvczKrch-TlwtZGQdrM9Ep_0kEpjvQ_M,145
+libtpu-0.0.1.dist-info/WHEEL,sha256=hScutK9bC7f8YrI0SBTQdomjNh1W_zs-V7uBd855tl4,132
+libtpu-0.0.1.dist-info/top_level.txt,sha256=osLnDQBl5z7VhfpbHzbmqr5CNtGhnkU3Ue2zh1MfUKQ,7
+libtpu-0.0.1.dist-info/RECORD,,
