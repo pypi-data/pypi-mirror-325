@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+SmartDataKit/__init__.py
+SmartDataKit.egg-info/PKG-INFO
+SmartDataKit.egg-info/SOURCES.txt
+SmartDataKit.egg-info/dependency_links.txt
+SmartDataKit.egg-info/requires.txt
+SmartDataKit.egg-info/top_level.txt
+SmartDataKit/Exception/__init__.py
+SmartDataKit/analyze_src/__init__.py
+SmartDataKit/analyze_src/univariante_analysis.py
+SmartDataKit/logger/__init__.py
