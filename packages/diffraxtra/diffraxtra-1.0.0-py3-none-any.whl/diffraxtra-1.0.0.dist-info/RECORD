@@ -1,0 +1,10 @@
+diffraxtra/__init__.py,sha256=OHM1hmabmNow1VRdjt0GcjLn5InSGZhNntpF5BuK628,372
+diffraxtra/_version.py,sha256=DGJ4pj32xs3_DRJhSzQwCiRNnAQrMgo09USYpyMZsKc,411
+diffraxtra/_version.pyi,sha256=o7uNL6MhuJoiqpEnriU7rBT6TmkJZA-i2qMoNz9YcgQ,82
+diffraxtra/diffeq.py,sha256=8Qo60z6IzGINf363Hs1avF1KbzBRf8Gz1Zwyag4r4HY,10502
+diffraxtra/interp.py,sha256=XUKWjpRKgdldEYY-8133SIQQADwWIN4fVLswtUrmn-4,12216
+diffraxtra/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diffraxtra-1.0.0.dist-info/METADATA,sha256=tCpqSXfwVx_LXcb2_T6AIwkX3p-4deKt42wijUWmsx8,13590
+diffraxtra-1.0.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+diffraxtra-1.0.0.dist-info/licenses/LICENSE,sha256=ZGyWUYfbcM3ad2EqV6tSTBV55tHRGXbG3Ft8TyO_AtQ,1058
+diffraxtra-1.0.0.dist-info/RECORD,,
