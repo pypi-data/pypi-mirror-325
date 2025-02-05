@@ -1,0 +1,86 @@
+QStackedWidget {
+    background: qlineargradient(
+        x1: 0, y1: 0,
+        x2: 0, y2: 1,
+        stop: 0 #353535,
+        stop: 1 #303030
+    );
+}
+
+QPushButton {
+    border-radius: 15px;
+    padding: 6px;
+    background-color: #444444;
+    color: white;
+}
+QPushButton:hover {
+    background-color: #222222;
+}
+
+QComboBox {
+    border-radius: 15px;
+    padding: 6px;
+    background-color: #444444;
+    color: white;
+}
+QComboBox QAbstractItemView {
+    background-color: #222222;
+    color: white;
+}
+QComboBox:hover {
+    background-color: #222222;
+}
+QComboBox::drop-down {
+    border: none;
+    background: transparent;
+    width: 30px;
+}
+
+QLineEdit {
+   border: 2px solid #444444;
+   border-radius: 15px;
+   padding: 6px;
+   background-color: transparent;
+   color: white;
+}
+QLineEdit:hover {
+   background-color: #222222;
+}
+QLineEdit::placeholder {
+    color: white;
+}
+QLineEdit:focus {
+   border: 2px solid #808080;
+}
+
+#open_backup, #check_code, #sign_in, #request_code {
+   border-radius: 15px;
+   padding: 6px;
+   background-color: transparent;
+   color: white;
+}
+#open_backup:hover, #check_code:hover, #sign_in:hover, #request_code:hover {
+    background-color: #222222;
+}
+
+#destroy_backup, #are_you_sure {
+    border-radius: 15px;
+    padding: 6px;
+    background-color: #a30000;
+    color: white;
+}
+#destroy_backup:hover, #are_you_sure:hover {
+    background-color: #900000;
+}
+
+#tips_text, #when_born, #name, #username, #login_code {
+    color: white;
+}
+
+#phrase {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+

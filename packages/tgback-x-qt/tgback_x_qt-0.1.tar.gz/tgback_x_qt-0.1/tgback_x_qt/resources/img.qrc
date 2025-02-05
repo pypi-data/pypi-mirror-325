@@ -1,0 +1,10 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/images">
+    <file>img/telegram.png</file>
+    <file>img/tgback_x.png</file>
+    <file>img/telegram_tgback_x.png</file>
+    <file>img/loading_spinner.gif</file>
+    <file>img/no_profile_pic.png</file>
+    <file>img/icon.ico</file>
+</qresource>
+</RCC>

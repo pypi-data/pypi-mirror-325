@@ -1,0 +1,6 @@
+tgback-x<2
+pyside6-essentials==6.8.1
+darkdetect==0.8.0
+
+[build]
+pyside6==6.8.1

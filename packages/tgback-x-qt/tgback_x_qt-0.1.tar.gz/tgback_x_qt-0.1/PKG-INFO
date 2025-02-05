@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: tgback-x-qt
+Version: 0.1
+Summary: Tgback-XQt is a Qt frontend for tgback-X
+Home-page: https://github.com/NotStatilko/tgback-x-qt
+Download-URL: https://github.com/NotStatilko/tgback-x-qt/archive/refs/tags/v0.1.tar.gz
+Author-email: thenonproton@pm.me
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tgback-x<2
+Requires-Dist: pyside6-essentials==6.8.1
+Requires-Dist: darkdetect==0.8.0
+Provides-Extra: build
+Requires-Dist: pyside6==6.8.1; extra == "build"
+
+# TGBACK-XQt — a Qt implementation of TGBACK-X
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/ec296d86-9d29-4121-a80a-d7fe796e719d" width=400 alt="Start screen, dark mode"/>
+  <img src="https://github.com/user-attachments/assets/d149c101-9467-487c-b51a-bcdf57ccffbd" width=400 alt="Create phrase, bright mode"/>
+</p>
+
+**TGBACK-XQt** is a GUI frontend to [**TGBACK-X**](https://github.com/NonProjects/tgback-x) — a little protocol for making encrypted Telegram account backups. With XQt you can easily generate a special *phrase* (or use your own password) to get into your account and scan it for login codes—thus, bypass login through your phone in case you don't have access to it anymore.
+
+**TGBACK-X** (and so *XQt*) does **not** make any backup files. Instead, we rely on a *Providers* to store our encrypted backup. Currently, only one *Provider* is supported — the `TelegramChannel`. Experienced enough with Python users may create their own *Providers*, and we may extend the *XQt* with them in future.
+
+See [TGBACK-X repository](https://github.com/NonProjects/tgback-x).
+
+
+## Quick FAQ
+
+### Why does this App ask me about my Phone number, Password and Login code?
+
+The *encrypted backup* is, in fact, encrypted *Telegram session* with some additional data to it. Quite obviously, we **can't** obtain *Session* without signing into your account.
+
+### Does this App share any Data with dev?
+
+**No.** We use your login credentials only to **sign into your account**, **obtain Session**, **encrypt it** and **push** to *Provider* to store. Except encrypted backup going to *Provider*, **Zero** data leaves your computer. Check the project's code.
+
+#### !! WARNING !!
+
+**Use only verified builds!** Anyone can **modify code and make their own executable** that will do **sketchy**, **malicious** things. You are **recommended to build your own executable** (See instructions below) from this repository, **install only from official sources** (e.g [PyPI](https://pypi.org/project/tgback-x)) or **use my signed builds either from [Releases](https://github.com/NotStatilko/tgback-x-qt/releases) or [My Telegram channel](https://t.me/nontgback)**.
+
+### Is typing Phrase enough to access my Account?
+
+On backup creation process you will either randomly generate your Phrase (8 words) or type your own Password (use this **ONLY** if you have **real** Password Generator which produce secure passwords). In the next step, you will be asked for your **Birthday** — we will **mix this data to your Phrase** to produce strong encryption Key data. If you (**and only if you**) experienced enough user you can also tinker with the Scrypt params — for example, you can change default *Salt*.
+
+**ANYONE** who will be able to type your **Phrase** (or Password), **Birthday** and **Scrypt params** will get access to your decrypted backup data — *Session*, and so **your Account**. You should treat this data as a Bitcoin phrase and never share it with anyone.
+
+Typically, if you use *XQt* on a **trusted Computer without malwares** then it's already **safe enough** and impossible for attacker to get into your account. You can **destroy backup Session at any time** either from *XQt* app itself or via **Telegram Settings** → **Devices** → *"Click on TGBACK-XQt Session"* → **Terminate Session** if you see some suspicious activity.
+
+The Backup Session **should not be active or Online** at all, *except* when **You** Open in through this App.
+
+### How to keep this backup alive for long time?
+
+Telegram Sessions **disconnect automatically after some time**, specifically, after "**Telegram Settings** → **Devices** → **If inactive for**" time. You need to open your backups periodically (at least once in "If inactive for" time) through *XQt App*.
+
+### Can this App help me restore access to my already lost account?
+
+Unfortunately, I'm not a magician. If you can't Sign-in your account, — you **can't** create backup. Moreover, active *TGBACK-X* backup can give you only **login code**, we do **not** store your password.
+
+### Is there alternative?
+
+You can use my old project — [**TGBACK**](https://github.com/NotStatilko/tgback). It creates **file backups**. Or you can just *Sign into* the [**Telegram Desktop**](https://desktop.telegram.org), *set Local password* and [**copy the "tdata" folder**](https://www.google.com/search?q=where+is+telegram+desktop+tdata+folder).
+
+
+## Installation
+
+To *build* the **TGBACK-X-Qt** you will need to have **at least** [**Python 3.9**](https://python.org/downloads/).
+
+### Windows builds (.EXE)
+
+You can use already created executable builds if you're on Windows.\
+See [**Releases GitHub page**](https://github.com/NotStatilko/tgback-x-qt/releases) or navigate to the [**official TGBACK dev.channel**](https://t.me/nontgback)
+
+### Build the TGBACK-X-Qt
+
+#### Install with PIP
+
+You can install latest *stable* release of the ``tgback-x-qt`` from [PyPI](https://pypi.org/project/tgback-x-qt):
+```bash
+# You can add [build] if you want to install full PySide6
+pip install -U tgback-x-qt # tgback-x-qt[build] for devs
+```
+
+#### Clone & Install
+
+Alternatively, you can clone this repository and build from the source.\
+This can give you more control over the code:
+```bash
+python -m venv tgback-x-qt-env
+cd tgback-x-qt-env && . bin/activate
+
+git clone https://github.com/NotStatilko/tgback-x-qt
+pip install ./tgback-x-qt
+```
+#### PyInstaller
+
+```bash
+python -m venv tgback-x-qt-env
+cd tgback-x-qt-env && . bin/activate
+
+pip install pyinstaller
+
+git clone https://github.com/NotStatilko/tgback-x-qt
+pip install ./tgback-x-qt
+
+cd tgback-x-qt/pyinstaller
+pyinstaller tgback-x-qt.spec
+
+# Run the executable
+dist/tgback-x-qt.exe
+```
+**Please note** that You can also set `TGBX_NON_ONEFILE` env variable to build without packing \
+into one executable file & feel free to remove the ``tgback-x-qt-env`` folder after work was done.
+
+## Usage
+
+Just type `tgback-x-qt` in your Terminal or execute `.exe` file.
+
+### Some additional [Environment Variables](https://en.wikipedia.org/wiki/Environment_variable#Assignment:_Unix) exist:
+
+`$TGBX_DARK_MODE` — enable Dark mode if `1`, Bright otherwise. None is Auto;\
+`$TGBX_APP_STYLE` — pyside6 style, e.g `Windows10` or `Fusion`. `Fusion` if None;\
+`$TGBX_LAUNCH_CONSOLE` — launch console on App start if present in Environment;\
+`$TGBX_API_ID` — set your own `API_ID` ([my.telegram.org](https://my.telegram.org)) [recommended];\
+`$TGBX_API_HASH` — set your own `API_HASH` ([my.telegram.org](https://my.telegram.org)) [recommended];
+
+## Bug reports
+
+Feel free to report some problems (I believe there can be many) on the [**GitHub Issue tab**](https://github.com/NotStatilko/tgback-x-qt/issues).

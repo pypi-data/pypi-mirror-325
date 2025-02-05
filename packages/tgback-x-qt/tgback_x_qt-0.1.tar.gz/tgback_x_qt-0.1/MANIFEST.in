@@ -1,0 +1,2 @@
+recursive-include tgback_x_qt/stylesheet *
+recursive-include tgback_x_qt/ui *
