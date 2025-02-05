@@ -1,0 +1,69 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "llmaestro"
+version = "0.1.0"
+description = "A system for orchestrating LLM tasks that exceed context limits"
+authors = ["billthefighter <billthefighter@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src", from = "."}]
+license = "MIT"  # You may want to change this to your preferred license
+homepage = "https://github.com/billthefighter/llmaestro"  # Update with your repository URL
+repository = "https://github.com/billthefighter/llmaestro"  # Update with your repository URL
+documentation = "https://github.com/billthefighter/llmaestro#readme"  # Update with your docs URL
+keywords = ["llm", "orchestration", "ai", "language-models", "context-management"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.0.0"
+litellm = "^1.0.0"
+beautifulsoup4 = "^4.12.0"  # Required for test_ruff_generator.py
+py4cytoscape = "^1.5.0"     # For chain visualization
+pandas = "^2.0.0"           # Required by py4cytoscape
+networkx = "^3.0"           # For graph operations
+click = "^8.1.0"           # For CLI interface
+pyyaml = "^6.0.1"          # For configuration management
+websockets = "^14.2"
+pre-commit = "^4.1.0"
+transformers = "^4.36.0"    # Required for token estimation
+anthropic = {version = "^0.45.2", allow-prereleases = true}        # Required for Anthropic API integration
+pillow = "^11.1.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+pytest-asyncio = "^0.21.0"
+ruff = "^0.1.0"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+pythonpath = ["src"]
+markers = [
+    "unit: marks tests as unit tests",
+    "integration: marks tests as integration tests"
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+select = ["E", "F", "B", "I"]
+ignore = []
+# Exclude test files and directories
+exclude = [
+    "tests/*",
+    "test_*.py",
+    "**/tests/*",
+    "**/*_test.py",
+    "examples/*",
+    "**/examples/*",
+]
+
+[tool.poetry.scripts]
+llmaestro = "src.cli:main"
+
+[tool.pydantic]
+warn_field_name_shadows = false
+warn_config_key_change = false

@@ -1,0 +1,182 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LLM Prompt Template",
+  "description": "Schema for LLM Orchestrator prompt templates",
+  "type": "object",
+  "required": [
+    "name",
+    "description",
+    "metadata",
+    "system_prompt",
+    "user_prompt",
+    "current_version"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Unique identifier for the prompt",
+      "pattern": "^[a-z0-9_-]+$"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief explanation of what this prompt does"
+    },
+    "system_prompt": {
+      "type": "string",
+      "description": "System-level instructions for the LLM"
+    },
+    "user_prompt": {
+      "type": "string",
+      "description": "Template for formatting user input"
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["type", "expected_response"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Type of task this prompt is designed for",
+          "enum": ["pdf_analysis", "code_refactor", "lint_fix"]
+        },
+        "expected_response": {
+          "type": "object",
+          "required": ["format"],
+          "properties": {
+            "format": {
+              "type": "string",
+              "description": "Expected format of the LLM's response",
+              "enum": ["json", "text", "markdown"]
+            },
+            "schema": {
+              "type": "string",
+              "description": "JSON schema for structured responses"
+            }
+          }
+        },
+        "model_requirements": {
+          "type": "object",
+          "properties": {
+            "min_tokens": {
+              "type": "integer",
+              "description": "Minimum number of tokens required",
+              "minimum": 0
+            },
+            "preferred_models": {
+              "type": "array",
+              "description": "List of preferred LLM models",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "tags": {
+          "type": "array",
+          "description": "List of tags for categorizing and searching prompts",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9_-]+$"
+          }
+        },
+        "is_active": {
+          "type": "boolean",
+          "description": "Whether the prompt is currently active and available for use",
+          "default": true
+        }
+      }
+    },
+    "current_version": {
+      "type": "object",
+      "required": ["number", "timestamp", "author", "description", "change_type"],
+      "properties": {
+        "number": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "description": "Semantic version number"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When this version was created"
+        },
+        "author": {
+          "type": "string",
+          "description": "Author of this version"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of changes in this version"
+        },
+        "change_type": {
+          "type": "string",
+          "enum": ["major", "minor", "patch", "breaking", "merge"],
+          "description": "Type of change made"
+        },
+        "git_commit": {
+          "type": "string",
+          "description": "Associated git commit hash"
+        }
+      }
+    },
+    "version_history": {
+      "type": "array",
+      "description": "History of previous versions",
+      "items": {
+        "$ref": "#/properties/current_version"
+      }
+    },
+    "examples": {
+      "type": "array",
+      "description": "Sample inputs and outputs for testing",
+      "items": {
+        "type": "object",
+        "required": ["input", "expected_output"],
+        "properties": {
+          "input": {
+            "type": "object",
+            "description": "Example input values"
+          },
+          "expected_output": {
+            "type": "string",
+            "description": "Expected output in the specified format"
+          }
+        }
+      }
+    },
+    "media_inputs": {
+      "type": "object",
+      "description": "Configuration for media inputs like images",
+      "properties": {
+        "supports_images": {
+          "type": "boolean",
+          "default": false,
+          "description": "Whether this prompt supports image inputs"
+        },
+        "image_requirements": {
+          "type": "object",
+          "properties": {
+            "max_images": {
+              "type": "integer",
+              "description": "Maximum number of images allowed in a single prompt",
+              "default": 1
+            },
+            "supported_formats": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["png", "jpeg", "gif", "webp"]
+              },
+              "default": ["png", "jpeg"]
+            },
+            "max_size_mb": {
+              "type": "number",
+              "description": "Maximum size of each image in megabytes",
+              "default": 20
+            }
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
