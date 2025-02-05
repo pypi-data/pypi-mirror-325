@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+alj_reader.egg-info/PKG-INFO
+alj_reader.egg-info/SOURCES.txt
+alj_reader.egg-info/dependency_links.txt
+alj_reader.egg-info/entry_points.txt
+alj_reader.egg-info/requires.txt
+alj_reader.egg-info/top_level.txt
+reader/__init__.py
+reader/__main__.py
+reader/config.txt
+reader/feed.py
+reader/viewer.py
