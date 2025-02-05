@@ -1,0 +1,102 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "napari-wsi"
+version = "1.0.0"
+description = "A plugin to read whole-slide images within napari."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+license-files = [
+    "LICENSE",
+]
+authors = [
+    { name = "Philipp Plewa", email = "philipp.plewa@astrazeneca.com" },
+]
+maintainers = [
+    { name = "Philipp Plewa", email = "philipp.plewa@astrazeneca.com" },
+    { name = "Robert Schweizer", email = "robert.schweizer@astrazeneca.com" },
+]
+classifiers = [
+    "Framework :: napari",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+dependencies = [
+    "dask>=2025.1",
+    "magicgui>=0.10",
+    "numpy>=1.26",
+    "pillow>=11.1",
+    "universal-pathlib>=0.2",
+    "zarr>=3.0",
+]
+
+[project.optional-dependencies]
+openslide = [
+    "openslide-python>=1.4",
+]
+rasterio = [
+    "rasterio>=1.4",
+]
+wsidicom = [
+    "wsidicom>=0.22",
+]
+all = [
+    "napari-wsi[openslide,rasterio,wsidicom]"
+]
+
+[dependency-groups]
+dev = [
+    "invoke>=2.2.0",
+    "mypy>=1.14",
+    "napari>=0.5",
+    "openslide-bin>=4.0",
+    "pyqt5>=5.15",
+    "pytest>=8.3",
+    "pytest-cov>=6.0",
+    "pytest-qt>=4.4",
+    "ruff>=0.9",
+    "scikit-image>=0.25",
+]
+
+[project.urls]
+Repository = "https://github.com/AstraZeneca/napari-wsi"
+
+[project.entry-points."napari.manifest"]
+napari-wsi = "napari_wsi:napari.yaml"
+
+[tool.mypy]
+check_untyped_defs = true
+warn_unused_ignores = true
+
+[[tool.mypy.overrides]]
+ignore_missing_imports = true
+module = [
+    "napari.*",
+    "rasterio.*",
+    "wsidicom.*",
+]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 88
+lint.select = [
+    "E", "F", "W", #flake8
+    "UP", # pyupgrade
+    "I", # isort
+    "BLE", # flake8-blind-exception
+    "B", # flake8-bugbear
+    "A", # flake8-builtins
+    "C4", # flake8-comprehensions
+    "ISC", # flake8-implicit-str-concat
+    "G", # flake8-logging-format
+    "PIE", # flake8-pie
+    "SIM", # flake8-simplify
+]
+lint.ignore = [
+    "B028", # for warnings
+    "ISC001", # for ruff
+]
