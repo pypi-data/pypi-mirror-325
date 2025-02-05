@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+build-cache = mkdocs_build_cache.plugin:BuildCachePlugin
