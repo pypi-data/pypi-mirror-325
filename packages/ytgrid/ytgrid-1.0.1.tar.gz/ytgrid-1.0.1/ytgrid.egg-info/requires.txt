@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+selenium
+webdriver-manager
+requests
+rich
+python-dotenv
+websocket-client
+bs4
