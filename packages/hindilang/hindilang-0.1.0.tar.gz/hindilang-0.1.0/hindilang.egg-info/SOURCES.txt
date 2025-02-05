@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+hindi_lexer_parser/__init__.py
+hindi_lexer_parser/hindilang.py
+hindilang.egg-info/PKG-INFO
+hindilang.egg-info/SOURCES.txt
+hindilang.egg-info/dependency_links.txt
+hindilang.egg-info/top_level.txt
