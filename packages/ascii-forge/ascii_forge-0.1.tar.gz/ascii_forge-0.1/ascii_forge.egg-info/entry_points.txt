@@ -1,0 +1,2 @@
+[console_scripts]
+ascii-forge = ascii_forge.__main__:cli
