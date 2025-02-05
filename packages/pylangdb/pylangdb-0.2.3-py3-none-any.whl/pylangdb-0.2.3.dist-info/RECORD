@@ -1,0 +1,7 @@
+pylangdb/__init__.py,sha256=BYUw-B1yiJAjixO6YmXRapQS7msKiyPlb4pK1sNGQbE,48
+pylangdb/client.py,sha256=RSN7wMzllWLpsZtovmMrQMc82iDg4lYEb4D1folEPFA,9248
+pylangdb/types.py,sha256=xwqumbYsR-_gjEcCP32dGWsRpv0fXuVDRYK8YkWbUMc,2132
+pylangdb-0.2.3.dist-info/LICENSE,sha256=8XcdVms-UvqLDlApMsaVWbDPiqozQ5HzTXX9mqWtFxk,1063
+pylangdb-0.2.3.dist-info/METADATA,sha256=uG-0ItRzsT1Ph1pmUFn3U2t-cv7vM9DSFlKTbDQ0VMQ,2742
+pylangdb-0.2.3.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+pylangdb-0.2.3.dist-info/RECORD,,
