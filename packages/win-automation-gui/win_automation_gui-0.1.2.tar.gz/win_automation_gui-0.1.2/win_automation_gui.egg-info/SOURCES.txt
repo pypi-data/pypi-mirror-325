@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+win_automation/__init__.py
+win_automation/core.py
+win_automation_gui.egg-info/PKG-INFO
+win_automation_gui.egg-info/SOURCES.txt
+win_automation_gui.egg-info/dependency_links.txt
+win_automation_gui.egg-info/requires.txt
+win_automation_gui.egg-info/top_level.txt
