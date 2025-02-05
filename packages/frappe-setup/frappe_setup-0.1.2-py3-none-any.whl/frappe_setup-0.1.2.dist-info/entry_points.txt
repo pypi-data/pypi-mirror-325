@@ -1,0 +1,3 @@
+[console_scripts]
+frappe-setup = frappe_setup.cli:main
+
