@@ -1,0 +1,15 @@
+frequenz/client/electricity_trading/__init__.py,sha256=UuCb5U3BIgzNqEZ1LSn44ePnfSLgpg990t6FI7v1I5o,6269
+frequenz/client/electricity_trading/_client.py,sha256=Q4eJCbUyuGV0f4Eq8zJG7cSuaJxdcXbvQKvky4bVn5A,38075
+frequenz/client/electricity_trading/_types.py,sha256=Nq6G55gSqBRcwq7gFtwBdu-O26FAnw7GIrzlMBNfbvc,67668
+frequenz/client/electricity_trading/conftest.py,sha256=N94JqZVXUBcXDyVJt47J4ZttIkn_q0WAWXozO1ofV9s,543
+frequenz/client/electricity_trading/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frequenz/client/electricity_trading/cli/__init__.py,sha256=tRRqOaPI-eoj5Iw4NEwwje5mUsBzxwPjudhd8liGQQI,131
+frequenz/client/electricity_trading/cli/__main__.py,sha256=FpBvthI_f-FjzFe_jK5l6DtuoPqn1tIIh-8CG1j7h1U,4367
+frequenz/client/electricity_trading/cli/day_ahead.py,sha256=xYnGhyiKEWwmUHEQ-lAHLg3kl07eo9Iiik9-LHOXUac,935
+frequenz/client/electricity_trading/cli/etrading.py,sha256=AGu4sePhSnwWBp5_x_nzegzj0cSV2bCzfoTsxpqxUg4,9347
+frequenz_client_electricity_trading-0.5.0.dist-info/LICENSE,sha256=zt0sW1KvE_KWE2ILOabrQYlfOoP0zUZXC3xCLrzGpIA,1089
+frequenz_client_electricity_trading-0.5.0.dist-info/METADATA,sha256=hSTdrDnDP4zYeRScG9bMdXtJZUyJ_Nj4FOCmH4GoJJ4,6423
+frequenz_client_electricity_trading-0.5.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+frequenz_client_electricity_trading-0.5.0.dist-info/entry_points.txt,sha256=YRBkKiPu4SvYXoEWQsZgMI0yV3znBGVGsjfG5_-JeK0,86
+frequenz_client_electricity_trading-0.5.0.dist-info/top_level.txt,sha256=x08GRcWytsyKXa2Ayme9e5pg3L5Kcq6lw_BaQmToMO4,9
+frequenz_client_electricity_trading-0.5.0.dist-info/RECORD,,
