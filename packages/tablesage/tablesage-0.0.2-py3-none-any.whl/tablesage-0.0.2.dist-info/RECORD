@@ -1,0 +1,12 @@
+tablesage/__init__.py,sha256=0ys6dBEXJSaOGcUkhw3bLkGXePFZ6nA1JD3BoMUC0U0,32
+tablesage/base_task.py,sha256=c1qOAfKYZMPag0z0FYZzzB6bNYTvVJhMAwK3WN3TT0c,4060
+tablesage/column_annotator.py,sha256=xbFmLAbvsh-AdaMQmBvd175Jm8LplDqBbWUIxvmrAi8,2072
+tablesage/column_summarizer.py,sha256=b-Emg1D5DmbB9EwBFXO4br6riJGICHd8r4JnQStpfNw,5530
+tablesage/table_annotator.py,sha256=BCWcpcZO6GZGoqppiwfcgU_0-r38PQ9DQLK9JDsT-CU,2090
+tablesage/table_summarizer.py,sha256=NA0k7Zmy-yY3F5kOAfUqsDxSt0QYH1A8fZ3gUEqmnSA,5496
+tablesage/tablesage.py,sha256=bATi36iCCL8-GtmGEg6Ei_VHY2aqWScJeH30AVzlO7k,2591
+tablesage-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tablesage-0.0.2.dist-info/METADATA,sha256=fkehRIkMtwmPE4MsuOp-d-xIjgXuzbEgU6bc2YoFNI0,2523
+tablesage-0.0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+tablesage-0.0.2.dist-info/top_level.txt,sha256=-GuGZs2gLTbu1a-8tfI9pti46zGvrzJRdkXCTqReltI,10
+tablesage-0.0.2.dist-info/RECORD,,
