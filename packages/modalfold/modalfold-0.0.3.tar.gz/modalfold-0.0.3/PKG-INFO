@@ -1,0 +1,104 @@
+Metadata-Version: 2.4
+Name: modalfold
+Version: 0.0.3
+Summary: A protein structure prediction package
+Project-URL: Homepage, https://github.com/jakublala/modalfold
+Author-email: Jakub Lála <jakublala@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: modal>=0.73.12
+Requires-Dist: numpy>=2.2.2
+Requires-Dist: pre-commit>=4.1.0
+Requires-Dist: pytest>=8.3.4
+Description-Content-Type: text/markdown
+
+# modalfold
+Protein folding models implemented for Modal
+
+### Intro
+Protein is a sequence of amino acids that forms a specific structure upon folding. There are ML protein models that do sequence -> structure prediction. Understanding structure helps biologists discover new drugs, have novel biological insight, etc.
+Before AlphaFold, folks had to spend weeks, months, or years experimentally determining the structure of a protein in a lab. With an ML model, it is possible to get that now in a matter of seconds or minutes.
+Nevertheless, using these models is not straightfoward and there's many many many of them right now.
+
+Modal is a platform / framework / service that enables running serverless functions / apps in the cloud. It would be great for there to be a package called `modalfold` that is able to work as an interface to all of these different ML models (ALphaFold, ESMFold, Chai-1, etc. - see list below), while running the inference on the Modal serverless instances.
+
+THING TO CHECK: Whether the function lookup local version is also able to run the method within the Dockerized container or not. If so, that would be very powerful for using Modal even in a local-only setting.
+
+### Who is the potential user?
+- or someone without a GPU but Modal credits **(priority)**
+- (someone with a GPU)
+
+### Goals
+- to implement all the various protein folding models in the Modal framework to be ready for inference
+- each model to have a deploy file, and a class file with the folding method
+- all of these models / files wrapped in a single `modalfold` package that anyone can install and gets them up to speed in experimentation very fast
+
+### Resources
+- similar to [ColabFold](https://github.com/sokrypton/ColabFold)
+- get inspired by [Ragnor's Modal work](https://github.com/ragnorc/helix)
+- [ManyFold](https://github.com/instadeepai/manyfold)
+- [ProteinFold](https://github.com/nf-core/proteinfold)
+
+### Tasks
+- @michaelkrasa - Read through Modal documentation and understand the basics.
+- @jakublala - List all the models that might make sense, clearly define the long-term vision, template and the utility of this project.
+
+
+### List of Models
+
+hello | world
+
+
+Model | Implemented | Sources
+
+| Model | Status | Compatible Version | Link |
+|----------|----------|----------|----------|
+| AlphaFold2 | Row 1, Col 2 | Row 1, Col 3 | 3 |
+| AlphaFold3 | Row 1, Col 2 | Row 1, Col 3 | 3 |
+| Boltz-1 | Row 1, Col 2 | Row 1, Col 3 | 3 |
+| ESMFold | 🟠 | Row 1, Col 3 | 3 |
+
+
+### Example usage
+```
+import modalfold.ESMFold
+output = ESMFold.fold(sequence)
+
+```
+
+### Questions
+Is there a Python package that can abstract away the tedious work of downloading and running a Docker image.
+
+
+### Notes
+You don't need to deploy the app, just do 'with app.run():' in the use case.
+
+
+### Development
+1. Clone the repo.
+
+        git clone https://github.com/jakublala/modalfold
+
+2. Install `uv`
+
+        curl -LsSf https://astral.sh/uv/install.sh | sh
+
+3. Install python with `uv`
+
+        uv python install
+
+
+4. Load the environment.
+
+        uv sync
+
+5. Add libraries to the enviroment.
+
+        uv add numpy
+
+6. Run code within the environment.
+
+        uv run python scripts/script.py
