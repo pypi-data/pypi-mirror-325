@@ -1,0 +1,16 @@
+camshell/__init__.py,sha256=9kccVoZSo2rTZumDVIHU9cdD-eoqZI9lSK-m3ohPnj8,60
+camshell/camshell_core.py,sha256=u-qzXY-9u6g5WbAvrsYoLn6WjrDXQJCY3tiV8c2DrJg,1512
+camshell/cli/cli.py,sha256=5c0dgjNiWLhiYue3p4j_ebmmih2TAymdCdR3VblIPQ8,817
+camshell/display/__init__.py,sha256=bqob8xs7chm1s6cXSaIE9aK8HaV9w3fI1Ozvg5l6zWA,82
+camshell/display/curses_screen.py,sha256=WICDRU409ZrWz3mW7cSSoNpNYRE45Vi6_wUki4tpbdY,6670
+camshell/interfaces.py,sha256=O_SOatai0a2GOhZv2Est8UVjgmFDgvTXEEvDExxmXmk,4314
+camshell/vision/__gi.py,sha256=Bk9EpUrimoKcoz6IZege5uM3IvnjXe2kU8uhtbEgyWw,334
+camshell/vision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+camshell/vision/camera.py,sha256=uQOl-ZqAnYk4VdKG84ID8m7OQ9z6qb4dFnOwX5E6N-c,1644
+camshell/vision/gstream_components.py,sha256=_FCk1JhhYKRttBciKDyqJZpZ7lHtxSU2BjfwEW8vFaA,3498
+camshell/vision/gstream_pipeline.py,sha256=V1rpD2jDrosXL2IdCFABiAge25vfDh_YZWwr6FSHTTU,4360
+camshell-0.1.4.dist-info/LICENSE,sha256=tTYvFaY7VA7uobiCN5JATphcWjPTd7U1iVFug_0_CxQ,1066
+camshell-0.1.4.dist-info/METADATA,sha256=wacn0EmCtexht5C8ymEQ6KMMPjdeml6mjPYOEcvuaQY,1782
+camshell-0.1.4.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+camshell-0.1.4.dist-info/entry_points.txt,sha256=nfpKNe4-JOqr6zEgW2LCYNQJr9URQdSFynVhFtMaQb4,49
+camshell-0.1.4.dist-info/RECORD,,
