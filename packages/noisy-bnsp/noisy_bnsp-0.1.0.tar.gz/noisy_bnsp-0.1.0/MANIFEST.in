@@ -1,0 +1,2 @@
+include noisy_bnsp/c/*.pyx
+include noisy_bnsp/c/*.pxd
