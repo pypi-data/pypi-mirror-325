@@ -1,0 +1,10 @@
+django_openai_assistant/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_openai_assistant/apps.py,sha256=5D_efWylG6F0Wvzv4ZgER8IcLvnAsKYAokqX3B3DAZg,275
+django_openai_assistant/assistant.py,sha256=8T5sF-kdOgHZVkee2-UTGLfn_6ZKzB0vbzyUwcWEhEA,30526
+django_openai_assistant/models.py,sha256=0R3m7_jQYrDZzomJP9Gyahk7mPtNGac8HbXezrIADX4,635
+django_openai_assistant/migrations/0001_initial.py,sha256=HGhFMyz0WRH66zmb5qff4Tq7TsF_53qP7YiawaK4ldM,1048
+django_openai_assistant/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_openai_assistant-0.7.6.dist-info/METADATA,sha256=6CanxfYqtqZzzu0nuydMzqsP7DzLr3BTbWLmP3en5oo,8649
+django_openai_assistant-0.7.6.dist-info/WHEEL,sha256=q6Ejfpj4HRnt7o1XWgEOo5g7W0PKmxxzhdMpcVNBe68,105
+django_openai_assistant-0.7.6.dist-info/licenses/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+django_openai_assistant-0.7.6.dist-info/RECORD,,
