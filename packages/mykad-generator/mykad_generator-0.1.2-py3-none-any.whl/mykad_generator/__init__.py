@@ -1,0 +1,1 @@
+from .generator import generate_mykad,generate_random_number
