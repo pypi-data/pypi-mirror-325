@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "elo-viz"
+version = "0.0.2"
+description = "Elo python package to simulate matches between players, and compare their elo ratings after each match, and visualize it."
+authors = ["Anurag Shenoy <anuragshenoy21@gmail.com>"]
+keywords = ["elo", "elo-score", "rating", "chess", "ranking", "score"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Education",
+    "Topic :: Games/Entertainment",
+    "Topic :: Games/Entertainment :: Board Games",
+]
+
+[tool.poetry.urls]
+Homepage = "https://github.com/shenoy-anurag/elo"
+Documentation = "https://github.com/shenoy-anurag/elo"
+Repository = "https://github.com/shenoy-anurag/elo"
+Issues = "https://github.com/shenoy-anurag/elo/issues"
+"Funding" = "https://buymeacoffee.com/anuragshenoy"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
