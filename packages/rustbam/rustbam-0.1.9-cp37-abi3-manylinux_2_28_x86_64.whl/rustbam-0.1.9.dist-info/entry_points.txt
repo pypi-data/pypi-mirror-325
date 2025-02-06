@@ -1,0 +1,2 @@
+[console_scripts]
+rustbam=rustbam.cli:get_depths_cli
