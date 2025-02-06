@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: housing_violations_nyc
+Version: 0.1.0
+Summary: Python package that processes and explores NYC Housing Violation data.
+License: MIT
+Author: Jenna Swartz
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.9.3,<4.0.0)
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
+Description-Content-Type: text/markdown
+
+# housing_violations_nyc
+
+Python package that processes and explores NYC Housing Violation data.
+
+## Installation
+
+```bash
+$ pip install housing_violations_nyc
+```
+
+## Usage
+
+- TODO
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`housing_violations_nyc` was created by Jenna Swartz. It is licensed under the terms of the MIT license.
+
+## Credits
+
+`housing_violations_nyc` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
