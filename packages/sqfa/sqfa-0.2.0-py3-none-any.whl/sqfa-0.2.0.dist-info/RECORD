@@ -1,0 +1,16 @@
+sqfa/__init__.py,sha256=Wphlpp16xviQqGC94dVmVVlDroOTrPTIi5nhavRZY0Q,296
+sqfa/_optim.py,sha256=JA3OnXFVsoA_lBgtYYVdh7dYF_xXiW0J929Lxtu2kII,4585
+sqfa/constraints.py,sha256=CmZb7ONKI6_tSiTdnlFlB5_SDGv8zUI4Dkgmc1unXAU,3183
+sqfa/distances.py,sha256=7WdVBWPYWdR_MvuD1shJ8CGUZKDOmYRgK35uKcDVONM,6582
+sqfa/linalg.py,sha256=Hf-n2oy_xyIaxqegLecOfjKXxI1lhCWMZRhw91HaTaw,5155
+sqfa/model.py,sha256=gS2mdX-gt8V2fFGCFZ19I7FNz2Q9kIqHP2sYbnwy8BQ,20529
+sqfa/statistics.py,sha256=x4HvEA8eYWrvG7sx1oBvzKkSYNyxUylzJaiifklL4mg,5672
+sqfa/plot/__init__.py,sha256=d4s1V-2038Yzn8Ck103RztwUDQ5AAjWJ91wPb2dx5bc,295
+sqfa/plot/_data_wrangle.py,sha256=TbbDJv1VPTTthUaY_z1qLOukqF9_GeQARdwpVUKGjGw,3280
+sqfa/plot/colors.py,sha256=oTDpiXckfIeFeDC_l723ixw_sIgSEEF6xV09TNEf944,2989
+sqfa/plot/data.py,sha256=nYamkdyzquNhtLKwKnplqkUxyGHagn4nD_T02z7vKhI,2664
+sqfa/plot/ellipses.py,sha256=74cFxTWz3b-PG6SpV_Xuwjk6Xq3mX4MxzVHmBhyeFqk,3989
+sqfa-0.2.0.dist-info/METADATA,sha256=BoQ30eYGO3gP0e4PdN3mVeiJgomLU_SbUoSKbhjyAJ8,6798
+sqfa-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+sqfa-0.2.0.dist-info/licenses/LICENSE,sha256=EU9hvJ0t569pXNnughoKVtZ_WDpWx7vWILu2ZdqO84o,1080
+sqfa-0.2.0.dist-info/RECORD,,
