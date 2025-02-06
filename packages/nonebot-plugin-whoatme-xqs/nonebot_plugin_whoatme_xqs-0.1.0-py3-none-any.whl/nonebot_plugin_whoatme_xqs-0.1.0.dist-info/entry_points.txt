@@ -1,0 +1,2 @@
+[nonebot.plugin]
+who_at_me = nonebot_plugin_who_at_me
