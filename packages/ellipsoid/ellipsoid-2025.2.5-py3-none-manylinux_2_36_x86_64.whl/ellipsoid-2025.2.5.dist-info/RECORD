@@ -1,0 +1,7 @@
+geowheel/__init__.py,sha256=2rp6eHj0FRZ7C6KtQfcut5LcwvnqOGhSQ6HoCFazOLE,962
+geowheel/ellipsoid.cp313-win_amd64.pyd,sha256=xeu4k5mBIbkk0HymANJSMIHF-8Imos0TR4c1znJYx0E,1467392
+geowheel/ellipsoid.cpython-313-x86_64-linux-gnu.so,sha256=hPD4b--fuM2UnE_xRvtjcO7W3ExNEXd13BZrcu81azM,13152000
+ellipsoid-2025.2.5.dist-info/METADATA,sha256=gc4GjqBjrwXLMa2duo-ruHC4a8587VxKUs1gy6NnJv4,133587
+ellipsoid-2025.2.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ellipsoid-2025.2.5.dist-info/top_level.txt,sha256=LFrP0TQihqLWzLpdJrC-5f4AwQfN7clcXS7dZxfyvCI,9
+ellipsoid-2025.2.5.dist-info/RECORD,,
