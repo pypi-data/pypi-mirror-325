@@ -1,0 +1,10 @@
+nginx_set_conf/__init__.py,sha256=8uWlk1bFcsFoXOiDmRhF6TaumPz5pmbdwGfX4ssjQIQ,141
+nginx_set_conf/config_templates.py,sha256=ktW2BFOqL7oadiRxIxFbLATrohQRGgf1YH6ivI870S0,30303
+nginx_set_conf/nginx_set_conf.py,sha256=kesB7TGRPt4LUZriONllneq5M7BeZiTtOcape3WsQCk,7326
+nginx_set_conf/utils.py,sha256=S7S5-EwQGFejR4wwAoNLEal_gRK3SIxWJtCv-8hy1sk,11218
+nginx_set_conf-1.2.0.dist-info/LICENSE.txt,sha256=VD-pauwiiia-Xi2zgKvalKRIFSJJjqRCQw6aIpK2T9U,33892
+nginx_set_conf-1.2.0.dist-info/METADATA,sha256=S1la_sWIvU_dQ0NscqNUjsNDd9YKO9BBUSaSYAv9hv8,4881
+nginx_set_conf-1.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+nginx_set_conf-1.2.0.dist-info/entry_points.txt,sha256=Bz2hZ7LCO63Ceo6kRPZvFOg5w3nVsWHJbSAoD594yfQ,86
+nginx_set_conf-1.2.0.dist-info/top_level.txt,sha256=KIzOlL94wDWETY8OHguG6fBIpJAn6NloMYV3GRDOV2U,15
+nginx_set_conf-1.2.0.dist-info/RECORD,,
