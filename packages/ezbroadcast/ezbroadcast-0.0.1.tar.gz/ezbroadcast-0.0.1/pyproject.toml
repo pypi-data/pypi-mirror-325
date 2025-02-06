@@ -1,0 +1,17 @@
+[project]
+name = "ezbroadcast"
+version = "0.0.1"
+authors = [
+{ name="ocueye", email="carsonmayn@fuse.net" },
+]
+description = "Its the brodcast feture from scratch in python bacicly"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+"Programming Language :: Python :: 3",
+"Operating System :: OS Independent",
+]
+[project.urls]
+Homepage = "https://github.com/ocueye2/brodcast_ocueye"
+Issues = "https://github.com/ocueye2/brodcast_ocueye/issues"
+
