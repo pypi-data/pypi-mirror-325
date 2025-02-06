@@ -1,0 +1,8 @@
+setup.py
+sc_common_oa.egg-info/PKG-INFO
+sc_common_oa.egg-info/SOURCES.txt
+sc_common_oa.egg-info/dependency_links.txt
+sc_common_oa.egg-info/requires.txt
+sc_common_oa.egg-info/top_level.txt
+sc_oa/__init__.py
+sc_oa/sc_oa.py
