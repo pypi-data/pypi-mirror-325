@@ -1,0 +1,7 @@
+voice2brief-0.1.1.dist-info/METADATA,sha256=IT1zlyGMHGdC7GUx947hpV_zLtbZHyYxj4O8wjTcPZg,4235
+voice2brief-0.1.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+voice2brief-0.1.1.dist-info/entry_points.txt,sha256=fFd1-zTNWu-VV3gmCDl8c_-RRZN2318Ncuc4Sz4iwE8,69
+voice2brief/__init__.py,sha256=KmLA2iOT4cDaqG3WCN_0yYSewfOAl0McG8V_hzO9Is8,178
+voice2brief/cli.py,sha256=UTFpMTr3mdbnXUH7ONBBZ1s2wZtPpvrikxvBEZm0-lE,3613
+voice2brief/processor.py,sha256=3gzAhfKH-YimpOz7QTtrwO9x5VfklYK8Eb9CPoMyC28,7379
+voice2brief-0.1.1.dist-info/RECORD,,
