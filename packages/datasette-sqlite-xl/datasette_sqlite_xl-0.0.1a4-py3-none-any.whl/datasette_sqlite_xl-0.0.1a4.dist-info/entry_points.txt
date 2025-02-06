@@ -1,0 +1,3 @@
+[datasette]
+sqlite_xl = datasette_sqlite_xl
+
