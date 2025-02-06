@@ -1,0 +1,2 @@
+[console_scripts]
+fip-fetch = fip_radiod.fip_fetch:ui
