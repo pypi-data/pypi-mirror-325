@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: llm-poker
+Version: 0.1.0
+Summary: Texas Hold'em environment with LLM players
+Home-page: http://www.strangeloopcanon.com
+Author: Rohit Krishnan
+Author-email: rohit.krishnan@gmail.com
+Requires-Dist: llm
+Requires-Dist: click
+Requires-Dist: pydantic
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
