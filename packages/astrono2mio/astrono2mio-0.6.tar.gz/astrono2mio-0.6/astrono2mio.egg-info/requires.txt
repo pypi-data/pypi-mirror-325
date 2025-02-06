@@ -1,0 +1,7 @@
+pycryptodome
+cryptography
+aiohttp
+requests
+asyncio
+pillow
+psutil

@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+astrono2mio.egg-info/PKG-INFO
+astrono2mio.egg-info/SOURCES.txt
+astrono2mio.egg-info/dependency_links.txt
+astrono2mio.egg-info/requires.txt
+astrono2mio.egg-info/top_level.txt
