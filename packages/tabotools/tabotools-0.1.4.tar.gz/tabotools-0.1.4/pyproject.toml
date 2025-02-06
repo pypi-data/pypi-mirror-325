@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tabotools"
+version = "0.1.4"
+description = "A data tools library for loading, preprocessing, exploratory analysis, and visualization."
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [{name = "Maria", email = "vpays.am@gmail.com"}]
+
+dependencies = [
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "IPython"
+]
+
+[project.urls]
+Homepage = "https://github.com/Mariiavs/tabotools"
+Repository = "https://github.com/Mariiavs/tabotools"
+Issues = "https://github.com/Mariiavs/tabotools/issues"
+
+[tool.setuptools]
+packages = ["tabotools"]
