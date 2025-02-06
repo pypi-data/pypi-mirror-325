@@ -1,0 +1,13 @@
+torchsvm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchsvm/cksvm.py,sha256=vogZAVAA1dRQQrhqfVpZt-O_pnR9vxz_muNKGMYzqgs,1668
+torchsvm/cvkhuber.py,sha256=LAu1xrR2zcynCXcCnVc6_bUYyD4jF5t7dfrA3q4WVwQ,16664
+torchsvm/cvklogit.py,sha256=-ijacI0oKuGgUdb2rHb19bB0lIl3FatX9s-RqyIFaGc,15699
+torchsvm/cvksqsvm.py,sha256=YvEmlgLGa-WFjkkHJ5jDWX7tE8aLhxyMfHk6TN8qwr4,16007
+torchsvm/cvksvm.py,sha256=Wl02-9NzoYY4d6gxqbFx8cowjDlOmr4N-tK0ef-I8yU,36751
+torchsvm/functions.py,sha256=CeQSXdzOnpA3LtnFDmNQ5He7ZiK1MfrQc7-5SB70rgQ,5126
+torchsvm/kernels.py,sha256=p-MlLXerIOPNFocBfEXJudZ5NMAJ1qh99qSwfcLBs1c,313
+torchsvm-0.1.1.dist-info/LICENSE,sha256=TDPCBRCvZLbjMyW2ZMAIIb-OsIGLwytsQGVMkOPMrjs,1069
+torchsvm-0.1.1.dist-info/METADATA,sha256=ZJFFOcozQt8OWiEeilXD-RHMR5k12s8u9uQTfVatabY,4139
+torchsvm-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+torchsvm-0.1.1.dist-info/top_level.txt,sha256=jiL734XgbM9wnpFOfPi5IW7qCflaQQH3re1TS8Xv0Jw,9
+torchsvm-0.1.1.dist-info/RECORD,,
