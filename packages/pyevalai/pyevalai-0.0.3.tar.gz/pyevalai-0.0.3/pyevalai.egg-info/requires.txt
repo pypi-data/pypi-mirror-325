@@ -1,0 +1,10 @@
+pytorch
+numpy
+tornado
+cloudpickle
+ipywidgets
+natsort
+functools
+jinja2
+markdown2>=2.4.0
+dateutil
