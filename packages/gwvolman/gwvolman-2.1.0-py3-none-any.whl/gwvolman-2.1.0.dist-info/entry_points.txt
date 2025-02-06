@@ -1,0 +1,2 @@
+[girder_worker_plugins]
+gwvolman = gwvolman:GWVolumeManagerPlugin
