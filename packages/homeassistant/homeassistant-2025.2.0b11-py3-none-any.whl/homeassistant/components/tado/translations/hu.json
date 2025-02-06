@@ -1,0 +1,147 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Az eszk\u00f6z m\u00e1r konfigur\u00e1lva van",
+            "reconfigure_successful": "\u00dajrakonfigur\u00e1l\u00e1s sikeres volt"
+        },
+        "error": {
+            "cannot_connect": "Sikertelen csatlakoz\u00e1s",
+            "invalid_auth": "\u00c9rv\u00e9nytelen hiteles\u00edt\u00e9s",
+            "unknown": "V\u00e1ratlan hiba"
+        },
+        "step": {
+            "reconfigure": {
+                "data": {
+                    "password": "Jelsz\u00f3"
+                },
+                "data_description": {
+                    "password": "Adja meg a Tado (\u00faj) jelszav\u00e1t."
+                },
+                "title": "Konfigur\u00e1lja \u00fajra a Tad\u00f3t"
+            },
+            "user": {
+                "data": {
+                    "password": "Jelsz\u00f3",
+                    "username": "Felhaszn\u00e1l\u00f3n\u00e9v"
+                },
+                "title": "Csatlakoz\u00e1s a Tado fi\u00f3kj\u00e1hoz"
+            }
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "connection_state": {
+                "name": "Kapcsolat \u00e1llapota"
+            },
+            "early_start": {
+                "name": "Korai kezd\u00e9s"
+            },
+            "overlay": {
+                "name": "Fel\u00fclb\u00edr\u00e1l\u00e1s"
+            }
+        },
+        "climate": {
+            "tado": {
+                "state_attributes": {
+                    "preset_mode": {
+                        "state": {
+                            "auto": "Automatikus"
+                        }
+                    }
+                }
+            }
+        },
+        "sensor": {
+            "ac": {
+                "name": "AC"
+            },
+            "automatic_geofencing": {
+                "name": "Automatikus geofencing"
+            },
+            "geofencing_mode": {
+                "name": "Geofencing (helymeghat\u00e1roz\u00e1s) m\u00f3d"
+            },
+            "heating": {
+                "name": "F\u0171t\u00e9s"
+            },
+            "outdoor_temperature": {
+                "name": "K\u00fcls\u0151 h\u0151m\u00e9rs\u00e9klet"
+            },
+            "solar_percentage": {
+                "name": "Naps\u00fct\u00e9s sz\u00e1zal\u00e9k"
+            },
+            "tado_mode": {
+                "name": "Tado m\u00f3d"
+            },
+            "weather_condition": {
+                "name": "Id\u0151j\u00e1r\u00e1si \u00e1llapot"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "fallback": "A tartal\u00e9k m\u00f3d be\u00e1ll\u00edt\u00e1sa."
+                },
+                "title": "\u00c1ll\u00edtsa be a Tado-t."
+            }
+        }
+    },
+    "services": {
+        "add_meter_reading": {
+            "description": "Hozz\u00e1ad egy m\u00e9r\u0151\u00f3ra-leolvas\u00e1st a Tado Energy IQ-hoz.",
+            "fields": {
+                "config_entry": {
+                    "description": "Konfigur\u00e1ci\u00f3s bejegyz\u00e9s a m\u00e9r\u0151\u00f3r\u00e1k leolvas\u00e1s\u00e1nak hozz\u00e1ad\u00e1s\u00e1hoz.",
+                    "name": "Konfigur\u00e1ci\u00f3s bejegyz\u00e9s"
+                },
+                "reading": {
+                    "description": "Leolvas\u00e1s m\u00b3-ben vagy kWh-ban, tizedesjegyek n\u00e9lk\u00fcl.",
+                    "name": "Olvas\u00e1s"
+                }
+            },
+            "name": "M\u00e9r\u0151\u00f3ra-leolvas\u00e1s hozz\u00e1ad\u00e1sa"
+        },
+        "set_climate_temperature_offset": {
+            "description": "Be\u00e1ll\u00edtja a kl\u00edma entit\u00e1sok h\u0151m\u00e9rs\u00e9klet-eltol\u00e1s\u00e1t.",
+            "fields": {
+                "offset": {
+                    "description": "Az k\u00edv\u00e1nt eltol\u00e1s (a k\u00e9sz\u00fcl\u00e9kedt\u0151l f\u00fcgg\u0151en).",
+                    "name": "Eltol\u00e1s"
+                }
+            },
+            "name": "\u00c1ll\u00edtsa be a kl\u00edma h\u0151m\u00e9rs\u00e9klet-eltol\u00e1s\u00e1t"
+        },
+        "set_climate_timer": {
+            "description": "Bekapcsolja a kl\u00edma entit\u00e1sokat egy meghat\u00e1rozott id\u0151re.",
+            "fields": {
+                "requested_overlay": {
+                    "name": "Fel\u00fclb\u00edr\u00e1l\u00e1s"
+                },
+                "temperature": {
+                    "description": "H\u0151m\u00e9rs\u00e9klet be\u00e1ll\u00edt\u00e1sa a kl\u00edma entit\u00e1shoz.",
+                    "name": "H\u0151m\u00e9rs\u00e9klet"
+                },
+                "time_period": {
+                    "name": "Id\u0151szak"
+                }
+            },
+            "name": "Kl\u00edma id\u0151z\u00edt\u0151 be\u00e1ll\u00edt\u00e1sa"
+        },
+        "set_water_heater_timer": {
+            "description": "Be\u00e1ll\u00edtott id\u0151re bekapcsolja a v\u00edzmeleg\u00edt\u0151t.",
+            "fields": {
+                "temperature": {
+                    "description": "A h\u0151m\u00e9rs\u00e9klet be\u00e1ll\u00edt\u00e1sa a v\u00edzmeleg\u00edt\u00e9shez.",
+                    "name": "H\u0151m\u00e9rs\u00e9klet"
+                },
+                "time_period": {
+                    "description": "\u00c1ll\u00edtsa be a boost (turb\u00f3) id\u0151tartam\u00e1t.",
+                    "name": "Id\u0151szak"
+                }
+            },
+            "name": "V\u00edzmeleg\u00edt\u0151 id\u0151z\u00edt\u0151 be\u00e1ll\u00edt\u00e1sa"
+        }
+    }
+}
