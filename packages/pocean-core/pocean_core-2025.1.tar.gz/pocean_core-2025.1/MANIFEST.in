@@ -1,0 +1,18 @@
+include *.txt
+include README.md
+include pyproject.toml
+
+graft pocean
+
+prune .github
+prune *.egg-info
+prune docs
+prune pocean/tests
+
+exclude .coveragerc
+exclude .gitignore
+exclude .pre-commit-config.yaml
+exclude pocean/_version.py
+exclude ruff.toml
+
+global-exclude *.nc
