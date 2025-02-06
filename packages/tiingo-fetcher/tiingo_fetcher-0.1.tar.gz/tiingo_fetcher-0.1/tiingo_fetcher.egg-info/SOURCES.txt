@@ -1,0 +1,9 @@
+README.md
+setup.py
+tiingo_fetcher/__init__.py
+tiingo_fetcher/fetch_data.py
+tiingo_fetcher.egg-info/PKG-INFO
+tiingo_fetcher.egg-info/SOURCES.txt
+tiingo_fetcher.egg-info/dependency_links.txt
+tiingo_fetcher.egg-info/requires.txt
+tiingo_fetcher.egg-info/top_level.txt
