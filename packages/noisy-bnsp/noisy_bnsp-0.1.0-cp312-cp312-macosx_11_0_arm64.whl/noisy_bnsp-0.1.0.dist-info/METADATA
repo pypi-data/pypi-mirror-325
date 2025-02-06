@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: noisy-bnsp
+Version: 0.1.0
+Summary: A Python library to simulate and inference on the noisy bivariate Neyman-Scott process.
+Author-email: Takaaki Shiotani <shtm.1058@gmail.com>
+Project-URL: Homepage, https://github.com/shtmjp/noisy-bnsp
+Project-URL: Issues, https://github.com/shtmjp/noisy-bnsp/issues
+Keywords: point process,simulation,inference
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: cython>=3.0.11
+Requires-Dist: numpy>=2.2.1
+Requires-Dist: scipy>=1.14.1
+
+# noisy-bnsp
+
+A Python package to simulate and estimate the noisy-BNSP model.
+
+## How to install
+
+1. install `gsl` (also known as: gnu-scientific-library)
+2. `pip install noisy-bnsp`
+
+## Reference
+
+- Shiotani, T., & Yoshida, N. (2024). Statistical inference for highly correlated stationary point processes and noisy bivariate Neyman-Scott processes. arXiv preprint arXiv:2410.05732.
+
+## TODO
+
+- Add docs by sphinx
+- Add real-data example
