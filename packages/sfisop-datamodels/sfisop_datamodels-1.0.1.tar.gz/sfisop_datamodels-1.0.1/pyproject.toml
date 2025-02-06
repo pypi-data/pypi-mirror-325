@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sfisop-datamodels"
+version = "1.0.1"
+description = "Basic time series data models for the Smart Ocean platform"
+authors = ["Smart Ocean WP3"]
+readme = "README.md"
+packages = [{include = "sfisop", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0.0"
+pydantic = ">=2.0, <3.0.0"
+typing-extensions = ">=4.6.3"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
