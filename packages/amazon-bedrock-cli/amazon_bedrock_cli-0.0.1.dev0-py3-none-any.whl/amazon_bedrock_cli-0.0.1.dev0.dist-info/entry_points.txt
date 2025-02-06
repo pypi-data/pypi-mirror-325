@@ -1,0 +1,2 @@
+[console_scripts]
+bedrock = amazon_bedrock_cli.cli:cli
