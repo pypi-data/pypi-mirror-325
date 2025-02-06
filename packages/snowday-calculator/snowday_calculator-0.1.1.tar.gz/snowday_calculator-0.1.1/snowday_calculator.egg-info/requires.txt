@@ -1,0 +1,14 @@
+requests
+
+[dev]
+sphinx
+sphinx-rtd-theme
+sphinx-autodoc-typehints
+pytest
+pytest-cov
+coverage
+pre-commit
+ruff
+black
+yamlfmt
+doc8
