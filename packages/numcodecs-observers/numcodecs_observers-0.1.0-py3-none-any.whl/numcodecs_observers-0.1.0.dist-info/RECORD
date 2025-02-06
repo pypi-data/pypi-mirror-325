@@ -1,0 +1,10 @@
+numcodecs_observers/__init__.py,sha256=d7g-yFNzBbHcJbJF3-mwJUPvji32dzGncOYr8xMp3JI,2652
+numcodecs_observers/abc.py,sha256=LjymjClcS7bt6z9q8dJGpIlk1tIynSqva6rciCvoy-w,2004
+numcodecs_observers/bytesize.py,sha256=dGmSDj7lU9BR-EyRHKYqu6UoISLlr-gNLdvuZdM_64Y,2622
+numcodecs_observers/hash.py,sha256=lQ764oFVuGe85RRVuKqCEGz0yzN8zmt3jWrl2D15WLs,1393
+numcodecs_observers/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numcodecs_observers/walltime.py,sha256=1xajGxXVXq6td5WxKAHZbn2VjoUMlqZsHaUi8RFh2pU,2240
+numcodecs_observers-0.1.0.dist-info/METADATA,sha256=cPB2cNvI4wYqH9yQXqpBMRjNx3d4dtx2ReyemxGiaGc,21732
+numcodecs_observers-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+numcodecs_observers-0.1.0.dist-info/licenses/LICENSE,sha256=zl_Aa08vQlcNL9a8Yw-w2ZYfIIs_1OxDYmU57ctqZRg,16761
+numcodecs_observers-0.1.0.dist-info/RECORD,,
