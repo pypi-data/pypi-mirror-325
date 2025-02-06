@@ -1,0 +1,3 @@
+[console_scripts]
+approx = varela.app:main
+test_approx = varela.test:main
