@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+chatgpt_mirai_qq_bot_onebot_adapter.egg-info/PKG-INFO
+chatgpt_mirai_qq_bot_onebot_adapter.egg-info/SOURCES.txt
+chatgpt_mirai_qq_bot_onebot_adapter.egg-info/dependency_links.txt
+chatgpt_mirai_qq_bot_onebot_adapter.egg-info/requires.txt
+chatgpt_mirai_qq_bot_onebot_adapter.egg-info/top_level.txt
+onebot_adapter/__init__.py
+onebot_adapter/adapter.py
+onebot_adapter/config.py
+onebot_adapter/handlers/__init__.py
+onebot_adapter/handlers/message_result.py
+onebot_adapter/utils/__init__.py
+onebot_adapter/utils/message.py
