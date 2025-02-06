@@ -1,0 +1,17 @@
+excelstyleskit/__init__.py,sha256=kg_OuHaR-VW1fyL3urh4f_f4kCR4N9J-hyC55yJn-kE,222
+excelstyleskit/excel/__init__.py,sha256=McaR8f3A1cLGzVGfea7JjQ2QT0OJKD9qSPCs8XZ5fk4,56
+excelstyleskit/excel/excel.py,sha256=CHWYBKCPCtPtzhBGMhP6W9pIfpBSPBV_h_wfDloVf6s,14314
+excelstyleskit/excel/styles.py,sha256=Qn_GRg2nNKrFRAtoc9eZ97DRiEVKvdRj1PZ27E4w9WI,5386
+excelstyleskit/table/__init__.py,sha256=auCb57d9FawI-7-8XwO5-MCjB8HS4WUIx68RTNokpp4,47
+excelstyleskit/table/cell.py,sha256=5inQiVWxbKF8dNJ5pb74TWEeDXp93FhWMjUpJI_Rdrs,1051
+excelstyleskit/table/table.py,sha256=0M8r8IThVbapYiYuU_oFNOTx-nOEutpWro1uvAcJLJc,3071
+excelstyleskit/test/__init__.py,sha256=2yLCy4_tdNRr_LxksWNKZ-ykpLeTUM7p5Aa8h9m0G5c,51
+excelstyleskit/test/cell.py,sha256=rSJ7LtV25qfgPoRPLixJKY2z5VzG9MJUPr5WxnyAd0o,428
+excelstyleskit/test/excel.py,sha256=aslps5jn5yb5WGyx3dxHvUVTRZvFmJIRzNcHtfQ3hBA,14457
+excelstyleskit/test/table.py,sha256=8kS7yzDT6ai_HpQIiJCbARMYpLo-s0zImct7E_PIOGc,4190
+excelstyleskit/utils/__init__.py,sha256=TczS-F4P75JC55vJrEIsXfCVcyfKzL10FVwrDGJjRn0,84
+excelstyleskit/utils/verify.py,sha256=KFWscEf6AL8qm9_oajBm6QHe8xAHZ-w_6X0B65FsCbE,740
+excelstyleskit-0.0.3.dist-info/METADATA,sha256=ghVoB9zDSkEuM4AA-J3vdy3kAotMYIg_zFm1T0IGx90,32830
+excelstyleskit-0.0.3.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+excelstyleskit-0.0.3.dist-info/licenses/LICENSE,sha256=nppYWfhlySWLluF4FGEXmCeEVkCzjq9Fr1YoDSH9GCM,1070
+excelstyleskit-0.0.3.dist-info/RECORD,,
