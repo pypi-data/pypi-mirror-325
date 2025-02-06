@@ -1,0 +1,10 @@
+[Version 1.6] - 2025-02-05
+============================
+
+Changed
+-------
+
+- Enhanced the UI of `frontend` for a more visually appealing and user-friendly experience.
+- Improved styling and layout to provide a better user experience.
+- Updated design elements to align with modern aesthetics.
+
