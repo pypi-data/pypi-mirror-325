@@ -1,0 +1,2 @@
+[console_scripts]
+aero = yamlin:main
