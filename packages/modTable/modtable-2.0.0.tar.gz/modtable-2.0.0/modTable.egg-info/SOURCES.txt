@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+modTable/__init__.py
+modTable/__main__.py
+modTable.egg-info/PKG-INFO
+modTable.egg-info/SOURCES.txt
+modTable.egg-info/dependency_links.txt
+modTable.egg-info/entry_points.txt
+modTable.egg-info/top_level.txt
