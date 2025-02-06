@@ -1,0 +1,12 @@
+aira/__init__.py,sha256=jyubAtt5Km6-SaUla9rwITgmGN_8u53yxlKjn50VaPU,88
+aira/aira.py,sha256=O9_E0Oxo73Ja1pSAdj5RQOcbcMnl9NwJls0mnV5c1kY,4324
+aira/cli.py,sha256=6wYB6Z-L1oC4OSNfetBEghkdZRbD3qY_dkG9i0gfXUg,1638
+aira/commit_manager.py,sha256=VsXq4EVr4fnqyAT2cmEjf2NbE7SwYFEKjiFq_hER9CY,5711
+aira/repository_manager.py,sha256=92qU1XLQhNTqEcDLPR7Gc7PvSn-OfaLqVPi47xdb-ek,1007
+aira/utils.py,sha256=VbJM6jEpj-kRVjFRypcwWn6dYg4M9jWn4ZtmWnScCBc,1840
+aira-0.5.0.dist-info/LICENSE,sha256=3k3DKk1o3l7FFV7caCVZiKkLH9TNvvRZsd8R8KwzG7k,1061
+aira-0.5.0.dist-info/METADATA,sha256=NXsVHUYUlqjM9Gj8Pymdg5sRriIyrGjthdO-ntZ9ZUo,7703
+aira-0.5.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+aira-0.5.0.dist-info/entry_points.txt,sha256=BvMI5Epp54_sL7XBy9pKvMXg7OkmazJS1NKxS2sqSpc,39
+aira-0.5.0.dist-info/top_level.txt,sha256=zACqR3dsW1usPvVmHWRwe0aGSTXTBmm8Ms0R6eJPtac,5
+aira-0.5.0.dist-info/RECORD,,
