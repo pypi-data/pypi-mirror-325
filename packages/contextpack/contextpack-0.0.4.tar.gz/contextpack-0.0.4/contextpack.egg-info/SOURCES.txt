@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+settings.ini
+setup.py
+contextpack/__init__.py
+contextpack/_modidx.py
+contextpack/core.py
+contextpack.egg-info/PKG-INFO
+contextpack.egg-info/SOURCES.txt
+contextpack.egg-info/dependency_links.txt
+contextpack.egg-info/entry_points.txt
+contextpack.egg-info/not-zip-safe
+contextpack.egg-info/requires.txt
+contextpack.egg-info/top_level.txt
