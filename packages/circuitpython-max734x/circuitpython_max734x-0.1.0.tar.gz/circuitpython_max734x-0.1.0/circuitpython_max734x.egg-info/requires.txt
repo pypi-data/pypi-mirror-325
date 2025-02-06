@@ -1,0 +1,7 @@
+Adafruit-Blinka
+adafruit-circuitpython-busdevice
+adafruit-circuitpython-register
+
+[optional]
+adafruit-circuitpython-typing
+build
