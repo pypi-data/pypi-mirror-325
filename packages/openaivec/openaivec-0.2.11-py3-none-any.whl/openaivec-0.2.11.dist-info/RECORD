@@ -1,0 +1,13 @@
+openaivec/__init__.py,sha256=BySiBe6b-qm7r-q9_OLPi0tEaw9mXsqf7Hmjac4j7Zs,141
+openaivec/embedding.py,sha256=r6j1JeogEyWm3JjGXtgffR63OCWluXNd1_jmUc6iI9k,893
+openaivec/log.py,sha256=YL-gJcMTAp322uvfrNmtjYnb6YJOcG4NXLu4xBUWU8Y,1404
+openaivec/spark.py,sha256=pY_RFxbOBOyRxg5VgxJU9oEJIbL2F4vrxaCIi_5_P4A,2920
+openaivec/test_spark.py,sha256=cf33jdsjy_LzwHeMBT4bO7zmcQi2PngSM-TsvEdKPjs,1585
+openaivec/test_util.py,sha256=w1aT5-rwrtdu-m5EODQZTDgocyfFMnZFbCmdCx6BGpA,3743
+openaivec/test_vectorize.py,sha256=sQo3Q0wQC-jOM654fQqyY8eo1nFSsADwGZwkBjkpwjM,1707
+openaivec/util.py,sha256=LJsF3_a3tbYjTru65QegQctAbMNcGqUXLYJvrl-_Hws,2752
+openaivec/vectorize.py,sha256=rMVK4slpa4op1OXyjD5ohyRiRuNbJjyp_Gb5oN2w0tw,3668
+openaivec-0.2.11.dist-info/LICENSE,sha256=D9iZfJjILSq9cI_RJRoguvm_cGOrspEd1FoFWluFUcE,1069
+openaivec-0.2.11.dist-info/METADATA,sha256=SGz0tf_rvMMPY7aK-_LOOEhFOC_SGCrRGy-tgr_st4o,7371
+openaivec-0.2.11.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+openaivec-0.2.11.dist-info/RECORD,,
