@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: git-version-stamp
+Version: 0.1.0
+Summary: Make a version code from git repo/tree status for files of interest
+Author-email: Dan Egnor <egnor@ofb.net>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# git-version-stamp
+Create a simple version code based on git repo/tree status for files of interest
