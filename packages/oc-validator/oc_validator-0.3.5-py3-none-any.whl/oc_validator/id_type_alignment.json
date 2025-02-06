@@ -1,0 +1,397 @@
+{
+    "journal": [
+        "doi",
+        "issn",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "journal article": [
+        "doi",
+        "pmid",
+        "pmcid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "book": [
+        "doi",
+        "isbn",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "reference book": [
+        "doi",
+        "isbn",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "journal issue": [
+        "doi",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "book chapter": [
+        "doi",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "series": [
+        "doi",
+        "issn",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "proceedings": [
+        "doi",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "journal volume": [
+        "doi",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "book section": [
+        "doi",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "reference entry": [
+        "doi",
+        "pmid",
+        "wikidata",
+        "wikipedia",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "proceedings article": [
+        "doi",
+        "pmid",
+        "pmcid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "web content": [
+        "doi",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "dissertation": [
+        "doi",
+        "isbn",
+        "pmid",
+        "pmcid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "report": [
+        "doi",
+        "isbn",
+        "pmid",
+        "pmcid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "standard": [
+        "doi",
+        "isbn",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "peer review": [
+        "doi",
+        "pmid",
+        "pmcid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "book part": [
+        "doi",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "book series": [
+        "doi",
+        "issn",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "book set": [
+        "doi",
+        "issn",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "dataset": [
+        "doi",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "data file": [
+        "doi",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "edited book": [
+        "doi",
+        "isbn",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "monograph": [
+        "doi",
+        "isbn",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "other": [
+        "doi",
+        "pmid",
+        "wikidata",
+        "wikipedia",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "posted content": [
+        "doi",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "book track": [
+        "doi",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "component": [
+        "doi",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "proceedings series": [
+        "doi",
+        "issn",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "report series": [
+        "doi",
+        "issn",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "standard series": [
+        "doi",
+        "issn",
+        "pmid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "abstract": [
+        "doi",
+        "pmid",
+        "url",
+        "temp",
+        "local"
+    ],
+    "archival document": [
+        "doi",
+        "wikidata",
+        "url",
+        "temp",
+        "local"
+    ],
+    "audio document": [
+        "doi",
+        "wikidata",
+        "url",
+        "temp",
+        "local"
+    ],
+    "computer program": [
+        "doi",
+        "wikidata",
+        "url",
+        "temp",
+        "local"
+    ],
+    "data management plan": [
+        "doi",
+        "wikidata",
+        "url",
+        "temp",
+        "local"
+    ],
+    "editorial": [
+        "doi",
+        "pmid",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "journal editorial": [
+        "doi",
+        "pmid",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "newspaper": [
+        "doi",
+        "issn",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "newspaper article": [
+        "doi",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "newspaper issue": [
+        "doi",
+        "url",
+        "temp",
+        "local"
+    ],
+    "preprint": [
+        "doi",
+        "pmid",
+        "pmcid",
+        "wikidata",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ],
+    "presentation": [
+        "doi",
+        "url",
+        "temp",
+        "local"
+    ],
+    "retraction notice": [
+        "doi",
+        "url",
+        "openalex",
+        "temp",
+        "local"
+    ]
+}
