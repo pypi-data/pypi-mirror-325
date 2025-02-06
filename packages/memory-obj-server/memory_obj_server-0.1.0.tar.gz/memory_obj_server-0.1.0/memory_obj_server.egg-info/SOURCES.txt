@@ -1,0 +1,7 @@
+README.md
+setup.py
+memory_obj_server.egg-info/PKG-INFO
+memory_obj_server.egg-info/SOURCES.txt
+memory_obj_server.egg-info/dependency_links.txt
+memory_obj_server.egg-info/requires.txt
+memory_obj_server.egg-info/top_level.txt

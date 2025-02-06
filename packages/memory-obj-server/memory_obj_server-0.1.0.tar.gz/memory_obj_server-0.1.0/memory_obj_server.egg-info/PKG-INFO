@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: memory_obj_server
+Version: 0.1.0
+Summary: python对象共享池
+Home-page: https://github.com/15525730080/memory_obj_server
+Author: fanbozhou
+Author-email: 15525730080@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: rpyc
+Requires-Dist: dill
+Requires-Dist: filelock
+
+# memory_obj_server
+基于内存的python对象共享池，用于单机多进程服务python对象共享
+
+
+Memory based Python object sharing pool for single machine multi process service Python object sharing
