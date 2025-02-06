@@ -1,0 +1,2 @@
+[console_scripts]
+times-table = timesTable.__main__:main

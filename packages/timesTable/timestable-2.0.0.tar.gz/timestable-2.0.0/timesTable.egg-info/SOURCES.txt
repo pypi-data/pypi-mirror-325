@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+timesTable/__init__.py
+timesTable/__main__.py
+timesTable.egg-info/PKG-INFO
+timesTable.egg-info/SOURCES.txt
+timesTable.egg-info/dependency_links.txt
+timesTable.egg-info/entry_points.txt
+timesTable.egg-info/requires.txt
+timesTable.egg-info/top_level.txt
