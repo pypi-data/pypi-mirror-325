@@ -1,0 +1,12 @@
+LICENSE
+README.md
+atomix_base.pyi
+pyproject.toml
+setup.cfg
+setup.py
+atomix_base.egg-info/PKG-INFO
+atomix_base.egg-info/SOURCES.txt
+atomix_base.egg-info/dependency_links.txt
+atomix_base.egg-info/not-zip-safe
+atomix_base.egg-info/top_level.txt
+src/main.cpp
