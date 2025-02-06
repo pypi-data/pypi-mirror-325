@@ -1,0 +1,15 @@
+jax_supernovae/__init__.py,sha256=Nqnn8clbgv-5l0PgxcTOldg8mkMKrFn4TvPL-rYUUGg,1
+jax_supernovae/bandpasses.py,sha256=CaJONf_cyoIWsbdD4f5KDxvbVSAc8YJcFUPkWzz23Ts,7381
+jax_supernovae/constants.py,sha256=sE1QsWqHi3D2lmVX3lil3_eWZT9LstASCknMc4kYYMk,280
+jax_supernovae/data.py,sha256=lk-zre_BZXsrLXy1YcMJppYdbQl68BB6KJdFXG9m4MQ,7315
+jax_supernovae/salt3nir.py,sha256=qOb1XXWsnSJL6h7MIXgNIoSSZ_BVFWM_I7pS2I4YD-g,19607
+jax_supernovae/utils.py,sha256=W_TUpr14boxq3trO27N7DJ0pvmjx_jzAKoIGz4IO9f8,1979
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_all.py,sha256=TcFbV8GHZBB07h0bnsmfM_7R8zSm3UKzQuynxoTqmHg,402
+tests/test_ns_completion.py,sha256=J2OuSkmjrAosRA6_spg3l7DFQG78leNtY3xguWRLaMA,1232
+tests/test_salt3nir_consistency.py,sha256=Y4tt6uenLWodYmHpWYc49Pe_oI9BpuWisgyh3qp0EC8,5640
+jax_bandflux-0.1.0.dist-info/LICENSE,sha256=EjyKe1R4SIrwz5yAE_mXz17rQ1K1XfwCjaBeFhTdPTI,1083
+jax_bandflux-0.1.0.dist-info/METADATA,sha256=pHmaZ4AvyXyEIDEvqbv-v8RWckhEnqYtVDvJzyY3I14,5733
+jax_bandflux-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+jax_bandflux-0.1.0.dist-info/top_level.txt,sha256=emHccPFsRgws_bdthDIbqEazgEbx3f5TP9Q9qjlupHU,21
+jax_bandflux-0.1.0.dist-info/RECORD,,
