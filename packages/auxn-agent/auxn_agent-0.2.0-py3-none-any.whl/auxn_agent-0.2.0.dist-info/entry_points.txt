@@ -1,0 +1,3 @@
+[console_scripts]
+auxn-agent=auxn_agent.main:main
+
