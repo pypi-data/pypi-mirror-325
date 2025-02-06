@@ -1,0 +1,135 @@
+
+    <html>
+        <head>
+          <style type="text/css">
+            #mySvgId {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            border: 1px solid #ccc;
+            position: relative;
+            margin-bottom: 10px;
+            }
+            svg {
+            cursor: grab;
+            }
+    
+          </style>
+        </head>
+    
+        <body>
+          <div id="graphDiv"></div>
+          <script src="https://bumbu.me/svg-pan-zoom/dist/svg-pan-zoom.min.js"></script>
+          <script type="module">
+            import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    
+            mermaid.initialize({startOnLoad: false});
+            await mermaid.run({
+              querySelector: '.mermaid',
+              postRenderCallback: (id) => {
+                const container = document.getElementById("diagram-container");
+                const svgElement = container.querySelector("svg");
+    
+                // Initialize Panzoom
+                const panzoomInstance = Panzoom(svgElement, {
+                  maxScale: 5,
+                  minScale: 0.5,
+                  step: 0.1,
+                });
+    
+                // Add mouse wheel zoom
+                container.addEventListener("wheel", (event) => {
+                  panzoomInstance.zoomWithWheel(event);
+                });
+              }
+            });
+    
+    
+            const drawDiagram = async function () {
+              const element = document.querySelector('#graphDiv');
+              const graphDefinition = `
+    flowchart TD
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+39a035f0-3b2b-45fe-adb8-ee8a19581f6a@{ shape: flip-tri, label: "*Information Supply Chain*
+**Clinical Trial Subject Onboarding**"}
+b5691fb0-7569-43c1-bd4c-11198a11e733@{ shape: text, label: "*Description*
+**Delivering the data necessary to add a person as a subject in a clinical trial.**"}
+39a035f0-3b2b-45fe-adb8-ee8a19581f6a~~~b5691fb0-7569-43c1-bd4c-11198a11e733
+2338ad35-78eb-4920-8003-d522b3cecf6b@{ shape: text, label: "*Purpose*
+**Ensure patient subject is aware of the process and potential risks in participation.**"}
+b5691fb0-7569-43c1-bd4c-11198a11e733~~~2338ad35-78eb-4920-8003-d522b3cecf6b
+9f146a62-59f4-482b-8384-48b20ca76fa3@{ shape: text, label: "*Purpose*
+**Ensure patient subject has given permission for Coco Pharmaceuticals to acquire, store and process their personal data needed for the clinical trial.**"}
+2338ad35-78eb-4920-8003-d522b3cecf6b~~~9f146a62-59f4-482b-8384-48b20ca76fa3
+bd1d332d-6e86-4953-8f83-b0a03b5e738c@{ shape: text, label: "*Purpose*
+**Ensure incoming data is validated and catalogued.**"}
+9f146a62-59f4-482b-8384-48b20ca76fa3~~~bd1d332d-6e86-4953-8f83-b0a03b5e738c
+b58f5eba-9cf8-492d-bc86-966611bc7603@{ shape: text, label: "*Purpose*
+**Ensure data and process owners are informed of key milestones and issues requiring attention.**"}
+bd1d332d-6e86-4953-8f83-b0a03b5e738c~~~b58f5eba-9cf8-492d-bc86-966611bc7603
+1fd73811-9f3d-4599-9a22-1300e0931eff@{ shape: text, label: "*Purpose*
+**Ensure the process of data capture and validation is transparent and auditable.**"}
+b58f5eba-9cf8-492d-bc86-966611bc7603~~~1fd73811-9f3d-4599-9a22-1300e0931eff
+style 39a035f0-3b2b-45fe-adb8-ee8a19581f6a color:#FFFFFF, fill:#004563, stroke:#b7c0c7
+style 1fd73811-9f3d-4599-9a22-1300e0931eff color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style b5691fb0-7569-43c1-bd4c-11198a11e733 color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style 9f146a62-59f4-482b-8384-48b20ca76fa3 color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style 2338ad35-78eb-4920-8003-d522b3cecf6b color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style b58f5eba-9cf8-492d-bc86-966611bc7603 color:#000000, fill:#F9F7ED, stroke:#b7c0c7
+style bd1d332d-6e86-4953-8f83-b0a03b5e738c color:#000000, fill:#F9F7ED, stroke:#b7c0c7`;
+              const {svg} = await mermaid.render('mySvgId', graphDefinition);
+              element.innerHTML = svg.replace(/( )*max-width:( 0-9\.)*px;/i, '');
+    
+              var doPan = false;
+              var eventsHandler;
+              var panZoom;
+              var mousepos;
+    
+              eventsHandler = {
+                haltEventListeners: ['mousedown', 'mousemove', 'mouseup']
+    
+                , mouseDownHandler: function (ev) {
+                  if (event.target.className == "[object SVGAnimatedString]") {
+                    doPan = true;
+                    mousepos = {x: ev.clientX, y: ev.clientY}
+                  }
+                  ;
+                }
+    
+                , mouseMoveHandler: function (ev) {
+                  if (doPan) {
+                    panZoom.panBy({x: ev.clientX - mousepos.x, y: ev.clientY - mousepos.y});
+                    mousepos = {x: ev.clientX, y: ev.clientY};
+                    window.getSelection().removeAllRanges();
+                  }
+                }
+    
+                , mouseUpHandler: function (ev) {
+                  doPan = false;
+                }
+    
+                , init: function (options) {
+                  options.svgElement.addEventListener('mousedown', this.mouseDownHandler, false);
+                  options.svgElement.addEventListener('mousemove', this.mouseMoveHandler, false);
+                  options.svgElement.addEventListener('mouseup', this.mouseUpHandler, false);
+                }
+    
+                , destroy: function (options) {
+                  options.svgElement.removeEventListener('mousedown', this.mouseDownHandler, false);
+                  options.svgElement.removeEventListener('mousemove', this.mouseMoveHandler, false);
+                  options.svgElement.removeEventListener('mouseup', this.mouseUpHandler, false);
+                }
+              }
+              panZoom = svgPanZoom('#mySvgId', {
+                zoomEnabled: true
+                , controlIconsEnabled: true
+                , fit: 1
+                , center: 1
+                , customEventsHandler: eventsHandler
+              })
+            };
+            await drawDiagram();
+          </script>
+        </body>    
+    
