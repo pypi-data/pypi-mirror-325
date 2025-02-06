@@ -1,0 +1,9 @@
+branchify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+branchify/cli.py,sha256=hNqXs3qE46tH1wHToUKuSq5vIFdKmv0sLPKT4fv1lrw,1911
+branchify/generator.py,sha256=DkSNgkCnMH106MmDapH_jwP7-_uS4TQDVgdPRWMe-6s,4477
+branchify-1.0.0.dist-info/LICENSE,sha256=5G6xNoWF_3Ts6OyOr0MpUuZXB7XS97MTA0KsT4s6nks,1506
+branchify-1.0.0.dist-info/METADATA,sha256=atGm-P2n0GARCQj1t9dP2t0LWZG0O8eHauqaCSkb24U,2733
+branchify-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+branchify-1.0.0.dist-info/entry_points.txt,sha256=teHclo73E6QXvAnjyhiKK708f3o0LrNvmLWMy5KcGJk,49
+branchify-1.0.0.dist-info/top_level.txt,sha256=-ocz_L7-NpY_RX5BxrhtHxtpXjyKME1RYiAvaa8P4lk,10
+branchify-1.0.0.dist-info/RECORD,,
