@@ -1,0 +1,16 @@
+._ellipsoid-2025.2.5.dist-info,sha256=ShK0i9fwpXMhzaS6HjM34tQPhDLcx69V-5lSfJcw2qM,4096
+._geowheel,sha256=ShK0i9fwpXMhzaS6HjM34tQPhDLcx69V-5lSfJcw2qM,4096
+geowheel/.___init__.py,sha256=ShK0i9fwpXMhzaS6HjM34tQPhDLcx69V-5lSfJcw2qM,4096
+geowheel/._ellipsoid.cpython-313-darwin.so,sha256=ShK0i9fwpXMhzaS6HjM34tQPhDLcx69V-5lSfJcw2qM,4096
+geowheel/__init__.py,sha256=2rp6eHj0FRZ7C6KtQfcut5LcwvnqOGhSQ6HoCFazOLE,962
+geowheel/ellipsoid.cpython-313-darwin.so,sha256=ZIjG-iZNUg_wGG4GAuaOr5BZe25MNw7p5hNL24WPgrs,4639372
+ellipsoid-2025.2.5.dist-info/._METADATA,sha256=ShK0i9fwpXMhzaS6HjM34tQPhDLcx69V-5lSfJcw2qM,4096
+ellipsoid-2025.2.5.dist-info/._PKG-INFO,sha256=ShK0i9fwpXMhzaS6HjM34tQPhDLcx69V-5lSfJcw2qM,4096
+ellipsoid-2025.2.5.dist-info/._SOURCES.txt,sha256=ShK0i9fwpXMhzaS6HjM34tQPhDLcx69V-5lSfJcw2qM,4096
+ellipsoid-2025.2.5.dist-info/._WHEEL,sha256=ShK0i9fwpXMhzaS6HjM34tQPhDLcx69V-5lSfJcw2qM,4096
+ellipsoid-2025.2.5.dist-info/._requires.txt,sha256=ShK0i9fwpXMhzaS6HjM34tQPhDLcx69V-5lSfJcw2qM,4096
+ellipsoid-2025.2.5.dist-info/._top_level.txt,sha256=ShK0i9fwpXMhzaS6HjM34tQPhDLcx69V-5lSfJcw2qM,4096
+ellipsoid-2025.2.5.dist-info/METADATA,sha256=gc4GjqBjrwXLMa2duo-ruHC4a8587VxKUs1gy6NnJv4,133587
+ellipsoid-2025.2.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ellipsoid-2025.2.5.dist-info/top_level.txt,sha256=LFrP0TQihqLWzLpdJrC-5f4AwQfN7clcXS7dZxfyvCI,9
+ellipsoid-2025.2.5.dist-info/RECORD,,
