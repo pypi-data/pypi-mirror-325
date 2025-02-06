@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+memoryfields/EMFApiHelper.py
+memoryfields/__init__.py
+memoryfields.egg-info/PKG-INFO
+memoryfields.egg-info/SOURCES.txt
+memoryfields.egg-info/dependency_links.txt
+memoryfields.egg-info/requires.txt
+memoryfields.egg-info/top_level.txt
