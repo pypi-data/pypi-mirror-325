@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/__init__.py
+src/ci_cd_apier/__init__.py
+src/ci_cd_apier/apier.py
+src/ci_cd_apier/patcher.py
+src/ci_cd_apier.egg-info/PKG-INFO
+src/ci_cd_apier.egg-info/SOURCES.txt
+src/ci_cd_apier.egg-info/dependency_links.txt
+src/ci_cd_apier.egg-info/requires.txt
+src/ci_cd_apier.egg-info/top_level.txt
