@@ -1,0 +1,12 @@
+dataxi/__init__.py,sha256=i9sWm8i1b24RcMBTNguK4uYODWrUWiNBC7GhfDUfWrE,111
+dataxi/cred_mgr.py,sha256=F9yD7TdLmAUEF9DABQ1aWFdVMbwkCl8M-p3rZ6n4JNw,6037
+dataxi/cred_mgr_cli.py,sha256=TZVzl7QBObFITmKxOoMPHXhVxQw3I0uTupCSGcukcU0,4518
+dataxi/connectors/__init__.py,sha256=LGV8_KeUWjj2lqxNQZriRo07XC8n_WPAlSKxqD3TBsc,75
+dataxi/connectors/mysql_connector.py,sha256=JTjcGD-RwbCiqiGUg1FY6lmWWhutbsDR7if0AjMW7SU,6267
+dataxi/operators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataxi-0.0.7.dist-info/LICENSE,sha256=tF5Vdmo83liHuOlDxKcRO1WDcpfTzvYNzaWIieXiuig,1066
+dataxi-0.0.7.dist-info/METADATA,sha256=A2CTueulLzHtIX1vptLjLbY1SzosyMulO9x059TYU0Y,2974
+dataxi-0.0.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+dataxi-0.0.7.dist-info/entry_points.txt,sha256=aShPeEzwVGxiFCPfVSgc8JG3C5cr-3lg7F0Yw_ovDEo,54
+dataxi-0.0.7.dist-info/top_level.txt,sha256=DddDeSJFFa7BqPzDfK5_AQKl9xn1QP75h9dUO90qVvE,7
+dataxi-0.0.7.dist-info/RECORD,,
