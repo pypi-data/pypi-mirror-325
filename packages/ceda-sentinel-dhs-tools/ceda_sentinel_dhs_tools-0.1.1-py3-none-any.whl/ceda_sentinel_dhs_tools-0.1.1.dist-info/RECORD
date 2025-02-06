@@ -1,0 +1,11 @@
+ceda_sentinel_dhs_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ceda_sentinel_dhs_tools/create_producer_consumer.py,sha256=el6AOIckG7RFiAPZZaReZEyzmZuGWvwsBdP1Q0ZCDFA,6730
+ceda_sentinel_dhs_tools/delete_producer_consumer.py,sha256=Bbh2Xr-B_54_vKceCzcfMRtK6CD9ErcUhcueO62zSdo,3052
+ceda_sentinel_dhs_tools/list_producer_consumers.py,sha256=9ssOagTgSIZytR_i6314ccabO4bsWhom8z026mruJas,16485
+ceda_sentinel_dhs_tools/templates/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ceda_sentinel_dhs_tools/templates/colhub2_gss_consumer.json,sha256=ZQrUUC7gT2Gd8A4Kb3rK3pO3Lhf8ZXYAVRVJFN9XFVs,1885
+ceda_sentinel_dhs_tools/templates/colhub2_gss_producer.json,sha256=3R1ORAcuqhOj2m-BqmjYk0s7re5QczTWkePL6VtbUgI,970
+ceda_sentinel_dhs_tools-0.1.1.dist-info/METADATA,sha256=y7YodOjwRNXuLCR7WTHXRZgyzfHWEZ4zEKkp9hAlQ1I,5505
+ceda_sentinel_dhs_tools-0.1.1.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+ceda_sentinel_dhs_tools-0.1.1.dist-info/entry_points.txt,sha256=nUA0HbhlWtAQhFDmXPhm_VRDlm2p-_sRUR7QCrRXP28,254
+ceda_sentinel_dhs_tools-0.1.1.dist-info/RECORD,,

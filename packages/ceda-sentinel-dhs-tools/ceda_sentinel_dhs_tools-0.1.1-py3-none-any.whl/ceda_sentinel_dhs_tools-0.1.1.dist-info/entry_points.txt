@@ -1,0 +1,5 @@
+[console_scripts]
+create_producer_consumer=ceda_sentinel_dhs_tools.create_producer_consumer:main
+delete_producer_consumer=ceda_sentinel_dhs_tools.delete_producer_consumer:main
+list_producer_consumers=ceda_sentinel_dhs_tools.list_producer_consumers:main
+

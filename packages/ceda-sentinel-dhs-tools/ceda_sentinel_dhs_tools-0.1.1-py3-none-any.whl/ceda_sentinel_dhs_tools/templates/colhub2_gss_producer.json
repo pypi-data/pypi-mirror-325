@@ -1,0 +1,33 @@
+{
+    "name": "{{ base_name }}-producer",
+    "hosts": "kafka-1:9092",
+    "topic": "test_ingest",
+    "pushInterval": 10,
+    "filter": ".*",
+    "processError": {
+        "active": true,
+        "retries": 0
+    },
+    "reprocess": false,
+    "dataSource": "unknown",
+    "source": {
+        "sourceType": "fr.gael.gss.ingest.ingester.ProducerOdataConf",
+        "serviceRootUrl": "{{ serviceRootUrl }}",
+        "auth": {
+            "user": "{{ user }}",
+            "password": "{{ password }}",
+            "clientId": "{{ clientID }}",
+            "tokenEndpoint": "{{ tokenEndPoint }}",
+            "type": "{{ authenticationType }}"
+        },
+        "top": 10,
+        "lastPublicationDate": "{{ lastPublicationDate }}",
+        "filter": {{ filter }},
+        "type": "{{ sourceType  }}",
+        "assumedFormat": ".zip",
+        "fetchAttributes": false,
+        "fetchQuicklook": true,
+        "useDateFromDb": false,
+        "geoPostFilter": null
+    }
+}
