@@ -1,0 +1,75 @@
+Metadata-Version: 2.4
+Name: raw_wrapper
+Version: 1.0.0
+Summary: Wrap raw binary to class
+Project-URL: Homepage, https://gitlab.com/trgosk/raw-wrapper
+Project-URL: Issues, https://gitlab.com/trgosk/raw-wrapper/-/issues
+Project-URL: Source, https://gitlab.com/trgosk/raw-wrapper
+Author-email: "trgo.sk" <trgo.sk@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: <3.12,>=3.8
+Requires-Dist: simple-classproperty
+Provides-Extra: tests
+Requires-Dist: pytest-cov~=4.1; extra == 'tests'
+Requires-Dist: pytest~=7.1.2; extra == 'tests'
+Description-Content-Type: text/markdown
+
+# raw-wrapper
+
+A library for simple wrapping raw bytes to a class ✌️
+
+## Install
+
+```bash
+pip install raw-wrapper
+```
+
+## Use
+```python
+from dataclasses import dataclass
+from raw_wrapper import RawWrapper
+
+
+@dataclass
+class SampleClass(RawWrapper):
+    """Sample class"""
+    sample_4b_int: int = 0
+    sample_string: str = b''.ljust(12)
+
+    @staticmethod
+    def get_format():
+        return '>i12s'
+
+    @staticmethod
+    def expected_size():
+        return 16
+
+
+data = b'\x00\x00\x00\x01Hello world!'
+
+sample_class = SampleClass.wrap(data)
+
+assert sample_class.sample_4b_int == 1
+assert sample_class.sample_string == b'Hello world!'
+```
+
+## Dev
+
+More about format see https://docs.python.org/3/library/struct.html#format-characters
+
