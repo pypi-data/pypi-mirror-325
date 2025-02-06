@@ -1,0 +1,10 @@
+tigol/__init__.py,sha256=ncOMcNp6DnoNcPI6STF8bTuxUSeFQXPF70QCjbRDm3s,220
+tigol/auth.py,sha256=IV5y-cnvEzY6fKeqM81OEmUkFGVAeni214B7Crzoqcw,579
+tigol/client.py,sha256=rBzsHuUIsL9pNTX-fGtq8gXgrMYY_dGM8hvszLUlPNI,10088
+tigol/decorators.py,sha256=6UttIj-zQFxgHtgM0IgJTbKqdwqYUnT3AeWEw7N9CY0,934
+tigol/models.py,sha256=SyUswd2XEgBNdoc0FLbfNsEozM8_8Jj2AUp1nFEHn08,1387
+tigol/session.py,sha256=5vsppNDfBTwZ5wvvk0MqsCKS9v3HTSNyoocTxdKAlRM,907
+tigol-0.0.3.dist-info/METADATA,sha256=6eZdJp7pNf9ICgpiof15Xb8XgU1OvEyBlaMezYGRXf8,41970
+tigol-0.0.3.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+tigol-0.0.3.dist-info/licenses/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+tigol-0.0.3.dist-info/RECORD,,
