@@ -1,0 +1,2 @@
+[console_scripts]
+gamesentenceminer = src.gsm:main
