@@ -1,0 +1,9 @@
+models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+models/fixture.py,sha256=35wCYWnHLqALtuVrqkxCqd8siSZvoSwRHYuW-GTtj_I,984
+models/league.py,sha256=4PwhWIGXxe8ydv2DXtatShN_WyuOVLDnd-cwuCjUMK0,405
+models/player.py,sha256=xoZ4PTM1jcc8STwCdJQoF_xVEXbchMyOnrv0NLJolHA,497
+models/team.py,sha256=OywFREuoyzGwPBz1OCRDJW94NxfWG4VDPSEuzldyy7M,893
+calcioquery_common-0.1.1.dist-info/METADATA,sha256=tJuZqc9fp28tr4WpC2F-o-rGB8yjg_LQqMtRyr-m6FY,193
+calcioquery_common-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+calcioquery_common-0.1.1.dist-info/top_level.txt,sha256=vH5ByFtkqB2bXlXOuK5zaaM_1GFEE9six0KgGIdPaU0,7
+calcioquery_common-0.1.1.dist-info/RECORD,,
