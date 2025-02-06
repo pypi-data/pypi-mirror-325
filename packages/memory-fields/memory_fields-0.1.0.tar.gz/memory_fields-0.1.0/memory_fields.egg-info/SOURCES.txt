@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+memory_fields.egg-info/PKG-INFO
+memory_fields.egg-info/SOURCES.txt
+memory_fields.egg-info/dependency_links.txt
+memory_fields.egg-info/requires.txt
+memory_fields.egg-info/top_level.txt
