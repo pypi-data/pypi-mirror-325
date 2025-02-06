@@ -1,0 +1,6 @@
+moshi>=0.1.0
+
+[dev]
+pyright
+flake8
+pre-commit

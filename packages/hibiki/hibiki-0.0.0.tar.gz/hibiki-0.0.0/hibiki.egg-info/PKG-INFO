@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: hibiki
+Version: 0.0.0
+Summary: Hibiki is Hibiki
+Author-email: Laurent Mazaré <laurent@kyutai.org>
+Maintainer-email: Laurent Mazaré <laurent@kyutai.org>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE-APACHE
+License-File: LICENSE-MIT
+Requires-Dist: moshi>=0.1.0
+Provides-Extra: dev
+Requires-Dist: pyright; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+
+# hibiki
