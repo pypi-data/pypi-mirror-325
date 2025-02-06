@@ -1,0 +1,8 @@
+pystm32ai/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+pystm32ai/stm32ai.py,sha256=Bw7GwozKhswM2pmzVeH-dcHbCXfD59FtGseRyAQ88uM,9568
+tests/tests.py,sha256=RkznRvn9NVDgdAlhdvOVw2ypcT6w9DWMpwwRsVZ9iow,738
+pystm32ai-1.0.0.dist-info/METADATA,sha256=xJHfs8Y1WLg0mpi_u9OEYBKNs8J7oGCc-py64g2lFYo,5058
+pystm32ai-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pystm32ai-1.0.0.dist-info/entry_points.txt,sha256=06bX9uiELTkSp1TDfKFLRQ7q6T3w_-t1D0mmsqjNXoY,52
+pystm32ai-1.0.0.dist-info/top_level.txt,sha256=4wUqc_WqJEhNmz3CVlmnOAp8QN8ZF8VjSuvi1TXmaHA,16
+pystm32ai-1.0.0.dist-info/RECORD,,
