@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: yahel
+Version: 0.1.2
+Summary: Biblioteca para visualização de gráficos
+Author: Luiz441
+Author-email: luizzayin7@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: matplotlib (>=3.8.0,<4.0.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pytest (>=7.4.4,<8.0.0)

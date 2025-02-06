@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "yahel"
+version = "0.1.2"
+description = "Biblioteca para visualização de gráficos"
+authors = ["Luiz441 <luizzayin7@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.4"
+matplotlib = "^3.8.0"
+pytest = "^7.4.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=7.4.0,<8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
