@@ -1,0 +1,11 @@
+versatile_globber/__init__.py,sha256=TqfDfBpIfB_bs9-tpAbJLmAVVG_uVcS367B8v52BiNo,80
+versatile_globber/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+versatile_globber/src/versatile_globber.py,sha256=R9AturWyKQlE1oRaEJe1QnxNK_ppQB1bN9B_tyJRk3Q,1702
+versatile_globber/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+versatile_globber/test/test_utils.py,sha256=LyQMzei2ec-vf_Zs9dig_t1nwwGFnmhQnBW4c_xT90o,608
+versatile_globber/test/versatile_globber.py,sha256=s4uQJ7Ro8fteLGGywDG9laAToK4bfHEevyLeyXqcH94,1011
+versatile_globber-0.0.1.dist-info/LICENSE.txt,sha256=xMujG6TVG4uQmxExfhCuOXJ2AFqgCnu4iOcvnoRynBA,1086
+versatile_globber-0.0.1.dist-info/METADATA,sha256=DjkM_t0T2E58sXo-c_PJ7qJQULj4PIojPlHAB5K6Vvo,1993
+versatile_globber-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+versatile_globber-0.0.1.dist-info/top_level.txt,sha256=8Aq849wqfbVKIsRZii-C1-F15iozFlDEBAtFnApROkI,18
+versatile_globber-0.0.1.dist-info/RECORD,,
