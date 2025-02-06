@@ -1,0 +1,26 @@
+[project]
+name = "mcp-perplexity"
+version = "0.1.2"
+description = "MCP Server for the Perplexity API."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [ 
+    "mcp>=1.0.0",
+    "httpx",
+    "haikunator>=2.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/daniel-lxs/mcp-perplexity"
+Repository = "https://github.com/daniel-lxs/mcp-perplexity"
+
+[[project.authors]]
+name = "Daniel Riccio"
+email = "ricciodaniel98@gmail.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+mcp-perplexity = "mcp_perplexity:main"
