@@ -1,0 +1,2 @@
+[console_scripts]
+cddd-onnx = cddd_onnx.main:main

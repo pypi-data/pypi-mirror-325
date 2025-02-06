@@ -1,0 +1,9 @@
+cddd_onnx/__init__.py,sha256=7zaaJwHobfXhdunU13qjBpTe02k_Dx47qY29uPtqlsU,274
+cddd_onnx/main.py,sha256=OHp6VAj9DLIkmr2rzE5WngDV5eWBgErGyw1XrRkncMs,5209
+cddd_onnx/model_downloader.py,sha256=3i-ickAvLSB4VpPRo6M13PeqIWQFd_VeQCCIamoaddk,2777
+cddd_onnx/preprocessing.py,sha256=6FBrUucBL_WQ3T_oQO9CLlwcq1EYF9j3xpkYPvrk_sc,3668
+cddd_onnx/tokenizer.py,sha256=rrjRZImOtAIeNoQzmqxiCoZdVbgJsIQL5Pr-r0JS7cU,4022
+cddd_onnx-0.1.0.dist-info/METADATA,sha256=Bwmp30iT9Uew1mdU1ifq2Osk--4ewiO-DTSgOsbCE4Q,3295
+cddd_onnx-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+cddd_onnx-0.1.0.dist-info/entry_points.txt,sha256=ZsdHSIA3-WKtR0bUH2UrSTRVwtQaxtmidW2yzGFWwXA,50
+cddd_onnx-0.1.0.dist-info/RECORD,,
