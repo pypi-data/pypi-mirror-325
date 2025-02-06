@@ -1,0 +1,11 @@
+photobridge/__init__.py,sha256=EQ7ZUnfRJAaYzDdrbtDeXtH8kPvj8rRYLrFh_io88nM,247
+photobridge/apple_scripts.py,sha256=QQUTVQ4XJNDGjp4Y4xgeFY85w3ufkP6rgQEIJUnhJMg,1421
+photobridge/cli/__init__.py,sha256=e7Pr4UFGOSbvJ4K9Ze-M2ZDKJ8buWQ5K0zwTbkbTf2o,101
+photobridge/cli/cli.py,sha256=UhrzuIT4vLBlQQxoLVGGGtu3iaQ7hRakeY9xwSM_YMY,6118
+photobridge/core.py,sha256=6n5MagQm5J4kvJmbBW9pijVep9ZY-PeB-lFs_uKhIgo,6737
+photobridge/helpers.py,sha256=HXCEk2_mKHEA4H4YKe9At0MOf7cmcxggMrn5iMPHA2s,1425
+photobridge-0.1.1.dist-info/LICENSE,sha256=N0P3pKtRMvfb64jmgJdlerg3TnS0a2QC776AzPsbZIg,35128
+photobridge-0.1.1.dist-info/METADATA,sha256=Hz-zr90OZjBiu0YTOLs2j585p7P_V1I1dxE3jHZXzVA,9342
+photobridge-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+photobridge-0.1.1.dist-info/entry_points.txt,sha256=hMh_blFL0IVrvpD-Ai8EQUA7vPP45qzFASurZ8x3I9k,56
+photobridge-0.1.1.dist-info/RECORD,,
