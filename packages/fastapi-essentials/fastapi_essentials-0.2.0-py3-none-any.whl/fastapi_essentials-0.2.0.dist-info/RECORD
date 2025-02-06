@@ -1,0 +1,9 @@
+fastapi_essentials/__init__.py,sha256=YFRYbF_lS8EkAp0SBt7etjIPves687kBc2Ww15m1a08,55
+fastapi_essentials/error_handlers.py,sha256=xvXI7CHlpzynclY81PvvLcWstcUIdRovIEWj8kInfKE,1235
+fastapi_essentials/logging.py,sha256=iPAAORqhIHBqGKY8oVewQfASY7eug5vWVMDmqjltDck,1694
+fastapi_essentials/main.py,sha256=b2r_wBSYMjALWmtu3pZsfoGJBtdLwCT1uz9IDPanYKQ,1325
+fastapi_essentials/middleware.py,sha256=nEib0veBF6B-2F0d-19AFeWkCJlF7qC1dvbceZtgpf8,1876
+fastapi_essentials/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_essentials-0.2.0.dist-info/METADATA,sha256=B1oYbprbusHk8cZX-5IJ_8TY1ujArDlXLzfCKYqHWnI,286
+fastapi_essentials-0.2.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+fastapi_essentials-0.2.0.dist-info/RECORD,,
