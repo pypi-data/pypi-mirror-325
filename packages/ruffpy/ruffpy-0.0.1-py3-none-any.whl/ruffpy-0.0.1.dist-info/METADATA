@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ruffpy
+Version: 0.0.1
+Summary: A ruff clone in python
+Author-Email: Mathieu Dupuy <deronnax@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+A ruff clone in Python
