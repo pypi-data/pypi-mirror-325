@@ -1,0 +1,9 @@
+meteoalarm/__init__.py,sha256=mtGp_LiMXrr8WqcT64GCCpjGVkPQ6paCirAwONQXco0,41
+meteoalarm/meteoalarm.py,sha256=hG1GtGSlYAX75cJu1nGYeqmF5XRjRq8eGrNLCG86498,11753
+meteoalarm/assets/MeteoAlarm_urls.yaml,sha256=1pgLnfQpXdc9ByA3_571QhEUZ_utHqu5eDZzFagohSg,2934
+meteoalarm/assets/geocodes.json,sha256=3yvxpajcfqNxmXWz2poeoHelk48bCLeJ3LNEh6xEMns,31533771
+meteoalarm-0.1.1.dist-info/LICENSE,sha256=JSUxtMhtvD_UUYeItqFyn3DovaFRbestAhdj--l7IUQ,1179
+meteoalarm-0.1.1.dist-info/METADATA,sha256=xGkSV5UDK2XiwXoqiMXUvSblELbq7W9_jcGMS7YRHP4,4862
+meteoalarm-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+meteoalarm-0.1.1.dist-info/top_level.txt,sha256=w-gHR42OaVFAIkTta0xTWbAY92pR50vVse8iBVJvEpc,11
+meteoalarm-0.1.1.dist-info/RECORD,,
