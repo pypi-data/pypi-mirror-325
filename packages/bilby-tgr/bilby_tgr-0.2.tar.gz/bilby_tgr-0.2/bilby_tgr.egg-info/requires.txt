@@ -1,0 +1,8 @@
+bilby
+lalsuite>=7.20
+numpy>=1.17
+scipy==1.14.0
+
+[automation]
+cbcflow>=0.2.2
+asimov>=0.5.0b11
