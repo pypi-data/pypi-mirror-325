@@ -1,0 +1,16 @@
+gg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gg/branch.py,sha256=LanbMAMYaVgTAlokMP9mXkvR0RxMAdForaeF_CLTsTg,4112
+gg/commit.py,sha256=fVMkfxB5AhgT3uhkiBtHR0itJBq_t56TB2HJ7HE9dIo,94
+gg/confirm.py,sha256=WV5T108ujRDZ5CCcxuMlYc949Z4fgsQHkyetNsdbNZE,350
+gg/exception.py,sha256=rnTu1kfQaCw7a3VZtPo7hAk1Y2t6JbgomvoZOdUxhw0,38
+gg/log.py,sha256=O3sA5xdEcCbecrO0e1O0QiOTY_-uuJTERq0LptAqwJ0,759
+gg/ls.py,sha256=GVU1X9LVAMHvekwKgSIheFf5mFHY_RsVRlXYSOykH3M,6037
+gg/main.py,sha256=hVJNombw7X81H72SYT_IIaQXNWpH3Kehjzb5LYjWBWw,4594
+gg/repo.py,sha256=pmp7Nle-FTyu2kx9ROEXXarS3NMD8t2xcZst99HwkGs,1350
+gg/restack.py,sha256=-4nBREMYXxg92AZO73XWjo6_jCwLrg8KyYIA6rXExB4,292
+gg/tree.py,sha256=pylTCTr6iDwgYJBaFHEAx3N7Vwc9tB621c7EhYuDoWI,126
+git_squared-0.1a1.dist-info/METADATA,sha256=I9LqAe1apebH00mBLZPA47BpmxDE45MbT74c5n7lw4c,2319
+git_squared-0.1a1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+git_squared-0.1a1.dist-info/entry_points.txt,sha256=Pcw5YZxpJwGovMa161rpieEzSMJeZWKfxZqZ4ZdDBQU,36
+git_squared-0.1a1.dist-info/top_level.txt,sha256=SWCvvfISgO8kgIHm5SMXc1u7kpogQ1EpG3c8JSr-6_Q,3
+git_squared-0.1a1.dist-info/RECORD,,
