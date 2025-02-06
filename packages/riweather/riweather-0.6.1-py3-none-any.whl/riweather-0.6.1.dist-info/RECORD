@@ -1,0 +1,17 @@
+riweather/__about__.py,sha256=baAcEjLSYFIeNZF51tOMmA_zAMhN8HvKael-UU-Ruec,22
+riweather/__init__.py,sha256=mzMMfkzMomlWCdZjcBvqdo2FQMhIn9JQki-R8MwPW-Y,867
+riweather/cli.py,sha256=7e92ccoZta1ls_kcJEipO6-YTZ1PoTwBfkJdMG8tPec,3688
+riweather/connection.py,sha256=jX1_xGAGnZ_NTxct0PdAWSoG--jVTbdYc5geTcylgSY,4224
+riweather/parser.py,sha256=NvzdzH_ZRREg7LBF7M6nZB6Ecut09huDw1OhhAffpnA,12263
+riweather/stations.py,sha256=vE1t-6tH1EUuSa6aoPX6aWwU3MS2IW2P_zeQ6UWSp9I,23280
+riweather/utils.py,sha256=qaGZa5b9Pqn1ClQ1RV3vErEJ2jbcvrkfjLfIcS5WDY0,836
+riweather/viz.py,sha256=TJ0vrXolA_d5wSTV6wt-JFtcLZNHumrO3Fr0Vs0kHLA,3037
+riweather/db/__init__.py,sha256=xln3xdt6VWe5af5CAr_BD60b8CYiQO896_m8FpcQHcg,89
+riweather/db/actions.py,sha256=SA8S6wlMpQI6mufTOHgZhqjhzZEI7pKG1BNdKLcirEU,14513
+riweather/db/models.py,sha256=JPOeyaUUrEeEovPCG6dMSQXA4EYA6ln9CaY7VJWqmiM,1827
+riweather/resources/metadata.db,sha256=DPxNAaeauXjUZo2WRbdBFqPTqJifiBQQUKeV2rnUIYU,4706304
+riweather-0.6.1.dist-info/METADATA,sha256=Evm9VdfKouJSDuuEp1i7hNzBTur5NxNlrMzE87RZulA,2084
+riweather-0.6.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+riweather-0.6.1.dist-info/entry_points.txt,sha256=4dHDLaBq7uLjf8f6FagM4F5wgoMt0YMLBDwI9uzKvzM,49
+riweather-0.6.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+riweather-0.6.1.dist-info/RECORD,,
