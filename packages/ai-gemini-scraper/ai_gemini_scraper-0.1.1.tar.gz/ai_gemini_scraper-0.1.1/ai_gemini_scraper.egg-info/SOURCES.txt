@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ai_gemini_scraper/__Init__.py
+ai_gemini_scraper/scraper.py
+ai_gemini_scraper.egg-info/PKG-INFO
+ai_gemini_scraper.egg-info/SOURCES.txt
+ai_gemini_scraper.egg-info/dependency_links.txt
+ai_gemini_scraper.egg-info/requires.txt
+ai_gemini_scraper.egg-info/top_level.txt
+tests/test_scraper.py
