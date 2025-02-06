@@ -1,0 +1,4 @@
+pyqir==0.10.6
+
+[test]
+pytest
