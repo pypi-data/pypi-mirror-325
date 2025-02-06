@@ -1,0 +1,21 @@
+[project]
+name = "mykad-generator"
+version = "0.1.3"
+description = "Random Mykads for testing purposes. Returns list of mykad"
+authors = [
+    {name = "msaleel",email = "mohammed.saleel0099@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+]
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
