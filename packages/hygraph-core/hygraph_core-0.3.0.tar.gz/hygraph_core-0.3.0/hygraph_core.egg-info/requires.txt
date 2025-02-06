@@ -1,0 +1,13 @@
+numpy
+pandas
+xarray
+scipy
+fastdtw
+networkx
+matplotlib
+scikit-learn
+igraph
+statsmodels
+abc
+ijson
+polars
