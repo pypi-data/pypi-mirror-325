@@ -1,0 +1,13 @@
+LICENSE.txt
+setup.py
+app/versatile_globber/__init__.py
+app/versatile_globber.egg-info/PKG-INFO
+app/versatile_globber.egg-info/SOURCES.txt
+app/versatile_globber.egg-info/dependency_links.txt
+app/versatile_globber.egg-info/requires.txt
+app/versatile_globber.egg-info/top_level.txt
+app/versatile_globber/src/__init__.py
+app/versatile_globber/src/versatile_globber.py
+app/versatile_globber/test/__init__.py
+app/versatile_globber/test/test_utils.py
+app/versatile_globber/test/versatile_globber.py

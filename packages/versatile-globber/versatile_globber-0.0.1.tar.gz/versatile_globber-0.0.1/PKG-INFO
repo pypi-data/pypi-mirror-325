@@ -1,0 +1,62 @@
+Metadata-Version: 2.2
+Name: versatile_globber
+Version: 0.0.1
+Summary: This versatile globber helps developers easily look for file that matches any extensions within many folders.
+Home-page: https://github.com/ticuong78/versatile_globber
+Author: Hùng Cường
+Author-email: cuongdayne17@gmail.com
+License: MIT
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Provides-Extra: dev
+Requires-Dist: twine>=6.0.0; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: provides-extra
+Dynamic: requires-python
+Dynamic: summary
+
+# Versatile Globber
+
+This globbing function helps developers easily searching for many files in many folders at the same time by using patterns list (extensions-containing list).
+
+## Contributing
+
+Thank you for considering contributing to this project! We welcome all contributions, whether it's fixing bugs, adding new features, or improving documentation.
+
+## How to Contribute
+
+1. **Fork the Repository** - Click the 'Fork' button at the top-right of the repository page.
+2. **Clone Your Fork** - Copy your fork to your local machine:
+
+   ```sh
+   git clone https://github.com/your-username/repository-name.git
+   cd repository-name
+3. **Create a New Branch** - - Use a descriptive branch name:
+
+    ```sh
+    git checkout -b feature/your-feature-name
+
+4. **Make Changes** - Implement your feature or fix the bug.
+
+5. **Commit Your Changes** - Write clear commit messages:
+
+    ```sh
+    git add .
+    git commit -m "Describe your changes here"
+
+6. **Push to GitHub** - Push your changes and open a pull request:
+
+    ``` sh
+    git push origin feature-or-fix-name
+
+7. **Create a Pull Request** - Go to your fork on GitHub and click 'New pull request'.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](..\LICENSE.txt) file for details.
