@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/pystm32ai/__init__.py
+src/pystm32ai/stm32ai.py
+src/pystm32ai.egg-info/PKG-INFO
+src/pystm32ai.egg-info/SOURCES.txt
+src/pystm32ai.egg-info/dependency_links.txt
+src/pystm32ai.egg-info/entry_points.txt
+src/pystm32ai.egg-info/requires.txt
+src/pystm32ai.egg-info/top_level.txt
+src/tests/tests.py
+tests/test_pystm32ai.py
