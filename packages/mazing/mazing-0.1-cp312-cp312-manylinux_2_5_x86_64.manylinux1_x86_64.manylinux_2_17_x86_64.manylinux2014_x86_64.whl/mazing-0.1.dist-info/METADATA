@@ -1,0 +1,55 @@
+Metadata-Version: 2.2
+Name: mazing
+Version: 0.1
+Summary: Module to generate and interacte with mazes written in C for fast performance.
+Author-email: Maksym Khavil <mk.khavil@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Mazing
+
+Python module in C to generate labyrinthes blazingly fast.
+
+## USAGE
+
+### Build
+
+To build this application use make.
+```bash
+make
+```
+
+### CLI
+
+CLI tool is made for presentation purposes, so it does not provide complete interface. Nevertheless you can generate and print maze with following template.
+```bash
+./genlab [seed] [height] [width] [x-start] [y-start] [x-exit] [y-exit]
+```
+
+### Tests
+
+Run tests using pytest:
+
+```bash
+pytest
+```
+
+### Locally built Python module
+
+Makefile will install python module into python venv, if none was found it will try to install it system-wide. In this case, to test your python build you will need to include compiled module into your PYTHONPATH environment variable.
+
+```bash
+export PYTHONPATH="${PWD}/build/lib.<os>-<arch>-cpython-<python_version>:${PYTHONPATH}"
+```
+
+## Dependencies
+
+Build:
+
+* clang
+* Makefile
+* python >= 3.10
+    - build
+    - setuptools
