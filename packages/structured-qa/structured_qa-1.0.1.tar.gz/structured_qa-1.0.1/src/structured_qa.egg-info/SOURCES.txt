@@ -1,0 +1,121 @@
+.gitignore
+.pre-commit-config.yaml
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+Dockerfile
+LICENSE
+README.md
+mkdocs.yml
+pyproject.toml
+.github/.devcontainer.json
+.github/pull_request_template.md
+.github/setup.sh
+.github/ISSUE_TEMPLATE/bug_report.yaml
+.github/ISSUE_TEMPLATE/feature_request.yaml
+.github/workflows/docs.yaml
+.github/workflows/lint.yaml
+.github/workflows/package.yaml
+.github/workflows/release.yaml
+.github/workflows/sync_hf_space.yaml
+.github/workflows/tests.yaml
+benchmark/gemini_RAGatouille.ipynb
+benchmark/gemini_find_retrieve_answer.ipynb
+benchmark/gemini_full_context.ipynb
+benchmark/gemini_perfect_context.ipynb
+benchmark/qwen_2_5_7B_RAGatouille.ipynb
+benchmark/qwen_2_5_7B_find_retrieve_answer.ipynb
+benchmark/qwen_2_5_7B_full_context.ipynb
+benchmark/qwen_2_5_7B_perfect_context.ipynb
+benchmark/structured_qa.csv
+benchmark/perfect_context/1 INTRODUCTION.txt
+benchmark/perfect_context/1.2.1. Internal partitions and doors.txt
+benchmark/perfect_context/15.3. API Fundamentals.txt
+benchmark/perfect_context/2.1 Pre-training Data.txt
+benchmark/perfect_context/2.1. Toilets.txt
+benchmark/perfect_context/2.3 Optimizer.txt
+benchmark/perfect_context/2.4 Recurrent Networks.txt
+benchmark/perfect_context/23.1. What is Lazy Loading?.txt
+benchmark/perfect_context/3 Arithmetic Reasoning.txt
+benchmark/perfect_context/3 Experimental Results.txt
+benchmark/perfect_context/3 Main results.txt
+benchmark/perfect_context/3 Model Architecture.txt
+benchmark/perfect_context/3.1 Encoder and Decoder Stacks.txt
+benchmark/perfect_context/3.1 Experimental Setup.txt
+benchmark/perfect_context/3.2 Results.txt
+benchmark/perfect_context/3.2.2 Multi-Head Attention.txt
+benchmark/perfect_context/3.4 Embeddings and Softmax.txt
+benchmark/perfect_context/3.4 Robustness of Chain of Thought.txt
+benchmark/perfect_context/3.5 Positional Encoding.txt
+benchmark/perfect_context/4 OUR METHOD.txt
+benchmark/perfect_context/4.1. Natural lighting.txt
+benchmark/perfect_context/5 Bias, Toxicity and Misinformation.txt
+benchmark/perfect_context/5 Symbolic Reasoning.txt
+benchmark/perfect_context/5.2 CrowS-Pairs.txt
+benchmark/perfect_context/5.2 Hardware and Schedule.txt
+benchmark/perfect_context/5.2. Thread Hierarchy.txt
+benchmark/perfect_context/5.3 Optimizer.txt
+benchmark/perfect_context/5.4 Regularization.txt
+benchmark/perfect_context/6.1.1. Compilation Workflow.txt
+benchmark/perfect_context/ACTION PHASE.txt
+benchmark/perfect_context/Accountability and responsibility.txt
+benchmark/perfect_context/CARBON MONOXIDE DETECTION AND VENTING.txt
+benchmark/perfect_context/CARD AND TILE COSTS.txt
+benchmark/perfect_context/CARD AND TILE EFFECTS.txt
+benchmark/perfect_context/CHAPTER 5: WHERE DO YOU WANT TO MAKE YOUR WORK AVAILABLE?.txt
+benchmark/perfect_context/CHAPTER OVERVIEW.txt
+benchmark/perfect_context/CLEANUP PHASE.txt
+benchmark/perfect_context/CONQUERING MIDDLE-EARTH.txt
+benchmark/perfect_context/END OF THE GAME.txt
+benchmark/perfect_context/EXPEDITION PHASE.txt
+benchmark/perfect_context/Europe.txt
+benchmark/perfect_context/GAME END.txt
+benchmark/perfect_context/HOW DO YOU CHOOSE AN OPEN ACCESS PUBLISHER?.txt
+benchmark/perfect_context/LLM Tokenization Introduces Unfairness.txt
+benchmark/perfect_context/LOCATION ABILITIES.txt
+benchmark/perfect_context/LOOKOUT PHASE.txt
+benchmark/perfect_context/LORA ABSTRACT.txt
+benchmark/perfect_context/Limitations of generative AI and LLMs.txt
+benchmark/perfect_context/OVERCOMING RESERVATIONS ABOUT OPEN ACCESS.txt
+benchmark/perfect_context/OVERVIEW AND GOAL.txt
+benchmark/perfect_context/Procurement in an emerging market.txt
+benchmark/perfect_context/Prohibited AI Practices.txt
+benchmark/perfect_context/RAID.txt
+benchmark/perfect_context/Risk Perception.txt
+benchmark/perfect_context/SECTION I. INTRODUCTION.txt
+benchmark/perfect_context/Training Cost.txt
+benchmark/perfect_context/U.S. Regulation.txt
+benchmark/perfect_context/WHY ARE OPEN ACCESS POLICIES ADOPTED?.txt
+demo/Dockerfile
+demo/README.md
+demo/app.py
+demo/notebook.ipynb
+demo/reboot_space.py
+docs/api.md
+docs/cli.md
+docs/customization.md
+docs/future-features-contributions.md
+docs/getting-started.md
+docs/index.md
+docs/step-by-step-guide.md
+docs/assets/custom.css
+docs/images/Blueprints-logo.png
+docs/images/structured-qa-diagram.png
+example_data/1706.03762v7.pdf
+example_data/config.yaml
+images/Blueprints-logo.png
+images/structured-qa-diagram.png
+src/structured_qa/__init__.py
+src/structured_qa/cli.py
+src/structured_qa/config.py
+src/structured_qa/model_loaders.py
+src/structured_qa/preprocessing.py
+src/structured_qa/workflow.py
+src/structured_qa.egg-info/PKG-INFO
+src/structured_qa.egg-info/SOURCES.txt
+src/structured_qa.egg-info/dependency_links.txt
+src/structured_qa.egg-info/entry_points.txt
+src/structured_qa.egg-info/requires.txt
+src/structured_qa.egg-info/top_level.txt
+tests/conftest.py
+tests/unit/test_preprocessing.py
+tests/unit/test_workflow.py
