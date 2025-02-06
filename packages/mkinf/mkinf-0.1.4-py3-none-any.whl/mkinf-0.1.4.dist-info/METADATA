@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: mkinf
+Version: 0.1.4
+Summary: mkinf python SDK
+Author-email: mkinf <info@mkinf.io>
+Requires-Python: >=3.9
+Requires-Dist: langchain-core<0.4,>=0.3.31
+Requires-Dist: pydantic<3,>=2.10.5
+Requires-Dist: python-dotenv<2,>=1.0.1
+Requires-Dist: requests<3,>=2.32.3
+Requires-Dist: toml>=0.10.2
+Description-Content-Type: text/markdown
+
+# mkinf python SDK
+
+mkinf python SDK
+
+## Installation
+```bash
+pip install mkinf
+```
