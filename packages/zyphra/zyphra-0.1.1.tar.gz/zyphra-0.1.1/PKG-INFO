@@ -1,0 +1,195 @@
+Metadata-Version: 2.2
+Name: zyphra
+Version: 0.1.1
+Summary: Python client for Zyphra APIs
+Author-email: Ian Sears <ian@zyphra.com>
+Project-URL: Homepage, https://www.zyphra.com/
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp>=3.8.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: requests>=2.25.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.21.0; extra == "dev"
+Requires-Dist: black>=23.0; extra == "dev"
+Requires-Dist: mypy>=1.0; extra == "dev"
+Requires-Dist: aioresponses>=0.8.0; extra == "dev"
+
+# Zyphra Python Client
+
+A Python client library for interacting with Zyphra's text-to-speech API.
+
+## Installation
+
+```bash
+pip install zyphra
+```
+
+## Quick Start
+
+```python
+from zyphra import ZyphraClient
+
+# Initialize the client
+client = ZyphraClient(api_key="your-api-key")
+
+# Generate speech and save to file
+output_path = client.audio.speech.create(
+    text="Hello, world!",
+    speaking_rate=15,
+    output_path="output.webm"
+)
+
+# Or get audio data as bytes
+audio_data = client.audio.speech.create(
+    text="Hello, world!",
+    speaking_rate=15
+)
+```
+
+## Features
+
+- Text-to-speech generation with customizable parameters
+- Support for multiple languages and audio formats
+- Voice cloning capabilities
+- Both synchronous and asynchronous operations
+- Streaming support for audio responses
+- Built-in type hints and validation
+
+## Requirements
+
+- Python 3.8+
+- `aiohttp` for async operations
+- `pydantic` for data validation
+- `requests` for synchronous operations
+
+## Detailed Usage
+
+### Synchronous Client
+
+```python
+from zyphra import ZyphraClient
+
+with ZyphraClient(api_key="your-api-key") as client:
+    # Save directly to file
+    output_path = client.audio.speech.create(
+        text="Hello, world!",
+        speaking_rate=15,
+        output_path="output.webm"
+    )
+    
+    # Get audio data as bytes
+    audio_data = client.audio.speech.create(
+        text="Hello, world!",
+        speaking_rate=15
+    )
+```
+
+### Asynchronous Client
+
+```python
+from zyphra import AsyncZyphraClient
+
+async with AsyncZyphraClient(api_key="your-api-key") as client:
+    audio_data = await client.audio.speech.create(
+        text="Hello, world!",
+        speaking_rate=15
+    )
+```
+
+### Advanced Options
+
+The text-to-speech API supports various parameters to control the output:
+
+```python
+class TTSParams:
+    text: str                        # The text to convert to speech
+    speaker_audio: Optional[str]     # Base64 audio for voice cloning
+    seconds: Optional[float]         # Duration in seconds (1-30)
+    seed: Optional[int]             # Random seed (-1 to 2147483647)
+    speaking_rate: Optional[float]   # Speaking rate (5-35)
+    language_iso_code: Optional[str] # Language code (e.g., "en-us", "fr-fr")
+    mime_type: Optional[str]        # Output audio format (e.g., "audio/webm")
+```
+
+### Supported Languages
+
+The text-to-speech API supports the following languages:
+- English (US) - `en-us`
+- French - `fr-fr`
+- German - `de`
+- Japanese - `ja`
+- Korean - `ko`
+- Mandarin Chinese - `cmn`
+
+### Supported Audio Formats
+
+The API supports multiple output formats through the `mime_type` parameter:
+- WebM (default) - `audio/webm`
+- Ogg - `audio/ogg`
+- WAV - `audio/wav`
+- MP3 - `audio/mp3` or `audio/mpeg`
+- MP4/AAC - `audio/mp4` or `audio/aac`
+
+### Language and Format Examples
+
+```python
+# Generate French speech in MP3 format
+audio_data = client.audio.speech.create(
+    text="Bonjour le monde!",
+    language_iso_code="fr-fr",
+    mime_type="audio/mp3",
+    speaking_rate=15
+)
+
+# Generate Japanese speech in WAV format
+audio_data = client.audio.speech.create(
+    text="こんにちは世界！",
+    language_iso_code="ja",
+    mime_type="audio/wav",
+    speaking_rate=15
+)
+```
+
+### Voice Cloning
+
+You can clone voices by providing a reference audio file:
+
+```python
+import base64
+
+# Read and encode audio file
+with open("reference_voice.wav", "rb") as f:
+    audio_base64 = base64.b64encode(f.read()).decode('utf-8')
+
+# Generate speech with cloned voice
+audio_data = client.audio.speech.create(
+    text="This will use the cloned voice",
+    speaker_audio=audio_base64,
+    speaking_rate=15
+)
+```
+
+### Error Handling
+
+```python
+from zyphra import ZyphraError
+
+try:
+    client.audio.speech.create(
+        text="Hello, world!",
+        speaking_rate=15
+    )
+except ZyphraError as e:
+    print(f"Error: {e.status_code} - {e.response_text}")
+```
+
+## Available Models
+
+### Speech Models
+- `Zonos-0.1`: Text-to-speech model with emotion control and voice cloning capabilities
+
+## License
+
+MIT License
