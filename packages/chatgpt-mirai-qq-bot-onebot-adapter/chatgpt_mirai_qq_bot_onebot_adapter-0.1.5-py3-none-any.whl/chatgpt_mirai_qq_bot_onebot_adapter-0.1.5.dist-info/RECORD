@@ -1,0 +1,15 @@
+onebot_adapter/__init__.py,sha256=KxRnNen9dXGxTnFm6l2SUSiFGmoQQmKclEYTOg2ziO0,1481
+onebot_adapter/adapter.py,sha256=mxfI2eHC08CLjLBxAE96eu7_4W72tEG2z1D-9ZEk4Kg,16818
+onebot_adapter/config.py,sha256=aqWe3PHr8MKMH4ic3LKQ0_oBVmAT4ue7S9f4Dya8n14,523
+onebot_adapter/events/__init__.py,sha256=0cedlDiK_8MlLtCx1nPTMl6n60g9itF0LtLpaWRXRvs,106
+onebot_adapter/events/operation_event.py,sha256=-KruGeyJxb6P6dGjoAXaSgziiakjtNUsZMxfbwwu9_Y,557
+onebot_adapter/handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onebot_adapter/handlers/message_result.py,sha256=iFsMTcm4Z31JpZ33q__eT5MexVbF0X1KQPW_3gPnk1s,614
+onebot_adapter/utils/__init__.py,sha256=rxtbwuzUNQdX4yowC0f-oP1aB98uagJdJ3Q3MXnGyAA,82
+onebot_adapter/utils/message.py,sha256=1M8fcVHt_hZGyjqkcEkCXvbUvi8LkzifFTxSHnlrqCA,1515
+chatgpt_mirai_qq_bot_onebot_adapter-0.1.5.dist-info/LICENSE,sha256=ILBn-G3jdarm2w8oOrLmXeJNU3czuJvVhDLBASWdhM8,34522
+chatgpt_mirai_qq_bot_onebot_adapter-0.1.5.dist-info/METADATA,sha256=m0Bx7iV-HPq2Ita_cGQpEDXVtcxxfmd96SWtI-7h2gU,3437
+chatgpt_mirai_qq_bot_onebot_adapter-0.1.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+chatgpt_mirai_qq_bot_onebot_adapter-0.1.5.dist-info/entry_points.txt,sha256=ZSlPM7jSgN0Jn0T64uPFlyzsLxCZkiBEi4XjS1zKf9Q,77
+chatgpt_mirai_qq_bot_onebot_adapter-0.1.5.dist-info/top_level.txt,sha256=QXgmPdP8mxPC2tmNEfecQK7SP9bX0UKUEwRQhRXXKow,15
+chatgpt_mirai_qq_bot_onebot_adapter-0.1.5.dist-info/RECORD,,
