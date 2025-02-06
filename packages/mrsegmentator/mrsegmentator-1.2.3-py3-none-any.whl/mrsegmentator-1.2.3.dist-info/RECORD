@@ -1,0 +1,13 @@
+mrsegmentator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mrsegmentator/config.py,sha256=xHNwJBCpvbghblPcfLWO0ua6qoF40-zwG-PhU5TZB2k,4214
+mrsegmentator/inference-fast_depr.py,sha256=HJEHJTw2TX7eGiP09qqy4PskWxQLWxCpo4FUc2EsxYI,4967
+mrsegmentator/inference.py,sha256=kK47HBVkOWhYBEhW5odJjCRtfpxB9_G28c8DFi_4_FE,5157
+mrsegmentator/main.py,sha256=YAnRZX6um2GfBPSwqpbv1TjESXvpDpTwIn86vcQPVJA,1663
+mrsegmentator/parser.py,sha256=09Xm9OBhOHv2Pi7ur9aqcYKgB-GtWJE54ImV7Ibr8oo,3763
+mrsegmentator/simpleitk_reader_writer.py,sha256=1RVha2Yiw3dxQTbGzWO3QRyuaxsts108uzERdq81qbQ,3423
+mrsegmentator/utils.py,sha256=2OaA8BsDF5zmQKYxkZsZXrmFOfGU03kKozx6ieoOiEw,2649
+mrsegmentator-1.2.3.dist-info/METADATA,sha256=EvAdspXIostA88hOb-eYEbx5aIEmbID6PyNkGfeHkFg,7558
+mrsegmentator-1.2.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mrsegmentator-1.2.3.dist-info/entry_points.txt,sha256=atvotVT40Lq4CB0O7k8Bd3ykvBA8vBZsKPs9WZRgz20,58
+mrsegmentator-1.2.3.dist-info/top_level.txt,sha256=c4jdPw4X6B0oPiRARVr2tOrmOZxsft7qOaFzCmMNNpk,14
+mrsegmentator-1.2.3.dist-info/RECORD,,
