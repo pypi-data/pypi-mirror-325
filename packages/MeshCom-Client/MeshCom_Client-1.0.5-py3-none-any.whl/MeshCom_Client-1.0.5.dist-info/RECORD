@@ -1,0 +1,15 @@
+MeshCom_Client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MeshCom_Client/__main__.py,sha256=YuasP6hRex2ac2BCaS0GdvNu7S-77SpLH1tuo_V5Aks,24138
+MeshCom_Client/locales/MeshCom-Client.pot,sha256=fuAxLgQIFE6Y8l2AiZhWJhudS1DUyuFbKaMYX57tepg,4427
+MeshCom_Client/locales/de/LC_MESSAGES/MeshCom-Client.mo,sha256=CNIY8g3TgfyrkgDj-BLC4ta5X9erl6J-6S87efRhumk,4741
+MeshCom_Client/locales/de/LC_MESSAGES/MeshCom-Client.po,sha256=MQJxneZDnKUJLiYQHH5EDM8t0UvmilfALHjvQ14ZN8o,6058
+MeshCom_Client/locales/en/LC_MESSAGES/MeshCom-Client.mo,sha256=RaYi9xoWDTpXQBoVTof3vzHyrFy-WGhc-YyBQ7zraiM,4395
+MeshCom_Client/locales/en/LC_MESSAGES/MeshCom-Client.po,sha256=4Q5Fgb8l7XAsxhhw9sQ9t7_EOl0w1QVNBTWwS-nBzxw,5706
+MeshCom_Client/sounds/alert.wav,sha256=gSH5IVwsVcpONiU3zriPb3p1g3jSPhOOnvio-Ff82OE,181804
+MeshCom_Client/sounds/klingel.wav,sha256=upzmZ9aPtMaVN7g0BH1S2N9r-RN7tTcZbQYwKSpWiSc,140252
+MeshCom_Client-1.0.5.dist-info/LICENSE,sha256=oKUchSxIrIkORJbKuHtjSkr86TX_NE9EgFkZBJouNF0,1068
+MeshCom_Client-1.0.5.dist-info/METADATA,sha256=su7SFzkYX03xRQn-ntL_Z7dtvM7ZuLqTwIAa9TUcMPQ,4692
+MeshCom_Client-1.0.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+MeshCom_Client-1.0.5.dist-info/entry_points.txt,sha256=PKmDkdA19C7t7QYZFtU18Catv_Uq3hyJEihy7FUBFV8,64
+MeshCom_Client-1.0.5.dist-info/top_level.txt,sha256=Q_v4cSo19IM_tRuAjwWjjxAq-ECmGX07NwTiilNLT6w,15
+MeshCom_Client-1.0.5.dist-info/RECORD,,
