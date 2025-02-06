@@ -1,0 +1,9 @@
+nibabel>=2.3.0
+matplotlib
+numpy
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[libsixel]
+libsixel-python

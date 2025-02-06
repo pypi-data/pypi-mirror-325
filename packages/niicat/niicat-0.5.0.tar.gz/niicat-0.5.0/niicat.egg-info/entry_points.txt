@@ -1,0 +1,2 @@
+[console_scripts]
+niicat = niicat.cli:main
