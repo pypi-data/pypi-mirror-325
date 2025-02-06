@@ -1,0 +1,13 @@
+structclasses/__init__.py,sha256=klgYuWefxQ3C3N1Qp2qufWg3e737eglZMYd5NxiWNsg,986
+structclasses/base.py,sha256=GBFW-690Pponok30c5Zx5r1nquOr9wl8DGnl-txSgRw,3572
+structclasses/decorator.py,sha256=Dcun3_6qLprcpoMFR0yslyB9CvbCifBHGOv20qeC2Lc,3577
+structclasses/field/__init__.py,sha256=DLVBobH4yFV8qrZAT6Hj0KPJYttOxirvvC8PPSMsMWs,124
+structclasses/field/array.py,sha256=3Ce9CGn5mugkD0n8ttBHpCCgJCq79zGawWKzR8fTJm8,4042
+structclasses/field/data.py,sha256=ZQeeEdtNFN0s_S2LodzxKptm5XSRt3lyLRTpPMNIDaY,1609
+structclasses/field/primitive.py,sha256=297HgQKI_oowwzpzB1SCQKd_ZCWb3EKpVHdsiscufP8,1934
+structclasses/field/record.py,sha256=arJH7jIZYaytLR6xa8Mqu8wZOBrWquUTm0FXAOWX8CI,1896
+structclasses/field/union.py,sha256=_k5cFE_zN2avWLnjFiM8XdRqMnT-oAD4DACmjtnNirQ,1724
+structclasses-0.4.dist-info/LICENSE,sha256=8IAxuS4OFzLF5pyOfXtLps-ajScu3kv8pXbTXIDj82Y,1072
+structclasses-0.4.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+structclasses-0.4.dist-info/METADATA,sha256=_afqpT0G2DomohwBO65OmTjQKQmeNLubCLeIfVHEXHM,2169
+structclasses-0.4.dist-info/RECORD,,
