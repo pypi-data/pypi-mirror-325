@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: here-log
+Version: 1.0.0
+Summary: A package to print the current position in code
+Home-page: https://github.com/MotoMatt5040/here
+Author: Matt Werner
+Author-email: motomatt5040@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Here
+
+This package prints the current position (file name, line number) in your code.
+You can use it as follows:
+
+```python
+import here
+
+# Print the position
+print(here)
+
+# Print the position without print statement
+here()
+
+# Print a custom message
+here("This is a custom message.")
+
+# Print a custom message with a variable
+variable = "test"
+here(f"This is a custom message with a variable: {variable}")
+```
