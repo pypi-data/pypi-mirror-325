@@ -1,0 +1,13 @@
+capablanca/__init__.py,sha256=sOvegeRcv98YE8RU-9cTs1woP8ztvktN2isWvvMN_yk,170
+capablanca/algorithm.py,sha256=yMFaEb4FvS5Vu6pJrVgJ4jcIRoZgT9k4EXzUvm2I2IA,5046
+capablanca/app.py,sha256=GcJod-tQaMO0nBwffleUpF_tZwQqauwfOtZotFlcJvQ,3432
+capablanca/applogger.py,sha256=fQBo51-TboX1DBqfSxX2P2eKJ5CcyiCq_IVlJTHjxAE,2624
+capablanca/parser.py,sha256=TftNmgVpOlXyzLKC_Ou8sCtGIguIXiRTfDOay6I-hI4,3818
+capablanca/test.py,sha256=jQxDUVFQCZwLW0yImEVla3z9YP7jaG8Cs7LIV-GrvYg,4944
+capablanca/utils.py,sha256=SQXM6aPfKnoBw5IL7HqcuTOkFzHyypdQzteYAI8rnSw,9426
+capablanca-3.0.dist-info/LICENSE,sha256=_z6026s79t6rGvGZ6927Mbrb4TlFNkjWiV6Set0igfs,1067
+capablanca-3.0.dist-info/METADATA,sha256=rdl0JPS0JT6h04bxbSjoT6NssGQzW6P7ZoFgfULgKWc,8382
+capablanca-3.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+capablanca-3.0.dist-info/entry_points.txt,sha256=rJ7CW45QlL1PVOFL2FoQME4eZXAP8uYAsdFt1OXLKAE,80
+capablanca-3.0.dist-info/top_level.txt,sha256=v5lu6lBO8hEDDHFp3vbHYS4i5oXyG1v2cJvdqcL9Twg,11
+capablanca-3.0.dist-info/RECORD,,
