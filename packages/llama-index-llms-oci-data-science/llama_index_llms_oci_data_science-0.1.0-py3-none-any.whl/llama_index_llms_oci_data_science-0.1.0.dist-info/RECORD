@@ -1,0 +1,7 @@
+llama_index/llms/oci_data_science/__init__.py,sha256=uXAefgv58pqWRr4k6QE1RAlUQND595eG0N4ELFt8iFI,97
+llama_index/llms/oci_data_science/base.py,sha256=ky-Du0Nrxr_rEdRKcRGzkFUVur8_vV2kspEvP_1VSZQ,33476
+llama_index/llms/oci_data_science/client.py,sha256=rEtXzWTWsZKZVOFgHnviYbeZxhjnfBljTZScmkedd8A,28802
+llama_index/llms/oci_data_science/utils.py,sha256=7P1cgsvAxpmfchtyC61yknRl6uoo226_ls5hXAi3Rpg,7639
+llama_index_llms_oci_data_science-0.1.0.dist-info/METADATA,sha256=WS7NKMDjJd8Wq7YCW7DwBd1PZuNl6_dJqx0nupi7yeM,11299
+llama_index_llms_oci_data_science-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_index_llms_oci_data_science-0.1.0.dist-info/RECORD,,
