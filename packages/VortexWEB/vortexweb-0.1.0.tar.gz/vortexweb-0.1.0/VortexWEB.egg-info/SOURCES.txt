@@ -1,0 +1,12 @@
+README.md
+setup.py
+VortexWEB.egg-info/PKG-INFO
+VortexWEB.egg-info/SOURCES.txt
+VortexWEB.egg-info/dependency_links.txt
+VortexWEB.egg-info/requires.txt
+VortexWEB.egg-info/top_level.txt
+core/ErrorsHandling.py
+core/__init__.py
+core/api.py
+core/data.py
+core/my_http_server.py
