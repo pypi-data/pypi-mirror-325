@@ -1,0 +1,11 @@
+docs/source/conf.py,sha256=d2j6Mig-QwPQXBw5Fy7_Xhmcfd179P89PvapiDPnZ74,797
+judobase/__init__.py,sha256=FVrmJXUaKNi6dY2m2T99he_qN5V-1aGMOecot2Tq4A0,213
+judobase/base.py,sha256=mFXpslJKDRb8IAPME9m2SwFzzi8TeV96quDjgwKHIps,3895
+judobase/judobase_api.py,sha256=fvH53szg2Nzqs5W-B_vkjeV_m1eoXEmWQjDtcaGHNO0,1903
+judobase/schemas.py,sha256=R4QqSpqzBhHwtClDIVobJfv_XeLGQeQUzfPk18l3EZU,23081
+judobase/version.py,sha256=0jeX3I4lEAFZtjs3hyYSko79cUjswNAq8UT1T_VlOvQ,23
+judobase-0.1.8.dist-info/LICENSE,sha256=Jvld_c8_kMKJ2NZj5pUBjHgfkkwgdsYH6JZjXjc5i8A,1069
+judobase-0.1.8.dist-info/METADATA,sha256=ohR85arb46XK8A9FqcVY7OxT2HNgrDe3qbZ8j2qKXRU,4524
+judobase-0.1.8.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+judobase-0.1.8.dist-info/top_level.txt,sha256=F9ltqVh3VnX_Qao7-_7k_9UQkGVhkztd4GaDycJjKDk,14
+judobase-0.1.8.dist-info/RECORD,,
