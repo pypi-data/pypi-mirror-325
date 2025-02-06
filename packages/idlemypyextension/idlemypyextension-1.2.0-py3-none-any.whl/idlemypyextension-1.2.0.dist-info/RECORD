@@ -1,0 +1,15 @@
+idlemypyextension/__init__.py,sha256=OvNseIVQzJ3ri5cnkdH-e-fBc1eOaObDEAgSAsLisT8,4413
+idlemypyextension/annotate.py,sha256=CnsmHNQow3o89cQaXRSVEm8-YdMKSB4R7ft7U0yL-t8,33396
+idlemypyextension/client.py,sha256=jDvYdgIu1n5oCoMHm5DOkqJ5f5f-Zs7oU6hRMRK1fnA,19464
+idlemypyextension/extension.py,sha256=F_vyq51Qqb0ZmSD4U5ga2K4sYuHxBoNUwStg5coqnQc,24894
+idlemypyextension/moduleguard.py,sha256=fOchC3H3Xnr2NoXcp2dJQFZYjTdR7Y-HnB3m_4wyhd8,5970
+idlemypyextension/mttkinter.py,sha256=dVGQEPkbAldnC_3KNwNU0as8TBpAR-ddrZiuNk2vsps,10565
+idlemypyextension/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idlemypyextension/tktrio.py,sha256=b3w0QaC_9_-s6vy6_Q9qHSNV0Br1IKx1a6EDmgVYkac,16869
+idlemypyextension/utils.py,sha256=5KcWinUfjmmvXpqfjFSwfpdR7CSjBIrrGKjeCqk4OUM,22967
+idlemypyextension-1.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+idlemypyextension-1.2.0.dist-info/METADATA,sha256=SQpN80Po216O5Wyma7Ab6GOI99RMRI549ol2aYlt6v8,47948
+idlemypyextension-1.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+idlemypyextension-1.2.0.dist-info/entry_points.txt,sha256=D4REzikM2egZQKVoyHD1km9XCsmaJUsEIGeyB5EnAYE,64
+idlemypyextension-1.2.0.dist-info/top_level.txt,sha256=qLZjypdz7FDRvpn-3B7dCQ2n0KtcTb-uFUBFdDfF620,18
+idlemypyextension-1.2.0.dist-info/RECORD,,
