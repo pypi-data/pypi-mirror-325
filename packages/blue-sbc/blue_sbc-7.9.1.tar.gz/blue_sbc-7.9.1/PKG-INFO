@@ -1,0 +1,46 @@
+Metadata-Version: 2.2
+Name: blue_sbc
+Version: 7.9.1
+Summary: 🌀 AI for single board computers.
+Home-page: https://github.com/kamangir/blue-sbc
+Author: Arash Abadpour (Kamangir)
+Author-email: arash@kamangir.net
+License: Public Domain
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Unix Shell
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: blueness
+Requires-Dist: blue-options
+Requires-Dist: blue-objects
+Requires-Dist: abcli
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+# 🌀 blue-sbc
+
+🌀 `@sbc` is an [`abcli`](https://github.com/kamangir/awesome-bash-cli) plugin for edge computing on [single board computers](https://github.com/kamangir/blue-bracket). 
+
+```bash
+pip install blue_sbc
+```
+
+|   |   |   |   |
+| --- | --- | --- | --- |
+| [![image](https://github.com/kamangir/blue-bracket/raw/main/images/blue3-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/.md) | [![image](https://github.com/kamangir/blue-bracket/raw/main/images/chenar-grove-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/.md) | [![image](https://github.com/kamangir/blue-bracket/raw/main/images/cube-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/.md) | [![image](https://github.com/kamangir/blue-bracket/raw/main/images/eye_nano-1.jpg)](https://github.com/kamangir/blue-bracket/blob/main/designs/.md) |
+
+---
+
+
+[![pylint](https://github.com/kamangir/blue-sbc/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/blue-sbc/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/blue-sbc/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/blue-sbc/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/blue-sbc/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/blue-sbc/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/blue-sbc.svg)](https://pypi.org/project/blue-sbc/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/blue-sbc)](https://pypistats.org/packages/blue-sbc)
+
+built by 🌀 [`blue_options-4.207.1`](https://github.com/kamangir/awesome-bash-cli), based on 🌀 [`blue_sbc-7.9.1`](https://github.com/kamangir/blue-sbc).
