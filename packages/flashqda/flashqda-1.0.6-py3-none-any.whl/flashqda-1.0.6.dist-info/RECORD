@@ -1,0 +1,16 @@
+flashqda/__init__.py,sha256=jXVmjdEdEvMeZBIPd-z2UIHvUPZmRcwslsnA9wyOtSU,215
+flashqda/analyze.py,sha256=CnMbvjirP_ujFuUCTrZZ2BmOdEgIAOvKRyDgLl0ILqw,24447
+flashqda/general.py,sha256=5g_LzLWihHTVhqq5oQnb4emM9QTlMqGL7tJBIeqNBts,2001
+flashqda/preprocess.py,sha256=jTQx6tMjM61fNunxqi6uH2_Rnb9zUedU3UXGCr3dtVA,4407
+flashqda/screen.py,sha256=R5bHpAzvgHf0SN9z6y-ir3HLeNJdYLbr0olh57olZYE,5710
+flashqda/prompts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flashqda/prompts/compare_concepts.txt,sha256=JJvuWfYQAIQe4on_qumWmzM96BV3j6JTdlEAjECgTlE,787
+flashqda/prompts/label_text.txt,sha256=U1hCicVAQdouxjaVLlFG4F1hnCg7TXiJef3DhidMuNE,469
+flashqda/prompts/relationships_classify.txt,sha256=9K8EFYR5ehDIe8a4_h2BniGo6bPAjWOJOntfqyU8BcU,1062
+flashqda/prompts/relationships_extract.txt,sha256=qkWntXs6wVqLVVowgAAPqgN2m1FcPKb2Emc3apiXh8I,569
+flashqda/prompts/tenses.txt,sha256=D-D_97L-0Q0hovLFaz62jtRm6HDODvJC8LZFCX58nDI,593
+flashqda-1.0.6.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+flashqda-1.0.6.dist-info/METADATA,sha256=Sr78tbQmU0NDnsZjRI1b8s-zaDK68qribd43dUgf8Jk,1044
+flashqda-1.0.6.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+flashqda-1.0.6.dist-info/top_level.txt,sha256=Wagt1-aWjB4hk-cJ-ptpYq4AzixzWGDB4GfI0vRmTk0,9
+flashqda-1.0.6.dist-info/RECORD,,
