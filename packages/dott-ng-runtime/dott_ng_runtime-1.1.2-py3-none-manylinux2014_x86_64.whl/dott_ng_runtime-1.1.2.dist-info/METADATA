@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: dott-ng-runtime
+Version: 1.1.2
+Summary: Runtime Environment for Debugger-based on Target Testing (DOTT)
+Home-page: https://github.com/tw-ghub/dott-ng
+Author: Thomas Winkler
+Author-email: thomas.winkler@gmail.com
+Platform: Linux
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Dynamic: author
+Dynamic: author-email
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: platform
+Dynamic: requires-python
+Dynamic: summary
