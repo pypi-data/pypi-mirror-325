@@ -1,0 +1,11 @@
+base_command: "package_abc run"
+
+run1:
+  params:
+    - cat: "meow"
+    - vvv: null
+
+run2:
+  params:
+    - cat: "purr"
+    - o: "./path/to/output.txt"
