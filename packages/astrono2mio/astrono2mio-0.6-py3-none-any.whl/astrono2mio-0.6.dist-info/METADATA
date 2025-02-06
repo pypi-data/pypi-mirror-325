@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: astrono2mio
+Version: 0.6
+Requires-Python: >=3.8
+Requires-Dist: pycryptodome
+Requires-Dist: cryptography
+Requires-Dist: aiohttp
+Requires-Dist: requests
+Requires-Dist: asyncio
+Requires-Dist: pillow
+Requires-Dist: psutil
+
