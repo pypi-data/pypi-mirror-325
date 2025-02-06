@@ -1,0 +1,2 @@
+[console_scripts]
+openengine = openengine.main:main
