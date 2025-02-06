@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llamp"
+version = "0.0.6"
+description = "LLAMP - Large Language Model for Planning and Acting"
+authors = [
+    {name = "Nikolai Rozanov", email = "nikolai.rozanov@gmail.com"},
+]
+readme = "README.md"
+
+dependencies = [
+    "transformers>=4.48.2",
+    "vllm>=0.7.1",
+    "tiktoken>=0.7.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["llamp*"]
