@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: exakt-cast
+Version: 0.0.2
+Summary: Cast is an app that allows you to wrangle your data locally using DuckDB
+Author-Email: Kobus Rust <kobus@exakt.ai>
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Homepage, https://www.exakt.ai/
+Project-URL: Documentation, https://cast.exakt.ai/
+Project-URL: Repository, https://github.com/ExaktOSS/cast
+Requires-Python: <3.13,>=3.9
+Requires-Dist: duckdb>=1.1.0
+Requires-Dist: streamlit>=1.41.1
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: polars>=1.19.0
+Requires-Dist: pyarrow>=17.0.0
+Requires-Dist: s3fs>=2023.9.0
+Requires-Dist: scipy>=1.11.3
+Requires-Dist: pygwalker>=0.4.9.9
+Requires-Dist: streamlit-monaco==0.1.3
+Description-Content-Type: text/markdown
+
+# Exakt Cast
+
+Cast is a lightweight, powerful utility designed to enable actuaries, data scientists, and pricing professionals to easily run analytical queries on local CSV and Parquet files. Built on top of DuckDB, this tool allows users to leverage SQL-like queries for rapid exploration and analysis of their data without requiring a complex database setup.
+
+## Features
+**Query Local Files**: Run SQL queries directly on CSV and Parquet files stored locally.
+
+**Ease of Use**: Simple streamlit webapp to run and manage your queries on.
+
+**Blazing Fast Analytics**: Powered by DuckDB, optimized for analytical queries on large datasets.
+
+**Lightweight**: No database setup or configuration required—just point to your files and start querying.
+
+
+**Extensibility**: Designed for pricing and actuarial workflows but flexible enough for general-purpose analytics.
+
+## Who Should Use This?
+This tool is perfect for:
+
+**Actuaries**: Quickly explore insurance data, summarize portfolios, and validate assumptions.
+
+**Data Scientists**: Perform ad-hoc analysis on datasets without loading them into a database.
+
+**Pricing Professionals**: Join, clean and analyze datasets that can be used in your pricing models.
+
+## Installation
+Install the package using pip:
+
+```
+pip install exakt
+```
+
+## Usage
+
+Open up a terminal window or command prompt and type in:
+
+```
+cast
+```
+
+This should open up a webrowser instance, with cast open.

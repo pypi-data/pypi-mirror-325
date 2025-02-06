@@ -1,0 +1,59 @@
+[project]
+name = "exakt-cast"
+version = "0.0.2"
+description = "Cast is an app that allows you to wrangle your data locally using DuckDB"
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+dependencies = [
+    "duckdb>=1.1.0",
+    "streamlit>=1.41.1",
+    "pandas>=2.2.3",
+    "polars>=1.19.0",
+    "pyarrow>=17.0.0",
+    "s3fs>=2023.9.0",
+    "scipy>=1.11.3",
+    "pygwalker>=0.4.9.9",
+    "streamlit-monaco==0.1.3",
+]
+authors = [
+    { name = "Kobus Rust", email = "kobus@exakt.ai" },
+]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python",
+    "Topic :: Scientific/Engineering",
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Homepage = "https://www.exakt.ai/"
+Documentation = "https://cast.exakt.ai/"
+Repository = "https://github.com/ExaktOSS/cast"
+
+[project.scripts]
+cast = "cast.main:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.setuptools]
+packages = [
+    "exakt",
+]
+
+[tool.setuptools.package-data]
+"" = [
+    "assets/*",
+    ".streamlit/*",
+]
