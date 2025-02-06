@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: Mahi-STT
+Version: 0.1
+Summary: this is speech to text package 
+Author: Mohit
+Author-email: mksinghmksinghmk@gmail.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary
