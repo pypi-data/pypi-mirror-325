@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cyb600-huff1-lab1
+Version: 0.1.2
+Summary: This package creates a webserver that will spit out the current time
+Home-page: https://github.com/dhuffCanisius/CYB600_Lab1
+Author: Darnell Huff
+Author-email: huff4@canisius.edu
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# CYB600 Huff1 Lab1
+
+This package creates a simple webserver that displays the current time.
+
+## Installation
+```bash
+pip install cyb600_huff1_lab1
+
