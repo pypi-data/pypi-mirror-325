@@ -1,0 +1,11 @@
+cgse_dummy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cgse_dummy/cgse_services.py,sha256=2XUYxnQv5HeBxCGYedHo8N1yEWxR8o9rdktTDHm9GJY,2153
+cgse_dummy/dummy_acs.py,sha256=ChDqzp6yKNc3jyXtbG9HZLlY-VeuPFgrQyKnDS341lo,62
+cgse_dummy/dummy_cs.py,sha256=pPIJHhE2z31uFXMjQRQfILRvGR-qNM2Vtd2Glqc3TXU,49
+cgse_dummy/dummy_devif.py,sha256=MIZdlICQoYVF6S0uuGQi_IlRCLOmAT6CQPTndlLkNko,10769
+cgse_dummy/dummy_sim.py,sha256=VTddEQPfpjBRs4fkqxX1kXhYPL6NDsy1qpIAwplUq_4,7635
+cgse_dummy/settings.yaml,sha256=67hd27EMewb2YNCfZR6af9p6VfVomy3M-xRBuHAxe_E,649
+cgse_dummy-0.1.0.dist-info/METADATA,sha256=KYMNJErgy51neld-ikgS7uWloXS_Su89tFCw34b7-54,451
+cgse_dummy-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+cgse_dummy-0.1.0.dist-info/entry_points.txt,sha256=ZeS-6jQQpiU1_3owMrgO0lDVc9-AP9hqETQ7TvEFl4A,173
+cgse_dummy-0.1.0.dist-info/RECORD,,
