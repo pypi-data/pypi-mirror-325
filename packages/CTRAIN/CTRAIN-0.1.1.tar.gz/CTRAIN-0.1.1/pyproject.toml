@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools", "wheel", "pip"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CTRAIN"
+version = "0.1.1"
+authors = [
+    { name="Konstantin Kaulen", email="kaulen@aim.rwth-aachen.de" }
+]
+description = "CTRAIN is an unified, modular and comprehensive package for the training and evaluation of certified training techniques."
+readme = "README.md"
+license = { file = "LICENSE" }
+dependencies = [
+    "torch>=2,<2.4.0",
+    "torchvision>=0.12.0,<0.19.0",
+    "numpy>=1.20,<2",
+    "tqdm>=4",
+    "ConfigSpace<=1",
+    "smac>=2",
+    "pandas>=2",
+    "matplotlib>=3",
+    "seaborn",
+    "onnxruntime>=1",
+    "onnxoptimizer",
+    "skl2onnx",
+    "appdirs>=1.4",
+    "graphviz>=0.20.3"
+]
+requires-python = ">=3.8"
+keywords = ["certified training", "robust", "machine learning", "verification"]
+[tool.setuptools.package-data]
+"CTRAIN" = ["verification_systems/abCROWN/*"]
+"*" = ["onnx2pytorch/*", "auto_LiRPA/*"]
+

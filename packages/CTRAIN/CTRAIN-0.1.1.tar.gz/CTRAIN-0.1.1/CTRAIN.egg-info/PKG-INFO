@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: CTRAIN
+Version: 0.1.1
+Summary: CTRAIN is an unified, modular and comprehensive package for the training and evaluation of certified training techniques.
+Author-email: Konstantin Kaulen <kaulen@aim.rwth-aachen.de>
+License: MIT License
+        
+        Copyright (c) 2025 Konstantin Kaulen
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Keywords: certified training,robust,machine learning,verification
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch<2.4.0,>=2
+Requires-Dist: torchvision<0.19.0,>=0.12.0
+Requires-Dist: numpy<2,>=1.20
+Requires-Dist: tqdm>=4
+Requires-Dist: ConfigSpace<=1
+Requires-Dist: smac>=2
+Requires-Dist: pandas>=2
+Requires-Dist: matplotlib>=3
+Requires-Dist: seaborn
+Requires-Dist: onnxruntime>=1
+Requires-Dist: onnxoptimizer
+Requires-Dist: skl2onnx
+Requires-Dist: appdirs>=1.4
+Requires-Dist: graphviz>=0.20.3
+
+# Implementation of Certified Training Methods
+
+- [x] IBP (Gowal et al. , On the Effectiveness of Interval Bound Propagation for  Training Verifiably Robust Models, 2019)
+- [x] Improved IBP (Shi et al., Fast Certified Robust Training with Short Warmup, 2021)
+- [x] CROWN-IBP (Zhang et al., Towards Stable and Efficient Training of Verifably Robust Neural Networks)
+- [x] SABR
+- [x] TAPS
+- [x] STAPS
+
+TODO: Multiple Recent Papers by De Palma:
+https://arxiv.org/pdf/2206.14772
+https://arxiv.org/pdf/2305.13991
+https://arxiv.org/pdf/2410.01617
+
+## Setup
+1. Create Virtual Environment and activate it
+```
+python3 -m venv ./venv
+source venv/bin/activate
+```
+2. Clone auto_LiRPA
+
+```
+git clone git@github.com:Verified-Intelligence/auto_LiRPA.git
+```
+3. For complete verification, install $\alpha\beta$-CROWN
+
+```
+git clone git@github.com:Verified-Intelligence/alpha-beta-CROWN.git
+
+```
+Then, adjust the folder name and add an init file, s.t. we can import it as a module.
+```
+mv ./alpha-beta-CROWN ./abCROWN
+touch ./abCROWN/__init__.py
+```
+
+4. Install Dependencies
+
+On Linux:
+```
+pip3 install -r requirements_linux.txt
+```
+On MacOS:
+```
+pip3 install -r requirements_macos.txt
+```
+And install auto_LiRPA
+```
+pip3 install ./auto_LiRPA
+```
+## ToDos
+
+- Investigate Crit. Eps for different certified training methods
+- Investigate number of stable/unstable/active/inactive neurons
