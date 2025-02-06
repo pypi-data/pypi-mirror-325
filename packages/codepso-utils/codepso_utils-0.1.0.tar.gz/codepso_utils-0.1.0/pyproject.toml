@@ -1,0 +1,24 @@
+[project]
+name = "codepso-utils"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Juan Minaya",email = "minayaleon@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "License :: OSI Approved :: MIT License"
+]
+dependencies = [
+    "sqlmodel (>=0.0.22,<0.0.23)",
+    "fastapi[standard] (>=0.115.8,<0.116.0)"
+]
+
+[tool.poetry]
+packages = [{include = "codepso", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
