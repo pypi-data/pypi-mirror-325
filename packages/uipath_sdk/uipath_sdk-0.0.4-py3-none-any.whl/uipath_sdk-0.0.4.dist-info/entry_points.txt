@@ -1,0 +1,2 @@
+[console_scripts]
+uipath = uipath_cli.cli:cli
