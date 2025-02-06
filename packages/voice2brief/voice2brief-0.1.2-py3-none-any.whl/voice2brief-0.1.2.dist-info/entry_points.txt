@@ -1,0 +1,5 @@
+[console_scripts]
+voice2brief = voice2brief.cli:main
+
+[gui_scripts]
+
