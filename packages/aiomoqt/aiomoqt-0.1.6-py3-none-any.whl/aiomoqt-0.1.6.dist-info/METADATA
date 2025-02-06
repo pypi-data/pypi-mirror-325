@@ -1,0 +1,52 @@
+Metadata-Version: 2.2
+Name: aiomoqt
+Version: 0.1.6
+Summary: Python asyncio implementation of the MOQT protocol
+Author-email: Your Name <gmarzot@marzresearch.net>
+License: MIT
+Project-URL: Homepage, https://github.com/gmarzot/aiomoqt-python
+Project-URL: Repository, https://github.com/gmarzot/aiomoqt-python.git
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aioquic>=1.2.0
+Requires-Dist: asyncio
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# MOQT Protocol Library
+
+A Python implementation of the MOQT (Media over QUIC) protocol.
+
+## Installation
+
+```bash
+pip install aiomoqt
+# or
+uv pip install aiomoqt
+```
+
+## Usage
+
+Basic client usage:
+
+```python
+
+from aiomoqt.client import MOQTClient
+
+async def main():
+    client = MOQTClient(host='localhost', port=4433)
+    async with client.connect() as client_session
+        await client_session.initialize()
+        await client_session.subscribe_to_track('namespace', 'track_name')
+```
+
+## Development
+
+To set up for development:
+
+```bash
+git clone https://github.com/gmarzot/aiomoqt-python.git
+cd moqt
+pip install -e .
+```
