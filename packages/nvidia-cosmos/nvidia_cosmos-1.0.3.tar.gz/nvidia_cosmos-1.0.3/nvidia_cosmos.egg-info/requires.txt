@@ -1,0 +1,13 @@
+av
+better-profanity
+hydra-core
+imageio[ffmpeg]
+iopath
+loguru
+mediapy
+nltk
+peft
+pillow
+sentencepiece
+termcolor
+transformers==4.45.0
