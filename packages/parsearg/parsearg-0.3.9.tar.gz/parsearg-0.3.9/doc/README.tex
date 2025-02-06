@@ -1,0 +1,3002 @@
+% Created 2023-08-22 Tue 18:09
+% Intended LaTeX compiler: pdflatex
+\documentclass[10pt]{amsart}
+    \usepackage[english]{isodate}
+    \isodate
+
+    \usepackage[utf8]{inputenc}
+    % \usepackage[utf8x]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage{graphicx}
+    \usepackage{longtable}
+    \usepackage{float}
+    \usepackage{wrapfig}
+    \usepackage{rotating}
+
+    \usepackage{fixltx2e}
+    \usepackage[normalem]{ulem}
+    \usepackage{textcomp}
+    \usepackage{marvosym}
+
+    \usepackage[top=2.8cm, bottom=2.8cm, left=3.0cm, right=3.0cm]{geometry}
+    \usepackage{booktabs}
+    \usepackage{amsfonts}
+    \usepackage{amssymb}
+    \usepackage{amsmath}
+
+    \usepackage{amsthm}
+    \usepackage{amsbsy}
+    \usepackage{mathrsfs, calrsfs}
+    \usepackage{stmaryrd}
+    \usepackage{fancyvrb}
+
+    \usepackage[usenames,dvipsnames]{xcolor}
+    \usepackage{stackengine}
+    \usepackage{hyperref}
+    \usepackage[all]{hypcap}
+    \hypersetup{
+    colorlinks=true,
+    linkcolor=RoyalBlue,
+    urlcolor=NavyBlue,
+    citecolor=ForestGreen}
+
+    \usepackage{xcolor}
+    \usepackage[most]{tcolorbox}
+    \usepackage{empheq}
+    \usepackage{environ}
+
+    \usepackage{pgf}
+    \usepackage{tikz}
+    \usetikzlibrary{arrows,automata,backgrounds,calc,fit,matrix,positioning,shadows,shapes}
+    \usepackage{dot2texi}
+    \usepackage{txfonts}
+
+    \usepackage{etoolbox}
+    \makeatletter
+    \let\ams@starttoc\@starttoc
+    \makeatother
+    \usepackage[parfill]{parskip}
+    \makeatletter
+    \let\@starttoc\ams@starttoc
+    \patchcmd{\@starttoc}{\makeatletter}{\makeatletter\parskip\z@}{}{}
+    \makeatother
+
+    \let\oldtocsection=\tocsection
+    \let\oldtocsubsection=\tocsubsection
+    \let\oldtocsubsubsection=\tocsubsubsection
+    \renewcommand{\tocsection}[2]{\hspace{0em}\oldtocsection{#1}{#2}}
+    \renewcommand{\tocsubsection}[2]{\hspace{1em}\oldtocsubsection{#1}{#2}}
+    \renewcommand{\tocsubsubsection}[2]{\hspace{2em}\oldtocsubsubsection{#1}{#2}}
+
+    \usepackage{enumerate}
+    \usepackage{multicol}
+    \usepackage{multirow}
+    \usepackage{microtype}
+
+    \numberwithin{equation}{section}
+    % \setcounter{tocdepth}{4}
+    \DeclareMathOperator{\Var}{Var}
+    \DeclareMathOperator{\Cov}{cov}
+
+    \RequirePackage{fancyvrb}
+    \DefineVerbatimEnvironment{verbatim}{Verbatim}{fontsize=\scriptsize}
+    \definecolor{lightgreen}{HTML}{90EE90}
+    \definecolor{lightblue}{rgb}{0.94,0.94,0.95}
+
+
+\usepackage{float}
+\usepackage{fixltx2e}
+\usepackage[normalem]{ulem}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsbsy}
+\usepackage{mathrsfs}
+\usepackage{calrsfs}
+\usepackage{stmaryrd}
+\usepackage{fancyvrb}
+\usepackage{dsfont}
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage{empheq}
+\usepackage{environ}
+\usepackage{pgf}
+\usepackage{tikz}
+\usepackage{dot2texi}
+\usepackage{txfonts}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{microtype}
+\usepackage[makeroom]{cancel}
+\usepackage{minted}
+\usemintedstyle{colorful}
+\usepackage[ruled]{algorithm2e}
+\usepackage{enumitem}
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{defn}{Definition}[section]
+\newtheorem{remark}{Remark}[section]
+\usepackage{mdframed}
+\BeforeBeginEnvironment{verbatim}{\begin{mdframed}}
+\AfterEndEnvironment{verbatim}{\end{mdframed}}
+\author{Thomas P. Harte}
+\date{\today}
+\title{\texttt{parsearg}: turns \texttt{argparse} on its head, the declarative way}
+\hypersetup{
+ pdfauthor={Thomas P. Harte},
+ pdftitle={\texttt{parsearg}: turns \texttt{argparse} on its head, the declarative way},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.2 (Org mode 9.4.5)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+% inverse:
+\newcommand{\inv}[1]{{#1}^{-1}}
+
+%    Enclose the argument in vert-bar delimiters:
+\newcommand{\envert}[1]{\left\lvert#1\right\rvert}
+\let\abs=\envert
+
+%    Enclose the argument in double-vert-bar delimiters:
+\newcommand{\enVert}[1]{\left\lVert#1\right\rVert}
+
+% define the vector norm
+\let\norm=\enVert
+
+% bootstrap / cross-validation definitions:
+\newcommand{\PE}{\mbox{PE}}             % Predictive error
+
+% financial definitions:
+\newcommand{\EVA}{\mbox{EVA}}             % Economic Value Added
+\newcommand{\CTE}{\mbox{CTE}}             % Conditional tail expectation (expected shortfall)
+\newcommand{\VaR}{\mbox{VaR}}             % Value-at-Risk
+\newcommand{\PAR}{\mbox{PAR}}             % PAR value of a bond
+%% \newcommand{\AC}{\mbox{AC}}             % accrued interest of a bond
+\newcommand{\TR}{\mbox{TR}}             % total return
+
+% text definitions:
+\newcommand{\Primafacie}{\emph{Prima facie\/}}
+\newcommand{\primafacie}{\emph{prima facie\/}}
+\newcommand{\Mutatis}{\emph{Mutatis mutandis\/}}
+\newcommand{\mutatis}{\emph{mutatis mutandis\/}}
+\newcommand{\Apriori}{\emph{A~priori\/}}
+\newcommand{\apriori}{\emph{a~priori\/}}
+\newcommand{\Adhoc}{\emph{Ad~hoc\/}}
+\newcommand{\adhoc}{\emph{ad~hoc\/}}
+\newcommand{\qua}{\emph{qua\/}}
+\newcommand{\etc}{\emph{etc.\/}}
+\newcommand{\ie}{\emph{i.e.\/}}
+\newcommand{\eg}{\emph{e.g.\/}}
+\newcommand{\viz}{\emph{viz.\/}}
+\newcommand{\perse}{\emph{per~se\/}}
+\newcommand{\intoto}{\emph{in~toto\/}}
+\newcommand{\interalia}{\emph{inter~alia\/}}
+\newcommand{\notabene}{\emph{nota~bene\/}}
+\newcommand{\Notabene}{\emph{Nota~bene\/}}
+\newcommand{\etal}{\emph{et~al.,\/}}
+\newcommand{\cf}{cf.\/}                % confer (L.)
+\newcommand{\sic}{[\emph{sic}]}
+\newcommand{\etseq}{\emph{et~seq.\/}}        % et sequens (L.)
+\newcommand{\etsqq}{\emph{et~sqq.\/}}        % et sequentia (L.)
+\newcommand{\Page}{\emph{p.\/}}            % ``page''  (page number)
+\newcommand{\pp}{\emph{pp.\/}}            % ``pages'' (page numbers)
+\newcommand{\visavis}{\emph{vis~\`a~vis\/}}    % vis a vis (F.)
+
+% fields and things:
+\newcommand{\field}[1]{\mathbb{#1}}
+\newcommand{\BB}{\field{B}}
+\newcommand{\CC}{\field{C}}
+\newcommand{\EE}{\field{E}}
+\newcommand{\FF}{\field{F}}
+\newcommand{\MM}{\field{N}}
+\newcommand{\NN}{\field{N}}
+\newcommand{\PP}{\field{P}}
+\newcommand{\QQ}{\field{Q}}
+\newcommand{\RR}{\field{R}}
+\newcommand{\VV}{\field{V}}
+\newcommand{\WW}{\field{W}}
+\newcommand{\XX}{\field{X}}
+\newcommand{\ZZ}{\field{Z}}
+
+\newcommand{\ww}{\mathrm{w}}
+
+% vectors
+\newcommand{\va}{\vec{a}}
+\newcommand{\vb}{\vec{b}}
+\newcommand{\vc}{\vec{c}}
+\newcommand{\vd}{\vec{d}}
+\newcommand{\ve}{\vec{e}}
+\newcommand{\vf}{\vec{f}}
+\newcommand{\vg}{\vec{g}}
+\newcommand{\vh}{\vec{h}}
+\newcommand{\vi}{\vec{i}}
+\newcommand{\vj}{\vec{j}}
+\newcommand{\vk}{\vec{k}}
+\newcommand{\vl}{\vec{l}}
+\newcommand{\vm}{\vec{m}}
+\newcommand{\vn}{\vec{n}}
+\newcommand{\vo}{\vec{o}}
+\newcommand{\vp}{\vec{p}}
+\newcommand{\vq}{\vec{q}}
+\newcommand{\vr}{\vec{r}}
+\newcommand{\vs}{\vec{s}}
+\newcommand{\vt}{\vec{t}}
+\newcommand{\vu}{\vec{u}}
+\newcommand{\vv}{\vec{v}}
+\newcommand{\vw}{\vec{w}}
+\newcommand{\vx}{\vec{x}}
+\newcommand{\vy}{\vec{y}}
+\newcommand{\vz}{\vec{z}}
+
+% rank
+\newcommand{\rank}[1]{
+         { \mbox{rank}\left[{#1}\right] } 
+}
+
+% Basis vector
+% requires \usepackage{amsmath}:
+\newcommand{\Eone}{{\left(\substack{1\\0}\right)}}
+
+\newcommand{\logm}{\mbox{logm}}
+
+%% PROBABILITY SYMBOLS
+%
+% covariance matrix (boldsymbol requires the package amsbsy in AMS documents)
+\newcommand{\covar}{\boldsymbol{\Sigma}}
+% Expectation operator
+% \newcommand{\Ex}[1]{
+%          { {\mathcal E}\!\left[{#1}\right] }
+% }
+% \newcommand{\Ex}[1]{
+%          { {\mathscr E}\!\left[{#1}\right] }         % \mathscr requires the mathrsfs package
+% }
+
+% Expectation
+\newcommand{\Ex}[1]{
+         { {\varmathbb E}\!\left[{#1}\right] }         % \varmathbb requires the txfonts package
+}
+% Squared expectation
+\newcommand{\ExSq}[1]{
+         { {\varmathbb E}^2\!\left[{#1}\right] }     % \varmathbb requires the txfonts package
+}
+% Expectation : subscript
+\newcommand{\EX}[2]{
+         { {\varmathbb E_{#2}}\!\left[{#1}\right] }         % \varmathbb requires the txfonts package
+}
+% Full Expectation : subscript & superscript
+% \ExFull{ (y-\widehat{y})^2 }{0,\widehat F}{p}
+\newcommand{\ExFull}[3]{
+         { {\varmathbb E}_{#2}^{#3} \!\left[{#1}\right] } % requires the txfonts package
+}
+
+% Variance (VAR to avoid clashes with LaTeX's Var)
+\newcommand{\VAR}[1]{
+         { \VV\!\left[{#1}\right] }         
+}
+% Covariance (COV to avoid clashes with LaTeX's Cov)
+\newcommand{\COV}[1]{
+         { \mbox{\sc Cov}\!\left[{#1}\right] }         
+}
+% Standard deviation 
+\newcommand{\SD}[1]{
+         { \mbox{\sc SD}\!\left[{#1}\right] }         
+}
+
+% \abs  & \norm are already defined somewhere...
+% absolute value
+% \newcommand{\abs}[1]{\lvert#1\rvert}
+% norm
+% \newcommand{\norm}[1]{\lVert#1\rVert}
+
+% std : standard deviation
+\newcommand{\std}{\mbox{std}}   %
+% diag:
+\newcommand{\diag}{\mbox{diag}}   %
+
+
+\newcommand{\Xbar}{\overline{X}}
+\newcommand{\xbar}{\overline{x}}
+\newcommand{\Ybar}{\overline{Y}}
+\newcommand{\ybar}{\overline{y}}
+% NOTE: \mathop works where \stackrel fails due to improper subscript sizing
+%
+% argmax
+%% \newcommand{\argmax}[1]{
+%%          { \mathop{\arg\max}_{ {#1} }\ }   % note: needs the trailing '\' to space text correctly
+%% }
+%% % argmin
+%% \newcommand{\argmin}[1]{
+%%          { \mathop{\arg\min}_{ {#1} }\ }   % note: needs the trailing '\' to space text correctly
+%% }
+%% [2018-11-05]: now using e.g. the following:
+\newcommand{\argmax}[1]{
+    { \operatorname*{arg\,max}_{{#1}}\, }   % note: needs the trailing '\' to space text correctly
+}
+
+\newcommand{\argmin}[1]{
+    { \operatorname*{arg\,min}_{{#1}}\, }   % note: needs the trailing '\' to space text correctly
+}
+
+
+% by definition equals
+\newcommand{\iid}{\stackrel{\mbox{\tiny i.i.d.}}{\sim}}
+\newcommand{\defeq}{\stackrel{\triangle}{=}}
+\newcommand{\bydefn}{\stackrel{\text{def}}{=}}
+\newcommand{\astmapsto}{\stackrel{\ast}{\mapsto}}
+
+
+% inner product
+\newcommand{\inner}[2]{
+    { \langle {#1}, {#2} \rangle } 
+}
+
+% Source: https://tex.stackexchange.com/questions/370364/specific-type-of-box-around-equation
+% 
+\newcommand\redbox[1]{%
+  \fboxsep=-2pt
+  \def\tmp{\displaystyle\strut #1}
+  \def\shadow{\makebox[.4pt]{$\tmp$}}
+  \stackengine{0pt}{%
+    \stackengine{0pt}{%
+      \textcolor{red}{\fbox{~~$\phantom{\tmp}$~~}}%
+    }{\color{white}\shadow\shadow\shadow\shadow\shadow\shadow\shadow%
+      \shadow\shadow\shadow\shadow}{O}{c}{F}{F}{L}%
+  }{$\tmp$}{O}{c}{F}{F}{L}
+}
+
+% Rates: present value and future value
+\newcommand{\PV}{\mbox{PV}}
+\newcommand{\FV}{\mbox{FV}}
+
+% Structured Credit:
+\newcommand{\CPR}{\mbox{CPR}}
+\newcommand{\SMM}{\mbox{SMM}}
+
+% combination
+\newcommand{\nchoosek}[2]{
+    {
+        \left(
+            \begin{matrix}
+                    {#1} \cr
+                    {#2} 
+            \end{matrix}
+        \right)
+    }
+}
+
+
+% derivative, e.g. d^3/dx^3. call with
+% \dd{f}{x}{} to get df\over dx
+\newcommand{\dd}[3]{
+    {
+      {d^{#3}{#1} \over d{#2}^{#3}}
+    }
+}
+
+% Partial derivative, e.g. \partial ^3/\partial x^3. Call with 
+% \pdd{f}{x}{} to get \partial f\over\partial x
+\newcommand{\pdd}[3]{
+    \frac{\textstyle\partial^{#3}{#1}}  
+         {\textstyle\partial{#2}^{#3}}
+}
+
+
+%
+% boxedeq
+%
+\newcommand{\boxedeq}[2]{
+  \begin{empheq}
+    [box={\fboxsep=6pt\fbox}]{align}
+    \label{#1}
+    #2
+  \end{empheq}
+}
+
+%
+% coloredeq
+%
+%% \newcommand{\coloredeq}[2]{
+%%   \begin{empheq}
+%%     [box=\colorbox{lightgreen}]{align}
+%%     {\ifthenelse{\isempty{#1}{}}{}{\label{#1}}}
+%%     #2
+%%   \end{empheq}
+%% }
+
+%%% FIXME 2019-04-10: make environment instead?
+
+%
+% coloredeq
+%
+\newcommand{\coloredeq}[2]{
+  \begin{empheq}
+    [box=\colorbox{lightgray}]{align}
+    {
+        \def\tmp{#1}
+        \ifx\tmp\@empty
+            % Nothing here!
+        \else
+            \label{#1}
+        \fi
+    }
+    #2
+  \end{empheq}
+}
+
+% SOLUTION 1 [from ~/j/dot/org/newenvironment]:
+%
+%     Source: https://tex.stackexchange.com/questions/5639/defining-a-new-environment-whose-contents-go-in-a-tikz-node/5642#5642
+%
+%     package environ manual: http://ctan.math.illinois.edu/macros/latex/contrib/environ/environ.pdf
+%
+% requires 
+%
+%    \usepackage{environ}
+%    \usepackage{xcolor}
+%    \usepackage{empheq}
+%
+\NewEnviron{coloredequation}[1][lightgray]{%
+  \begin{empheq}
+    [box=\colorbox{#1}]{align}
+    \BODY
+  \end{empheq}
+}
+\NewEnviron{coloredequation*}[1][lightgray]{%
+  \begin{empheq}
+    [box=\colorbox{#1}]{align*}
+    \BODY
+  \end{empheq}
+}
+
+
+%
+% mymath
+%
+\newtcbox{\mymath}[1][]{%
+    nobeforeafter, math upper, tcbox raise base,
+    enhanced, colframe=blue!30!black,
+    colback=blue!30, boxrule=1pt,
+    #1
+}
+
+% Independence / conditional independence
+% Whereas independence can be indicated with $\perp$, Dawid originally introduced
+% ``double perpendicular'' symbol for independence, but now it is most 
+% often used to indicated /conditional/ independence only.
+%
+% Source: https://tex.stackexchange.com/questions/154530/resolved-a-conditional-independence-symbol-that-looks-good-with-mid
+\newcommand{\indep}{\mathrel{\text{\scalebox{1.07}{$\perp\mkern-10mu\perp$}}}}
+
+
+% for use with \usepackage[russian,english]{babel}
+\newcommand{\ru}[1]{
+    { \foreignlanguage{russian}{{#1}} }   
+}
+
+
+%%%  INDICATOR FUNCTION 
+% to fix error: 'LaTeX Error: Too many math alphabets used in version normal'
+% Source:
+%     https://tex.stackexchange.com/questions/26637/how-do-you-get-mathbb1-to-work-characteristic-function-of-a-set
+% PROBLEM: package:dsfont co-existing with package:bm
+% After a lot of trial and error I found that the issue was with package:bm
+% which I duly removed from my default list
+
+\newcommand{\indicator}[2]{
+    % \usepackage{dsfont}:
+    { \mathds{1}_{{#1}}({#2}) }
+}
+
+% logit
+\newcommand{\logit}[1]{
+    {\log\,\biggl(\frac{ {#1} }{1- {#1} }\biggr)}
+}
+
+\newtcbox{\mybox}[1][]{%
+    nobeforeafter, math upper, tcbox raise base,
+    enhanced, colframe=blue!30!black,
+    colback=lightgreen!30, boxrule=0.5pt,
+    #1
+}
+
+\section{Quickstart}
+\label{sec:orgb39b50d}
+\subsection{Overview}
+\label{sec:orgd3ca1e9}
+\texttt{parsearg} is a Python package for writing command-line interfaces (``CLI'')
+that augments (rather than replaces) the standard Python module for writing
+CLIs, \texttt{argparse}. There is nothing wrong with \texttt{argparse}: It's fine in terms of
+the \emph{functionality} that it provides, but it can be clunky to use, especially
+when a program's structure has subcommands, or nested subcommands (\emph{i.e.}
+subcommands that have subcommands).  Moreover, because of the imperative
+nature of \texttt{argparse}, it makes it hard to understand how a program's interface
+is structured (\emph{viz.} the program's ``view'').
+
+\texttt{parsearg} puts a layer on top of \texttt{argparse} that makes writing a CLI easy: You
+declare your view with a \texttt{dict}, so that the view
+is a data structure (\emph{i.e.} pure configuration). The data structure declares
+the \emph{intent} of the CLI and you no longer have to instruct \texttt{argparse}
+on how to put the CLI together: \texttt{parsearg} does that for you.
+In this respect, \texttt{parsearg} turns \texttt{argparse} on its head, in the sense that
+it replaces imperative instructions with declarative data.
+
+\subsection{Usage}
+\label{sec:org8c7ab48}
+\label{org56b42d2}
+Suppose we wish to create a program---\texttt{quickstart-todos.py}---to manage the TO-DOs
+of a set of different users. We want \texttt{quickstart-todos.py} to have subprograms. For
+example, we want to create a user with the command
+
+\begin{verbatim}
+python quickstart-todos.py create user
+\end{verbatim}
+
+
+or we want to create a TO-DO for a particular user with the command
+
+\begin{verbatim}
+python quickstart-todos.py create todo
+\end{verbatim}
+
+
+We also want to add optional parameters to each subprogram, such as
+the user's email and phone number, or the TO-DO's due date. 
+The program's CLI should look like the following, where the
+``flags'' are optional inputs (\emph{e.g.} \texttt{-{}-email}):
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{bash}
+python quickstart-todos.py create user Bob --email=bob@email.com --phone=+1-212-555-1234
+python quickstart-todos.py create todo Bob 'taxes' --due-date=2021-05-17
+\end{minted}
+If we use \texttt{argparse}, adding the subprogram \texttt{create} means having to
+explicitly instruct the parser to add a subparser---ditto for its subprograms \texttt{user} and \texttt{todo}
+(see Listing \ref{orge76d2de}).
+With \texttt{parsearg}, the CLI is declared
+within a \texttt{dict} whose keys specify the tree of subprograms.
+Moreover, the callback associated with each subcommand is explicitly linked to
+the declaration of each node in the tree
+(see Listing \ref{org1502795}).
+
+The output of both listings at the end of this section is identical:
+
+\begin{itemize}
+\item Listing \ref{orge76d2de} (using \texttt{argparse}) produces:
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{bash}
+python quickstart-todos-argparse.py create user Bob --email=bob@email.com --phone=212-555-1234
+python quickstart-todos-argparse.py create todo Bob 'taxes' --due-date=2021-05-17
+\end{minted}
+
+\begin{verbatim}
+created user: 'Bob' (email: bob@email.com, phone: 212-555-1234)
+created TO-DO for user 'Bob': taxes (due: 2021-05-17)
+\end{verbatim}
+
+\item Listing \ref{org1502795} (using \texttt{parsearg}) produces:
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{bash}
+python quickstart-todos.py create user Bob --email=bob@email.com --phone=212-555-1234
+python quickstart-todos.py create todo Bob 'taxes' --due-date=2021-05-17
+\end{minted}
+
+\begin{verbatim}
+created user: 'Bob' (email: bob@email.com, phone: 212-555-1234)
+created TO-DO for user 'Bob': taxes (due: 2021-05-17)
+\end{verbatim}
+\end{itemize}
+
+Comparing Listing \ref{orge76d2de} (built with \texttt{argparse}) 
+and Listing \ref{org1502795} (built with \texttt{parsearg}), it is
+apparent that \texttt{parsearg} affords:
+
+\begin{enumerate}
+\item the CLI to be declared as pure data, and not constructed with imperative specifications;
+\item the callback to be declared with the data, thus co-locating the callback with
+the position of its specification in the tree of subprograms;
+\item the nodes within the tree of subprograms to be specified with an intuitive
+syntax (\emph{e.g.} \texttt{create|user}), which means that the hierarchy of the
+tree of subprograms can be easily altered.
+\end{enumerate}
+
+A fully-worked version of the TO-DO example is presented later in the docs. 
+
+\subsection{Same functionality underneath}
+\label{sec:org6000aeb}
+Because \texttt{parsearg} is built on top of \texttt{argparse}, all the usual features
+are available, such as the extensive help features (essentially
+making the CLI self-documenting):
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{bash}
+python quickstart-todos.py --help
+\end{minted}
+
+\begin{verbatim}
+usage: quickstart-todos.py [-h] {create} ...
+
+positional arguments:
+  {create}
+
+optional arguments:
+  -h, --help  show this help message and exit
+\end{verbatim}
+
+
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{bash}
+python quickstart-todos.py create --help
+\end{minted}
+
+\begin{verbatim}
+usage: quickstart-todos.py create [-h] {user,todo} ...
+
+positional arguments:
+  {user,todo}
+
+optional arguments:
+  -h, --help   show this help message and exit
+\end{verbatim}
+
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{bash}
+python quickstart-todos.py create user --help
+\end{minted}
+
+\begin{verbatim}
+usage: quickstart-todos.py create user [-h] [-e EMAIL] [-p PHONE] name
+
+positional arguments:
+  name                  create user name
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -e EMAIL, --email EMAIL
+                        create user's email address
+  -p PHONE, --phone PHONE
+                        create user's phone number
+\end{verbatim}
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{bash}
+python quickstart-todos.py create todo --help
+\end{minted}
+
+\begin{verbatim}
+usage: quickstart-todos.py create todo [-h] [-d DUE_DATE] user title
+
+positional arguments:
+  user                  user name
+  title                 title of TO-DO
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DUE_DATE, --due-date DUE_DATE
+                        due date for the TO-DO
+\end{verbatim}
+
+\newpage
+\subsection{\texttt{quickstart-*.py} Listings}
+\label{sec:org859416f}
+\mbox{}
+
+\begin{listing}[htbp]
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+import sys
+import argparse
+
+def create_user(args):
+    print(f'created user: {args.name!r} (email: {args.email}, phone: {args.phone})')
+
+def create_todo(args):
+    print(f'created TO-DO for user {args.user!r}: {args.title} (due: {args.due_date})')
+
+def make_parser():
+    # Imperative instructions are required to construct the CLI 
+    parser            = argparse.ArgumentParser()
+    subparsers        = parser.add_subparsers()
+
+    create            = subparsers.add_parser('create')
+    create_subparsers = create.add_subparsers()
+
+    user              = create_subparsers.add_parser('user')
+    todo              = create_subparsers.add_parser('todo')
+
+    user.add_argument("name", help="create user name", type=str, action="store")
+    user.add_argument("-e", "--email", help="create user's email address", type=str, action="store", default='')
+    user.add_argument("-p", "--phone", help="create user's phone number", type=str, action="store", default='')
+    user.set_defaults(callback=create_user)
+
+    todo.add_argument("user", help="user name for TO-DO", type=str, action="store")
+    todo.add_argument("title", help="title of TO-DO", type=str, action="store")
+    todo.add_argument("-d", "--due-date", help="due date for the TO-DO", type=str, action="store", default=None)
+    todo.set_defaults(callback=create_todo)
+
+    return parser
+
+def main(args):
+    parser = make_parser()
+    ns     = parser.parse_args(args)
+    result = ns.callback(ns)
+
+if __name__ == "__main__":
+    args = sys.argv[1:] if len(sys.argv) > 1 else []
+    main(args)
+\end{minted}
+\caption{\label{orge76d2de}\texttt{quickstart-todos-argparse.py} (using \texttt{argparse}): the parser must be specified with imperative instructions}
+\end{listing}
+
+\newpage
+\begin{listing}[htbp]
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+import sys
+from parsearg import ParseArg
+
+def create_user(args):
+    print(f'created user: {args.name!r} (email: {args.email}, phone: {args.phone})')
+
+def create_todo(args):
+    print(f'created TO-DO for user {args.user!r}: {args.title} (due: {args.due_date})')
+
+# the CLI "view" comprises pure data: 
+#     the parser is fully specified by this view - no imperative instructions are required
+view = {
+    'create|user': {
+        'callback':   create_user,
+        'name':       {'help': 'create user name', 'type': str, 'action': 'store'},
+        '-e|--email': {'help': "create user's email address", 'type': str, 'action': 'store', 'default': ''},
+        '-p|--phone': {'help': "create user's phone number", 'type': str, 'action': 'store', 'default': ''},
+    },
+    'create|todo': {
+        'callback':   create_todo,
+        'user':       {'help': 'user name', 'type': str, 'action': 'store'},
+        'title':      {'help': 'title of TO-DO', 'type': str, 'action': 'store'},
+        '-d|--due-date': {'help': 'due date for the TO-DO', 'type': str, 'action': 'store', 'default': None},
+    },
+}
+
+def main(args):
+    parser = ParseArg(d=view)
+    ns     = parser.parse_args(args)
+    result = ns.callback(ns)
+
+if __name__ == "__main__":
+    args = sys.argv[1:] if len(sys.argv) > 1 else []
+    main(' '.join(args))
+\end{minted}
+\caption{\label{org1502795}\texttt{quickstart-todos.py} (using \texttt{parsearg}): the parser is specified with data only---it is declarative}
+\end{listing}
+
+\textcolor{blue}{\bf TODO:}
+\begin{quote}
+Add a regression test for:
+
+\begin{verbatim}
+main(' '.join(args))
+\end{verbatim}
+
+
+versus
+
+\begin{verbatim}
+main(args)
+\end{verbatim}
+
+
+where the latter is a list, rather than a string.
+\end{quote}
+
+\newpage
+\section{Some philosophy}
+\label{sec:org33b3fe7}
+The ``standard'' Python module for writing command-line interfaces (``CLI'') 
+is \texttt{argparse}. It is standard in so far as it is one of the batteries 
+that comes included with the Python distribution, so no special 
+installation is required. 
+Probably because \texttt{argparse} is a bit clunky to use,
+many other (non-standard) packages have been developed for creating CLIs.
+
+Why ``clunky''? Putting together a CLI with \texttt{argparse}
+alone is nothing if not an exercise in imperative programming, and this
+has negative consequences:
+
+\begin{enumerate}
+\item It obfuscates the intention of the CLI design;
+\item It is prone to errors;
+\item It discourages CLI design in the first instance;
+\item It makes debugging a CLI design very difficult; and
+\item It makes refactoring or re-configuring the CLI design overly burdensome.
+\end{enumerate}
+
+In spite of this clunkiness, \texttt{argparse} has everything we need in 
+terms of functionality. \texttt{parsearg}, then, is nothing more than a layer
+over \texttt{argparse} that exposes the \texttt{argparse} functionality via a \texttt{dict}.
+The \texttt{dict} is the View component of the 
+\href{https://en.wikipedia.org/wiki/Model\%E2\%80\%93view\%E2\%80\%93controller}{Model-View-Controller (``MVC'')}
+design pattern. The \texttt{dict} embeds callbacks from the Controller component,
+thereby achieving a clean separation of duties, which is what the MVC pattern
+calls for. By separating the View component into a \texttt{dict}, the CLI design
+can be expressed in a declarative way: \texttt{parsearg} manifests the \emph{intention}
+of the CLI design without having to specify how that design is implemented
+in terms of \texttt{argparse}'s parsers and subparsers (\texttt{parsearg} does that
+for you).
+
+Other packages---such as \href{https://click.palletsprojects.com}{\texttt{click}} and \href{https://micheles.github.io/plac/}{\texttt{plac}}---effectively
+decorate functions that are part of the Controller with functionality
+from the View. Unfortunately, while this may 
+expose the functionality of \texttt{argparse} in a more friendly way
+via the packages' decorators, it dissipates the elements of the View 
+across the Controller and in so doing it makes the CLI design difficult to grasp.
+
+The \texttt{parsearg} philosophy is that \texttt{argparse} is already good enough in terms
+of the functionality that it provides, but that it just needs a little nudge
+in terms of how it's used.  Arguments to be added to a CLI with \texttt{argparse}
+can be clearly specified as data, as can the callbacks that
+consume these arguments. \texttt{parsearg} takes advantage of this by specifiying
+everything (in the View component of MVC) as a \texttt{dict}, from which \texttt{parsearg}
+then generates a parser (or set of nested parsers) using \texttt{argparse}. 
+The Controller is then free to use the generated parser.
+
+The \texttt{parsearg} approach is declarative because it manifests the CLI design
+in a data structure: a \texttt{dict} (which is one of Python's built-ins).
+The keys of this \texttt{dict}, for example \texttt{A|B|C}, represent nodes in the tree
+of subprograms. The keys are easy to specify and neatly summarize the nested
+hierarchy of subcommands: \texttt{A -> B -> C}. The order of the keys is also easy to change. 
+The keys of this \texttt{dict} are used to specify a \emph{flattened tree} (\emph{i.e.} the leaf nodes)
+of the CLI's hierarchy of subcommands. 
+The magic of \texttt{parsearg} is therefore this:
+
+\begin{quote}
+\emph{It unflattens a flattened tree into a tree of \texttt{argparse} parsers.}
+\end{quote}
+
+\texttt{parsearg} requires nothing special: It works with Python out of the box, thus using
+what's already available without introducing dependencies.
+
+Simple? The following sections should help to peel the onion.
+
+\begin{center}
+\includegraphics[width=0.4\linewidth]{./img/pop-up-tree.png}
+\end{center}
+
+\newpage
+\section{More than you ever needed to know about trees}
+\label{sec:orge309eba}
+\subsection{The A Tree and the AA Tree}
+\label{sec:org61e1325}
+In order to explain what trees are and how they work in the context of
+command-line argument-parsing, we will make repeated use two simple tree abstractions:
+
+\begin{enumerate}
+\item The ``A Tree'', and
+\item The ``A-AA Tree''.
+\end{enumerate}
+
+The idea here is that the A-AA Tree nests the A Tree, thus forming
+identical ``sub-trees'', albeit with different parent nodes (called
+``A'' and ``AA'', respectively). 
+
+\subsubsection{The A Tree}
+\label{sec:org3d399fc}
+The A Tree has three levels. 
+\begin{center}
+\includegraphics[width=0.5\linewidth]{./img/a-tree.png}
+\end{center}
+
+Let's take a very brief look at the Python code
+for \href{https://raw.githubusercontent.com/tharte/parsearg/master/doc/examples/a.py}{\texttt{a.py}}.
+Consider the \texttt{dict} that represents the View component.
+The tree that the parsed \texttt{dict} is represented by is given as:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+from examples.a import view
+
+print(
+    ParseArg(d=view, root_name='root').tree.show(quiet=True)
+)
+\end{minted}
+
+\begin{verbatim}
+root
+    A
+        BB
+            CCC
+            CC
+            C
+        BBB
+        B
+\end{verbatim}
+
+\subsubsection{The A-AA Tree}
+\label{sec:org8d2beb2}
+The A-AA Tree simply extends the A Tree one level and replicates the A Tree's 
+structure in a sub-tree with root name ``AA'':
+\begin{center}
+\includegraphics[width=1.0\linewidth]{./img/aa-tree.png}
+\end{center}
+
+Let's take a brief look at the Python code
+for \href{https://raw.githubusercontent.com/tharte/parsearg/master/doc/examples/a\_aa.py}{\texttt{a\_aa.py}}.
+Consider the \texttt{dict} that represents the View component:
+and then the tree that the parsed \texttt{dict} is represented by:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+from examples.a_aa import view
+
+print(
+    ParseArg(d=view, root_name='TODO').tree.show(quiet=True)
+)
+\end{minted}
+
+\begin{verbatim}
+TODO
+    A
+        BB
+            CCC
+            CC
+            C
+        BBB
+        B
+    AA
+        BB
+            CCC
+            CC
+            C
+        BBB
+        B
+\end{verbatim}
+
+\newpage
+\subsection{Heterogeneous trees: recursive data structures}
+\label{sec:org8855709}
+Trees are recursive data structures.  Any node of a tree is identified by
+a \emph{value} (that is to say, a \emph{datum}) and its set of \emph{child trees}, thus establishing the recursion.
+
+\begin{defn}
+\label{defn:1}
+An heterogeneous tree is either:
+    \begin{enumerate}
+        \item a value and a set of child trees; or,
+        \item the empty tree.
+    \end{enumerate}
+\end{defn}
+
+\begin{remark}
+Each node is a tree, containing a value and a set of child trees.
+A node's \emph{name\/} is synonymous with its value, and so
+often the node is referred to by name, meaning by its value. 
+\end{remark}
+
+\begin{remark}
+A node's set of child trees (also known as the ``children'' of the node)
+is possibly empty. There is nothing unusual in this, \emph{viz.\/}
+a node consisting of a value and an empty set of children.
+\end{remark}
+
+\begin{remark}
+The node is referred to as the ``parent'' of its children.
+\end{remark}
+
+\begin{remark}
+The children of a parent are termed ``siblings'', though
+they are not necessarily aware of each other.
+\end{remark}
+
+\begin{remark}
+The empty tree has no value (or, rather, its value is identically null, represented
+by $\varnothing$), and it has an empty set of children.
+\end{remark}
+
+\begin{remark}
+The definition implies that a parent node ``points'' to its children, in so far
+as the parent is necessarily aware of the children it contains, whereas its
+children are not necessarily aware of their parent, nor of each other.  
+We therefore regard Definition \ref{defn:1} as the ``top-down'' definition.
+\end{remark}
+
+In Python, we represent the value/node/name and its \texttt{set} of children as the 
+\texttt{tuple}: 
+\begin{quote}
+\texttt{(value, \{e1, e2, ....\})},
+\end{quote}
+where \texttt{\{e1, e2, ...\}} is the \texttt{set} of children containing elements 
+\texttt{e1}, \texttt{e2}, and so on, and each element of the \texttt{set} is itself a tree.  
+The empty tree is represented by
+\begin{quote}
+\texttt{(None, \{None\})},
+\end{quote}
+where \texttt{None} represents no value, and \texttt{\{None\}} is the empty set of children.\footnote{Python has a quirk where \texttt{\{\}} is of type \texttt{dict}, whereas \texttt{\{None\}} is of type \texttt{set}. Thus, the ``empty set'' is properly represented by \texttt{\{None\}} and not \texttt{\{\}}.} 
+
+\textcolor{blue}{\bf QUESTION:}
+\begin{quote}
+Is \texttt{(value, \{(None, \{\})\})} equivalent to \texttt{(value, \{\})}?
+
+This would mean that the representation of an empty tree, \emph{viz.} \texttt{(None, \{\})},
+is perfectly equivalent to the null set
+$\varnothing$,
+\emph{i.e.}
+\texttt{(value, \{(None, \{\})\})} is equivalent to 
+\texttt{(value, \{}
+$\varnothing$
+\texttt{\})}
+is equivalent to 
+\texttt{(value, \{\})}.
+But this requires a little mental gymnastics: Isn't the \emph{tuple} 
+\texttt{(None, \{\})} equivalent to 
+$(\varnothing, \{\varnothing\})$,
+which is \emph{not} the same as 
+$\{\varnothing\} \equiv$
+\texttt{\{\}}, \emph{i.e.} a \emph{tuple} containing a null value and the null set
+is not the same as the null set itself?
+\end{quote}
+
+\begin{remark}
+A tree is termed \emph{heterogeneous\/} because the cardinality of the set of child trees
+for each value can vary. Contrast with an $n$-ary tree, which has the same number of
+children at each node (\emph{e.g.\/} two for a binary tree, three for a ternary tree, and in
+general $n$ for an $n$-ary tree).
+\end{remark}
+
+\begin{remark}
+Nothing in the definition precludes the possibility of a child tree's value from
+containing an identical value to that of its parent.
+\end{remark}
+
+Thus,
+\begin{quote}
+\texttt{(value, \{e1, (value, \{e1\}))},
+\end{quote}
+is perfectly valid.
+
+\begin{remark}
+Every node's child trees must be unique, in so far as each child is a member of a
+\emph{set}. In practice, this means the each child tree is minimally required to have
+\emph{a unique value\/} (whereas the children of each child tree could be identical without
+affecting the uniqueness of the child trees in the set).
+\end{remark}
+
+\begin{defn}
+\label{defn:3}
+A terminating node (or ``leaf node'') is:
+    \begin{quote}
+    a tree whose set of child trees is empty.
+    \end{quote}
+\end{defn}
+
+A leaf node is represented by \texttt{(value, \{\})}.
+
+\begin{remark}
+The empty tree, $\texttt{(None, \{\})}$, is a valid leaf node.
+\end{remark}
+
+We can define an heterogeneous tree in reverse, \emph{viz.} instead of starting
+with a parent and recursively defining the tree through its children, we
+can start with a terminating node and recursively define the tree 
+by identifying each node's parent. 
+
+This definition yields the flip side of the ``top-down'' definition, above.
+
+\begin{defn}
+\label{defn:4}
+An heterogeneous tree is either:
+    \begin{enumerate}
+        \item a set of sibling trees sharing a common parent node; or,
+        \item the empty tree.
+    \end{enumerate}
+\end{defn}
+
+The set of sibling trees that shares a common parent is possibly empty. What is
+the parent of an empty set (\emph{i.e.} a set that contains no trees)? It is the same as 
+any other tree: It must point to its parent. Optionally, siblings may point
+to each other. Further still, a child node may point to all of its ancestors
+(its parent's parent, and so on).
+
+In Python, we represent the ``reverse tree'' as.
+
+\textcolor{blue}{\bf TODO:}
+\begin{quote}
+Insert appropriate representation here. 
+\end{quote}
+
+\begin{remark}
+Definition \ref{defn:4} implies that a child tree points to its parent, which means
+that the child must be able to uniquely identify the parent tree in which
+it is contained. Because a parent contains its children, a parent must
+be aware of its children, so it is not strictly the reverse of the 
+``top-down'' definition. Nonetheless, we'll refer to Definition 
+\ref{defn:4} as the ``bottom-up'' definition.
+\end{remark}
+
+\subsection{Trees: unflattened (no shorthand)}
+\label{sec:org78781e6}
+You can create a ``longhand'' A Tree using the 
+\texttt{Tree} class that comes with the \texttt{parsearg} package, as follows: 
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+"""
+       A
+     / | \
+    B  BB BBB
+      /| \
+     C CC CCC
+"""
+
+from parsearg.data_structures import Tree, Node, Key
+
+tree = Tree('A', children=[
+    Tree('B', []),
+    Tree('BB', children=[
+        Tree('C', []),
+        Tree('CC', []),
+        Tree('CCC', [])
+    ]),
+    Tree('BBB', []),
+])
+
+print(tree.show(quiet=True))
+\end{minted}
+
+\begin{verbatim}
+A
+    B
+    BB
+        C
+        CC
+        CCC
+    BBB
+\end{verbatim}
+
+
+Defining a tree this way can obfuscate the tree's structure when the node names and 
+payloads are in any way complex.\footnote{For clarity, the nodes' payloads, \emph{i.e.} the nodes' values, were omitted here.} 
+
+\subsection{Trees: flattened (shorthand)}
+\label{sec:orgba53bd3}
+We need a ``shorthand'' for constructing trees---\texttt{parsearg} uses a set of pipe-delimited strings: 
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+# from a import view
+from examples.a import view
+
+print(['root'] + list(view.keys()))
+\end{minted}
+
+\begin{verbatim}
+['root', 'A', 'A|B', 'A|BB', 'A|BB|C', 'A|BB|CC', 'A|BB|CCC', 'A|BBB']
+\end{verbatim}
+
+
+This shorthand representation is a ``flattened'' version of the A Tree which fully
+specifies a tree down to each leaf node. The ``unflattened'' version of the
+shorthand is then:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+print(
+    ParseArg.to_tree(view, root_name='root').show(quiet=True) 
+)
+\end{minted}
+
+\begin{verbatim}
+root
+    A
+        BB
+            CCC
+            CC
+            C
+        BBB
+        B
+\end{verbatim}
+
+
+Each string in this flattened tree (or ``flat tree'') represents a node in the
+tree and uniquely names that node.
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+print(['root'] + list(view.keys()))
+\end{minted}
+
+\begin{verbatim}
+['root', 'A', 'A|B', 'A|BB', 'A|BB|C', 'A|BB|CC', 'A|BB|CCC', 'A|BBB']
+\end{verbatim}
+
+
+The singular constraint on the tree's structure is that each node's children must contain
+a unique set of node names.  If this were not the case, then the tree's structure would
+be indeterminate.  In point of fact, the example of the A-AA Tree illustrates that the
+structure of the A Tree can be duplicated: only the root node names of each sub-tree
+(\texttt{A} and \texttt{AA}, respectively) need to be unique.
+
+Leaf nodes are terminating nodes in the tree's hierarchy (\emph{i.e.} nodes that
+have the empty set for children). Take the A Tree:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+print( ParseArg.to_tree(view, root_name='root').show(quiet=True) )
+\end{minted}
+
+\begin{verbatim}
+root
+    A
+        BB
+            CCC
+            CC
+            C
+        BBB
+        B
+\end{verbatim}
+
+
+\begin{itemize}
+\item its \emph{terminating nodes} are:
+
+\begin{verbatim}
+'A|B'
+'A|BBB'
+'A|BB|C'
+'A|BB|CC'
+'A|BB|CCC'
+\end{verbatim}
+
+\item its \emph{non-terminating nodes} are:
+
+\begin{verbatim}
+'A'
+'A|BB'
+\end{verbatim}
+\end{itemize}
+
+The separator in each key (here, a pipe \texttt{|}) separates one level of the tree from the
+next level down. It is this delimited-string representation that allows us to easily
+specify a flat tree. However, taking advantage of the tree as a \emph{data structure}
+requires working with an unflattened tree, and not the flattened version of it.
+In other words:
+\begin{quote}
+We use a shorthand to specify flattened tree, but we need to unflatten this tree to
+create the data structure in order for the tree to be useful.
+\end{quote}
+
+There is a duality here:
+
+\begin{enumerate}
+\item We need a shorthand in order for the tree's structure to be specified in a simple way 
+(the ``flattened'' shorthand); and
+
+\item We need to make use of the structure of the tree itself 
+(the ``unflattened'' tree).
+\end{enumerate}
+
+Thus, \texttt{parsearg} transforms a \texttt{dict}, representing the tree's nodes, into a \texttt{Tree}.
+The keys of the \texttt{dict} are shorthand for the tree's nodes and the values of the \texttt{dict}
+are the nodes' payloads.  We need the shorthand of the \texttt{dict} for ease of specification,
+and we need the \texttt{Tree} to avail of the data structure's properties.
+
+\newpage
+\section{How \texttt{parsearg} works}
+\label{sec:orgc3a8bca}
+\subsection{Some useful helper data structures}
+\label{sec:org3a20e5d}
+\subsubsection{The gist}
+\label{sec:orgbcc6c86}
+\texttt{parsearg} provides three core classes:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+from parsearg.data_structures import Key, Node, Tree
+\end{minted}
+
+Both \texttt{Key} and \texttt{Node} help to marshall keys and their payloads when 
+unflattening a flat-tree structure. The \texttt{Tree} class represents the
+actual tree.  
+
+\texttt{Key} and \texttt{Node} commandeer the data in the \texttt{dict} in the View layer.
+Their principle use is in unflattening the View \texttt{dict} by left-shifting the
+keys that represent the nodes of the tree.
+
+The algorithm for rendering an unflattened tree from a flat tree
+follows the logic of splitting the key (\emph{i.e.} the \texttt{str} representing the key)
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+# 1. take key
+key = 'A|B|C' 
+\end{minted}
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+# 2. split string 
+sep = '|'
+print( Key.split(key) )
+\end{minted}
+
+\begin{verbatim}
+['A', '|', 'B', '|', 'C']
+\end{verbatim}
+
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+# 3. unflatten the split key: create a nested list
+unflattened = Key.unflatten(Key.split(key))
+print(unflattened)
+\end{minted}
+
+\begin{verbatim}
+['A', ['B', ['C']]]
+\end{verbatim}
+
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+# 4. create a Node from the unflattened list
+node = Node.from_nested_list(unflattened)
+print(node)
+\end{minted}
+
+\begin{verbatim}
+('A', ['B', ['C']])
+\end{verbatim}
+
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+# 5. the node can now be shifted until the empty node is reached
+print(node << 1)
+print(node << 2)
+print(node << 3)
+\end{minted}
+
+\begin{verbatim}
+('B', ['C'])
+('C', [])
+(None, [])
+\end{verbatim}
+
+
+Note that the \texttt{key}, above, can be directly transformed into a \texttt{Node}:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+print( key )
+print( Key.to_node(key) )
+\end{minted}
+
+\begin{verbatim}
+A|B|C
+('A', ['B', ['C']])
+\end{verbatim}
+
+
+A \texttt{Node} is really a convenient way to view the \texttt{key}. Shifting the \texttt{Node}
+until it is empty provides a convenient way to determine when a 
+leaf node has been reached:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+n = node
+i = 0
+while not n.is_empty():
+    i += 1
+    n = node << i  
+
+print(i)
+print(node << i)
+\end{minted}
+
+\begin{verbatim}
+3
+(None, [])
+\end{verbatim}
+
+
+A \texttt{Key} just keeps track of the node's payload and the key itself while
+this iteration is performed over all nodes at a particular level of the 
+flat tree.
+
+\subsubsection{The \texttt{Key} class}
+\label{sec:orga5ccad2}
+First, \texttt{parsearg} defines a \texttt{Key} class. Take a key  \texttt{'A|BB|C'} that represents
+a leaf node:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+from parsearg.data_structures import Tree, Node, Key
+
+key = 'A|BB|C'
+print( Key(key) )
+\end{minted}
+
+\begin{verbatim}
+'A|BB|C': ('A', ['BB', ['C']])
+\end{verbatim}
+
+
+The \texttt{Key} stores the following: 
+\begin{enumerate}
+\item the key:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+print( Key(key).key )
+\end{minted}
+
+\begin{verbatim}
+A|BB|C
+\end{verbatim}
+
+\item the \texttt{dict} assocated with the key (if any):
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+payload = 3.141593
+d = {key: payload}
+
+print( Key(key, d=d).d )
+\end{minted}
+
+\begin{verbatim}
+{'A|BB|C': 3.141593}
+\end{verbatim}
+
+\item the \texttt{Node}, which is a representation of the key's delimited string
+as a nested list:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+print( Key(key).value )
+print( type(Key(key).value) )
+\end{minted}
+
+\begin{verbatim}
+('A', ['BB', ['C']])
+<class 'parsearg.data_structures.Node'>
+\end{verbatim}
+
+\item the \texttt{payload} (\emph{i.e.} the value of the \texttt{dict}, as above):
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+payload = 3.141593
+d = {key: payload}
+
+print( Key(key, d).payload )
+\end{minted}
+
+\begin{verbatim}
+3.141593
+\end{verbatim}
+\end{enumerate}
+
+A \texttt{Key} can be shifted:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+print( Key(key) )
+# same thing:
+print( Key(key) << 0 )
+# real shifts:
+print( Key(key) << 1 )
+print( Key(key) << 2 )
+print( Key(key) << 3 )
+# same thing:
+print( Key(key) << 4 )
+\end{minted}
+
+\begin{verbatim}
+'A|BB|C': ('A', ['BB', ['C']])
+'A|BB|C': ('A', ['BB', ['C']])
+'A|BB|C': ('BB', ['C'])
+'A|BB|C': ('C', [])
+'A|BB|C': (None, [])
+'A|BB|C': (None, [])
+\end{verbatim}
+
+
+but the \texttt{key} is preserved regardless of the shift value:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+print( (Key(key) << 0).key )
+print( (Key(key) << 1).key )
+print( (Key(key) << 2).key )
+print( (Key(key) << 3).key )
+\end{minted}
+
+\begin{verbatim}
+A|BB|C
+A|BB|C
+A|BB|C
+A|BB|C
+\end{verbatim}
+
+\subsubsection{The \texttt{Node} class}
+\label{sec:orgc04e85f}
+A \texttt{Node} is a tuple that has a \texttt{head} and a \texttt{tail}: 
+
+\begin{enumerate}
+\item the \texttt{head} is the name of the node, and
+\item the \texttt{tail} is a nested list containing the remainder of the leaf node's
+specification.
+\end{enumerate}
+
+For example:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+print( Key(key).value )
+print( Key(key).value.head() )
+print( Key(key).value.tail() )
+# use a Node to construct the ~value~ part: 
+print( Node(head='A', tail=['BB', ['C']]) )
+\end{minted}
+
+\begin{verbatim}
+('A', ['BB', ['C']])
+A
+['BB', ['C']]
+('A', ['BB', ['C']])
+\end{verbatim}
+
+
+A \texttt{Node}, upon which the \texttt{Key} is based, can also be shifted:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+node = Node(head='A', tail=['B', ['C']])
+print( node )
+# same thing:
+print( node << 0 )
+print( node << 1 )
+print( node << 2 )
+print( node << 3 )
+# same thing:
+print( node << 4 )
+\end{minted}
+
+\begin{verbatim}
+('A', ['B', ['C']])
+('A', ['B', ['C']])
+('B', ['C'])
+('C', [])
+(None, [])
+(None, [])
+\end{verbatim}
+
+
+You can build a \texttt{Node} from a nested \texttt{list}:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+ll = ['A', ['B', ['C']]]
+print( Node.from_nested_list(ll) )
+\end{minted}
+
+\begin{verbatim}
+('A', ['B', ['C']])
+\end{verbatim}
+
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+print( Node.from_nested_list(['A', ['B', ['C']]]) )
+print( Node.from_nested_list(['A']) )
+\end{minted}
+
+\begin{verbatim}
+('A', ['B', ['C']])
+('A', [])
+\end{verbatim}
+
+\subsubsection{Putting it together}
+\label{sec:org41fed46}
+Let's say we have the following View:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+from parsearg.utils import show
+d = {
+    'A': {
+        'arg1': {}, 'arg2': {}, 'arg3': {},
+    },
+    'A|B': {
+        'arg1': {}, 'arg2': {}, 'arg3': {},
+    },
+    'A|B|C': {
+        'arg1': {}, 'arg2': {}, 'arg3': {},
+    },
+}
+show( d )
+\end{minted}
+
+\begin{verbatim}
+'A':
+    'arg1':
+    {}
+    'arg2':
+    {}
+    'arg3':
+    {}
+'A|B':
+    'arg1':
+    {}
+    'arg2':
+    {}
+    'arg3':
+    {}
+'A|B|C':
+    'arg1':
+    {}
+    'arg2':
+    {}
+    'arg3':
+    {}
+\end{verbatim}
+
+We can gather the keys as \texttt{Key} objects:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+keys = list(map(lambda key: Key(key), list(d.keys())))
+for key in keys: print(key)
+\end{minted}
+
+\begin{verbatim}
+'A': ('A', [])
+'A|B': ('A', ['B'])
+'A|B|C': ('A', ['B', ['C']])
+\end{verbatim}
+
+
+We can gather the leaves (there's only one leaf node: \texttt{A}):
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+leaves = list(filter(lambda key: key.is_leaf(), keys))
+for leaf in leaves: print(leaf)
+\end{minted}
+
+\begin{verbatim}
+'A': ('A', [])
+\end{verbatim}
+
+
+We can shift the keys and then gather the leaves (there's only one leaf node: \texttt{A|B}):
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+leaves = list(filter(lambda key: (key << 1).is_leaf(), keys))
+for leaf in leaves: print(leaf)
+\end{minted}
+
+\begin{verbatim}
+'A|B': ('A', ['B'])
+\end{verbatim}
+
+
+We can shift the keys and then gather the leaves (there's only one leaf node: \texttt{A|B|C}):
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+leaves = list(filter(lambda key: (key << 2).is_leaf(), keys))
+for leaf in leaves: print(leaf)
+\end{minted}
+
+\begin{verbatim}
+'A|B|C': ('A', ['B', ['C']])
+\end{verbatim}
+
+
+Note how the \texttt{Key} object preserves the key \texttt{A|B|C} even when the associated \texttt{Node} object
+is left-shifted:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+node = leaves[0]
+print( (node << 1).key )
+print( (node << 2).key )
+print( (node << 3).key )
+print( (node << 3) )
+\end{minted}
+
+\begin{verbatim}
+A|B|C
+A|B|C
+A|B|C
+'A|B|C': (None, [])
+\end{verbatim}
+
+\subsubsection{The \texttt{Tree} class}
+\label{sec:orgf8a9b18}
+As illustrated above a tree can be constructed directly with the \texttt{Tree} class.
+For example the A Tree is:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+tree = Tree('A', children=[
+    Tree('B', []),
+    Tree('BB', children=[
+        Tree('C', []),
+        Tree('CC', []),
+        Tree('CCC', [])
+    ]),
+    Tree('BBB', []),
+])
+
+print( tree.show(quiet=True) )
+\end{minted}
+
+\begin{verbatim}
+A
+    B
+    BB
+        C
+        CC
+        CCC
+    BBB
+\end{verbatim}
+
+
+The \texttt{Tree} class has a nested class called \texttt{Value}, which stores a node's value.
+The \texttt{Value} constructor checks that everything is in sync, as the following shows:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+key = 'A|BB|C'
+payload = 3.141593
+d = {key: payload}
+
+value = Tree.Value(name='C', key=key, d=d)
+
+print( value )
+print( value.key )
+print( value.name )
+print( value.payload )
+\end{minted}
+
+\begin{verbatim}
+C
+A|BB|C
+C
+3.141593
+\end{verbatim}
+
+\subsection{Creating parsers with \texttt{parsearg}}
+\label{sec:org4cd2a90}
+\texttt{parsearg} creates parsers in two steps:
+
+\begin{enumerate}
+\item transform the View \texttt{dict} into a \texttt{Tree};
+\item create a parser---and subparsers---using the \texttt{Tree}.
+\end{enumerate}
+
+There is nothing specific to parsers in the first step, so this 
+forms a generic pattern: transforming a View into a tree. 
+The second step is specific to creating command-line parsers: 
+It traverses the tree structure created in the first step
+and uses it to create a tree structure of parsers. 
+
+Consider Step 1. Any \texttt{dict} that conforms to the shorthand notation for 
+representing nodes (\emph{i.e.} a flat tree) can be converted
+to a \texttt{Tree} using \texttt{parsearg.parser.ParseArg.to\_tree}. Take
+the View \texttt{dict} from Section \ref{org56b42d2}:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+def create_user(x): return x
+def create_todo(x): return x
+
+view = {
+    'create|user': {
+        'callback':   create_user,
+        'name':       {'help': 'create user name', 'action': 'store'},
+        '-e|--email': {'help': "create user's email address", 'action': 'store', 'default': ''},
+        '-p|--phone': {'help': "create user's phone number", 'action': 'store', 'default': ''},
+    },
+    'create|todo': {
+        'callback':   create_todo,
+        'user':       {'help': 'user name', 'action': 'store'},
+        'title':      {'help': 'title of TO-DO', 'action': 'store'},
+        '-d|--due-date': {'help': 'due date for the TO-DO', 'action': 'store', 'default': None},
+    },
+}
+
+
+from parsearg import ParseArg
+
+tree = ParseArg.to_tree(d=view)
+tree.show()
+\end{minted}
+
+\begin{verbatim}
+root
+    create
+        todo
+        user
+\end{verbatim}
+
+
+
+Now consider Step 2. This is specific to building \texttt{argparse} subparsers:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+args   = 'create user Harry -e harry@hogworts.edu -p 212-456-1234'.split()
+
+import argparse
+parser = argparse.ArgumentParser(add_help=True)
+ParseArg.make_subparsers(tree, parser)
+
+# parser.parse_args returns an argparse.Namespace
+print( parser.parse_args(args) )
+\end{minted}
+
+\begin{verbatim}
+Namespace(name='Harry', email='harry@hogworts.edu', phone='212-456-1234', callback=<function create_user at 0x7fb496137700>)
+\end{verbatim}
+
+
+The \texttt{ParseArg} constructor abstracts this process and wraps the calls 
+to \texttt{argparse} methods:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+parser = ParseArg(d=view)
+print( parser.parse_args(args) )
+\end{minted}
+
+\begin{verbatim}
+Namespace(name='Harry', email='harry@hogworts.edu', phone='212-456-1234', callback=<function create_user at 0x7fb496137700>)
+\end{verbatim}
+
+\subsection{Reverse-definition tree: Creating a tree from its leaf nodes}
+\label{sec:orge4f64aa}
+\mbox{}
+
+\textcolor{blue}{\bf TODO:}
+\begin{quote}
+This section is incomplete. 
+\end{quote}
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+from examples.a_aa import view
+sep = '|'
+
+k = list(map(lambda x: x.split(sep), view.keys())) 
+for e in k: print(e)
+\end{minted}
+
+\begin{verbatim}
+['A']
+['A', 'B']
+['A', 'BB']
+['A', 'BB', 'C']
+['A', 'BB', 'CC']
+['A', 'BB', 'CCC']
+['A', 'BBB']
+['AA']
+['AA', 'B']
+['AA', 'BB']
+['AA', 'BB', 'C']
+['AA', 'BB', 'CC']
+['AA', 'BB', 'CCC']
+['AA', 'BBB']
+\end{verbatim}
+
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+n = list(map(len, k))
+
+for key, depth, lkey in zip(view.keys(), n, k): print(f'({key}:\t{depth}, {lkey})')
+\end{minted}
+
+\begin{verbatim}
+(1, ['A'])
+(2, ['A', 'B'])
+(2, ['A', 'BB'])
+(3, ['A', 'BB', 'C'])     # Tree('BB', [Tree('C'), Tree('CC'), Tree('CCC')])
+(3, ['A', 'BB', 'CC'])
+(3, ['A', 'BB', 'CCC'])
+(2, ['A', 'BBB'])
+(1, ['AA'])
+(2, ['AA', 'B'])
+(2, ['AA', 'BB'])
+(3, ['AA', 'BB', 'C'])    # Tree('AA', [Tree('BB', [Tree('C'), Tree('CC'), Tree('CCC')])])
+(3, ['AA', 'BB', 'CC'])
+(3, ['AA', 'BB', 'CCC'])
+(2, ['AA', 'BBB'])
+
+
+\end{verbatim}
+
+\begin{verbatim}
+(1, ['A'])
+(2, ['A', 'B'])
+(2, ['A', 'BB'])
+(3, ['A', 'BB', 'C'])     # Tree('AA', [Tree('BB', [Tree('C'), Tree('CC'), Tree('CCC')])])
+(3, ['A', 'BB', 'CC'])
+(3, ['A', 'BB', 'CCC'])
+(2, ['A', 'BBB'])
+(1, ['AA'])
+(2, ['AA', 'B'])
+(2, ['AA', 'BB'])
+(3, ['AA', 'BB', 'C'])    # Tree('AA', [Tree('BB', [Tree('C'), Tree('CC'), Tree('CCC')])])
+(3, ['AA', 'BB', 'CC'])
+(3, ['AA', 'BB', 'CCC'])
+(2, ['AA', 'BBB'])
+
+
+# Tree('A',  [Tree('BB', [Tree('C'), Tree('CC'), Tree('CCC')])])
+# Tree('AA', [Tree('BB', [Tree('C'), Tree('CC'), Tree('CCC')])])
+(1, ['A'])
+(2, ['A', 'B'])
+(2, ['A', 'BB'])
+(2, ['A', 'BBB'])
+(1, ['AA'])
+(2, ['AA', 'B'])
+(2, ['AA', 'BB'])
+(2, ['AA', 'BBB'])
+
+\end{verbatim}
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+import pandas as pd
+from examples.a_aa import view
+sep = '|'
+
+keys  = list(view.keys())
+skeys = list(map(lambda x: x.split(sep), keys))
+lkeys = list(map(len, skeys))
+
+root  = 'root'
+
+depth = max(lkeys)
+while depth > 0:
+    ix        = [i for i, e in enumerate(lkeys) if e == depth]
+    k         = [key for i, key in enumerate(skeys) if i in ix]
+    ancestors = list(map(lambda x: x[0:depth-1], k))
+    parent    = list(map(lambda x: x[-1], ancestors))
+    ancestors = list(map(lambda x: sep.join(x), ancestors))
+
+    for a in set(ancestors):
+        ii  = [i for i, e in enumerate(ancestors) if e == a]
+        k   = [key for i, key in enumerate(skeys) if i in ix]
+        # kk =  ### UNFINISHED - STOPPED HERE
+
+    for key, ll, n in zip(keys, skeys, lkeys):
+        if n == depth:
+            ancestors = ll[:-1]
+            parent    = ancestors[-1]
+            ancestors = sep.join(ancestors)
+    depth -= 1
+
+\end{minted}
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+import numpy as np
+import pandas as pd
+from examples.a_aa import view
+
+def to_tree_backwards(view, root_name='root', sep='|'):
+    def make_key_frame(view, root_name):
+        keys = list(view.keys())
+        if not all(map(lambda key: key.startswith(root_name), keys)):
+            keys = list(map(lambda key: root_name + sep + key, keys))
+        d = pd.DataFrame({
+            'orig_key': list(view.keys()),
+            'key':      keys
+        })
+        d['skey']      = d['key'].apply(lambda x: x.split(sep))
+        d['depth']     = d['skey'].apply(len)
+        d['leaf']      = np.NaN
+        d['parent']    = np.NaN
+        d['ancestors'] = np.NaN
+        return d
+
+    d = make_key_frame(view, root_name)
+
+    which = lambda ix: [i for i, e in enumerate(ix) if e]
+    col   = lambda cn: which(d.columns==cn)[0]
+
+    depth = max(d['depth'])
+    while depth > 1:
+        ix = d['depth']==depth
+        d.loc[ix, 'leaf'] = d.loc[ix, 'skey'] \
+            .apply(lambda x: x[-1])
+        d.loc[ix, 'ancestors'] = d.loc[ix, 'skey'] \
+            .apply(lambda x: sep.join(x[:-1]))
+        d.loc[ix, 'parent'] = d.loc[ix, 'ancestors'] \
+            .apply(lambda x: x.split(sep)[-1])
+        for a in set(d['ancestors'].dropna()):
+            ii = d['ancestors']==a
+            parent = set(d.loc[ii, 'parent'])
+            assert len(parent)==1
+            parent = parent.pop()
+            for i in which(ii):
+                orig_key = d.iloc[i, col('orig_key')] 
+                key      = d.iloc[i, col('key')] 
+                leaf     = d.iloc[i, col('leaf')]
+                children = d['leaf'].loc[d['ancestors']==key].to_list()
+                d.iloc[i, col('leaf')] = Tree(
+                    Tree.Value( 
+                        name=leaf if isinstance(leaf, str) else leaf.value.name, 
+                        key=orig_key, d=view
+                    ), 
+                    children=children
+                )
+        depth -= 1
+
+    return Tree(
+        root_name, 
+        children=d.iloc[which(d['ancestors']==root_name), col('leaf')].to_list()
+    )
+\end{minted}
+
+\begin{verbatim}
+
+
+
+\end{verbatim}
+
+
+\newpage
+\section{Worked Examples}
+\label{sec:org0aae5ac}
+\subsection{The A-tree}
+\label{sec:orgc14ab57}
+The ``A tree'' has three levels. As each node of the tree must
+necessarily occupy a positional argument of the command line,
+\texttt{[-f]} and \texttt{[-g]} are correspondingly \emph{optional arguments} that attach to the nodes 
+(\texttt{A} and \texttt{BB}, respectively, in the below diagram). 
+\begin{center}
+\includegraphics[width=0.5\linewidth]{./img/tree-abc-a.png}
+\end{center}
+
+Let's look at the Python code for
+for \href{https://raw.githubusercontent.com/tharte/parsearg/master/doc/examples/a.py}{\texttt{a.py}}.
+
+Consider the \texttt{dict} that represents the View component:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+from examples.a import view
+
+show(view)
+\end{minted}
+
+\begin{verbatim}
+'A':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb49633faf0>
+    '-c':
+    {'help': 'A [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'A verbosity', 'action': 'store_true'}
+'A|B':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb4962f3d30>
+    '-c':
+    {'help': 'A B [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'A B verbosity', 'action': 'store_true'}
+'A|BB':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb4962f3dc0>
+    '-c':
+    {'help': 'A BB [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'A BB erbosity', 'action': 'store_true'}
+'A|BB|C':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb4962f3e50>
+    '-c':
+    {'help': 'A BB C [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'A BB C verbosity', 'action': 'store_true'}
+'A|BB|CC':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb4962f3ee0>
+    '-c':
+    {'help': 'A BB CC [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'A BB CC verbosity', 'action': 'store_true'}
+'A|BB|CCC':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb4962f3f70>
+    '-c':
+    {'help': 'A BB CCC [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'A BB CCC verbosity', 'action': 'store_true'}
+'A|BBB':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb496275040>
+    '-c':
+    {'help': 'A BBB [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'A BBB verbosity', 'action': 'store_true'}
+\end{verbatim}
+and then the tree that the parsed \texttt{dict} is represented by:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+print(
+    ParseArg(d=view, root_name='TODO').tree.show(quiet=True)
+)
+\end{minted}
+
+\begin{verbatim}
+TODO
+    A
+        BB
+            CCC
+            CC
+            C
+        BBB
+        B
+\end{verbatim}
+
+
+\newpage
+\subsection{The A-AA tree}
+\label{sec:orge05f5ee}
+The A-AA Tree simply extends the A Tree one level:
+\begin{center}
+\includegraphics[width=1.0\linewidth]{./img/tree-abc-a-aa.png}
+\end{center}
+
+Let's look at the Python code
+for \href{https://raw.githubusercontent.com/tharte/parsearg/master/doc/examples/a\_aa.py}{\texttt{a\_aa.py}}.
+
+Consider the \texttt{dict} that represents the View component:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+from examples.a_aa import view
+
+show(view)
+\end{minted}
+
+\begin{verbatim}
+'A':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb49625dca0>
+    '-c':
+    {'help': 'A [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'A verbosity', 'action': 'store_true'}
+'A|B':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb49625ddc0>
+    '-c':
+    {'help': 'A B [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'A B verbosity', 'action': 'store_true'}
+'A|BB':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb49625de50>
+    '-c':
+    {'help': 'A BB [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'A BB erbosity', 'action': 'store_true'}
+'A|BB|C':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb49625dee0>
+    '-c':
+    {'help': 'A BB C [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'A BB C verbosity', 'action': 'store_true'}
+'A|BB|CC':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb49625df70>
+    '-c':
+    {'help': 'A BB CC [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'A BB CC verbosity', 'action': 'store_true'}
+'A|BB|CCC':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb49626b040>
+    '-c':
+    {'help': 'A BB CCC [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'A BB CCC verbosity', 'action': 'store_true'}
+'A|BBB':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb49625dc10>
+    '-c':
+    {'help': 'A BBB [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'A BBB verbosity', 'action': 'store_true'}
+'AA':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb49633f790>
+    '-c':
+    {'help': 'AA [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'AA verbosity', 'action': 'store_true'}
+'AA|B':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb49626b0d0>
+    '-c':
+    {'help': 'AA B [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'AA B verbosity', 'action': 'store_true'}
+'AA|BB':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb49626b160>
+    '-c':
+    {'help': 'AA BB [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'AA BB verbosity', 'action': 'store_true'}
+'AA|BB|C':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb49626b1f0>
+    '-c':
+    {'help': 'AA BB C [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'AA BB C verbosity', 'action': 'store_true'}
+'AA|BB|CC':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb49626b280>
+    '-c':
+    {'help': 'AA BB CC [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'AA BB CC verbosity', 'action': 'store_true'}
+'AA|BB|CCC':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb49626b310>
+    '-c':
+    {'help': 'AA BB CCC [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'AA BB CCC verbosity', 'action': 'store_true'}
+'AA|BBB':
+    'callback':
+    <function make_callback.<locals>.func at 0x7fb49626b3a0>
+    '-c':
+    {'help': 'AA BBB [optional pi]', 'action': 'store_const', 'const': 3.141593}
+    '-v|--verbose':
+    {'help': 'AA BBB verbosity', 'action': 'store_true'}
+\end{verbatim}
+and then the tree that the parsed \texttt{dict} is represented by:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+print(
+    ParseArg(d=view, root_name='TODO').tree.show(quiet=True)
+)
+\end{minted}
+
+\begin{verbatim}
+TODO
+    A
+        BB
+            CCC
+            CC
+            C
+        BBB
+        B
+    AA
+        BB
+            CCC
+            CC
+            C
+        BBB
+        B
+\end{verbatim}
+
+
+We can now run the A Tree and the A-AA Tree examples, respectively:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+from examples.a import main
+main()
+\end{minted}
+
+\begin{verbatim}
+
+
+NODE :: 'A':
+--------------
+usage: ipython A [-h] [-c] [-v] {BB,BBB,B} ...
+
+positional arguments:
+  {BB,BBB,B}
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             A [optional pi]
+  -v, --verbose  A verbosity
+
+
+'A':
+----
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.A' id='140413591018368'>
+'A -v':
+-------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.A' id='140413591018368'>
+'A -c':
+-------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.A' id='140413591018368'>
+'A -v -c':
+----------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.A' id='140413591018368'>
+
+
+NODE :: 'A B':
+----------------
+usage: ipython A B [-h] [-c] [-v]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             A B [optional pi]
+  -v, --verbose  A B verbosity
+
+
+'A B':
+------
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.A_B' id='140413591018416'>
+'A B -v':
+---------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.A_B' id='140413591018416'>
+'A B -c':
+---------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.A_B' id='140413591018416'>
+'A B -v -c':
+------------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.A_B' id='140413591018416'>
+
+
+NODE :: 'A BB':
+-----------------
+usage: ipython A BB [-h] [-c] [-v] {CCC,CC,C} ...
+
+positional arguments:
+  {CCC,CC,C}
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             A BB [optional pi]
+  -v, --verbose  A BB erbosity
+
+
+'A BB':
+-------
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.A_BB' id='140413591016448'>
+'A BB -v':
+----------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.A_BB' id='140413591016448'>
+'A BB -c':
+----------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.A_BB' id='140413591016448'>
+'A BB -v -c':
+-------------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.A_BB' id='140413591016448'>
+
+
+NODE :: 'A BB C':
+-------------------
+usage: ipython A BB C [-h] [-c] [-v]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             A BB C [optional pi]
+  -v, --verbose  A BB C verbosity
+
+
+'A BB C':
+---------
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.A_BB_C' id='140413590319408'>
+'A BB C -v':
+------------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.A_BB_C' id='140413590319408'>
+'A BB C -c':
+------------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.A_BB_C' id='140413590319408'>
+'A BB C -v -c':
+---------------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.A_BB_C' id='140413590319408'>
+
+
+NODE :: 'A BB CC':
+--------------------
+usage: ipython A BB CC [-h] [-c] [-v]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             A BB CC [optional pi]
+  -v, --verbose  A BB CC verbosity
+
+
+'A BB CC':
+----------
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.A_BB_CC' id='140413590321616'>
+'A BB CC -v':
+-------------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.A_BB_CC' id='140413590321616'>
+'A BB CC -c':
+-------------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.A_BB_CC' id='140413590321616'>
+'A BB CC -v -c':
+----------------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.A_BB_CC' id='140413590321616'>
+
+
+NODE :: 'A BB CCC':
+---------------------
+usage: ipython A BB CCC [-h] [-c] [-v]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             A BB CCC [optional pi]
+  -v, --verbose  A BB CCC verbosity
+
+
+'A BB CCC':
+-----------
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.A_BB_CCC' id='140413590398384'>
+'A BB CCC -v':
+--------------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.A_BB_CCC' id='140413590398384'>
+'A BB CCC -c':
+--------------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.A_BB_CCC' id='140413590398384'>
+'A BB CCC -v -c':
+-----------------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.A_BB_CCC' id='140413590398384'>
+\end{verbatim}
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+from examples.a_aa import main
+main()
+\end{minted}
+
+\begin{verbatim}
+
+
+NODE :: 'A':
+--------------
+usage: ipython A [-h] [-c] [-v] {BB,BBB,B} ...
+
+positional arguments:
+  {BB,BBB,B}
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             A [optional pi]
+  -v, --verbose  A verbosity
+
+
+'A':
+----
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.A' id='140413589948448'>
+'A -v':
+-------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.A' id='140413589948448'>
+'A -c':
+-------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.A' id='140413589948448'>
+'A -v -c':
+----------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.A' id='140413589948448'>
+
+
+NODE :: 'A B':
+----------------
+usage: ipython A B [-h] [-c] [-v]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             A B [optional pi]
+  -v, --verbose  A B verbosity
+
+
+'A B':
+------
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.A_B' id='140413589948592'>
+'A B -v':
+---------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.A_B' id='140413589948592'>
+'A B -c':
+---------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.A_B' id='140413589948592'>
+'A B -v -c':
+------------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.A_B' id='140413589948592'>
+
+
+NODE :: 'A BB':
+-----------------
+usage: ipython A BB [-h] [-c] [-v] {CCC,CC,C} ...
+
+positional arguments:
+  {CCC,CC,C}
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             A BB [optional pi]
+  -v, --verbose  A BB erbosity
+
+
+'A BB':
+-------
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.A_BB' id='140413589948784'>
+'A BB -v':
+----------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.A_BB' id='140413589948784'>
+'A BB -c':
+----------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.A_BB' id='140413589948784'>
+'A BB -v -c':
+-------------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.A_BB' id='140413589948784'>
+
+
+NODE :: 'A BB C':
+-------------------
+usage: ipython A BB C [-h] [-c] [-v]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             A BB C [optional pi]
+  -v, --verbose  A BB C verbosity
+
+
+'A BB C':
+---------
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.A_BB_C' id='140413589948976'>
+'A BB C -v':
+------------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.A_BB_C' id='140413589948976'>
+'A BB C -c':
+------------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.A_BB_C' id='140413589948976'>
+'A BB C -v -c':
+---------------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.A_BB_C' id='140413589948976'>
+
+
+NODE :: 'A BB CC':
+--------------------
+usage: ipython A BB CC [-h] [-c] [-v]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             A BB CC [optional pi]
+  -v, --verbose  A BB CC verbosity
+
+
+'A BB CC':
+----------
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.A_BB_CC' id='140413589949312'>
+'A BB CC -v':
+-------------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.A_BB_CC' id='140413589949312'>
+'A BB CC -c':
+-------------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.A_BB_CC' id='140413589949312'>
+'A BB CC -v -c':
+----------------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.A_BB_CC' id='140413589949312'>
+
+
+NODE :: 'A BB CCC':
+---------------------
+usage: ipython A BB CCC [-h] [-c] [-v]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             A BB CCC [optional pi]
+  -v, --verbose  A BB CCC verbosity
+
+
+'A BB CCC':
+-----------
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.A_BB_CCC' id='140413589947584'>
+'A BB CCC -v':
+--------------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.A_BB_CCC' id='140413589947584'>
+'A BB CCC -c':
+--------------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.A_BB_CCC' id='140413589947584'>
+'A BB CCC -v -c':
+-----------------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.A_BB_CCC' id='140413589947584'>
+
+
+NODE :: 'AA':
+---------------
+usage: ipython AA [-h] [-c] [-v] {BB,BBB,B} ...
+
+positional arguments:
+  {BB,BBB,B}
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             AA [optional pi]
+  -v, --verbose  AA verbosity
+
+
+'AA':
+-----
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.AA' id='140413590449792'>
+'AA -v':
+--------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.AA' id='140413590449792'>
+'AA -c':
+--------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.AA' id='140413590449792'>
+'AA -v -c':
+-----------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.AA' id='140413590449792'>
+
+
+NODE :: 'AA B':
+-----------------
+usage: ipython AA B [-h] [-c] [-v]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             AA B [optional pi]
+  -v, --verbose  AA B verbosity
+
+
+'AA B':
+-------
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.AA_B' id='140413590447008'>
+'AA B -v':
+----------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.AA_B' id='140413590447008'>
+'AA B -c':
+----------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.AA_B' id='140413590447008'>
+'AA B -v -c':
+-------------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.AA_B' id='140413590447008'>
+
+
+NODE :: 'AA BB':
+------------------
+usage: ipython AA BB [-h] [-c] [-v] {CCC,CC,C} ...
+
+positional arguments:
+  {CCC,CC,C}
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             AA BB [optional pi]
+  -v, --verbose  AA BB verbosity
+
+
+'AA BB':
+--------
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.AA_BB' id='140413589948064'>
+'AA BB -v':
+-----------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.AA_BB' id='140413589948064'>
+'AA BB -c':
+-----------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.AA_BB' id='140413589948064'>
+'AA BB -v -c':
+--------------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.AA_BB' id='140413589948064'>
+
+
+NODE :: 'AA BB C':
+--------------------
+usage: ipython AA BB C [-h] [-c] [-v]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             AA BB C [optional pi]
+  -v, --verbose  AA BB C verbosity
+
+
+'AA BB C':
+----------
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.AA_BB_C' id='140413589947920'>
+'AA BB C -v':
+-------------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.AA_BB_C' id='140413589947920'>
+'AA BB C -c':
+-------------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.AA_BB_C' id='140413589947920'>
+'AA BB C -v -c':
+----------------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.AA_BB_C' id='140413589947920'>
+
+
+NODE :: 'AA BB CC':
+---------------------
+usage: ipython AA BB CC [-h] [-c] [-v]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             AA BB CC [optional pi]
+  -v, --verbose  AA BB CC verbosity
+
+
+'AA BB CC':
+-----------
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.AA_BB_CC' id='140413589947776'>
+'AA BB CC -v':
+--------------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.AA_BB_CC' id='140413589947776'>
+'AA BB CC -c':
+--------------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.AA_BB_CC' id='140413589947776'>
+'AA BB CC -v -c':
+-----------------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.AA_BB_CC' id='140413589947776'>
+
+
+NODE :: 'AA BB CCC':
+----------------------
+usage: ipython AA BB CCC [-h] [-c] [-v]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -c             AA BB CCC [optional pi]
+  -v, --verbose  AA BB CCC verbosity
+
+
+'AA BB CCC':
+------------
+	args: {'c': None, 'verbose': False}
+	<Mock name='mock.AA_BB_CCC' id='140413589947440'>
+'AA BB CCC -v':
+---------------
+	args: {'c': None, 'verbose': True}
+	<Mock name='mock.AA_BB_CCC' id='140413589947440'>
+'AA BB CCC -c':
+---------------
+	args: {'c': 3.141593, 'verbose': False}
+	<Mock name='mock.AA_BB_CCC' id='140413589947440'>
+'AA BB CCC -v -c':
+------------------
+	args: {'c': 3.141593, 'verbose': True}
+	<Mock name='mock.AA_BB_CCC' id='140413589947440'>
+\end{verbatim}
+
+\newpage
+\subsection{Let's build the interface for a TO-DO app}
+\label{sec:orgd3e90b7}
+The \texttt{examples} folder in the source distribution contains a TO-DO app.
+The app
+
+\begin{enumerate}
+\item illustrates a sufficiently realistic, but not overly complex, problem;
+\item illustrates operation of the MVC pattern in the wild;
+\item shows how \texttt{parsearg} neatly segments the View component of MVC with a \texttt{dict}.
+\end{enumerate}
+
+Let's start with the outer layer of the onion. How do we interact with
+\texttt{todos.py}?  First, we can create some users in a \texttt{User} table with the 
+\texttt{create user} subcommand of \texttt{todos.py}.  Note that we do not (yet) have a phone
+number for user \texttt{Dick}, nor do we have an email address for user \texttt{Harry}:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{bash}
+python todos.py create user Tom -e tom@email.com -p 212-555-1234
+python todos.py create user Dick -e dick@email.com
+python todos.py create user Harry -p 212-123-5555
+\end{minted}
+
+\begin{verbatim}
+'create user Tom -e tom@email.com -p 212-555-1234':
+---------------------------------------------------
+	SUCCESS
+'create user Dick -e dick@email.com':
+-------------------------------------
+	SUCCESS
+'create user Harry -p 212-123-5555':
+------------------------------------
+	SUCCESS
+\end{verbatim}
+
+
+Second, create some TO-DOs in the \texttt{Todo} table with the \texttt{create todo} subcommand of \texttt{todos.py}. 
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{bash}
+python todos.py create todo Tom title1 -c description1 -d 2020-11-30
+python todos.py create todo Tom title2 -c description2 --due-date=2020-12-31
+python todos.py create todo Harry todo-1 --description=Christmas-party -d 2020-11-30
+python todos.py create todo Harry todo-2 --description=New-Year-party
+\end{minted}
+
+\begin{verbatim}
+'create todo Tom title1 -c description1 -d 2020-11-30':
+-------------------------------------------------------
+	SUCCESS
+'create todo Tom title2 -c description2 --due-date=2020-12-31':
+---------------------------------------------------------------
+	SUCCESS
+'create todo Harry todo-1 --description=Christmas-party -d 2020-11-30':
+-----------------------------------------------------------------------
+	SUCCESS
+'create todo Harry todo-2 --description=New-Year-party':
+--------------------------------------------------------
+	SUCCESS
+\end{verbatim}
+
+Let's make some changes to the records entered so far. We can add an email address
+for user \texttt{Harry} (using the \texttt{update user email} subcommands) and a phone number for user \texttt{Dick} 
+(using the \texttt{update user phone} subcommands):
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{bash}
+python todos.py update user email Harry harry@email.com
+python todos.py update user phone Dick 203-555-1212
+\end{minted}
+
+\begin{verbatim}
+'update user email Harry harry@email.com':
+------------------------------------------
+	SUCCESS
+'update user phone Dick 203-555-1212':
+--------------------------------------
+	SUCCESS
+\end{verbatim}
+
+
+Now update two of the TO-DOs, changing the \texttt{title} (using the \texttt{update todo
+title} subcommands) and the \texttt{description} (using the \texttt{update todo description}
+subcommands) in the fourth TO-DO:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{bash}
+python todos.py update todo title 4 most-important
+python todos.py update todo description 4 2021-party
+\end{minted}
+
+\begin{verbatim}
+'update todo title 4 most-important':
+-------------------------------------
+	SUCCESS
+'update todo description 4 2021-party':
+---------------------------------------
+	SUCCESS
+\end{verbatim}
+
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{bash}
+python todos.py show users
+python todos.py show todos
+\end{minted}
+
+\begin{verbatim}
+'show users':
+-------------
+	SUCCESS
+'show todos':
+-------------
+	SUCCESS
+\end{verbatim}
+
+
+The result of these commands is that the two tables (\texttt{User} and \texttt{Todo})
+are populated in a \href{https://www.sqlite.org/index.html}{SQLite} database:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{bash}
+sqlite3 todo.db 'select * from User;'
+\end{minted}
+
+\begin{verbatim}
+Tom|tom@email.com|212-555-1234|2023-08-22 18:09:37
+Dick|dick@email.com|203-555-1212|2023-08-22 18:09:37
+Harry|harry@email.com|212-123-5555|2023-08-22 18:09:37
+\end{verbatim}
+
+
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{bash}
+sqlite3 todo.db 'select * from Todo;'
+\end{minted}
+
+\begin{verbatim}
+292|title1|description1|2020-11-30|2023-08-22 18:09:37|Tom
+293|title2|description2|2020-12-31|2023-08-22 18:09:38|Tom
+294|todo-1|Christmas-party|2020-11-30|2023-08-22 18:09:38|Harry
+295|todo-2|New-Year-party|None|2023-08-22 18:09:38|Harry
+\end{verbatim}
+
+
+Let's look at the Python code 
+for \href{https://raw.githubusercontent.com/tharte/parsearg/master/doc/examples/todos.py}{\texttt{todos.py}}.
+
+
+The View component is entirely contained within a single \texttt{dict}, \emph{viz.} 
+\texttt{view}, which has been formatted here for clarity using \texttt{parsearg.utils.show}:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+from examples.todos import view
+from parsearg.utils import show
+
+show(view)
+\end{minted}
+
+\begin{verbatim}
+'purge|users':
+    'callback':
+    <function purge_users at 0x7fa92bce5430>
+'purge|todos':
+    'callback':
+    <function purge_todos at 0x7fa92bcf0160>
+'show|users':
+    'callback':
+    <function show_users at 0x7fa92bcf01f0>
+'show|todos':
+    'callback':
+    <function show_todos at 0x7fa92bcf0280>
+'create|user':
+    'callback':
+    <function create_user at 0x7fa92bcf0310>
+    'name':
+    {'help': 'create user name', 'action': 'store'}
+    '-e|--email':
+    {'help': "create user's email address", 'action': 'store', 'default': ''}
+    '-p|--phone':
+    {'help': "create user's phone number", 'action': 'store', 'default': ''}
+'create|todo':
+    'callback':
+    <function create_todo at 0x7fa92bcf03a0>
+    'user':
+    {'help': 'user name', 'action': 'store'}
+    'title':
+    {'help': 'title of to-do', 'action': 'store'}
+    '-c|--description':
+    {'help': 'description of to-do', 'action': 'store', 'default': ''}
+    '-d|--due-date':
+    {'help': 'due date for the to-do', 'action': 'store', 'default': None}
+'update|user|email':
+    'callback':
+    <function update_user_email at 0x7fa92bcf0430>
+    'name':
+    {'help': 'user name', 'action': 'store'}
+    'email':
+    {'help': 'user email', 'action': 'store'}
+'update|user|phone':
+    'callback':
+    <function update_user_phone at 0x7fa92bcf04c0>
+    'name':
+    {'help': 'user name', 'action': 'store'}
+    'phone':
+    {'help': 'user phone', 'action': 'store'}
+'update|todo|title':
+    'callback':
+    <function update_todo_title at 0x7fa92bcf0550>
+    'id':
+    {'help': 'ID of to-do', 'action': 'store'}
+    'title':
+    {'help': 'title of to-do', 'action': 'store'}
+'update|todo|description':
+    'callback':
+    <function update_todo_description at 0x7fa92bcf05e0>
+    'id':
+    {'help': 'ID of to-do', 'action': 'store'}
+    'description':
+    {'help': 'description of to-do', 'action': 'store'}
+
+
+\end{verbatim}
+
+We can generate a tree view of the CLI design specified by the above \texttt{dict},
+namely \texttt{view}, as follows:
+\begin{minted}[frame=single,fontsize=\scriptsize,linenos,bgcolor=lightblue,mathescape=true]{python}
+from parsearg import ParseArg
+
+print(
+    ParseArg(d=view, root_name='TODO').tree.show(quiet=True)
+)
+\end{minted}
+
+\begin{verbatim}
+TODO
+    create
+        user
+        todo
+    show
+        todos
+        users
+    update
+        user
+            email
+            phone
+        todo
+            description
+            title
+    purge
+        todos
+        users
+
+
+\end{verbatim}
+
+\newpage
+\end{document}
