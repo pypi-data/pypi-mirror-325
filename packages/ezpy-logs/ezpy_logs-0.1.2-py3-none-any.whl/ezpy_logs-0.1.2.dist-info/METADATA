@@ -1,0 +1,66 @@
+Metadata-Version: 2.4
+Name: ezpy_logs
+Version: 0.1.2
+Summary: EzPy Logs: swiss knife logging for personal use
+Project-URL: Homepage, https://github.com/ezalos/ezpy_logs
+Project-URL: Repository, https://github.com/ezalos/ezpy_logs
+Author-email: ezalos <ezalos@github.com>
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Logging
+Requires-Python: >=3.10
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: pytest>=8.3.4
+Requires-Dist: python-dateutil>=2.9.0.post0
+Description-Content-Type: text/markdown
+
+# EZPY Logs
+
+Package for my personal use, swiss knife logging :
+- When logging, has a nice formatter with file line and datetime
+- Colorful logger
+- Easy import / use
+- Save to files, with errors
+- Auto delete old logs
+
+## Install
+
+```
+```
+
+## Usage
+
+```sh
+uv run python hello.py
+```
+
+## Dev
+
+### Local env setup
+
+```sh
+uv venv
+venv/bin/avtivate
+uv sync
+```
+
+### TESTING 
+
+```sh
+uv run python -m pytest -s -v tests/test_logger.py
+```
+
+### Publishing
+
+Change version in `pyproject.toml`
+
+```sh
+rm -rf dist
+python -m build
+twine upload dist/*
+```
