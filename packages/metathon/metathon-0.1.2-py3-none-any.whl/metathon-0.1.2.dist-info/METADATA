@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: metathon
+Version: 0.1.2
+Summary: A Python wrapper for Meta social media API's
+Home-page: https://pypi.org/project/metathon
+Author: Moh Iqbal Hidayat
+Author-email: iqbalmh18.dev@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/plain
+Requires-Dist: requests
+Requires-Dist: pycryptodomex
+
+Metathon is a lightweight and user-friendly Python wrapper designed to interact seamlessly with Meta's social media platforms, including Threads, Facebook, and Instagram. It simplifies API integrations, making it easier for developers to build and manage social media automation, analytics, and content publishing solutions.
