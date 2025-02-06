@@ -1,0 +1,8 @@
+bbqs-model-zoo/__init__.py,sha256=W8OAq_8Pwg9EpqVML1i07DrttQ9fkE2rLUe8_h5Wlno,48
+bbqs-model-zoo/app.py,sha256=09o2vQ9Ppqrk10XIXmBe0AdRw753w_dMPfLrPXuSD9Q,288
+bbqs-model-zoo/cli.py,sha256=QY4DoVgswH0OTIyPSTGl4Xw7EkyXe-VmDdHpaMDijmU,365
+bbqs_model_zoo-0.0.1.dist-info/LICENSE.txt,sha256=ieEKJ-VczfHpbzAARBk5cBwN-Qfu4_jjKLNpnH1JyAg,9161
+bbqs_model_zoo-0.0.1.dist-info/METADATA,sha256=ir5Igz341oNOxVkaxTVdQiJsso0t5zD2FGJcJG2P7jg,8842
+bbqs_model_zoo-0.0.1.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+bbqs_model_zoo-0.0.1.dist-info/entry_points.txt,sha256=itm3LX20kMuqk_NkgYgFeiCpXKHRcULoiwdtJpPTICg,62
+bbqs_model_zoo-0.0.1.dist-info/RECORD,,

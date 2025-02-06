@@ -1,0 +1,3 @@
+[console_scripts]
+bbqs-model-zoo-cli=bbqs-model-zoo.cli:main
+
