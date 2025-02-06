@@ -1,0 +1,47 @@
+Metadata-Version: 2.4
+Name: cleanlab-tlm
+Version: 0.0.1a1
+Summary: Python client library for Cleanlab Trustworthy Language Model
+Project-URL: Documentation, https://github.com/cleanlab/cleanlab-tlm#readme
+Project-URL: Issues, https://github.com/cleanlab/cleanlab-tlm/issues
+Project-URL: Source, https://github.com/cleanlab/cleanlab-tlm
+Author-email: Cleanlab Inc <team@cleanlab.ai>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: aiohttp>=3.8.1
+Requires-Dist: nest-asyncio>=1.5.0
+Requires-Dist: pandas==2.*
+Requires-Dist: requests>=2.27.1
+Requires-Dist: semver<3.0.0,>=2.13.0
+Requires-Dist: tqdm>=4.64.0
+Requires-Dist: typing-extensions>=4.2.0
+Description-Content-Type: text/markdown
+
+# Cleanlab Trustworthy Language Model (TLM) [![Build Status](https://github.com/cleanlab/cleanlab-tlm/actions/workflows/ci.yml/badge.svg)](https://github.com/cleanlab/cleanlab-tlm/actions/workflows/ci.yml) [![PyPI - Version](https://img.shields.io/pypi/v/cleanlab-tlm.svg)](https://pypi.org/project/cleanlab-tlm) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cleanlab-tlm.svg)](https://pypi.org/project/cleanlab-tlm)
+
+---
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install cleanlab-tlm
+```
+
+## License
+
+`cleanlab-tlm` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
