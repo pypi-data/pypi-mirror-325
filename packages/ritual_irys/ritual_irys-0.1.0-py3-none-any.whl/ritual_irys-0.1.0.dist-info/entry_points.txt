@@ -1,0 +1,3 @@
+[console_scripts]
+ritual-irys=ritual_irys:main
+
