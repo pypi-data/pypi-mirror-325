@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: py_bcu
+Version: 1.0.5
+Summary: Interact with the BCU's (Banco Central del Uruguay) webservices.
+Home-page: https://github.com/martinmanzo/py_bcu/
+Author: Martin Manzo
+Author-email: 
+License: MIT
+License-File: LICENSE
+Requires-Dist: zeep==4.3.1
+Dynamic: author
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
