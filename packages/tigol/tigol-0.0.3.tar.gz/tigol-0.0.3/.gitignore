@@ -1,0 +1,4 @@
+**/.venv
+**/dist
+.pypi_token
+*.pyc
