@@ -1,0 +1,8 @@
+
+[docs]
+numpydoc
+
+[tests]
+coverage
+pytest
+pytest-cov
