@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+mmm_fair/__init__.py
+mmm_fair/mmm_fair.py
+mmm_fair.egg-info/PKG-INFO
+mmm_fair.egg-info/SOURCES.txt
+mmm_fair.egg-info/dependency_links.txt
+mmm_fair.egg-info/requires.txt
+mmm_fair.egg-info/top_level.txt
+tests/test_mmm_fair.py
