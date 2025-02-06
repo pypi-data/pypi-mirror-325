@@ -1,0 +1,12 @@
+crispy-bootstrap5
+docutils
+django
+django-crispy-forms
+django-debug-toolbar
+django-glue
+dandy
+Pygments
+psycopg2
+python-dateutil
+setuptools
+typing_extensions
