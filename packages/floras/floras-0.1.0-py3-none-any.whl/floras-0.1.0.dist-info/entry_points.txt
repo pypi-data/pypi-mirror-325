@@ -1,0 +1,5 @@
+[console_scripts]
+from_json = floras.main:main
+
+[gui_scripts]
+
