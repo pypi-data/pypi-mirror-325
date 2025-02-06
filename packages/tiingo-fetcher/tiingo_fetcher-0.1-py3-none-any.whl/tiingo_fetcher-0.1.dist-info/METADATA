@@ -1,0 +1,72 @@
+Metadata-Version: 2.2
+Name: tiingo_fetcher
+Version: 0.1
+Summary: Fetch large amounts of historical stock data from Tiingo for free.
+Home-page: https://github.com/chaikrk/tiingo-data-fetcher
+Author: Abdulmalik ALossimi
+Author-email: abdulmalikosaimy@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: python-dateutil
+Requires-Dist: python-dotenv
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# 📈 Tiingo Fetcher - A Python Library for Fetching Market Data
+
+[![PyPI version](https://badge.fury.io/py/tiingo-fetcher.svg)](https://pypi.org/project/tiingo-fetcher/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+## 📌 About
+`tiingo_fetcher` is a **lightweight Python library** that helps you **fetch large amounts of historical stock data for free** using the **[Tiingo API](https://www.tiingo.com/)**.
+
+🚀 Unlike other APIs that limit minute-level data to **7 days**, **Tiingo Fetcher** allows you to retrieve **up to 9 years** of **minute, hourly, and daily data** efficiently.
+
+---
+
+## 📦 **Installation**
+Before using the package, you need to install it via `pip`:
+
+```bash
+pip install tiingo-fetcher
+
+
+🔑 Setup: Get a Tiingo API Key
+Sign up for a free Tiingo account: https://www.tiingo.com/
+
+Generate your API key from the Account → API Section.
+
+
+env
+Copy
+Edit
+TIINGO_API_KEY=your_actual_api_key_here
+🚀 Usage
+1️⃣ Fetching Historical Stock Data
+You can use the package to fetch minute, hourly, or daily stock data.
+
+python
+Copy
+Edit
+from tiingo_fetcher.data_fetcher import fetch_stock
+
+data = fetch_stock("AAPL", "2023-01-01", "2023-02-01", "1min")
+print(data.head())
+📖 Example Usage in CLI
+You can also run it from the command line:
+
+bash
+Copy
+Edit
+python example_usage/test.py
