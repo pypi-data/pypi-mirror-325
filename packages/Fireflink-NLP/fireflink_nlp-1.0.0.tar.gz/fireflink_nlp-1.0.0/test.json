@@ -1,0 +1,463 @@
+{
+    "steps": [
+      {
+        "name": "Start iteration using dtaa Dataprovider",
+        "type": "_startiteration",
+        "nlpName": "StartIteration",
+        "executionOrder": 1,
+        "nlpId": "NLP1392",
+        "passMessage": "",
+        "failMessage": "",
+        "stepInputs": [
+          {
+            "value": "dtaa",
+            "name": "dataProviderName",
+            "type": "java.lang.String"
+          }
+        ],
+        "skip": false,
+        "returnType": "Void",
+        "displayName": "Start iteration using dtaa Dataprovider",
+        "defaultDisplayName": "Start iteration *dataProviderName*",
+        "stepId": "STP82711M5D9H18M34S32M532R24",
+        "toolTip": "Start iteration using dtaa Dataprovider",
+        "defaultToolTip": "Start iteration *dataProviderName*",
+        "hierarchy": 0,
+        "specialNlpId": "itr_736",
+        "isSpecialNlp": true,
+        "marginLeft": 0,
+        "dataProviderVariables": [
+          {
+            "subParentId": "SCR1049",
+            "colName": "dummy",
+            "dpName": "dtaa",
+            "deleteUsers": [],
+            "excludeUsers": [],
+            "type": "DATAPROVIDER",
+            "varname": "dummy",
+            "parentId": "MOD1039",
+            "parentType": "module",
+            "users": [],
+            "isSystemVariable": false,
+            "updatedStatus": false,
+            "activeStatus": false,
+            "encrypt": false
+          },
+          {
+            "subParentId": "SCR1049",
+            "colName": "key",
+            "dpName": "dtaa",
+            "deleteUsers": [],
+            "excludeUsers": [],
+            "type": "DATAPROVIDER",
+            "varname": "key",
+            "parentId": "MOD1039",
+            "parentType": "module",
+            "users": [],
+            "isSystemVariable": false,
+            "updatedStatus": false,
+            "activeStatus": false,
+            "encrypt": false
+          }
+        ],
+        "isAfterBreakStep": false,
+        "isAfterContinueStep": false
+      },
+      {
+        "name": "End iteration for dtaa Dataprovider",
+        "type": "_enditeration",
+        "nlpName": "EndIteration",
+        "executionOrder": 2,
+        "nlpId": "NLP1393",
+        "passMessage": "",
+        "failMessage": "",
+        "stepInputs": [],
+        "skip": false,
+        "returnType": "Void",
+        "displayName": "End iteration for dtaa Dataprovider",
+        "stepId": "STP55442M5D9H18M34S32M533R51",
+        "toolTip": "End iteration for dtaa Dataprovider",
+        "hierarchy": 0,
+        "specialNlpId": "itr_736",
+        "isSpecialNlp": true,
+        "marginLeft": 0,
+        "isAfterBreakStep": false,
+        "isAfterContinueStep": false
+      },
+      {
+        "name": "OpenBrowser",
+        "type": "Group",
+        "nlpName": "OpenBrowser",
+        "executionOrder": 1.5,
+        "nlpId": "STP_GRP1028",
+        "stepInputs": [
+          {
+            "value": "MARK_THIS_STEP_AS_FAILED_AND_CONTINUE_SCRIPT_EXECUTION",
+            "name": "ifCheckPointIsFailed",
+            "type": "java.lang.String"
+          }
+        ],
+        "skip": false,
+        "returnType": "void",
+        "libraryId": "LIB1029",
+        "stepGroupId": "STP_GRP1028",
+        "displayName": "OpenBrowser",
+        "defaultDisplayName": "OpenBrowser",
+        "stepId": "STP68355M5D9H18M34S36M900R9",
+        "toolTip": "Open and Close Browser : OpenBrowser : Web",
+        "defaultToolTip": "Open and Close Browser : OpenBrowser : Web",
+        "hierarchy": 0,
+        "parentSpecialNlpId": "itr_736",
+        "marginLeft": 0,
+        "isIterationStep": true,
+        "isAfterBreakStep": false,
+        "isAfterContinueStep": false
+      },
+      {
+        "name": "Maximize browser window",
+        "type": "step",
+        "nlpName": "MaximizeBrowser",
+        "executionOrder": 1.75,
+        "nlpId": "NLP1199",
+        "passMessage": "Browser window is maximized",
+        "failMessage": "Failed to maximize browser window",
+        "stepInputs": [
+          {
+            "value": "MARK_THIS_STEP_AS_FAILED_AND_CONTINUE_SCRIPT_EXECUTION",
+            "name": "ifCheckPointIsFailed",
+            "type": "java.lang.String"
+          }
+        ],
+        "skip": false,
+        "returnType": "void",
+        "displayName": "Maximize browser window",
+        "defaultDisplayName": "Maximize browser window",
+        "stepId": "STP84006M5D9H18M34S41M630R43",
+        "toolTip": "Maximize browser window",
+        "defaultToolTip": "Maximize browser window",
+        "hierarchy": 0,
+        "parentSpecialNlpId": "itr_736",
+        "marginLeft": 0,
+        "isIterationStep": true,
+        "isAfterBreakStep": false,
+        "isAfterContinueStep": false
+      },
+      {
+        "name": "Navigate to URL https://www.amazon.in/",
+        "type": "step",
+        "nlpName": "NavigateToURL",
+        "executionOrder": 1.875,
+        "nlpId": "NLP1203",
+        "passMessage": "Navigated to URL *url*",
+        "failMessage": "Failed to navigate to URL *url*",
+        "stepInputs": [
+          {
+            "value": "https://www.amazon.in/",
+            "name": "url",
+            "type": "java.lang.String"
+          },
+          {
+            "value": "MARK_THIS_STEP_AS_FAILED_AND_CONTINUE_SCRIPT_EXECUTION",
+            "name": "ifCheckPointIsFailed",
+            "type": "java.lang.String"
+          }
+        ],
+        "skip": false,
+        "returnType": "void",
+        "displayName": "Navigate to URL https://www.amazon.in/",
+        "defaultDisplayName": "Navigate to URL *url*",
+        "stepId": "STP81598M5D9H18M34S59M155R28",
+        "toolTip": "Navigate to URL https://www.amazon.in/",
+        "defaultToolTip": "Navigate to URL *url*",
+        "hierarchy": 0,
+        "parentSpecialNlpId": "itr_736",
+        "marginLeft": 0,
+        "isIterationStep": true,
+        "isAfterBreakStep": false,
+        "isAfterContinueStep": false
+      },
+      {
+        "name": "Enter dtaa:dummy into search area textarea",
+        "type": "step",
+        "nlpName": "SendKeys",
+        "executionOrder": 1.9375,
+        "nlpId": "NLP1175",
+        "passMessage": "Entered *input* into *elementName* *elementType*",
+        "failMessage": "Failed to enter *input* into *elementName* *elementType*",
+        "elementDetails": [
+          {
+            "executionOrder": 0,
+            "name": "search area",
+            "type": "textarea",
+            "locatorsCount": 1,
+            "locators": [
+              {
+                "value": "//input[@id='twotabsearchtextbox']",
+                "type": "static",
+                "name": "xpath",
+                "status": "NOT_USED",
+                "isRecorded": "N",
+                "priority": "",
+                "defaultAddedFirst": false,
+                "defaultAddedSecond": false
+              }
+            ],
+            "folder": false,
+            "elementId": "ELE1001",
+            "commit": false,
+            "publish": false,
+            "newState": false,
+            "activeStatus": false,
+            "updatedStatus": false,
+            "parentId": "PAG1026"
+          }
+        ],
+        "stepInputs": [
+          {
+            "value": "amazon page:search area",
+            "name": "elementName",
+            "type": "java.lang.String"
+          },
+          {
+            "value": "textarea",
+            "name": "elementType",
+            "type": "java.lang.String"
+          },
+          {
+            "value": "dtaa:dummy",
+            "name": "input",
+            "type": "java.lang.String",
+            "reference": "DATAPROVIDER"
+          },
+          {
+            "value": "PAG1026:null",
+            "name": "element",
+            "type": "org.openqa.selenium.WebElement",
+            "reference": "ELEMENT",
+            "locators": [
+              {
+                "value": "//input[@id='twotabsearchtextbox']",
+                "type": "static",
+                "name": "xpath",
+                "status": "NOT_USED",
+                "isRecorded": "N",
+                "priority": "",
+                "defaultAddedFirst": false,
+                "defaultAddedSecond": false
+              }
+            ]
+          },
+          {
+            "value": "MARK_THIS_STEP_AS_FAILED_AND_CONTINUE_SCRIPT_EXECUTION",
+            "name": "ifCheckPointIsFailed",
+            "type": "java.lang.String"
+          }
+        ],
+        "skip": false,
+        "returnType": "void",
+        "displayName": "Enter dtaa:dummy into search area textarea",
+        "defaultDisplayName": "Enter *input* into *elementName* *elementType*",
+        "stepId": "STP98320M5D9H18M35S12M609R83",
+        "toolTip": "Enter dtaa:dummy into search area textarea in amazon page page",
+        "defaultToolTip": "Enter *input* into *elementName* *elementType* in *elementPage* page",
+        "hierarchy": 0,
+        "parentSpecialNlpId": "itr_736",
+        "marginLeft": 0,
+        "isIterationStep": true,
+        "isAfterBreakStep": false,
+        "isAfterContinueStep": false
+      },
+      {
+        "name": "Click on button button",
+        "type": "step",
+        "nlpName": "Click",
+        "executionOrder": 1.96875,
+        "nlpId": "NLP1164",
+        "passMessage": "Clicked on *elementName* *elementType*",
+        "failMessage": "Failed to click on *elementName* *elementType* in *elementPage* page",
+        "elementDetails": [
+          {
+            "executionOrder": 0,
+            "name": "button",
+            "type": "button",
+            "locatorsCount": 1,
+            "locators": [
+              {
+                "value": "//input[@id='nav-search-submit-button']",
+                "type": "static",
+                "name": "xpath",
+                "status": "NOT_USED",
+                "isRecorded": "N",
+                "priority": "",
+                "defaultAddedFirst": false,
+                "defaultAddedSecond": false
+              }
+            ],
+            "folder": false,
+            "elementId": "ELE1002",
+            "commit": false,
+            "publish": false,
+            "newState": false,
+            "activeStatus": false,
+            "updatedStatus": false,
+            "parentId": "PAG1026"
+          }
+        ],
+        "stepInputs": [
+          {
+            "value": "amazon page:button",
+            "name": "elementName",
+            "type": "java.lang.String"
+          },
+          {
+            "value": "button",
+            "name": "elementType",
+            "type": "java.lang.String"
+          },
+          {
+            "value": "PAG1026:null",
+            "name": "element",
+            "type": "org.openqa.selenium.WebElement",
+            "reference": "ELEMENT",
+            "locators": [
+              {
+                "value": "//input[@id='nav-search-submit-button']",
+                "type": "static",
+                "name": "xpath",
+                "status": "NOT_USED",
+                "isRecorded": "N",
+                "priority": "",
+                "defaultAddedFirst": false,
+                "defaultAddedSecond": false
+              }
+            ]
+          },
+          {
+            "value": "MARK_THIS_STEP_AS_FAILED_AND_CONTINUE_SCRIPT_EXECUTION",
+            "name": "ifCheckPointIsFailed",
+            "type": "java.lang.String"
+          }
+        ],
+        "skip": false,
+        "returnType": "void",
+        "displayName": "Click on button button",
+        "defaultDisplayName": "Click on *elementName* *elementType*",
+        "stepId": "STP29695M5D9H18M35S26M418R55",
+        "toolTip": "Click on button button in amazon page page",
+        "defaultToolTip": "Click on *elementName* *elementType* in *elementPage* page",
+        "hierarchy": 0,
+        "parentSpecialNlpId": "itr_736",
+        "marginLeft": 0,
+        "isIterationStep": true,
+        "isAfterBreakStep": false,
+        "isAfterContinueStep": false
+      },
+      {
+        "name": "CloseBrowser",
+        "type": "Group",
+        "nlpName": "CloseBrowser",
+        "executionOrder": 1.984375,
+        "nlpId": "STP_GRP1029",
+        "stepInputs": [
+          {
+            "value": "MARK_THIS_STEP_AS_FAILED_AND_CONTINUE_SCRIPT_EXECUTION",
+            "name": "ifCheckPointIsFailed",
+            "type": "java.lang.String"
+          }
+        ],
+        "skip": false,
+        "returnType": "void",
+        "libraryId": "LIB1029",
+        "stepGroupId": "STP_GRP1029",
+        "displayName": "CloseBrowser",
+        "defaultDisplayName": "CloseBrowser",
+        "stepId": "STP85207M5D9H18M35S31M214R75",
+        "toolTip": "Open and Close Browser : CloseBrowser : Web",
+        "defaultToolTip": "Open and Close Browser : CloseBrowser : Web",
+        "hierarchy": 0,
+        "parentSpecialNlpId": "itr_736",
+        "marginLeft": 0,
+        "isIterationStep": true,
+        "isAfterBreakStep": false,
+        "isAfterContinueStep": false
+      }
+    ],
+    "stepCount": 8,
+    "hierarchy": 2,
+    "dataProvider": [
+      {
+        "_id": "DATA_PROVIDER1001",
+        "name": "dtaa",
+        "type": "Excluding pre post condition",
+        "steps": [],
+        "fileId": "FILE1002",
+        "sheetName": "Sheet1",
+        "fromRow": "1",
+        "toRow": "2",
+        "iterationType": "All iterations as one script",
+        "columns": [],
+        "dataProviderList": [],
+        "index": 0,
+        "includePrePostCondition": false,
+        "sheetdata": [],
+        "variables": [
+          {
+            "varname": "dummy",
+            "dpName": "dtaa",
+            "colName": "dummy",
+            "parentType": "module",
+            "subParentId": "SCR1049",
+            "encrypt": false,
+            "type": "DATAPROVIDER",
+            "isSystemVariable": false,
+            "users": [],
+            "excludeUsers": [],
+            "deleteUsers": [],
+            "activeStatus": false,
+            "updatedStatus": false,
+            "parentId": "MOD1039"
+          },
+          {
+            "varname": "key",
+            "dpName": "dtaa",
+            "colName": "key",
+            "parentType": "module",
+            "subParentId": "SCR1049",
+            "encrypt": false,
+            "type": "DATAPROVIDER",
+            "isSystemVariable": false,
+            "users": [],
+            "excludeUsers": [],
+            "deleteUsers": [],
+            "activeStatus": false,
+            "updatedStatus": false,
+            "parentId": "MOD1039"
+          }
+        ],
+        "createdBy": "USR4816",
+        "modifiedBy": "--",
+        "createdByUname": "syed",
+        "modifiedByUname": "--",
+        "createdOn": "2023-07-10T10:47:24.471Z",
+        "modifiedOn": "--",
+        "state": "NEW",
+        "ver": 1
+      }
+    ],
+    "preConditionCount": 0,
+    "postConditionCount": 0,
+    "dependentScriptCount": 0,
+    "createdBy": "USR4816",
+    "modifiedBy": "--",
+    "createdByUname": "syed",
+    "modifiedByUname": "--",
+    "createdOn": "2023-07-10T10:47:24.457Z",
+    "modifiedOn": "--",
+    "state": "NEW",
+    "path": "/Root/Data p/normal",
+    "searchKey": "/MOD1036/MOD1039/SCR1049",
+    "parentId": "MOD1039",
+    "parentName": "Data p",
+    "ver": 1,
+    "_class": "com.tyss.optimize.data.models.db.model.Script"
+  }
