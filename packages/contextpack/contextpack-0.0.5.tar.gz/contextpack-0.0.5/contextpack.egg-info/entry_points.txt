@@ -1,0 +1,2 @@
+[nbdev]
+contextpack = contextpack._modidx:d
