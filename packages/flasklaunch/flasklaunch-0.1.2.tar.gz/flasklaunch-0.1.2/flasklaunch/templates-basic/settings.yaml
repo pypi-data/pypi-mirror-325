@@ -1,0 +1,28 @@
+# app/config/settings.yaml
+
+default:
+  DEBUG: false
+  EXTENSIONS: []
+  DATABASE:
+    ENGINE: sqlite  # Opções: sqlite, mysql, postgres
+    NAME: dev.db
+    USER: root
+    PASSWORD: ""
+    HOST: localhost
+    PORT: ""
+
+development:
+  DEBUG: true
+  DATABASE:
+    ENGINE: sqlite
+    NAME: dev.db
+
+production:
+  DEBUG: false
+  DATABASE:
+    ENGINE: mysql
+    NAME: prod_db
+    USER: user
+    PASSWORD: pass
+    HOST: localhost
+    PORT: 3306
