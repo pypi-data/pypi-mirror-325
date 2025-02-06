@@ -1,0 +1,3 @@
+### for running multigit
+pyside6
+concurrent-log-handler
