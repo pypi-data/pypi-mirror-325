@@ -1,0 +1,79 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "floras"
+description = "A package for network flow-based test synthesis."
+authors = [
+    { name = "floras developers", email = "tulip@tulip-control.org" },
+]
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dynamic = []
+keywords = [
+    "test synthesis",
+    "network flow",
+    "testing",
+]
+dependencies = [
+    "numpy>=1.24.1",
+    "gurobipy==11.0.3",
+    "imageio>=2.19.3",
+    "ipdb>=0.13.11",
+    "matplotlib>=3.9.2",
+    "networkx>=3.0",
+    "scipy>=1.10.1",
+    "tulip==1.4.0",
+    "pygraphviz>=1.13",
+    "jupyter>=1.1.1",
+]
+requires-python = ">=3.10,<3.13"
+version = "0.1.0"
+
+[project.license]
+text = "BSD-3-Clause"
+
+[project.urls]
+Homepage = "https://github.com/tulip-control/floras"
+"Bug Tracker" = "https://github.com/tulip-control/floras/issues"
+Documentation = "https://floras.sourceforge.io/"
+"Source Code" = "https://github.com/tulip-control/floras"
+
+[project.optional-dependencies]
+docs = [
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.5.34",
+    "mkdocstrings-python>=1.11.1",
+    "mkdocs-jupyter>=0.25.1",
+]
+tests = [
+    "pytest>=8.3.3",
+    "coverage>=7.6.1",
+]
+
+[project.scripts]
+from_json = "floras.main:main"
+
+[tool.setuptools.packages.find]
+
+[tool.pdm]
+package-dir = "src"
+
+[tool.pdm.version]
+source = "file"
+path = "src/floras/__version__.py"
+
+[tool.pdm.build]
+package-dir = "src"
+editable-backend = "editables"
