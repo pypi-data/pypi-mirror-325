@@ -1,0 +1,15 @@
+DataComparerLibrary/__init__.py,sha256=p7KMFEc8I5Pg-YMcZTpE9_9AORb3dwTzutEDGBsXEt0,258
+DataComparerLibrary/arraycomparer.py,sha256=irMMGNL5a4S0zxzg0jCchStQSnOVOQzgQ_15EGzV7Co,15462
+DataComparerLibrary/datacomparer.py,sha256=L5d7dz2I1dFsidyzWAv8w9a23vxsKPBj5d3DgkLKLyA,6236
+DataComparerLibrary/datasorter.py,sha256=iBRD2ZpwZ7-YfPCMQ6WDNYtuK8mCjhha94aPuYAeJZY,8612
+DataComparerLibrary/datetimehandler.py,sha256=RehD-WTi9MTnolwklJMIQvSvNX9kB3LIA3mExhOmC8U,5434
+DataComparerLibrary/delimitertranslator.py,sha256=4fyuqw7_kBg_5jhCBbDnmsVEnjBNWtgEtDs0jFLV6Tw,336
+DataComparerLibrary/fileconverter.py,sha256=6QEk8GIO5a3COTCtCoDsgTlGp6eh3giwrA41v9zkPo4,2694
+DataComparerLibrary/report.py,sha256=hwxWi1kba0tsXQUTD2BfrNMxZAKoxvOFHa5Bokhq4ls,1908
+DataComparerLibrary/tools.py,sha256=c-zH7KaGbDdcsGq-RlwefnJ2Gc6V6Vk3rT2akKem0Lk,208
+DataComparerLibrary/version.py,sha256=6eqA00dDGvt2y4R9c0kHvEaxTCrmFR73icTRt2TN-AQ,39
+DataComparerLibrary-0.845.dist-info/LICENSE.txt,sha256=AS_6qK6QJNUIGTkCBPMgi_2Hdf17QvWUv6SItaEW_DQ,11559
+DataComparerLibrary-0.845.dist-info/METADATA,sha256=U4RfHHqmNYZ9a_esaNquQmfAzoQSL7IsfOSfAfajxbI,16822
+DataComparerLibrary-0.845.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+DataComparerLibrary-0.845.dist-info/top_level.txt,sha256=xqVA6MQAkU8bV61QmrqOAKExnBNigJFSbo-E7P2KyG8,20
+DataComparerLibrary-0.845.dist-info/RECORD,,
