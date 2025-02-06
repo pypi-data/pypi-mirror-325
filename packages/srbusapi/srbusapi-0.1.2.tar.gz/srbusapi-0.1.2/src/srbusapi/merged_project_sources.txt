@@ -1,0 +1,894 @@
+-- \\wsl.localhost\Ubuntu\home\dule\workspace\projects\python-serbia-bus-api\src\srbusapi\crypto.py --
+import json
+from base64 import b64encode, b64decode
+
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad, unpad
+
+from srbusapi.exceptions import EncryptionError, DecryptionError
+
+
+def encrypt(base_dict: dict, b64_key: bytes, b64_iv: bytes) -> bytes:
+    """
+    Encrypts a dictionary using AES encryption in CBC mode.
+
+    :param base_dict: The dictionary to encrypt.
+    :param b64_key: The base64-encoded encryption key.
+    :param b64_iv: The base64-encoded initialization vector.
+    :return: The encrypted data, base64-encoded as bytes.
+    :raises EncryptionError: If encryption fails due to invalid input or other errors.
+    """
+    try:
+        if not isinstance(base_dict, dict):
+            raise EncryptionError("Input data must be a dictionary")
+        key = b64decode(b64_key)
+        iv = b64decode(b64_iv)
+
+        cipher = AES.new(key, AES.MODE_CBC, iv)
+        padded_data = pad(json.dumps(base_dict).encode("utf-8"), AES.block_size)
+
+        encrypted_data = cipher.encrypt(padded_data)
+        base64_encoded = b64encode(encrypted_data)
+
+        return base64_encoded
+    except (ValueError, TypeError) as e:
+        raise EncryptionError(f"Encryption failed: {str(e)}") from e
+
+
+def decrypt(cipher_text: bytes, b64_key: bytes, b64_iv: bytes) -> dict:
+    """
+    Decrypts data encrypted with AES encryption in CBC mode.
+
+    :param cipher_text: The encrypted data, base64-encoded as bytes.
+    :param b64_key: The base64-encoded encryption key.
+    :param b64_iv: The base64-encoded initialization vector.
+    :return: The decrypted data as a dictionary.
+    :raises DecryptionError: If decryption fails due to invalid input or other errors.
+    """
+    try:
+        key = b64decode(b64_key)
+        iv = b64decode(b64_iv)
+
+        cipher = AES.new(key, AES.MODE_CBC, iv)
+        decrypted = unpad(cipher.decrypt(b64decode(cipher_text)), AES.block_size)
+
+        return json.loads(decrypted.decode("utf-8"))
+    except (ValueError, TypeError, json.JSONDecodeError) as e:
+        raise DecryptionError(f"Decryption failed: {str(e)}") from e
+
+-- \\wsl.localhost\Ubuntu\home\dule\workspace\projects\python-serbia-bus-api\src\srbusapi\__init__.py --
+from srbusapi.caching.redis_cache import RedisCache
+from srbusapi.client import BeogradClient, NisClient, NoviSadClient
+
+__all__ = [BeogradClient, NisClient, NoviSadClient, RedisCache]
+
+-- \\wsl.localhost\Ubuntu\home\dule\workspace\projects\python-serbia-bus-api\src\srbusapi\py.typed --
+
+-- \\wsl.localhost\Ubuntu\home\dule\workspace\projects\python-serbia-bus-api\src\srbusapi\exceptions.py --
+class CacheError(Exception): ...
+
+
+class ConfigurationError(Exception): ...
+
+
+class EncryptionError(Exception): ...
+
+
+class DecryptionError(Exception): ...
+
+
+class APIError(Exception): ...
+
+-- \\wsl.localhost\Ubuntu\home\dule\workspace\projects\python-serbia-bus-api\src\srbusapi\config.py --
+"""
+This module contains configuration classes for different city systems, including base configurations
+and specific city implementations. It also defines AES encryption key handling.
+"""
+
+from dataclasses import dataclass
+
+
+class BaseCityConfig:
+    """Base configuration for a city's API and related details."""
+
+    name: str
+    url: str
+    api_key: str
+    stations_endpoint: str
+    api_endpoint: str
+
+
+@dataclass
+class AES:
+    """Represents AES encryption keys and initialization vectors (IVs)."""
+
+    key: bytes
+    iv: bytes
+
+
+@dataclass(frozen=True, slots=True)
+class BeogradConfigBase(BaseCityConfig):
+    """Configuration and AES keys specific to the Beograd city system."""
+
+    name = "Beograd"  #: Obicno ime
+    url = "https://announcement-bgnaplata.ticketing.rs"
+    api_key = "1688dc355af72ef09287"
+    stations_endpoint = "/publicapi/v1/networkextended.php"
+    api_endpoint = "/publicapi/v2/api.php"
+
+    # AES encryption keys and ivs
+    aes_arrivals = AES(
+        key=b"3+Lhz8XaOli6bHIoYPGuq9Y8SZxEjX6eN7AFPZuLCLs=",
+        iv=b"IvUScqUudyxBTBU9ZCyjow==",
+    )
+    aes_route = AES(
+        key=b"LLUdzKaaLqm2QAyVryeBlAbUaX/1uDJxZAmgPZ2N2r8=",
+        iv=b"6GWe4+QzF6NDLS9kRef76A==",
+    )
+    aes_route_version = AES(
+        key=b"0cQXGKcGHSVEcTOt+1UDBzZ5XpzKB+Juz4C6OEnoVwo=",
+        iv=b"VsuUn8cH9GWaZshcoWOjbw==",
+    )
+    aes_line_number = AES(
+        key=b"hOKZ6e2ZmzjDWjagmhhmTWme94ao31AlHQ+msJnDS4Q=",
+        iv=b"YW62pldkwSXGqoWcclKPeA==",
+    )
+
+
+@dataclass(frozen=True, slots=True)
+class NoviSadConfigBase(BaseCityConfig):
+    """Configuration specific to the Novi Sad city system."""
+
+    name = "Novi_Sad"
+    url = "https://online.nsmart.rs"
+    api_key = "4670f468049bbee2260"
+    stations_endpoint = "/publicapi/v1/networkextended.php"
+    api_endpoint = "/publicapi/v1/announcement/announcement.php"
+
+
+@dataclass(frozen=True, slots=True)
+class NisConfigBase(BaseCityConfig):
+    """Configuration specific to the Nis city system."""
+
+    name = "Nis"
+    url = "https://online.jgpnis.rs"
+    api_key = "1688dc355af72ef09287"
+    stations_endpoint = "/publicapi/v1/networkextended.php"
+    api_endpoint = "/publicapi/v1/announcement/announcement.php"
+
+-- \\wsl.localhost\Ubuntu\home\dule\workspace\projects\python-serbia-bus-api\src\srbusapi\client\base.py --
+import logging
+
+from httpx import AsyncClient, HTTPStatusError
+
+from srbusapi.caching.base_cache import BaseCache
+from srbusapi.config import BaseCityConfig
+from srbusapi.exceptions import APIError
+
+logger = logging.getLogger(__name__)
+
+
+class BaseClient:
+    def __init__(
+        self, client: AsyncClient = None, cache=None, config: BaseCityConfig = None
+    ):
+        """
+        Initialize the BaseClient.
+
+        :param client: Optional async HTTP client. Defaults to None, creating a new AsyncClient instance.
+        :param cache: Optional caching mechanism for API responses.
+        :param config: Configuration object for city-specific API settings.
+        """
+        self.client: AsyncClient = client if client is not None else AsyncClient()
+        self.cache: BaseCache = cache
+        self.config: BaseCityConfig = config
+
+    @property
+    def headers(self) -> dict:
+        """
+        Generate headers for the API requests.
+
+        :returns: A dictionary of HTTP headers used for authentication and user-agent.
+        """
+        return {
+            "User-Agent": "okhttp/4.10.0",
+            "X-Api-Authentication": self.config.api_key,
+        }
+
+    async def _request(self, method: str, endpoint: str, **kwargs) -> dict:
+        """
+        Make an HTTP request to the API.
+
+        :param method: HTTP method (e.g., 'GET', 'POST').
+        :param endpoint: API endpoint to be appended to the base URL.
+        :param kwargs: Additional request parameters (e.g., query params, JSON payload).
+        :returns: Decoded JSON response for GET requests or raw content for others.
+        :raises APIError: If the API response returns a non-2xx HTTP status.
+        """
+        url = self.config.url + endpoint
+        logger.debug(f"{method} {url}")
+
+        try:
+            response = await self.client.request(
+                method,
+                url,
+                headers=self.headers,
+                **kwargs,
+            )
+            response.raise_for_status()
+
+            return response.json() if method == "GET" else response.content
+        except HTTPStatusError as e:
+            raise APIError(f"API request failed: {str(e)}")
+
+    async def get_stations(self) -> dict:
+        """
+        Retrieve station data from the API.
+
+        :returns: A dictionary containing station details.
+        :raises NotImplementedError: This method must be implemented in a subclass.
+        """
+        raise NotImplementedError
+
+    async def get_arrivals(self, station_id: str) -> dict:
+        """
+        Retrieve arrival times for a specific station.
+
+        :param station_id: Unique identifier for the station.
+        :returns: A dictionary containing arrival times at the station.
+        :raises NotImplementedError: This method must be implemented in a subclass.
+        """
+        raise NotImplementedError
+
+    async def get_route(self, actual_line_number: str) -> dict:
+        """
+        Retrieve route details for a specific line number.
+
+        :param actual_line_number: The unique identifier for the route's line number.
+        :returns: A dictionary containing route information.
+        :raises NotImplementedError: This method must be implemented in a subclass.
+        """
+        raise NotImplementedError
+
+    async def get_route_version(self, actual_line_number: str) -> dict:
+        """
+        Retrieve the version details of a specific route.
+
+        :param actual_line_number: The unique identifier for the route's line number.
+        :returns: A dictionary containing route version information.
+        :raises NotImplementedError: This method must be implemented in a subclass.
+        """
+        raise NotImplementedError
+
+-- \\wsl.localhost\Ubuntu\home\dule\workspace\projects\python-serbia-bus-api\src\srbusapi\client\beograd.py --
+import logging
+from datetime import timedelta
+from time import time
+
+from httpx import AsyncClient
+
+from srbusapi.caching.base_cache import BaseCache
+from srbusapi.caching.caching_decorators import cache_data, cache_route
+from srbusapi.client.base import BaseClient
+from srbusapi.config import BeogradConfigBase
+from srbusapi.crypto import encrypt, decrypt
+
+logger = logging.getLogger(__name__)
+
+
+class BeogradClient(BaseClient):
+    def __init__(self, client: AsyncClient = None, cache: BaseCache = None):
+        """
+        Initializes a BeogradClient instance.
+
+        :param client: Async HTTP client for making requests.
+        :param cache: Cache object for managing caching operations.
+        """
+        super().__init__(client, cache, BeogradConfigBase())
+
+    @property
+    def session_id(self):
+        """
+        Generates a session ID based on the current timestamp.
+
+        :returns: A timestamp-based session ID as a string.
+        """
+        return f"A{round(time() * 1000)}"
+
+    @cache_data(expiration=timedelta(days=1))
+    async def get_stations(self) -> dict:
+        """
+        Retrieves a list of stations.
+
+        :returns: A dictionary with station details.
+        :raises Exception: If the request fails or response is invalid.
+        """
+        logger.info("Beograd stations")
+        endpoint = self.config.stations_endpoint
+        params = {"action": "get_cities_extended"}
+
+        response = await self._request(method="GET", endpoint=endpoint, params=params)
+
+        return response
+
+    @cache_data(expiration=timedelta(seconds=15))
+    async def get_arrivals(self, station_id) -> dict:
+        """
+        Retrieves arrival data for a specific station.
+
+        :param station_id: Unique ID of the station.
+        :returns: A dictionary with arrival data.
+        :raises Exception: If the request fails or decryption fails.
+        """
+        logger.info(f"Beograd arrivals for station {station_id}")
+        key, iv = self.config.aes_arrivals.key, self.config.aes_arrivals.iv
+
+        endpoint = self.config.api_endpoint
+
+        base = {"station_uid": station_id, "session_id": self.session_id}
+
+        data = {
+            "action": "data_bulletin",
+            "base": encrypt(base, key, iv).decode("utf-8"),
+        }
+
+        response = await self._request(method="POST", endpoint=endpoint, data=data)
+
+        decrypted_response = decrypt(response, key, iv)
+
+        return decrypted_response
+
+    @cache_route()
+    async def get_route(self, actual_line_number) -> dict:
+        """
+        Retrieves the route details for a specific line.
+
+        :param actual_line_number: The number of the line to fetch the route for.
+        :returns: A dictionary with route details.
+        :raises Exception: If the request or decryption fails.
+        """
+        logger.info(f"Beograd route for line {actual_line_number}")
+        key, iv = self.config.aes_route.key, self.config.aes_route.iv
+
+        endpoint = self.config.api_endpoint
+
+        base = {"line_number": actual_line_number, "session_id": self.session_id}
+
+        data = {
+            "action": "route_insight",
+            "base": encrypt(base, key, iv).decode("utf-8"),
+        }
+
+        response = await self._request(method="POST", endpoint=endpoint, data=data)
+
+        decrypt_response = decrypt(response, key, iv)
+
+        return decrypt_response
+
+    @cache_data(expiration=timedelta(days=1))
+    async def get_route_version(self, actual_line_number) -> dict:
+        """
+        Retrieves the route version for a specific line.
+
+        :param actual_line_number: The line number to get the version of.
+        :returns: A dictionary with route version details.
+        :raises Exception: If the request or decryption fails.
+        """
+        logger.info(f"Beograd route version for line {actual_line_number}")
+        key, iv = self.config.aes_route_version.key, self.config.aes_route_version.iv
+
+        endpoint = self.config.api_endpoint
+
+        base = {"line_number": actual_line_number, "session_id": self.session_id}
+
+        data = {
+            "action": "line_route_revision",
+            "base": encrypt(base, key, iv).decode("utf-8"),
+        }
+
+        response = await self._request(method="POST", endpoint=endpoint, data=data)
+
+        decrypt_response = decrypt(response, key, iv)
+
+        return decrypt_response
+
+    @cache_data(expiration=timedelta(days=1))
+    async def get_line_numbers(self, station_ids: list[str]) -> dict:
+        """
+        Retrieves line numbers for a list of stations.
+
+        :param station_ids: List of station IDs.
+        :returns: A dictionary with line numbers associated with the stations.
+        :raises Exception: If the request or decryption fails.
+        """
+        logger.info(f"Beograd line numbers for stations {station_ids}")
+        station_ids = ";".join(station_ids)
+        key, iv = self.config.aes_line_number.key, self.config.aes_line_number.iv
+
+        endpoint = self.config.api_endpoint
+
+        base = {"station_uids": station_ids, "session_id": self.session_id}
+
+        data = {
+            "action": "line_number_getter",
+            "base": encrypt(base, key, iv).decode("utf-8"),
+        }
+
+        response = await self._request(method="POST", endpoint=endpoint, data=data)
+
+        decrypted_response = decrypt(response, key, iv)
+
+        return decrypted_response
+
+-- \\wsl.localhost\Ubuntu\home\dule\workspace\projects\python-serbia-bus-api\src\srbusapi\client\__init__.py --
+from srbusapi.client.beograd import BeogradClient
+from srbusapi.client.nis import NisClient
+from srbusapi.client.novi_sad import NoviSadClient
+
+__all__ = ["BeogradClient", "NisClient", "NoviSadClient"]
+
+-- \\wsl.localhost\Ubuntu\home\dule\workspace\projects\python-serbia-bus-api\src\srbusapi\client\novi_sad.py --
+import logging
+from datetime import timedelta
+
+from httpx import AsyncClient
+
+from srbusapi.caching.base_cache import BaseCache
+from srbusapi.caching.caching_decorators import cache_data, cache_route
+from srbusapi.client.base import BaseClient
+from srbusapi.config import NoviSadConfigBase
+
+logger = logging.getLogger(__name__)
+
+
+class NoviSadClient(BaseClient):
+    def __init__(self, client: AsyncClient = None, cache: BaseCache = None):
+        """
+        Initializes the NoviSadClient with an HTTP client and optional caching.
+
+        :param client: An optional instance of AsyncClient for making HTTP requests.
+        :param cache: An optional instance of BaseCache for caching responses.
+        """
+        super().__init__(client, cache, NoviSadConfigBase())
+
+    @cache_data(expiration=timedelta(days=1))
+    async def get_stations(self) -> dict:
+        """
+        Fetches a list of stations with extended city data.
+
+        :returns: A dictionary containing station information.
+        :raises httpx.HTTPError: If the request to the API fails.
+        """
+        logger.info("Novi Sad stations")
+        endpoint = self.config.stations_endpoint
+        params = {"action": "get_cities_extended"}
+
+        response = await self._request(method="GET", endpoint=endpoint, params=params)
+
+        return response
+
+    @cache_data(expiration=timedelta(seconds=15))
+    async def get_arrivals(self, station_id) -> dict:
+        """
+        Fetches arrival data for a specific station.
+
+        :param station_id: The unique identifier of the station.
+        :returns: A dictionary containing arrival information.
+        :raises httpx.HTTPError: If the request to the API fails.
+        """
+        logger.info(f"Novi Sad arrivals for station {station_id}")
+        endpoint = self.config.api_endpoint
+        params = {"action": "get_announcement_data", "station_uid": station_id}
+
+        response = await self._request(method="GET", endpoint=endpoint, params=params)
+
+        return response
+
+    @cache_route()
+    async def get_route(self, actual_line_number) -> dict:
+        """
+        Fetches route data for a specific line number.
+
+        :param actual_line_number: The number of the line to fetch route data for.
+        :returns: A dictionary containing route data for the specified line.
+        :raises httpx.HTTPError: If the request to the API fails.
+        """
+        logger.info(f"Novi Sad route for line {actual_line_number}")
+        endpoint = self.config.api_endpoint
+        params = {"action": "get_line_route_data", "line_number": actual_line_number}
+
+        response = await self._request(method="GET", endpoint=endpoint, params=params)
+
+        return response
+
+    @cache_data(expiration=timedelta(days=1))
+    async def get_route_version(self, actual_line_number) -> dict:
+        """
+        Fetches the route version information for a specific line.
+
+        :param actual_line_number: The number of the line to fetch route version data for.
+        :returns: A dictionary containing version data for the specified line route.
+        :raises httpx.HTTPError: If the request to the API fails.
+        """
+        logger.info(f"Novi Sad route version for line {actual_line_number}")
+        endpoint = self.config.api_endpoint
+        params = {"action": "get_line_route_version", "line_number": actual_line_number}
+
+        response = await self._request(method="GET", endpoint=endpoint, params=params)
+
+        return response
+
+-- \\wsl.localhost\Ubuntu\home\dule\workspace\projects\python-serbia-bus-api\src\srbusapi\client\nis.py --
+import logging
+from datetime import timedelta
+
+from httpx import AsyncClient
+
+from srbusapi.caching.base_cache import BaseCache
+from srbusapi.caching.caching_decorators import cache_data, cache_route
+from srbusapi.client.base import BaseClient
+from srbusapi.config import NisConfigBase
+
+logger = logging.getLogger(__name__)
+
+
+class NisClient(BaseClient):
+    def __init__(self, client: AsyncClient = None, cache: BaseCache = None):
+        """
+        Initializes the NisClient with an optional HTTP client and cache.
+
+        :param client: Instance of AsyncClient to make HTTP requests.
+        :param cache: Optional cache instance for storing request results.
+        """
+        super().__init__(client, cache, NisConfigBase())
+
+    @cache_data(expiration=timedelta(days=1))
+    async def get_stations(self) -> dict:
+        """
+        Fetches the list of stations with extended city information.
+
+        :return: Dictionary containing station data.
+        """
+        logger.info("Nis stations")
+        endpoint = self.config.stations_endpoint
+        params = {"action": "get_cities_extended"}
+
+        response = await self._request(method="GET", endpoint=endpoint, params=params)
+
+        return response
+
+    @cache_data(expiration=timedelta(seconds=15))
+    async def get_arrivals(self, station_id) -> dict:
+        """
+        Fetches arrival information for a specific station.
+
+        :param station_id: Unique identifier of the station.
+        :return: Dictionary containing arrival data.
+        """
+        logger.info(f"Nis arrivals for station {station_id}")
+        endpoint = self.config.api_endpoint
+        params = {"action": "get_announcement_data", "station_uid": station_id}
+
+        response = await self._request(method="GET", endpoint=endpoint, params=params)
+
+        return response
+
+    @cache_route()
+    async def get_route(self, actual_line_number) -> dict:
+        """
+        Fetches the route details for a specific line number.
+
+        :param actual_line_number: Line number to fetch route data for.
+        :return: Dictionary containing route data.
+        """
+        logger.info(f"Nis route for line {actual_line_number}")
+        endpoint = self.config.api_endpoint
+        params = {"action": "get_line_route_data", "line_number": actual_line_number}
+
+        response = await self._request(method="GET", endpoint=endpoint, params=params)
+
+        return response
+
+    @cache_data(expiration=timedelta(days=1))
+    async def get_route_version(self, actual_line_number) -> dict:
+        """
+        Fetches the route version details for a specific line number.
+
+        :param actual_line_number: Line number to fetch route version data for.
+        :return: Dictionary containing route version information.
+        """
+        logger.info(f"Nis route version for line {actual_line_number}")
+        endpoint = self.config.api_endpoint
+        params = {"action": "get_line_route_version", "line_number": actual_line_number}
+
+        response = await self._request(method="GET", endpoint=endpoint, params=params)
+
+        return response
+
+-- \\wsl.localhost\Ubuntu\home\dule\workspace\projects\python-serbia-bus-api\src\srbusapi\caching\__init__.py --
+
+-- \\wsl.localhost\Ubuntu\home\dule\workspace\projects\python-serbia-bus-api\src\srbusapi\caching\caching_decorators.py --
+import inspect
+import logging
+from datetime import timedelta
+from functools import wraps
+from typing import Callable
+
+from srbusapi.client.base import BaseClient
+from srbusapi.exceptions import CacheError
+
+logger = logging.getLogger(__name__)
+
+
+def generate_cache_key(city_name: str, key: str, *args):
+    """
+    Generate a unique cache key based on city name, key, and additional arguments.
+
+    :param city_name: Name of the city (string).
+    :param key: Key identifying the cached resource.
+    :param args: Additional arguments to include in the cache key.
+    :return: A unique string cache key.
+    """
+    return ":".join([city_name, key, *[str(arg) for arg in args]])
+
+
+def cache_data(expiration: timedelta):
+    """
+    A decorator to cache the results of an asynchronous function.
+
+    Cached data is stored with a defined expiration time. On cache hit,
+    returns the cached result. On cache miss or cache error, executes
+    the function and caches the result.
+
+    :param expiration: Time duration for cache expiration.
+    :return: Decorated asynchronous function with caching enabled.
+    """
+
+    def decorator(func: Callable):
+        if not inspect.iscoroutinefunction(func):
+            raise TypeError("The decorated function must be asynchronous.")
+
+        @wraps(func)
+        async def wrapper(self: BaseClient, *args, **kwargs):
+            response_data = None
+            try:
+                if not hasattr(self, "cache") or self.cache is None:
+                    return await func(self, *args, **kwargs)
+
+                key = generate_cache_key(self.config.name, func.__name__, *args)
+
+                cached_result = await self.cache.get_data(key)
+                if cached_result is not None:
+                    logger.debug(f"Cache hit for key {key}")
+                    return cached_result
+
+                response_data = await func(self, *args, **kwargs)
+
+                await self.cache.set_data(key, response_data, expiration)
+
+                return response_data
+            except CacheError as e:
+                logger.error(f"Cache error: {str(e)}")
+                return (
+                    await func(self, *args, **kwargs)
+                    if response_data is None
+                    else response_data
+                )
+
+        return wrapper
+
+    return decorator
+
+
+def cache_route(expiration: timedelta = timedelta(days=15)):
+    """
+    A decorator to cache route data with version control.
+
+    Caches data with a version check, ensuring the cached version
+    matches the current route version. On cache hit, returns the cached
+    data. On cache miss or version mismatch, executes the function and
+    updates the cache.
+
+    :param expiration: Time duration for cache expiration, default is 15 days.
+    :return: Decorated asynchronous function with caching and version control.
+    """
+
+    def decorator(func: Callable):
+        if not inspect.iscoroutinefunction(func):
+            raise TypeError("The decorated function must be asynchronous.")
+
+        @wraps(func)
+        async def wrapper(self: BaseClient, *args, **kwargs):
+            try:
+                if not hasattr(self, "cache") or self.cache is None:
+                    return await func(self, *args, **kwargs)
+
+                key = generate_cache_key(self.config.name, func.__name__, args[0])
+                cache_entry = await self.cache.get_data(key)
+
+                new_version = await self.get_route_version(args[0])
+                if cache_entry is not None and cache_entry["version"] == new_version:
+                    logger.debug(f"Cache hit for key {key}")
+                    return cache_entry["data"]
+
+                route_data = await func(self, *args, **kwargs)
+
+                data_to_cache = {"version": new_version, "data": route_data}
+
+                await self.cache.set_data(key, data_to_cache, expiration)
+
+                return route_data
+            except CacheError as e:
+                logger.error(f"Cache error: {str(e)}")
+                return await func(self, *args, **kwargs)
+
+        return wrapper
+
+    return decorator
+
+-- \\wsl.localhost\Ubuntu\home\dule\workspace\projects\python-serbia-bus-api\src\srbusapi\caching\base_cache.py --
+from datetime import timedelta
+
+
+class BaseCache:
+    """
+    A base class for implementing caching backends. Provides interface methods that must
+    be implemented by any specific cache subclasses.
+    """
+
+    async def get_data(self, key: str):
+        """
+        Retrieve the value associated with a given key from the cache.
+
+        :param key: The key to look up in the cache.
+        """
+        raise NotImplementedError
+
+    async def set_data(self, key: str, value, expiration: timedelta | None):
+        """
+        Store a value in the cache with an optional expiration time.
+
+        :param key: The key under which the value will be stored.
+        :param value: The value to be stored in the cache.
+        :param expiration: An optional timedelta specifying the time until the value expires.
+        """
+        raise NotImplementedError
+
+-- \\wsl.localhost\Ubuntu\home\dule\workspace\projects\python-serbia-bus-api\src\srbusapi\caching\redis_cache.py --
+import json
+import logging
+import os
+from datetime import timedelta
+from typing import Optional
+
+from srbusapi.caching.base_cache import BaseCache
+from srbusapi.exceptions import CacheError, ConfigurationError
+
+logger = logging.getLogger(__name__)
+
+
+class RedisCache(BaseCache):
+    """
+    A Redis-based caching system to store and retrieve data asynchronously, following BaseCache structure.
+    """
+
+    def __init__(
+        self,
+        host: str = None,
+        port: int = None,
+        username: str = None,
+        password: str = None,
+        db: int = 0,
+    ):
+        """
+        Initializes the RedisCache with optional connection parameters.
+
+        :param host: Redis server host, optional if set in environment variables.
+        :param port: Redis server port, optional if set in environment variables.
+        :param username: Username for authenticated access, optional.
+        :param password: Password for authenticated access, optional.
+        :param db: Database index to connect to, defaults to 0.
+        """
+        try:
+            import redis.asyncio as redis
+
+            self._redis_error = redis.exceptions.RedisError
+        except ImportError:
+            raise ImportError(
+                "Redis is extra dependency for this module. "
+                "It is needed for RedisCache. "
+                "You can install it via pip install srbusapi[redis]"
+            )
+        host, port, username, password = self._from_env(host, port, username, password)
+
+        self.pool = redis.ConnectionPool(
+            host=host,
+            port=port,
+            username=username,
+            password=password,
+            db=db,
+            decode_responses=True,
+            retry_on_timeout=True,
+            max_connections=10,
+        )
+        self.client: redis.Redis = redis.Redis(connection_pool=self.pool)
+
+    @staticmethod
+    def _from_env(
+        host: str = None, port: int = None, username: str = None, password: str = None
+    ):
+        """
+        Retrieves Redis connection parameters from environment variables if not provided.
+
+        :param host: Redis server host.
+        :param port: Redis server port.
+        :param username: Username for Redis authentication, if applicable.
+        :param password: Password for Redis authentication, if applicable.
+        :return: Tuple containing host, port, username, and password.
+        """
+        host = host or os.getenv("REDIS_HOST")
+        port = port or os.getenv("REDIS_PORT")
+        username = username or os.getenv("REDIS_USERNAME")
+        password = password or os.getenv("REDIS_PASSWORD")
+
+        if not host or not port:
+            raise ConfigurationError(
+                "Redis host and port must be provided. "
+                "Please provide them either as arguments or in environment variables. "
+                "The environment variables are REDIS_HOST, REDIS_PORT, REDIS_USERNAME, REDIS_PASSWORD"
+            )
+
+        return host, int(port), username, password
+
+    async def _get(self, key: str) -> Optional[str]:
+        """
+        Retrieves a value from the Redis cache for the provided key.
+
+        :param key: The cache key to retrieve data for.
+        :return: The cached data as a string, or None if not found.
+        """
+        try:
+            return await self.client.get(key)
+        except self._redis_error as e:
+            logger.error(f"Redis GET error for key {key}: {str(e)}")
+            raise CacheError(f"Failed to get data from Redis: {str(e)}")
+
+    async def _set(self, key: str, value: dict, ex: timedelta = None):
+        """
+        Stores a value in the Redis cache under the specified key.
+
+        :param key: The key under which the value will be stored.
+        :param value: The data to be stored, as a dictionary.
+        :param ex: (Optional) Expiration time for the cached data.
+        """
+        try:
+            await self.client.set(key, json.dumps(value), ex=ex)
+        except self._redis_error as e:
+            logger.error(f"Redis SET error for key {key}: {str(e)}")
+            raise CacheError(f"Failed to set data in Redis: {str(e)}")
+
+    async def get_data(self, key):
+        """
+        Public method to retrieve structured data (deserialized) from the Redis cache.
+
+        :param key: The key used to look up the data.
+        :return: The data as a dictionary, or None if not found.
+        """
+        data = await self._get(key)
+        return json.loads(data) if data else None
+
+    async def set_data(self, key: str, value: dict, expiration):
+        """
+        Public method to store structured data (serialized) in Redis cache with an optional expiration.
+
+        :param key: The key under which the value will be stored.
+        :param value: The data to store, as a dictionary.
+        :param expiration: Expiration time for the cached data.
+        """
+        await self._set(key, value, ex=expiration)
+
+    async def close(self):
+        """
+        Closes the Redis connection pool, freeing up resources.
+        """
+        await self.pool.disconnect()
