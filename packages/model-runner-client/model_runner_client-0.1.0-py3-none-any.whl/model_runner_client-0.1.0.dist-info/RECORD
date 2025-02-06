@@ -1,0 +1,15 @@
+model_runner_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model_runner_client/model_cluster.py,sha256=tWsDn04nKMiAIM6x1H0E74GnxT_VUthCxW5-E8z7tFU,5377
+model_runner_client/model_concurrent_runner.py,sha256=6tMzHq_yjoN79OeVTk9x8ztVz7zfp0B4UeL-c9KfZAs,2587
+model_runner_client/model_runner.py,sha256=EYHQyz9tS_LVnwuZz-tQLWAVtZeAl_O7g-_jgKjalQQ,3435
+model_runner_client/protos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model_runner_client/protos/model_runner.proto,sha256=6FtlMkOsXD_kCrI8W13DkEjrWkTHAPRhLHpNcRhOdM4,587
+model_runner_client/protos/model_runner_pb2.py,sha256=RnDirfZO-I4NdBa3FRgMA62llw7r9S3W6i4YtQvsw_M,2352
+model_runner_client/protos/model_runner_pb2.pyi,sha256=w_KEt8-2hChAERSrSaTfwe9oCD4hF_2zNHb_I5vBD5o,1354
+model_runner_client/protos/model_runner_pb2_grpc.py,sha256=sMtD81gAstAEKKJTAXmjyVSzmCp1FFlTwVdtBR7HccE,8623
+model_runner_client/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model_runner_client/utils/datatype_transformer.py,sha256=iheQjcB4x0E-NCw7FwFaiLgH5QdD6DuVLqi4UjaGvRs,2468
+model_runner_client/websocket_client.py,sha256=nDdoE_ekCWcGznm69iB-lhp7qzphTvyYZHmVFIg8Mo4,5116
+model_runner_client-0.1.0.dist-info/METADATA,sha256=4T4dYbQM4wIUhg7Xkbg9GI-up9yNv5us01mlW1zRbzM,4498
+model_runner_client-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+model_runner_client-0.1.0.dist-info/RECORD,,
