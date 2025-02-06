@@ -1,0 +1,9 @@
+sfisop/datamodels/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sfisop/datamodels/tsdatamodel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sfisop/datamodels/tsdatamodel/metadata.py,sha256=XtbqvH2VEqw9piGd3UJG5h0RRjYET4FZ-NL8KJV4KTI,346
+sfisop/datamodels/tsdatamodel/timeseriesdata.py,sha256=MBNOAkl15kIyvTU5foRt4jKkUI2eMUii7pKF80ISUpY,1228
+sfisop/datamodels/tsdatamodel/tsdata_utils.py,sha256=ofFuQUFSRxZPWHu-TlMk8WhxB-6WoOkAftZ094T65w8,1004
+sfisop_datamodels-1.0.1.dist-info/LICENSE,sha256=cu4X77wmiH2YloyNZiork8t7iGrvakF8dP3m81uQojA,1087
+sfisop_datamodels-1.0.1.dist-info/METADATA,sha256=9KEsT7Sg6cneqztU20LttsYD48amjoEWfWU6XYTH0OM,2859
+sfisop_datamodels-1.0.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+sfisop_datamodels-1.0.1.dist-info/RECORD,,
