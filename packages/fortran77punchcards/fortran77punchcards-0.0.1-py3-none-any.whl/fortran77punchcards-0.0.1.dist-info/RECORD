@@ -1,0 +1,11 @@
+fortran77punchcards/__init__.py,sha256=wbjBX0V6IIqy-iRVsTgASMVJeDMlABSeXAndOGxiA9A,143
+fortran77punchcards/__main__.py,sha256=vuZHYgZIN80CjL7bihwwBY2Xtv2YHS1IWziv9QK_qkc,1045
+fortran77punchcards/character_encoding.py,sha256=mXKglB5XpfKzPFMud1y5arYV272-PI3rjjlBJ6lhjr4,960
+fortran77punchcards/punch.py,sha256=hMX30cP3FavLHG2Anq4okUzvn0YyetBq8YCkABdOVgI,1780
+fortran77punchcards/punchcard.png,sha256=a142FSwLftD0jf46RXjn8PMny0wPOzmd40GROI0rLK8,6839239
+fortran77punchcards/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fortran77punchcards-0.0.1.dist-info/LICENSE,sha256=kqpd0_8AvXmKoTRU4Iu6oLjlhIgno6s1P6yLit24aRc,1129
+fortran77punchcards-0.0.1.dist-info/LICENSE-CC,sha256=yq5miCGwhLED9fFPe5eHAKJH86DDlBtm4xA6DR4KAI4,18768
+fortran77punchcards-0.0.1.dist-info/METADATA,sha256=iUg1_OaAk1-sUWdsjVyMyJAUa3LNFcLSandUTzrXa74,2934
+fortran77punchcards-0.0.1.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+fortran77punchcards-0.0.1.dist-info/RECORD,,
