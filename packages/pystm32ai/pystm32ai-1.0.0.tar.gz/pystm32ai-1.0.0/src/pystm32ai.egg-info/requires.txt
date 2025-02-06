@@ -1,0 +1,9 @@
+py7zr>=0.22.0
+requests>=2.27.1
+rich>=13.9.4
+tqdm>=4.62.3
+
+[dev]
+pytest>=5.2
+pylint>=2.12.2
+ruff>=0.9.0
