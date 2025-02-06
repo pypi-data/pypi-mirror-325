@@ -1,0 +1,13 @@
+[project]
+name = "calcioquery_common"
+version = "0.2"
+description = "Test"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.10.6",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

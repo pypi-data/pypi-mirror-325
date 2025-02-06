@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: calcioquery_common
+Version: 0.2
+Summary: Test
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic>=2.10.6
+
+# Test
