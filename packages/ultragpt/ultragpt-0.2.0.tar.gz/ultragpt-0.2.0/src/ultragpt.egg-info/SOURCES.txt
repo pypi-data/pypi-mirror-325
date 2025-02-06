@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.py
+src/ultragpt/__init__.py
+src/ultragpt/core.py
+src/ultragpt/prompts.py
+src/ultragpt/schemas.py
+src/ultragpt.egg-info/PKG-INFO
+src/ultragpt.egg-info/SOURCES.txt
+src/ultragpt.egg-info/dependency_links.txt
+src/ultragpt.egg-info/requires.txt
+src/ultragpt.egg-info/top_level.txt
