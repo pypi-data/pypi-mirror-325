@@ -1,0 +1,2 @@
+[console_scripts]
+lettergame = lettergame.game:main
