@@ -1,0 +1,3 @@
+[console_scripts]
+timeserver = app:show_time
+
