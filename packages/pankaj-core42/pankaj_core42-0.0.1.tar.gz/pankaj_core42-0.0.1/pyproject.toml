@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pankaj_core42"
+version = "0.0.1"
+authors = [
+  { name="Pankaj Pratap Singh", email="pankajsys.engg@gmail.com" },
+]
+description = "A example package for test"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+
+[project.urls]
+Homepage = "https://github.com/pankajps/pankaj_core42"
+Issues = "https://github.com/pankajps/pankaj_core42/issues"
+
+[tool.setuptools]
+packages = ["pankaj_core42"]
+package-dir = {"" = "src"}

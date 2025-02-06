@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: pankaj_core42
+Version: 0.0.1
+Summary: A example package for test
+Author-email: Pankaj Pratap Singh <pankajsys.engg@gmail.com>
+Project-URL: Homepage, https://github.com/pankajps/pankaj_core42
+Project-URL: Issues, https://github.com/pankajps/pankaj_core42/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# pankaj_core42
+pankaj_core42
