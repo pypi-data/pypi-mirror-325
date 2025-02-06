@@ -1,0 +1,2 @@
+[console_scripts]
+pxz-on-install = pxz:on_install
