@@ -1,0 +1,7 @@
+README.md
+setup.py
+VortexWEB.egg-info/PKG-INFO
+VortexWEB.egg-info/SOURCES.txt
+VortexWEB.egg-info/dependency_links.txt
+VortexWEB.egg-info/requires.txt
+VortexWEB.egg-info/top_level.txt
