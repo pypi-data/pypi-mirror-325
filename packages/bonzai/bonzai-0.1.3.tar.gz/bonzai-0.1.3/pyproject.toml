@@ -1,0 +1,21 @@
+[project]
+name = "bonzai"
+version = "0.1.3"
+description = "Python package and minimalist CLI tool for visualizing, saving, and navigating directory structures."
+authors = [
+    {name = "abhi-pixel1",email = "bharadwaj.abhi.r@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "click (>=8.1.8,<9.0.0)",
+    "colorama (>=0.4.6,<0.5.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+bonzai = "bonzai.cli:cli" # entrypoint to the CLI
