@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: rokon
+Version: 0.1.0
+Summary: A package for RNet models and dynamic model loading
+Home-page: https://github.com/rokayon/rokon
+Author: Rokonozzaman Ayon
+Author-email: rokayon.cse@gmail.com
+Requires-Dist: tensorflow
+Requires-Dist: numpy
