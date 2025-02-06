@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/plot.py
+src/barplotme.egg-info/PKG-INFO
+src/barplotme.egg-info/SOURCES.txt
+src/barplotme.egg-info/dependency_links.txt
+src/barplotme.egg-info/entry_points.txt
+src/barplotme.egg-info/top_level.txt

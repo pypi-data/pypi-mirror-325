@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "barplotme"
+version = "0.0.2"
+authors = [{"name" = "Mathias Zinnen", email = "mathias.zinnen@gmail.com"}]
+description = "Create beautiful bar plots of nice numbers"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = {file = "LICENSE"}
+
+
+[project.urls]
+Homepage = "https://github.com/mathiaszinnen/barplotme"
+
+[project.entry-points.console_scripts]
+barplotme = "plot:main"
