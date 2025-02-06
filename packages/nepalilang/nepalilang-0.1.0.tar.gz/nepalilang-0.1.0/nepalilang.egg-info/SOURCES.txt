@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+nepalilang.egg-info/PKG-INFO
+nepalilang.egg-info/SOURCES.txt
+nepalilang.egg-info/dependency_links.txt
+nepalilang.egg-info/top_level.txt
