@@ -1,0 +1,42 @@
+Metadata-Version: 2.2
+Name: webp-converter-kmj
+Version: 0.1.0
+Summary: WebP 이미지 변환기
+Home-page: 
+Author: dev_kimminjun
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: summary
+
+# WebP 이미지 변환기
+
+## 설치 방법
+
+```bash
+pip install webp-converter
+```
+
+## 사용 방법
+
+### GUI 실행
+
+```bash
+webp-converter-gui
+```
+
+### Python 스크립트에서 사용
+
+```python
+from webp_converter import convert_to_webp
+
+# 폴더 내 이미지를 WebP로 변환
+convert_to_webp('/input/path', '/output/path', quality=100)
+```

@@ -1,0 +1,2 @@
+[console_scripts]
+webp-converter-gui = webp_converter:launch_gui
