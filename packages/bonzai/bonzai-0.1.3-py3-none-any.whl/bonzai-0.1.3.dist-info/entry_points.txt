@@ -1,0 +1,3 @@
+[console_scripts]
+bonzai=bonzai.cli:cli
+
