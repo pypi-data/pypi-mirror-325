@@ -1,0 +1,5 @@
+setup.py
+amzn_awsgluemlpythonlibs.egg-info/PKG-INFO
+amzn_awsgluemlpythonlibs.egg-info/SOURCES.txt
+amzn_awsgluemlpythonlibs.egg-info/dependency_links.txt
+amzn_awsgluemlpythonlibs.egg-info/top_level.txt
