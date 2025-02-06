@@ -1,0 +1,2 @@
+[chatgpt_qq_bot.plugins]
+onebot_adapter = onebot_adapter:OneBotAdapterPlugin
