@@ -1,0 +1,40 @@
+Metadata-Version: 2.3
+Name: mykad-generator
+Version: 0.1.1
+Summary: Random Mykads for testing purposes. Returns list of mykad
+Author: msaleel
+Author-email: mohammed.saleel0099@gmail.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+# MyKad Generator
+
+A Python package to generate random Malaysian identity numbers (MyKad).
+
+## Installation
+
+You can install the package using Poetry:
+
+```bash
+pip install mykad_generator
+```
+
+## Usage
+```bash
+
+from mykad_generator import MyKadGenerator
+
+generator = MyKadGenerator(num_records=5)
+mykad_numbers = generator.generate_malaysia_identity_number()
+print(mykad_numbers)
+
+
+```
+
