@@ -1,0 +1,261 @@
+# punctuation = ["!", "?", "…", ",", ".", "'", "-"]
+punctuation = ["!", "?", "…", ",", ".", "'", "-", "¿", "¡"]
+pu_symbols = punctuation + ["SP", "UNK"]
+pad = "_"
+
+# chinese
+zh_symbols = [
+    "E",
+    "En",
+    "a",
+    "ai",
+    "an",
+    "ang",
+    "ao",
+    "b",
+    "c",
+    "ch",
+    "d",
+    "e",
+    "ei",
+    "en",
+    "eng",
+    "er",
+    "f",
+    "g",
+    "h",
+    "i",
+    "i0",
+    "ia",
+    "ian",
+    "iang",
+    "iao",
+    "ie",
+    "in",
+    "ing",
+    "iong",
+    "ir",
+    "iu",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "ong",
+    "ou",
+    "p",
+    "q",
+    "r",
+    "s",
+    "sh",
+    "t",
+    "u",
+    "ua",
+    "uai",
+    "uan",
+    "uang",
+    "ui",
+    "un",
+    "uo",
+    "v",
+    "van",
+    "ve",
+    "vn",
+    "w",
+    "x",
+    "y",
+    "z",
+    "zh",
+    "AA",
+    "EE",
+    "OO",
+]
+num_zh_tones = 6
+
+# japanese
+ja_symbols = [
+    "N",
+    "a",
+    "a:",
+    "b",
+    "by",
+    "ch",
+    "d",
+    "dy",
+    "e",
+    "e:",
+    "f",
+    "g",
+    "gy",
+    "h",
+    "hy",
+    "i",
+    "i:",
+    "j",
+    "k",
+    "ky",
+    "m",
+    "my",
+    "n",
+    "ny",
+    "o",
+    "o:",
+    "p",
+    "py",
+    "q",
+    "r",
+    "ry",
+    "s",
+    "sh",
+    "t",
+    "ts",
+    "ty",
+    "u",
+    "u:",
+    "w",
+    "y",
+    "z",
+    "zy",
+]
+num_ja_tones = 1
+
+# English
+en_symbols = [
+    "aa",
+    "ae",
+    "ah",
+    "ao",
+    "aw",
+    "ay",
+    "b",
+    "ch",
+    "d",
+    "dh",
+    "eh",
+    "er",
+    "ey",
+    "f",
+    "g",
+    "hh",
+    "ih",
+    "iy",
+    "jh",
+    "k",
+    "l",
+    "m",
+    "n",
+    "ng",
+    "ow",
+    "oy",
+    "p",
+    "r",
+    "s",
+    "sh",
+    "t",
+    "th",
+    "uh",
+    "uw",
+    "V",
+    "w",
+    "y",
+    "z",
+    "zh",
+]
+num_en_tones = 4
+
+# Korean
+kr_symbols = [
+    'ᄌ', 'ᅥ', 'ᆫ', 'ᅦ', 'ᄋ', 'ᅵ', 'ᄅ', 'ᅴ', 'ᄀ', 'ᅡ', 'ᄎ', 'ᅪ', 'ᄑ', 'ᅩ', 'ᄐ', 'ᄃ', 'ᅢ', 'ᅮ', 'ᆼ', 'ᅳ', 'ᄒ',
+    'ᄆ', 'ᆯ', 'ᆷ', 'ᄂ', 'ᄇ', 'ᄉ', 'ᆮ', 'ᄁ', 'ᅬ', 'ᅣ', 'ᄄ', 'ᆨ', 'ᄍ', 'ᅧ', 'ᄏ', 'ᆸ', 'ᅭ', '(', 'ᄊ', ')', 'ᅲ',
+    'ᅨ', 'ᄈ', 'ᅱ', 'ᅯ', 'ᅫ', 'ᅰ', 'ᅤ', '~', '\\', '[', ']', '/', '^', ':', 'ㄸ', '*'
+]
+num_kr_tones = 1
+
+# Spanish
+es_symbols = [
+    "N", "Q", "a", "b", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "s", "t", "u", "v",
+    "w", "x", "y", "z", "ɑ", "æ", "ʃ", "ʑ", "ç", "ɯ", "ɪ", "ɔ", "ɛ", "ɹ", "ð", "ə", "ɫ", "ɥ", "ɸ", "ʊ", "ɾ",
+    "ʒ", "θ", "β", "ŋ", "ɦ", "ɡ", "r", "ɲ", "ʝ", "ɣ", "ʎ", "ˈ", "ˌ", "ː"
+]
+num_es_tones = 1
+
+# French
+fr_symbols = ["\u0303", "œ", "ø", "ʁ", "ɒ", "ʌ", "ɜ", "ɐ"]
+num_fr_tones = 1
+
+# German
+de_symbols = ["ʏ", "̩"]
+num_de_tones = 1
+
+# Russian
+ru_symbols = ["ɭ", "ʲ", "ɕ", "\"", "ɵ", "^", "ɬ"]
+num_ru_tones = 1
+
+# Thai
+th_symbols = [
+    "ก", "ข", "ฃ", "ค", "ฅ", "ฆ", "ง", "จ", "ฉ", "ช", "ซ", "ฌ", "ญ", "ฎ", "ฏ", "ฐ", "ฑ", "ฒ", "ณ", "ด", "ต",
+    "ถ", "ท", "ธ", "น", "บ", "ป", "ผ", "ฝ", "พ", "ฟ", "ภ", "ม", "ย", "ร", "ล", "ว", "ศ", "ษ", "ส", "ห", "ฬ",
+    "อ", "ฮ", "ะ", "ั", "า", "ำ", "ิ", "ี", "ึ", "ื", "ุ", "ู", "เ", "แ", "โ", "ใ", "ไ", "ๅ", "็", "่", "้",
+    "์", "๑", "๒", "๓", "๔", "๕", "๖", "๗", "๘", "๙", "๐", 'kʰ', 'aj', '˧', 'pʰ', 'uː', '˥˩', 'p̚', '˦˥',
+    't͡ɕʰ', 'ʔ', 'aː', '˩˩˦', 'tʰ', 'eː', 'k̚', '˨˩', 't͡ɕ', 'aʔ', 'iː', 'ɤː', 't̚', 'ɛːw', 'ɯː', 'ia̯',
+    'ua̯', 'ɛː', 'aːj', 'ua̯j', 'ɤːj', 'ɔː', 'rɯ', 'a̯', 'ɤ', 'oː', 'aːw', 'ɔːj', 'oʔ', 'lɯ', 'ɯa̯', 'ɛʔ',
+    'ia̯w', 'lɯː', 'rɯː', 'oːj', 'ɔʔ', 'ๆ', 'ɔj', ';', 'ew', 'ɤʔ', 'iw', '๊', '”', 'eʔ', 'uj', '“', '๋', 'ฤ',
+    'ɨ', 'eːw', 'a̯j', 'ɛw', '‘', '’', '—', 'ia̯ʔ', 'ํ', 'p̚', 'ɨ', 'ŋ', '˥', 'd', 'ʰ', 'ɗ', 'kʰ', 'a', '.',
+    'ʔ', 'j', 'b', 'ɛ', 'ǐ', 'i', 'ᵊ', 'f', 'h', 'rɯ', 'ì', '̯', '̚', '˦', 's', 'ɯ', 'k', 'u', '˩', 'ɕ', 'e',
+    '˨', 'r', 'ɓ', 'ɤ', 'cʰ', 'æ', 'p', 'm', 'ɔ', 'o', 'w', 't', 'c', '̌', 'à', 'ː', ' ', 'n', 'ia̯', '˧',
+    'l', 'ə', 'æː', 'i̯', '▁', 'am'
+]
+num_th_tones = 5
+
+# Turkish symbols (IPA)
+tr_symbols = [
+    "a", "aː", "b", "d", "dʒ", "e", "f", "ɡ", "h", "ɯ", "i", "j", "k", "l", "m", "n", "o", "ø", "p", "r", "s",
+    "ʃ", "t", "tʃ", "u", "y", "v", "z", "ː"
+]
+num_tr_tones = 1
+
+# combine all symbols
+normal_symbols = sorted(
+    set(
+        zh_symbols + ja_symbols + en_symbols + kr_symbols + es_symbols + fr_symbols + de_symbols +
+        ru_symbols + th_symbols + tr_symbols))
+symbols = [pad] + normal_symbols + pu_symbols
+sil_phonemes_ids = [symbols.index(i) for i in pu_symbols]
+
+# combine all tones
+num_tones = num_zh_tones + num_ja_tones + num_en_tones + num_kr_tones + num_es_tones + num_fr_tones + num_de_tones + num_ru_tones + num_th_tones + num_tr_tones
+
+# language maps
+language_id_map = {
+    "ZH": 0,
+    "JP": 1,
+    "EN": 2,
+    "ZH_MIX_EN": 3,
+    'KR': 4,
+    'ES': 5,
+    'SP': 5,
+    'FR': 6,
+    'TH': 7,
+    'TR': 8
+}
+num_languages = len(language_id_map.keys())
+
+language_tone_start_map = {
+    "ZH": 0,
+    "ZH_MIX_EN": 0,
+    "JP": num_zh_tones,
+    "EN": num_zh_tones + num_ja_tones,
+    'KR': num_zh_tones + num_ja_tones + num_en_tones,
+    "ES": num_zh_tones + num_ja_tones + num_en_tones + num_kr_tones,
+    "SP": num_zh_tones + num_ja_tones + num_en_tones + num_kr_tones,
+    "FR": num_zh_tones + num_ja_tones + num_en_tones + num_kr_tones + num_es_tones,
+    "TH": num_zh_tones + num_ja_tones + num_en_tones + num_kr_tones + num_es_tones + num_fr_tones,
+    "TR":
+    num_zh_tones + num_ja_tones + num_en_tones + num_kr_tones + num_es_tones + num_fr_tones + num_de_tones,
+}
+
+if __name__ == "__main__":
+    a = set(zh_symbols)
+    b = set(en_symbols)
+    print(sorted(a & b))
