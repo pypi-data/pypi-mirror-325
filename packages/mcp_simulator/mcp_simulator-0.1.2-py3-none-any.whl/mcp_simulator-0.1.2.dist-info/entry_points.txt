@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-simulator = mcp_simulator.server:main
