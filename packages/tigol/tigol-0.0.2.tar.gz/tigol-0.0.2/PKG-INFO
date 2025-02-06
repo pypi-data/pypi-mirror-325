@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: tigol
+Version: 0.0.2
+Summary: A package for communicating with TIgol.
+Project-URL: Homepage, https://github.com/alessiodam/TIgol-python
+Project-URL: Issues, https://github.com/alessiodam/TIgol-python/issues
+Author-email: Alessio D'Ambrosio <alessio.dambrosio@tigol.net>
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: requests
