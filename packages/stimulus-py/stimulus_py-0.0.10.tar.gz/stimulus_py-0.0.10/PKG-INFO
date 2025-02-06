@@ -1,0 +1,34 @@
+Metadata-Version: 2.3
+Name: stimulus-py
+Version: 0.0.10
+Summary: A package for optimization of various deep learning models
+Project-URL: Homepage, https://github.com/mathysgrapotte/stimulus-py
+Project-URL: Issues, https://github.com/mathysgrapotte/stimulus-py/issues
+Author: Alessio Vignoli, Suzanne Jin
+Author-email: Mathys Grapotte <mathysgrapotte@gmail.com>
+License-File: LICENSE
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10
+Requires-Dist: numpy<2.0.0,>=1.26.0
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: polars-lts-cpu>=0.20.30
+Requires-Dist: scikit-learn>=1.5.0
+Provides-Extra: analysis
+Requires-Dist: matplotlib>=3.9.0; extra == 'analysis'
+Requires-Dist: torch>=2.2.2; extra == 'analysis'
+Provides-Extra: data
+Requires-Dist: multiprocess==0.70.17; extra == 'data'
+Provides-Extra: learner
+Requires-Dist: ray[default,train,tune]>=2.23.0; extra == 'learner'
+Requires-Dist: safetensors>=0.4.5; extra == 'learner'
+Requires-Dist: scipy==1.14.1; extra == 'learner'
+Requires-Dist: torch>=2.2.2; extra == 'learner'
+Description-Content-Type: text/markdown
+
+# stimulus-py
+Python package for processing deep learning models

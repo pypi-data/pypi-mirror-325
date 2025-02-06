@@ -1,0 +1,1 @@
+{"transformation_name": "B", "columns": [{"column_name": "col1", "transformations": [{"name": "UniformTextMasker", "params": {"probability": 0.3}}]}]}

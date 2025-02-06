@@ -1,0 +1,1 @@
+{"transformation_name": "C", "columns": [{"column_name": "col1", "transformations": [{"name": "ReverseComplement", "params": null}, {"name": "UniformTextMasker", "params": {"probability": 0.3}}, {"name": "GaussianNoise", "params": {"std": 0.3}}]}, {"column_name": "col2", "transformations": [{"name": "GaussianNoise", "params": {"std": 0.1}}]}]}
