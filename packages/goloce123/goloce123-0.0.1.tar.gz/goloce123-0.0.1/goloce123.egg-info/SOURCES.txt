@@ -1,0 +1,6 @@
+README.md
+setup.py
+goloce123.egg-info/PKG-INFO
+goloce123.egg-info/SOURCES.txt
+goloce123.egg-info/dependency_links.txt
+goloce123.egg-info/top_level.txt
