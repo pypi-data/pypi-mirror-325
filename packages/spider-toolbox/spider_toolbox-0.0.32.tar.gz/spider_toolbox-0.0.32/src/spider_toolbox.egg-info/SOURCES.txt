@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/spider_toolbox/decrypt_tools.py
+src/spider_toolbox/file_tools.py
+src/spider_toolbox/requests_tools.py
+src/spider_toolbox.egg-info/PKG-INFO
+src/spider_toolbox.egg-info/SOURCES.txt
+src/spider_toolbox.egg-info/dependency_links.txt
+src/spider_toolbox.egg-info/requires.txt
+src/spider_toolbox.egg-info/top_level.txt
+src/spider_toolbox/anime_api/cycdm.py
