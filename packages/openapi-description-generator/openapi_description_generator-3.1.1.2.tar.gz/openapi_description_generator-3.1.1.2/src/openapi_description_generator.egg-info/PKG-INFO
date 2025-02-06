@@ -1,0 +1,60 @@
+Metadata-Version: 2.2
+Name: openapi-description-generator
+Version: 3.1.1.2
+Summary: A framework agnostic library to generate openapi description files
+Author-email: Michael <michael.smith.ok@gmail.com>
+Project-URL: Homepage, https://github.com/smwa/openapi_description_generator
+Project-URL: Issues, https://github.com/smwa/openapi_description_generator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: backports
+Requires-Dist: build
+Requires-Dist: certifi
+Requires-Dist: cffi
+Requires-Dist: charset
+Requires-Dist: cryptography
+Requires-Dist: dataclasses
+Requires-Dist: docutils
+Requires-Dist: id
+Requires-Dist: idna
+Requires-Dist: importlib_metadata
+Requires-Dist: jaraco
+Requires-Dist: jaraco
+Requires-Dist: jaraco
+Requires-Dist: jeepney
+Requires-Dist: keyring
+Requires-Dist: markdown
+Requires-Dist: marshmallow
+Requires-Dist: mdurl
+Requires-Dist: more
+Requires-Dist: mypy
+Requires-Dist: nh3
+Requires-Dist: packaging
+Requires-Dist: pycparser
+Requires-Dist: Pygments
+Requires-Dist: pyproject_hooks
+Requires-Dist: PyYAML
+Requires-Dist: readme_renderer
+Requires-Dist: requests
+Requires-Dist: requests
+Requires-Dist: rfc3986
+Requires-Dist: rich
+Requires-Dist: SecretStorage
+Requires-Dist: twine
+Requires-Dist: typing
+Requires-Dist: typing_extensions
+Requires-Dist: urllib3
+Requires-Dist: zipp
+
+# OpenAPI Description Generator
+
+A python library to agnostically generate an OpenAPI Description file, whether you want to define it all at once or throughout whatever framework you wish to use.
+
+The goal is to always target the most up to date version of the OpenAPI specification.
+
+We currently target OAS 3.1.1
+
+`pip install openapi-description-generator`

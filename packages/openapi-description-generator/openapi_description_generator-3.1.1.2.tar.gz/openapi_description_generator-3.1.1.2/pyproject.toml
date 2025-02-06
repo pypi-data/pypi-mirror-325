@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "openapi-description-generator"
+version = "3.1.1.2"
+authors = [
+  { name="Michael", email="michael.smith.ok@gmail.com" },
+]
+description = "A framework agnostic library to generate openapi description files"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "backports",
+  "build",
+  "certifi",
+  "cffi",
+  "charset",
+  "cryptography",
+  "dataclasses",
+  "docutils",
+  "id",
+  "idna",
+  "importlib_metadata",
+  "jaraco",
+  "jaraco",
+  "jaraco",
+  "jeepney",
+  "keyring",
+  "markdown",
+  "marshmallow",
+  "mdurl",
+  "more",
+  "mypy",
+  "nh3",
+  "packaging",
+  "pycparser",
+  "Pygments",
+  "pyproject_hooks",
+  "PyYAML",
+  "readme_renderer",
+  "requests",
+  "requests",
+  "rfc3986",
+  "rich",
+  "SecretStorage",
+  "twine",
+  "typing",
+  "typing_extensions",
+  "urllib3",
+  "zipp"
+]
+
+[project.urls]
+Homepage = "https://github.com/smwa/openapi_description_generator"
+Issues = "https://github.com/smwa/openapi_description_generator/issues"
