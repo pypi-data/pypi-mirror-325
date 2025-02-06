@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "iterative_stats"
+version = "0.1.1"
+description = "This package implements iterative algorithms to compute some basics statistics"
+authors = ['Frederique Robin']
+readme = "README.md"
+license = "LICENSE" 
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pyyaml = ">=6.0"
+numpy = ">=1.19.0,<2.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = ">=6.2.1"
+autopep8 = "1.6.0"
+openturns = ">=1.19,<2.0.0"
+scipy = ">=1.8.0,<2.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = ">=1.4.0,<2.0.0"
+
+[build-system]
+requires = ["poetry-core>1.2.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",  # You should have a "tests" directory
+]
+log_cli = true
+log_cli_level = "DEBUG"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+
+
+[tool.autopep8]
+max_line_length = 120
+ignore = "E501,W6"  # or ["E501", "W6"]
+in-place = true
+recursive = true
+aggressive = 3
+
+
+[tool.setuptools_scm]
