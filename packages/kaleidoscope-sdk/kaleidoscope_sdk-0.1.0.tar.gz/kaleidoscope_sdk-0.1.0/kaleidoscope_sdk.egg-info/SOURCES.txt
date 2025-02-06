@@ -1,0 +1,9 @@
+README.md
+setup.py
+kaleidoscope_sdk/__init__.py
+kaleidoscope_sdk/kaleidoscope_api.py
+kaleidoscope_sdk.egg-info/PKG-INFO
+kaleidoscope_sdk.egg-info/SOURCES.txt
+kaleidoscope_sdk.egg-info/dependency_links.txt
+kaleidoscope_sdk.egg-info/requires.txt
+kaleidoscope_sdk.egg-info/top_level.txt
