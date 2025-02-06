@@ -1,0 +1,10 @@
+shellmind/__init__.py,sha256=yVGySWE8X3vg6IYdiNGQOlb4JuVK48oH9b3EOCmPU_A,72
+shellmind/ai_handler.py,sha256=VDsqGP6e3Z3Rv7-84dS0c2zeQ9BjEj71a0quYv2WfR4,3895
+shellmind/cli.py,sha256=M6DV6__GC8Eu6u9PDfGF4HCOKSdDq82C-2AWkZt2nuk,7245
+shellmind/utils.py,sha256=fLBM2IKj09d3ksxnGVf5u_pQXDpU7Kb858VTznvwqWg,882
+shellmind-0.1.0.dist-info/LICENSE,sha256=XG_JfjKTxll9rzHQcD3O_UVrYYi0rh7kA8O_b7oBMUY,1068
+shellmind-0.1.0.dist-info/METADATA,sha256=ySnnbPMbHY91r5hF1iI6-UAE_5nxfrYZHv3U4QRwf9o,10490
+shellmind-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+shellmind-0.1.0.dist-info/entry_points.txt,sha256=CMq6Zdjhp_wigahA5TESP34axvjAvisriuwbLuyhs1g,49
+shellmind-0.1.0.dist-info/top_level.txt,sha256=lVtzHg5P80z4J4L6jfdQg2rqmgEGEdVC7NEZjILT2w0,10
+shellmind-0.1.0.dist-info/RECORD,,
