@@ -1,0 +1,5 @@
+aioquic>=1.2.0
+asyncio
+
+[test]
+pytest
