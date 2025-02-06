@@ -1,0 +1,8 @@
+README.md
+setup.py
+apiMoneyFusion.egg-info/PKG-INFO
+apiMoneyFusion.egg-info/SOURCES.txt
+apiMoneyFusion.egg-info/dependency_links.txt
+apiMoneyFusion.egg-info/top_level.txt
+mypackage/__init__.py
+mypackage/main.py
