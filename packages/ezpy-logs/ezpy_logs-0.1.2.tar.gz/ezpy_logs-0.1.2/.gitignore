@@ -1,0 +1,11 @@
+.envrc
+
+.logs
+__pycache__
+.venv
+.pytest_cache
+dist
+
+*.pyc
+*.pyo
+*.log
