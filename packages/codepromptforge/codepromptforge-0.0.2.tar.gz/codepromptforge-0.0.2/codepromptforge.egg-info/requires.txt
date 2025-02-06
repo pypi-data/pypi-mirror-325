@@ -1,0 +1,8 @@
+pytest
+pydantic
+langchain
+pathspec
+
+[assistant]
+langchain_ollama
+langgraph
