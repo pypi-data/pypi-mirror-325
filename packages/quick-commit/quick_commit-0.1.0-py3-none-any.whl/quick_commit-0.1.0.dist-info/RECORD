@@ -1,0 +1,12 @@
+commit/__init__.py,sha256=tMvh9nkpsnjNpguG3xuYO-I5J6Iw-R9CgCX22Ag9la0,344
+commit/commits.py,sha256=o_Qtse4oNSQTFGX0SM2A3ipxkxMHTVf6WJXsATF6TWI,11304
+commit/config.py,sha256=3t3kjD-Hmf1PwgxKvAD0rpyyWmYVo5MaKeTFDUb-LvE,8856
+commit/main.py,sha256=JKho810-x85QSZ_pO-A-6g7uMJeX9qoyT4w9GIu6CDY,7099
+commit/prompt.py,sha256=LkUvA6vJGbWR8d3XtVLWkbURt1sd-9ccTJOGG7kDDks,6987
+commit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quick_commit-0.1.0.dist-info/LICENSE.txt,sha256=bLEAvDn-hZtacqu8rXohGetew5OmkQ7KltJl0RWULhA,1066
+quick_commit-0.1.0.dist-info/METADATA,sha256=GPnE6OXl4S9-SPqmmXUqexqG_eyWqOZbtDW2G2p4Zzo,4382
+quick_commit-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+quick_commit-0.1.0.dist-info/entry_points.txt,sha256=ZIGuUvJnGMWPwXGTfKK4EcxzgUEPD7Rj7JdgrZ7qV9Y,45
+quick_commit-0.1.0.dist-info/top_level.txt,sha256=UINu7ldOz_ed6jtP1AZz19AA96Xxd9imowALWceDg7g,7
+quick_commit-0.1.0.dist-info/RECORD,,
