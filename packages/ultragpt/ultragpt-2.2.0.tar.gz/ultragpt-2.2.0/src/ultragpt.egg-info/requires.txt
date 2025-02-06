@@ -1,0 +1,4 @@
+pydantic>=2.10.4
+openai>=1.59.3
+ultraprint>=3.2.0
+duckduckgo_search>=7.3.0
