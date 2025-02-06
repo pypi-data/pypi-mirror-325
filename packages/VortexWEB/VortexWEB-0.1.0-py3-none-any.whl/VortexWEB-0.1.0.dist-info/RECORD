@@ -1,0 +1,9 @@
+core/ErrorsHandling.py,sha256=UE3jACsBx77riJW-S9nCxwyIUNYiwr_fV_Ji_HqCTfk,2086
+core/__init__.py,sha256=AO7h-IeFK9_rcqqbc7pJdDfd5gURpDWKQAMZD42X9Bo,240
+core/api.py,sha256=_3zcccw-7Sk5zNB5nr9zBdD3bcsHfzPGQ9-NFSr6uiQ,5588
+core/data.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core/my_http_server.py,sha256=CGh-jXh16lj8uuebJzkzkPv2bJAZFG7by_JpVUz-WSw,3599
+VortexWEB-0.1.0.dist-info/METADATA,sha256=3InZ4rGCz3jJWGgCceY8zfWsl3qb1w_VuK2mOpSvzt0,2269
+VortexWEB-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+VortexWEB-0.1.0.dist-info/top_level.txt,sha256=0ebp8k35dOTHVwbY3UcokRsjC7cWLN_iaJ70tIcmODU,5
+VortexWEB-0.1.0.dist-info/RECORD,,
