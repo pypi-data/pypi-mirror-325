@@ -1,0 +1,7 @@
+include CHANGELOG.rst
+include LICENSE.txt
+include Makefile
+exclude tests/*
+exclude tests/data/*
+exclude docs/*
+exclude release.txt
