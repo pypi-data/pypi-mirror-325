@@ -1,0 +1,24 @@
+Metadata-Version: 2.2
+Name: apdtflow
+Version: 0.1.2
+Summary: APDTFlow: A modular forecasting framework for time series data
+Home-page: https://github.com/yotambraun/APDTFlow
+Author: Yotam Barun
+Author-email: yotambarun93@gmail.com
+Project-URL: Homepage, https://github.com/yotambraun/APDTFlow
+Project-URL: Documentation, https://github.com/yotambraun/APDTFlow
+Project-URL: Source, https://github.com/yotambraun/APDTFlow
+License-File: License
+Requires-Dist: torch
+Requires-Dist: torchdiffeq
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: tensorboard
+Requires-Dist: pyyaml
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: summary
