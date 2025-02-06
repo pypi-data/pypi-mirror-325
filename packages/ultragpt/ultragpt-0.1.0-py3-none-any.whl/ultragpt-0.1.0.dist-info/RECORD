@@ -1,0 +1,9 @@
+ultragpt/__init__.py,sha256=xZthV5LeZxv7LxZvIeAKUNzjDMO2WvUUs6MM89AyKn4,28
+ultragpt/core.py,sha256=tHQcFLFohMJZYs3txzosoTM0aL12opnflmVz971Eskg,23373
+ultragpt/prompts.py,sha256=OKAi0vgWF8_Mx_srKQ-20Qiu_cY7PHeaguTrVQaAaxw,6233
+ultragpt/schemas.py,sha256=mcrnTFbaSl505tE4MW1SifVjb_b28Kr6wbWtz6I5_tQ,222
+ultragpt-0.1.0.dist-info/LICENSE.rst,sha256=TCGFkhQv4A-0uKkDvj-g7EzWCSaEVR8vyws5gUGmHDw,1156
+ultragpt-0.1.0.dist-info/METADATA,sha256=kA0ecHHbH5hlpQsGF45tjYIcS16mMTDHvftd12b0FUE,4136
+ultragpt-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+ultragpt-0.1.0.dist-info/top_level.txt,sha256=vGH9OVhrk_PlAPK1-G_zISbgCULCt7OU7KA2Ro6NM-c,9
+ultragpt-0.1.0.dist-info/RECORD,,
