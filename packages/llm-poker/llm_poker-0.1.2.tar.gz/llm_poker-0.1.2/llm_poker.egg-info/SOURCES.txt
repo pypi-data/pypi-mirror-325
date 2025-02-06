@@ -1,0 +1,15 @@
+README.md
+setup.py
+llm_poker.egg-info/PKG-INFO
+llm_poker.egg-info/SOURCES.txt
+llm_poker.egg-info/dependency_links.txt
+llm_poker.egg-info/entry_points.txt
+llm_poker.egg-info/requires.txt
+llm_poker.egg-info/top_level.txt
+poker_eval/__init__.py
+poker_eval/cli.py
+poker_eval/environment.py
+poker_eval/human_player.py
+poker_eval/llm_player.py
+poker_eval/player.py
+poker_eval/test.py

@@ -1,0 +1,2 @@
+[console_scripts]
+poker-eval = poker_eval.cli:main
