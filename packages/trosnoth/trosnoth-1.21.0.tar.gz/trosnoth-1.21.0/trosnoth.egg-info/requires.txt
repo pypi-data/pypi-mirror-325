@@ -1,0 +1,8 @@
+PySide6
+asgiref
+cryptography
+msgpack
+pyOpenSSL
+pygame>=2.0.0
+simplejson
+twisted>=15.0
