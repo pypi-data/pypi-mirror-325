@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2025 Ángel García de la Chica Herrera <angel.garcia@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <template
+        id="sale_order_report_hide_discounts_by_partner_report_saleorder_document"
+        name="sale.order.report.hide.discounts.by.partner.report.saleorder.document"
+        inherit_id="sale.report_saleorder_document"
+        priority="999"
+    >
+        <xpath expr="//t[@t-set='display_discount']" position="after">
+            <t t-if="display_discount">
+                <t t-set="display_discount" t-value="doc.show_discounts" />
+            </t>
+        </xpath>
+        <xpath expr="//span[@t-field='line.price_unit']" position="attributes">
+            <attribute name="t-if">display_discount</attribute>
+        </xpath>
+        <xpath expr="//span[@t-field='line.price_unit']" position="after">
+            <span
+                groups="account.group_show_line_subtotals_tax_included,account.group_show_line_subtotals_tax_excluded"
+                t-if="not display_discount"
+                class="text-nowrap"
+                t-field="line.sale_price_unit_with_discount"
+            />
+        </xpath>
+    </template>
+</odoo>
