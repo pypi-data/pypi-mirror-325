@@ -1,0 +1,2 @@
+[console_scripts]
+peepsai = peepsai.cli.cli:peepsai
