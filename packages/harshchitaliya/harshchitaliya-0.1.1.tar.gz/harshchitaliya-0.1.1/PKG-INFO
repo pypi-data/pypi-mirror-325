@@ -1,0 +1,34 @@
+Metadata-Version: 2.2
+Name: harshchitaliya
+Version: 0.1.1
+Summary: Text Manipulation and Analysis Package
+Home-page: https://github.com/harshchi19/harsh
+Author: Harsh Chitaliya
+Author-email: harshchitaliya193@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# Harsh
+
+Harsh is a Python package for text manipulation and analysis. This package provides various utility functions to simplify and enhance text processing.
+
+## Features
+- Text reversal
+- Word counting
+- String case conversions
+- Palindrome checks
+
+## Installation
+```bash
+pip install harsh
