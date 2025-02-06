@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+win32_gui_utils/__init__.py
+win32_gui_utils/win32_gui_utils.py
+win32_gui_utils.egg-info/PKG-INFO
+win32_gui_utils.egg-info/SOURCES.txt
+win32_gui_utils.egg-info/dependency_links.txt
+win32_gui_utils.egg-info/requires.txt
+win32_gui_utils.egg-info/top_level.txt

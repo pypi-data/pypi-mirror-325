@@ -1,0 +1,57 @@
+# Win Automation Tool
+
+This project contains a Python module `win32_gui_utils` that provides utilities for interacting with Windows GUI elements using the win32 API.
+
+## Features
+
+- Find windows by name
+- Get handles for controls within windows
+- Simulate mouse clicks (left and right)
+- Retrieve and set text in controls
+- Wait for controls to be ready for interaction
+- Get properties of controls within a window
+- Select items in ComboBoxes
+- Focus windows
+
+## Dependencies
+
+- pywin32: Provides access to Windows APIs (win32gui, win32con, win32api)
+- time, ctypes: Standard Python modules for time control and buffer manipulation
+
+## Usage
+
+Here's a basic example of how to use some of the functions:
+
+```python
+import win32_gui_utils as wgu
+
+# Find a window
+window_handle = wgu.find_window("Notepad")
+
+# Get a control within the window
+edit_handle = wgu.get_handle_by_id(window_handle, 15)
+
+# Write text to the control
+wgu.write_text(edit_handle, "Hello, World!")
+
+# Click a button
+button_handle = wgu.get_handle_by_id(window_handle, 1)
+wgu.click_button(button_handle)
+```
+
+## Main Functions
+
+- `find_window(window_name, max_attempts=3, wait_time=2)`: Locates a window by its name (title)
+- `get_handle_by_id(hwnd, target_id)`: Gets the handle of a control specified by ID within a window
+- `wait_for_control(hwnd, target_id, timeout=10, poll_interval=0.5)`: Waits for a control to be ready for interaction
+- `click_button(hex_handle)`: Simulates a mouse click on a control
+- `write_text(hex_handle, text)`: Sends a text string to a control
+- `get_control_properties(parent_handle)`: Collects properties of child controls of a specified window
+- `select_combo_item(combo_hwnd, index)`: Selects an item in a ComboBox by index
+- `focus_window(hwnd)`: Sets a window as active (focused)
+
+For more detailed information about each function, please refer to the docstrings in the source code.
+
+## Note
+
+This module is designed for Windows automation tasks and requires appropriate permissions to interact with system windows and controls. Use responsibly and ensure you have the necessary rights to automate the target applications.
