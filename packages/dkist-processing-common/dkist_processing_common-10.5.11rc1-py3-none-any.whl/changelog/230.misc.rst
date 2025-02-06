@@ -1,0 +1,1 @@
+Use the new `dkist_inventory.asdf_generator.make_asdf_file_object` helper function and add a history entry to the trial framework ASDF.
