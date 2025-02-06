@@ -1,0 +1,17 @@
+[package]
+name = "bomiot_test"
+version = "0.5.1"
+edition = "2021"
+
+[lib]
+name = "bomiot_test"
+crate-type = ["cdylib"]
+
+[dependencies]
+serde = { version = "1.0.217", features = ["derive"] }
+serde_json = "1.0.138"
+
+
+[dependencies.pyo3]
+version = "0.23.3"
+features = ["abi3-py38"]
