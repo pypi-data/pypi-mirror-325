@@ -1,0 +1,32 @@
+Metadata-Version: 2.2
+Name: VortexWEB
+Version: 0.1.1
+Summary: A simple HTTP API framework for building RESTful APIs
+Home-page: https://github.com/yourusername/simple-http-api-framework
+Author: Murat
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: jinja2
+Requires-Dist: requests
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+Vortex
+
+Р­С‚Рѕ РїСЂРѕСЃС‚РѕР№ С„СЂРµР№РјРІРѕСЂРє РЅР° Python РґР»СЏ СЃРѕР·РґР°РЅРёСЏ HTTP-СЃРµСЂРІРµСЂРѕРІ Рё RESTful API. РћРЅ РїРѕРґРґРµСЂР¶РёРІР°РµС‚ РѕСЃРЅРѕРІРЅС‹Рµ HTTP РјРµС‚РѕРґС‹ (GET, POST, PUT, DELETE, PATCH), РѕР±СЂР°Р±РѕС‚РєСѓ РѕС€РёР±РѕРє, СЂРµРЅРґРµСЂРёРЅРі С€Р°Р±Р»РѕРЅРѕРІ, Р° С‚Р°РєР¶Рµ РїРѕРґРґРµСЂР¶РєСѓ CORS-Р·Р°РіРѕР»РѕРІРєРѕРІ. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё
+
+РџРѕРґРґРµСЂР¶РєР° HTTP РјРµС‚РѕРґРѕРІ: GET, POST, PUT, DELETE, PATCH.
+РћР±СЂР°Р±РѕС‚РєР° РѕС€РёР±РѕРє СЃ РЅР°СЃС‚СЂР°РёРІР°РµРјС‹РјРё СЃРѕРѕР±С‰РµРЅРёСЏРјРё (400, 404, 422, 500).
+РџРѕРґРґРµСЂР¶РєР° CORS РґР»СЏ РєСЂРѕСЃСЃ-РґРѕРјРµРЅРЅС‹С… Р·Р°РїСЂРѕСЃРѕРІ.
+Р РµРЅРґРµСЂРёРЅРі С€Р°Р±Р»РѕРЅРѕРІ СЃ РїРѕРґРґРµСЂР¶РєРѕР№ Jinja-РїРѕРґРѕР±РЅС‹С… С€Р°Р±Р»РѕРЅРѕРІ.
+Р”РёРЅР°РјРёС‡РµСЃРєР°СЏ СЂРµРіРёСЃС‚СЂР°С†РёСЏ СЌРЅРґРїРѕРёРЅС‚РѕРІ.
+РћС‚РІРµС‚С‹ РІ С„РѕСЂРјР°С‚Рµ JSON РґР»СЏ СѓРґРѕР±РЅРѕР№ РёРЅС‚РµРіСЂР°С†РёРё СЃ API.
