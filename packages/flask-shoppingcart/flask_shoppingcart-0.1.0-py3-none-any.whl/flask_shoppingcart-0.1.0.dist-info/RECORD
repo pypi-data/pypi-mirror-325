@@ -1,0 +1,10 @@
+flask_shoppingcart/__init__.py,sha256=PFv1ed4On7p1eTvqffhfJDJfHObF98GB8ZRhjiDj-7o,49
+flask_shoppingcart/_shoppingcart.py,sha256=dnL1g8LoklM2ODPXJ71-8mRMShWjDcIbvj5e2lGaEcw,1642
+flask_shoppingcart/config.py,sha256=0p4LiW6oxb0xavM6x8FMs3VpzRI_fkaU_u2gX5WJYJs,87
+flask_shoppingcart/exceptions.py,sha256=XzmpFgu3b2hu2KLqcvH_9_4cu4tk7U5OsLhp6TTQHH0,94
+flask_shoppingcart/flask_shoppingcart.py,sha256=AV-JysuEs5JrA_dlDjJe0Zw1PMJvJv-Gqvh-qsF6izI,5196
+flask_shoppingcart-0.1.0.dist-info/LICENCE,sha256=TDsYctF3E_9MuBciAEYj-t099TAwJ5Yq7x3YPtIsidE,1569
+flask_shoppingcart-0.1.0.dist-info/METADATA,sha256=2wx-OxC5uRtsUC0J6R9JpgG72BuAi_BTbWq9wlyF-S8,3932
+flask_shoppingcart-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+flask_shoppingcart-0.1.0.dist-info/top_level.txt,sha256=1zHFlN7Ed2eo7Egr0xMIDW3iEv-hi30i4tje_umFwaM,19
+flask_shoppingcart-0.1.0.dist-info/RECORD,,
