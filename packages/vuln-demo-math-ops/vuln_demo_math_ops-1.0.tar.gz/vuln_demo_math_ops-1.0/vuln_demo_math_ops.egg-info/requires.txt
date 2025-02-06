@@ -1,0 +1,5 @@
+Django==4.2.18
+agpt==0.2.2
+waitress==2.0.0
+gradio==5.10.0
+flask==1.0.2
