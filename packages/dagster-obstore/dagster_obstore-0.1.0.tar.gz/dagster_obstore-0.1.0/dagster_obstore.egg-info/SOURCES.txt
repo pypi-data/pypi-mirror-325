@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+dagster_obstore/__init__.py
+dagster_obstore/py.typed
+dagster_obstore.egg-info/PKG-INFO
+dagster_obstore.egg-info/SOURCES.txt
+dagster_obstore.egg-info/dependency_links.txt
+dagster_obstore.egg-info/requires.txt
+dagster_obstore.egg-info/top_level.txt
