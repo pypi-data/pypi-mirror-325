@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: trubrics
+Version: 1.7.7
+Summary: Python SDK to track events in Trubrics.
+Author-email: Jeff Kayne <jeff.kayne@trubrics.com>
+License: Apache 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.31.0
+
+# Welcome to the trubrics-sdk
+
+> [!IMPORTANT]
+> We are working on a new analytics platform, and we're looking for beta testers.
+> Please [reach out](https://calendly.com/joel-hodgson-1/30min?month=2024-05) to learn more.
