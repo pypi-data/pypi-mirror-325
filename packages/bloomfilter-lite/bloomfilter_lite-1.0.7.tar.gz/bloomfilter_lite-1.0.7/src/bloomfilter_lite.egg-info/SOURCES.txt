@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/bloomfilter_lite.egg-info/PKG-INFO
+src/bloomfilter_lite.egg-info/SOURCES.txt
+src/bloomfilter_lite.egg-info/dependency_links.txt
+src/bloomfilter_lite.egg-info/requires.txt
+src/bloomfilter_lite.egg-info/top_level.txt
+tests/test_bloom_filter.py
