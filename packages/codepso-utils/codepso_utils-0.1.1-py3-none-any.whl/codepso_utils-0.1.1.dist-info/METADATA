@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: codepso-utils
+Version: 0.1.1
+Summary: Utilities for developing RESTful API, Open API projects with fastAPI and python
+Author: Juan Minaya
+Author-email: minayaleon@gmail.com
+Requires-Python: >=3.12
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: fastapi[standard] (>=0.115.8,<0.116.0)
+Requires-Dist: sqlmodel (>=0.0.22,<0.0.23)
+Description-Content-Type: text/markdown
+
+poetry build
+
+
