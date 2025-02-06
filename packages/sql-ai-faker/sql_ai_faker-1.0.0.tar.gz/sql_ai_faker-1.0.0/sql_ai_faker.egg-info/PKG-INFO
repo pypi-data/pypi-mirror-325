@@ -1,0 +1,131 @@
+Metadata-Version: 2.2
+Name: sql-ai-faker
+Version: 1.0.0
+Summary: AI-powered fake data generator for SQLAlchemy models using LLMs
+Home-page: https://github.com/otabek-olimjonov/ai_faker
+Author: Otabek Olimjonov
+Author-email: bekdevs01@gmail.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/otabek-olimjonov/ai_faker/issues
+Project-URL: Source, https://github.com/otabek-olimjonov/ai_faker
+Keywords: sqlalchemy,faker,ai,llm,testing,database,openai,gemini
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sqlalchemy>=1.4.0
+Requires-Dist: typing-extensions>=4.0.0
+Requires-Dist: python-dotenv>=0.19.0
+Provides-Extra: openai
+Requires-Dist: openai>=1.0.0; extra == "openai"
+Provides-Extra: gemini
+Requires-Dist: google-generativeai>=0.3.0; extra == "gemini"
+Provides-Extra: all
+Requires-Dist: google-generativeai>=0.3.0; extra == "all"
+Requires-Dist: openai>=1.0.0; extra == "all"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# AI Faker
+
+AI-powered fake data generator for SQLAlchemy models using LLMs (OpenAI, Gemini).
+
+## Features
+
+- Generate realistic fake data using AI/LLM
+- Batch generation for efficiency
+- Support for OpenAI and Google's Gemini
+- SQLAlchemy integration
+- Type-aware data generation
+- Unique constraint handling
+- Relationship support
+
+## Installation
+
+```bash
+# Install with OpenAI support
+pip install ai_faker[openai]
+
+# Install with Gemini support
+pip install ai_faker[gemini]
+
+# Install with all providers
+pip install ai_faker[all]
+```
+
+## Quick Start
+
+```python
+from sqlalchemy import create_engine, Column, Integer, String
+from sqlalchemy.orm import declarative_base
+from ai_faker import DataGenerator, LLMInterface
+from ai_faker.core.llm_providers import OpenAIProvider
+
+# Create your SQLAlchemy model
+Base = declarative_base()
+
+class User(Base):
+    __tablename__ = 'users'
+    id = Column(Integer, primary_key=True)
+    username = Column(String(50), unique=True)
+    email = Column(String(100), unique=True)
+
+# Initialize the provider and generator
+provider = OpenAIProvider(api_key="your-api-key")
+llm = LLMInterface(provider)
+generator = DataGenerator(llm)
+
+# Generate fake data
+fake_users = generator.generate_fake_data(User, count=50)
+
+print(fake_users)
+```
+
+## Environment Variables
+
+Create a `.env` file:
+
+```env
+# OpenAI
+OPENAI_API_KEY=your-openai-key
+
+# Gemini
+GOOGLE_API_KEY=your-google-key
+```
+
+## Supported Providers
+
+### OpenAI
+- Uses GPT models
+- Requires OpenAI API key
+
+### Gemini
+- Uses Google's Gemini models
+- Requires Google API key
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
