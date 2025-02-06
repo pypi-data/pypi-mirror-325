@@ -1,0 +1,20 @@
+.venv
+__pycache__
+.vscode
+*.egg-info/
+dist/
+.pants.d/
+.pants*
+.pids/
+.pids*
+**/*.log
+.aider*
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
