@@ -1,0 +1,7 @@
+requests<3,>=2.32.3
+python-dotenv<2,>=1.0.1
+requests<3,>=2.30.0
+setuptools<73,>=72
+
+[test]
+pytest<9,>=8.3.2
