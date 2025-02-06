@@ -1,0 +1,9 @@
+LICENSE
+README.md
+mfid.py
+setup.py
+mfid.egg-info/PKG-INFO
+mfid.egg-info/SOURCES.txt
+mfid.egg-info/dependency_links.txt
+mfid.egg-info/requires.txt
+mfid.egg-info/top_level.txt
