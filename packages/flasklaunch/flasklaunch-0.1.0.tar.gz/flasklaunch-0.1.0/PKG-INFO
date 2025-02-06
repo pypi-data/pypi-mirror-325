@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: flasklaunch
+Version: 0.1.0
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: dynaconf
+Requires-Dist: pyyaml
+Requires-Dist: click
+Dynamic: requires-dist
