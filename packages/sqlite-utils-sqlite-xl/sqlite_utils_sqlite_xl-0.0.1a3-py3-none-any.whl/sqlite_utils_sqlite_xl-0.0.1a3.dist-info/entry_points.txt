@@ -1,0 +1,3 @@
+[sqlite_utils]
+sqlite_xl = sqlite_utils_sqlite_xl
+
