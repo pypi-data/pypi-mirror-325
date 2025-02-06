@@ -1,0 +1,12 @@
+structured_qa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+structured_qa/cli.py,sha256=YHbCkUTer2f70D3wRcLfKezS0J298uWo1a6iTeTlWhE,2860
+structured_qa/config.py,sha256=AizuhwxX9t8pSj4VpzlcsdrzkjaKneJf-zVu8pYVLDY,2155
+structured_qa/model_loaders.py,sha256=wM0MgIvOZwHfB8lx9Qar6hAK2SV9Tbq6YMeKYB9LUqs,3261
+structured_qa/preprocessing.py,sha256=v03JBxn2r6c5NKcHlV5r6vIKLfQb_38w-SG3GcMIzB8,2876
+structured_qa/workflow.py,sha256=s99CLsxfYfZ2QixczePOc3P5rD11fAg-syOgYL-FSVk,4127
+structured_qa-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+structured_qa-1.0.0.dist-info/METADATA,sha256=jTy-SyQZvdzM4Lnw6ET3CXOuFjXtc5D08SiHLmNGDs4,3553
+structured_qa-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+structured_qa-1.0.0.dist-info/entry_points.txt,sha256=WYnyOuXAP_l2tjsQ7HLp3Iqs08wQFbYRaZfKtpj3FxU,57
+structured_qa-1.0.0.dist-info/top_level.txt,sha256=_6Ty-nnw8S1xlBQz74ZLnqC_LY_kbVSNf0gtCGoxkfM,14
+structured_qa-1.0.0.dist-info/RECORD,,
