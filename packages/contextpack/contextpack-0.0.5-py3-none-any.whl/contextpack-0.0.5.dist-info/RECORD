@@ -1,0 +1,9 @@
+contextpack/__init__.py,sha256=rNpJ9AQ4A6CzESUCy8hRDc3Vztt5_0VWqQzUdT0CiH8,269
+contextpack/_modidx.py,sha256=Bq_BI0Yzg5vxG6yLHLN0N-5NB7MtQNvvx1U2seOX8wA,3059
+contextpack/core.py,sha256=NlzhStTtY_qc3l1omhUgCySinwZ7UraoLJHqR6Buweg,4100
+contextpack-0.0.5.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+contextpack-0.0.5.dist-info/METADATA,sha256=3i84DbQSslteMfQ0d7Akmp9wpedG78yVdhsl4O5TvYs,2589
+contextpack-0.0.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+contextpack-0.0.5.dist-info/entry_points.txt,sha256=YynZaCCGJ03U5COaMIxEasCwlTLUp5ANPGBl5GtFffE,44
+contextpack-0.0.5.dist-info/top_level.txt,sha256=5TNsD3q-Z1NVQ6uhm2pAIiHAif025tvGq3qZBcn-EBs,12
+contextpack-0.0.5.dist-info/RECORD,,
