@@ -1,0 +1,3 @@
+include CMakeLists.txt
+include src/*.cpp
+include stubs/*
