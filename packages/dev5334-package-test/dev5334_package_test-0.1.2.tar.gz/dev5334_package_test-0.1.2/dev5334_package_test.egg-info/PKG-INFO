@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: dev5334_package_test
+Version: 0.1.2
+Summary: My first Custom Python library
+Home-page: https://github.com/wizata-lsi/dev5334_package_test
+Author: wizata-lsi
+Dynamic: author
+Dynamic: home-page
+Dynamic: summary

@@ -1,0 +1,7 @@
+setup.py
+dev5334_package_test/__init__.py
+dev5334_package_test/myfunction_version.py
+dev5334_package_test.egg-info/PKG-INFO
+dev5334_package_test.egg-info/SOURCES.txt
+dev5334_package_test.egg-info/dependency_links.txt
+dev5334_package_test.egg-info/top_level.txt
