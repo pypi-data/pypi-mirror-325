@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+idstring/__init__.py
+idstring/idstring.py
+idstring.egg-info/PKG-INFO
+idstring.egg-info/SOURCES.txt
+idstring.egg-info/dependency_links.txt
+idstring.egg-info/top_level.txt
+test/test_idstring.py

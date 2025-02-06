@@ -1,0 +1,29 @@
+[project]
+name = 'idstring'
+description = 'A Python package to create unique, checksummed serial-number strings.'
+authors = [{name = 'Vernon Cole'},{email = "vernondcole@gmail.com"}]
+dependencies = []
+dynamic = ['version']  # set from __version__ in idstring.py
+keywords = ["serial number", "string", "checksum", "Luhn", "increment"]
+classifiers = [
+            'Development Status :: 5 - Production/Stable',
+            'Intended Audience :: Developers',
+            'License :: OSI Approved :: GNU General Public License (GPL)',
+            'Programming Language :: Python',
+            'Natural Language :: English',
+            'Operating System :: OS Independent',
+            'Topic :: Software Development',
+            'Topic :: Software Development :: Libraries :: Python Modules'
+            ]
+readme = "README.md"
+
+[project.urls]
+repository = "https://github.com/vernondcole/idstring"
+documentation = "https://github.com/vernondcole/idstring/wiki"
+
+[build-system]
+requires = ["setuptools", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = {attr = "idstring.__version__"}
