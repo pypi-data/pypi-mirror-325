@@ -1,0 +1,13 @@
+[package]
+name    = "geodynamix"
+version = "0.16.0"
+edition = "2021"
+
+[lib]
+name       = "geodynamix"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.23"
+inf  = { path = "../inf" }
+geo  = { path = "../geo" }

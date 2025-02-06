@@ -1,0 +1,41 @@
+[package]
+name    = "infra-rs"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["crates/geodynamix"]
+
+[dependencies]
+inf    = { path = "./crates/inf" }
+geo    = { path = "./crates/geo" }
+tiler  = { path = "./crates/tiler", optional = true }
+sqlite = { path = "./crates/sqlite", optional = true }
+
+[features]
+tiler       = ["dep:tiler"]
+arrow       = ["geo/arrow"]
+sqlite      = ["dep:sqlite"]
+gdal        = ["geo/gdal"]
+gdal-static = ["geo/gdal-static"]
+serde       = ["inf/serde"]
+
+[package.metadata.vcpkg]
+git = "https://github.com/microsoft/vcpkg"
+rev = "10b7a17"
+overlay-triplets-path = "vcpkg-triplets"
+dependencies = [
+    "gdal[core,netcdf]",
+    "netcdf-c[core,netcdf-4,hdf5]",
+] # needed to run the geo tests
+
+[package.metadata.vcpkg.target]
+#aarch64-apple-darwin = { triplet = "arm64-osx-debugsymbols" }
+#x86_64-pc-windows-msvc = { triplet = "x64-windows-static-debugsymbols" }
+x86_64-apple-darwin    = { triplet = "x64-osx-release" }
+aarch64-apple-darwin   = { triplet = "arm64-osx-release" }
+x86_64-pc-windows-msvc = { triplet = "x64-windows-static-release" }
+
+[patch.crates-io]
+# more recent geozero to avoid multiple gdal copies
+geozero = { git = "https://github.com/georust/geozero.git", rev = "97b143716dcb6331ba259f9c98b1af9a6c325739" }

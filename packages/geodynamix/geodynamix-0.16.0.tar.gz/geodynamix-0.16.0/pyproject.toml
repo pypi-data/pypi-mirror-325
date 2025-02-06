@@ -1,0 +1,28 @@
+[build-system]
+requires      = ["maturin>=1.8,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "geodynamix"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Programming Language :: Rust",
+]
+dynamic = ["version"]
+[tool.maturin]
+features = ["pyo3/extension-module"]
+manifest-path = "crates/geodynamix/Cargo.toml"
+
+[tool.pixi.project]
+channels  = ["conda-forge"]
+platforms = ["osx-64"]
+
+[tool.pixi.pypi-dependencies]
+geodynamix = { path = ".", editable = true }
+
+[tool.pixi.tasks]
+
+[tool.pixi.build-dependencies]
+maturin = ">=1.8.1,<2"
