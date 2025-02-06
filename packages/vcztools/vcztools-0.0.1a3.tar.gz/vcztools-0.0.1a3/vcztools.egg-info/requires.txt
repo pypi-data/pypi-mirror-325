@@ -1,0 +1,12 @@
+numpy>=1.23.5
+zarr<3,>=2.17
+click
+pyranges
+pyparsing>=3
+
+[dev]
+bio2zarr
+cyvcf2
+pytest
+pytest-cov
+pytest-datadir
