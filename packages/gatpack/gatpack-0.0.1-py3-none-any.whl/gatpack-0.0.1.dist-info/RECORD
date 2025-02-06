@@ -1,0 +1,15 @@
+gatpack/__init__.py,sha256=FEOs_V3vhvWtHWfVzoWQ_2wCGrutwjetqmVp-vnGw0Y,45
+gatpack/config.py,sha256=91dNQTlqFq48rHFy_EBucOGZUzJzArbceqFhayAl2wg,1008
+gatpack/user/.precontext.json,sha256=EqLj38qcZrfWBMSs3E9PBag5ymba7VNN5tXZu8VSO38,3649
+gatpack/user/README.md,sha256=suB2ttuXM4xMm5oUntM7n5wy7PQMp-fPRjgta4y8sLk,1103
+gatpack/user/config.gatpack.yaml,sha256=pYrynR5hh-aOb8-9jsv_PDgSBt95x6RZmW0uV2moazs,520
+gatpack/user/00_assets/maia-horizontal_cropped.jpeg,sha256=5SCPk5eY_BGKjP6GM5Mq9Xhe65MNqhzoQWbqhoKrbK0,86181
+gatpack/user/01_templates/cover.jinja.html,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gatpack/user/01_templates/style.jinja.css,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gatpack/user/02_web/cover.html,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gatpack/user/02_web/further_readings.html,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gatpack/user/02_web/style.jinja.css,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gatpack-0.0.1.dist-info/METADATA,sha256=GlIjhUpfa-AeCh9IrD_ErMn9KZqNqn6VsXqFx-193eI,11696
+gatpack-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+gatpack-0.0.1.dist-info/licenses/LICENSE,sha256=SKwqM_yDNgnvGNl0OgB4m9GiqFTQefm7f8rLZc2RFQ0,1080
+gatpack-0.0.1.dist-info/RECORD,,
