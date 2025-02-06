@@ -1,0 +1,127 @@
+Metadata-Version: 2.2
+Name: mtd-project
+Version: 0.1.0
+Summary: JDL经分看板数据处理工具
+Home-page: https://github.com/Juziziju/MTD
+Author: Chen
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# JDL经分看板数据处理工具
+
+## 概述
+这是一个专门为欧洲区业务设计的数据处理工具，主要用于处理经分看板所需数据，包含两个核心功能：
+1. MTD（月度）收入分析与同比对比
+2. 运输成本与收入分析
+
+## 主要功能
+- MTD收入分析
+  - 当月与上月收入同比对比分析
+  - 客户分类（月度新签、年度新签、保有客户）
+  - 按不同维度（客经、销售、客户类型等）展示收入数据
+- 运输数据分析
+  - 运输成本与收入的FS码匹配分析
+  - 仓库数据集成
+  - 客户信息映射
+
+## 安装与设置
+
+### 环境要求
+- Python 3.9 或更高版本
+- pip (Python包管理器)
+
+### 必需的Python包
+```bash
+pip install pandas openpyxl
+```
+
+### 设置步骤
+1. 下载代码到本地
+2. 创建并激活虚拟环境（推荐）：
+```bash
+python -m venv env
+source env/bin/activate  # Mac/Linux系统
+env\Scripts\activate     # Windows系统
+```
+3. 在虚拟环境中安装所需包：
+```bash
+pip install pandas openpyxl
+```
+
+## 数据需求
+
+### MTD收入分析功能
+#### 输入数据要求
+1. MTD数据文件（Excel格式）
+   - 必需字段：vendor_id, vendor_name, 收入, 考核归属事业部, 海外仓编码, dt_day
+   - 数据范围：当月欧洲区数据
+2. 上月收入数据（Excel格式）
+   - 必需字段：客户编码, 客户名称, 不含税CNY
+   - 数据范围：上月欧洲区数据
+3. 客户信息文件（固定路径：'/Users/chen/Documents/ba/数据表/mtd/数据模型/客户信息更新.xlsx'）
+   - 必需字段：客户编码, 新签月份, 销售, 销售主管, 客经
+4. 仓库信息文件
+   - 必需字段：仓库中文名称, 仓库编码, 仓类型
+
+#### 输出数据说明
+1. 收入变化分析Excel文件
+   - 输出字段：客户编码, 客户名称, 国家, 客户类型, 上月收入, 本月收入, 收入差值, 同比增长, 销售, 销售主管, 客经
+   - 用途：用于分析客户收入变化情况和同比增长
+2. 收入详细数据Excel文件
+   - 包含完整的收入数据及仓库信息
+   - 用途：用于经分看板的详细数据展示
+
+### 运输数据分析功能
+#### 输入数据要求
+1. 运输明细收入文件（Excel或CSV格式）
+   - 必需字段：销售二级, tms_belong_code, 不含税金额CNY, 业务发生月份, 客户KH编码, 客户名称等
+   - 数据范围：欧洲区运输收入数据
+2. 运输明细成本文件（Excel或CSV格式）
+   - 必需字段：销售二级, 成本分摊_收入单号, 不含税金额CNY, 业务发生月份, 客户KH编码, 客户名称等
+   - 数据范围：欧洲区运输成本数据
+3. 客户信息文件（与MTD分析共用）
+
+#### 输出数据说明
+- 运输数据分析结果（CSV格式）
+  - 输出字段：业务发生月份, 客户KH编码, 客户名称, 销售三级, business_line2, 仓配纯配, 业务线名称, 计费产品名称, 应收, 成本, FS_code, 客经, mtd_date
+  - 用途：用于分析运输业务的收入成本匹配情况
+
+## 使用说明
+1. 运行程序后会出现图形界面，提供两个功能按钮：
+   - "处理数据"：执行MTD收入分析
+   - "处理运输数据"：执行运输成本收入分析
+2. 根据提示依次选择所需的输入文件
+3. 程序自动处理数据后，选择保存位置
+4. 所有文件操作均通过图形界面完成，无需手动输入路径
+
+## 注意事项
+1. 数据准备
+   - 确保所有输入文件的格式和必需字段完整
+   - 检查数据范围是否正确（欧洲区）
+2. 文件格式
+   - CSV文件支持多种中文编码（gb18030, gbk, gb2312, utf-8）
+   - Excel文件需要符合模板要求
+3. 环境配置
+   - 客户信息文件路径需要正确配置
+   - 建议使用虚拟环境运行程序
+
+## 常见问题处理
+1. 编码问题：程序会自动尝试不同的编码方式
+2. 字段名不匹配：检查输入文件字段名是否与要求一致
+3. 数据处理错误：查看错误提示，检查数据格式是否正确
