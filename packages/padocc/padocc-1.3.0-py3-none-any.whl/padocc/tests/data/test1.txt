@@ -1,0 +1,5 @@
+padocc/tests/data/rain/example1.0.nc
+padocc/tests/data/rain/example1.1.nc
+padocc/tests/data/rain/example1.2.nc
+padocc/tests/data/rain/example1.3.nc
+padocc/tests/data/rain/example1.4.nc
