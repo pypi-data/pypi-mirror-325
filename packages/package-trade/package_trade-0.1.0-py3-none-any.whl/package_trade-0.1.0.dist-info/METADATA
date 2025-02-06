@@ -1,0 +1,45 @@
+Metadata-Version: 2.2
+Name: package_trade
+Version: 0.1.0
+Summary: Trade program
+Home-page: https://github.com/DanrleyS/Machine_learn_prever_valor_acoes
+Author: Danrley
+Author-email: seu_email@example.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: yfinance
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+# Trader Processing
+
+**Description**  
+The Trader package is used to:
+- **Collect data**: Collects data from a specific stock at a given time.
+- **Processing**: Processes this data.
+- **Model**: Creates a machine learning model.
+- **Forecast**: Makes predictions with specific indicators.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `package_trader`:
+
+```bash
+pip install package_trader
+
+##Author
+Danrley
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
