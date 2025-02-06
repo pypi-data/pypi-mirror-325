@@ -1,0 +1,11 @@
+spacefrontiers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacefrontiers/clients/__init__.py,sha256=fxtom850VqS7OHIR9neXaj_o3uVVJOoqvvF57pscZbc,5908
+spacefrontiers/clients/build_protos.sh,sha256=kra5ejLxYwnnl8YIRhJMx8JRguxTWv3z61M9oxh7Wu0,114
+spacefrontiers/clients/protos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacefrontiers/clients/protos/service.proto,sha256=-0uK-FuiwOkPfrgbo8W43i_tDitY3WexgB0qsezR9Ko,622
+spacefrontiers/clients/protos/service_pb2.py,sha256=YN87Vl7IAczSsvAt9luy3kqCSK7Yp6k_CiAUQtZNKdQ,2507
+spacefrontiers/clients/protos/service_pb2.pyi,sha256=Cp59KiF_7JpDPx5tuuOyyhLWkKfURsEGA-pj2JcoRE0,2347
+spacefrontiers/clients/protos/service_pb2_grpc.py,sha256=QUELFesf34Kha3Ght07o4m1i6Im9R977qlw4J6iaF0E,4888
+spacefrontiers_clients-0.0.1.dist-info/METADATA,sha256=sQJJF_WKvhTsKMtsh_U-TqxJtl2WU5MeQP0dM---s8Q,502
+spacefrontiers_clients-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+spacefrontiers_clients-0.0.1.dist-info/RECORD,,
