@@ -1,0 +1,10 @@
+apicaller/__init__.py,sha256=XKTZeece554NOgOKPb0ZFJLs0ITlNWwSy8nYOe6g-0M,64
+apicaller/base.py,sha256=M5f8-o9qCmHX6TpIuVcCbcFa5i9gMSdT-uTURjF97LI,854
+apicaller/openai_caller.py,sha256=fJAAT_dZGDlHwOJLKLAizyxFIb3iIYR2GkD9yftz8I0,861
+apicaller/parser.py,sha256=loUnN_8x_hpyi_EfJp_Ucpl7iwRxJfPDurdQSEwRfrQ,2171
+apicaller/swagger.py,sha256=MOvyAXo6Mv_IXKXLcoTYsIrK8iKf3F7l4aUC3SuO8cM,9512
+pyapicaller-0.2.2.dist-info/LICENSE,sha256=0BcxXSwjt6KQRp16C_gTPqnaMNDvaaVhj6AHHpji3E8,1070
+pyapicaller-0.2.2.dist-info/METADATA,sha256=CbDsUUts4kD-RKep3c-aNP3yEt0xtCCDNk5FS0WXJos,4606
+pyapicaller-0.2.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pyapicaller-0.2.2.dist-info/top_level.txt,sha256=2mNnz119Do9Ckvo8i88NpnHhW1Oux52BO-Z_2Pqb41k,10
+pyapicaller-0.2.2.dist-info/RECORD,,
