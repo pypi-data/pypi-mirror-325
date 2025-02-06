@@ -1,0 +1,8 @@
+setup.py
+app/__init__.py
+app/app.py
+my_flask_app_pratik_12345.egg-info/PKG-INFO
+my_flask_app_pratik_12345.egg-info/SOURCES.txt
+my_flask_app_pratik_12345.egg-info/dependency_links.txt
+my_flask_app_pratik_12345.egg-info/requires.txt
+my_flask_app_pratik_12345.egg-info/top_level.txt

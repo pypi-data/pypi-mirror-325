@@ -1,0 +1,5 @@
+Metadata-Version: 2.2
+Name: my-flask-app-pratik-12345
+Version: 0.3.0
+Requires-Dist: Flask
+Dynamic: requires-dist
