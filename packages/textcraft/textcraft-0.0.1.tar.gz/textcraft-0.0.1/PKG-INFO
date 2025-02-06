@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: textcraft
+Version: 0.0.1
+Summary: Textcraft environment
+Author-email: Nikolai Rozanov <nikolai.rozanov@gmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: gymnasium>=0.26.0
+Requires-Dist: numpy>=1.24.0
+
+# Textcraft Environment

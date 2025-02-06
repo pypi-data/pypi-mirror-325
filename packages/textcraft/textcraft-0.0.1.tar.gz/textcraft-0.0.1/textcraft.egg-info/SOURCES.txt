@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+textcraft/__init__.py
+textcraft/crafting_tree.py
+textcraft/env.py
+textcraft/utils.py
+textcraft.egg-info/PKG-INFO
+textcraft.egg-info/SOURCES.txt
+textcraft.egg-info/dependency_links.txt
+textcraft.egg-info/requires.txt
+textcraft.egg-info/top_level.txt
