@@ -1,0 +1,2 @@
+[console_scripts]
+grove-watcher = grove_watcher.__main__:find
