@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+calcioquery_common.egg-info/PKG-INFO
+calcioquery_common.egg-info/SOURCES.txt
+calcioquery_common.egg-info/dependency_links.txt
+calcioquery_common.egg-info/requires.txt
+calcioquery_common.egg-info/top_level.txt
+models/__init__.py
+models/fixture.py
+models/league.py
+models/player.py
+models/team.py
