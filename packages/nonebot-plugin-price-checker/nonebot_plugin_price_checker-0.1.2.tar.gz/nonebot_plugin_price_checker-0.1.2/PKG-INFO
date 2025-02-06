@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: nonebot-plugin-price-checker
+Version: 0.1.2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: nonebot2
+Requires-Dist: pydantic
+Requires-Dist: aiohttp
+Requires-Dist: beautifulsoup4
+Requires-Dist: selenium
+Requires-Dist: playwright
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python

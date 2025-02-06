@@ -1,0 +1,6 @@
+nonebot2
+pydantic
+aiohttp
+beautifulsoup4
+selenium
+playwright
