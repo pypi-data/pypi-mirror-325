@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: Y2F
+Version: 1.0.5
+Summary: Command line utility for downloading YouTube videos in MP3 or MP4 format.
+Home-page: https://github.com/CSharpTeoMan911/Y2F
+Author-email: teodormihail07@gmail.com
+License-File: LICENCE
+Requires-Dist: pytubefix
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
