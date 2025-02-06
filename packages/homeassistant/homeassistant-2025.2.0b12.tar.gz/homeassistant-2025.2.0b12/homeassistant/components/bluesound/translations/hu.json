@@ -1,0 +1,68 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "A szolg\u00e1ltat\u00e1s m\u00e1r konfigur\u00e1lva van",
+            "already_in_progress": "A konfigur\u00e1l\u00e1s m\u00e1r folyamatban van",
+            "cannot_connect": "Sikertelen csatlakoz\u00e1s"
+        },
+        "error": {
+            "cannot_connect": "Sikertelen csatlakoz\u00e1s"
+        },
+        "step": {
+            "confirm": {
+                "description": "El szeretn\u00e9 kezdeni a be\u00e1ll\u00edt\u00e1st?",
+                "title": "Fedezze fel a Bluesound lej\u00e1tsz\u00f3t"
+            },
+            "user": {
+                "data": {
+                    "host": "Hoszt",
+                    "port": "Port"
+                },
+                "data_description": {
+                    "host": "A Bluesound lej\u00e1tsz\u00f3 hosztneve vagy IP-c\u00edme",
+                    "port": "A Bluesound lej\u00e1tsz\u00f3 portja. Ez \u00e1ltal\u00e1ban 11000."
+                }
+            }
+        }
+    },
+    "services": {
+        "clear_sleep_timer": {
+            "fields": {
+                "entity_id": {
+                    "description": "Azoknak az entit\u00e1soknak a neve, amelyekn\u00e9l az id\u0151z\u00edt\u0151t t\u00f6r\u00f6lni fogja.",
+                    "name": "Entit\u00e1s"
+                }
+            },
+            "name": "Alv\u00e1s id\u0151z\u00edt\u0151 t\u00f6rl\u00e9se"
+        },
+        "join": {
+            "fields": {
+                "entity_id": {
+                    "name": "Entit\u00e1s"
+                },
+                "master": {
+                    "description": "A lej\u00e1tsz\u00f3 entit\u00e1sazonos\u00edt\u00f3ja, amelynek a csoport gazd\u00e1j\u00e1v\u00e1 kell v\u00e1lnia.",
+                    "name": "Gazda"
+                }
+            },
+            "name": "Csatlakoz\u00e1s"
+        },
+        "set_sleep_timer": {
+            "fields": {
+                "entity_id": {
+                    "description": "Azoknak az entit\u00e1soknak a neve, amelyekhez id\u0151z\u00edt\u0151t \u00e1ll\u00edtanak be.",
+                    "name": "Entit\u00e1s"
+                }
+            },
+            "name": "Alv\u00e1sid\u0151z\u00edt\u0151 be\u00e1ll\u00edt\u00e1sa"
+        },
+        "unjoin": {
+            "fields": {
+                "entity_id": {
+                    "name": "Entit\u00e1s"
+                }
+            },
+            "name": "Kil\u00e9ptet\u00e9s"
+        }
+    }
+}
