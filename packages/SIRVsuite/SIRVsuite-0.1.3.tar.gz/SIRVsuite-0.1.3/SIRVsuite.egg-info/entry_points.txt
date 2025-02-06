@@ -1,0 +1,2 @@
+[console_scripts]
+SIRVsuite = SIRVsuite.__main__:main
