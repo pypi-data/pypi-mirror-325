@@ -1,0 +1,12 @@
+onebot_adapter/__init__.py,sha256=7P1nFribyrkaQmu5saQS1M7YpWf7AhMPT7T6hgln8A0,1010
+onebot_adapter/adapter.py,sha256=NEG_emLOAElTXouxKJTgQ_WlQXlISCa_MtpO_-gj2nk,12070
+onebot_adapter/config.py,sha256=aqWe3PHr8MKMH4ic3LKQ0_oBVmAT4ue7S9f4Dya8n14,523
+onebot_adapter/handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onebot_adapter/handlers/message_result.py,sha256=i3YcHusdhwznWgoqKHRAGmrNa3PAGeHNKr1RmplaoLc,663
+onebot_adapter/utils/__init__.py,sha256=rxtbwuzUNQdX4yowC0f-oP1aB98uagJdJ3Q3MXnGyAA,82
+onebot_adapter/utils/message.py,sha256=1M8fcVHt_hZGyjqkcEkCXvbUvi8LkzifFTxSHnlrqCA,1515
+chatgpt_mirai_qq_bot_onebot_adapter-0.1.1.dist-info/LICENSE,sha256=ILBn-G3jdarm2w8oOrLmXeJNU3czuJvVhDLBASWdhM8,34522
+chatgpt_mirai_qq_bot_onebot_adapter-0.1.1.dist-info/METADATA,sha256=8oysV75pYJC2xBAFnWDwNzpWYx1R7Dsg_fUF5v6Dmo4,3437
+chatgpt_mirai_qq_bot_onebot_adapter-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+chatgpt_mirai_qq_bot_onebot_adapter-0.1.1.dist-info/top_level.txt,sha256=QXgmPdP8mxPC2tmNEfecQK7SP9bX0UKUEwRQhRXXKow,15
+chatgpt_mirai_qq_bot_onebot_adapter-0.1.1.dist-info/RECORD,,
