@@ -1,0 +1,11 @@
+isobiscuit/__init__.py,sha256=pGLp7de68lR1KIUbh8f1J5aA05rWPlaJcR4z12xTzVI,68
+isobiscuit/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+isobiscuit/api/api.py,sha256=h_F2rInvxzD2Kuqt9XeMV2aMYFA4EMs3Lf8MXKB_VdM,1552
+isobiscuit/api/api_pb2.py,sha256=WlyvF5BGO3D6kGroxF8-ZinEuLACk5xnKCYbPlZ2kjg,3274
+isobiscuit/api/api_pb2.pyi,sha256=EONrN2W8tLGFcPSuzUizQc7BA2Hd5NlGdS7MGQg5TFM,2899
+isobiscuit/api/api_pb2_grpc.py,sha256=hB2oqzJOol4YptiknmKetBltkkbUVLA99aUBsTCL2R8,6826
+isobiscuit/protos/api.proto,sha256=bkPnSuqjMuJnDdgRusr2A1ORtN2I4ZwwMRJn8MVDuOw,1015
+isobiscuit-0.1.0.dist-info/LICENSE.txt,sha256=zzxtUkwcOzArqRsKHeKkPQpsn81frEA3np_-t7pGJ-Y,11338
+isobiscuit-0.1.0.dist-info/METADATA,sha256=-4p57GWTv-zDOYLB-lSToc08QH9DEdAWd4CrsXBGsps,546
+isobiscuit-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+isobiscuit-0.1.0.dist-info/RECORD,,
