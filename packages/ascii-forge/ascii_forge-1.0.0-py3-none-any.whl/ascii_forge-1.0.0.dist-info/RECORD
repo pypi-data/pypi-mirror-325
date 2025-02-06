@@ -1,0 +1,11 @@
+ascii_forge/__init__.py,sha256=K1timrtBbAl2wDOoUg1qn1xpJ8vJOpjS9kYShzyjnGE,25
+ascii_forge/__main__.py,sha256=DoviANecu6Nt9PrRXSEeWw3wa5Vieizano4A5-uCxb8,1111
+ascii_forge/config.py,sha256=bPRSkgBPV6oIjwCNn-E57rwVLltOK1cfTMPFUQhT5WY,574
+ascii_forge/converter.py,sha256=eAURPDXgdDxOrb6SdBAfv9apkyStCHhkCz7zeWC-P4M,2279
+ascii_forge/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ascii_forge-1.0.0.dist-info/LICENSE,sha256=6u-dHXD8JKvEMhxvE2Keso-5B2X-QQDLsp_TcKljukk,1069
+ascii_forge-1.0.0.dist-info/METADATA,sha256=pixKJZ0ANaov71cT1D8Bsiaq5UyFNnQc5h3BqMDkBMo,3419
+ascii_forge-1.0.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+ascii_forge-1.0.0.dist-info/entry_points.txt,sha256=sl88WXcQt2IX4JhvVE7I34HFXAJD4NCp2DWxCv_Cgfk,48
+ascii_forge-1.0.0.dist-info/top_level.txt,sha256=t2YUNGlrTVTSF5e3vBp5RPTWTRAdsKu1bh50rsXhm_4,12
+ascii_forge-1.0.0.dist-info/RECORD,,
