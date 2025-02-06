@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pyevalai
+Version: 0.0.6
+Summary: Automated python exercise evaluations with AI.
+Author: Nils Wandel
+Author-email: <wandeln@cs.uni-bonn.de>
+Project-URL: Source Code, https://github.com/wandeln/pyevalai
+Keywords: jupyter,exercise,evaluation,AI,LLM
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: tornado
+Requires-Dist: cloudpickle
+Requires-Dist: ipywidgets
+Requires-Dist: natsort
+Requires-Dist: jinja2
+Requires-Dist: markdown2>=2.4.0
+
+
+# PyEvalAI
+
+PyEvalAI is a package for automated evaluations of exercises in python.
+
+## Installation
+
+PyEvalAI can be quickly installed with pip:
+
+```
+pip install pyevalai
+```
+
+## Quick-Start
+
+If you are a student, here is how to use pyevalai:
+
+```python
+from pyevalai import show, login, enter_course, handin_exercise
+
+# login to server with username and password
+login(url="server-url")
+
+# enter course (for example numerics)
+enter_course("Numerics")
+
+# hand in solution for text exercises
+handin_exercise("Exercise 1", "my solution...")
+
+# hand in solution for coding exercises
+def f(x):
+	return x**2
+handin_exercise("Exercise 2", f)
+```
