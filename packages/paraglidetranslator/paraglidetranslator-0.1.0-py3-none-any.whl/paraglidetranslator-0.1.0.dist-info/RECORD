@@ -1,0 +1,16 @@
+paraglidetranslator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paraglidetranslator/components/Translate.py,sha256=1YtIRwYu0shHOg7WbA3atNdcJ2SiM-9ZuJIn4oJxVk0,1786
+paraglidetranslator/components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paraglidetranslator/components/deepl_key.py,sha256=grnSy6fi7VD_9p-bkvgOkzwPaoXBKtsHsL5Q8j9X32Y,1606
+paraglidetranslator/components/deeplconnection.py,sha256=MDX2MCRzxjbGQK_pBEvLegdTsXEYilS7wHcMOIJUAh0,349
+paraglidetranslator/components/langeditor.py,sha256=AWXXFEfnMGLJCLc6SxJHOT52A1KaK5T_72GNC1upNns,6511
+paraglidetranslator/components/open_dialog.py,sha256=uAMSQyE7SthZFagDz9TJAVH1S9KXa9W3QFSEwIsv7os,232
+paraglidetranslator/components/singleton.py,sha256=CzvZipd5d0z6b3Erf8GZZ9zRkLgpK2sNVoSXsrbGu5U,217
+paraglidetranslator/images/translator.icns,sha256=6Wuc0kw4sq3fYqGah66XEdzxongnYfqieHdYfBkg7bI,36403
+paraglidetranslator/images/translator.ico,sha256=HKrVbNEwazfcueNfDG8X2H9tN5jdXfNp3HkLOz0yfWo,15487
+paraglidetranslator/images/translator.png,sha256=GXwZblZuR5V9nHWuNAokgIaGnMpWTM_Rlxl7zJg41JQ,29713
+paraglidetranslator/main.py,sha256=lfrHZi98tpLJTbUvhtzdwBEXftecLOhu9sEsZ0cE59E,7695
+paraglidetranslator-0.1.0.dist-info/METADATA,sha256=ADGtaC5G2S6Ivla-XFdFkxk0c3P8OXRQy2d2mwkRHc8,1934
+paraglidetranslator-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+paraglidetranslator-0.1.0.dist-info/entry_points.txt,sha256=0ctUsAiykRG3lWeVToHktkReAdEUfWwIYBJljfalQEk,69
+paraglidetranslator-0.1.0.dist-info/RECORD,,
