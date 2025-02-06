@@ -1,0 +1,6 @@
+Metadata-Version: 2.2
+Name: anytype-client
+Version: 0.0.1a7
+Summary:  An unnoficial Python Client for Anytype.
+Project-URL: Source Code, https://github.com/charlesneimog/anytype-client
+License-File: LICENSE
