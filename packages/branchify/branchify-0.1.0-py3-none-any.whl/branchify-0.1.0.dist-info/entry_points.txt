@@ -1,0 +1,2 @@
+[console_scripts]
+branchify = branchify.cli:main
