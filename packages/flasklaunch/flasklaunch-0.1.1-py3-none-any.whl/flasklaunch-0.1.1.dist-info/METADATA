@@ -1,0 +1,56 @@
+Metadata-Version: 2.2
+Name: flasklaunch
+Version: 0.1.1
+Summary: A tool to quickly launch Flask projects
+Home-page: https://github.com/leonanthomaz/flasklaunch
+Author: Leonan Thomaz
+Author-email: leonan.thomaz@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/leonanthomaz/flasklaunch/issues
+Project-URL: Documentation, https://github.com/leonanthomaz/flasklaunch/wiki
+Project-URL: Source Code, https://github.com/leonanthomaz/flasklaunch
+Keywords: flask,web,development,cli,scaffolding,bootstrap,api,restful,database,sqlalchemy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: dynaconf
+Requires-Dist: pyyaml
+Requires-Dist: click
+Requires-Dist: python-dotenv
+Provides-Extra: dev
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# FlaskLaunch: Streamline Your Flask Development
+
+FlaskLaunch is a command-line tool designed to accelerate the creation of Flask-based web applications. It provides a standardized project structure and simplifies the integration of essential features, allowing developers to focus on building core application logic rather than project scaffolding.
+
+## Key Features
+
+*   **Rapid Project Initialization:** Quickly generate a pre-configured Flask project structure with a single command.
+*   **Modular Feature Integration:** Seamlessly add support for RESTful APIs, databases (SQLAlchemy), and web templating (Bootstrap) as needed.
+*   **Flexible Configuration:** Leverage `settings.yaml` and Dynaconf for robust and adaptable configuration management.
+*   **Intuitive CLI:** A user-friendly command-line interface simplifies project setup and feature integration.
+*   **Best Practices:** The generated project structure promotes maintainability and avoids common pitfalls like circular imports.
+
+## Installation
+
+```bash
+pip install flasklaunch
