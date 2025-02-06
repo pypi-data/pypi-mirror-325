@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/meteoalarm/__init__.py
+src/meteoalarm/meteoalarm.py
+src/meteoalarm.egg-info/PKG-INFO
+src/meteoalarm.egg-info/SOURCES.txt
+src/meteoalarm.egg-info/dependency_links.txt
+src/meteoalarm.egg-info/requires.txt
+src/meteoalarm.egg-info/top_level.txt
+src/meteoalarm/assets/MeteoAlarm_urls.yaml
+src/meteoalarm/assets/geocodes.json
+tests/test_meteoalarm.py
