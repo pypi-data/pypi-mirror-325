@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyarimafft/__init__.py
+src/pyarimafft.egg-info/PKG-INFO
+src/pyarimafft.egg-info/SOURCES.txt
+src/pyarimafft.egg-info/dependency_links.txt
+src/pyarimafft.egg-info/requires.txt
+src/pyarimafft.egg-info/top_level.txt
