@@ -1,0 +1,15 @@
+[project]
+name = "yamlin"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [{ name = "Bart Frenk", email = "bart.frenk@gmail.com" }]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+aero = "yamlin:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
