@@ -1,0 +1,7 @@
+[console_scripts]
+nb = nbmanips.__main__:nbmanips
+nbmanips = nbmanips.__main__:nbmanips
+
+[lazyimports]
+lazy_exporters = nbconvert:HTMLExporter,nbconvert:SlidesExporter,nbconvert:PythonExporter,nbconvert:MarkdownExporter,nbconvert:ScriptExporter,nbmanips.exporters:DbcExporter
+lazy_modules = nbconvert,nbformat
