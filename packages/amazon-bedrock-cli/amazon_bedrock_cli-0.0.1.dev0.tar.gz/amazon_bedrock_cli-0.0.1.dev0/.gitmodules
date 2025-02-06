@@ -1,0 +1,3 @@
+[submodule "amazon-bedrock-python"]
+	path = amazon-bedrock-python
+	url = https://github.com/DennisTraub/amazon-bedrock-python.git

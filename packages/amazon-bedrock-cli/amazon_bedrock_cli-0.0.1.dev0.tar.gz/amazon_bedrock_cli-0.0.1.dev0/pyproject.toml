@@ -1,0 +1,39 @@
+[project]
+name = "amazon-bedrock-cli"
+dynamic = ["version"]
+description = "A CLI tool for Amazon Bedrock"
+readme = "README.md"
+authors = [
+    { name = "Dennis Traub", email = "dennis.traub@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+    "amazon-bedrock>=0.0.5",
+    "click>=8.1.8",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.urls]
+Source = "https://github.com/DennisTraub/amazon-bedrock-cli-python"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.hatch.version]
+path = "src/amazon_bedrock_cli/__init__.py"
+
+[project.scripts]
+bedrock = "amazon_bedrock_cli.cli:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
