@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: cognition-ai
+Version: 0.2.8
+Summary: Wrapper agent for crewai - Enables dynamic tooling, configuration, and more
+Author-email: Nestor Colt <nestor.colt@gmail.com>
+Requires-Python: <3.13,>=3.10
+Requires-Dist: chromadb>=0.4.0
+Requires-Dist: cognition-core
+Requires-Dist: crewai[tools]<1.0.0,>=0.100.1
+Requires-Dist: langchain-community>=0.0.27
+Provides-Extra: dev
