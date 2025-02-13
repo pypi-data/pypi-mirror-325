@@ -1,0 +1,16 @@
+bojango/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bojango/action/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bojango/action/manager.py,sha256=AkjQt7JwMw3AS71tL3Eng1M-erzQ7zw5NNbY3euDH4A,6797
+bojango/action/screen.py,sha256=9M74Ku57oeHcIFEUr4L1ymx79xCgwXOv0TXW6llKPs8,6636
+bojango/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bojango/core/bot.py,sha256=LwOtaAFClOumoyvLJsJedHX_6jyJ5igqNDUspFcBk9Y,6219
+bojango/core/routing.py,sha256=wl4_-ydJGJC_rZyX30m29riLWmB_2w-HTF_kfbQuHTs,5254
+bojango/core/utils.py,sha256=yvWODUcs8CRuRjrL8kJiFqg2ulSmDenPFYPgFO-pYQY,1759
+bojango/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bojango/utils/format.py,sha256=1hZ-ebmj9jNxsoqYlexXdWz6CvdLOJzD-RJ_BlkOWio,3381
+bojango/utils/localization.py,sha256=i-n93Ra94QNUKOw4wTfMHbdWTj5vR4KUEHPk5wo7Wyw,7091
+bojango-1.0.15.dist-info/LICENSE,sha256=HjO1EPrG-wLZLHlpa_7v3XYMTmi23iKmL8E5iwy7mjg,1092
+bojango-1.0.15.dist-info/METADATA,sha256=V0HjVRt9slmhQPWBCopgM4JU-mOTgv_6HB-sOJSUO8k,3927
+bojango-1.0.15.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+bojango-1.0.15.dist-info/top_level.txt,sha256=_5sptJh2iuUdb_2KMBlzo1xH6g8L32pLsLrO1vjdkZs,8
+bojango-1.0.15.dist-info/RECORD,,
