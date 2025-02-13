@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+advjson.egg-info/PKG-INFO
+advjson.egg-info/SOURCES.txt
+advjson.egg-info/dependency_links.txt
+advjson.egg-info/requires.txt
+advjson.egg-info/top_level.txt
+tests/test_advjson.py

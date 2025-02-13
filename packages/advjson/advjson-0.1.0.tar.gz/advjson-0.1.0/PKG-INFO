@@ -1,0 +1,58 @@
+Metadata-Version: 2.2
+Name: advjson
+Version: 0.1.0
+Summary: Advanced JSON handling with encryption, compression, and validation.
+Home-page: https://github.com/Sumedh1599/advjson
+Author: Sumedh Patil
+Author-email: admin@aipresso.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+Requires-Dist: jsonschema
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# advjson
+
+`advjson` provides secure and optimized JSON handling with **AES encryption, Gzip compression, schema validation, and multi-threading**.
+
+## Features
+
+- **Gzip compression for efficient storage**
+- **AES encryption for secure JSON storage**
+- **JSON schema validation**
+- **Multi-threaded JSON compression**
+- **Automatic key generation**
+
+## Installation
+
+```bash
+pip install advjson
+
+
+USAGE:
+from advjson import advjson
+
+data = {"username": "Brewlock", "role": "admin"}
+key = advjson.generate_key()
+
+compressed = advjson.compress_json(data)
+decompressed = advjson.decompress_json(compressed)
+
+encrypted = advjson.encrypt_json(data, key)
+decrypted = advjson.decrypt_json(encrypted, key)
+
+schema = {"type": "object", "properties": {"username": {"type": "string"}, "role": {"type": "string"}}}
+is_valid = advjson.validate_json(data, schema)
+```
