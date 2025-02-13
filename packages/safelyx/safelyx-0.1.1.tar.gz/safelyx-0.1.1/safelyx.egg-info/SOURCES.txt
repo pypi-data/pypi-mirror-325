@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+setup.cfg
+setup.py
+safelyx/__init__.py
+safelyx.egg-info/PKG-INFO
+safelyx.egg-info/SOURCES.txt
+safelyx.egg-info/dependency_links.txt
+safelyx.egg-info/requires.txt
+safelyx.egg-info/top_level.txt
