@@ -1,0 +1,59 @@
+Metadata-Version: 2.2
+Name: Kryptone
+Version: 6.0.0
+Summary: Kryptone is a hight level web scapper dedicated to marketers and wrapped around the Selenium library in order to automate and simplify website auditing and scraping.
+Author-email: John Pendenque <pendenquejohn@gmail.com>
+Maintainer-email: John Pendenque <pendenquejohn@gmail.com>
+Project-URL: Homepage, https://github.com/Zadigo/kryptone
+Project-URL: Documentation, https://github.com/Zadigo/kryptone/wiki
+Project-URL: Repository, https://github.com/Zadigo/kryptone.git
+Project-URL: Changelog, https://github.com/Zadigo/kryptone/blob/main/CHANGELOG.md
+Keywords: scraping,data-scraping,web-scraping,selenium,webdriver,automation,crawler,web-crawler,browser-automation,headless-browser,data-extraction,beautifulsoup,requests,parsing,html-parsing,scrapy,http-client,data-mining,api-scraping,dynamic-content,python-scraper,headless-scraping,proxy-rotation,cloudflare-bypass,captcha-solving,async-scraping,distributed-scraping,scraper-bot,phantomjs,webdriver-manager,stealth-scraping,javascript-rendering,selenium-grid,headless-chrome,data-collection,etl,requests-html,lxml,scraping-framework,python-automation
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: redis
+Requires-Dist: nltk
+Requires-Dist: selenium
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: quart
+Requires-Dist: quart-cors
+Requires-Dist: webdriver-manager
+Requires-Dist: gspread
+Requires-Dist: unidecode
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: pymemcache
+Requires-Dist: twisted
+Requires-Dist: lxml
+Requires-Dist: wordcloud
+Requires-Dist: matplotlib
+Requires-Dist: pyairtable
+Requires-Dist: pandas
+Requires-Dist: autometrics
+Requires-Dist: psycopg[binary,pool]
+Requires-Dist: celery
+Requires-Dist: asgiref
+
+# Kryptone
+
+Kryptone is a hight level web scapper dedicated to marketers and wrapped around the Selenium library in order to automate and simplify website auditing and scraping.
+
+Read [our wiki](https://github.com/Zadigo/kryptone/wiki) to learn how to use our amazing tool.
