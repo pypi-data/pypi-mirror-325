@@ -1,0 +1,51 @@
+Metadata-Version: 2.2
+Name: advlogs
+Version: 0.1.0
+Summary: Advanced logging with encryption, compression, and structured JSON logs.
+Home-page: https://github.com/Sumedh1599/advlogs
+Author: Sumedh Patil
+Author-email: admin@aipresso.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# advlogs
+
+`advlogs` is an advanced logging library that enhances traditional logging with **AES encryption, Gzip compression, and multi-threading**.
+
+## Features
+
+- **AES encryption for secure logs**
+- **Gzip compression for storage efficiency**
+- **Multi-threaded logging**
+- **Structured JSON logging**
+
+## Installation
+
+```bash
+pip install advlogs
+
+
+USAGE:
+from advlogs import advlogs
+from cryptography.fernet import Fernet
+
+key = Fernet.generate_key().decode()
+logger = advlogs(log_file="advlogs.log", encrypt=True, key=key)
+
+logger.log("INFO", "This is an encrypted log message.")
+logger.compress_logs()
+```
