@@ -1,0 +1,30 @@
+syntax: glob
+*.py[cdo]
+*~
+*.swp
+*.orig
+*.rej
+*.egg-info
+
+syntax: rootglob
+.idea/
+.mypy_cache/
+.pytype/
+.vscode/
+html/
+build/
+dist/
+MANIFEST
+tests/easy_run.sh
+tests/*.err
+tests/.testtimes*
+docs/training/graphs/
+docs/training/html/
+docs/training/index.html
+docs/training/graphviz-images/
+docs/training/img/
+docs/training/output/
+docs/training/pandocfilters/
+docs/tutorials/**.rst
+docs/figures/**.png
+docs/static/**.ico
