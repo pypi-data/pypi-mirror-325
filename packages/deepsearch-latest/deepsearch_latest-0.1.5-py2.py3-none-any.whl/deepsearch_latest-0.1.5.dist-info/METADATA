@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: deepsearch-latest
+Version: 0.1.5
+Summary: Deep search tool for document analysis
+Requires-Dist: aiohttp
+Requires-Dist: boto3
+Requires-Dist: fastmcp
+Requires-Dist: httpx
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pdf2image
+Requires-Dist: pillow
+Requires-Dist: pinecone-client
+Requires-Dist: python-docx
+Requires-Dist: python-dotenv
+Requires-Dist: tiktoken
