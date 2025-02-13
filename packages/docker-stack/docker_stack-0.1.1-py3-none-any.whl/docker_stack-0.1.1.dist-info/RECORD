@@ -1,0 +1,14 @@
+docker_stack/__init__.py,sha256=lTPC4n6q8z0x4vhYnIj_tGNce3NuWRJGj4RhjZ08DcY,793
+docker_stack/cli.py,sha256=p7DQ03b7-a6Zou2LJ_YFOory8kEm2EYWtcwakt5-JXU,7040
+docker_stack/compose.py,sha256=QtHDFRTdS0ubY18imGtiQf7nbcH-eQMOM54X1d3hnbQ,524
+docker_stack/docker_objects.py,sha256=c2XWDPTFOPJmqmtcxU3R_5XFlhi5S-Z0cKI3gaXKRxk,7697
+docker_stack/envsubst.py,sha256=AxlQgHLylWbMkU2JeTULQ_le7_wEorNZz9tnM8Yg4-s,2007
+docker_stack/envsubst_merge.py,sha256=E2sIvUJK3AqUs5ynIAb8HwFdxWvq2iYB2TE-4nR5Rqg,4466
+docker_stack/helpers.py,sha256=1vfQEq0o0snoM1lR_QccuRoOdSxu-0aVfuf9RXAgVB8,3164
+docker_stack/merge_conf.py,sha256=N0mwGyrq4mOvU8H7xtmnQu0dKnH6AdIvLi-fxrooXyg,2025
+docker_stack/registry.py,sha256=9xRzqw-Hu340CvWd3Bf1m3jTy5hlFsjBUAqrKA0kPpo,5674
+docker_stack-0.1.1.dist-info/METADATA,sha256=q0FmlBydVsqknd6hlUzwRZAaxmVF0r2geGG7qG5HETk,655
+docker_stack-0.1.1.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+docker_stack-0.1.1.dist-info/entry_points.txt,sha256=mpe2RwIguARsosXIUBQEN2pKU53URqZCh2S4ATwDFL4,55
+docker_stack-0.1.1.dist-info/top_level.txt,sha256=zT6TPL54cLrt9LO_MNkhEpGGOmsoe2HV6Na5Ohy3_2c,13
+docker_stack-0.1.1.dist-info/RECORD,,
