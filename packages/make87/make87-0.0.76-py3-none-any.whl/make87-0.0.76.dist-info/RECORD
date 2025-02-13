@@ -1,0 +1,11 @@
+make87/__init__.py,sha256=qadNkXbcPtRAn4t99eXfmuX0NOLKv4XKpm1kwo-G6xk,1357
+make87/application_config.py,sha256=MiUOZlflt2WXNawMgF_hLHVdGcrZwwnd3DVhWYkp6tc,558
+make87/endpoints.py,sha256=LC2zptMK9UmScfqq1f96CslQQae4KKqExx9LYhMRxgk,11121
+make87/peripherals.py,sha256=pjiape0o-gHQK5y-DSOVqR2PkCM8K1AAKelyCQoDHX4,2079
+make87/session.py,sha256=QyEeLOcSYkciB6XXgdUDgLwx_PjalqPV3NLs5w83yNE,1561
+make87/topics.py,sha256=mNwoNeAndhxOCBfcZ3Afhfa9H9hwBrx3QtsM4LafY4s,13542
+make87/utils.py,sha256=QF_OE69Q1f9UmrvYVSXfoUF8BnIqRvrWXZeZyowGh0Q,2557
+make87-0.0.76.dist-info/METADATA,sha256=I7L_ldmw60evuEEE6O3ojfvMZNymXdu3vqzYuGN3X9o,798
+make87-0.0.76.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+make87-0.0.76.dist-info/top_level.txt,sha256=cpdK_abH_DbS5p8vdbM9lCaeh_SOW9OxwC-PCjaU8BE,7
+make87-0.0.76.dist-info/RECORD,,
