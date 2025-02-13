@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: cnv_vcf2json
+Version: 2.0.0
+Summary: Converts the CNVkit structural variants VCF file into JSON format
+Author: Khaled Jumah
+Author-email: khalled.jooma@yahoo.com
+License: CC-BY-NC-4.0
+Description-Content-Type: text/markdown
+Requires-Dist: jsonschema
+
+# Convert CNVkit VCF 4.2 to JSON 
+
+## Overview
+
+**cnv_vcf2json** is a command‐line tool that converts CNVkit structural variant VCF files into JSON files conforming to the Progenetix database variant schema ([pgxVariant.yaml](https://github.com/progenetix/bycon/blob/main/bycon/schemas/models/src/bycon-database-schemas/pgxVariant.yaml)). The tool extracts variant data—including chromosomal coordinates, variant type, and copy‐number information—from a VCF file. If a copy‐number (CN) is missing (which is common for deletion calls from HMM-based segmentation), the script infers it from the genotype (GT): heterozygous deletions (GT=0/1 or 1/0) are assigned CN=1, and homozygous deletions (GT=1/1) are assigned CN=0. For duplications, if no CN is provided, a default value of 3 is assumed (interpreted as low-level gain), and values ≥4 are treated as high-level gain.
+
+Additionally, the converter offers extra flexibility by allowing the user to supply optional metadata—including assembly, analysis, individual, sequence, reference sequence, and fusion identifiers—that will be incorporated into the JSON output according to the Progenetix schema.
+
+## Requirements
+
+- Python 3.6 or newer ([download instructions](https://www.python.org/downloads/))
+
+## Installation and Update
+
+### Using Pip3
+
+1. **Install the package:**
+
+    ```bash
+    pip3 install cnv_vcf2json
+    ```
+
+2. **Update the package, if needed:**
+
+    ```bash
+    pip3 install cnv_vcf2json --upgrade
+    ```
+
+3. **Test your installation:**
+
+    ```bash
+    cnv-vcf2json --help
+    ```
+
+### Using Conda
+
+1. **Add the conda-forge channel (if not already added):**
+
+    ```bash
+    conda config --add channels conda-forge
+    ```
+
+2. **Install the package:**
+
+    ```bash
+    conda install cnv_vcf2json
+    ```
+
+3. **Update the package, if needed:**
+
+    ```bash
+    conda update cnv_vcf2json
+    ```
+
+4. **Test your installation:**
+
+    ```bash
+    cnv-vcf2json --help
+    ```
+
+
+
+## Usage cnv-vcf2json
+
+```bash
+usage: cnv_vcf2json.py [-h] -o OUTPUT [--assembly ASSEMBLY] [--analysis ANALYSIS] [--individual INDIVIDUAL] [--sequence SEQUENCE] [--reference REFERENCE]
+                       [--fusion FUSION]
+                       input
+
+Convert CNVkit VCF to Beacon JSON format following the Progenetix pgxVariant schema
+
+positional arguments:
+  input                 Input VCF file name
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -o OUTPUT, --output OUTPUT
+                        Output JSON file name
+  --assembly ASSEMBLY   Assembly identifier (e.g. GRCh38); if omitted, assemblyId will be excluded
+  --analysis ANALYSIS   Analysis identifier (analysisId)
+  --individual INDIVIDUAL
+                        Individual identifier (individualId)
+  --sequence SEQUENCE   Variant sequence
+  --reference REFERENCE
+                        Reference sequence
+  --fusion FUSION       Fusion identifier (fusionId)
+          Define the collection name for deletion
+
+```
+
+### Basic Conversion
+
+```bash
+cnv-vcf2json -i input.vcf -o output.json --assembly GRCh38
+```
