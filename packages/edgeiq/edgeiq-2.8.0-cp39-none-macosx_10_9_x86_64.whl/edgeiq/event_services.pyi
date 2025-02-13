@@ -1,0 +1,39 @@
+from _typeshed import Incomplete
+from abc import ABC
+from typing import Any
+
+__all__ = ['generate_event_timestamp', 'generate_event_id', 'OccurrenceEvent', 'ValueEvent', 'StartTimedEvent', 'EndTimedEvent', 'CompleteTimedEvent']
+
+def generate_event_timestamp(seconds: float | None = None) -> str: ...
+def generate_event_id() -> str: ...
+
+class BaseEvent(ABC):
+    event_label: Incomplete
+    timestamp: Incomplete
+    object_label: Incomplete
+    object_id: Incomplete
+    event_id: Incomplete
+    camera_label: Incomplete
+    zone_label: Incomplete
+    data: Incomplete
+    def __init__(self, event_label: str, timestamp: str | None = None, event_id: str | None = None, object_label: str | None = None, object_id: str | None = None, camera_label: str | None = None, zone_label: str | None = None, data: Any | None = None) -> None: ...
+    def __eq__(self, other): ...
+    def publish_event(self, **kwargs) -> None: ...
+
+class OccurrenceEvent(BaseEvent): ...
+
+class ValueEvent(BaseEvent):
+    value: Incomplete
+    def __init__(self, event_label: str, value: int | float, timestamp: str | None = None, event_id: str | None = None, object_label: str | None = None, object_id: str | None = None, camera_label: str | None = None, zone_label: str | None = None, data: Any | None = None) -> None: ...
+    def __eq__(self, other): ...
+
+class StartTimedEvent(BaseEvent): ...
+
+class EndTimedEvent(BaseEvent):
+    def __init__(self, event_label: str, event_id: str, timestamp: str | None = None, object_label: str | None = None, object_id: str | None = None, camera_label: str | None = None, zone_label: str | None = None, data: Any | None = None) -> None: ...
+
+class CompleteTimedEvent:
+    start_timed_event: Incomplete
+    end_timed_event: Incomplete
+    def __init__(self, start_timestamp: str, end_timestamp: str, event_label: str, event_id: str | None = None, start_object_label: str | None = None, start_object_id: str | None = None, start_camera_label: str | None = None, start_zone_label: str | None = None, data: Any | None = None, end_camera_label: str | None = None, end_zone_label: str | None = None, end_object_id: str | None = None, end_object_label: str | None = None) -> None: ...
+    def publish_event(self) -> None: ...
