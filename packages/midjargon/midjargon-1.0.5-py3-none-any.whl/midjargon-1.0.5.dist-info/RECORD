@@ -1,0 +1,11 @@
+midjargon/__init__.py,sha256=dqmk5EjGl0e9_s32bgbNxaGp4qFHCBw78E1We0IKE1s,377
+midjargon/__main__.py,sha256=waiPMmTQs5Acl8m7xbUbHJxqolyPQbC_pW4xFlpeGoI,5473
+midjargon/__version__.py,sha256=ClFIlbf5O23dVWC6oD6t3m2n6nB22IOt3V9t-YX_mG0,411
+midjargon/midjargon.py,sha256=ZA-QdF60s81cRKZO-qNjUYhZufg2j8WnhEaNCp7tRPM,6011
+midjargon/midjourney.py,sha256=TWatTwTlTbeSe0hnJ4JD-nqBckoQ7uL-dLKJfYyUD_8,6934
+midjargon/parameters.py,sha256=liMNu2bGNwBvdDzI2KhGbMI80Q0A9a_hPzlR7egjkXg,8216
+midjargon/permutations.py,sha256=LWwJgdoXhiaePSoJz06qUN7ljTEWzenZGIo9YELNQ1I,5526
+midjargon-1.0.5.dist-info/METADATA,sha256=XOIfH48BmX08_6jS9EoxcWpOgg2Ihcvir5zcrsQRvvg,4711
+midjargon-1.0.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+midjargon-1.0.5.dist-info/licenses/LICENSE,sha256=owbwpVdTHiU18mRyRzvr1DDQe_Rjs1FCkEdzMGJIU9U,1069
+midjargon-1.0.5.dist-info/RECORD,,
