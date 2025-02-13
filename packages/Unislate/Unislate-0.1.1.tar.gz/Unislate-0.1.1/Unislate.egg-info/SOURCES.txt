@@ -1,0 +1,9 @@
+README.md
+setup.py
+unislate.py
+Unislate.egg-info/PKG-INFO
+Unislate.egg-info/SOURCES.txt
+Unislate.egg-info/dependency_links.txt
+Unislate.egg-info/entry_points.txt
+Unislate.egg-info/requires.txt
+Unislate.egg-info/top_level.txt
