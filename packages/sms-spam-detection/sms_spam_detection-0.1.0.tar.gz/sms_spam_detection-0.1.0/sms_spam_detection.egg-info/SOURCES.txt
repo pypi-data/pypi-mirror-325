@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+sms-spam-detection/__init__.py
+sms-spam-detection/app.py
+sms-spam-detection/test.py
+sms_spam_detection.egg-info/PKG-INFO
+sms_spam_detection.egg-info/SOURCES.txt
+sms_spam_detection.egg-info/dependency_links.txt
+sms_spam_detection.egg-info/requires.txt
+sms_spam_detection.egg-info/top_level.txt
