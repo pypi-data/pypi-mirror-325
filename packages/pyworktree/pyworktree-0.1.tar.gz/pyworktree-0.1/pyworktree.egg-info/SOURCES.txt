@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyworktree/__init__.py
+pyworktree/installer.py
+pyworktree.egg-info/PKG-INFO
+pyworktree.egg-info/SOURCES.txt
+pyworktree.egg-info/dependency_links.txt
+pyworktree.egg-info/entry_points.txt
+pyworktree.egg-info/top_level.txt
