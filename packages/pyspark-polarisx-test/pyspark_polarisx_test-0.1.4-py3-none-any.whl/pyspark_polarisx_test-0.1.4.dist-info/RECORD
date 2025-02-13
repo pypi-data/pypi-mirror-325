@@ -1,0 +1,10 @@
+LICENSE,sha256=vCJd8WJ0FcKaWGJEDCqa6m1gAgOwual7qLBnWRdWpPg,1090
+README.md,sha256=beb8xNN962DXc-lE_Q8eucRo3vzwescTyquWHNfZCMg,147
+pyproject.toml,sha256=_pm4XgKRIOGn2eEaPFkMHy_wQDFGNmNQRUDayOf3Uzs,1330
+polarisx/__init__.py,sha256=kyWN8wIB-SPJlyXmk0_HGXT0uzb3sJRJyAWWujTQH1E,26
+polarisx/catalog.py,sha256=iBSjbHJxFII0r32miC9kiZWPBZm1pR6yrCbfEUOFiKw,2904
+polarisx/rest_client.py,sha256=IAm7R_bord5BBWPILb0LOxou4-SQZKWOdewOpacu550,1713
+pyspark_polarisx_test-0.1.4.dist-info/METADATA,sha256=OUwvBA4P0_NtRHA5x-iG4LzVbRmk3NHTE3AusyYGcvM,618
+pyspark_polarisx_test-0.1.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pyspark_polarisx_test-0.1.4.dist-info/licenses/LICENSE,sha256=vCJd8WJ0FcKaWGJEDCqa6m1gAgOwual7qLBnWRdWpPg,1090
+pyspark_polarisx_test-0.1.4.dist-info/RECORD,,
