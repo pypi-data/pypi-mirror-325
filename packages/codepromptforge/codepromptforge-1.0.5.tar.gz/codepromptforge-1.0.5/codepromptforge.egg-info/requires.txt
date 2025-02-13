@@ -1,0 +1,12 @@
+pytest
+pydantic
+langchain
+pathspec
+duckduckgo-search
+langchain-community
+langgraph
+
+[assistant]
+langchain_ollama
+ollama
+flask
