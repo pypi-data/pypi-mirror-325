@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: liblogging
+Version: 0.1
+Summary: Utilities for logging and sending logs.
+Home-page: https://github.com/XoriieInpottn/liblogging
+Author: xi
+Author-email: gylv@mail.ustc.edu.cn
+License: Apache-2.0 license
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# liblogger
+
+
