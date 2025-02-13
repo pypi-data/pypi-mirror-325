@@ -1,0 +1,137 @@
+name: Release
+
+"on":
+  push:
+    branches: ["main", "release/**", "dev"]
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false # prevent hickups with semantic-release
+
+env:
+  PYTHON_VERSION_DEFAULT: "3.11.11"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    concurrency: release
+    outputs:
+      released: ${{ steps.semrelease.outputs.released }}
+    permissions:
+      # NOTE: this enables trusted publishing.
+      # See https://github.com/pypa/gh-action-pypi-publish/tree/release/v1#trusted-publishing
+      # and https://blog.pypi.org/posts/2023-04-20-introducing-trusted-publishers/
+      id-token: write
+      contents: write
+
+    steps:
+      # NOTE: commits using GITHUB_TOKEN does not trigger workflows
+      - uses: actions/create-github-app-token@v1
+        id: trigger-token
+        with:
+          app-id: ${{ vars.TRIGGER_WORKFLOW_GH_APP_ID}}
+          private-key: ${{ secrets.TRIGGER_WORKFLOW_GH_APP_KEY }}
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          repository: opentargets/gentropy
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: false
+
+      - name: Python Semantic Release
+        id: semrelease
+        uses: python-semantic-release/python-semantic-release@v9.16.1
+        with:
+          github_token: ${{ steps.trigger-token.outputs.token }}
+
+      - name: Publish package to GitHub Release
+        uses: python-semantic-release/upload-to-gh-release@main
+        # NOTE: semrelease output is a string, so we need to compare it to a string
+        if: steps.semrelease.outputs.released == 'true'
+        with:
+          # NOTE: allow to start the workflow when push action on tag gets executed
+          # requires using GH_APP to authenitcate, otherwise push authorised with
+          # the GITHUB_TOKEN does not trigger the tag artifact workflow.
+          # see https://github.com/actions/create-github-app-token
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ steps.semrelease.outputs.tag }}
+
+      - name: Store the distribution packages
+        if: steps.semrelease.outputs.released == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: python-package-distributions
+          path: dist/
+
+  publish-to-pypi:
+    needs: release
+    name: Publish 📦 in PyPI
+    if: github.ref == 'refs/heads/main' && needs.release.outputs.released == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/gentropy
+    permissions:
+      id-token: write # IMPORTANT: mandatory for trusted publishing
+    steps:
+      - name: Download all the dists
+        uses: actions/download-artifact@v4
+        with:
+          name: python-package-distributions
+          path: dist/
+      - name: Publish distribution 📦 to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+
+  publish-to-testpypi:
+    name: Publish 📦 in TestPyPI
+    needs: release
+    if: github.ref == 'refs/heads/main' && needs.release.outputs.released == 'true'
+    runs-on: ubuntu-latest
+
+    environment:
+      name: testpypi
+      url: https://test.pypi.org/p/gentropy
+
+    permissions:
+      id-token: write # IMPORTANT: mandatory for trusted publishing
+
+    steps:
+      - name: Download all the dists
+        uses: actions/download-artifact@v4
+        with:
+          name: python-package-distributions
+          path: dist/
+      - name: Publish distribution 📦 to TestPyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          repository-url: https://test.pypi.org/legacy/
+
+  documentation:
+    needs: release
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' && needs.release.outputs.released == 'true'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION_DEFAULT }}
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+      - name: Load cached venv
+        id: cached-dependencies
+        uses: actions/cache@v4
+        with:
+          path: .venv
+          key: |
+            venv-${{ runner.os }}-\
+            ${{ env.PYTHON_VERSION_DEFAULT }}-\
+            ${{ hashFiles('**/uv.lock') }}
+      - name: Install dependencies
+        if: steps.cached-dependencies.outputs.cache-hit != 'true'
+        run: uv sync --group docs
+      - name: Publish docs
+        run: uv run mkdocs gh-deploy --force
