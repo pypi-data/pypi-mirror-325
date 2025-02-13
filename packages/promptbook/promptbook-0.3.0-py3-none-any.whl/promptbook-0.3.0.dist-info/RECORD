@@ -1,0 +1,14 @@
+promptbook/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+promptbook/book_manager.py,sha256=XXltZvXmNAFSylNI8h9QKUVTp0v68VFsG9rCu7o2d9A,1592
+promptbook/cli.py,sha256=MT6oF-WeP0ZkQ7WbEfzp05EOr0PFV6nSBSo8BTSXrXM,1487
+promptbook/config_manager.py,sha256=GkaUHQ5-RBOe0_frH5OEZODYrB07Btw14FWi5Quyhd4,1298
+promptbook/git_utils.py,sha256=QbuK055xCjYdVjBHrK4RH49aVdae_SxAEgrOGOoDk6E,2162
+promptbook/loader.py,sha256=87JBS4Iw5DkaMdsvlLJcg6GDNpW-rDtZtHIlSCf4TZc,774
+promptbook/processor.py,sha256=G30IexDie8HsZ3ZI4tcN9PQnOnWm6M-f-n99dqoYUyw,6288
+promptbook/utils.py,sha256=k08iIRK4ZlF-EHCHHkwvyU-ltMMZjrNgCCfKPJ0SnDA,1455
+promptbook/validator.py,sha256=VlH8s9G382X66SSOLurHEr7tXq09HWeW1i5KcpvbGhY,918
+promptbook-0.3.0.dist-info/METADATA,sha256=5o9CeFU8Yr46jCdCeKiypGe4P9Bo1M_Ge68FTLiEFcw,2984
+promptbook-0.3.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+promptbook-0.3.0.dist-info/entry_points.txt,sha256=a10hD--jFqZg2P8GeP-kvaVi_EgDsMSHEyIt-Lwd56Y,51
+promptbook-0.3.0.dist-info/top_level.txt,sha256=EpVswOWDw9H3mXx7CkVc2VWMTCXtOYSc8ElA6-sTgpU,11
+promptbook-0.3.0.dist-info/RECORD,,
