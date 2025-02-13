@@ -1,0 +1,2 @@
+[console_scripts]
+gpg-qrcode = gpg_qr.main:main
