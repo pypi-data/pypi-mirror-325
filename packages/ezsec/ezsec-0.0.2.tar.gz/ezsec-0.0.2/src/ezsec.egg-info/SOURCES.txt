@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/ezsec/__init__.py
+src/ezsec/example.py
+src/ezsec.egg-info/PKG-INFO
+src/ezsec.egg-info/SOURCES.txt
+src/ezsec.egg-info/dependency_links.txt
+src/ezsec.egg-info/requires.txt
+src/ezsec.egg-info/top_level.txt

@@ -1,0 +1,43 @@
+# A Python3 package for use with EzSec-API
+
+Please refer to the documentation at: https://www.ezsec-api.com/about
+
+A Python3 Package for Use with EzSec-API
+
+Overview
+
+ezsec_requests is a Python library that provides convenient adapters for interacting with the EzSec-API service. It simplifies the process of formatting and sending HTTP requests to retrieve SEC filings based on various identifiers, such as CIK, ticker, or company name.
+
+Installation
+
+You can install the package using pip:
+
+pip install ezsec_requests
+
+Requirements
+
+Python 3.x
+
+requests library (automatically installed with pip)
+
+Usage:
+
+Please refer to: https://www.ezsec-api.com/about
+
+API Endpoints
+
+All requests are made to https://api.ezsec-api.com/filing/api/ and require authentication via the Authorization header.
+
+Version
+
+Current version: 0.0.1
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Support
+
+For issues and feature requests, please open an issue on GitHub.
+
+
