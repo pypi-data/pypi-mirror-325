@@ -1,0 +1,3 @@
+[console_scripts]
+mcp-todo = todo.server:main
+todo = todo.cli:main

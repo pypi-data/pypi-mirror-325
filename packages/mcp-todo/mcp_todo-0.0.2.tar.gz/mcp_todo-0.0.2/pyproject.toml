@@ -1,0 +1,37 @@
+[project]
+name = "mcp-todo"
+version = "0.0.2"
+description = "A command-line todo application with MCP server capabilities for LLM integration"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["todo", "mcp", "llm", "automation"]
+license = { text = "MIT" }
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "click>=8.1.7",
+    "mcp>=1.0.0",
+    "toml>=0.10.2",
+    "pydantic>=2.0.0",
+    "tabulate>=0.9.0",
+    "wcwidth>=0.2.13",
+]
+
+[project.scripts]
+mcp-todo = "todo.server:main"
+todo = "todo.cli:main"
+
+[tool.uv]
+dev-dependencies = ["pyright>=1.1.389", "ruff>=0.7.3", "pytest>=8.0.0"]
+
+[[tool.uv.index]]
+# Optional name for the index.
+name = "tuna"
+# Required URL for the index.
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
+default = true
