@@ -1,0 +1,21 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sumTwo"
+version = "1.0.0"
+description = "Sum two number"
+readme = "README.md"
+authors = [{ name = "thangtd", email = "trandinhthangv1@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+ "License :: OSI Approved :: MIT License",
+ "Programming Language :: Python",
+ "Programming Language :: Python :: 3",
+ "Operating System :: MacOS :: MacOS X",
+ "Operating System :: Microsoft :: Windows",
+ "Intended Audience :: Education"
+]
+keywords = ["sumtwo"]
