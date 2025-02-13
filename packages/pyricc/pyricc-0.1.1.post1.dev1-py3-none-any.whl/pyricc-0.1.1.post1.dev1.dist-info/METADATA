@@ -1,0 +1,44 @@
+Metadata-Version: 2.2
+Name: pyricc
+Version: 0.1.1.post1.dev1
+Summary: A small library for coloring strings.
+Author-email: Riccardo Carlesso <pall.adius.bont.on+pyricc@googlemail.com>
+Project-URL: Homepage, https://github.com/palladius/pyricc
+Project-URL: Bug Tracker, https://github.com/palladius/pyricc/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyric
+
+My first python package/library 🥚
+
+Coded with `Gemini 2.0`
+
+
+## Installation
+
+```bash
+pip install pyric
+```
+
+## Usage
+
+```python
+from pyric import colors
+
+print(colors.to_red("This text is red!"))
+print(colors.to_green("This text is green!"))
+```
+
+## Contributing
+
+See CONTRIBUTING.md (You should create this file later if you want contributions)
+
+## License
+
+MIT License (See LICENSE)
+
