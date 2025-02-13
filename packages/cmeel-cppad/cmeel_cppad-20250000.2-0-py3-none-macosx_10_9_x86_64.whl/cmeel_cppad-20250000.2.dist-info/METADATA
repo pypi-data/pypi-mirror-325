@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: cmeel-cppad
+Version: 20250000.2
+Summary: cmeel distribution for CppAD, A C++ Algorithmic Differentiation Package
+Requires-Python: >= 3.8
+License-Expression: EPL-2.0
+Home-page: https://github.com/cmake-wheel/cmeel-cppad
+Project-URL: Repository, https://github.com/cmake-wheel/cmeel-cppad.git
+Project-URL: Upstream, https://github.com/coin-or/CppAD
+Requires-Dist: cmeel
+Description-Content-Type: text/markdown
+
+# CMeel CppAD
+
+[![PyPI version](https://badge.fury.io/py/cmeel-cppad.svg)](https://pypi.org/project/cmeel-cppad)
+[![Release](https://github.com/cmake-wheel/cmeel-cppad/actions/workflows/release.yml/badge.svg)](https://github.com/cmake-wheel/cmeel-cppad/actions/workflows/release.yml)
+[![Build Status](https://api.cirrus-ci.com/github/cmake-wheel/cmeel-cppad.svg)](https://cirrus-ci.com/github/cmake-wheel/cmeel-cppad)
+
+[CppAD](https://github.com/coin-or/CppAD) distribution for cmeel packages.
