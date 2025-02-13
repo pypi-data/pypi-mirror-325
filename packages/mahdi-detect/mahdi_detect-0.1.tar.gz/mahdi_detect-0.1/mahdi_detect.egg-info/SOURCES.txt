@@ -1,0 +1,14 @@
+LICENSE
+README.md
+license_plate_detector.pt
+setup.py
+mahdi-detect/__init__.py
+mahdi-detect/mahdi_detect.py
+mahdi-detect/model.py
+mahdi-detect/utils.py
+mahdi-detect/visualize.py
+mahdi_detect.egg-info/PKG-INFO
+mahdi_detect.egg-info/SOURCES.txt
+mahdi_detect.egg-info/dependency_links.txt
+mahdi_detect.egg-info/requires.txt
+mahdi_detect.egg-info/top_level.txt

@@ -1,0 +1,36 @@
+Metadata-Version: 2.2
+Name: mahdi-detect
+Version: 0.1
+Summary: A library for vehicle and license plate detection.
+Home-page: https://pypi.org/project/mahdi-detect/
+Author: Mahdi
+Author-email: mahdihuseine001@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: license_plate_detector.pt
+Requires-Dist: ultralytics
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: torch
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+# mahdi-detect
+
+A Python package for vehicle and license plate detection using YOLO models.
+
+## Installation
+
+You can install this package using pip:
+
+```bash
+pip install mahdi-detect
