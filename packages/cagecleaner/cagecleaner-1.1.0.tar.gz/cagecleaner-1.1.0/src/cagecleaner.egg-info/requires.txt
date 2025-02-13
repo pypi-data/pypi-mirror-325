@@ -1,0 +1,6 @@
+scipy
+more-itertools
+Biopython
+cblaster
+clinker
+pandas
