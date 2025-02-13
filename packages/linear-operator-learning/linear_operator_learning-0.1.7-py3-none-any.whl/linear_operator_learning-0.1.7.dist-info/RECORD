@@ -1,0 +1,11 @@
+linear_operator_learning/__init__.py,sha256=V6AjHz6ZTS-SoGAKkJaX06b2hXgGx1ahgptS0YKR6AI,8
+linear_operator_learning/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+linear_operator_learning/kernel/__init__.py,sha256=gHSJm2qSmvKMOgj7IGsU8AFJJhMx4P6-65QIuEvEq3U,161
+linear_operator_learning/kernel/linalg.py,sha256=59v-gPdKj7imZkPG98fe8nbEd91EC6QM9CjDhmPSEeQ,6247
+linear_operator_learning/kernel/regressors.py,sha256=TeYTXxamVlBgIQlGeJopBGZQ338BaoaqxXq5RmRQNvo,16774
+linear_operator_learning/kernel/structs.py,sha256=7TiSzn7iNTkdA1GUOgYiaNW2TwnfzLQHdb1Wp2Sovc0,416
+linear_operator_learning/kernel/utils.py,sha256=I8s6W3ibJeWwqR2K4lA6xJqhVoYd8ZKSVEUMeBka-S4,1995
+linear_operator_learning-0.1.7.dist-info/METADATA,sha256=GeRZ8FRWKonJzS-UNUkbO5WUFMS4fRh96ZUbZQYCcOA,1748
+linear_operator_learning-0.1.7.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+linear_operator_learning-0.1.7.dist-info/licenses/LICENSE,sha256=8b7BI3rGbxnHb2wICO2T9L23O9vW23Oipep6xjduCd8,1067
+linear_operator_learning-0.1.7.dist-info/RECORD,,
