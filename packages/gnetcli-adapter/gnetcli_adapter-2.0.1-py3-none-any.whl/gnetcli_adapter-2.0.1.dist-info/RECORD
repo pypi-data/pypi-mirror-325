@@ -1,0 +1,6 @@
+gnetcli_adapter/__init__.py,sha256=WqkUJvZQezrWsglfd6uYV6DpuKZial5LLSSTzv67kIg,64
+gnetcli_adapter/gnetcli_adapter.py,sha256=qQB7EOE0nUba9Z8T2d46w_BODTCgDmaLyJnzQP6mbRU,18247
+gnetcli_adapter-2.0.1.dist-info/entry_points.txt,sha256=9eDLN7vbK52dTc2W_UwCaqH4IW1uICWRbH6Iu20cVCA,168
+gnetcli_adapter-2.0.1.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+gnetcli_adapter-2.0.1.dist-info/METADATA,sha256=WYAAikd7SGsLkUVPQ8PPXe_m0FxG-BNnIyB2fFMXS54,1834
+gnetcli_adapter-2.0.1.dist-info/RECORD,,
