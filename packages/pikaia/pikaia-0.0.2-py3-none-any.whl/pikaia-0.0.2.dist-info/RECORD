@@ -1,0 +1,9 @@
+pikaia/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pikaia/alg.py,sha256=QAs6W3oxs62Sbpc0EC0ap8zf30zWk2wgM-F991Qcs1I,15776
+pikaia/examples.py,sha256=g6JITXfoOqMHgMhbGo9qfknYiaALolJdoDzpGnytZHI,3639
+pikaia/plot.py,sha256=-gGIyxlmggVqVPBw0ynApiz8MQy-bTwgDHddLSZTZ8E,5471
+pikaia/search.py,sha256=Hrc-uY-k0vaCmY3y4ORT7Qom0yx67efcI0I5khW0hE4,4431
+pikaia-0.0.2.dist-info/METADATA,sha256=2xdLPGjDXwPp-EiAqW7w4dVbiyXs3abczmoWJYNxwPg,2853
+pikaia-0.0.2.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+pikaia-0.0.2.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pikaia-0.0.2.dist-info/RECORD,,
