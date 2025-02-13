@@ -1,0 +1,45 @@
+name: Checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest, windows-latest]
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.x
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    - name: Install fftw3 libs (Linux)
+      if: runner.os == 'Linux'
+      run: |
+        sudo apt-get install -y libfftw3-double3 libfftw3-single3
+    - name: Install fftw3 libs (macOS)
+      if: runner.os == 'macOS'
+      run: |
+        brew install fftw
+    - name: Install dependencies
+      run: |
+        # prerequisites
+        python -m pip install --upgrade pip wheel
+        python -m pip install coverage flake8 pytest
+        # install dependencies
+        pip install -e .
+        # show installed packages
+        pip freeze
+    - name: Test with pytest
+      run: |
+        coverage run --source=qpimage -m pytest tests
+    - name: Lint with flake8
+      run: |
+        flake8 --exclude _version.py .
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
