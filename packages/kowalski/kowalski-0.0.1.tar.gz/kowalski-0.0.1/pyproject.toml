@@ -1,0 +1,37 @@
+[project]
+name = 'kowalski'
+requires-python = ">=3.10"
+version = "0.0.1"
+authors = [
+    {name = "Viet Anh Khoa Tran", email = "v.tran@fz-juelich.de"},
+]
+[tool.poetry]
+include = ["requirements.txt"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "space"
+docstring-code-format = true
+
+[tool.setuptools]
+packages = ["kowalski"]
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+ignore = ["F722", "F821", "E501", "E741", "E731", "UP037"]

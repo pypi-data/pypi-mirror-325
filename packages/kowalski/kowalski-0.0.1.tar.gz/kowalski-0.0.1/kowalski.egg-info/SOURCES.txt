@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+kowalski/__init__.py
+kowalski/neural_collapse.py
+kowalski/power_law.py
+kowalski/rankme.py
+kowalski/utils.py
+kowalski.egg-info/PKG-INFO
+kowalski.egg-info/SOURCES.txt
+kowalski.egg-info/dependency_links.txt
+kowalski.egg-info/top_level.txt
