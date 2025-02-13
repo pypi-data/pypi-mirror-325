@@ -1,0 +1,5 @@
+langgraph<0.3.0,>=0.2.16
+langchain<0.4.0,>=0.2.15
+langchain-openai<0.4.0,>=0.1.23
+langchain-core<0.4.0,>=0.2.35
+langchain-community<0.3.0,>=0.2.16
