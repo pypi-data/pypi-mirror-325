@@ -1,0 +1,2 @@
+[console_scripts]
+kareem-machine-ctrl = src.server:main

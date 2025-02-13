@@ -1,0 +1,15 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+server.py,sha256=0Bn4yl0JxGZYp92raebjiBxxSGaXm1xVRjCyq91pqOU,354
+api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tools/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tools/browser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tools/shell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tools/system/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kareem_machine_ctrl-0.1.1.dist-info/METADATA,sha256=pVIPH--CQJSqj0KBVxQzcHtXhuZOXRhgKu0Ht2Pb1uw,218
+kareem_machine_ctrl-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+kareem_machine_ctrl-0.1.1.dist-info/entry_points.txt,sha256=dWYk6L273kZ1CcPvj1eDiypC1F66hDqQmZlQT3WySkQ,56
+kareem_machine_ctrl-0.1.1.dist-info/top_level.txt,sha256=UeX-04VIX4oTwlgr9tcBqfdeW9cubGH70p1tfqwu8Uc,37
+kareem_machine_ctrl-0.1.1.dist-info/RECORD,,
