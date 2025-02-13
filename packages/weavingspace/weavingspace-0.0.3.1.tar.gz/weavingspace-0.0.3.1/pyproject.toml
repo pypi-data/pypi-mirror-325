@@ -1,0 +1,42 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "weavingspace"
+version = "0.0.3.1"
+authors = [
+    { name = "David O'Sullivan", email = "osullivan512@gmail.com" },
+    { name = "Luke Bergmann" },
+]
+description = "A package for making tiled mapping layers"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+readme = "README.md"
+dependencies = [
+    "requests",
+    "importlib-metadata; python_version>=\"3.12\"",
+    "geopandas",
+    "pandas",
+    "numpy",
+    "scipy",
+    "shapely",
+    "networkx",
+    "pillow",
+    "matplotlib",
+    "dataclasses",
+    "typing",
+]
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Homepage = "https://github.com/DOSull/weaving-space"
+
+[tool]
