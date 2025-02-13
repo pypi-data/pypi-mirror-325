@@ -1,0 +1,25 @@
+[project]
+name = "nonebot-plugin-vividuscore"
+version = "0.0.2"
+description = "Vividus核心"
+authors = [
+    {name = "hlfzsi"}
+]
+license = {text = "AGPL-3.0"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "nonebot-plugin-localstore (>=0.7.3)",
+    "nonebot-plugin-acmd (>=0.0.5)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "primary"
