@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: CYB600-LAB1-M
+Version: 1.0.4
+Author: Mohammed Khan
+Author-email: khan43@canisius.edu
+License: Apache License Version 2.0
+License-File: LICENSE
+Requires-Dist: flask
+
