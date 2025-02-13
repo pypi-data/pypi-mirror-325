@@ -1,0 +1,17 @@
+blueness
+abcli
+boto3
+dill
+shapely==2.0.6
+matplotlib
+mlflow
+numpy
+opencv-python
+pandas
+pymysql
+pyyaml
+pylint
+pytest
+python-dotenv[cli]
+tqdm
+urllib3
