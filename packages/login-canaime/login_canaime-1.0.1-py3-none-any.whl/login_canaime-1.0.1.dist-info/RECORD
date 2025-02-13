@@ -1,0 +1,11 @@
+loginCanaime/__init__.py,sha256=501aH5_GXwHvUQDKtfdhcMlq8N3StvZv2QYcIJJX7gw,571
+loginCanaime/__main__.py,sha256=frdBXAcdupfEBtU-Mi2nEqmXitGpCjq0yqkEg_5PHCA,262
+loginCanaime/controller.py,sha256=xHlBT_BIS5q_5MXhjcw3z6ztOfMq8q5QlQAHMWhIsXg,5931
+loginCanaime/main.py,sha256=UyzdO_YPRkn1nhAQK3R06sE8CbZSbsd10jrB3NhnJsM,2515
+loginCanaime/model.py,sha256=3aU0XWkto-7F1PgeSucCQbwC98OIucYYntZ7_DkxsGA,3680
+loginCanaime/view.py,sha256=o090WDAvlc83mkwOyN2CJLWggRTIf-B3GDRRBSMj5kE,13278
+login_canaime-1.0.1.dist-info/LICENSE,sha256=G8ljrRR0bLg8lwYyb9CamFmuNJahkSaFyHA9ywHmGGk,1097
+login_canaime-1.0.1.dist-info/METADATA,sha256=aeIAl-L-3PCGuBwHCCJwXYsK378ia4BRBu2RODffRBY,6030
+login_canaime-1.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+login_canaime-1.0.1.dist-info/top_level.txt,sha256=aRj06Ras3oC6_-U508RwA6Jzk0jaSfmIlG_6Mxx2ARE,13
+login_canaime-1.0.1.dist-info/RECORD,,
