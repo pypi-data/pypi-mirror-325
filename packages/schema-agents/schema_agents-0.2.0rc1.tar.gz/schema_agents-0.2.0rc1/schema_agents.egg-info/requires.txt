@@ -1,0 +1,7 @@
+numpy>=1.21.2
+pydantic>=2.6.1
+openai>=1.55.3
+loguru
+openapi-pydantic
+makefun>=1.15.2
+hypha-rpc>=0.20.41
