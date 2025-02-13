@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "Debug test_openai_compatible_llm",
+      "program": "/Users/s22625/repos/pinjected_openai/.venv/lib/python3.12/site-packages/pinjected/run_config_utils.py",
+      "args": [
+        "run_injected",
+        "get",
+        "pinjected_openai.openrouter.util.test_openai_compatible_llm",
+        "pinjected.EmptyDesign"
+      ],
+      "env": {}
+    },
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "Debug test_openrouter_model_table",
+      "program": "/Users/s22625/repos/pinjected_openai/.venv/lib/python3.12/site-packages/pinjected/run_config_utils.py",
+      "args": [
+        "run_injected",
+        "get",
+        "pinjected_openai.openrouter.util.test_openrouter_model_table",
+        "pinjected.EmptyDesign"
+      ],
+      "env": {}
+    }
+  ]
+}
