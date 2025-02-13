@@ -1,0 +1,11 @@
+mahdi-detect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mahdi-detect/mahdi_detect.py,sha256=F36Bn9vZOiBlsM8IGKon7M58UHerv00YJEUVjczp6Mo,4547
+mahdi-detect/model.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mahdi-detect/utils.py,sha256=P1DPhEDTU2jbRUcLbP58jv2ehvJnYJVWtsPKqjxAnIA,6217
+mahdi-detect/visualize.py,sha256=Y_1c4wTlFJqVHrNlCymvwxQ3uXEbCKoq3APgpjE_5Ng,4664
+mahdi_detect-0.1.dist-info/LICENSE,sha256=1iH_8RvKI1IQQwfZJad-H8DyXoF1iieWNHuTYXvS_Ps,1077
+mahdi_detect-0.1.dist-info/METADATA,sha256=PobFKZtvV7AMLzN8Xubjz27i-PgMwEzaQFuPv8796go,957
+mahdi_detect-0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mahdi_detect-0.1.dist-info/license_plate_detector.pt,sha256=jsOyVKbIdhDwN6kJV0Ysr6EanAMiTjOijGodGsKsUbA,6241454
+mahdi_detect-0.1.dist-info/top_level.txt,sha256=Z3cMedxg_CwhQpU8slCl_WJDMjgYolY_ZF5TIPk8c1U,13
+mahdi_detect-0.1.dist-info/RECORD,,
