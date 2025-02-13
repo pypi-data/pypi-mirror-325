@@ -1,0 +1,11 @@
+inmanta_plugins/std/__init__.py,sha256=X1R8-aZNuO7UASaqURu1KYXqVVgAJwdPX4NxU8DWMI8,35854
+inmanta_plugins/std/resources.py,sha256=7tVgKlG9iKvEO8WnSJH92Iyrg0_KblqyV8VfyNaGODs,4811
+inmanta_plugins/std/setup.cfg,sha256=jzSDPT1RxGa8k5W9zXP3wl_LUpKZXOBSnuYzeyLQlOU,888
+inmanta_plugins/std/types.py,sha256=V_yyIKS7CkhHZEnIwY7Eo6vGSFgJ6w7xGA0qTgAdhM8,1138
+inmanta_plugins/std/model/_init.cf,sha256=TNyEO_rudeLSF3mkESWAh_igaJ6qDqsQLIbY_-lKJhU,15985
+inmanta_plugins/std/model/testing.cf,sha256=hLBbIMQkBVaCycT0sLjCuImKDvIgn_CeV8O-75mRz7g,1173
+inmanta_plugins/std/templates/host_uri.j2,sha256=JSCdyz2Y4TXJQAgzXziWmhG_FvK-Z3r_rN1LD2dUt_k,130
+inmanta_module_std-8.2.3.dist-info/METADATA,sha256=Rd_xmfGp-MDl6wpcSzLPSoYnblgAgbyT57Ep4QUSZ2U,223
+inmanta_module_std-8.2.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+inmanta_module_std-8.2.3.dist-info/top_level.txt,sha256=rb9c6eWQS8KFuSa3ktEcXpk-oSsCL9ZCVAgv7S0Eg_w,16
+inmanta_module_std-8.2.3.dist-info/RECORD,,
