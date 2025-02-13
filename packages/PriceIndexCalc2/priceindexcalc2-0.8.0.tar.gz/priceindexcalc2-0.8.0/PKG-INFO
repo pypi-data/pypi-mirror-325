@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: PriceIndexCalc2
+Version: 0.8.0
+Summary: Price Index Calculator using bilateral and multilateral methods
+Home-page: https://github.com/wspackman/PriceIndexCalc
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: statsmodels
+Requires-Dist: pyspark
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
