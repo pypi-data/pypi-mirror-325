@@ -1,0 +1,12 @@
+cmsplugin_alerts/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cmsplugin_alerts/alert.py,sha256=SxVqT0KptjcDSxY6MclrWn-N8BziWBfaJaUqgrICJsE,3525
+cmsplugin_alerts/cms_config.py,sha256=-cxrHsiQ9BYN3_GaPS-Mld7P2YqOBmfyUvblijhmRCo,94
+cmsplugin_alerts/cms_toolbar.py,sha256=DvK5Om22Y8ecVNSwJrpyVd9pqW0nGJdILnOzywRHik0,2071
+cmsplugin_alerts/models.py,sha256=sdJXDdcg4Q9Bxw22RfUWokinacmrJKk3BWNkAj9QBIg,975
+cmsplugin_alerts/templates/cmsplugin_alerts/alert/email_page_published_alert.txt,sha256=SlqLBvkJACydGdfHFa9rXLPQfZpudtvcGQ-lCO7iU7M,880
+cmsplugin_alerts/templates/cmsplugin_alerts/alert/page_published_alert.html,sha256=3Ku-B0KUKpBtEzyXYWB99dRkJDXmDoIEQC8izJN9mx4,465
+cmsplugin_alerts-2.0.0.dist-info/LICENSE,sha256=LNVfrvvChZsyQmFOdVVHevYb9PmFKwyX8jkJmx4aJno,35315
+cmsplugin_alerts-2.0.0.dist-info/METADATA,sha256=geEWNSsyt2NFLzL-QygWNQV_EU4fVEpLSyVlByxUCio,826
+cmsplugin_alerts-2.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+cmsplugin_alerts-2.0.0.dist-info/top_level.txt,sha256=PVaej-a0iwS584iGK11-v0xoAu6oOIu4gTT2K9cm9lA,17
+cmsplugin_alerts-2.0.0.dist-info/RECORD,,

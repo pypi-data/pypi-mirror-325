@@ -1,0 +1,26 @@
+Metadata-Version: 2.2
+Name: cmsplugin-alerts
+Version: 2.0.0
+Summary: Extend django-cms with emails when pages are published.
+Home-page: https://gitlab.com/doctormo/django-cmsplugin-alerts
+Author: Martin Owens
+Author-email: doctormo@gmail.com
+License: LGPLv3
+Platform: linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+Requires-Dist: django-cms>=3.11
+Requires-Dist: django-boxed-alerts>=2.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license
+Dynamic: platform
+Dynamic: requires-dist
+Dynamic: summary
