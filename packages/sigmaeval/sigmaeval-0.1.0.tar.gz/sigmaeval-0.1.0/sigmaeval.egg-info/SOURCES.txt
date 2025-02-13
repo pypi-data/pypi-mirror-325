@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+sigmaeval/__init__.py
+sigmaeval/sigmaeval.py
+sigmaeval.egg-info/PKG-INFO
+sigmaeval.egg-info/SOURCES.txt
+sigmaeval.egg-info/dependency_links.txt
+sigmaeval.egg-info/requires.txt
+sigmaeval.egg-info/top_level.txt
+tests/test_sigmaeval.py
