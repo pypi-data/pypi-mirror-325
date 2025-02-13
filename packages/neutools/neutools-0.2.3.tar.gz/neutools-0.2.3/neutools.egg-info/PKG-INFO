@@ -1,0 +1,87 @@
+Metadata-Version: 2.2
+Name: neutools
+Version: 0.2.3
+Summary: neutron panel debug tools
+Author-email: cxykevin <cxykevin@yeah.net>
+Project-URL: homepage, https://gitee.com/cxy_kevin/neutron
+Project-URL: repository, https://gitee.com/cxy_kevin/neutron
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: typer
+
+# neutron panel 工具包
+
+命令行：`neutools`（别名 `neu`）
+
+## 注册补全服务
+
+```bash
+neu --install-completion
+neutools --install-completion
+```
+
+## 全局参数
+
+```bash
+neutools --neu-path <path>  # 指定 neutron panel 路径
+```
+
+## 显示版本号
+
+```bash
+neutools version
+```
+
+## neutron panel 管理
+
+```bash
+neutools start    # 启动
+neutools stop     # 停止
+neutools restart  # 重启
+neutools status   # 查看状态
+neutools fix      # 安装/升级/卸载
+```
+
+## 插件管理
+
+```bash
+neutools plugin enable <plugin_name>        # 启用插件
+neutools plugin disable <plugin_name>       # 禁用插件
+neutools plugin list                        # 列出已安装插件
+neutools plugin install <plugin_file_path>  # 安装插件
+neutools plugin remove <plugin_name>        # 卸载插件
+neutools plugin pack <plugin_name_or_path>  # 打包插件
+# 输入路径会按路径打包，否则在 config/plugins 与 plugins 下查找插件并打包
+# -o 可以指定输出路径，后缀为 .neuplugin，格式为 .tar.xz
+```
+
+## 开发功能
+
+### 创建新插件
+
+```bash
+neutools debug create <new_plugin_name>
+```
+
+额外参数：
+
+- `--template` 指定模板。可用模板如下：
+  - `application` 默认模板，完整的应用类插件
+  - `addition` 扩展类插件
+  - `simple` 仅包含描述文件
+- `--path` 指定创建路径
+
+### 调试插件
+
+```bash
+neutools debug run
+```
+
+> 推荐使用 vscode 注册过的调试信息直接运行而不是使用命令行
+>
+> 其它IDE可以启动 `neutools` 模块，然后设置运行参数为 `["debug","run"]` 启动调试。
