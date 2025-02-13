@@ -1,0 +1,96 @@
+Metadata-Version: 2.3
+Name: breba-docs
+Version: 0.4.0
+Summary: Documentation assistant will proof read your docs
+License: MIT
+Keywords: gpt,assistant,documentation
+Author: Yason Khaburzaniya
+Author-email: yason@hey.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: cleo (>=2.1.0,<3.0.0)
+Requires-Dist: docker (>=7.1.0,<8.0.0)
+Requires-Dist: gitpython (>=3.1.43,<4.0.0)
+Requires-Dist: interactive-process (>=0.2.0,<0.3.0)
+Requires-Dist: jinja2 (>=3.1.4,<4.0.0)
+Requires-Dist: langchain-core (>=0.3.21,<0.4.0)
+Requires-Dist: langchain-openai (>=0.2.10,<0.3.0)
+Requires-Dist: langgraph (>=0.2.53,<0.3.0)
+Requires-Dist: openai (>=1.38.0,<2.0.0)
+Requires-Dist: pexpect (>=4.9.0,<5.0.0)
+Requires-Dist: pty-server (>=0.1.10,<0.2.0)
+Requires-Dist: pytest-asyncio (>=0.25.0,<0.26.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Project-URL: Documentation, https://github.com/breba-apps/breba-docs
+Project-URL: Homepage, https://github.com/breba-apps/breba-docs
+Project-URL: Repository, https://github.com/breba-apps/breba-docs
+Description-Content-Type: text/markdown
+
+# Breba Docs &middot; [![PyPI version](https://img.shields.io/pypi/v/breba-docs.svg)](https://pypi.org/project/breba-docs/)
+
+_AI documentation validator_ 
+
+[![workflow](https://github.com/breba-apps/breba-docs/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/breba-apps/breba-docs/actions/workflows/test.yaml?query=branch%3Amain)
+
+## Features
+Scans your documentation file and executes commands in the documentation
+to make sure that it is possible to follow the documentation.
+
+## Getting Started
+
+### Prerequisites
+Docker engine needs to be installed and running. Use docker installation instructions for your system.
+
+Get an OpenAI API Key and set environment variable like this:
+```bash
+export OPENAI_API_KEY=[your_open_ai_api_key]
+```
+
+### Install and Run
+To install and run breba-docs, run the following commands:
+
+```bash
+pip install breba-docs
+breba-docs new sample_proj
+cd sample_proj
+breba-docs run
+```
+
+Then you will need to provide location of a documentation file. 
+For example: `sample_project/sample.md`
+
+The software will then analyze the documentation and run the commands found in the documentation
+inside a docker container with python installed.
+
+The AI will then provide feedback regarding how it was able to follow the instructions.
+
+## Features
+
+- **Create a New Project:**  
+  Run `breba-docs new` to set up a new project with:
+  - `data` directory
+  - `prompts` directory
+  - `config.yaml` file containing project and model configuration
+
+- **Run the Project:**  
+  Run `breba-docs run` to load and display your project's configuration.
+
+  When providing a path to file, that file will be copied to the `data` directory.
+
+  When using a github url, the repo will be cloned inside the `data` directory.
+
+  The software will then analyze the documentation and run the commands found in the documentation
+
+  Commands will be run inside a docker container with python installed.
+
+  Commands to fix the documentation will run against the documentation in the `data` directory.
+
+## Contributing
+For contributing to the project, please refer to [Contribution Guide](docs/CONTRIBUTING.md). 
