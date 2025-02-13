@@ -1,0 +1,8 @@
+localstack_extension_ecs_container_endpoints/__init__.py,sha256=EOdl1WLAL5uhDo3yfVtUOvxDjltuTNiv0WkKLqQeBKw,113
+localstack_extension_ecs_container_endpoints/extension.py,sha256=xyQi3pFMyUqhud5sUOPLA7ZTg6x8mb5sscaB87elA4w,10893
+localstack_extension_ecs_container_endpoints-0.1.0.dist-info/LICENSE.txt,sha256=QcRUmEzLA-FbkP7NSsZEBd3bG2Hoqrp-aq225Uo0RW4,34021
+localstack_extension_ecs_container_endpoints-0.1.0.dist-info/METADATA,sha256=O156_fLkraqwLtKFeJ9AT01vaA3oPd5ATxhK6lSFb-A,668
+localstack_extension_ecs_container_endpoints-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+localstack_extension_ecs_container_endpoints-0.1.0.dist-info/entry_points.txt,sha256=sI7rBcWF6E0A6g0Bg0lZJBaLeheYeyOnvEFa-fnJLek,138
+localstack_extension_ecs_container_endpoints-0.1.0.dist-info/top_level.txt,sha256=wk1jmoVx2R42IdY4RVcmcsIMCU1b66JAIfCVAKLcnoM,45
+localstack_extension_ecs_container_endpoints-0.1.0.dist-info/RECORD,,
