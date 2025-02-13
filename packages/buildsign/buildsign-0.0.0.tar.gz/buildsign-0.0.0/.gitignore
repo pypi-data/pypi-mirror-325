@@ -1,0 +1,21 @@
+# PyApp
+pyapp/*
+!pyapp/Cargo.lock
+!pyapp/.cargo
+
+# Build artifacts
+*.exe
+
+# Coverage
+.coverage
+coverage.xml
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
