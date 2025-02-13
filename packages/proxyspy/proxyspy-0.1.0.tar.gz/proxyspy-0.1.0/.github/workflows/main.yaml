@@ -1,0 +1,91 @@
+name: Build and Test
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+
+    - name: Set up conda
+      uses: conda-incubator/setup-miniconda@505e6394dae86d6a5c7fbb6e3fb8938e3e863830 # v3
+      with:
+        activate-environment: ""
+        auto-activate-base: true
+
+    - name: Install build packages
+      run: |
+        conda install conda-build hatchling
+
+    - name: Build pip package
+      shell: bash -el {0}
+      run: |
+        python -m hatchling build
+
+    - name: Build conda package
+      shell: bash -el {0}
+      run: |
+        conda build conda.recipe --no-test
+        cp -r ${CONDA_PREFIX}/conda-bld dist/conda
+        find dist
+
+    - name: Upload packages
+      uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4
+      with:
+        name: packages
+        path: dist
+        retention-days: 1
+
+  test:
+    needs: build
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, ubuntu-24.04-arm, macos-13, macos-14, windows-latest]
+        python-version: ["3.8", "3.10", "3.12"]
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+
+    - name: Set up conda
+      uses: conda-incubator/setup-miniconda@505e6394dae86d6a5c7fbb6e3fb8938e3e863830 # v3
+      with:
+        activate-environment: ""
+        auto-activate-base: true
+
+    - name: Download built packages
+      uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4
+      with:
+        name: packages
+        path: dist
+
+    - name: Add random delay to space out tests
+      shell: bash -el {0}
+      run: |
+        DELAY=$(( $RANDOM % 20 ))
+        echo "Waiting $DELAY seconds before starting tests"
+        sleep $DELAY
+
+    - name: Test package (conda)
+      shell: bash -el {0}
+      run: |
+        conda_pkg=$(basename dist/conda/noarch/proxyspy-* | \
+                    sed -E 's@^(.*)-(.*)-(.*)[.](conda|tar.bz2)$@\1=\2=\3@')
+        conda create -n testconda -c ./dist/conda \
+          python=${{ matrix.python-version }} \
+          "$conda_pkg" pytest requests psutil
+        conda activate testconda
+        pytest -v tests
+
+    - name: Test package (pip)
+      shell: bash -el {0}
+      run: |
+        wheel_file=$(ls dist/proxyspy-*.whl)
+        conda create -n testpip python=${{ matrix.python-version }}
+        pip install "${wheel_file}[test]"
+        pytest -v tests
