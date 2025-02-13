@@ -1,0 +1,12 @@
+seeing/__init__.py,sha256=cSyi-znIXMpwX9KS9dZONDPMqdEGGrxmIVOZ9kwILlg,614
+seeing/_version.py,sha256=EPoWF0em1tKJgBz5dbBF-r29860VBk-SsdiXh6E1aO0,411
+seeing/formulary.py,sha256=jBkUQatsuzjjpgb8jIFzDaxgcviCMplyoHyAPkUM0LQ,4943
+seeing/integrator.py,sha256=J-KHS-kzof9E2xxG_6OoqaiuGbuV6CzQWzQ9HXVi6Sg,13669
+seeing/lambdifyDictionaries.py,sha256=O39FGjjum2Icnj1Vtc1nsCXYS6lmhYOf4zFSa-p19Wo,536
+seeing/lambdifyDictionariesGPU.py,sha256=svo57vh4FSrs7PdJKw0y4FZtRQxbPDQXOC6iteLxnFc,5687
+seeing/sympyHelpers.py,sha256=48p31YZXpckALrRUlW0BzbKbLOZWB_-XB06JELgrnaA,6158
+astro_seeing-1.1.1.dist-info/LICENSE,sha256=JoStfienTNhWKzfoP4I3_R2Kx7QFSvmNZtz9vIGfrSo,1064
+astro_seeing-1.1.1.dist-info/METADATA,sha256=zQbTUMhyNMABpi2JLRxzHPh97RB0J873OHiLl4ZlN-k,1388
+astro_seeing-1.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+astro_seeing-1.1.1.dist-info/top_level.txt,sha256=KyHj6ebz_vpvunL8zXq6bAmzW5n6SFG1VWpyME13tQY,7
+astro_seeing-1.1.1.dist-info/RECORD,,
