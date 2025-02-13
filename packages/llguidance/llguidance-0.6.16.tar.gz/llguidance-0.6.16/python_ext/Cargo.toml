@@ -1,0 +1,23 @@
+[package]
+name = "llguidance_py"
+version = "0.6.16"
+edition = "2021"
+
+[dependencies]
+llguidance = { workspace = true }
+toktrie_hf_tokenizers = { workspace = true, optional = true }
+bytemuck = "1.19.0"
+pyo3 = {version = "0.23.4", features = ["extension-module", "abi3-py39", "anyhow"]}
+serde = { version = "1.0.210", features = ["derive"] }
+serde_json = "1.0.132"
+rayon = "1.10.0"
+
+[lib]
+# See https://github.com/PyO3/pyo3 for details
+name = "_lib"
+crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[features]
+default = []
+tokenizers = ["toktrie_hf_tokenizers"]
