@@ -1,0 +1,13 @@
+asreview<2,>=1.1
+ftfy
+nltk
+pandas
+pyalex
+rich
+tqdm
+
+[lint]
+ruff
+
+[test]
+pytest
