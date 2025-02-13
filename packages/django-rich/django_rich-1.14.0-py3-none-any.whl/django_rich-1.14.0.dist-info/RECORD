@@ -1,0 +1,11 @@
+django_rich/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_rich/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_rich/test.py,sha256=NGdVCl_aYlY9jMxB6jNXIdwyI7IC6GZs_BfkaGNZkKs,9691
+django_rich/management/__init__.py,sha256=adqyd4vqjZBt4-7J5BdB61Gx5B5hi1ZzKQ7CRoiKi5k,1670
+django_rich/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_rich/management/commands/shell.py,sha256=rP3PjCbvG8AkISEdtX781oeoZGz-OEKynXJGLJEB-rk,299
+django_rich-1.14.0.dist-info/LICENSE,sha256=ZRdEl0Y_Z7RuhyD9uv3I-qOgtr1OhOP1UGk0WfilBaQ,1069
+django_rich-1.14.0.dist-info/METADATA,sha256=LoxS9dKvLqaT3CTVHXA1Fd65a_y8-0m8-IVuIbEitxY,7717
+django_rich-1.14.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+django_rich-1.14.0.dist-info/top_level.txt,sha256=DIzYEpBodgdmljQL_A08elMf2VuHo2oGbzPZQ2EXiDs,12
+django_rich-1.14.0.dist-info/RECORD,,
