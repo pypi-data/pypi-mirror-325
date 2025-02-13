@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: localstack-extension-ecs-container-endpoints
+Version: 0.1.0
+Summary: LocalStack Extension: localstack-extension-ecs-container-endpoints
+Author-email: "Mark S." <the@wondersmith.io>
+License: AGPL-3.0-or-later
+Project-URL: Homepage, https://github.com/the-wondersmith/localstack-extension-ecs-container-endpoints
+Keywords: localstack,localstack-extension,extension
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE.txt
+
+# localstack-extension-ecs-container-endpoints
+
+Describe your project here.
+
+* License: AGPL-3.0-or-later
+
+https://github.com/awslabs/amazon-ecs-local-container-endpoints
