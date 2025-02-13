@@ -1,0 +1,21 @@
+[project]
+name = "pyvfg"
+version = "2.1.2"
+description = ""
+readme = "README.md"
+requires-python = ">= 3.13"
+dependencies = [
+    "pydantic ~= 2.8.2",
+]
+
+[[project.authors]]
+name = "Jasmine Moore"
+email = "jasmine.moore@verses.ai"
+
+[[project.authors]]
+name = "Alex Kiefer"
+email = "alex.kiefer@verses.ai"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
