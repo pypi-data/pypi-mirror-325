@@ -1,0 +1,14 @@
+[Version 1.6.1] - 2025-02-07
+============================
+
+Bug Fixed
+---------
+
+- User Input Handling :  it uses the string as the secret key
+
+- Default .env Check : if no input is provided, the function checks for a default .env file in the current directory.
+
+- Loading and Validation :  it notifies the user of the failure and uses a default key.
+
+- Missing .env Handling : If no .env file is found, it sets a default secret key.
+
