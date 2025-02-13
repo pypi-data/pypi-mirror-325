@@ -1,0 +1,7 @@
+Metadata-Version: 2.2
+Name: kareem-machine-ctrl
+Version: 0.1.3
+Summary: Sample MCP integration project
+Author-email: Kareem Elbahrawy <kareem@kareemelbahrawy.com>
+Requires-Python: >=3.10
+Requires-Dist: mcp[cli]>=1.2.1
