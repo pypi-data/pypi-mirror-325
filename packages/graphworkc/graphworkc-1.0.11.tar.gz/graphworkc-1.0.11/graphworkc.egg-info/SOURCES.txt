@@ -1,0 +1,10 @@
+pyproject.toml
+setup.cfg
+setup.py
+graphworkc.egg-info/PKG-INFO
+graphworkc.egg-info/SOURCES.txt
+graphworkc.egg-info/dependency_links.txt
+graphworkc.egg-info/requires.txt
+graphworkc.egg-info/top_level.txt
+src/CNetwork.cpp
+src/main.cpp
