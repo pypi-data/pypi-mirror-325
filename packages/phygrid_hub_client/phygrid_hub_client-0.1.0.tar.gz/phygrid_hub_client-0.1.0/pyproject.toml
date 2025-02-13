@@ -1,0 +1,50 @@
+[project]
+name = "phygrid_hub_client"
+version = "0.1.0"
+description = "Python implementation of the PhyGrid Hub Client"
+authors = [
+    {name = "Andreas Hassellof", email = "andreas@ombori.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-socketio>=5.11.1",
+    "python-engineio>=4.8.2",
+    "aiohttp>=3.9.1",
+    "python-dotenv>=1.0.0",
+    "urllib3>=2.1.0",
+]
+license = "MIT"
+keywords = ["phygrid", "hub", "client"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.3",
+    "black>=23.11.0",
+    "isort>=5.12.0",
+    "mypy>=1.7.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/phygrid"
+Documentation = "https://build.phygrid.com"
+
+[tool.poetry]
+name = "phygrid_hub_client"
+version = "0.1.0"
+description = "Python implementation of the PhyGrid Hub Client"
+authors = ["Andreas Hassellof <andreas@ombori.com>"]
+readme = "README.md"
+packages = [
+    { include = "hub_client", from = "src" }
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
