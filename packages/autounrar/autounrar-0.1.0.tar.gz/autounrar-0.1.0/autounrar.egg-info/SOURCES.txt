@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+autounrar/__init__.py
+autounrar/autounrar.py
+autounrar.egg-info/PKG-INFO
+autounrar.egg-info/SOURCES.txt
+autounrar.egg-info/dependency_links.txt
+autounrar.egg-info/top_level.txt
