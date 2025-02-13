@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+trubrics/trubrics.egg-info/PKG-INFO
+trubrics/trubrics.egg-info/SOURCES.txt
+trubrics/trubrics.egg-info/dependency_links.txt
+trubrics/trubrics.egg-info/requires.txt
+trubrics/trubrics.egg-info/top_level.txt
