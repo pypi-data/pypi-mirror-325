@@ -1,0 +1,2 @@
+[console_scripts]
+pytest --start-project = pytest_yaml_fei.start_project:create_start_project
