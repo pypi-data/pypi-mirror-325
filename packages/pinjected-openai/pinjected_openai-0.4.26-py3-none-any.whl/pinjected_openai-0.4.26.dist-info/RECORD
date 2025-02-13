@@ -1,0 +1,10 @@
+pinjected_openai/__init__.py,sha256=gc_LWM45pxGZAHOG4Ut_9AXxCcCdojR2hO5xXjl_XPw,523
+pinjected_openai/clients.py,sha256=K4BvtfRQXZFa38QEEY0Fah_PKCo3qWy-8oYjoo6sLw0,631
+pinjected_openai/compatibles.py,sha256=FYMrDf8Lb1sSAXTdKmNKqNh0bJVUqSp-8CZJEx1gh9g,1501
+pinjected_openai/vision_llm.py,sha256=Ho9udo6n0pwpioPTfosV-R36IAVoL9EVHb5eoA2uKQg,20623
+pinjected_openai/whisper.py,sha256=xnK052Q7244KA3z8uN_ccPYBGQyGnuRasQowkTwIqDc,6463
+pinjected_openai/openrouter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pinjected_openai/openrouter/util.py,sha256=cA2JPpaT7sh-Hv4RiBU6vRLn-jZi-V168kVU_UaG44E,9708
+pinjected_openai-0.4.26.dist-info/METADATA,sha256=MAOTjk2uRl9-sCaBn9pRwVMT1agADqXzAY4i5qZ_ij8,1047
+pinjected_openai-0.4.26.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+pinjected_openai-0.4.26.dist-info/RECORD,,
