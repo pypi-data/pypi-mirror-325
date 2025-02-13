@@ -1,0 +1,37 @@
+Metadata-Version: 2.2
+Name: antotate
+Version: 0.0.0
+Summary: Antotate is a tool allowing for the automatic annotation of Antimony files.
+Home-page: https://github.com/mkcook/antotate
+Author: Margaret Cook
+Author-email: mkcook@uw.edu
+Project-URL: Bug Tracker, https://github.com/mkcook/antotate/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: libsbmlnetwork==0.2.2
+Requires-Dist: networkinfotranslator==0.2.2
+Requires-Dist: numpy==2.1.1
+Requires-Dist: pillow==10.4.0
+Requires-Dist: pybind11==2.13.6
+Requires-Dist: python-libsbml==5.20.4
+Requires-Dist: sbmlnetwork==0.2.2
+Requires-Dist: setuptools==75.8.0
+Requires-Dist: skia-python==87.6
+Requires-Dist: webcolors==24.8.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Antotate
+Antotate is a tool allowing for the automatic annotation of Antimony files.
