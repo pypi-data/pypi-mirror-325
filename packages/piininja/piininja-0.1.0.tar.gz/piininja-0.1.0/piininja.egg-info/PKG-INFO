@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: piininja
+Version: 0.1.0
+Summary: Ninja-like data anonymization library
+Home-page: https://github.com/abdullahshamim007/piininja
+Author: Abdullah Md. Shamim
+Author-email: abdullahshamim7584@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+# PiiNinja ðŸ¥·
+
+## Overview
+"PiiNinja is a powerful Python library for data anonymization, designed to protect sensitive personal information with ninja-like precision."
+
