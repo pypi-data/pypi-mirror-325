@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: odoo-addons-sygel-technology-sy-repair
+Version: 16.0.20250206.0
+Summary: Meta package for sygel-technology-sy-repair Odoo addons
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 16.0
+Requires-Dist: odoo-addon-repair-order-mass-validate<16.1dev,>=16.0dev
+
+UNKNOWN
