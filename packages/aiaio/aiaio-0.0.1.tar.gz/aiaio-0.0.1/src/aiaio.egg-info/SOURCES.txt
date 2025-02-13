@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/aiaio/__init__.py
+src/aiaio.egg-info/PKG-INFO
+src/aiaio.egg-info/SOURCES.txt
+src/aiaio.egg-info/dependency_links.txt
+src/aiaio.egg-info/top_level.txt
