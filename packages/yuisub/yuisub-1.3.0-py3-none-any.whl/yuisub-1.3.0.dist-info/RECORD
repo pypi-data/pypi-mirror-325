@@ -1,0 +1,13 @@
+yuisub/__init__.py,sha256=ZEHuUi8eaHq2dnggKURI0aDp1XfIYH_QAoQC50-Gkfc,299
+yuisub/__main__.py,sha256=x5_Z9yLn1eJWDDta02FtQIn-UzPQu4ARs3EJU0l0cbs,2467
+yuisub/a2t.py,sha256=D04Qpu7dsa7yQIrLw1hXh1EKWFSI3qhhms29HgYa2DY,1754
+yuisub/bangumi.py,sha256=plMAUQf5GDUlWkYw3Xd2tdQat_3qds1ONQASntV6jzs,4478
+yuisub/llm.py,sha256=AXgcVFkWImKm05G8dYP_d0RBzI9q_V4uIlSIEG8fu6Q,2313
+yuisub/prompt.py,sha256=maYbZp3zRI35rkok6zpfCXythrCYYCmjYARE2qCw7L4,2940
+yuisub/sub.py,sha256=q97hzX2EQwmRoVRUG2PFvl_3dwfHq7-3OnHG5G3lqpM,5109
+yuisub/translator.py,sha256=PA8AFmEmyAsjw09_FnXMmncrtUczurlR1tWWfBXFl7Y,3545
+yuisub-1.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+yuisub-1.3.0.dist-info/METADATA,sha256=fuk1YkuByUUvfRsQlv5m_5AGfm1Aw_ZhV-a1Jyx6ipc,2878
+yuisub-1.3.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+yuisub-1.3.0.dist-info/entry_points.txt,sha256=tqFcAwxddOS_v6gTSv2LlhFOqBroW_bLBUuVxQBmpr0,47
+yuisub-1.3.0.dist-info/RECORD,,
