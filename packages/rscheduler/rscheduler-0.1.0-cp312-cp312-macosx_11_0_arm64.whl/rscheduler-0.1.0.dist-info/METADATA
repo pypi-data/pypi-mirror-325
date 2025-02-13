@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: rscheduler
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# rscheduler
+
+python scheduling library implemented in rust
+
+### Project setup
+
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install maturin
+maturin develop
+```
+
+### Run
+
+```
+maturin develop
+python3
+
+>> import rscheduler
+>> rscheduler.schedule()
+```
+
+### Test
+
+```
+cargo test
+```
+
