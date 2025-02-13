@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: datamule
+Version: 1.0.2
+Summary: Making it easier to use SEC filings.
+Home-page: https://github.com/john-friedman/datamule-python
+Author: John Friedman
+Requires-Dist: aiohttp
+Requires-Dist: aiolimiter
+Requires-Dist: tqdm
+Requires-Dist: requests
+Requires-Dist: nest-asyncio
+Requires-Dist: aiofiles
+Requires-Dist: polars
+Requires-Dist: setuptools
+Requires-Dist: selectolax
+Requires-Dist: pytz
+Requires-Dist: zstandard
+Requires-Dist: doc2dict
+Requires-Dist: secsgml
+Provides-Extra: all
+Requires-Dist: openai; extra == "all"
+Requires-Dist: flask; extra == "all"
+Provides-Extra: mulebot
+Requires-Dist: openai; extra == "mulebot"
+Provides-Extra: mulebot_server
+Requires-Dist: flask; extra == "mulebot-server"
+
