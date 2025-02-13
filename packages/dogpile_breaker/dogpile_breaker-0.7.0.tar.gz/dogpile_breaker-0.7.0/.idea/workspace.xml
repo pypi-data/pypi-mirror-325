@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="64f37091-9aaf-438f-b52f-83e1473c75d7" name="Changes" comment="Add source url for pypi">
+      <change afterPath="$PROJECT_DIR$/experim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experim_herd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experim_wit_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment_with_sentinel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/herd_one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_herd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="First tests" />
+        <option name="rewordedMessage" value="Added first tests" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="41fc4fb4eb7cfed152c7e67596120bec6eabb63e" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2qZUOTiWgaCp3XhN5X0rbhYPHyS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_api_i.test_cache_behavior.executor": "Run",
+    "Python tests.Python tests for test_api_i.test_calls_gen_func_if_no_data_in_cache.executor": "Run",
+    "Python tests.Python tests for test_api_i.test_configure_call_creates_backend_instance.executor": "Run",
+    "Python tests.Python tests for test_api_i.test_return_slightly_expired_data_while_data_is_updating_by_another_process.executor": "Run",
+    "Python tests.Python tests for test_api_i.test_should_save_cache_fn_called_with_parameters_if_no_data_in_cache.executor": "Run",
+    "Python tests.Python tests for test_api_i.test_update_cache_if_expired.executor": "Run",
+    "Python tests.Python tests for test_cache.test_calls_gen_func_if_no_data_in_cache.executor": "Run",
+    "Python tests.Python tests for test_cache.test_concurrent_requests_expired_data_in_cache_gen_func_called_once.executor": "Run",
+    "Python tests.Python tests for test_cache.test_concurrent_requests_no_data_in_cache.executor": "Run",
+    "Python tests.Python tests for test_cache.test_concurrent_requests_no_data_in_cache_gen_func_called_once.executor": "Run",
+    "Python tests.Python tests for test_cache.test_concurrent_requests_non_expired_data_in_cache.executor": "Run",
+    "Python tests.Python tests for test_cache.test_configure_call_creates_backend_instance.executor": "Run",
+    "Python tests.Python tests for test_cache.test_do_not_save_in_cache_if_should_cache_fn_returns_false.executor": "Run",
+    "Python tests.Python tests for test_cache.test_do_not_save_updated_value_in_cache_if_should_cache_fn_returns_false.executor": "Run",
+    "Python tests.Python tests for test_cache.test_return_slightly_expired_data_while_data_is_updating_by_another_process.executor": "Run",
+    "Python tests.Python tests for test_cache.test_returns_data_from_cache_in_not_expired.executor": "Run",
+    "Python tests.Python tests for test_cache.test_saves_data_in_cache.executor": "Run",
+    "Python tests.Python tests for test_cache.test_set_and_read.executor": "Run",
+    "Python tests.Python tests for test_cache.test_should_cache_func.executor": "Debug",
+    "Python tests.Python tests for test_cache.test_should_save_cache_fn_called_with_parameters_if_data_in_cache_updated.executor": "Run",
+    "Python tests.Python tests for test_cache.test_singleflight.executor": "Run",
+    "Python tests.Python tests for test_cache.test_update_cache_if_expired.executor": "Run",
+    "Python tests.Python tests for test_cache.test_wait_for_lock_timeout_if_cache_has_no_data.executor": "Run",
+    "Python tests.Python tests for test_cached_entry.test_deserialization_error_handling.executor": "Run",
+    "Python tests.Python tests for test_cached_entry.test_from_bytes.executor": "Debug",
+    "Python tests.Python tests for test_cached_entry.test_from_bytes_invalid_data.executor": "Run",
+    "Python tests.Python tests for test_cached_entry.test_from_bytes_invalid_meta_data.executor": "Debug",
+    "Python tests.Python tests for test_cached_entry.test_from_bytes_invalid_payload.executor": "Run",
+    "Python tests.Python tests for test_cached_entry.test_to_bytes.executor": "Run",
+    "Python tests.Python tests for test_cached_entry.test_to_bytes_empty_payload.executor": "Debug",
+    "Python tests.Python tests in test_api_i.py.executor": "Run",
+    "Python tests.Python tests in test_cache_api.py.executor": "Run",
+    "Python tests.pytest in /.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.bebebe.executor": "Run",
+    "Python.experim.executor": "Run",
+    "Python.experim_with_middleware.executor": "Run",
+    "Python.experiment_with_sentinel.executor": "Run",
+    "Python.herd_one.executor": "Run",
+    "Python.run_herd.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "start__adding__tests",
+    "last_opened_file_path": "/Users/warner/Developer/dogpile_breaker",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/dogpile_breaker/middlewares" />
+      <recent name="$PROJECT_DIR$/src/dogpile_breaker/backends" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in /">
+    <configuration name="Python tests for test_cached_entry.test_from_bytes_invalid_meta_data" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="dogpile_breaker" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cached_entry.test_from_bytes_invalid_meta_data&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_cached_entry.test_from_bytes_invalid_payload" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="dogpile_breaker" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cached_entry.test_from_bytes_invalid_payload&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_cache_api.test_return_slightly_expired_data_while_data_is_updating_by_another_process" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="dogpile_breaker" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_cache_api.test_return_slightly_expired_data_while_data_is_updating_by_another_process&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_cache_api.test_should_save_cache_fn_called_with_parameters_if_no_data_in_cache" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="dogpile_breaker" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_cache_api.test_should_save_cache_fn_called_with_parameters_if_no_data_in_cache&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_cache_api.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="dogpile_breaker" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_cache_api.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in /" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="dogpile_breaker" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.10 virtualenv at ~/Developer/dogpile_breaker/.venv" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest in /" />
+      <item itemvalue="Python tests.Python tests for test_cached_entry.test_from_bytes_invalid_meta_data" />
+      <item itemvalue="Python tests.Python tests for test_cached_entry.test_from_bytes_invalid_payload" />
+      <item itemvalue="Python tests.Python tests for tests.test_cache_api.test_return_slightly_expired_data_while_data_is_updating_by_another_process" />
+      <item itemvalue="Python tests.Python tests for tests.test_cache_api.test_should_save_cache_fn_called_with_parameters_if_no_data_in_cache" />
+      <item itemvalue="Python tests.Python tests in test_cache_api.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_cached_entry.test_from_bytes_invalid_payload" />
+        <item itemvalue="Python tests.Python tests for test_cached_entry.test_from_bytes_invalid_meta_data" />
+        <item itemvalue="Python tests.Python tests in test_cache_api.py" />
+        <item itemvalue="Python tests.Python tests for tests.test_cache_api.test_should_save_cache_fn_called_with_parameters_if_no_data_in_cache" />
+        <item itemvalue="Python tests.Python tests for tests.test_cache_api.test_return_slightly_expired_data_while_data_is_updating_by_another_process" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PY-243.23654.177" />
+        <option value="bundled-python-sdk-91d3a02ef49d-43b77aa2d136-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.23654.177" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64f37091-9aaf-438f-b52f-83e1473c75d7" name="Changes" comment="" />
+      <created>1734869559107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734869559107</updated>
+      <workItem from="1734869560167" duration="1359000" />
+      <workItem from="1735070748999" duration="630000" />
+      <workItem from="1735402463152" duration="427000" />
+      <workItem from="1735402901800" duration="1153000" />
+      <workItem from="1735460872730" duration="19825000" />
+      <workItem from="1735652853890" duration="113000" />
+      <workItem from="1736436560744" duration="27918000" />
+      <workItem from="1737189182325" duration="1855000" />
+      <workItem from="1737391377519" duration="2597000" />
+      <workItem from="1737653398984" duration="22563000" />
+      <workItem from="1737817212752" duration="18000" />
+      <workItem from="1737894741115" duration="331000" />
+      <workItem from="1737913509271" duration="10493000" />
+      <workItem from="1738071731825" duration="7802000" />
+      <workItem from="1738166600389" duration="6993000" />
+      <workItem from="1738178036329" duration="4175000" />
+      <workItem from="1738189221054" duration="1853000" />
+      <workItem from="1738274602521" duration="11904000" />
+      <workItem from="1738431461152" duration="10500000" />
+      <workItem from="1738863062347" duration="2197000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1734869686580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734869686580</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Improve typing for decorated function&#10;&#10;Now mypy will warn you in case you use .call_without_cache or .save_to_cache without needed parameters">
+      <option name="closed" value="true" />
+      <created>1735468812050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735468812050</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add middleware system&#10;&#10;Now it's much easier to add prometheus metrics or logging to cache">
+      <option name="closed" value="true" />
+      <created>1736443558804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736443558804</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix typo">
+      <option name="closed" value="true" />
+      <created>1736443656982</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736443656982</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update dev packages">
+      <option name="closed" value="true" />
+      <created>1736443665843</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736443665843</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Remove getattr for middleware">
+      <option name="closed" value="true" />
+      <created>1736444073006</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736444073006</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Better docs">
+      <option name="closed" value="true" />
+      <created>1736444204023</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736444204023</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Rewrite thundering herd protection">
+      <option name="closed" value="true" />
+      <created>1736791165243</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736791165243</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Reorganize redis parameters">
+      <option name="closed" value="true" />
+      <created>1737799308056</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737799308056</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add RedisSentinelBackend">
+      <option name="closed" value="true" />
+      <created>1737799359508</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737799359508</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update Readme and package version">
+      <option name="closed" value="true" />
+      <created>1737799378460</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737799378460</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Create custom exception and wrap all redis errors in it">
+      <option name="closed" value="true" />
+      <created>1737800917115</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737800917115</updated>
+    </task>
+    <task id="LOCAL-00013" summary="In case herd_leader has broken propagate its Exception to avoid other coroutines to wait indefinitely">
+      <option name="closed" value="true" />
+      <created>1738170414024</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738170414024</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add Prometheus middleware">
+      <option name="closed" value="true" />
+      <created>1738180341695</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1738180341695</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Bump version">
+      <option name="closed" value="true" />
+      <created>1738180374286</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738180374286</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Lint fixes">
+      <option name="closed" value="true" />
+      <created>1738442359697</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738442359697</updated>
+    </task>
+    <task id="LOCAL-00017" summary="First tests">
+      <option name="closed" value="true" />
+      <created>1738442382711</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738442382711</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Reraise exceptions during deserialization as CantDeserializeError">
+      <option name="closed" value="true" />
+      <created>1738863637424</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1738863637424</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Start adding tests">
+      <option name="closed" value="true" />
+      <created>1738864938926</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1738864938926</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Bump version">
+      <option name="closed" value="true" />
+      <created>1738865131426</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1738865131426</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Add source url for pypi">
+      <option name="closed" value="true" />
+      <created>1738865219042</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1738865219042</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="4b3afa71-76aa-4636-845a-63f4ff5c1088" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="add-proxy-class" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="4b3afa71-76aa-4636-845a-63f4ff5c1088">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Improve typing for decorated function&#10;&#10;Now mypy will warn you in case you use .call_without_cache or .save_to_cache without needed parameters" />
+    <MESSAGE value="Add middleware system&#10;&#10;Now it's much easier to add prometheus metrics or logging to cache" />
+    <MESSAGE value="Fix typo" />
+    <MESSAGE value="Update dev packages" />
+    <MESSAGE value="Remove getattr for middleware" />
+    <MESSAGE value="Better docs" />
+    <MESSAGE value="Add simple middleware system&#10;&#10;Now it's much easier to add prometheus metrics or logging to cache" />
+    <MESSAGE value="Rewrite thundering herd protection" />
+    <MESSAGE value="Reorganize redis parameters" />
+    <MESSAGE value="Add RedisSentinelBackend" />
+    <MESSAGE value="Update Readme and package version" />
+    <MESSAGE value="Create custom exception and wrap all redis errors in it" />
+    <MESSAGE value="In case herd_leader has broken propagate its Exception to avoid other coroutines to wait indefinitely" />
+    <MESSAGE value="Add Prometheus middleware" />
+    <MESSAGE value="Lint fixes" />
+    <MESSAGE value="First tests" />
+    <MESSAGE value="Reraise exceptions during deserialization as CantDeserializeError" />
+    <MESSAGE value="Start adding tests" />
+    <MESSAGE value="Added first tests" />
+    <MESSAGE value="Bump version" />
+    <MESSAGE value="Add source url for pypi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add source url for pypi" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.venv/lib/python3.10/site-packages/redis/asyncio/sentinel.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.local/share/uv/python/cpython-3.10.16-macos-aarch64-none/lib/python3.10/typing.py</url>
+          <line>2119</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dogpile_breaker$experim.coverage" NAME="experim Coverage Results" MODIFIED="1735555210361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dogpile_breaker$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1735468708947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/dogpile_breaker" />
+    <SUITE FILE_PATH="coverage/dogpile_breaker$run_herd.coverage" NAME="run_herd Coverage Results" MODIFIED="1738105259201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dogpile_breaker$experim_with_middleware.coverage" NAME="experim_with_middleware Coverage Results" MODIFIED="1738863493117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dogpile_breaker$.coverage" NAME=" Coverage Results" MODIFIED="1738864733895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/dogpile_breaker$pytest_in__.coverage" NAME="pytest in / Coverage Results" MODIFIED="1738864905754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/dogpile_breaker$experiment_with_sentinel.coverage" NAME="experiment_with_sentinel Coverage Results" MODIFIED="1737800854788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dogpile_breaker$herd_one.coverage" NAME="herd_one Coverage Results" MODIFIED="1735559124337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dogpile_breaker$bebebe.coverage" NAME="bebebe Coverage Results" MODIFIED="1737752391092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
