@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: nonebot-plugin-vividuscore
+Version: 0.0.1
+Summary: Vividus核心
+License: AGPL-3.0
+Author: hlfzsi
+Requires-Python: ^3.10
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: nonebot-plugin-acmd (>=0.0.5,<0.0.6)
+Requires-Dist: nonebot-plugin-localstore (>=0.7.3,<0.8.0)
+Description-Content-Type: text/markdown
+
+
