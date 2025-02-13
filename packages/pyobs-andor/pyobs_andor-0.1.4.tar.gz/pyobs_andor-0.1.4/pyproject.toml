@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pyobs-andor"
+version = "0.1.4"
+description = "pyobs module for Andor cameras"
+authors = ["Tim-Oliver Husser <thusser@uni-goettingen.de>", "Enzo Afonso <enzo.p.afonso@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ['py311']
