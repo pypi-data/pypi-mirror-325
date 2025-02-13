@@ -1,0 +1,14 @@
+qtheme/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qtheme/main.py,sha256=-MoE-_JEBoOEodJui3MwUbpgDqYPxsoxghQ6Ocg21Wg,1911
+qtheme/cli/__init__.py,sha256=Q-0xi7uaQ8OVQuqS_zBotDp93meRdC01eIuMstwK8jw,73
+qtheme/cli/kitty.py,sha256=5DM0e7x3KNmuMpOfz_asv14aMDHNuG2aTpesvrvVT4c,3914
+qtheme/cli/menu.py,sha256=29IScx4Y6irFvZ6rHNr3Je5I0wfLan6IH9vO6DApm1M,1830
+qtheme/cli/qtile.py,sha256=w3pZMKOpGZ5hSgJ5iPgAg_9ERRppx5tgb8S3QdgH2kw,2446
+qtheme/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qtheme/utils/colors.py,sha256=6Fcz1DT7JIMqLbkrrvry2KCniCjlIP2yIZIA06vIHkI,347
+qtheme-1.5.1.dist-info/LICENSE,sha256=TviHOqVyHBN4kNdD1tu0q17GkdMKQ1vMztPzY5EBFx8,1064
+qtheme-1.5.1.dist-info/METADATA,sha256=CQJq_KbEKoEwu71gooKaH8Kt9sIhJTcm6tkKzx-E-6Y,1900
+qtheme-1.5.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+qtheme-1.5.1.dist-info/entry_points.txt,sha256=xBBnt-hjjgabAQO0oUfyzNabNjxoj3boDlzS4OdvUAc,44
+qtheme-1.5.1.dist-info/top_level.txt,sha256=ZNga9ObY60lUHFRcUSTbegzCM3Chx5ymDHfEVmefYAc,7
+qtheme-1.5.1.dist-info/RECORD,,
