@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: textual-file-viewer
+Version: 0.4
+Dynamic: Description
+Dynamic: Description-Content-Type
+Summary: View the contents of several common file types
+Project-URL: Repository, https://gitlab.com/lkeb/textual-file-viewer
+Project-URL: Issues, https://gitlab.com/lkeb/textual-file-viewer/issues
+Author-email: Patrick de Koning <pjhdekoning@lumc.nl>
+Keywords: TUI
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: pandas>=2.0
+Requires-Dist: pillow
+Requires-Dist: pydicom
+Requires-Dist: rich-pixels>=3.0.1
+Requires-Dist: simpleitk>=2.4.1
+Requires-Dist: textual-slider>=0.2.0
+Requires-Dist: textual-sortable-datatable
+Requires-Dist: textual>=1.0
+Requires-Dist: typer

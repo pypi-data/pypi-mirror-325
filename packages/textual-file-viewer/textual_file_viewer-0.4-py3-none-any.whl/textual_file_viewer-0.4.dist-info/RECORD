@@ -1,0 +1,10 @@
+textual_file_viewer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textual_file_viewer/dicom_tree.py,sha256=sLYi2CivZUKpZ8kdYeMJT_hL2w1w8MpIJMUBnnoDczM,4275
+textual_file_viewer/dicom_viewer.py,sha256=n6K8QhO-9VDelOFJKyzsHw3bIW-1afuwOIUJjc-z3pc,5732
+textual_file_viewer/file_viewer.py,sha256=-9dEUxGzOD9jFEMo216XIDM3vU0VDOnioN_QmtxB5KU,3234
+textual_file_viewer/file_viewer.tcss,sha256=3R3M4fcs4AI-GFNt1hXmdJo4Evjg72hgt07NDPFwBH0,432
+textual_file_viewer/mhd_nifti_viewer.py,sha256=FYwWvatuyQIICULXbcjaEBUrVpOHO3R-SDHTgUym1zY,5529
+textual_file_viewer-0.4.dist-info/METADATA,sha256=I855mLckwI3D57DHCC_aAILGTcShDAxPSXUdnHJqgP8,1267
+textual_file_viewer-0.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+textual_file_viewer-0.4.dist-info/entry_points.txt,sha256=c6n2l-ds9yU4ZSEWARRF8a6SqdbOQ0I4Sv_P4kKGziI,68
+textual_file_viewer-0.4.dist-info/RECORD,,
