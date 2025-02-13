@@ -1,0 +1,51 @@
+Metadata-Version: 2.4
+Name: mavetools
+Version: 0.3.0
+Summary: Useful functions for manipulating Multiplex Assay of Variant Effect datasets.
+Project-URL: repository, https://github.com/VariantEffect/mavetools
+Project-URL: documentation, https://mavedb.org/docs/mavetools/
+Author-email: MaveDB Developers <alan.rubin@wehi.edu.au>
+License-Expression: BSD-3-Clause
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.8
+Requires-Dist: aiohttp
+Requires-Dist: attrs
+Requires-Dist: cdot
+Requires-Dist: certifi
+Requires-Dist: fqfa>=1.2.1
+Requires-Dist: hgvs
+Requires-Dist: idutils
+Requires-Dist: joblib
+Requires-Dist: mavedb>=2023.1
+Requires-Dist: mavehgvs
+Requires-Dist: more-itertools
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyhumps
+Requires-Dist: requests
+Requires-Dist: tables
+Requires-Dist: tqdm
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: coverage; extra == 'dev'
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: flake8-bugbear; extra == 'dev'
+Requires-Dist: flake8-pyproject; extra == 'dev'
+Requires-Dist: isort; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: sphinx; extra == 'dev'
+Description-Content-Type: text/markdown
+
+[![PyPI version](https://badge.fury.io/py/mavetools.svg)](https://badge.fury.io/py/mavetools)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+# mavetools
+Useful functions for manipulating Multiplex Assay of Variant Effect datasets.
