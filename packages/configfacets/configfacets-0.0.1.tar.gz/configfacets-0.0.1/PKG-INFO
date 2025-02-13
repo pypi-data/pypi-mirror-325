@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: configfacets
+Version: 0.0.1
+Summary: Package for generating application configuration
+Home-page: https://github.com/configfacets/python
+Author: Gokul Nathan
+Author-email: gokul@configfacets.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pyyaml
+
+# python
+
+Configfacets python client library
+
+## Usage
+
+```
+from configfacets.configuration import Configuration
+
+config = Configuration(
+    apiUrl="https://configfacets.com/apis/repos/configfacets/core-concepts/applications-0.0.1/resources/collections/api-configurations/exec?format=json",
+    apiKey="<your_api_key>",
+    postBody={"facets": ["env:nonprod", "cluster:internal"]},
+)
+config.fetch()
+resp = config.get_resp()
+
+rabbitMQHost = config.get_value("rabbitmq.host")
+rabbitMQPort = config.get_value("rabbitmq.port")
+
+print("RabbitMQ Host:{}, Port:{}".format(rabbitMQHost, rabbitMQPort))
+
+
+```
