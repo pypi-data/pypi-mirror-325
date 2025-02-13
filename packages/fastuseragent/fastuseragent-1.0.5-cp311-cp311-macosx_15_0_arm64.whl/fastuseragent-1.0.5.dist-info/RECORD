@@ -1,0 +1,9 @@
+fastuseragent-1.0.5.data/purelib/fastuseragent/__init__.py,sha256=yNxKqThSPVDrpfk7VwqGXDoiFB_6jY5e4lkcJCcNve0,46
+fastuseragent-1.0.5.data/purelib/fastuseragent/libuseragent.h,sha256=R4Z5k_x8DVs4wR-BaS6ODpvTizlDGgfmjA6HR-nKDe8,1797
+fastuseragent-1.0.5.data/purelib/fastuseragent/libuseragent.so,sha256=SHtHBaUbCWhq-PywQ8bRoXEYC2N3emTD-dP3tA0oKEE,2177330
+fastuseragent-1.0.5.data/purelib/fastuseragent/parse_user_agent.py,sha256=7sGehE4UKXsnYtKrui-Alicdv-4z7y7DhicKTXWYvcU,3197
+fastuseragent-1.0.5.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastuseragent-1.0.5.dist-info/METADATA,sha256=sX5GCnUWRkTalt7tbCiRqJqKabIf-6WqaoWJtpsMYeE,132
+fastuseragent-1.0.5.dist-info/WHEEL,sha256=_44e6X8hzA4PhIVbM6bc7stoNJPsbtjzql6k1ybCBbM,110
+fastuseragent-1.0.5.dist-info/top_level.txt,sha256=lfvUH4ym7Gh0hoSMp7PeQAj4vm8tgnk5z7HDvRl8Ymw,14
+fastuseragent-1.0.5.dist-info/RECORD,,
