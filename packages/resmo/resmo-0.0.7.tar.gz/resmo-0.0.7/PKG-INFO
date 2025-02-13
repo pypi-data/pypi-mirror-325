@@ -1,0 +1,24 @@
+Metadata-Version: 2.2
+Name: resmo
+Version: 0.0.7
+Summary: Residue modifications for protein structures.
+Author-email: Joschka Groß <jgross@cs.uni-saarland.de>
+Project-URL: Repository, https://github.com/volkamerlab/mare
+Keywords: python
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: <4.0,>=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: biopandas>=0.5.1
+Requires-Dist: pydantic>=2.10.5
+Requires-Dist: typer>=0.15.1
+
+# RESMO
+- **Github repository**: <https://github.com/volkamerlab/mare>
