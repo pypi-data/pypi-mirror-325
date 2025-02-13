@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: python_actr
+Version: 1.9.4.dev0
+Summary: Python implementation of the ACT-R cognitive architecture
+Home-page: https://github.com/CarletonCognitiveModelingLab/python_actr
+Author: Carleton Cognitive Modelling Lab
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE
+Dynamic: author
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary
