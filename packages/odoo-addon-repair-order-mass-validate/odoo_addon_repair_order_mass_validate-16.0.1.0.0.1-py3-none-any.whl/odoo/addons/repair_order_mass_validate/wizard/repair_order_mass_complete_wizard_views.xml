@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="repair_order_mass_complete_wizard_form_view" model="ir.ui.view">
+        <field name="name">repair.order.mass.complete.wizard.form.view</field>
+        <field name="model">repair.order.mass.complete.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Invoice Sales Order">
+                <group>
+                    <field name="create_invoice" />
+                    <field
+                        name="group_invoice"
+                        attrs="{'invisible': [('create_invoice', '=', False)]}"
+                    />
+                </group>
+                <group>
+                    <field name="repair_order_ids" />
+                </group>
+                <footer>
+                    <button
+                        name="complete_repair_orders"
+                        type="object"
+                        string="Complete Repair Orders"
+                        class="btn-primary"
+                        data-hotkey="q"
+                    />
+                    <button
+                        tring="Cancel"
+                        class="btn-secondary"
+                        special="cancel"
+                        data-hotkey="z"
+                    />
+                </footer>
+            </form>
+        </field>
+    </record>
+    <record id="action_repair_order_mass_complete_wizard" model="ir.actions.act_window">
+        <field name="name">Complete repair orders</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">repair.order.mass.complete.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="binding_model_id" ref="repair.model_repair_order" />
+        <field name="binding_view_types">list</field>
+    </record>
+</odoo>
