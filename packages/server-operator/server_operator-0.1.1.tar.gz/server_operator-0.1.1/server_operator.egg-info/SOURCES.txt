@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+operator_server/__init__.py
+operator_server/_server.py
+operator_server/setup.py
+server_operator.egg-info/PKG-INFO
+server_operator.egg-info/SOURCES.txt
+server_operator.egg-info/dependency_links.txt
+server_operator.egg-info/top_level.txt
