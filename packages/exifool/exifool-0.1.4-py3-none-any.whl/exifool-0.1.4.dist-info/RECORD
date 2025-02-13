@@ -1,0 +1,10 @@
+exifool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+exifool/cli.py,sha256=jkRMK17oNgNy21tMfsTWHpZl-rI91QyH-ESye1ctMiU,670
+exifool/errors.py,sha256=OqdBhVtmeza5WPlB81nJClet0_WZQBdJJYpVouQxO9E,418
+exifool/extractor.py,sha256=Jflho2kZNH_VOEhUAmO_zjtuyWaPfbTfFJGN68MKJv0,628
+exifool/pdf.py,sha256=O6FamhV_l50BNetfv6CL8f6hj-XNVvugdITmZyZJUyc,301
+exifool/utility.py,sha256=8C3HeyriSsKh2yqxoGHrKe6Wj-dE5yGG8qol5MW6VA4,524
+exifool-0.1.4.dist-info/METADATA,sha256=w-rcg2L50bSA6TM317T8NyUpfpWlSfWA1rDJjOzHg3c,2105
+exifool-0.1.4.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+exifool-0.1.4.dist-info/entry_points.txt,sha256=EeAyOqWFkwgouWKRyw8fE5TNQCjIuTPVPWTB8JSGqP4,43
+exifool-0.1.4.dist-info/RECORD,,
