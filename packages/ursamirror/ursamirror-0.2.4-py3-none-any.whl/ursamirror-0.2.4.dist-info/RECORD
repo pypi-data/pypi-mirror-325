@@ -1,0 +1,14 @@
+ursamirror/__about__.py,sha256=VpsvxHOm8MeNt44LrrqvG7WszkfwkZKhEJZkA83BNHs,139
+ursamirror/__init__.py,sha256=3y6bJmStR--znxTPhE1gx32NtFh9mzA_5f1_8mdjulE,264
+ursamirror/online2std.py,sha256=5qx7KOAAboze7bMlz-yWMITTksBrh0RD7uPXVquAJAg,2509
+ursamirror/paper2std.py,sha256=CM7ohlLIMEyqf9pL92E5EltPkbuWVPAwANq6gY-szRU,3699
+ursamirror/star_process.py,sha256=NgAujMhff3odPo1gb_pX1Y2n-IMPC2PmeW1TgRsPJLk,15638
+ursamirror/utils/__init__.py,sha256=FEFIYzNaojYayROw26-1TbJX7wrfaL7GucrfpABgiTQ,817
+ursamirror/utils/complete_border.py,sha256=NLcIMvXJ4SYr969cPd83w19t3_Gu2gg8Ujeeu5-yCXk,5313
+ursamirror/utils/star_equations.py,sha256=wPlvsLIRlebERjxP9YXQJKHPaD7tbbAG5y8Qi50DR-g,8349
+ursamirror/utils/transformations.py,sha256=MpOAfl2dDULtzKFIPgODDIrBmwhAPnEAhnXMNwXx2PU,2177
+ursamirror/utils/utils.py,sha256=S-GIHjtsdHhMaQ9eq-OykrDCb_XK2uo3-i2i2zqq7b0,12413
+ursamirror-0.2.4.dist-info/METADATA,sha256=t2EMNpbFL8zQTmIfrdmMV1S5QUYBEC-xXa59aFbil40,7487
+ursamirror-0.2.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+ursamirror-0.2.4.dist-info/licenses/LICENSE.txt,sha256=MahoyweMoqjjNrJYaqDo9XwHoKOV_ucnkEHKUHAk87w,1109
+ursamirror-0.2.4.dist-info/RECORD,,
