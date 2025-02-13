@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: albe
+Version: 0.0.2
+Summary: Albe's helpers
+Home-page: https://github.com/alberto-rota/albe
+Author: Alberto Rota
+Author-email: alberto1.rota@polimi.it
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy==2.2.2
+Requires-Dist: nvidia_ml_py==12.570.86
+Requires-Dist: nvitop==1.4.2
+Requires-Dist: platformdirs==4.3.6
+Requires-Dist: plotext==5.3.2
+Requires-Dist: psutil==6.1.1
+Requires-Dist: pynvml==11.5.3
+Requires-Dist: setuptools==75.1.0
+Requires-Dist: textual==1.0.0
+
+# albe
+pip install albe
