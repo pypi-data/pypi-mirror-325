@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/pretty_plotly/__init__.py
+src/pretty_plotly/plot.py
+src/pretty_plotly.egg-info/PKG-INFO
+src/pretty_plotly.egg-info/SOURCES.txt
+src/pretty_plotly.egg-info/dependency_links.txt
+src/pretty_plotly.egg-info/top_level.txt
