@@ -1,0 +1,9 @@
+mlserver_mlflow/__init__.py,sha256=fa11yvfGk6nDhwV6HHSLrqGz2brT0k9BTIX8STni2C4,119
+mlserver_mlflow/codecs.py,sha256=BPk6Km6gpIZqEdKsVsN_-zmBakAi7eKGvrG5_7kTOF8,2115
+mlserver_mlflow/metadata.py,sha256=PCDIdMgU3nuhRvse9-T6dKAaRqvGEymNGpN9aMcuYuk,2648
+mlserver_mlflow/runtime.py,sha256=c97x9XyfLPj8-aLXoi66TIVOJl_lneIGLffDf9TwuWs,7523
+mlserver_mlflow/version.py,sha256=7QbuukJt6Nv_EfNajuLLacCFHAHnjcy5jlj3l2twvHw,26
+mlserver_mlflow-1.7.0rc1.dist-info/LICENSE,sha256=oFTxI2WrIw40oH8llz-MxofuGjTBZzOMhvmE7gGWhQg,11354
+mlserver_mlflow-1.7.0rc1.dist-info/METADATA,sha256=WkDz-1XOKPse1BxRhCbzdxSqskMpT7O5y2V7PVILNaU,1456
+mlserver_mlflow-1.7.0rc1.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+mlserver_mlflow-1.7.0rc1.dist-info/RECORD,,
