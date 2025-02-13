@@ -1,0 +1,12 @@
+openvino_genai/__init__.py,sha256=gFXgZxDbbs33YtZyQaCRpbiLn6TuEDyLqr-3RbNmR9w,1661
+openvino_genai/__init__.pyi,sha256=wYxv_B87muLR_mEpUwbKAsDUyGhkltAdalgwuVlf_B8,3515
+openvino_genai/openvino_genai.dll,sha256=kRm6ePiwOBAvQ2KBDB5fSEtIgmqMEkbB-MRvT0ZZ1NU,3363168
+openvino_genai/py_openvino_genai.cp313-win_amd64.pyd,sha256=2hXR4GMafdNMH1h12XymE0KF3EitMWWC1LbGc4qfG6U,1176416
+openvino_genai/py_openvino_genai.pyi,sha256=CikxnG_egFXiU5jUocKl9L3DCG4iDIeobdr8py1_bKQ,99126
+openvino_genai-2025.0.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+openvino_genai-2025.0.0.0.dist-info/METADATA,sha256=sPFmll8qBzAI57nlNRqxd4DVtXxFWbKQQTt2-Ua1Yto,31666
+openvino_genai-2025.0.0.0.dist-info/SECURITY.md,sha256=bJ866yZRIP4attnH4zFlzam_hdg8UUQgYHJKgD9TuJg,431
+openvino_genai-2025.0.0.0.dist-info/WHEEL,sha256=KlBJRcPJac8P9p9xrLi_y_iZka2eAJOIm9ccp_YnAyM,96
+openvino_genai-2025.0.0.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openvino_genai-2025.0.0.0.dist-info/third-party-programs.txt,sha256=YxjSsl3h71g9gJUlIBkHgkPRz5vZpzsZxngMtGn7Uas,18718
+openvino_genai-2025.0.0.0.dist-info/RECORD,,
