@@ -1,0 +1,24 @@
+Metadata-Version: 2.2
+Name: cp-mgmt-api-sdk
+Version: 1.9.0
+Summary: Check Point Management API SDK
+Home-page: https://github.com/CheckPointSW/cp_mgmt_api_python_sdk.git
+Author: API team
+Author-email: api_team@checkpoint.com
+License: Apache 2.0
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/plain
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary
+
+Check Point API Python Development Kit simplifies the usage of the Check Point Management APIs. The kit contains the API library project, and sample projects demonstrating the capabilities of the library. The kit is python 2 and 3 compatible code.
