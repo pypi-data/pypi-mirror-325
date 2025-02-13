@@ -1,0 +1,2 @@
+[console_scripts]
+cr-review = cr.cli:review_pr

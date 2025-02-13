@@ -1,0 +1,11 @@
+setup.py
+src/cr/__init__.py
+src/cr/ai_layer.py
+src/cr/bitbucket.py
+src/cr/cli.py
+src/your_code_reviewer.egg-info/PKG-INFO
+src/your_code_reviewer.egg-info/SOURCES.txt
+src/your_code_reviewer.egg-info/dependency_links.txt
+src/your_code_reviewer.egg-info/entry_points.txt
+src/your_code_reviewer.egg-info/requires.txt
+src/your_code_reviewer.egg-info/top_level.txt
