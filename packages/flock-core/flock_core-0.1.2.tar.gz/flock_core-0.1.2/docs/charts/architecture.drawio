@@ -1,0 +1,13 @@
+<mxfile host="65bd71144e">
+    <diagram id="WRU4dym2VnJ70vYpSaFd" name="Page-1">
+        <mxGraphModel dx="1209" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="pie title What Voldemort doesn&#39;t have?&#xa;         &quot;FRIENDS&quot; : 2&#xa;         &quot;FAMILY&quot; : 3&#xa;         &quot;NOSE&quot; : 45" style="shadow=0;dashed=0;align=left;strokeWidth=1;shape=mxgraph.mermaid.abstract.mermaid;labelBackgroundColor=#ffffff;noLabel=1;theme=default;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="210" width="300" height="300" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

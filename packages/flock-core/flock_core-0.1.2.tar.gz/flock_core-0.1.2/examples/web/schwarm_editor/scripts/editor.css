@@ -1,0 +1,34 @@
+.editor-container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.controls {
+    margin-bottom: 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.controls select {
+    width: auto;
+    margin: 0;
+}
+
+.controls button {
+    margin: 0;
+}
+
+.CodeMirror {
+    height: 600px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace;
+}
+
+/* Adjust theme colors based on PicoCSS theme */
+[data-theme="light"] .CodeMirror {
+    border: 1px solid var(--form-element-border-color);
+}

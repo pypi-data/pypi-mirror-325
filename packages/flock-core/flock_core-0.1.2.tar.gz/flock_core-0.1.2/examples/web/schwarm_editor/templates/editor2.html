@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/picocss/1.5.10/pico.min.css">
+    <!-- CodeMirror Core -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/theme/monokai.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.js"></script>
+
+    <!-- Language Modes -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/javascript/javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/xml/xml.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/css/css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/python/python.min.js"></script>
+
+    <!-- Addons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/edit/matchbrackets.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/edit/closebrackets.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/comment/comment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/selection/active-line.min.js"></script>
+    <style>
+        .editor-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .controls {
+            margin-bottom: 16px;
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .controls select {
+            width: auto;
+            margin: 0;
+        }
+
+        .controls button {
+            margin: 0;
+        }
+
+        .CodeMirror {
+            height: 600px;
+            border-radius: 8px;
+            font-size: 15px;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace;
+        }
+
+        /* Adjust theme colors based on PicoCSS theme */
+        [data-theme="light"] .CodeMirror {
+            border: 1px solid var(--form-element-border-color);
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <div class="editor-container">
+            <h2>Code Editor</h2>
+
+            <div class="controls">
+                <select id="language" onchange="changeLanguage()">
+                    <option value="javascript">JavaScript</option>
+                    <option value="xml">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="python">Python</option>
+                </select>
+
+                <button onclick="toggleComment()">Toggle Comment</button>
+                <button onclick="formatCode()">Format Code</button>
+            </div>
+
+            <textarea id="editor"></textarea>
+        </div>
+    </main>
+
+    <script>
+        // Initialize CodeMirror
+        let editor = CodeMirror.fromTextArea(document.getElementById("editor"), {
+            mode: "javascript",
+            theme: "monokai",
+            lineNumbers: true,
+            autoCloseBrackets: true,
+            matchBrackets: true,
+            styleActiveLine: true,
+            indentUnit: 4,
+            tabSize: 4,
+            indentWithTabs: false,
+            lineWrapping: true,
+            extraKeys: {
+                "Ctrl-/": "toggleComment",
+                "Cmd-/": "toggleComment",
+                "Tab": function (cm) {
+                    if (cm.somethingSelected()) {
+                        cm.indentSelection("add");
+                    } else {
+                        cm.replaceSelection("    ", "end");
+                    }
+                }
+            }
+        });
+
+        // Set initial content
+        editor.setValue(`// Welcome to the code editor!
+// Select a language from the dropdown above
+// Try using Ctrl+/ or Cmd+/ to toggle comments
+
+function example() {
+    console.log("Hello, World!");
+    return true;
+}`);
+
+        // Change language mode
+        function changeLanguage() {
+            const language = document.getElementById("language").value;
+            editor.setOption("mode", language);
+        }
+
+        // Toggle comment
+        function toggleComment() {
+            editor.toggleComment();
+        }
+
+        // Basic code formatting
+        function formatCode() {
+            const totalLines = editor.lineCount();
+            editor.autoFormatRange(
+                { line: 0, ch: 0 },
+                { line: totalLines }
+            );
+        }
+
+        // Auto-resize on window change
+        window.addEventListener('resize', () => {
+            editor.refresh();
+        });
+    </script>
+</body>
+
+</html>

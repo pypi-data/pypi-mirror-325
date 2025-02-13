@@ -1,0 +1,182 @@
+[
+  {
+    "id": "7a95fb91-13d4-22f2-941e-8c36d6ffaa1b",
+    "name": "weather_forecaster",
+    "title": "Meteorological Prediction Engine",
+    "description": "Generates localized weather forecasts using real-time sensor data and historical patterns. Optimized for agricultural and urban planning use cases.",
+    "input": "current_weather_data: dict[str, float], historical_weather_data: list[dict], location: str",
+    "output": "forecast_period: str, temperature_range: dict[str, float], weather_conditions: list[str], confidence_score: float",
+    "created_at": "2023-10-23T08:00:00",
+    "last_updated": "2023-10-23T08:00:00",
+    "deleted": false,
+    "production_ready": true,
+    "icon": "cloud-rain-wind",
+    "labels": [
+      "meteorology",
+      "prediction",
+      "environment"
+    ]
+  },
+  {
+    "id": "8b23fc82-14e5-33g3-852f-9d47h7ee886c",
+    "name": "stock_analyst",
+    "title": "Financial Market Prediction System",
+    "description": "Analyzes equity patterns and market indicators to predict short-term stock movements. Supports portfolio optimization strategies.",
+    "input": "stock_symbols: list[str], historical_prices: dict[str, list[float]], market_indicators: dict[str, float]",
+    "output": "predicted_trends: dict[str, str], risk_level: Literal['low', 'medium', 'high'], price_targets: dict[str, float]",
+    "created_at": "2023-10-23T09:15:00",
+    "last_updated": "2023-10-23T09:15:00",
+    "deleted": false,
+    "production_ready": true,
+    "icon": null,
+    "labels": [
+      "finance",
+      "trading",
+      "analysis"
+    ]
+  },
+  {
+    "id": "9c34gd93-15f6-44h4-963g-ae58i8ff997d",
+    "name": "social_media_monitor",
+    "title": "Social Listening Analyzer",
+    "description": "Tracks brand sentiment and emerging trends across major platforms using NLP and network analysis techniques.",
+    "input": "raw_posts: list[str], platform: Literal['twitter', 'facebook', 'instagram'], time_window: str",
+    "output": "sentiment_distribution: dict[str, float], trending_topics: list[str], influencer_mentions: list[str]",
+    "created_at": "2023-10-23T10:30:00",
+    "last_updated": "2023-10-23T10:30:00",
+    "deleted": false,
+    "production_ready": true,
+    "icon": "message-circle-heart",
+    "labels": [
+      "social",
+      "monitoring",
+      "sentiment"
+    ]
+  },
+  {
+    "id": "0d45he04-16g7-55i5-074h-bf69j9gg088e",
+    "name": "ecommerce_recommender",
+    "title": "Personalized Shopping Assistant",
+    "description": "Generates hyper-personalized product suggestions using collaborative filtering and basket analysis algorithms.",
+    "input": "user_purchase_history: list[dict], product_catalog: list[dict], browsing_behavior: dict[str, list]",
+    "output": "personalized_recommendations: list[str], cross_sell_opportunities: list[str], discount_suggestions: list[str]",
+    "created_at": "2023-10-23T11:45:00",
+    "last_updated": "2023-10-23T11:45:00",
+    "deleted": false,
+    "production_ready": false,
+    "icon": "shopping-bag",
+    "labels": [
+      "retail",
+      "machine_learning",
+      "personalization"
+    ]
+  },
+  {
+    "id": "1e56if15-17h8-66j6-185i-cg70k0hh199f",
+    "name": "medical_triage",
+    "title": "Clinical Symptom Evaluator",
+    "description": "Prioritizes patient care using vital sign analysis and symptom pattern recognition. Complies with ER triage protocols.",
+    "input": "patient_vitals: dict[str, float], reported_symptoms: list[str], medical_history: dict",
+    "output": "urgency_level: Literal['emergency', 'urgent', 'non-urgent'], probable_diagnoses: list[str], next_steps: list[str]",
+    "created_at": "2023-10-23T12:00:00",
+    "last_updated": "2023-10-23T12:00:00",
+    "deleted": false,
+    "production_ready": false,
+    "icon": "heart-pulse",
+    "labels": [
+      "healthcare",
+      "diagnosis",
+      "triage"
+    ]
+  },
+  {
+    "id": "2f67jg26-18i9-77k7-296j-dh81l1ii200g",
+    "name": "legal_document_parser",
+    "title": "Contractual Clause Identifier",
+    "description": "Extracts critical legal obligations and risks from complex agreements using legal NLP frameworks.",
+    "input": "legal_text: str, jurisdiction: str, document_type: Literal['contract', 'nda', 'patent']",
+    "output": "key_clauses: list[str], obligations: list[str], expiration_dates: list[str], risks: list[str]",
+    "created_at": "2023-10-23T13:15:00",
+    "last_updated": "2023-10-23T13:15:00",
+    "deleted": false,
+    "production_ready": true,
+    "icon": "file-text",
+    "labels": [
+      "legal",
+      "parsing",
+      "analysis"
+    ]
+  },
+  {
+    "id": "3g78kh37-19j0-88l8-307k-ei92m2jj311h",
+    "name": "supply_chain_optimizer",
+    "title": "Inventory Optimization Engine",
+    "description": "Balances stock levels and logistics routes using constraint programming and demand forecasting models.",
+    "input": "inventory_levels: dict[str, float], demand_forecast: dict[str, float], supplier_lead_times: dict[str, int]",
+    "output": "reorder_points: dict[str, int], optimal_routes: dict[str, list], cost_reduction_areas: list[str]",
+    "created_at": "2023-10-23T14:30:00",
+    "last_updated": "2023-10-23T14:30:00",
+    "deleted": false,
+    "production_ready": true,
+    "icon": "package",
+    "labels": [
+      "logistics",
+      "optimization",
+      "operations"
+    ]
+  },
+  {
+    "id": "4h89li48-20k1-99m9-418l-fj03n3kk422i",
+    "name": "content_moderator",
+    "title": "Community Safety Filter",
+    "description": "Automates content policy enforcement using multi-modal analysis and reputation-based scoring systems.",
+    "input": "user_content: str, community_guidelines: dict[str, list], user_reputation_score: float",
+    "output": "violation_types: list[str], moderation_action: Literal['approve', 'flag', 'remove'], confidence_level: float",
+    "created_at": "2023-10-23T15:45:00",
+    "last_updated": "2023-10-23T15:45:00",
+    "deleted": false,
+    "production_ready": true,
+    "icon": "shield-check",
+    "labels": [
+      "moderation",
+      "safety",
+      "community"
+    ]
+  },
+  {
+    "id": "5i90mj59-21l2-00n0-529m-gk14o4ll533j",
+    "name": "energy_consumption_analyst",
+    "title": "Power Usage Optimizer",
+    "description": "Identifies energy waste patterns and suggests efficiency improvements using IoT sensor analytics.",
+    "input": "smart_meter_data: list[float], appliance_list: list[str], time_frame: str",
+    "output": "peak_usage_times: list[str], inefficient_devices: list[str], cost_saving_tips: list[str]",
+    "created_at": "2023-10-23T16:00:00",
+    "last_updated": "2023-10-23T16:00:00",
+    "deleted": false,
+    "production_ready": true,
+    "icon": "zap",
+    "labels": [
+      "energy",
+      "sustainability",
+      "analytics"
+    ]
+  },
+  {
+    "id": "6j01nk60-22m3-11o1-630n-hl25p5mm644k",
+    "name": "crypto_market_analyzer",
+    "title": "Blockchain Trend Detector",
+    "description": "Monitors cryptocurrency markets for emerging opportunities and security risks using on-chain analytics.",
+    "input": "blockchain_data: list[dict], exchange_volumes: dict[str, float], market_sentiment: dict",
+    "output": "trending_coins: list[str], volatility_analysis: dict[str, float], security_alerts: list[str]",
+    "created_at": "2023-10-23T17:15:00",
+    "last_updated": "2023-10-23T17:15:00",
+    "deleted": false,
+    "production_ready": true,
+    "icon": "trending-up",
+    "labels": [
+      "crypto",
+      "blockchain",
+      "trading"
+    ]
+  }
+]

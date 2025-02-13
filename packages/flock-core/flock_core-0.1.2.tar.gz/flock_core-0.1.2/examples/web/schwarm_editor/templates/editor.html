@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced WYSIWYG Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/picocss/1.5.10/pico.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.8.2/tinymce.min.js"></script>
+    <style>
+        .editor-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Custom styling for TinyMCE */
+        .tox-tinymce {
+            border-radius: 8px !important;
+            border: 1px solid var(--form-element-border-color) !important;
+        }
+        
+        .tox .tox-toolbar__group {
+            padding: 0 8px !important;
+        }
+        
+        .tox .tox-toolbar__primary {
+            background: var(--card-background-color) !important;
+        }
+        
+        [data-theme="light"] .tox .tox-edit-area__iframe {
+            background: white !important;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="editor-container">
+            <h2>Enhanced WYSIWYG Editor</h2>
+            <textarea id="editor">Start typing here...</textarea>
+        </div>
+    </main>
+
+    <script>
+        tinymce.init({
+            selector: '#editor',
+            height: 500,
+            plugins: [
+                'advlist', 'autolink', 'lists', 'link', 'image', 'charmap', 'preview',
+                'searchreplace', 'visualblocks', 'code', 'fullscreen',
+                'insertdatetime', 'media', 'table', 'help', 'wordcount'
+            ],
+            toolbar: 'undo redo | formatselect | ' +
+                'bold italic backcolor | alignleft aligncenter ' +
+                'alignright alignjustify | bullist numlist outdent indent | ' +
+                'removeformat | table link image | help',
+            content_style: 'body { font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif; font-size: 16px; line-height: 1.6; }',
+            menubar: true,
+            branding: false,
+            promotion: false,
+            resize: true,
+            paste_data_images: true,
+            automatic_uploads: true,
+            images_upload_handler: function (blobInfo, success, failure) {
+                // This is a mock upload - in a real application, you'd upload to your server
+                setTimeout(function () {
+                    const imageUrl = URL.createObjectURL(blobInfo.blob());
+                    success(imageUrl);
+                }, 100);
+            }
+        });
+    </script>
+</body>
+</html>
