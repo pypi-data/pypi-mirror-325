@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+uservo_py_sdk_test/__init__.py
+uservo_py_sdk_test/uservo.py
+uservo_py_sdk_test/uservo_ex.py
+uservo_py_sdk_test.egg-info/PKG-INFO
+uservo_py_sdk_test.egg-info/SOURCES.txt
+uservo_py_sdk_test.egg-info/dependency_links.txt
+uservo_py_sdk_test.egg-info/top_level.txt
