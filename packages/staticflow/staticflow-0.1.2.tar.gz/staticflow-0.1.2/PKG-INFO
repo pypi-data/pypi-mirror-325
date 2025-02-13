@@ -1,0 +1,90 @@
+Metadata-Version: 2.3
+Name: staticflow
+Version: 0.1.2
+Summary: Modern static site generator framework
+Author: nestessia
+Author-email: nestessia@mail.ru
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aiofiles (>=23.2.1,<24.0.0)
+Requires-Dist: aiohttp (>=3.9.3,<4.0.0)
+Requires-Dist: aiohttp-jinja2 (>=1.5.1,<2.0.0)
+Requires-Dist: click (>=8.1.8,<9.0.0)
+Requires-Dist: jinja2 (>=3.1.5,<4.0.0)
+Requires-Dist: markdown (>=3.5.2,<4.0.0)
+Requires-Dist: pillow (>=10.2.0,<11.0.0)
+Requires-Dist: python-frontmatter (>=1.1.0,<2.0.0)
+Requires-Dist: python-slugify (>=8.0.4,<9.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: rich (>=13.9.0,<14.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: watchdog (>=3.0.0,<4.0.0)
+Description-Content-Type: text/markdown
+
+# StaticFlow
+
+A modern static site generator framework built with Python.
+
+## Features
+
+- Asynchronous content processing
+- Incremental builds
+- Smart caching
+- Multiple template engine support
+- Advanced metadata system
+- Plugin architecture
+- SEO optimization
+- Multi-language support
+
+## Installation
+
+```bash
+pip install staticflow
+```
+
+## Quick Start
+
+```python
+from staticflow import Engine
+from pathlib import Path
+
+# Initialize the engine
+engine = Engine()
+
+# Set up directories
+engine.initialize(
+    source_dir=Path("content"),
+    output_dir=Path("public"),
+    templates_dir=Path("templates")
+)
+
+# Build the site
+engine.build()
+```
+
+## Development
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/staticflow.git
+cd staticflow
+```
+
+2. Install dependencies:
+```bash
+poetry install
+```
+
+3. Run tests:
+```bash
+poetry run pytest
+```
+
+## License
+
+MIT License 
