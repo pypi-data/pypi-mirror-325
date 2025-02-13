@@ -1,0 +1,2 @@
+All mosaiced datasets will always have MAXIS = 2 in L1 headers, even if the mosaic only has one dimension.
+MAXIS[12] = 1 will be used to represent static axes.

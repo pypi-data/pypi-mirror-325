@@ -1,0 +1,8 @@
+L1 mosaic index header keys are now correctly populated based on an absolute orientation determined from the CRPIX[12] WCS values.
+In the past these header keys were straight copies of the DLNIRSP spatial step X/Y header keys, but this is wrong for a few reasons.
+First, the spatial step keys describe *relative* mosaic positions that need knowledge of the spatial step pattern to convert to an absolute orientation.
+The spatial step pattern is not encoded into L0 headers and would thus require out-of-channel communications to convert to an absolute orientation (bad).
+Second, in some cases the CRPIX values are swapped (see `#54 <https://bitbucket.org/dkistdc/dkist-processing-dlnirsp/pull-requests/54>`__) and
+in these cases the "spatial X" direction will not be not be aligned with a consistent "X" direction as defined in the WCS (i.e., CRPIX1).
+This update sidesteps both issues by ignoring the spatial step X/Y keys and computing an absolute mosaic orientation based on the (potentially corrected)
+CRPIX[12] values.

@@ -1,0 +1,1 @@
+Bump some minimum dependencies for compatibility with new versions of `dkist-inventory` and `dkist-processing-common`.
