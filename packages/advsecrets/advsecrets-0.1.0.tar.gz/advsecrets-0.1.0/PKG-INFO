@@ -1,0 +1,45 @@
+Metadata-Version: 2.2
+Name: advsecrets
+Version: 0.1.0
+Summary: Advanced secure token and key generation library with enhanced cryptographic security.
+Home-page: https://github.com/Sumedh1599/advsecrets
+Author: Sumedh Patil
+Author-email: admin@aipresso.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# advsecrets
+
+`advsecrets` is an advanced cryptographic security library for secure token and key generation.
+
+## Features
+
+- **High-entropy secure tokens**
+- **Secure UUID generation**
+- **Multi-threaded token generation**
+- **Strong password generator**
+
+## Installation
+
+```bash
+pip install advsecrets
+```
+
+from advsecrets import advsecrets
+
+print(advsecrets.secure_token()) # Secure 32-byte token
+print(advsecrets.secure_uuid()) # Secure UUID
+print(advsecrets.multi_threaded_tokens(5)) # Generate 5 tokens in parallel
+print(advsecrets.secure_password(16)) # Generate a secure password

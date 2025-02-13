@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+advsecrets.egg-info/PKG-INFO
+advsecrets.egg-info/SOURCES.txt
+advsecrets.egg-info/dependency_links.txt
+advsecrets.egg-info/top_level.txt
+tests/test_advsecrets.py
