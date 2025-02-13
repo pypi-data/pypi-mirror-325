@@ -1,0 +1,55 @@
+Metadata-Version: 2.2
+Name: advxml
+Version: 0.1.0
+Summary: Advanced XML handling with encryption, compression, and validation.
+Home-page: https://github.com/Sumedh1599/advxml
+Author: Sumedh Patil
+Author-email: admin@aipresso.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+Requires-Dist: lxml
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# advxml
+
+`advxml` is an advanced XML processing library that enhances traditional XML handling with **AES encryption, Gzip compression, and schema validation**.
+
+## Features
+
+- **Gzip compression for efficient XML storage**
+- **AES encryption for secure XML storage**
+- **XML Schema (XSD) validation**
+- **Multi-threaded XML compression**
+- **Automatic key generation**
+
+## Installation
+
+```bash
+pip install advxml
+
+USAGE:
+from advxml import advxml
+
+data = {"username": "Brewlock", "role": "admin"}
+xml_str = advxml.to_xml(data)
+
+compressed = advxml.compress_xml(xml_str)
+decompressed = advxml.decompress_xml(compressed)
+
+key = advxml.generate_key()
+encrypted = advxml.encrypt_xml(xml_str, key)
+decrypted = advxml.decrypt_xml(encrypted, key)
+```
