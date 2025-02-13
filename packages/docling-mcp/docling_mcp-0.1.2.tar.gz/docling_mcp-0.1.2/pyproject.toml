@@ -1,0 +1,20 @@
+[project]
+name = "docling-mcp"
+version = "0.1.2"
+description = "A MCP server that uses Docling by IBM to parse documents."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.2.0",
+    "docling>=2.17.0",
+]
+[[project-authors]]
+name = "Deep Shah"
+email = "deshah979@gmail.com"
+
+[build-system]
+requires = ["hatchling",]
+build-backend = "hatchling.build" 
+
+[project.scripts]
+docling-mcp = "docling_mcp:main"
