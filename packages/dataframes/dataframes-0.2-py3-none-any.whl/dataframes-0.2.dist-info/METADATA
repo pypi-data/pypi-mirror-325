@@ -1,0 +1,40 @@
+Metadata-Version: 2.2
+Name: dataframes
+Version: 0.2
+Requires: pandas
+Requires: numpy
+Dynamic: description
+Dynamic: requires
+
+# Data Generation Utilities
+
+## Overview
+This project provides utility functions for generating various types of random data structures, including Pandas DataFrames, Series, dictionaries, and lists. These utilities are useful for testing, prototyping, and simulating data analysis workflows.
+
+## Features
+- Generate random Pandas DataFrames with customizable columns and data types
+- Create Pandas Series with random values
+- Construct dictionaries with random keys and values
+- Generate lists of random numbers, strings, or other data types
+- Supports integer, float, string, and datetime values
+
+## Installation
+To use these utilities, ensure you have the required dependencies installed:
+
+```sh
+pip install pandas numpy
+```
+
+## Customization
+- The functions allow specifying the size, data types, and range of values.
+- You can generate random strings, dates, and numerical data.
+
+## Contributing
+Contributions are welcome! Feel free to submit issues or pull requests to enhance the functionality of this project.
+
+## License
+This project is licensed under the MIT License.
+
+---
+
+Happy coding!
