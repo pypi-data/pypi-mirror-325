@@ -1,0 +1,8 @@
+setup.py
+megaomx.egg-info/PKG-INFO
+megaomx.egg-info/SOURCES.txt
+megaomx.egg-info/dependency_links.txt
+megaomx.egg-info/requires.txt
+megaomx.egg-info/top_level.txt
+om/__init__.py
+om/om.py
