@@ -1,0 +1,8 @@
+wrds/__init__.py,sha256=soFHVUoopZaHjenivOCEqruy8TkSDWydGRQBhhE1HiA,1245
+wrds/_version.py,sha256=gpz3Z6rZZLQ9xMKGzMu1kjC8nYs9HNBbzDT8oHplFPY,411
+wrds/sql.py,sha256=YS1NGcYSkLTV2DMhmrKRm_O3PiA6c0uai0Of0ZLBtgk,26795
+wrds/test.py,sha256=PjJ_yv82Ewyf0xfbBFTRVvaQ0W7hp_98JX4rwgiMzSo,7817
+wrds-3.3.0.dist-info/METADATA,sha256=YabGkI-RIqLvOxP7Rnso7oGvQSgCRVDyysPJix3olKo,5726
+wrds-3.3.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+wrds-3.3.0.dist-info/top_level.txt,sha256=so18buyAfi0rXOnhQxIoOf5_iqHNtMT7ry_1tpXFRjY,5
+wrds-3.3.0.dist-info/RECORD,,
