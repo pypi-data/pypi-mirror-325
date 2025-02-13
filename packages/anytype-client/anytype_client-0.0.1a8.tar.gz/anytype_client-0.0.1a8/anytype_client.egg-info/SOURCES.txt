@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+anytype/__init__.py
+anytype/anytype.py
+anytype/block.py
+anytype/config.py
+anytype/object.py
+anytype/relation.py
+anytype/space.py
+anytype/template.py
+anytype/type.py
+anytype_client.egg-info/PKG-INFO
+anytype_client.egg-info/SOURCES.txt
+anytype_client.egg-info/dependency_links.txt
+anytype_client.egg-info/top_level.txt
+tests/test_space.py
