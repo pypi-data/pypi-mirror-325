@@ -1,0 +1,8 @@
+README.md
+setup.py
+dataframes/__init__.py
+dataframes/main.py
+dataframes.egg-info/PKG-INFO
+dataframes.egg-info/SOURCES.txt
+dataframes.egg-info/dependency_links.txt
+dataframes.egg-info/top_level.txt

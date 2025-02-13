@@ -1,0 +1,6 @@
+Metadata-Version: 2.2
+Name: dataframes
+Version: 0.1
+Requires: pandas
+Requires: numpy
+Dynamic: requires
