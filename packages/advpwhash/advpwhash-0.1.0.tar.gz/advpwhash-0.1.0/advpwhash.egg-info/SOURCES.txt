@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+advpwhash.egg-info/PKG-INFO
+advpwhash.egg-info/SOURCES.txt
+advpwhash.egg-info/dependency_links.txt
+advpwhash.egg-info/requires.txt
+advpwhash.egg-info/top_level.txt
+tests/test_advpwhash.py
