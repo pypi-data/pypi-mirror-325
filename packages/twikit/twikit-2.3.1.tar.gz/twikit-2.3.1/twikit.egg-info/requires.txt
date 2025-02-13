@@ -1,0 +1,8 @@
+httpx[socks]
+filetype
+beautifulsoup4
+pyotp
+lxml
+webvtt-py
+m3u8
+js2py
