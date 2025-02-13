@@ -1,0 +1,5 @@
+duckdb_extension_motherduck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckdb_extension_motherduck/extensions/v1.2.0/motherduck.duckdb_extension,sha256=be0sCMH4rOUbqFpvGMU9A_U3q3PaTjZzfA6DbLL99cs,22924844
+duckdb_extension_motherduck-1.2.0a0.dist-info/METADATA,sha256=T6KpuxBHILNTxBs-n_pIcw_4ek0bAgkkadBuUkxk0q8,2247
+duckdb_extension_motherduck-1.2.0a0.dist-info/WHEEL,sha256=k6hccRrl6UmjGsv-l-15TwZnTH21KqjgBTXuBtbSCtM,93
+duckdb_extension_motherduck-1.2.0a0.dist-info/RECORD,,
