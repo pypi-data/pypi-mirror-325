@@ -1,0 +1,11 @@
+asgi_request_duration/__init__.py,sha256=1Gnc3reC3RvQFYw3d_y7lvmW9lQ_FfDr67yP_um9gas,625
+asgi_request_duration/constants.py,sha256=gJ2gV-nuscbBamQAYxjPytNd9BWkRK2dKHUrfsAKRLw,346
+asgi_request_duration/context.py,sha256=_Kt7E0wtrq0WfFM3M5xiNUSaQeiiIxqrFycovltiBa0,168
+asgi_request_duration/decorators.py,sha256=I6E83JZPQPoZnRojvQsf1iBJab1h-1cPZE2rUn4NRGI,2077
+asgi_request_duration/exceptions.py,sha256=cJAeiQwX7NRroqyqITNR5VfxnkVwygY-sbTw_Q_ilUw,1537
+asgi_request_duration/filters.py,sha256=q1dtiOS45lWbcuHQARioDqlrCuiXY5aPhu_AsGiuU-k,1833
+asgi_request_duration/middleware.py,sha256=S3PrOjLycCbfmST9oEgQvm240aYpkIxfwH967G9jfqM,3649
+asgi_request_duration-1.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+asgi_request_duration-1.0.4.dist-info/METADATA,sha256=kHwLKU61AiXJqOJDDUfVjSAUZGeaixF0STShYt0yjNA,6740
+asgi_request_duration-1.0.4.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+asgi_request_duration-1.0.4.dist-info/RECORD,,
