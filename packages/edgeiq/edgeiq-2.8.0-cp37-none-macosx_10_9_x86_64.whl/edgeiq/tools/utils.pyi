@@ -1,0 +1,9 @@
+import multiprocessing.queues
+import queue
+from typing import Union
+
+class MultiprocessingCircularQueue(multiprocessing.queues.Queue):
+    def __init__(self, *args, **kwargs) -> None: ...
+    def put(self, obj) -> None: ...
+
+def empty_queue(q: Union[queue.Queue, multiprocessing.queues.Queue]) -> None: ...
