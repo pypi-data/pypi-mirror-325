@@ -1,0 +1,3 @@
+[console_scripts]
+MEDS_Inspect = MEDS_Inspect.__main__:main
+MEDS_Inspect_cache = MEDS_Inspect.cache.__main__:main
