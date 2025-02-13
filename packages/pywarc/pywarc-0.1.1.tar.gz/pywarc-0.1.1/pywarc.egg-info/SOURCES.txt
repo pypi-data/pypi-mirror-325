@@ -1,0 +1,13 @@
+LICENSE
+LICENSE.LESSER
+MANIFEST.in
+README.md
+setup.py
+pywarc/__init__.py
+pywarc/constants.py
+pywarc/reader.py
+pywarc/writer.py
+pywarc.egg-info/PKG-INFO
+pywarc.egg-info/SOURCES.txt
+pywarc.egg-info/dependency_links.txt
+pywarc.egg-info/top_level.txt
