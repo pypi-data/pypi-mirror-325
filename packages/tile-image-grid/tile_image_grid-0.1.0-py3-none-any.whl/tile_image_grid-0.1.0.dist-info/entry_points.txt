@@ -1,0 +1,2 @@
+[console_scripts]
+tile-image-grid = tile_image_grid.cli:main
