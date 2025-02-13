@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: safelyx
+Version: 0.1.0
+Summary: API client for Safelyx.
+Home-page: https://github.com/safelyx/safelyx-py
+Download-URL: https://github.com/safelyx/safelyx-py/tarball/0.1.0
+Author: Safelyx
+Author-email: help@safelyx.com
+Keywords: safelyx,api,client,sdk,security,automated moderation tools,content moderation,message moderation,image moderation,link safety check,email verification,ugc moderation,user-generated content moderation,content safety,content safety tools,content safety api,content safety sdk,content safety client
+Requires-Python: >=3.11
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: download-url
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: requires-python
+Dynamic: summary
