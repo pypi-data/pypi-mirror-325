@@ -1,0 +1,15 @@
+asreviewcontrib/datatools/__init__.py,sha256=AuK65melAjslEeABXItrz85U8hMPEE2GkJ92xqbYIMs,217
+asreviewcontrib/datatools/compose.py,sha256=6ApZhG61rnJnpk0PB29Mam0wUZo0Leh6vny-PGTlqfs,9724
+asreviewcontrib/datatools/convert.py,sha256=C7FSyQgkZGKU1JCqWa6AbiqCDffRFckSNWveO0TIxaY,509
+asreviewcontrib/datatools/dedup.py,sha256=qjB4DNafYxfaXVSB7DdYFjEnylkyiaDW876D8i_aXYM,7871
+asreviewcontrib/datatools/describe.py,sha256=OnZMtOcMMAda2Y82mHb8EuuBmLMoU8NWP4Flx3bUL2M,3542
+asreviewcontrib/datatools/entrypoint.py,sha256=yV_XGe1kmTA7l358CjzQWg3ZYnlU-7wTTQO3dv4B5ro,7793
+asreviewcontrib/datatools/sample.py,sha256=1GFxiyGO_3AQkiSS-foAeSO0HWXp9_v0svuDYxjTi6Y,2419
+asreviewcontrib/datatools/snowball.py,sha256=V22dShEOKBU-ZBQdbtqgE0PsoC2xF06IjbfE4ZR-oVk,10187
+asreviewcontrib/datatools/stack.py,sha256=-4MsYNbkkvJX8UKQ74ZsHdDMhiyr3LwMnVuO0K2gPxc,1445
+asreview_datatools-1.4.dist-info/LICENSE,sha256=c5pe02QKfmGmMXvvIUaGbR0ZswgvKw3OdkFIG2XLghs,1086
+asreview_datatools-1.4.dist-info/METADATA,sha256=ptRZAprLz71peJgIHgeDq3f53nrJSV-6ugrVbXFWf30,17138
+asreview_datatools-1.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+asreview_datatools-1.4.dist-info/entry_points.txt,sha256=27WnqDGk0aNSWSYEfnhljsVEpbI87lXsfMf7p0qGYRQ,83
+asreview_datatools-1.4.dist-info/top_level.txt,sha256=-csz-bYFHwIuinKUJ9gUZ_RbXwYqB80-4MPymSjd_Tg,16
+asreview_datatools-1.4.dist-info/RECORD,,
