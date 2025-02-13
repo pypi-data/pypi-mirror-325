@@ -1,0 +1,20 @@
+[project]
+name = "kareem-machine-ctrl"
+version = "0.1.2"
+description = "Sample MCP integration project"
+requires-python = ">=3.10"
+authors = [
+    { name = "Kareem Elbahrawy", email = "kareem@kareemelbahrawy.com" }
+]
+dependencies = [
+    "mcp[cli]>=1.2.1"
+]
+[project.scripts]
+kareem-machine-ctrl = "src.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
