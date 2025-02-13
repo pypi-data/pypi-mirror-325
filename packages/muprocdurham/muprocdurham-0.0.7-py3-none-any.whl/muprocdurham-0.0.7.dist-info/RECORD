@@ -1,0 +1,11 @@
+muprocdurham/__init__.py,sha256=wzczquMKVU-57muu5qWEYys_GnFVWWldxPOfyvCW-FM,1700
+muprocdurham/jupyter.py,sha256=jdFacCyXhKZ7Jf_hlwIUeOX9O0qZj0dKcECCxO2ndtY,266
+muprocdurham/ngram.py,sha256=ob2Q0zIlEQrbnIhU_zrLuj_UMzxHlc082P6L2jpGz78,4371
+muprocdurham/pcfg.py,sha256=mI7dQNT-XdePeBgLW0P_nPgzGEj6hPm76cR0dcxiI0w,1969
+muprocdurham/sound.py,sha256=j176b1e0vMUg2W0aIvb8mgsloieggAYCgkV4pcuXo9A,3405
+muprocdurham/version_check.py,sha256=iKet5FVAxCF-Ff8n7jTVCRHVCpNfuhhclcXtXSHfgTo,2015
+muprocdurham-0.0.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+muprocdurham-0.0.7.dist-info/METADATA,sha256=EGVL5olsBz5MNoaL7ERxsegvjfQKbvRh8KNkaubOvMM,1976
+muprocdurham-0.0.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+muprocdurham-0.0.7.dist-info/top_level.txt,sha256=qY6443-VlYPohPfvE_2kHSBp7rceZTaiFFKjjt2U3lY,13
+muprocdurham-0.0.7.dist-info/RECORD,,
