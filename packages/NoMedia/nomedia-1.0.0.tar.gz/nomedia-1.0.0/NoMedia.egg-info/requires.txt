@@ -1,0 +1,6 @@
+
+[dev]
+build
+twine
+vermin
+virtualenv

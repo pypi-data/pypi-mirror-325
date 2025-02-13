@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+NoMedia.egg-info/PKG-INFO
+NoMedia.egg-info/SOURCES.txt
+NoMedia.egg-info/dependency_links.txt
+NoMedia.egg-info/requires.txt
+NoMedia.egg-info/top_level.txt
+nomedia/__init__.py
+nomedia/__main__.py
+tests/__init__.py
+tests/tests.py
