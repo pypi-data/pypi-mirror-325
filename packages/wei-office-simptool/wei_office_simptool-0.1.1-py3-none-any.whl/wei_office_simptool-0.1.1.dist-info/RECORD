@@ -1,0 +1,16 @@
+tests/__init__.py,sha256=OSQMuKhP2anQM7oScBQNOEh9U7-zSzSUHLewIVOfQuY,1359
+tests/test_utils.py,sha256=Qb5cGGA422aAF6M1bBea0_pAHe2aAKX6Bn7Bs_Dqly0,2321
+wei_office_simptool/SQLManager.py,sha256=OCkuvpFhuAIXvpwiFZTK0pYWm8QmS2ruybFkVjkOFNc,8335
+wei_office_simptool/__init__.py,sha256=MtcB14HJs7TpjEG9LB58eJNJ8C4U3_8Yrwg0JnzTdng,2100
+wei_office_simptool/baseColor.py,sha256=4F8hnmIvxEjD3narD0Qugm5-fUrvs_FNRdbreCYN0PU,1085
+wei_office_simptool/chartsManager.py,sha256=0yhO73GFKc0NgNAZs0xDQKVrOnMD-b7KZHRoizMhWuc,7678
+wei_office_simptool/docManager.py,sha256=KnE_Oh70gDOC7-vCUJ5JP4D6ovpuewH572FPOVX1xCA,7657
+wei_office_simptool/mailManager.py,sha256=E4rpLOED8Svqfu2kTx-M_575Un5jH44P-Pc1fQf7Ayk,2454
+wei_office_simptool/ollamaManager.py,sha256=lDsu33PZkwqdoEIkyRV59Cj30R9M9WIcXZWBwZCLdNo,4588
+wei_office_simptool/stringManager.py,sha256=wThGvIuJpvyGFfFLSQteIa1sTnaKiYDV0FyrQnderHs,4147
+wei_office_simptool/textManager.py,sha256=38QuHioavYZA3MLa65aMLeBkJKxfocgqo92Dj7A19dA,6288
+wei_office_simptool/timingTool.py,sha256=SkWycEcGKWn8aUOiFgI-qz3lb4TvV2jYUHdD5ZbHKTM,409
+wei_office_simptool-0.1.1.dist-info/METADATA,sha256=joayWhuXI2MF1iOMLsx4Qg9nvHuhrVdErXpUvkULopY,8314
+wei_office_simptool-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+wei_office_simptool-0.1.1.dist-info/top_level.txt,sha256=3_EdoEmm-u0L-QuENE8FFEfNMcguAZxpsMzRirCvkN0,26
+wei_office_simptool-0.1.1.dist-info/RECORD,,
