@@ -1,0 +1,28 @@
+Metadata-Version: 2.3
+Name: phygrid_hub_client
+Version: 0.1.0
+Summary: Python implementation of the PhyGrid Hub Client
+License: MIT
+Keywords: phygrid,hub,client
+Author: Andreas Hassellof
+Author-email: andreas@ombori.com
+Requires-Python: >=3.12
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: dev
+Requires-Dist: aiohttp (>=3.9.1)
+Requires-Dist: black (>=23.11.0) ; extra == "dev"
+Requires-Dist: isort (>=5.12.0) ; extra == "dev"
+Requires-Dist: mypy (>=1.7.1) ; extra == "dev"
+Requires-Dist: pytest (>=7.4.3) ; extra == "dev"
+Requires-Dist: python-dotenv (>=1.0.0)
+Requires-Dist: python-engineio (>=4.8.2)
+Requires-Dist: python-socketio (>=5.11.1)
+Requires-Dist: urllib3 (>=2.1.0)
+Project-URL: Documentation, https://build.phygrid.com
+Project-URL: Homepage, https://github.com/phygrid
+Description-Content-Type: text/markdown
+
+
