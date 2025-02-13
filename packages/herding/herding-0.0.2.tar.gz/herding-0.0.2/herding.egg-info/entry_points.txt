@@ -1,0 +1,2 @@
+[console_scripts]
+herding = herding.__main__:main
