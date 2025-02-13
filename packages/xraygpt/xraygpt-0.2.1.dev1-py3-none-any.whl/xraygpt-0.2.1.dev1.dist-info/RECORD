@@ -1,0 +1,16 @@
+xraygpt/__about__.py,sha256=ZDbKHaD-ZhezxAE0EL3ShIq4Tu8BdiQIQzk9N3OFQTU,27
+xraygpt/__init__.py,sha256=DRK6usTaEIgDtEetAcHzK6C98zEMlMQa5Q_4N91xKhQ,22
+xraygpt/__main__.py,sha256=CLavCNTNFJeCXxHhzye-hb1Gs2_yn946VvExde6Lhkg,1525
+xraygpt/flow.py,sha256=SsBWRsN77Z3mvEQ_Kg2JteJzOWYVWEK-2g2LBTn8TVU,1073
+xraygpt/llm.py,sha256=gFrMQogtIFmWLJ2KZm_IXXVh1TCoNt_iAj6l1ffI7tA,1741
+xraygpt/output.py,sha256=gITU4VQBOfwD82yKrA6zOVgc-9UOr1GMbpQIpQeZ85s,363
+xraygpt/reader.py,sha256=U8bDJ0abMvXDyUVzH-0DnqbAuUvQ8qeLwMpw8PgejH4,643
+xraygpt/splitter.py,sha256=ft3P1tRdw1iPaRyC3G1Q2rIU6bw1c_SSkIpB6W1g7Cs,323
+xraygpt/db/base.py,sha256=hp48FFTVwqpVDW4X15XjsQ2AnnT0qmkE-n-qmHpZzPM,458
+xraygpt/db/chroma.py,sha256=ZduPk94d70MaYxp3hb8XFe8KlnOcjtEbPzLUjYft3Do,1865
+xraygpt/ner/agent.py,sha256=YqJIiFIXmgiI7A0T35h3Sfwg3vG5lhRtq6gw8tnTW0w,5200
+xraygpt/ner/azure.py,sha256=SDZ7Rx7mReMmErBVa9RSt5Qy6k_aRqUq5Dy52ODmAKM,1960
+xraygpt-0.2.1.dev1.dist-info/METADATA,sha256=JT-R50kaweqCFGPWo0Y_6ZEXkUppkPaF5867negvK1Q,1568
+xraygpt-0.2.1.dev1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+xraygpt-0.2.1.dev1.dist-info/licenses/LICENSE,sha256=ykFmZukEcEbEXZX0unuyLe0H4bZ_2ZaTJ5T7JxoYtFM,1492
+xraygpt-0.2.1.dev1.dist-info/RECORD,,
