@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: mcp-toolhouse
+Version: 0.1.0
+Summary: a model context protocol (MCP) server that provides access to tools from the [Toolhouse](https://toolhouse.ai) platform.
+Author-email: TerminalMan <84923604+SecretiveShell@users.noreply.github.com>
+Requires-Python: >=3.11
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: mcp>=1.2.1
+Description-Content-Type: text/markdown
+
+# MCP Toolhouse
+
+This is a model context protocol (MCP) server that provides access to tools from the [Toolhouse](https://toolhouse.ai) platform.
+
+## Installation
+
+Setup your json like this:
+
+```json
+{
+    "mcpServers": {
+        "MCP-Toolhouse": {
+            "command": "uv",
+            "args": ["run", "mcp-toolhouse"],
+            "env": {
+                "TOOLHOUSE_API_KEY": "th-******************_*****_******************",
+                "TOOLHOUSE_BUNDLE": "toolhouse-bundle-name",
+                "PYTHONUTF8": "1"
+            }
+        }
+    }
+}
+```
+
+The python utf8 env is required for some tools to work on windows.
