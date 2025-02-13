@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+wsqlite/__init__.py
+wsqlite.egg-info/PKG-INFO
+wsqlite.egg-info/SOURCES.txt
+wsqlite.egg-info/dependency_links.txt
+wsqlite.egg-info/top_level.txt
+wsqlite/wsqlite/__init__.py
+wsqlite/wsqlite/controller.py
