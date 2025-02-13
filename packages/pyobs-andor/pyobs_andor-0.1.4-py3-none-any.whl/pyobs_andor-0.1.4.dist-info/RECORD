@@ -1,0 +1,8 @@
+pyobs_andor/__init__.py,sha256=Q8I40ZHbP1I5eTA9IRFAUdQdm6tl7h9ivMLqNrLIF-Y,84
+pyobs_andor/andorcamera.py,sha256=76LPpJl4c8QpXdbp7NPwi1IRVtcQqnlIEEZAZGx1x64,9993
+pyobs_andor/andorzylacamera.py,sha256=-J_GxnB1QWQgmGbgR8kDXGrirnWynxrHtR8UHV3QctA,13908
+pyobs_andor/atcore.py,sha256=7W_xISPbzEuFGqd70XZs1FfQ68BCt_9kR-q8WgmBf7E,14443
+pyobs_andor/libandor.pyx,sha256=TCj9DVN4Ge9mNGppEo75GVtjSlOvMKdNrUgNFxgd8pE,9889
+pyobs_andor-0.1.4.dist-info/METADATA,sha256=oi6q7Hz_9PHyhM0ZNQ4TKLCTMPSpa4EMzBKvP395mFQ,456
+pyobs_andor-0.1.4.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+pyobs_andor-0.1.4.dist-info/RECORD,,
