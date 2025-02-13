@@ -1,0 +1,37 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_order_report_hide_discounts_by_partner
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-03 11:47+0000\n"
+"PO-Revision-Date: 2025-02-03 11:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sale_order_report_hide_discounts_by_partner
+#: model:ir.model,name:sale_order_report_hide_discounts_by_partner.model_res_partner
+msgid "Contact"
+msgstr "Contacte"
+
+#. module: sale_order_report_hide_discounts_by_partner
+#: model:ir.model,name:sale_order_report_hide_discounts_by_partner.model_sale_order
+msgid "Sales Order"
+msgstr "Comanda de venda"
+
+#. module: sale_order_report_hide_discounts_by_partner
+#: model:ir.model.fields,field_description:sale_order_report_hide_discounts_by_partner.field_sale_order__show_discounts
+msgid "Show Discounts in Sale"
+msgstr "Mostrar descomptes en la venda"
+
+#. module: sale_order_report_hide_discounts_by_partner
+#: model:ir.model.fields,field_description:sale_order_report_hide_discounts_by_partner.field_res_partner__show_sale_discounts
+#: model:ir.model.fields,field_description:sale_order_report_hide_discounts_by_partner.field_res_users__show_sale_discounts
+msgid "Show Discounts in Sales"
+msgstr "Mostrar descomptes en vendes"
