@@ -1,0 +1,2 @@
+[himena.plugin]
+Plotting = himena_seaborn.plotting
