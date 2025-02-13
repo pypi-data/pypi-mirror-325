@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: rpi-ws281x-disk
+Version: 0.1.0
+Summary: A python library to control a collection of ws281x LED rings as a single disk
+Home-page: https://github.com/sypticus/rpi_ws281x_led_disk/
+Author: Kyle Hansen
+Author-email: sypticus@proton.me
+License: BSD 2-clause
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+License-File: LICENSE
