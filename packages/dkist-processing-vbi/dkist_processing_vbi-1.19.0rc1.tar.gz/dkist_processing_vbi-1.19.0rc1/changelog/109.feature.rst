@@ -1,0 +1,3 @@
+Update the orientation of the mosaic MINDEX{12} header keys.
+Previously the MINDEX keys described a row-major mosaic with the origin in the upper-left, but a more natural and
+intuitive mosaic orientation is column-major with the origin in the lower-left.
