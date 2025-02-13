@@ -1,0 +1,12 @@
+attotools/__init__.py,sha256=YBXKXPfX_Jiw92ppq7Ug0leT3RyXjlnPPapCK9-NYfY,74
+attotools/eqtype.py,sha256=cySuLdzYFczHoBMHhcYnuNPROT5Th8Y-XDhMGWAq5es,3665
+attotools/io.py,sha256=vJRw3wrablRT0m83J1XTFn-_-A7P2GzJnIAQPJZxEWg,2835
+attotools/test.py,sha256=HL-WeVy-iA8iN4z3oDV0rLzcX-4tWcVcS0kByTRKVwk,88
+attotools/toolfunctions.py,sha256=jFa0dbCwlW_8cDChBwz2IAU6nLf0Y54ld0BaMH26eXo,3033
+attotools/version.py,sha256=0Uc3zDF9XadX9j08cOIZbGoZsI0JPHTxemWum3gkos4,21
+attotools/atstyles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+attotools/atstyles/sci.mplstyle,sha256=TsJPrib_JecSCJcmmRaXTmf4nuhJec5KFcd_RzQIK_8,24985
+attotools-0.0.5.dist-info/METADATA,sha256=FVk2qtGoedRXJjfR68PT3seOzqhc5flYOohnV2mu_PU,422
+attotools-0.0.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+attotools-0.0.5.dist-info/top_level.txt,sha256=4ugTzU3AKYLeDvvaYcUt18zvOA_ysqDYFB0z_tvPFpM,10
+attotools-0.0.5.dist-info/RECORD,,
