@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "keystamp"
+version = "0.1.0"
+description = "Cryptographic verification for LLM API interactions"
+authors = [
+    {name = "Keystamp", email = "derekch@cs.stanford.edu"}
+]
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Security :: Cryptography",
+]
+dynamic = ["readme"]
+license = {text = "MIT"}
+
+dependencies = [
+    "click>=8.1.8", # For CLI
+    "mitmproxy>=11.0", # For client proxy
+    "cryptography>=44.0.0", # For local signing
+    "typeguard>=4.4.1", # For validation
+    "loguru>=0.7.3",
+    "python-dotenv>=1.0.1",
+    "semver>=3.0.4", # For versioning
+    "keystamp-common>=0.1.0", # Our common library
+]
+
+[project.scripts]
+keystamp = "keystamp.client.interface:main"
+
+[project.urls]
+Source = "https://github.com/keystamp/keystamp"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"keystamp.resources.keys" = ["*.pub"]  # Include all public keys
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"], content-type = "text/markdown"}
+
+[tool.setuptools-scm]
+root = ".."

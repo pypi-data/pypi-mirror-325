@@ -1,0 +1,8 @@
+click>=8.1.8
+mitmproxy>=11.0
+cryptography>=44.0.0
+typeguard>=4.4.1
+loguru>=0.7.3
+python-dotenv>=1.0.1
+semver>=3.0.4
+keystamp-common>=0.1.0

@@ -1,0 +1,77 @@
+# Keystamp
+
+[![build](https://github.com/keystamp/keystamp-private/actions/workflows/run_tests.yaml/badge.svg)](https://github.com/keystamp/keystamp-private/actions/workflows/run_tests.yaml)
+
+**Keystamp** lets you add a cryptographic seal of trust to any LLM API interaction, making your experiments trustworthy and reproducible.
+
+Just prefix your existing Python code with `keystamp sign`, and Keystamp will:
+
+1. Transparently proxy all requests to LLM providers (OpenAI, Anthropic, etc.)
+2. Collect all requests and responses
+3. Create a cryptographically-signed transcript for every interaction
+4. Return the signed transcripts, while seamlessly executing your code.
+
+These signed transcripts enable you to prove the authenticity of your LLM interactions to peers, reviewers, and the broader research community.
+
+## Why this Matters
+
+Current research involving cloud-based frontier Large Language Models is virtually irreproducible. Models are regularly updated, and rapidly deprecated. Even making the same request to the same model results in different responses. Simultaneously, LLMs are starting to be used in research [outside of computer science](https://www.cambridge.org/core/journals/political-analysis/article/out-of-one-many-using-language-models-to-simulate-human-samples/035D7C8A55B237942FB6DBAD7CAA4E49) – particularly in the social sciences, in which reproducibility has recently been a [major issue](https://en.wikipedia.org/wiki/Replication_crisis).
+
+Keystamp aims to provide a layer of trust over raw text files, by signing off on LLM requests and responses as an independent third party. If you publish keystamped transcripts with your code, anyone can verify their digital signatures using our public key. This makes it easy to confirm that model interactions happened exactly as claimed, and hard to fabricate results by tampering with LLM responses.
+
+## Quickstart
+
+Install Keystamp using `pip install keystamp` (Python 3.8+, MacOS & Linux), and instantly start signing your LLM requests:
+
+```bash
+$ keystamp sign [-m] your_script.py --your_args
+```
+
+That's it! Your signed transcripts will appear in `transcripts/` by default. To verify saved transcripts:
+
+
+```bash
+$ keystamp verify transcripts/
+
+Keystamp: Verifying transcripts at `transcripts`:
+    ✅ OFFICIAL KEY: transcripts/2025-02-05/b11b4705ba2212a707c2478bfc58f...453.json
+    ✅ OFFICIAL KEY: transcripts/2025-02-05/aaa9a654ac0bc9485ac1349debd79...db1.json
+    ✅ OFFICIAL KEY: transcripts/2025-02-05/194a3f682a2b20abe4c5fc1729449...f2a.json
+    Verification successful: All transcripts verified!
+```
+
+## Frequently Asked Questions
+
+- **Free**: We hope to offer this service to researchers for free indefinitely. This is a labor of love – please don't abuse our servers.
+
+- **Rate limits**: Keystamp is currently in early public beta. We are restricting usage to 100 requests every ten minutes, and have whitelisted a set of AI API providers. This should expand significantly as the project develops. If you'd like a larger limit and can show that you're working on research in any way (an .edu email is sufficient), please send us a message!
+
+- **API support**: Keystamp has been tested with OpenAI and Anthropic libraries, but should work with any Python package whose HTTP client uses the `HTTP_PROXY` and `SSL_CERT_FILE` environment variables (e.g. [httpx](https://www.python-httpx.org/), [aiohttp](https://docs.aiohttp.org/en/stable/), [urrlib3](https://urllib3.readthedocs.io/en/stable/user-guide.html)).
+
+- **Privacy**: Unfortunately, the only way for Keystamp to provide a credible signature is by passing your requests through our signing server. This is required so that we can attest to the response at its source. However, we intentionally do not log the contents of requests and responses. We do log IP addresses and endpoint URLs, for the purposes of rate limiting and managing misuse. Our server code is available in full in this repository, and we'd welcome a routine third-party audit arrangement. (If you do this for a living, please reach out!)
+
+- **Security**: While Keystamp's design prioritizes security, this is ultimately a community project, with the primary goal of improving reproducibility in AI research. As such, we do not recommend sending personal, proprietary, or highly confidential information in prompts.
+
+## Documentation & Support
+
+- 📚 Full Documentation: Coming soon
+- 🐛 [Report Issues](https://github.com/keystamp/keystamp/issues)
+- 📧 Contact: [@dcx](https://nlp.stanford.edu/~derekch/)
+
+## Contributing
+
+We welcome contributions! Watch this space for a contributor's guide.
+
+## Citing Keystamp
+
+If you use Keystamp in your research, we'd appreciate if you cited our project:
+
+```bibtex
+@software{keystamp2025,
+  author = {Chong, Derek and Shi, Weiyan and Goldstein, Josh A. and Tomz, Michael and Manning, Christopher D.},
+  title = {Keystamp: Cryptographic Verification for LLM Interactions},
+  year = {2025},
+  publisher = {GitHub},
+  url = {https://github.com/keystamp/keystamp}
+}
+```
