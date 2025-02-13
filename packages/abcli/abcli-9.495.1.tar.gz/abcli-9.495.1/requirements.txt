@@ -1,0 +1,13 @@
+blueness
+blue-options
+blue-objects
+boto3
+matplotlib
+numpy
+opencv-python
+pymysql
+pyyaml
+pylint
+pytest
+python-dotenv[cli]
+tqdm
