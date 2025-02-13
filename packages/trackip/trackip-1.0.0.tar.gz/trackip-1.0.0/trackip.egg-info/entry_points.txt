@@ -1,0 +1,2 @@
+[console_scripts]
+trackip = trackip:main_menu
