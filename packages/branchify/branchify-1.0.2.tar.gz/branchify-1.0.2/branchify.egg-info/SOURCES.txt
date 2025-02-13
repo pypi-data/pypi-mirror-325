@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+branchify/__init__.py
+branchify/cli.py
+branchify/generator.py
+branchify.egg-info/PKG-INFO
+branchify.egg-info/SOURCES.txt
+branchify.egg-info/dependency_links.txt
+branchify.egg-info/entry_points.txt
+branchify.egg-info/top_level.txt
