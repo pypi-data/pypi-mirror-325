@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+python-wiki-client/__init__.py
+python-wiki-client/wiki-client.py
+python_wiki_client.egg-info/PKG-INFO
+python_wiki_client.egg-info/SOURCES.txt
+python_wiki_client.egg-info/dependency_links.txt
+python_wiki_client.egg-info/requires.txt
+python_wiki_client.egg-info/top_level.txt
