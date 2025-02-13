@@ -1,0 +1,78 @@
+APKSUMS(1)                          User Commands                         APKSUMS(1)
+
+NAME
+       apksums - verify checksums of installed APK package files
+
+SYNOPSIS
+       apksums [-h] [-c] [-s] [-m file] [-r dir]
+
+DESCRIPTION
+       apksums verifies the integrity of files installed by the Alpine Package
+       Keeper (APK) by comparing their current checksums against the stored values
+       in the package database.
+
+OPTIONS
+       -h, --help
+              Show help message and exit.
+
+       -c, --changed
+              Report only changed files to stdout. This option implies --silent.
+
+       -s, --silent
+              Only report errors. Suppresses OK messages and summary.
+
+       -m file, --md5sums=file
+              Read list of checksums from specified file instead of the default
+              /lib/apk/db/installed.
+
+       -r dir, --root=dir
+              Use specified directory as root for checking files instead of /.
+
+EXIT STATUS
+       0      All files verified successfully
+       1      Verification failed (missing or modified files)
+
+OUTPUT
+       Without -s or -c options, apksums prints status for each file:
+           OK: /path/to/file (from package-name)
+           FAILED: /path/to/file (from package-name)
+           MISSING: /path/to/file (from package-name)
+
+       For failed files, it shows:
+           Expected: <expected-checksum>
+           Got: <actual-checksum>
+
+       For symbolic links, it shows the link target:
+           OK: /path/to/link -> target (from package-name)
+
+       A summary is printed at the end showing counts of OK, Failed, and Missing
+       files.
+
+EXAMPLES
+       apksums
+              Verify all installed files with default settings
+
+       apksums -s
+              Verify files but only show errors
+
+       apksums -c
+              Show only list of changed files
+
+       apksums -r /mnt/rootfs
+              Verify files in alternative root directory
+
+       apksums -m /path/to/checksums
+              Use alternative checksums database file
+
+FILES
+       /lib/apk/db/installed
+              Default package database containing checksums
+
+BUGS
+       Report bugs to: [your contact information]
+
+AUTHOR
+       [Your name]
+
+SEE ALSO
+       apk(8)
