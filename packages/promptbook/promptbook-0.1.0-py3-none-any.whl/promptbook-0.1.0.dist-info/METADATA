@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: promptbook
+Version: 0.1.0
+Summary: A prompt management library for AI-driven workflows
+Author: Your Name
+Author-email: Your Name <your@email.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Requires-Dist: argparse
+Dynamic: author
+Dynamic: requires-python
+
+# promptbook - A Python Library for Prompt Management
