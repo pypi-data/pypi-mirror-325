@@ -1,0 +1,2 @@
+[console_scripts]
+revcat = revcat.cli:app

@@ -1,0 +1,12 @@
+revcat/__init__.py,sha256=KRlXrfYI7BlbXwYgaoEr18sp0vLGYU-81pVvsRK3hUk,57
+revcat/cli.py,sha256=KaK8mrpnxIqj2yp4s3gpMtR5q-bbKthWLeLUJS2WboE,5102
+revcat/common.py,sha256=E59kKAOXA7ELOnxFX-KwuRX4lKfR9f5g-_CEyQ7iWE4,1536
+revcat/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+revcat/v1/customers.py,sha256=ZvoidXy1vr1Vnxpjf3iZIHZK8UgHCwNu6-00D01jrz4,861
+revcat/v1/entitlements.py,sha256=vf2iTHp-gNvzUq696zK_PK9JS8RNnNDjH3bJiZYxrDw,1557
+revcat/v1/extensions.py,sha256=mdo4BRYbnE5P5mGLrl4zeZA1O0bYnIk0B_7vHEs8BrU,2121
+revcat-0.1.7.dist-info/METADATA,sha256=lDFGPZjIZMP7kOQHUvHNpt7YWCS_qQXk0zig-LyIQ0E,2156
+revcat-0.1.7.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+revcat-0.1.7.dist-info/entry_points.txt,sha256=Lg2g_mwhn-at-mwxbI8hR18VduH_CKN5dzOYnJEOpt4,42
+revcat-0.1.7.dist-info/licenses/LICENSE,sha256=5hde11o4DDiievLuN6bvv_V7-GQqXBRcpBKXt7qpAbI,1066
+revcat-0.1.7.dist-info/RECORD,,
