@@ -1,0 +1,17 @@
+dreamify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dreamify/deep_dream.py,sha256=WthBJRDXrcIP_2XOefQCCHS7D_o4Fxq6BejJNrgpaqg,5811
+dreamify/dream.py,sha256=_5KxsrOv508mITujJWr3AuyR56YMeM9RL1IiGf_xonQ,2992
+dreamify/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dreamify/utils/compare.py,sha256=82eWnpv6sgL2NVcyjT7x7v_5rJYD27ImVK3t-K4AP3A,1580
+dreamify/utils/configure.py,sha256=KLYz2T5OXooaArJsyBJpprbevrkXOAeBbLYm91MesAc,293
+dreamify/utils/deep_dream_utils/__init__.py,sha256=M9c09J1d9aonQs2n_dwdSHnMXoC1NuZwfICPb9FYjOw,282
+dreamify/utils/deep_dream_utils/deep_dream.py,sha256=vZMs_7lcb0lIE7fb4gf1R6ub-I9l5gxkZPRf6TqwtEg,933
+dreamify/utils/deep_dream_utils/tiled_gradients.py,sha256=LZMrf_ZJJ7zbuiWxDYag7Q7jfEsF9c2WUrL6KWcPmVw,1871
+dreamify/utils/deep_dream_utils/utils.py,sha256=gJWahi4LuaotkKfrKNToCzMPJ9dgR6-IrdyV4CgfB-I,1234
+dreamify/utils/dream_utils/__init__.py,sha256=_zdXeetTZIg9-kP7nGcYJygf8kxmm-tc0hOfbc_p9QY,298
+dreamify/utils/dream_utils/utils.py,sha256=t8zamtCVrUYaeHj785hdUUHxIjpEpf2Q-HmHhon6p2o,4179
+dreamify/utils/models.py,sha256=ZBfEXt_CZdBkXQhjpeA_ydddaQwRHHM8hw1gyDLYGx0,4041
+dreamify-0.19.4.dist-info/METADATA,sha256=2Ugv0Or6VNspeogfCwywJbN04ZGM_WCz74-Ie9YNxyU,2575
+dreamify-0.19.4.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+dreamify-0.19.4.dist-info/entry_points.txt,sha256=RtCip0V-fhH1SdKc5sdHleUr0tJzQeEHmx5_KPV5M3o,87
+dreamify-0.19.4.dist-info/RECORD,,
