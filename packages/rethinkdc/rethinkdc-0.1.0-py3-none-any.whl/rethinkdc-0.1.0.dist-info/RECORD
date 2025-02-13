@@ -1,0 +1,10 @@
+rethinkdc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rethinkdc/imagenet_ipc.py,sha256=FHy5Zplmmbg1BZicqaRMxXJEMFv3hId1BrIzbkk0kRU,6407
+rethinkdc/train_KD.py,sha256=geNC6MGUIo9D-ad7s_1qjCRoVwYVT1J_OyVpqdYQVHU,15309
+rethinkdc/utils.py,sha256=QSEpwsGdRepbvqbe2nx0IhpxBBSVngrffKWGesGQsBs,2602
+rethinkdc/utils_fkd.py,sha256=WP4IDtrZyCcEGi1llvx7DIwGqp-UUMIPGU5ErBESK54,10330
+rethinkdc-0.1.0.dist-info/METADATA,sha256=4-InN6SxZAjYEPvJNTx5pKz_8CjgnZox15FTqXZl7xA,9758
+rethinkdc-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+rethinkdc-0.1.0.dist-info/entry_points.txt,sha256=kxIxXUnh9XJ9LZUnZT33BxjuUZ1QMM58BHCb06VnDUs,54
+rethinkdc-0.1.0.dist-info/top_level.txt,sha256=lGLjD6104QjDJCyz7ACl5DDVXwlskDVs6RDS0WtX2_w,10
+rethinkdc-0.1.0.dist-info/RECORD,,
