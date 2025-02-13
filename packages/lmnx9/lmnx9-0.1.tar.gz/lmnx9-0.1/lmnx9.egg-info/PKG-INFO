@@ -1,0 +1,27 @@
+Metadata-Version: 2.2
+Name: lmnx9
+Version: 0.1
+Summary: A simple HTTP library like requests by lmnx9
+Home-page: https://github.com/LMNx9-JOHNY/
+Author: Limon Hossain
+Author-email: lmnx9johny@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# lmnx9
+This is a simple Python HTTP library like `requests`.
+Developed By - DARK LMNx9
+Telegram - @TEAM_LMNx9
