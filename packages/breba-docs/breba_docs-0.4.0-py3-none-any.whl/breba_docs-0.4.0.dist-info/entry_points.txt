@@ -1,0 +1,4 @@
+[console_scripts]
+breba-docs=breba_docs.cli.app:run
+breba_docs=breba_docs.cli.app:run
+
