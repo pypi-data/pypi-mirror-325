@@ -1,0 +1,10 @@
+## © 2025 AIPRESSO LIMITED. All rights reserved.
+
+## **📦 Packaging & Deployment**
+
+### **1️⃣ Build the Package**
+
+```bash
+cd ~/Desktop/Brewlock/core_libraries/advrandom
+python setup.py sdist bdist_wheel
+```
