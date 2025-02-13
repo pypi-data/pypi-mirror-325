@@ -1,0 +1,72 @@
+Metadata-Version: 2.2
+Name: generator_dates
+Version: 0.1.0
+Summary: A Python package to generate random dates in different formats and languages.
+Home-page: https://github.com/Triram-2/generator_dates
+Author: Misha
+Author-email: bobyyy239@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# Generator Dates
+
+Generator Dates — это Python-библиотека для генерации случайных дат в различных форматах и языках.  
+Поддерживает английский (`en`) и русский (`ru`) языки.
+
+## Возможности
+
+- Генерация случайных дат с настраиваемым форматом
+- Поддержка полного и сокращенного названий месяцев
+- Выбор диапазона дней, месяцев и годов
+
+## Установка
+
+Установить можно через `pip` (после публикации на PyPI):
+
+```sh
+pip install generator_dates
+```
+
+Или вручную:
+
+```sh
+git clone https://github.com/yourusername/generator_dates.git
+cd generator_dates
+pip install .
+```
+
+## Использование
+
+```python
+from generator_dates import GeneratorDates
+
+generator = GeneratorDates(format="{d} {month} {y}", lang="ru")
+random_date = generator.generate_date()
+print(random_date)  # Например: 12 марта 1987
+```
+
+## Настройки
+
+- **`format`** – строка формата даты:
+  - `{d}` – день месяца
+  - `{m}` – число месяца
+  - `{y}` – год
+  - `{mon}` – сокращенное название месяца
+  - `{month}` – полное название месяца
+- **`lang`** – язык (`en` или `ru`)
+
+## Лицензия
+
+Проект распространяется под лицензией MIT.

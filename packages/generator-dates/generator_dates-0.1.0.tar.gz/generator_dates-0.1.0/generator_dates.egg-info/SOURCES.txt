@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+generator/__init__.py
+generator/generator.py
+generator_dates.egg-info/PKG-INFO
+generator_dates.egg-info/SOURCES.txt
+generator_dates.egg-info/dependency_links.txt
+generator_dates.egg-info/top_level.txt
