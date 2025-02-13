@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ragxo
+Version: 0.1.2
+Summary: A RAG (Retrieval-Augmented Generation) toolkit with Milvus integration
+Home-page: https://github.com/yourusername/ragx
+License: MIT
+Keywords: rag,milvus,nlp,embeddings,openai
+Author: Mohamed Sadek
+Author-email: mohamedfawzydes@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: dill (>=0.3.9,<0.4.0)
+Requires-Dist: milvus (>=2.3.9,<3.0.0)
+Requires-Dist: openai (>=1.61.1,<2.0.0)
+Requires-Dist: pydantic (>=2.10.6,<3.0.0)
+Requires-Dist: pymilvus (>=2.5.4,<3.0.0)
+Project-URL: Repository, https://github.com/yourusername/ragx
+Description-Content-Type: text/markdown
+
+
