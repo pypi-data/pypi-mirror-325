@@ -1,0 +1,12 @@
+stopments-25.2.6.dist-info/METADATA,sha256=A-VxK_J3uz9pLOGvzuXJ_f_m9axeby1DpLOiQBKFUEM,2175
+stopments-25.2.6.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+stopments-25.2.6.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+stopments-25.2.6.dist-info/licenses/LICENSE,sha256=Gzvu3Xp8NH00RC_zBm646UoS0qmr97Rp4DMGAsXUp8o,1294
+stopments/__init__.py,sha256=6eqSmTrkOQ9QvYCF0uA-05VZdpYkiTj3IuTroCSAvzU,315
+stopments/__version__.py,sha256=VsjFG7ZUcA6-Is1oG5g2E61sURNYSzNJnJfzpdHk1Ec,150
+stopments/elements.py,sha256=GEQvonq6pp7lr0wcrmjSs1q5jpvH4ycEK_P8a5xmpco,4866
+stopments/embed/__init__.py,sha256=djN6nRIPyAVwABsnhD4eyAV9_9lMqKmo1D3-oVH9tqU,1758
+stopments/static/favicon.ico,sha256=LL4LqSnhY3ldiDze8BSuGaeRHpD49oO-jmGMBaSFf8w,15086
+stopments/static/styles.min.css,sha256=4m2_98R1JBvKAKWf_2s3miA2qg5m57z5JMhQPDujEGc,297495
+stopments/static/web-components.min.js,sha256=Tqvw1qE2abI-G6dPQBc5zbeHqfVwGoamETU3_TSpUw4,2083081
+stopments-25.2.6.dist-info/RECORD,,
