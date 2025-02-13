@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+my_package/__init__.py
+my_package/module.py
+plenicus_disturber_errant.egg-info/PKG-INFO
+plenicus_disturber_errant.egg-info/SOURCES.txt
+plenicus_disturber_errant.egg-info/dependency_links.txt
+plenicus_disturber_errant.egg-info/top_level.txt

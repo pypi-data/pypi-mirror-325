@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plenicus_disturber_errant"
+version = "0.1.0"
+authors = [{name = "Aderibigbe Ayomide", email = "uniwylimp@gmail.com"}]
+description = "A simple greeting package"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+dependencies = []
