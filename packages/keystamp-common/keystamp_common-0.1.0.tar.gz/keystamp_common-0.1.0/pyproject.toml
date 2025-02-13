@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "keystamp-common"
+version = "0.1.0"
+description = "Common utilities for Keystamp client and server"
+authors = [
+    {name = "Keystamp", email = "derekch@cs.stanford.edu"}
+]
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Security :: Cryptography",
+]
+dynamic = ["readme"]
+license = {text = "MIT"}
+
+dependencies = [
+    "pydantic>=2.0.0",  # For data validation
+]
+
+[project.urls]
+Source = "https://github.com/keystamp/keystamp"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"], content-type = "text/markdown"}
+
+[tool.setuptools-scm]
+root = ".."

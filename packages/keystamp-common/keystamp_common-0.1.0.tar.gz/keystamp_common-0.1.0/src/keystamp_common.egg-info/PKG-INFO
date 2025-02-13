@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: keystamp-common
+Version: 0.1.0
+Summary: Common utilities for Keystamp client and server
+Author-email: Keystamp <derekch@cs.stanford.edu>
+License: MIT
+Project-URL: Source, https://github.com/keystamp/keystamp
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic>=2.0.0
