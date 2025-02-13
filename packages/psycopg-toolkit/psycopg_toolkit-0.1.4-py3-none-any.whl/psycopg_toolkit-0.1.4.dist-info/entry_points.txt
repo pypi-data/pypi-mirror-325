@@ -1,0 +1,3 @@
+[console_scripts]
+fix-readme=scripts.fix_readme:main
+
