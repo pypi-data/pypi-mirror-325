@@ -1,0 +1,13 @@
+django_command_form/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_command_form/admin.py,sha256=rhCtRYGW80a2R4LkRNTsif6z8aXaNmZ3XQp23ZbC3D0,6391
+django_command_form/command.py,sha256=UyR0KDsgS0_xlFukmiX37tIqrWyEQPfx_M05vg1sLNo,1997
+django_command_form/forms.py,sha256=P3ZKjXd_nX-S9uoKuAGJm7yY0Ftzlk1oyHfAumM3CqY,3480
+django_command_form/models.py,sha256=u2-HwKkNuS_CQBb_6Cb-W4uFGA2OwLfYhHtHQNfDASo,766
+django_command_form/parser_types.py,sha256=MvFmaUnojZkfvUqZlSLvWEepq6nrRkcfmjGpgtoEtmU,796
+django_command_form/templates/command/exec_done.html,sha256=4Vpf8nezYdYZqQlgonRrTNy86XJ_x2annrkfB9ZU2kE,333
+django_command_form/templates/command/exec_form.html,sha256=5UYHMFT98k2UvGUqahcUT13dAApIwbvrq37zO5O45C0,609
+django_command_form-0.0.5.dist-info/LICENSE,sha256=P9xoRKAz8EyH_FYdrkZ1JalzBWblV4sfYJALSI8Xs6w,1072
+django_command_form-0.0.5.dist-info/METADATA,sha256=yvjkiJvkWSF8jS5_7hko18SP_1C_ipA4rppHuGpkCh8,1818
+django_command_form-0.0.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+django_command_form-0.0.5.dist-info/top_level.txt,sha256=dYyw2x42DrUNcLUIFG3Ou5stIW85fy1O0mco3V-r2io,20
+django_command_form-0.0.5.dist-info/RECORD,,
