@@ -1,0 +1,51 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bzapi"
+version = "0.0.1"
+authors = [
+  { name="Boltzbit Python API", email="dev@boltzbit.com" },
+]
+description = "Python API for talking to Boltzbit services."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests >= 2.31",
+    "PyJWT>=2.10.1",
+    "urllib3>=1.25.3,<3.0.0",
+    "python-dateutil>=2.8.2",
+    "pydantic>=2",
+    "typing-extensions>=4.7.1"
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=24.1.1",
+    "isort>=5.13.0"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/Boltzbit-Limited/BoltzbitPythonAPI"
+Issues = "https://github.com/Boltzbit-Limited/BoltzbitPythonAPI/issues"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 88
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
