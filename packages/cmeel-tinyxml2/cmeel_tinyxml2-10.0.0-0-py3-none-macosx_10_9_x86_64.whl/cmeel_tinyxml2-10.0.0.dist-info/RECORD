@@ -1,0 +1,13 @@
+cmeel.prefix/include/tinyxml2.h,sha256=AvI4n-tn-7Pv5CqqaUIDS8fVRpXzV8Wqw8vS94oGyko,74509
+cmeel.prefix/lib/libtinyxml2.10.0.0.dylib,sha256=2cnRBcBY673TAIlyfIFFtSHwXJBswYwsCFjj6fg9EUU,110536
+cmeel.prefix/lib/libtinyxml2.10.dylib,sha256=2cnRBcBY673TAIlyfIFFtSHwXJBswYwsCFjj6fg9EUU,110536
+cmeel.prefix/lib/libtinyxml2.dylib,sha256=2cnRBcBY673TAIlyfIFFtSHwXJBswYwsCFjj6fg9EUU,110536
+cmeel.prefix/lib/cmake/tinyxml2/tinyxml2-config-version.cmake,sha256=WeWdh6DPl1pVUpRPiVJguoH6H2tW18iu67T8fHxbRKY,2765
+cmeel.prefix/lib/cmake/tinyxml2/tinyxml2-config.cmake,sha256=O84yy4upknxcI3bVOt3-uzRYghMArJO_4aMsEx7W0Ns,1988
+cmeel.prefix/lib/cmake/tinyxml2/tinyxml2-shared-targets-release.cmake,sha256=iisdVCJTiS1YY5VxsComcDpmyU8yrsiBnzW8FA1EEfU,895
+cmeel.prefix/lib/cmake/tinyxml2/tinyxml2-shared-targets.cmake,sha256=bDx1f5SGHt2H6XeSZqd1nx-ZvoNKjz-793WPbGeTreY,4265
+cmeel.prefix/lib/pkgconfig/tinyxml2.pc,sha256=8CtTBo-ocHdneuLR7gy8rks1YpkqUzLuwJ_VCxWfAJA,231
+cmeel_tinyxml2-10.0.0.dist-info/METADATA,sha256=drB1Lwp0r1CuYzDmN42e3FuPmUO0drVilzlgmrBv8RM,792
+cmeel_tinyxml2-10.0.0.dist-info/WHEEL,sha256=7j_vK-Ol57Bdj1i3eGUSDUz64AIvHdKl8kvYlOUVpZM,109
+cmeel_tinyxml2-10.0.0.dist-info/top_level.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmeel_tinyxml2-10.0.0.dist-info/RECORD,,
