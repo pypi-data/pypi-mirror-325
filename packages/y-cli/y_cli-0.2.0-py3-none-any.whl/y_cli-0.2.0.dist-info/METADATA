@@ -1,0 +1,33 @@
+Metadata-Version: 2.2
+Name: y-cli
+Version: 0.2.0
+Summary: Command-line real-time conversation app
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: openai>=1.0.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: prompt-toolkit>=3.0.0
+Requires-Dist: click>=8.1.0
+Requires-Dist: toml>=0.10.2
+Requires-Dist: tabulate>=0.9.0
+Requires-Dist: wcwidth>=0.2.13
+Requires-Dist: rich>=13.9.4
+Requires-Dist: pyperclip>=1.9.0
+Requires-Dist: mcp>=1.2.1
+
+# Chat CLI
+
+A command-line interface chat application.
+
+## Features
+
+- Interactive chat interface
+- Copy command support:
+  - Use `0` to copy entire message
+  - Use `1-n` to copy specific code blocks
+
+## Version
+
+Current version: 0.1.1
+
+See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
