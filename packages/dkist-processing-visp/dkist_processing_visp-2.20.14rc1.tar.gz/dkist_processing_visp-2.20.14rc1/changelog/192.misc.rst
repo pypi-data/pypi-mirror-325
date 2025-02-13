@@ -1,0 +1,2 @@
+Bump `dkist-inventory` and `dkist-processing-common` for non-ViSP related updates.
+Also bump a few minimum versions required by this update.
