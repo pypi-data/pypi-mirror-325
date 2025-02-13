@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/gpg_qr/README.md
+src/gpg_qr/__init__.py
+src/gpg_qr/main.py
+src/gpg_qr/requirements.txt
+src/gpg_qrcode.egg-info/PKG-INFO
+src/gpg_qrcode.egg-info/SOURCES.txt
+src/gpg_qrcode.egg-info/dependency_links.txt
+src/gpg_qrcode.egg-info/entry_points.txt
+src/gpg_qrcode.egg-info/requires.txt
+src/gpg_qrcode.egg-info/top_level.txt
