@@ -1,0 +1,10 @@
+media_control/__init__.py,sha256=2GV6Q4MMwJqPKyC6XLo_XrVCcYu5SHhjL6nMRqktFQw,120
+media_control/app.py,sha256=GkUkDre3SFmdc3nHjClyAQJjOjVq2YBNOgwd-O25LZY,2503
+media_control/static/index.css,sha256=NsD1Nmv2S13xIs7ady_gHKOwPpVa94L-kuSHP7sWiI4,1263
+media_control/static/keyboard.js,sha256=zNKekAnzZuC3GwbF6PvxREdZv-707_138D7u1tXndOw,42714
+media_control/templates/index.html,sha256=6WuW_ZT7mJER8RIRKA7nDMDxkgzZXoGB3gMNqg7E47w,5909
+media_control-0.0.1.dist-info/METADATA,sha256=Y-zbcv2Msh7kRSoaNwT20JdgXWBJdJSF6bbW_PUV-mQ,423
+media_control-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+media_control-0.0.1.dist-info/entry_points.txt,sha256=T4FHUfnRU4MgB3ba-WMfUA3BF-6EapsRKktWBt4_C-w,62
+media_control-0.0.1.dist-info/top_level.txt,sha256=i8Dt70Irm0rPu856fkNRFb7fnX5w1oSc5Pk52pJgAmc,14
+media_control-0.0.1.dist-info/RECORD,,
