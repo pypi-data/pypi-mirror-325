@@ -1,0 +1,28 @@
+[project]
+name = "nonebot-plugin-logpile"
+version = "0.2.2"
+description = "NoneBot2 local log files"
+authors = [
+    { name = "Akirami", email = "Akiramiaya@outlook.com" },
+]
+dependencies = [
+    "nonebot2>=2.3.3",
+    "cookit[pyd]>=0.8.1",
+]
+requires-python = ">=3.9,<4"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/A-kirami/nonebot-plugin-logpile"
+Repository = "https://github.com/A-kirami/nonebot-plugin-logpile"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
