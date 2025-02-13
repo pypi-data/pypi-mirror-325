@@ -1,0 +1,7 @@
+govee_ble/__init__.py,sha256=Dp_Poyryz7CWL2-bmnCWMMoTAZWgjQ66JzB33V58xO8,998
+govee_ble/parser.py,sha256=jRJCFvcOgJQ2hLewvcao7K_J7nxULOMBxZZDRzYYDSg,29193
+govee_ble/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+govee_ble-0.43.0.dist-info/LICENSE,sha256=FzDdzTfWQdyrpD7tQCGTCmfnJGITk9gCEgwUqUBjnEg,11345
+govee_ble-0.43.0.dist-info/METADATA,sha256=EaWx8vfM7pgHZqckjEeT3Z7JziDn_mMIpyQEBHeMUTo,4990
+govee_ble-0.43.0.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+govee_ble-0.43.0.dist-info/RECORD,,
