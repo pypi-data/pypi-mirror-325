@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "plinear"
+version = "0.2.0.4"
+description = "parallel neural network layer for binarization of ternarization - quantized layers from the beginning"
+authors = ["Choi Soon Ho <sosaror@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Snow0821/plinear"
+
+packages = [
+    { include = "plinear" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = ">=1.21, <2.0"
+
+[tool.poetry.group.dev.dependencies]
+tdqm = "^0.0.1"
+huggingface-hub = {extras = ["cli"], version = "^0.27.0"}
+datasets = "^3.2.0"
+matplotlib = "^3.10.0"
+pandas = "^2.2.3"
+pytorch-lightning = "^2.5.0.post0"
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
