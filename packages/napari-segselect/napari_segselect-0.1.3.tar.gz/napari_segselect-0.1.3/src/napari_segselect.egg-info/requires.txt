@@ -1,0 +1,8 @@
+numpy
+magicgui
+mrcfile
+scipy
+
+[testing]
+napari
+ruff
