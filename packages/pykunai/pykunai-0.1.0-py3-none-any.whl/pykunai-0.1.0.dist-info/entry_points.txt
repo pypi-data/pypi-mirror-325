@@ -1,0 +1,7 @@
+[console_scripts]
+kunai-graph = graph:main
+kunai-iocgen = iocgen:main
+kunai-search = search:main
+kunai-to-misp = kunai_to_misp:main
+misp-to-kunai = misp_to_kunai:main
+zob = tools.iocgen:main
