@@ -1,0 +1,8 @@
+setup.py
+wizata_demo_scripts/__init__.py
+wizata_demo_scripts/demo_plots.py
+wizata_demo_scripts/demo_scripts.py
+wizata_demo_scripts.egg-info/PKG-INFO
+wizata_demo_scripts.egg-info/SOURCES.txt
+wizata_demo_scripts.egg-info/dependency_links.txt
+wizata_demo_scripts.egg-info/top_level.txt
