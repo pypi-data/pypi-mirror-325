@@ -1,0 +1,11 @@
+ai_commit/__init__.py,sha256=8vNdHiHBL_wzGTVM0eTChrnVeWRVCRrx1EF6H1nECQ4,946
+ai_commit/app.py,sha256=L8vc2YWhS-wtH_dHc4UJGSw_nWiUWTN69rED6eu7gT0,6322
+ai_commit/prompts.py,sha256=1wNpbmP7UslGdv12U8n40ZezEK-qjzpGWd60BbPjC9E,1850
+ai_commit/providers.py,sha256=dLO9lslCEmdci2Ls-TvShrXGxHmxGK3oN8R3YgwnnhE,1745
+ai_commit/utils.py,sha256=2nAE6hfDUmJe3ccHoA-Oed2dWPd10uF0N7kPsrhwy_4,2045
+ai_gen_commit-0.0.6.dist-info/LICENSE,sha256=4G8zwpKlJHg6p1e7ISlcLgzStiXhBqMLZJMkQqgG6i8,1072
+ai_gen_commit-0.0.6.dist-info/METADATA,sha256=Svdi0zeao0bq-90KVA24MPH5nhBPYu7Df4OLwoRICaU,2947
+ai_gen_commit-0.0.6.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ai_gen_commit-0.0.6.dist-info/entry_points.txt,sha256=HlhOoblwFf_81vFM0fq-bze0ok3eYoZxilkI9zn1wXU,42
+ai_gen_commit-0.0.6.dist-info/top_level.txt,sha256=xzo4o4ZjM0T1PlzuuOmsa21x-DJLJKnzk4svgoYI0PM,10
+ai_gen_commit-0.0.6.dist-info/RECORD,,
