@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iithlp"
+version = "0.1.2"
+description = "A package to convert Indic script characters to iithlp format."
+authors = [{ name = "Ramanan Sivasubramanian", email = "ramanan93@gmail.com" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["pandas"]
+
+[project.scripts]
+iithlp = "iithlp.converter:main"
