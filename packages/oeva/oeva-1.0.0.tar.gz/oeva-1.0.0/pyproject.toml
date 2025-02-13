@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oeva"
+version = "1.0.0"
+authors = [
+    { name="Kareem Elbahrawy", email="kareem.elbahrawy@gmail.com" },
+]
+description = "Eva - AI Assistant and Project Management Tool"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kareemelbahrawy/eva"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"] 
