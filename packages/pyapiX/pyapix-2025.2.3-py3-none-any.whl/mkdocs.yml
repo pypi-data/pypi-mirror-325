@@ -1,0 +1,4 @@
+theme:
+ name: material
+
+ # site_url: !ENV READTHEDOCS_CANONICAL_URL
