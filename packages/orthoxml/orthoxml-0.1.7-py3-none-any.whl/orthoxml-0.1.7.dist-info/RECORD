@@ -1,0 +1,15 @@
+orthoxml/__init__.py,sha256=nnt6gjF-QJSJNkAdylnuuaAH860m_o4_lDf-p9bRky8,87
+orthoxml/exceptions.py,sha256=6v9rVq2aN96wGqzbFDGdbVRhNtk4nkM5xsPjt_FECao,65
+orthoxml/exporters.py,sha256=rhP3L9QMl1HKOJyTOFN857yBs4ll3HmRPzVEDgaypTU,15
+orthoxml/loaders.py,sha256=umF6uCWWaNgcIiDq_TWjK6hk-mPTuw-vKF4Eer9pjH8,2860
+orthoxml/logger.py,sha256=NY_zRKqXKpuMUZ_hqLXtDs_2i-U_k3EgREA26rDdQlw,777
+orthoxml/models.py,sha256=TkN0ZXbKCSKriKulvVs2PleVZ8Hag6l0hajIG6Gxrw0,5964
+orthoxml/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orthoxml/tree.py,sha256=Lx_utdLOTW9ZF4HBmyD2czoZaRbMijrDDzpGmDc8cQc,2548
+orthoxml/schemas/orthoxml-0.3.xsd,sha256=ABzd2-ifGuqjoa6g3fwgBwfLKj2wxc1xoDaAjnPoBw8,15417
+orthoxml/schemas/orthoxml-0.4.xsd,sha256=LjbJs6UpVk30C15A-FkmVoJyLBAbFX0cDJicFrkZjJM,15577
+orthoxml/schemas/orthoxml-0.5.xsd,sha256=iJdPAn6UTvVgg1eUeYiGXrk_a6gNHINuonlk0EUzeLE,18686
+orthoxml-0.1.7.dist-info/METADATA,sha256=tr4blFBL9FsfxL5K0NCObulcD6owNCTV1Sfl_AuDdY4,930
+orthoxml-0.1.7.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+orthoxml-0.1.7.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+orthoxml-0.1.7.dist-info/RECORD,,
