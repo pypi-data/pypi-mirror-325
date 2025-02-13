@@ -1,0 +1,31 @@
+Metadata-Version: 2.2
+Name: avgangstider
+Version: 0.9.11
+Summary: Avgangstider fra EnTur
+Author-email: Martin Høy <martin@hoy.priv.no>
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: pydantic>=2.10.6
+Requires-Dist: requests>=2.32.3
+Requires-Dist: flask>=3.1.0
+Requires-Dist: gunicorn>=23.0.0
+
+
+.. image:: https://github.com/marhoy/flask-entur-avgangstider/actions/workflows/main.yml/badge.svg
+
+About
+=====
+
+Avgangstider gir deg avgangstider og potensielle forsinkelser for all
+kollektivtrafikk som `Entur <https://en-tur.no/>`_ har oversikt over.
+Pakka består av to deler:
+
+*  Et Python-API for å hente avgangstider og forsinkelser fra Entur.
+*  En Flask app som viser de neste avgangene fra et stoppested.
+
+Dokumentasjon
+=======================================================
+
+`Dokumentasjon <https://avgangstider.readthedocs.io>`_ finnes på rtd.io.
+
