@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: nv_ingest_client
+Version: 2025.2.6.dev2
+Summary: Python client for the nv-ingest service
+Author: Anuradha Karuppiah
+Author-email: anuradhak@nvidia.com
+License: Apache-2.0
+Requires-Python: >=3.10
+Dynamic: author
+Dynamic: author-email
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
