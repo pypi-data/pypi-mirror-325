@@ -1,0 +1,12 @@
+
+#ignore /figures folder
+figures/
+*__pycache__*
+
+
+_version.py
+
+.bashrc.save
+
+.ipynb*
+.spyproject*
