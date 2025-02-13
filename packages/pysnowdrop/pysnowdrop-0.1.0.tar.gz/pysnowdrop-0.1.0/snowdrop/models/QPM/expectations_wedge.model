@@ -1,0 +1,32 @@
+%==========================================================================
+% Expectations wedge
+%==========================================================================
+
+!transition_variables
+"Surveyed 2yr-ahead expectations of annual inflation (in %)" E8_dot4_cpi_ber
+"E8_dot4_cpi_ber converted to levels" lcpi_ber
+
+!transition_equations     
+E8_dot4_cpi_ber =  u1*(dot_cpi{-1} ...
+                     + dot_cpi{-2} ...
+                     + dot_cpi{-3} ...
+                     + dot_cpi{-4})/4  ...
+                + u2*ss_target ...
+                + (1-u1-u2)*E8_dot4_cpi_ber{-1} ...   
+                + e_E8_dot4_cpi_ber;    
+            
+%ag lcpi_ber = lcpi_ber{-4} + E8_dot4_cpi_ber;
+lcpi_ber = lcpi_ber{-1} + E8_dot4_cpi_ber/4;
+
+!transition_shocks
+e_E8_dot4_cpi_ber
+
+!parameters
+u1 = 0.4
+u2 = 0.1
+
+!measurement_variables
+obs_E8_dot4_cpi_ber
+
+!measurement_equations
+obs_E8_dot4_cpi_ber = E8_dot4_cpi_ber; 
