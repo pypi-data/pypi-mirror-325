@@ -1,0 +1,2 @@
+[console_scripts]
+cyb600-lab1 = csc_cyb600_huff4.main:main
