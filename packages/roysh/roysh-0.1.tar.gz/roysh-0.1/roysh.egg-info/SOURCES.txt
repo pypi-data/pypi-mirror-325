@@ -1,0 +1,10 @@
+README.md
+setup.py
+roysh/__init__.py
+roysh/shell.py
+roysh.egg-info/PKG-INFO
+roysh.egg-info/SOURCES.txt
+roysh.egg-info/dependency_links.txt
+roysh.egg-info/entry_points.txt
+roysh.egg-info/requires.txt
+roysh.egg-info/top_level.txt
