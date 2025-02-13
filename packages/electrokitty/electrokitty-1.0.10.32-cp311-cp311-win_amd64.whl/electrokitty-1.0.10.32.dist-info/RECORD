@@ -1,0 +1,15 @@
+cpp_ekitty_simulator.cp311-win_amd64.pyd,sha256=St9pF0e_A-X_z-Z-CVlW6M1WY_ViJ4p7BvfVLaeqdns,275456
+electrokitty/ElectroKitty_MCMC_sampler.py,sha256=lu9yvHMgnBY2ZVI-E0yZ65MnAvLI0DP3Alw-b1Vaflo,8943
+electrokitty/ElectroKitty_base_class.py,sha256=TMHERMc3hgOjE-DXiEqvWAkxFj-gtg4qDk-gby34kp8,36498
+electrokitty/ElectroKitty_loss_functions.py,sha256=v_nvxdjk8UAqK4kvQKBz5tjjfg5yXBPPufZXiMtI5wA,14973
+electrokitty/ElectroKitty_optimization_controler.py,sha256=8ffbwnvFp_gDAY1MQXINIZQyQ8y5Ed9B9Tb5v7d2Oi4,2391
+electrokitty/ElectroKitty_parser.py,sha256=Lyl5AjCGLy87PLJGgzCRbaIMEo4aqYr5dA8a6YyKuWA,7950
+electrokitty/ElectroKitty_simulator.py,sha256=39TvVznnMslGK7TfwhlYAPLPShYQqK6DsN-ehHsbGH8,23722
+electrokitty/__init__.py,sha256=ugDr-FnDvpsfmXGQIrzNfciHmzsYVgUbV_EL4LHsBe4,251
+electrokitty/optimization_routines.py,sha256=Oxcg7vt8M2qruDO1mNRPIl2-WWYEVv3u9thu4KNQQGU,11724
+electrokitty/cpp_code/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+electrokitty-1.0.10.32.dist-info/LICENCE,sha256=pUcbZetaBdguWKcqdZ7kiu4z3UD2dw7AmHHOkWNZ8dw,1525
+electrokitty-1.0.10.32.dist-info/METADATA,sha256=2eOSGid5CyyjolOcr7EMvdJzX1VFGeQgZ6fmBlLn0Ms,433
+electrokitty-1.0.10.32.dist-info/WHEEL,sha256=tE2EWZPEv-G0fjAlUUz7IGM64246YKD9fpv4HcsDMkk,101
+electrokitty-1.0.10.32.dist-info/top_level.txt,sha256=vUR5-5W3ayWh8eZ2WTkDFPx0bmrttevzxMazjCbJ3rE,34
+electrokitty-1.0.10.32.dist-info/RECORD,,
