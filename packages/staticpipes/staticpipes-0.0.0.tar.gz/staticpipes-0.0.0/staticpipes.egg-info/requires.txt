@@ -1,0 +1,10 @@
+watchdog
+jinja2
+
+[staticpipesdev]
+pytest
+black
+isort
+mypy
+flake8
+sphinx
