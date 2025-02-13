@@ -1,0 +1,15 @@
+pyvikunja/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyvikunja/api.py,sha256=z7VIeSbJwyDo5N9TZdo-uxQG8sYp2PWzN8PgYOz3Cek,5184
+pyvikunja/models/label.py,sha256=cOOuVYDVDMmK96Ev22EDgWwXljkAonQNL4XsTMay4K4,467
+pyvikunja/models/models.py,sha256=RCPsYQtcgE-W5ZmhwGDejAI76nHZ9-1X-x5GeTG4RnI,637
+pyvikunja/models/project.py,sha256=viVIe3lVgbh7k05ADDds1cwzvC1vf4tT2vSNjbB7KMk,1179
+pyvikunja/models/task.py,sha256=9-pGUZPtTPSsHqCaKkLPqGbfKeMIf2yJPNGhzEUMADo,4177
+pyvikunja/models/team.py,sha256=0Z3828Cm3nNuNr1z2on63fLYAVW325_SQKi5RmqXf-I,559
+pyvikunja/models/user.py,sha256=36duFNyGXKzlwqO0d6FA-C1KTCci2sIMU1IBIF-N_LM,310
+pyvikunja/models/enum/repeat_mode.py,sha256=T0cOJcCYJjewZ9dQ41cEFYmOEEfW73cM4xxNYmH8y6s,106
+pyvikunja/models/enum/task_priority.py,sha256=aVz1HEofIqwUkXG0vYm58n_vLNbgqtbvHuQ5K-YQqA0,119
+pyvikunja-0.5.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+pyvikunja-0.5.dist-info/METADATA,sha256=2SNwcksb0PgrjgleKyc3dSIov2_cak0wi032mmw75Dc,187
+pyvikunja-0.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pyvikunja-0.5.dist-info/top_level.txt,sha256=WVV9zgxUBuWOkUY1t_U7zI0paWWTVelKYB4vjsiKsks,10
+pyvikunja-0.5.dist-info/RECORD,,
