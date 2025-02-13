@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=F3G9GAq-ZovbN9u29FwrmR34x3SSESrWRrw8xHayXvo,845
+tests/clones/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/clones/test_yapsy_clone.py,sha256=NLkBv1HURles0Op6lx95fX2kV6YPEOSbcimcFdB5HFQ,1052
+tests/integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/integration/test_plugin_system.py,sha256=tLS3hAyfnPBP_AYc3fxnSDWeEp_8g1wvbEXp6lW3cVk,852
+baukasten-0.0.1.dist-info/METADATA,sha256=TPEnzVlSQXQLZknbMHGqfpV-5iv3kloo81SLnMhZxwI,3139
+baukasten-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+baukasten-0.0.1.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+baukasten-0.0.1.dist-info/RECORD,,
