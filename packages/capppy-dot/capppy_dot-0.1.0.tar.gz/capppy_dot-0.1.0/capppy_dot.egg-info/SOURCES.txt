@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+capppy_dot.egg-info/PKG-INFO
+capppy_dot.egg-info/SOURCES.txt
+capppy_dot.egg-info/dependency_links.txt
+capppy_dot.egg-info/top_level.txt
