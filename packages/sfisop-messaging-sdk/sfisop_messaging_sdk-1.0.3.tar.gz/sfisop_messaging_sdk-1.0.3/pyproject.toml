@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "sfisop-messaging-sdk"
+version = "1.0.3"
+description = "SDK for the SmartOcean Platform Messaging Service"
+authors = ["The SmartOcean Consortium"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "sfisop", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0.0"
+annotated-types = "^0.6.0"
+certifi = "2024.7.4"
+charset-normalizer = "^3.3.2"
+dnspython = "^2.6.1"
+idna = "^3.7"
+paho-mqtt = "^2.1.0"
+pydantic-core = "^2.16.3"
+pymongo = "4.6.3"
+python-dateutil = "^2.9.0.post0"
+python-decouple = "^3.8"
+pyyaml = "^6.0.1"
+requests = "^2.32.0"
+six = "^1.16.0"
+urllib3 = "^2.2.2"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
