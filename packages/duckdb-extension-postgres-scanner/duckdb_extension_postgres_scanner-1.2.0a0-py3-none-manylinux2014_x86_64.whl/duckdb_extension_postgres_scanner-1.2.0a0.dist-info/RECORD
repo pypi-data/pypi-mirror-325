@@ -1,0 +1,5 @@
+duckdb_extension_postgres_scanner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckdb_extension_postgres_scanner/extensions/v1.2.0/postgres_scanner.duckdb_extension,sha256=om6Qj5o6GF_aVI0J3qf5n0Yw7KUE4NsJl354_HFco-Y,43398190
+duckdb_extension_postgres_scanner-1.2.0a0.dist-info/METADATA,sha256=wNuylv_rB6qzAODfzjfJHRbr4oO9uHJg7FdEKnl645o,2239
+duckdb_extension_postgres_scanner-1.2.0a0.dist-info/WHEEL,sha256=ElIck4UKS1gfqi_USxboIISULsrnySUDnW4muwHK3us,104
+duckdb_extension_postgres_scanner-1.2.0a0.dist-info/RECORD,,
