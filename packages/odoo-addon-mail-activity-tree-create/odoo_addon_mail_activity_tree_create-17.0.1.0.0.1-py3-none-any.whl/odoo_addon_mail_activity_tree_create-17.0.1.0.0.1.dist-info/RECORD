@@ -1,0 +1,14 @@
+odoo/addons/mail_activity_tree_create/README.rst,sha256=LgtxSYgRpt2C48kLlBAopv-cy3aa_ku-A7u_YT7M3u0,2467
+odoo/addons/mail_activity_tree_create/__init__.py,sha256=FNlMPDojEQpwvHZlf1L1FiQCxOYOu7R3lMKD6aozhvU,65
+odoo/addons/mail_activity_tree_create/__manifest__.py,sha256=8o2hNcQ1lXe4wiVuz_7o-R5UmiHttHAEfx6ZguTJ9q4,499
+odoo/addons/mail_activity_tree_create/readme/CONTRIBUTORS.md,sha256=SRXoZA87mLhfmAYaBflcGgOCv9AjYagqkvGI9VzG2VA,99
+odoo/addons/mail_activity_tree_create/readme/DESCRIPTION.md,sha256=J7K20U4lWG4Rd5U5wup1NzBfBBPgTINumK4Dn2MjMbg,95
+odoo/addons/mail_activity_tree_create/readme/ROADMAP.md,sha256=4emdlsshC2CoCMOCUgCILiiY46mWecvLi0hNiwFlJ-8,61
+odoo/addons/mail_activity_tree_create/readme/USAGE.md,sha256=fEwp9fu4jiaZe4rjiOQhq351OJEQgTxxkVI07duYUzk,176
+odoo/addons/mail_activity_tree_create/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo/addons/mail_activity_tree_create/static/description/index.html,sha256=5FSnw-Iyav7Yq-7uRpsdkmCNLzkIBXYCWgi8R_4LDx0,12059
+odoo/addons/mail_activity_tree_create/views/mail_activity_views.xml,sha256=_jkVVsf3qvSmb5zNy5ac7RL6bfqEEmcZfONjuNJsFG0,695
+odoo_addon_mail_activity_tree_create-17.0.1.0.0.1.dist-info/METADATA,sha256=P1rlFM4YjyXI8pch7ndfIOMCgj1IG2wnL_-QqbDRJEs,3022
+odoo_addon_mail_activity_tree_create-17.0.1.0.0.1.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_mail_activity_tree_create-17.0.1.0.0.1.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_mail_activity_tree_create-17.0.1.0.0.1.dist-info/RECORD,,
