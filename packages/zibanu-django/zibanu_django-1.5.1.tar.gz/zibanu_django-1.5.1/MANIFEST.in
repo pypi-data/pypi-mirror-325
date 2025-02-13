@@ -1,0 +1,8 @@
+﻿# Do None
+recursive-include ./zibanu/django/locale/ *
+recursive-include ./zibanu/django/template/locale/ *
+recursive-exclude ./zibanu/django/auth/ *
+recursive-exclude ./zibanu/django/gis/ *
+recursive-exclude ./zibanu/django/logging/ *
+recursive-exclude ./zibanu/django/repository/ *
+
