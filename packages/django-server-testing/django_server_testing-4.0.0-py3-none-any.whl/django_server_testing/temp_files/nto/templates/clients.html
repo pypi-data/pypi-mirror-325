@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} Название{% endblock %}
+
+{% block content %}
+<h1>Таблица </h1>
+<div class="section">
+	<form action="{% url 'clients_new' %}">
+		<input type="submit" value="Добавить Объект" />
+	</form>
+	<!-- <div class="search">
+		<form method="POST">
+			{% csrf_token %}
+			<input type="text" name="sear" id="name" placeholder="ФИО (с проблеами)" style="width: 200px;" required/>
+			<input type="submit" value="Поиск" name="search"/>
+		</form>
+		<form method="POST">
+			{% csrf_token %}
+			<input type="submit" value="Показать все" name="vse"/>
+		</form>
+	</div> -->
+	{% if clients %}
+	<form method="POST">
+		{% csrf_token %}
+		<table class="table" border="1" >
+			<thead>
+				<tr>
+					<th>ФИО клиента</th>
+					<th>Номер телефона</th>
+					<th>Почта</th>
+					<th colspan="2">Действия</th>
+				</tr>
+			</thead>
+			<tbody>
+			{% for client in clients %}
+				<tr>
+					<td>{{ client.full_name }}</td>
+					<td>{{ client.phone_number }}</td>
+					<td>{{ client.email }}</td>
+					<td>
+						<a class="ab" href="{% url 'clients_edit' id=client.id %}" title="Изменить">
+							<img src="{% static '/img/edit_button.svg' %}" alt="Изменить"></img>
+						</a>
+					</td>
+					<td>
+						<a class="ab" href="{% url 'clients_delete' id=client.id %}" title="Удалить">
+							<img src="{% static '/img/delete_button.svg' %}" alt="Удалить"></img>
+						</a>
+					</td>
+				</tr>
+			{% endfor %}
+			</tbody>
+			<!-- <tfoot>
+				<tr></tr>
+			</tfoot> -->
+		</table>
+	</form>
+	{%else%}
+		<p>No objects</p>
+	{% endif %}
+</div>
+{% endblock %}
