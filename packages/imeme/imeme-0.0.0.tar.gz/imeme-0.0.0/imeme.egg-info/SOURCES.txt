@@ -1,0 +1,13 @@
+Cargo.toml
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+imeme/__init__.py
+imeme.egg-info/PKG-INFO
+imeme.egg-info/SOURCES.txt
+imeme.egg-info/dependency_links.txt
+imeme.egg-info/not-zip-safe
+imeme.egg-info/requires.txt
+imeme.egg-info/top_level.txt
+src/lib.rs
