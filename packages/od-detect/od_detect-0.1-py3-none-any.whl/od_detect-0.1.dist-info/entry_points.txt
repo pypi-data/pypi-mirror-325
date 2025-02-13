@@ -1,0 +1,2 @@
+[console_scripts]
+od-detect = pd_detector.detect:main

@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: od-detect
+Version: 0.1
+Summary: A library for car and license plate detection
+Author: mahdi
+Author-email: mahdihuseine@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: ultralytics
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+This library provides car and license plate detection using YOLO.
