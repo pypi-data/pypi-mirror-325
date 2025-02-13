@@ -1,0 +1,10 @@
+django_json_editor_field/.gitignore,sha256=8qnPatyu1SCgeVbkmqHRgfbD7km1-0HQjbBE5V6u1tU,22
+django_json_editor_field/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_json_editor_field/fields.py,sha256=vvXKsx4FoTBvep-bx7Sky0mRjPSmnku5Fe1zvAzjEB4,1385
+django_json_editor_field/widgets.py,sha256=FGqw_XoGHkfA0KxV_vA3zgfgGHROYnhoftRt7AUVor4,655
+django_json_editor_field/static/css/jsonwidget.css,sha256=63AGTobMWEWaWmDUSCcOVk-nEo1rIAiM-7Zvza0HkiQ,143
+django_json_editor_field/static/js/jsonwidget.js,sha256=FgeHrgAAFV4mLop42oTzzX-X1cGSw-KU-k6HRiwhFNM,680
+django_json_editor_field/templates/widgets/json_editor_widget.html,sha256=E4otyI15RpaOZSZX4yxUy4VMg8N0FMkNgSIHBKbVZWI,108
+django_json_editor_field-0.4.2.dist-info/METADATA,sha256=tlkBAdTVf2OarJa2YraZBAFkKiB1vQEsc3CKWtgq4xw,2066
+django_json_editor_field-0.4.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+django_json_editor_field-0.4.2.dist-info/RECORD,,
