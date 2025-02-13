@@ -1,0 +1,15 @@
+twat_cache/__init__.py,sha256=h2ViFdJxZSJfmJ8mhgD5td7hkw159mzsd1o4w1pF9pE,577
+twat_cache/__main__.py,sha256=_wBESzz0J-TF901zR-NZ6CrAzl4k3FF_tEt7i5_6ehc,3577
+twat_cache/__version__.py,sha256=ay9A4GSmtr3NioHirRgXvWfXtjwRjzXIO_WPuFobCoI,411
+twat_cache/cache.py,sha256=g721io9C5miNPGCW7V-uWQg1vUmk4EBrFPLtYwaJrTM,1664
+twat_cache/paths.py,sha256=6QB8kA1CckiRNLL0iF25sOUIUyYm7ddJkseHL7mLCJA,1196
+twat_cache/engines/__init__.py,sha256=584RMym3AjBVzStnUPv73b44NhHai9gCJW_pHrLzruI,234
+twat_cache/engines/base.py,sha256=0SSA45FcAKQGlLFkW2YZKMKcRlZBayinYKzi8Wyzrrc,862
+twat_cache/engines/diskcache.py,sha256=K9l_pKVW3i1iGYH_HV4soHMHIwkNj7gBLWuK3UgTPyQ,1458
+twat_cache/engines/joblib.py,sha256=pb59EWECsMcOpCJ2IUSnEnLVsMOA8XHiq4zVrQ2SoIM,1611
+twat_cache/engines/lru.py,sha256=iPQIYw6w3hi882f1-2VruhGvtNQTNM_RWGCtKnL9qEQ,1054
+twat_cache-1.6.2.dist-info/METADATA,sha256=se1DJ84KhkgKDZEIhpRg2QXrLQNELjw1EShs2kj7YnU,3818
+twat_cache-1.6.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+twat_cache-1.6.2.dist-info/entry_points.txt,sha256=J_hjDHJ_6lrHgkYJ_iBqUVjS0VpRCWX-HSeYNkyPk4A,34
+twat_cache-1.6.2.dist-info/licenses/LICENSE,sha256=owbwpVdTHiU18mRyRzvr1DDQe_Rjs1FCkEdzMGJIU9U,1069
+twat_cache-1.6.2.dist-info/RECORD,,
