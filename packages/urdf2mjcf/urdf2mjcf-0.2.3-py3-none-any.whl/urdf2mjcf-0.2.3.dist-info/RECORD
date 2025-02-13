@@ -1,0 +1,11 @@
+urdf2mjcf/__init__.py,sha256=-LLUGMQjoYUDjQvJHRRWFaYOonD9Ts39mY8FJ4JTK8M,72
+urdf2mjcf/convert.py,sha256=K2756s6sG2XGdHnlQ8NkvoClTML9lPQ40NMFcWizQq0,31922
+urdf2mjcf/model.py,sha256=_yijAbhUdgVEMqfz7yazdTVemHhwgrEC7ItUg3kAn08,1329
+urdf2mjcf/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+urdf2mjcf/utils.py,sha256=sZv0quOsof5tFCwjF2x6Ovb_cUuiEiBDyu1C0ugkejQ,2362
+urdf2mjcf-0.2.3.dist-info/LICENSE,sha256=HCN2bImAzUOXldAZZI7JZ9PYq6OwMlDAP_PpX1HnuN0,1071
+urdf2mjcf-0.2.3.dist-info/METADATA,sha256=x64wy1XuYUwxBw7G4foDrkcsFFVLbyNP1vC-ohKK7Vc,1960
+urdf2mjcf-0.2.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+urdf2mjcf-0.2.3.dist-info/entry_points.txt,sha256=JRhYH1BW3HEFcH8uGsBghQJnyWJZTmoKKSuLB30Xems,53
+urdf2mjcf-0.2.3.dist-info/top_level.txt,sha256=f8OZ0LCcyziJuWTvznb7kn6wtMS3gxKLE6vjrAcup4A,10
+urdf2mjcf-0.2.3.dist-info/RECORD,,
