@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pystrector"
+version = "0.3.2"
+description = "Python Struct Reflector"
+authors = ["bontail"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pycparser = "^2.22"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
