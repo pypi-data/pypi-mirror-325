@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: digimat.danfossally
+Version: 0.1.3
+Summary: Digimat DanfossAlly Wrapper
+Home-page: https://www.digimat.ch
+Author: Frederic Hess
+Author-email: fhess@st-sa.ch
+License: PSF
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: ptable
+Requires-Dist: requests
+Requires-Dist: setuptools
+
+==========================
+Python digimat.danfossally
+==========================
+
+No documentation available yet ;(
