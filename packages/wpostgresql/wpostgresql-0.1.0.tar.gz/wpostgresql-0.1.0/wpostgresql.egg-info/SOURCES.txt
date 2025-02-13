@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+wpostgresql/__init__.py
+wpostgresql.egg-info/PKG-INFO
+wpostgresql.egg-info/SOURCES.txt
+wpostgresql.egg-info/dependency_links.txt
+wpostgresql.egg-info/top_level.txt
+wpostgresql/wpostgresql/__init__.py
+wpostgresql/wpostgresql/controller.py
