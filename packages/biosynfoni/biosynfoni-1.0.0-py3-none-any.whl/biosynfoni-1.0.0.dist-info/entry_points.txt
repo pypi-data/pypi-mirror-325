@@ -1,0 +1,2 @@
+[console_scripts]
+biosynfoni = biosynfoni.concerto_fp:main
