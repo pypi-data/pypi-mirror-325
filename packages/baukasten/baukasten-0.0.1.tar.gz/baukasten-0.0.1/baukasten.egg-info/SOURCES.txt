@@ -1,0 +1,13 @@
+README.md
+setup.py
+baukasten.egg-info/PKG-INFO
+baukasten.egg-info/SOURCES.txt
+baukasten.egg-info/dependency_links.txt
+baukasten.egg-info/requires.txt
+baukasten.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/clones/__init__.py
+tests/clones/test_yapsy_clone.py
+tests/integration/__init__.py
+tests/integration/test_plugin_system.py
