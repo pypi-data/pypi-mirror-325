@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: dmt-auto-gui
+Version: 0.1.1
+Summary: 
+Author: Daniel
+Author-email: daniel.mtorres7@gmail.com
+Requires-Python: >=3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pillow (>=11.1.0,<12.0.0)
+Requires-Dist: pyautogui (>=0.9.54,<0.10.0)
+Requires-Dist: pyperclip (>=1.9.0,<2.0.0)
+Requires-Dist: pyscreeze (>=1.0.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# dmt-auto-gui
+
