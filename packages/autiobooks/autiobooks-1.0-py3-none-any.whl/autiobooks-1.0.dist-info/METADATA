@@ -1,0 +1,59 @@
+Metadata-Version: 2.2
+Name: autiobooks
+Version: 1.0
+Summary: Automatically convert epubs to audiobooks
+Home-page: https://github.com/plusuncold/autiobooks
+Author: David Nesbitt
+Project-URL: Homepage, https://github.com/plusuncold/autiobooks
+Project-URL: Documentation, https://github.com/plusuncold/autiobooks
+Project-URL: Repository, https://github.com/plusuncold/autiobooks
+Project-URL: Issues, https://github.com/plusuncold/autiobooks/issues
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pillow>=10.0.0
+Requires-Dist: tk>=0.1.0
+Requires-Dist: kokoro<0.3.0,>=0.2.3
+Requires-Dist: ebooklib<0.19,>=0.18
+Requires-Dist: soundfile<0.14.0,>=0.13.1
+Requires-Dist: pygame<3.0.0,>=2.0.1
+Requires-Dist: bs4<0.0.3,>=0.0.2
+Requires-Dist: pydub<0.26.0,>=0.25.1
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# Autiobooks: Automatically convert epubs to audiobooks
+[![Installing via pip and running](https://github.com/plusuncold/autiobooks/actions/workflows/pip-install.yaml/badge.svg)](https://github.com/plusuncold/autiobooks/actions/workflows/pip-install.yaml)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/autiobooks)
+![PyPI - Version](https://img.shields.io/pypi/v/autiobooks)
+
+Autiobooks generates `.m4b` audiobooks from regular `.epub` e-books, using Kokoro's high-quality speech synthesis.
+
+[Kokoro v0.19](https://huggingface.co/hexgrad/Kokoro-82M) is a recently published text-to-speech model with just 82M params and very natural sounding output.
+It's released under Apache licence and it was trained on < 100 hours of audio.
+It currently supports American, British English, French, Korean, Japanese and Mandarin, and a bunch of very good voices.
+
+## How to install and run
+
+If you have Python 3 on your computer, you can install it with pip.
+Be aware that it won't work with Python 3.13.
+
+```bash
+pip install autiobooks
+```
+
+To start the program, run:
+
+```bash
+autiobooks
+```
+
+It will first create a bunch of `book_chapter_1.wav`, `book_chapter_2.wav`, etc. files in the same directory,
+and at the end it will produce a `book.m4b` file with the whole book you can listen with VLC or any
+ audiobook player.
+It will only produce the `.m4b` file if you have `ffmpeg` installed on your machine.
+
+## Author
+by David Nesbitt, distributed under MIT license. Check out the excellent project [audiblez](https://github.com/santinic/audiblez) if you'd prefer a
+command-line interface. This project uses some code from the project but has diverged.
