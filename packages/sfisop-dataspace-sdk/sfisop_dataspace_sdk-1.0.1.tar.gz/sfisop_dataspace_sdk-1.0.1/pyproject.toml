@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "sfisop-dataspace-sdk"
+version = "1.0.1"
+description = "SDK for the SmartOcean Platform Data Space Service"
+authors = ["Smart Ocean Consotrium"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "sfisop", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0.0"
+certifi = "2024.7.4"
+charset-normalizer = "^3.3.2"
+idna = "^3.7"
+python-decouple = "^3.8"
+pyyaml = "^6.0.1"
+requests = "^2.32.0"
+urllib3 = "^2.2.2"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
