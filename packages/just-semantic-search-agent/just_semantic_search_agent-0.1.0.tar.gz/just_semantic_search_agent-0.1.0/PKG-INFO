@@ -1,0 +1,26 @@
+Metadata-Version: 2.3
+Name: just-semantic-search-agent
+Version: 0.1.0
+Summary: Semantic and hybrid search agent
+License: AGPL-3.0-or-later
+Keywords: python,llm,science,review,hybrid search,semantic search,agent
+Author: Anton Kulaga
+Author-email: antonkulaga@gmail.com
+Requires-Python: >=3.11,<3.14
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: just-agents-web (>=0.5.2)
+Requires-Dist: just-semantic-search-scholar
+Description-Content-Type: text/markdown
+
+Example of the agent using RAG
+
+Depends on the just-agents package
