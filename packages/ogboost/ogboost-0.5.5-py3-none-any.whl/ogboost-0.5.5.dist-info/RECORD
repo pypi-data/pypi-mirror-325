@@ -1,0 +1,10 @@
+ogboost/__init__.py,sha256=fLBX_2_68SBKcoqJ_wXkwGFdRT6dmcEBmYn67dpo-lI,308
+ogboost/data.py,sha256=X1oxPWN_0oh31-BzehPGJq1jWg9crgfLm2CRYVO6rhc,3855
+ogboost/main.py,sha256=arXyedJd3QP1mtHwskQpssR48-tyoeLJIzJoyZwPPxk,47387
+ogboost/tests/test_data.py,sha256=E2UP5_7By1jUD9ulury6fbRuYAQJo3OswVv-B-Hl3Rs,1146
+ogboost/tests/test_main.py,sha256=DyTI8Pt7FqWCgK0tdXorIeUeFdZsCoDconVvvNMpZEA,1958
+ogboost-0.5.5.dist-info/LICENSE,sha256=0fsXdX4IFr7jH9jGkHWuL4FSOuwdW-uoTngFUk0Wt88,1086
+ogboost-0.5.5.dist-info/METADATA,sha256=q8viiP93YedtS-Z9igFxIpUt179Q83g4X8V9oKtE1Fo,8216
+ogboost-0.5.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ogboost-0.5.5.dist-info/top_level.txt,sha256=ju6AZQ1VKRVuIZZiqg2x-f1Sr0v0caxVpGydMoz2pnw,8
+ogboost-0.5.5.dist-info/RECORD,,
