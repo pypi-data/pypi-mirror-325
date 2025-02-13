@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: media_control
+Version: 0.0.1
+Summary: Application to access media controls on your device
+Home-page: https://github.com/sleepingsaint/media_control
+Author: sleepingsaint
+Requires-Dist: Flask
+Requires-Dist: flask-socketio
+Requires-Dist: pyautogui
+Requires-Dist: pillow
+Requires-Dist: qrcode
+Requires-Dist: volume-control
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
