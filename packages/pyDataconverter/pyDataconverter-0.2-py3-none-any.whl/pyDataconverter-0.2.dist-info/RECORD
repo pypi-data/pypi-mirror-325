@@ -1,0 +1,8 @@
+pyDataconverter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyDataconverter/dataconverter.py,sha256=DvDA_lSSdtIIKyfdbtVOKeIjfrh5iBmR3h8dkEi6syU,2399
+pyDataconverter/pipelinedADC.py,sha256=2oRIBS2c4sWxfPEm053cMK4O6s8lQPSMTqLxw_KernI,32157
+pyDataconverter/setup.py,sha256=xxcEB5pTrp3Q6QF7HxjoOK3fqDqtZpTCtGG05t0d5WY,859
+pyDataconverter-0.2.dist-info/METADATA,sha256=0wOtkLRI892f2IDnTbUGiBv7EJpgnFDI4Yp2_cQQmQQ,3871
+pyDataconverter-0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pyDataconverter-0.2.dist-info/top_level.txt,sha256=bAioU2EBWCEv2Uv0XaPuJMZ8tOuDYV97CypwMoC0Zjk,16
+pyDataconverter-0.2.dist-info/RECORD,,
