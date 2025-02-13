@@ -1,0 +1,44 @@
+Metadata-Version: 2.2
+Name: advhashlib
+Version: 0.1.0
+Summary: Advanced hashing and cryptography library with enhanced security and multi-threading.
+Home-page: https://github.com/Sumedh1599/advhashlib
+Author: Sumedh Patil
+Author-email: admin@aipresso.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# advhashlib
+
+`advhashlib` is an advanced cryptographic hashing library, improving security, speed, and multi-threaded hashing capabilities.
+
+## Features
+
+- **Salted SHA-256 & SHA-512 hashing**
+- **HMAC-based authentication signatures**
+- **Multi-threaded hashing for large datasets**
+- **Cryptographic-grade security**
+
+## Installation
+
+```bash
+pip install advhashlib
+```
+
+from advhashlib import advhashlib
+
+print(advhashlib.sha256("secure_data")) # Salted SHA-256
+print(advhashlib.hmac_sha256("secret_key", "message")) # HMAC Authentication
+hashes = advhashlib.multi_threaded_hash(["data1", "data2"]) # Multi-threaded hashing

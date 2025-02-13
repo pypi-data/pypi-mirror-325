@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+advhashlib.egg-info/PKG-INFO
+advhashlib.egg-info/SOURCES.txt
+advhashlib.egg-info/dependency_links.txt
+advhashlib.egg-info/top_level.txt
+tests/test_advhashlib.py
