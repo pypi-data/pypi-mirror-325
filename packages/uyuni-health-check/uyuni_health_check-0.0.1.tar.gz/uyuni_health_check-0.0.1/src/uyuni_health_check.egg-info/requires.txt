@@ -1,0 +1,6 @@
+Click
+rich
+requests
+Jinja2
+PyYAML
+tomli
