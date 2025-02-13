@@ -1,0 +1,11 @@
+xmrig/__init__.py,sha256=wbTLUUPjuJUpC4dqdsQK9jjcVob9mESHDpZJp6t2NkE,14462
+xmrig/api.py,sha256=Xpb9s1TBab2d8NQnOTS2mSjLI8cfz7f0ETz4-k_qz9g,123950
+xmrig/db.py,sha256=2Npyk0Ek-puBPTFo2gPIw51BdmUH9f_Sy8EC6odgBsc,23020
+xmrig/exceptions.py,sha256=uFAfgAZkwMLEhWf_17s7AbhERrbCRQewvMwmH5h17AI,2855
+xmrig/logger.py,sha256=8b7ntq0_70rPWB_35jWYCHRwma5FwNHfati0EdlCCRY,173
+xmrig/manager.py,sha256=pBHsLG9lt0BGyZ--U0fFX-Yzeg651KP0_fZRSS8f6bw,9634
+xmrig/models.py,sha256=9eKQmqjWvk0Ef4g12dhbVFUzEYb5mKSecgaFngmMLaw,7199
+xmrig_api-0.2.0.dist-info/METADATA,sha256=cpAV55GQguq1qGB4-Scc-ysO4dad4JuearMJpF9bsNo,4066
+xmrig_api-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+xmrig_api-0.2.0.dist-info/licenses/LICENSE,sha256=kzw-5jRWwWQU43OkLzWtyZy8bIfobtbKg82sJILn3KY,1084
+xmrig_api-0.2.0.dist-info/RECORD,,
