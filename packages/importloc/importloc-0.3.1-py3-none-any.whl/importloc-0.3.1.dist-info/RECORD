@@ -1,0 +1,10 @@
+importloc/__init__.py,sha256=wZ-c6GSoKNorgT6Nk9A4_zTUqZ1L65oDKO9TIB4Aeek,507
+importloc/exc.py,sha256=5x9dchAu3_jFVV6TWRCQqIjFJ6h9ZEMJpDQ7G_4Yhms,412
+importloc/location.py,sha256=LUZTe436sxfpJBAn6vJax64VmfbA759qTvYRcPyVeDU,19364
+importloc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+importloc/testing.py,sha256=t-AF_L57BTJYw56uGFiEGkOj6HBTN82bharckfkU2ks,2508
+importloc/util.py,sha256=QK9pdjASBMVBdN2NgZJrYE_bQjc1wCoLDtB-bOhtBAk,2942
+importloc-0.3.1.dist-info/METADATA,sha256=AWP1mVElyjAp_gx67REkT0HPSbMZZvi5EjPE0-v6c80,12723
+importloc-0.3.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+importloc-0.3.1.dist-info/licenses/LICENSE,sha256=yU2BVtBa14GTAN9NydSEsAYmq9eCvz1CTxfOMj8Ij9c,1072
+importloc-0.3.1.dist-info/RECORD,,
