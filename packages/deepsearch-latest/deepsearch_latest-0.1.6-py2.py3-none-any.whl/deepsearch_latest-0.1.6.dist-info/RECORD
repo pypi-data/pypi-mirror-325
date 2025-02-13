@@ -1,0 +1,17 @@
+deepsearch/__init__.py,sha256=eUtUa_wNG6k1g7FiG5NH_9j-JnERXzwrHjgMeMy5JW0,171
+deepsearch/ingestion.py,sha256=wfLzdOaiTcXS6I4N6yz292j2f6P3lVLnjWHcjlAPh48,2612
+deepsearch/server.py,sha256=URqJFGAqxbdgWth6p7zDQCb0gPl3l-z3y8_NUU6_nA0,1376
+deepsearch/test_scripts/test_search.py,sha256=pd7nAjXQ8nUg4Gfwg0qicZClEfDsxyIdgc6V2hV1BX8,947
+deepsearch/utils/document_utils.py,sha256=tD6XjfxBekGFuaJ6QJDD7ML46a8ONNOqjxmOAiahEzU,674
+deepsearch/utils/file_converter.py,sha256=yddKPzJgED-4fjYR7CTyBYGXAHPaHnIj80mJOuw8puI,9267
+deepsearch/utils/openrouter_utils.py,sha256=XyeChnbS19lKIzSnKVxHd5GlRTJJ-CWjQzs2ok3TEX4,4591
+deepsearch/utils/pinecone_utils.py,sha256=K7yGiacGNFitUFTYa_69ZuOI6CUQiNMP69jBzGM7bcc,5109
+deepsearch/utils/prompts.py,sha256=KMmUKl97FPcKQrDAt442PXG9yz-adNlzcYuW-p0_YUw,2513
+deepsearch/utils/retrieval_utils.py,sha256=mMXrEPZYuUAFHvG-vaglZbNETTwkHKwjvgUi8IyxUGk,4039
+deepsearch/utils/search_utils.py,sha256=H4-8T0V-ZpxKzag9cFpDcV7JkW5br28HHEBUHezf648,3409
+deepsearch/utils/text_chunking.py,sha256=K0kwEl3JIfjNkmxWEzhvR485uesFkcedGidCwUBu1t4,3297
+deepsearch/utils/upload_to_cloudflare.py,sha256=paXF-8sjvjvJLcAmonqdSLPQ8nFViiIPV9AXDXl7N28,2552
+deepsearch_latest-0.1.6.dist-info/METADATA,sha256=KnQF1M_PludJHfabuDcU-oERJW1CjLyswXw4C0VGGyE,424
+deepsearch_latest-0.1.6.dist-info/WHEEL,sha256=tkmg4JIqwd9H8mL30xA7crRmoStyCtGp0VWshokd1Jc,105
+deepsearch_latest-0.1.6.dist-info/entry_points.txt,sha256=3B27qXchfR-P0Tc6IccsEUz61Fkk19QZnZ_W8bLdVf4,54
+deepsearch_latest-0.1.6.dist-info/RECORD,,
