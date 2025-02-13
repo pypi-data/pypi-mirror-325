@@ -1,0 +1,9 @@
+datasiphon/__init__.py,sha256=xuz8UW5QWDCtpxy_Ho9qGpsrdwl7VDJgzI4dYWXS0Ro,192
+datasiphon/sql_filter.py,sha256=SN1XeOcAzP07EDF6cZS9rHHBIDFPhwqcnfI4ebCYy20,30857
+datasiphon/core/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+datasiphon/core/_exc.py,sha256=dqNoiXGcsKj39fUwaE-P_9JMtji9SWD5uiIo4YtvJbc,1020
+datasiphon/core/_filter_core.py,sha256=zGkPlOYVTA3tG1ArIUTclIi-swxiWmCDwTDSeddC10E,12453
+datasiphon-0.3.10.dist-info/METADATA,sha256=IgHx02b5w0OWI_SYwNisZlS6OJa28wWol8uV8Jk8se0,7573
+datasiphon-0.3.10.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+datasiphon-0.3.10.dist-info/top_level.txt,sha256=HdDF05iz07Swt3nKzEDMxWvE0kJ4f6rhK2W6HHB8LYU,11
+datasiphon-0.3.10.dist-info/RECORD,,
