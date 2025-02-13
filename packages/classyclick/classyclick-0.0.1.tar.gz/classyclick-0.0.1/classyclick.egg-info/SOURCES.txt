@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+classyclick/__init__.py
+classyclick/__main__.py
+classyclick/demo.py
+classyclick.egg-info/PKG-INFO
+classyclick.egg-info/SOURCES.txt
+classyclick.egg-info/dependency_links.txt
+classyclick.egg-info/top_level.txt
+tests/test_demo.py
