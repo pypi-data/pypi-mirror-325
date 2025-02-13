@@ -1,0 +1,14 @@
+frogtab/__init__.py,sha256=izrpmn7UzfslOG1OXp0cXb9NLnloFLBra57FuY13gOg,148
+frogtab/cli_commands.py,sha256=sTDhqutxtuldHf7Hr2U1ZgmTD9ekCmG7hZLAZxpgVts,5122
+frogtab/cli_environment.py,sha256=AGK0d_Nz6xblgaYsGdHG6SkuOTvK_PUxXTeuws4ZpMo,1971
+frogtab/controller.py,sha256=kzdK8sY1m3wX-odZsOPId2WS-KIqt9W5rqjW0eU8DJA,6001
+frogtab/version.py,sha256=zbGINNmdCaTp6W9PyMXUOgtPKJawRuQUu7Vgp5P0RZs,23
+frogtab/legacy/frogtab_helpers.py,sha256=6RAUrW1VNoZz1dJ0XY_VqVkgjFkpenlWS7Ito-5KURA,203
+frogtab/legacy/migrate_config.py,sha256=xnedJLQhnMUzjMGxQMYqqW7Wgi0RMPOwUqWHZuGCa5E,1438
+frogtab/local_server/server.py,sha256=kIXcKEy7W4OrDP3ECf5w8L0S68C3ZUMpR2u4tneFXk4,3482
+frogtab-2.0.0a1.dist-info/LICENSE,sha256=djgiItnhV7sjJtEsBVcdbyEj-pdENVMlyY6yYx0GTWY,1069
+frogtab-2.0.0a1.dist-info/LICENSE_openpgp,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+frogtab-2.0.0a1.dist-info/METADATA,sha256=ML4yP8CrD0h91vFoyo28nCF0pBSdIr4smjSfphEX4zw,460
+frogtab-2.0.0a1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+frogtab-2.0.0a1.dist-info/top_level.txt,sha256=3C4sbMddly8dVbnpR_0BofhUXrUuaO53FxkHEKikhho,8
+frogtab-2.0.0a1.dist-info/RECORD,,
