@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: bpp-af
+Version: 0.0.1
+Summary: Arcflow Model for the Bin-Packing Problem
+Project-URL: Homepage, https://github.com/wotzlaff/bpp-af
+Project-URL: Issues, https://github.com/wotzlaff/bpp-af/issues
+Author-email: Nico Strasdat <nstrasdat@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: mip
+Description-Content-Type: text/markdown
+
+# Arcflow Model for the Bin-Packing Problem
