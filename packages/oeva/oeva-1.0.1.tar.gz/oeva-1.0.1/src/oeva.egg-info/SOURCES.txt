@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/oeva.egg-info/PKG-INFO
+src/oeva.egg-info/SOURCES.txt
+src/oeva.egg-info/dependency_links.txt
+src/oeva.egg-info/entry_points.txt
+src/oeva.egg-info/requires.txt
+src/oeva.egg-info/top_level.txt
+src/tools/__init__.py
+src/tools/analyze_project.py
+src/tools/clean_project.py
+src/tools/create_project.py
+src/tools/discover_projects.py
+src/tools/open_project.py
+src/tools/release_project.py
+src/tools/tool_handler.py
