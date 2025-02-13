@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+caux8_moodle_parser/__init__.py
+caux8_moodle_parser/export.py
+caux8_moodle_parser/question.py
+caux8_moodle_parser/util.py
+caux8_moodle_parser.egg-info/PKG-INFO
+caux8_moodle_parser.egg-info/SOURCES.txt
+caux8_moodle_parser.egg-info/dependency_links.txt
+caux8_moodle_parser.egg-info/top_level.txt
+caux8_moodle_parser/ext_fmt/__init__.py
+caux8_moodle_parser/ext_fmt/fps_xml.py
+caux8_moodle_parser/ext_fmt/ybt.py
+tests/__init__.py
+tests/test_export.py
+tests/test_fps.py
