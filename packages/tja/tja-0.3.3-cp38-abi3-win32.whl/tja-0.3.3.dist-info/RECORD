@@ -1,0 +1,8 @@
+tja-0.3.3.dist-info/METADATA,sha256=sN7BovslPsIvWaO1dAzyKCbepHusjYl7H0hUT6uINMM,2552
+tja-0.3.3.dist-info/WHEEL,sha256=u4wnjYrLYkwARdttjKBQxtC6_QzH9dFZrRKEZoAsAPY,90
+tja-0.3.3.dist-info/licenses/LICENSE,sha256=mR5zb4K-pRb_T4QgOEHuHdPnj9pzNBjAta16-bYMq1w,1090
+tja/__init__.py,sha256=7ahoHbubsAg7YxApXxlLJYH2JPSxfcDPJSBWRF73qCo,95
+tja/__init__.pyi,sha256=-7lsmuOmG3GpY39MYlf-SW3uqjeGZkmyeBok8QBoOsk,1386
+tja/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tja/tja.pyd,sha256=wJtG7N5yh5y_TC0zZbjV5JBhFLNV4EmmblPmeM2N5KI,433664
+tja-0.3.3.dist-info/RECORD,,
