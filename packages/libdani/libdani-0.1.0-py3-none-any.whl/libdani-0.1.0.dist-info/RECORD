@@ -1,0 +1,10 @@
+libdani/__init__.py,sha256=PN8mcuLxUYvQO9svEN51I1jdg-zGBAOowFh622cldrg,99
+libdani/checkpoint/README.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libdani/checkpoint/__init__.py,sha256=kD01-2gEUoOTS9Z-b8j46yLbrulGXvmcRxEiIRqwlYs,53
+libdani/checkpoint/checkpoint.py,sha256=Ux5n8dv8OwWCZkwHC_YKVLz_X0cNH6vWqhUF9siNyNU,4126
+libdani/checkpoint/example.py,sha256=ayu8YyhOxJmVQPZNHQMfgf3qbIPK0peMK_iJ4juXFFU,620
+libdani-0.1.0.dist-info/METADATA,sha256=OH5s8gL2897llGY8Tnnunx3t-3fKfHCWZMUiltyFsqk,542
+libdani-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+libdani-0.1.0.dist-info/entry_points.txt,sha256=DQI0ZYFJSe0qo_1kIvnXM4yfFY8W61QRBiF6Y6ubnc8,41
+libdani-0.1.0.dist-info/licenses/LICENSE,sha256=7yx42fLmvADMW1C4krhb2Q-FpgbJi6nV0YiUDRteHpk,476
+libdani-0.1.0.dist-info/RECORD,,
