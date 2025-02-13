@@ -1,0 +1,2 @@
+[console_scripts]
+roysh = roysh:main
