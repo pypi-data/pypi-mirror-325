@@ -1,0 +1,8 @@
+Metadata-Version: 2.2
+Name: validat
+Version: 0.0.3
+Summary: Library for data validation
+Author-email: Aliaksei Yafremau <447654972g@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
