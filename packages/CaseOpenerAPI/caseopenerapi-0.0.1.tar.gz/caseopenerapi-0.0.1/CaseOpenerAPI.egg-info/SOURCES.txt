@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+CaseOpenerAPI/__init__.py
+CaseOpenerAPI/skins.py
+CaseOpenerAPI.egg-info/PKG-INFO
+CaseOpenerAPI.egg-info/SOURCES.txt
+CaseOpenerAPI.egg-info/dependency_links.txt
+CaseOpenerAPI.egg-info/requires.txt
+CaseOpenerAPI.egg-info/top_level.txt
