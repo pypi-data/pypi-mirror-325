@@ -1,0 +1,3 @@
+include SOMcreator/templates/*
+include SOMcreator/templates/js_templates/*
+prune som_gui

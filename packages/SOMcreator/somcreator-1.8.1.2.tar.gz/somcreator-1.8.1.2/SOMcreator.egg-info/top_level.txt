@@ -1,0 +1,6 @@
+SOMcreator
+build
+desiteScripts
+dist
+examples
+som_gui
