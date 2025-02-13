@@ -1,0 +1,151 @@
+Metadata-Version: 2.4
+Name: cognition-core
+Version: 0.3.0
+Summary: Core integration package for building AI agents with CrewAI, providing configuration management, memory systems, and tool integration
+Project-URL: Homepage, https://github.com/nestorcolt/cognition-core
+Project-URL: Repository, https://github.com/nestorcolt/cognition-core
+Project-URL: Documentation, https://github.com/nestorcolt/cognition-core#readme
+Author-email: Nestor Colt <nestor.colt@gmail.com>
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: <3.13,>=3.10
+Requires-Dist: chromadb>=0.4.0
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: crewai[tools]<1.0.0,>=0.100.1
+Requires-Dist: langchain-community>=0.0.27
+Requires-Dist: portkey-ai>=0.3.0
+Requires-Dist: psycopg2-binary>=2.9.9
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: watchdog>=3.0.0
+Description-Content-Type: text/markdown
+
+# Cognition Core
+
+Core integration package for building AI agents with CrewAI, providing configuration management, memory systems, and tool integration.
+
+## Architecture
+![Cognition AI](./designs/cognition-core.jpg)
+```
+cognition-core/
+├── config/                  # Configuration files
+│   ├── agents.yaml         # Agent definitions
+│   ├── crew.yaml          # Crew settings
+│   ├── memory.yaml        # Memory configuration
+│   ├── portkey.yaml       # LLM routing
+│   ├── tasks.yaml         # Task definitions
+│   └── tools.yaml         # Tool configuration
+├── memory/                 # Memory implementations
+│   ├── entity.py          # Entity memory
+│   ├── long_term.py       # Long-term storage
+│   ├── short_term.py      # Short-term memory
+│   ├── storage.py         # Storage interfaces
+│   └── mem_svc.py         # Memory service
+├── tools/                  # Tool management
+│   ├── custom_tool.py     # Custom tool base
+│   ├── tool_svc.py        # Tool service
+│   └── __init__.py
+└── crew.py                # Core crew base class
+```
+
+## Features
+
+### Configuration Management
+- Hot-reloading YAML configuration
+- Environment variable integration
+- Centralized settings management
+
+### Memory Systems
+- Short-term memory (Redis)
+- Long-term memory (Firestore)
+- Entity memory for relationship tracking
+- Configurable storage backends
+
+### Tool Integration
+- Tool registry and service
+- API wrapper utilities
+- Configuration-driven tool management
+
+### LLM Integration
+- Portkey routing and monitoring 
+- Multi-model support
+- Performance optimization
+
+## Installation
+
+```bash
+pip install cognition-core
+```
+
+## Quick Start
+
+```python
+from cognition_core import CognitionCoreCrewBase
+from crewai import Agent, Task, Crew
+
+class YourCrew(CognitionCoreCrewBase):
+    @agent
+    def researcher(self) -> Agent:
+        return Agent(
+            config=self.agents_config["researcher"],
+            llm=self.init_portkey_llm(
+                model="gpt-4",
+                portkey_config=self.portkey_config
+            ),
+            verbose=True
+        )
+
+    @crew
+    def crew(self) -> Crew:
+        return Crew(
+            agents=self.agents,
+            tasks=self.tasks,
+            process=Process.sequential,
+            memory=True,
+            verbose=True
+        )
+```
+
+## Configuration
+
+Example YAML configuration:
+
+```yaml
+# memory.yaml
+short_term_memory:
+  enabled: true
+  external: true
+  host: "redis.example.com"
+  port: 6379
+
+long_term_memory:
+  enabled: true
+  external: true
+  connection_string: "${LONG_TERM_DB_CONNECTION_STRING}"
+```
+
+## Environment Variables
+
+Required variables:
+- `PORTKEY_API_KEY`: Portkey API key
+- `PORTKEY_VIRTUAL_KEY`: Portkey virtual key
+- `LONG_TERM_DB_PASSWORD`: Long-term storage password
+- `CONFIG_DIR`: Configuration directory path (default: src/cognition-core/config)
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request with tests
+
+## License
+
+MIT
