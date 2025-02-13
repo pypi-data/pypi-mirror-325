@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+NOTICE.txt
+README.md
+requirements.txt
+setup.cfg
+setup.py
+InsightfulPy/__init__.py
+InsightfulPy/eda.py
+InsightfulPy/utils.py
+InsightfulPy.egg-info/PKG-INFO
+InsightfulPy.egg-info/SOURCES.txt
+InsightfulPy.egg-info/dependency_links.txt
+InsightfulPy.egg-info/requires.txt
+InsightfulPy.egg-info/top_level.txt
