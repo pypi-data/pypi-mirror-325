@@ -1,0 +1,8 @@
+Chessir/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Chessir/board.py,sha256=Fy6bN20QJfPW65fbpn_ub-Dg1lh039MszJihY3xiy0k,2621
+Chessir/game.py,sha256=x7GsSOL_fMGU2jwNHpDm5kHOQTRF40fHscRjOxuWjYA,17092
+Chessir/moves.py,sha256=SuyBJa5VwLG-tqbjYhxDCq0Ut0I13sDSKw-Bqh5ObkI,7890
+Chessir/square_attacked.py,sha256=DBDhtjvzRw9yd1rhvBm4xHfNletaA588N-LtcTSuRfQ,3304
+chessir-0.1.1.dist-info/METADATA,sha256=5XghHkANU-PVhzjaqEozRmMLiN64FtWUoBQCv-sg_9o,5113
+chessir-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+chessir-0.1.1.dist-info/RECORD,,
