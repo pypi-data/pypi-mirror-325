@@ -1,0 +1,11 @@
+cobs
+mako
+markdown
+prompt_toolkit
+pyserial
+pyyaml
+update_notipy
+urllib3
+validators
+websocket-client
+websockets
