@@ -1,0 +1,11 @@
+anndata
+dask
+numpy
+pandas
+zarr<3.0.0a0
+matplotlib
+scikit-image
+
+[dev]
+pytest
+pytest-cov
