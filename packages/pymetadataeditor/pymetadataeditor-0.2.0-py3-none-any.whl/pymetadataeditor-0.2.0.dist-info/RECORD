@@ -1,0 +1,10 @@
+pymetadataeditor/__init__.py,sha256=7iI9eHfeI_mY1n1BWIsg8ydSSBZWPN_A9ctSF6SkntQ,46
+pymetadataeditor/interface.py,sha256=9cxRpIMjwdTzo_83UcisyTLOD7PDdaFDx15ugnbaTAs,85659
+pymetadataeditor/llm_helpers.py,sha256=25HzB1aw_TDSyhOBrgmtVVkLyiQyMwR-keS_htIhXEw,4908
+pymetadataeditor/requester.py,sha256=uBzr1J3dbq-V8QUMPeE3bT1wss1A6xwACOUj31vdK6I,7151
+pymetadataeditor/templates.py,sha256=amac0a-jP45ruNbBod-QONL1swpNA7EfEP_Wi8q9IYs,28868
+pymetadataeditor/utils.py,sha256=SZO04_wkP-eh1EP7X6BhrCtUGMYwOH54FfqT90Go_ic,10109
+pymetadataeditor-0.2.0.dist-info/LICENSE,sha256=FOubTO8qPACQIWI8ycK24BJGVyQ6ojw-xiymEYZthlI,1067
+pymetadataeditor-0.2.0.dist-info/METADATA,sha256=QvkUI8_7PzNZ1LNptwXm-c3MZz79PXegR2DGwKiXrTI,11535
+pymetadataeditor-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pymetadataeditor-0.2.0.dist-info/RECORD,,
