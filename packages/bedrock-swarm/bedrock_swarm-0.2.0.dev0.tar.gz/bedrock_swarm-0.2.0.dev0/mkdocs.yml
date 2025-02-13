@@ -1,0 +1,93 @@
+site_name: Bedrock Swarm
+site_description: A framework for building multi-agent systems using AWS Bedrock
+repo_url: https://github.com/yourusername/bedrock-swarm
+repo_name: bedrock-swarm
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js
+
+plugins:
+  - search
+  - mermaid2:
+      version: 10.4.0
+      arguments:
+        securityLevel: 'loose'
+        theme: default
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          paths: [src/bedrock_swarm]
+          options:
+            show_source: true
+            show_root_heading: true
+            show_category_heading: true
+            show_submodules: true
+            docstring_style: google
+            docstring_section_style: spacy
+            merge_init_into_class: true
+            show_if_no_docstring: false
+            show_signature_annotations: false
+            extra:
+              show_warnings: false
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Quick Start: getting-started/quickstart.md
+    - Configuration: getting-started/configuration.md
+  - User Guide:
+    - Core Concepts: user-guide/core-concepts.md
+    - Agents: user-guide/agents.md
+    - Tools: user-guide/tools.md
+    - Memory: user-guide/memory.md
+    - Logging: user-guide/logging.md
+    - Advanced Features: user-guide/advanced.md
+  - API Reference:
+    - Agents: api/agents.md
+    - Tools: api/tools.md
+    - Memory: api/memory.md
+  - Examples:
+    - Overview: examples/README.md
+    - Basic Usage: examples/basic.md
+    - Advanced Patterns: examples/advanced.md
+  - Contributing: contributing.md
