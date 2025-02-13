@@ -1,0 +1,51 @@
+Metadata-Version: 2.2
+Name: pywarc
+Version: 0.1.0
+Summary: WARC file format library
+Home-page: https://github.com/5IGI0/pywarc
+Author: 5IGI0
+Author-email: 5IGI0@protonmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.LESSER
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# PyWarc
+
+Python library for WebArchive's WARC file format manipulation.
+
+How to read a warc file:
+```python
+warc = WarcReader(open("my_archive.warc"))
+blk = warc.get_next_block() # read a block
+
+print(blk.content_length) # get content length
+print(blk.headers)        # read headers
+print(blk.read(10))       # read x bytes
+print(blk.read())         # read everything
+
+blk = warc.get_next_block() # read next block
+# note that you won't be able to read the previous block anymore
+# if the file is not seekable.
+
+print(blk.content_length) # get content length
+print(blk.headers)        # read headers
+
+# you can also get the content as a stream
+stream = blk.get_as_stream()
+print(stream.readline()) # for easier manipulation
+
+# or you can even use a for loop to iterate on each blocks
+for blk in warc:
+    print(blk.headers["WARC-Record-ID"])
+```
