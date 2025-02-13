@@ -1,0 +1,9 @@
+torchortho/__init__.py,sha256=UYmt70SdFhEyakItDycUHTl_HoKZ_j4v1N1F1P3950g,782
+torchortho/cuda.py,sha256=gmPBE07L6nkF5gwhEOTS85al7jxRKdi1HaSvUFIybus,2993
+torchortho/fourier_activation.py,sha256=_kuENA16dms_NcihQbHKL7IN8R7idjJ6eMHqaDRUWp8,7294
+torchortho/hermite_activation.py,sha256=s6ZzL9IEgWUPxhmzY9TFllr_m77uthmBQpRQy5IO8Do,8382
+torchortho/tropical_activation.py,sha256=ALu4l4JzhizywqY1o-tbbakqmTtkSl7aMIGctOdlAl0,7782
+torchortho-0.1.1.dist-info/METADATA,sha256=ZUzeAfgr8wz55QI_MoZVw1P8ydCR3QGwhSMXK8kmFwY,6290
+torchortho-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+torchortho-0.1.1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+torchortho-0.1.1.dist-info/RECORD,,
