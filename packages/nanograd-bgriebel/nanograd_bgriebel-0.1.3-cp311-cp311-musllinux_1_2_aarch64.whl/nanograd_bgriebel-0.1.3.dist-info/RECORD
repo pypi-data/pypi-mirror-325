@@ -1,0 +1,8 @@
+nanograd_bgriebel/__init__.py,sha256=qAhadIPUEiV-fsIBB-nQG0SEVTA030HrGWjryJwnejM,400
+nanograd_bgriebel/_core.cpython-311-aarch64-linux-musl.so,sha256=ZL-dmuSbs2WDELw0xJbtaB9WcaeEuAGRycgpvf2dPPg,401553
+nanograd_bgriebel.libs/libgcc_s-c8ae3477.so.1,sha256=9V-8eIks1bMNS4WpqkcG8BFshxtKrgXObotCK1Eunmw,201017
+nanograd_bgriebel.libs/libstdc++-b626ff6f.so.6.0.32,sha256=TW-ybf6-Q9SRZbTakdwYz_Z-kM_5ZUbWi1VwVjTqKEg,3586353
+nanograd_bgriebel-0.1.3.dist-info/WHEEL,sha256=ybyZzIXbeNFX9H6ZW0QxZnIYJ96YTGDvhQOLfPCoNiI,118
+nanograd_bgriebel-0.1.3.dist-info/METADATA,sha256=cAfb4caWLZw1_PrPyfUqa78FAVL4mmZ5NXUevzAuc-4,3330
+nanograd_bgriebel-0.1.3.dist-info/RECORD,,
+nanograd_bgriebel-0.1.3.dist-info/licenses/LICENSE,sha256=sEyMISZYYZMeJbmQjMfv-s3VUVL35v3KseNxg5WUMRY,1062
