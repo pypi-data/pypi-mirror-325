@@ -1,0 +1,10 @@
+condenseseq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+condenseseq/__main__.py,sha256=Snb1xISSczj-XYE6A-Q3H3JHx4MNYKdzyfTEOWzrY-E,9105
+expandseq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+expandseq/__main__.py,sha256=jw3uv_YkvitmJAugURJfeEtGQ8_BlHZG0cU9Qa8xrlQ,8650
+expandSeq-4.0.0.dist-info/LICENSE,sha256=7ssn-dBSkdFTvXKCXb6weBMit69-58B_3P7GA5VBvms,1620
+expandSeq-4.0.0.dist-info/METADATA,sha256=6RGwytKGjjOd6pcHm99vJ90xuMPDtV3h4QzneUbPT_4,4974
+expandSeq-4.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+expandSeq-4.0.0.dist-info/entry_points.txt,sha256=jPMAMCyVL3KeArm7ZsjKIxP_DoJF-k47q9nOSTJ2I78,94
+expandSeq-4.0.0.dist-info/top_level.txt,sha256=RdXBSEQ2TUgy7KyzH1P0KkXp9U4gfjdr7ikaCt9TNNQ,22
+expandSeq-4.0.0.dist-info/RECORD,,
