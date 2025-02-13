@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: ariarpc
+Version: 0.0.1.1
+Summary: Python aria2 RPC call.
+Home-page: https://github.com/ChenyangGao/web-mount-packs/tree/main/python-module/ariarpc
+License: MIT
+Keywords: aria2,rpc
+Author: ChenyangGao
+Author-email: wosiwujm@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: httpx
+Requires-Dist: httpx_request (>=0.1.2)
+Requires-Dist: orjson
+Project-URL: Repository, https://github.com/ChenyangGao/web-mount-packs/tree/main/python-module/ariarpc
+Description-Content-Type: text/markdown
+
+# Python aria2 RPC call.
+
+## Installation
+
+You can install from [pypi](https://pypi.org/project/ariarpc/)
+
+```console
+pip install -U ariarpc
+```
+
+## Usage
+
+```python
+from ariarpc import rpc_call, AriaRPC
+
+rpc = AriaRPC()
+rpc.system.listMethods()
+```
+
