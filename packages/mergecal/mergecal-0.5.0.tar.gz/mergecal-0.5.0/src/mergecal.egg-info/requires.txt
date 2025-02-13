@@ -1,0 +1,4 @@
+icalendar>=6.1.1
+rich>=10
+typer<1,>=0.15
+x-wr-timezone>=2.0.1
