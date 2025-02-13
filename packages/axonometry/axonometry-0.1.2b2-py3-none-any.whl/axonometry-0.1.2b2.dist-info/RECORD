@@ -1,0 +1,14 @@
+axonometry/__init__.py,sha256=_Ht0MvAzb-SUdNawTSLiW-Zonp3K6kyeEmwqi5nuxQ4,471
+axonometry/axonometry.py,sha256=o3fzmiqz2fXUoXpG4QsCOu2nmbr65thxz-_E93gAfnU,3582
+axonometry/config.py,sha256=fHz_HCGKRHtOxFj_q5xRi2RuUzcW5gR3jpPWMHtlRps,5216
+axonometry/drawing.py,sha256=LO7nyskufqgAei0WSKs17ZRgBMg1EhkrNhVkKX5Mm7s,2250
+axonometry/line.py,sha256=2XXAadjOVpapMXeBP-7JrVVmPPjc9UUAjSxnrEvt9oY,749
+axonometry/plane.py,sha256=voooy0jsALgV17AsteEpukRB0s1Z7chRr3zQpgNOPWA,6585
+axonometry/point.py,sha256=bd4D2hzH4dAaSCgCmARUEm6Cfj6DTZn5E-RWLC85seM,10116
+axonometry/surface.py,sha256=vPVPf4vV148j_TItjfcrEVQepKBEMGKN-7zgiHJHY50,302
+axonometry/trihedron.py,sha256=Chh6lLU1do3Po3RucqfB1CpTa8Qrn1o3FKReozXd3k8,9957
+axonometry/utils.py,sha256=79dlM8LS5PcQ7Iu_ADRGobLeyBQsiigUBttcTddkq7s,3702
+axonometry-0.1.2b2.dist-info/METADATA,sha256=GTw7RahsifvISIdtprE-cJwSYxcm3L32ehFqFp7yMhM,4255
+axonometry-0.1.2b2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+axonometry-0.1.2b2.dist-info/top_level.txt,sha256=mkIfPeywiKs5y9vkstVBRrUhpucQ8_zzVuVCqAfRcoE,11
+axonometry-0.1.2b2.dist-info/RECORD,,
