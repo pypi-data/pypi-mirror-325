@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+weavingspace.egg-info/PKG-INFO
+weavingspace.egg-info/SOURCES.txt
+weavingspace.egg-info/dependency_links.txt
+weavingspace.egg-info/requires.txt
+weavingspace.egg-info/top_level.txt
