@@ -1,0 +1,17 @@
+gatpack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gatpack/config.py,sha256=JbQkxz6dhoqtKcwyjDBci9GZ3Dfnc1taQ4y-ms9N6tc,709
+gatpack/main.py,sha256=mcxj87FinOoIn04w20zpBpX_xJXCuW86eTRQ9YyW9BM,147
+gatpack/cli/__init__.py,sha256=UHvGTBBAO4RauowwXF_WUMu_jqjaddQ7texk-RBZVl8,52
+gatpack/cli/combine.py,sha256=LcG39y69MJEcGqqokNcXjctVIglkDHDVhIwMMAT_vfU,1202
+gatpack/cli/init.py,sha256=c4PmL6nvR1idFR8LXPmT17zsXjP694tIEVn_gqVcE9o,1434
+gatpack/cli/main.py,sha256=8zcvD1Spc0JDUALYEvIe0LjZIYkp2X6R5zURXFc_Nx4,872
+gatpack/cli/render.py,sha256=P_CVxej46hTYiVj_C7VmU58x-1fB5iQXSHZndk24ETk,1720
+gatpack/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gatpack/core/combine_pdfs.py,sha256=q8c4Vk1GvvQY7lImuIsuL4dZsCl1G-BbGV8zLUtOBow,1030
+gatpack/core/initialize_project.py,sha256=93D8w5Z7w4nGUKu9UWdUqaz_WfKQh5VZ_i_xQeobppM,932
+gatpack/core/render_jinja.py,sha256=a8sjeMlExZmZSLyVtPAQmy28oHb-gzFMSBu4tXXWO1E,1189
+gatpack-0.0.2.dist-info/METADATA,sha256=61-zH8-_csuvC5Ct3byldk2Ik8WtMU1rZX6_1R_Tiis,11817
+gatpack-0.0.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+gatpack-0.0.2.dist-info/entry_points.txt,sha256=powqq49lMs5ShDbfdIu6GKvnNqSLvLaxn1fyeA8bLXY,44
+gatpack-0.0.2.dist-info/licenses/LICENSE,sha256=SKwqM_yDNgnvGNl0OgB4m9GiqFTQefm7f8rLZc2RFQ0,1080
+gatpack-0.0.2.dist-info/RECORD,,
