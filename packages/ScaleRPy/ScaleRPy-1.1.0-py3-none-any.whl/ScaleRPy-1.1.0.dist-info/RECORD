@@ -1,0 +1,11 @@
+ScaleRPy/__init__.py,sha256=eSsrpDprIK-nuXuhpmhAXXaphDAQsnc12LwyljgMucw,125
+ScaleRPy/man_dat.py,sha256=Pfge81yAVpsNvXFb4kDK7f-XV0W7XLNqbw-mlS_KPuE,10704
+ScaleRPy/fitting/fit_funcs.py,sha256=epshQ5AdsV1fVGuRZ6PGHQ-RTYt6xJtgdRgGxNmJn1I,8649
+ScaleRPy/formatting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ScaleRPy/formatting/density_contours.py,sha256=1WkMgO8rER8K_GqTrbjDmHQeLbMRK2RKsAFqZBVcO2s,1338
+ScaleRPy/formatting/tol_colors.py,sha256=FJygqi55NqhmolRExwWYzxYNq9lNJu7PxLQAXj6Dy5A,16198
+ScaleRPy-1.1.0.dist-info/LICENSE,sha256=SbvpEU5JIU3yzMMkyzrI0dGqHDoJR_lMKGdl6GZHsy4,11558
+ScaleRPy-1.1.0.dist-info/METADATA,sha256=SSqdA8yLVKMA_3wA7jpgf7CdWwdjwLOMB95sg_DFbz4,19897
+ScaleRPy-1.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ScaleRPy-1.1.0.dist-info/top_level.txt,sha256=2HkLK-Ll_Hx-B5CNF7S0xbfI38xqYVL5ER2VfRrozE8,9
+ScaleRPy-1.1.0.dist-info/RECORD,,
