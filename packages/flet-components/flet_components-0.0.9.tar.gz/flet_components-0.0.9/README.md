@@ -1,0 +1,193 @@
+# Flet Components
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.12-blue.svg)
+![Flet](https://img.shields.io/badge/flet-%3E%3D0.25.2-orange)
+
+## Descripción
+
+**Flet Components** es una librería open source diseñada para extender los componentes nativos de Flet en Python, proporcionando elementos personalizados que facilitan la creación de interfaces más robustas y estilizadas. Este proyecto nace con el propósito de aportar nuevas funcionalidades y mejorar la experiencia de desarrollo al trabajar con Flet.
+
+## Características
+
+- **Componentes personalizados**: Incluye componentes como botones, áreas de texto, listas de tareas y más.
+- **Facilidad de uso**: Integra fácilmente en cualquier proyecto basado en Flet.
+- **Extensible**: Preparado para que la comunidad contribuya y expanda las funcionalidades.
+- **Estilos consistentes**: Utiliza una paleta de colores y tamaños de fuente unificados.
+
+## Instalación
+
+Puedes instalar la librería directamente desde GitHub:
+
+```bash
+pip install flet_components
+```
+
+## Uso Básico
+
+### Ejemplo de uso del componente `Base`
+
+```python
+import flet as ft
+from flet_components import Base
+
+def main(page: ft.Page):
+    def close_handler(e):
+        print("Ventana cerrada.")
+
+    base_component = Base(
+        title="Mi Ventana",
+        controls=[
+            ft.Text("Este es el contenido principal."),
+        ],
+        close_function=close_handler,
+        width=500,
+        height=200,
+        padding=ft.padding.all(20),
+    )
+    page.add(base_component)
+
+ft.app(target=main)
+```
+
+### Ejemplo de uso del componente `BtnDelete`
+
+```python
+from flet_components import BtnDelete
+import flet as ft
+
+def main(page: ft.Page):
+    def on_delete(e):
+        print("Elemento eliminado")
+
+    delete_button = BtnDelete(
+        text="Eliminar",
+        click=on_delete,
+        bgcolor="#ff4d4d",
+        padding=ft.padding.symmetric(10, 20),
+    )
+
+    page.add(delete_button)
+
+ft.app(target=main)
+```
+
+### Ejemplo de uso del componente `Date`
+
+```python
+from flet_components import Date
+import flet as ft
+
+def main(page: ft.Page):
+    date_display = Date(date="10-02-2025", template="Fecha:")
+    page.add(date_display)
+
+ft.app(target=main)
+```
+
+## Ejemplo de uso completo
+
+```python
+import flet as ft
+import flet_components as tc
+from assets.components.styles import Colors
+
+
+class Task(tc.Base):
+    """
+    modal experimental que contiene todos los controles personalizados del modulo task.
+
+    Args:
+        title (str): Titulo a colocar por encima del modal.
+        on_close (OptionalEventCallable): evento que se ejecuta cuando le das click al boton superior derecho (x).
+    """
+
+    def __init__(
+        self, title: str = None, on_close: ft.OptionalEventCallable = None, data=None
+    ):
+        self.__data = data
+        # Componentes
+        self.TextArea = tc.TextArea(widht=None, expand=True, height=200)
+        self.SubTaskList = tc.SubTaskList(expand=1)
+        self.TitleInput = tc.TitleInput()
+        self.Date = tc.Date(template="fecha:")
+        self.State = tc.State()
+        self.ProgressBar = tc.ProgressBar(value=0)
+        self.__BtnDelete = tc.BtnDelete(
+            text="Save task",
+            bgcolor=Colors.color_primary,
+            border=ft.border.all(2, color=Colors.color_C),
+            bgcolor_hover=Colors.color_secundary,
+            meta=self.__data,
+        )
+
+        self.on_close = on_close
+        self.__row3 = ft.Row(
+            alignment=ft.MainAxisAlignment.END,
+            controls=[self.__BtnDelete],
+        )
+
+        self.controls = [
+            self.TitleInput,
+            ft.Row(
+                [self.Date, self.State],
+                alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
+            ),
+            ft.Row(
+                [ft.Container(content=self.ProgressBar, width=67)],
+                alignment=ft.MainAxisAlignment.END,
+            ),
+            self.TextArea,
+            self.SubTaskList,
+            self.__row3,
+        ]
+
+        super().__init__(
+            padding=30,
+            height=600,
+            width=530,
+            controls=self.controls,
+            close_function=self.on_close,
+        )
+        self.title = title
+
+    @property
+    def BtnDelete(self):
+        self.__BtnDelete = self.__row3.controls[0]
+        return self.__BtnDelete
+
+    @BtnDelete.setter
+    def BtnDelete(self, BtnDelete):
+        self.__BtnDelete = BtnDelete
+        self.__row3.controls[0] = self.__BtnDelete
+
+    @property
+    def data(self):
+        self.__data = self.__BtnDelete.data
+        return self.__data
+
+    @data.setter
+    def data(self, data):
+        self.__data = data
+        self.__BtnDelete.data = self.__data
+```
+
+
+
+## Contribuciones
+
+Este proyecto está abierto a la comunidad. Si deseas contribuir, sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y haz commit (`git commit -am 'Agrega nueva funcionalidad'`).
+4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`).
+5. Crea un Pull Request en GitHub.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más información.
+
+## Contacto
+
+Para más información o para colaborar, puedes contactarme en mis redes sociales: https://linktr.ee/pablo.css

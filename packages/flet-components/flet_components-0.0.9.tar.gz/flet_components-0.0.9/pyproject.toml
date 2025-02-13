@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flet_components"
+version = "0.0.9"
+description = "Conjunto de componentes personalizados para Flet"
+readme = "README.md"
+authors = [
+    { name = "Ruben Chavez", email = "juanrubenc78@gmail.com" }
+]
+license = { file  = "LICENSE" }
+keywords = ["flet", "components", "UI", "Python"]
+requires-python = ">=3.12"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "flet>=0.25.2"
+]
+
+[project.urls]
+Homepage = "https://github.com/Duz-Dev/flet_component"
+Download = "https://github.com/Duz-Dev/flet_component/tarball/0.0.9"
+Documentation = "https://github.com/Duz-Dev/flet_component/wiki"
