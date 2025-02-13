@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+redis = "*"
+nltk = "*"
+selenium = "*"
+requests = "*"
+beautifulsoup4 = "*"
+quart = "*"
+quart-cors = "*"
+webdriver-manager = "*"
+gspread = "*"
+unidecode = "*"
+google-api-python-client = "*"
+google-auth-httplib2 = "*"
+google-auth-oauthlib = "*"
+pymemcache = "*"
+twisted = "*"
+lxml = "*"
+wordcloud = "*"
+matplotlib = "*"
+pyairtable = "*"
+pandas = "*"
+autometrics = "*"
+psycopg = {extras = ["binary", "pool"], version = "*"}
+celery = "*"
+asgiref = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.12"

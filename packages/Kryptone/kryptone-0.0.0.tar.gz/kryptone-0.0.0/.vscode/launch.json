@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Kryptone: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "presentation": {
+                "hidden": false,
+                "group": "Kryptone",
+                "order": 1
+            }
+        },
+        {
+            "name": "Kryptone: Test Project",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/tests/testproject/manage.py",
+            "args": [
+                "start",
+                "ExampleSpider"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "presentation": {
+                "hidden": false,
+                "group": "Kryptone",
+                "order": 2
+            }
+        }
+    ]
+}
