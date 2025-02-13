@@ -1,0 +1,2 @@
+[console_scripts]
+y-cli = chat.cli:cli
