@@ -1,0 +1,28 @@
+Metadata-Version: 2.2
+Name: pyPDAG
+Version: 0.1.1
+Summary: pyPDAG
+Home-page: https://github.com/shr264/pyPDAG/
+Author: Syed Rahman
+Author-email: <syedhr264@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: networkx
+Requires-Dist: scipy
+Requires-Dist: statsmodels
+Requires-Dist: matplotlib
+Requires-Dist: numba
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+Python version for Partion-DAG as outlined in https://arxiv.org/pdf/1902.05173.pdf
