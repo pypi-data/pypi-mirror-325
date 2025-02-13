@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: wah
+Version: 1.13.9
+Summary: a library so simple you will learn Within An Hour
+Home-page: https://github.com/yupeeee/WAH
+Author: Juyeop Kim
+Author-email: juyeopkim@yonsei.ac.kr
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools>=61.0
+Requires-Dist: lightning
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyperclip
+Requires-Dist: PyYAML
+Requires-Dist: selenium
+Requires-Dist: tensorboard
+Requires-Dist: timm
+Requires-Dist: torch
+Requires-Dist: torchaudio
+Requires-Dist: torchmetrics
+Requires-Dist: torchvision
+Requires-Dist: webdriver_manager
+
+![logo](https://github.com/yupeeee/WAH/blob/main/WAH.png?raw=true)
+
+## Install
+
+```commandline
+pip install wah
+```
+
+### Requirements
+
+You might want to manually install [**PyTorch**](https://pytorch.org/get-started/locally/)
+for GPU computation.
+
+```text
+lightning
+matplotlib
+numpy
+pandas
+pillow
+requests
+timm
+torch
+torchmetrics
+torchvision
+tqdm
+yaml
+```
+
+## Structure
+
+### `wah`
+- `classification`
+	- `datasets`
+		- `CIFAR10`
+		- `CIFAR100`
+		- `compute_mean_and_std`
+		- `ImageNet`
+		- `load_dataloader`
+		- `portion_dataset`
+		- `STL10`
+	- `models`
+		- `FeatureExtractor`
+		- `load`
+		- `load_state_dict`
+		- `replace`
+			- `gelu_with_relu`
+			- `relu_with_gelu`
+			- `bn_with_ln`
+			- `ln_with_bn`
+		- `summary`
+	- `test`
+		- `brier_score`
+		- `ece`
+	- `Trainer`
+- `dicts`
+- `fun`
+	- `RecursionWrapper`
+- `lists`
+- `mods`
+- `path`
+- `random`
+- `tensor`
+- `time`
+- `utils`
+	- `ArgumentParser`
+	- `download`
+	- `zips`
