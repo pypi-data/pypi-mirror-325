@@ -1,0 +1,16 @@
+aiman/__init__.py,sha256=s-L_dZzPC8Ve8rgKsrVBEltXv6UOS7oRM2ir_D0FDTA,372
+aiman/client/__init__.py,sha256=29x16VqIuv5tlfnV-E5UmTseA1EHUdSRUbjd6eTIAeI,96
+aiman/client/_ai_man_client.py,sha256=X24TUg8qdWYUaP3503FWLgP2buucHPyHNIvaaMukId0,14000
+aiman/core/__init__.py,sha256=U-A6xy_q4sF8IPvDVZ5ZQepxS0wrim8GNl7KcJ-rQGQ,18
+aiman/core/classes.py,sha256=0J77i5CW15WjmYaqpwUqkrD0zcy7D3k82vZyMRcghdU,11540
+aiman/core/credentials.py,sha256=wCOrUCtA1CzHkmnANGfHJ4dvDQJDGryUdctiYUdxTKc,3779
+aiman/core/util.py,sha256=x7iBkZ299EyAgsjf8osZsyR0ZE9yX6NZ5DotcgpD6rs,4354
+tests/__init__.py,sha256=FSfkSYRKjDqIuEiEZ39Otve50qSxi7QObNnNrHHPx5s,19
+tests/aiman/classes_test.py,sha256=TItAn5urix2IMKqopMnQ5PRAcfJFHJYRJRwX5utK7pc,1694
+tests/aiman/util_test.py,sha256=y5BVquoZ2v4kYyTiIF9_0QJ4nheB6DuJm06w2viyto0,2283
+venv/bin/activate_this.py,sha256=PNUQt7XHpvnxwUEb7KHnUZl78kO29uWPxns2IvqPAd0,1336
+aiman_client-1.0.20.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aiman_client-1.0.20.dist-info/METADATA,sha256=K60ACTxXvEf5_E59cDtk6p8sTeEV4vwLUMRST3axCA8,6145
+aiman_client-1.0.20.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+aiman_client-1.0.20.dist-info/top_level.txt,sha256=sK6EkVGBFGVrJhJY-dzVXGm8dmGAAVefowEDTNq033U,17
+aiman_client-1.0.20.dist-info/RECORD,,
