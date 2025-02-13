@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+validat/__init__.py
+validat/validators.py
+validat.egg-info/PKG-INFO
+validat.egg-info/SOURCES.txt
+validat.egg-info/dependency_links.txt
+validat.egg-info/top_level.txt
