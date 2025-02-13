@@ -1,0 +1,75 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "doubletdetection"
+version = "4.3"
+description = "Method to detect and enable removal of doublets from single-cell RNA-sequencing."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Adam Gayoso", email = "adamgayoso@berkeley.edu" },
+    { name = "Jonathan Shor", email = "jonathan.shor@nyu.edu" },
+    { name = "Ambrose Carr" },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "anndata>=0.8",
+    "numpy>=1.24",
+    "scipy>=1.8",
+    "scanpy>1.10.0",
+    "matplotlib>=3.6",
+    "tqdm",
+    "phenograph",
+]
+
+[project.urls]
+Documentation = "https://doubletdetection.readthedocs.io/"
+Homepage = "https://github.com/JonathanShor/DoubletDetection"
+
+[project.optional-dependencies]
+dev = [
+    "black>=20.8b1",
+    "flake8>=3.7.7",
+    "pre-commit>=2.7.1",
+    "pytest>=4.4",
+    "louvain",
+    "leidenalg",
+]
+docs = [
+    "sphinx>=4",
+    "sphinx-book-theme>=1.0",
+    "myst-nb",
+    "sphinxcontrib-bibtex>=1.0.0",
+    "scanpydoc[typehints]>=0.7.4",
+    "sphinxext-opengraph",
+    # For notebooks
+    "ipython",
+    "ipykernel",
+    "sphinx-copybutton",
+]
+
+[tool.black]
+line-length = 99
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.mypy_cache
+    | \.venv
+  )/
+)
+'''
