@@ -1,0 +1,19 @@
+wavesongs/__init__.py,sha256=FCeZ51o7jLTYKGXMKYBbA9qLZFNsrspde0ioA7u9rDA,168
+wavesongs/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wavesongs/data/download.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wavesongs/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wavesongs/model/bird.py,sha256=Ns3CeifPdTbAQuXZtBW-9xWIl8xVUnhEx2W9exe1VO0,7579
+wavesongs/model/optimizer.py,sha256=UCotQ6sWkzhMdG9eUF_LHuH50pmxry_au96on0ghPr4,14159
+wavesongs/objects/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wavesongs/objects/chunk.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wavesongs/objects/song.py,sha256=LmP2ThERywVs43uqjoFBeIVe2Rl6ewZ5OIriCFqfcmc,10488
+wavesongs/objects/syllable.py,sha256=1t7u7kR-cZZp_ezzXrjKM5z0kNtPy-crM2lLv8htFhI,22579
+wavesongs/test copy.ipynb,sha256=d9rWaCkbOgVleFEGwxXWnXc5flucl19TNU4zpEtulLE,2012765
+wavesongs/utils/__init__.py,sha256=b9uZmGmXhnaV3bdUt9u9KM2mQoIY2FlwUZza87kZrqA,8
+wavesongs/utils/paths.py,sha256=EZwOas9hs31dqeyEy5HAk2jGwnIHvlrsnVAODqgFXic,10259
+wavesongs/utils/plots.py,sha256=zhzgK54OpUt7Sro8CJtRwRjOZG7cdRleNBVXD6DGNCQ,29682
+wavesongs/utils/tools.py,sha256=TUZ8SzrsQD0eYWdZsjp5Tyx2m6sfYnG83avNGtAfBic,11662
+wavesongs-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+wavesongs-1.0.0.dist-info/METADATA,sha256=fwgjDVHgWXIPiFK41moN1HRYtUCr6QMnMa35lrSNpOk,8151
+wavesongs-1.0.0.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+wavesongs-1.0.0.dist-info/RECORD,,
