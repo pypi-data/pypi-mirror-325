@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/easy_dotenv/__init__.py
+src/easy_dotenv/loader.py
+src/easy_dotenv.egg-info/PKG-INFO
+src/easy_dotenv.egg-info/SOURCES.txt
+src/easy_dotenv.egg-info/dependency_links.txt
+src/easy_dotenv.egg-info/requires.txt
+src/easy_dotenv.egg-info/top_level.txt
+tests/test_loader.py
