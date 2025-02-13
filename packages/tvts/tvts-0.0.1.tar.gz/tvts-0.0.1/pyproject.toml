@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tvts"
+version = "0.0.1"
+authors = [
+  { name="Yun-Peng Pei", email="belarc@163.com" },
+]
+description = "TVTS (Trackable and Visible Training System) is an auxiliary system for machine learning or deep learning model training written in Python3, with MongoDBas its storage backend and Matplotlib as its visualization backend."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+]
+
+# configuration error: `project.license` must be valid exactly by one definition (2 matches found):
+#
+#    - keys:
+#        'file': {type: string}
+#      required: ['file']
+#    - keys:
+#        'text': {type: string}
+#      required: ['text']
+#license = "Apache"
+license = {file = "COPYING"}
+
+# configuration error: `project` must not contain {'license-files'} properties
+#license-files = ["LICENSE"]  
+
+[project.urls]
+Homepage = "https://github.com/cmpltrtok20/tvts"
+Issues = "https://github.com/cmpltrtok20/tvts/issues"
