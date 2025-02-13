@@ -1,0 +1,34 @@
+[build-system]
+build-backend = "pdm.backend"
+requires = [
+    "pdm-backend",
+]
+
+[project]
+name = "polars-permute"
+version = "0.1.1"
+description = "A Polars plugin for easily reordering DataFrame columns"
+readme = "README.md"
+authors = [
+    { name = "Louis Maddox", email = "louismmx@gmail.com" },
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+polars = [
+    "polars>=1.21.0",
+]
+polars-lts-cpu = [
+    "polars-lts-cpu>=1.21.0",
+]
+dev = [
+    "pre-commit>=4.1.0",
+    "pytest>=8.3.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/lmmx/polars-permute-plugin"
+Repository = "https://github.com/lmmx/polars-permute-plugin.git"
+
+[tool]
