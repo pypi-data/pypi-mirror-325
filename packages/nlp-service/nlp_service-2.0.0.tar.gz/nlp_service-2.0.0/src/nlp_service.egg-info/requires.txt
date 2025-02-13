@@ -1,0 +1,6 @@
+arg-services<2,>=1.7.5
+cbrkit[nlp]<1,>=0.21.1
+typer<1,>=0.9
+
+[all]
+cbrkit[llm,transformers]
