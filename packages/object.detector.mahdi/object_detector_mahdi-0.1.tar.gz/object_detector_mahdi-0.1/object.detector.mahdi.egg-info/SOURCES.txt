@@ -1,0 +1,8 @@
+README.md
+setup.py
+object.detector.mahdi.egg-info/PKG-INFO
+object.detector.mahdi.egg-info/SOURCES.txt
+object.detector.mahdi.egg-info/dependency_links.txt
+object.detector.mahdi.egg-info/entry_points.txt
+object.detector.mahdi.egg-info/requires.txt
+object.detector.mahdi.egg-info/top_level.txt

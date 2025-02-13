@@ -1,0 +1,29 @@
+Metadata-Version: 2.2
+Name: object.detector.mahdi
+Version: 0.1
+Summary: A library for car and license plate detection
+Home-page: https://github.com/mahdihuseine/object.detector.mahdi
+Author: mahdihuseine
+Author-email: Mahdihuseine001@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: ultralytics
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+# object.detector
+
+A Python library for car and license plate detection using YOLO.
+
+## Installation
+
+To install this library, use pip:
+
