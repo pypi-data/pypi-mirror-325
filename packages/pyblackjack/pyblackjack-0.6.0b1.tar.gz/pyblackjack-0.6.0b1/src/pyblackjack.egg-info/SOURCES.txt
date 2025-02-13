@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/pyblackjack/__init__.py
+src/pyblackjack/__main__.py
+src/pyblackjack/__version__.py
+src/pyblackjack/controller.py
+src/pyblackjack/model.py
+src/pyblackjack/py.typed
+src/pyblackjack/utils.py
+src/pyblackjack/views/__init__.py
+src/pyblackjack/views/_abc.py
+src/pyblackjack/views/boss.py
+src/pyblackjack/views/terminal.py
