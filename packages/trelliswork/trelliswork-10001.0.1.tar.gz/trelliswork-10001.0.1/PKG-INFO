@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: trelliswork
+Version: 10001.0.1
+Summary: A tool to draw graphs using Excel as a display.
+Project-URL: Repository, https://github.com/muzudho/trelliswork.git
+Author-email: Takahashi Satoshi <muzudho1@gmail.com>
+Maintainer-email: Takahashi Satoshi <muzudho1@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: console application,excel
+Classifier: Programming Language :: Python
+Requires-Python: >=3.12.3
+Requires-Dist: openpyxl>=3.1.5
+Requires-Dist: tomlkit>=0.13.2
+Description-Content-Type: text/markdown
+
+# trelliswork
+
+RPG の自作戦闘を設計するために勝手に作ったった設計図を出力するツール。ＧＵＩはまだ無い  
+
+
+## 必須
+
+* Exshell を使うには、デスクトップ・アプリ版の Microsoft Excel がインストールされていることが必要です
+
+
+## 説明
+
+* 📖 [Trelliswork > 説明書](https://github.com/muzudho/trelliswork/tree/main/docs)
+* 📖 [Trelliswork > 実装例](https://github.com/muzudho/trellis-for-b) - ［Trellis for B］リポジトリー
