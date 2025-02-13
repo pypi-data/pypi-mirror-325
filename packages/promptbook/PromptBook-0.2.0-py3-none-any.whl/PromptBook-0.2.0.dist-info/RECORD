@@ -1,0 +1,13 @@
+promptbook/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+promptbook/book_manager.py,sha256=XXltZvXmNAFSylNI8h9QKUVTp0v68VFsG9rCu7o2d9A,1592
+promptbook/cli.py,sha256=MT6oF-WeP0ZkQ7WbEfzp05EOr0PFV6nSBSo8BTSXrXM,1487
+promptbook/git_utils.py,sha256=QbuK055xCjYdVjBHrK4RH49aVdae_SxAEgrOGOoDk6E,2162
+promptbook/loader.py,sha256=87JBS4Iw5DkaMdsvlLJcg6GDNpW-rDtZtHIlSCf4TZc,774
+promptbook/processor.py,sha256=BrIEiiY7Y1pP-PPyyFikoEFcE8hcztX7TZtkmtmRj3Q,6332
+promptbook/utils.py,sha256=k08iIRK4ZlF-EHCHHkwvyU-ltMMZjrNgCCfKPJ0SnDA,1455
+promptbook/validator.py,sha256=VlH8s9G382X66SSOLurHEr7tXq09HWeW1i5KcpvbGhY,918
+PromptBook-0.2.0.dist-info/METADATA,sha256=cfES7kwt6B-52HJnFPbq3Ei_K0GUjIEqC54uffnnasM,3084
+PromptBook-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+PromptBook-0.2.0.dist-info/entry_points.txt,sha256=a10hD--jFqZg2P8GeP-kvaVi_EgDsMSHEyIt-Lwd56Y,51
+PromptBook-0.2.0.dist-info/top_level.txt,sha256=EpVswOWDw9H3mXx7CkVc2VWMTCXtOYSc8ElA6-sTgpU,11
+PromptBook-0.2.0.dist-info/RECORD,,
