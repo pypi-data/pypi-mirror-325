@@ -1,0 +1,41 @@
+Metadata-Version: 2.2
+Name: y-cli
+Version: 0.2.3
+Summary: Command-line real-time conversation app
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: httpx>=0.26.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: prompt-toolkit>=3.0.0
+Requires-Dist: click>=8.1.0
+Requires-Dist: toml>=0.10.2
+Requires-Dist: tabulate>=0.9.0
+Requires-Dist: wcwidth>=0.2.13
+Requires-Dist: rich>=13.9.4
+Requires-Dist: pyperclip>=1.9.0
+Requires-Dist: mcp>=1.2.1
+Requires-Dist: openai>=1.61.1
+
+# Y CLI 🚀
+
+A powerful command-line interface chat application that brings AI conversations to your terminal.
+
+## ✨ Features
+
+- 💬 Interactive chat interface
+- 🔗 MCP (Model Context Protocol) client support
+- 🤔 Deepseek-r1 reasoning content support for enhanced AI responses
+
+## 🛠️ Usage
+
+```bash
+y-cli [OPTIONS] COMMAND [ARGS]...
+```
+
+### Commands
+- `chat`   Start a new chat conversation or continue an existing one
+- `list`   List chat conversations with optional filtering
+- `share`  Share a chat conversation by generating a shareable link
+
+### Options
+- `--help`  Show help message and exit
