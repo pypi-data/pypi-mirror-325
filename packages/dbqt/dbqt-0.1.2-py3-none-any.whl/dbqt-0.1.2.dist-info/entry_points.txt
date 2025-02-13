@@ -1,0 +1,5 @@
+[console_scripts]
+colcompare=dbqt.tools.colcompare:main
+dbqt=dbqt.app:main
+dbstats=dbqt.tools.dbstats:main
+
