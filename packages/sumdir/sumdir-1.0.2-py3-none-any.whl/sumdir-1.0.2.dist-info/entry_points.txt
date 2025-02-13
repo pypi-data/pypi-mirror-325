@@ -1,0 +1,5 @@
+[console_scripts]
+sumdir = sumdir.main:main
+
+[gui_scripts]
+
