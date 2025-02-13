@@ -1,0 +1,8 @@
+p2plantaccess/__init__.py,sha256=eCx6fY9J2GY-Jlz3TCY6pctK4dUWVO6kOd6Nv53cJAI,48
+p2plantaccess/ipc.py,sha256=ZH80jgW6yoA31gvtXgfyirmRVoBhlfq1z0GPqVSuor4,4271
+p2plantaccess/p2plantaccess.py,sha256=EafF_8LaiVhVBgZK1T_bKih7cyFMg3TjB4hGnNH6PEQ,6185
+p2plantaccess/simulatedADCs.py,sha256=BIYlp8OR8XGI50hHHf8tohBvDzWVjIU_w4A6V-5uXCM,7271
+p2plantaccess-1.0.1.dist-info/METADATA,sha256=Rffvnpuz2uJbGBP33vENGAXANIQEpLoMnV92XW4xos8,2590
+p2plantaccess-1.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+p2plantaccess-1.0.1.dist-info/licenses/LICENSE,sha256=aqVblM8CYNhZD9MKH4wCsDg4LGHzT0Qd4Cjqi-YDZIk,1072
+p2plantaccess-1.0.1.dist-info/RECORD,,
