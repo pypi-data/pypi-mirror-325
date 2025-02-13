@@ -1,0 +1,2 @@
+L1 mosaic index header keys are now correctly populated based on absolute orientation determined from WCS information (CPRIX).
+Previously they had been based on the DLNIRSP spatial step pattern keys, which were relative and could vary drastically depending on the spatial step pattern used.

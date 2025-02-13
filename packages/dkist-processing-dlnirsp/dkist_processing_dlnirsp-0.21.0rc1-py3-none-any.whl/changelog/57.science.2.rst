@@ -1,0 +1,2 @@
+Mosaiced datasets will always have MAXIS = 2 in L1 headers, even if the mosaic only moved in one direction.
+This is so user interaction via `DKIST user tools <https://docs.dkist.nso.edu/projects/python-tools/en/latest/>`__ is consistent, regardless of how the mosaic was constructed.
