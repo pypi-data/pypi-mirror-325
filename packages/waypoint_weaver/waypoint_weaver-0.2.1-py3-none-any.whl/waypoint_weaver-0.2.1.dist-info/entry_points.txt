@@ -1,0 +1,2 @@
+[console_scripts]
+waypoint-weaver = waypoint_weaver.cli:main

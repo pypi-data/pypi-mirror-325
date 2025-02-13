@@ -1,0 +1,12 @@
+waypoint_weaver/__init__.py,sha256=uZp3zO_GxBuSIxXroLddOjpLL-42sHfx_zpEKaGkydA,118
+waypoint_weaver/cli.py,sha256=_SAuRLGt7RuWSKF5-2vKsK67iPZylDZkpnf7ZOoBr7E,2046
+waypoint_weaver/config.py,sha256=ZFxiiU5EQyZwQRi201omHcyjl0Egxap7ImBHaYMeSZo,5499
+waypoint_weaver/random_coordinates.py,sha256=NSxEP2RWE8XCkOwP82oiOnUmdX48xJsDVpzpGQKlvnY,1649
+waypoint_weaver/storage.py,sha256=TkwaH2HsatDlGJnTMpEoqCWrocH4mfcuJWEQoGXjegg,1591
+waypoint_weaver/typing.py,sha256=222C7I7INtwaDaYSkq9iahYZRSdUT8mqweAI47Sg_2A,106
+waypoint_weaver/_data/example_config.yaml,sha256=bxIgxFmlxV9ZO7L2uaXKMkBRVr4pp1qtXqoAhV5S5nU,1451
+waypoint_weaver-0.2.1.dist-info/METADATA,sha256=Cv2eOPZ26vapiuBTFX7tac_nnZ73ORRT6hlyL7gdEBA,5709
+waypoint_weaver-0.2.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+waypoint_weaver-0.2.1.dist-info/entry_points.txt,sha256=Xqp9o3vZgup3Jd-AlpZfpAwetG4cb3MI9191JCPAl9k,61
+waypoint_weaver-0.2.1.dist-info/licenses/LICENSE,sha256=G8u2aUed2peI-h5SU-iB1p3P9l0aivCxrQtgrOWN-Ak,1066
+waypoint_weaver-0.2.1.dist-info/RECORD,,
