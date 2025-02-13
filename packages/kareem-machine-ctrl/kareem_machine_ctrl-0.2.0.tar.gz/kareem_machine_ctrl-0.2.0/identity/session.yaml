@@ -1,0 +1,29 @@
+# Before starting any task:
+# 1. Run project analysis:
+#    - npm run validate (check code quality and duplication)
+#    - git status (check uncommitted changes)
+#    - ls -la (review project structure)
+#    - tree -I 'node_modules|dist|.git' (view project tree)
+# 2. Note your OS: macOS
+# 3. Review and update this file
+
+goals:
+  - "Implement robust error handling in system tools"
+  - "Ensure consistent response structures from all tools"
+  - "Improve logging and monitoring capabilities"
+
+summary: "Successfully implemented robust error handling in get_network_info tool, fixed test metric names for consistency, and ensured all E2E tests are passing. System tools now provide consistent response structures and proper error handling. All validation tests are passing."
+
+nextSteps:
+  - "Consider implementing monitoring dashboard for system tools"
+  - "Explore opportunities for performance optimization"
+  - "Document the implemented error handling patterns"
+  - "Plan for future enhancements and features"
+
+progress:
+  percentage: 100
+  summary: "System tools implementation complete with robust error handling, logging, and all tests passing"
+
+completed: true
+
+# Remember to keep this file up to date before starting any new task! 

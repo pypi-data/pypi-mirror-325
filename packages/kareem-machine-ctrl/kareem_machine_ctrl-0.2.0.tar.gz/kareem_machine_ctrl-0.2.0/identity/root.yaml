@@ -1,0 +1,147 @@
+# Project Identity
+name: "Kareem Machine Control"
+purpose: "A FastMCP integration project for machine control and automation"
+description: "Comprehensive machine control interface using FastMCP framework"
+
+# Application Type and Requirements
+application:
+  type: "api"
+  framework: "Python"
+  category: "Automation Tools"
+  target_platforms:
+    - "Linux"
+    - "macOS"
+    - "Windows"
+
+# System Requirements
+system:
+  hardware:
+    minimum_memory: "4GB RAM"
+    recommended_memory: "8GB RAM"
+    disk_space: "500MB"
+  software:
+    runtime:
+      - name: "Python"
+        version: ">=3.10"
+        install_guide: "https://www.python.org/downloads/"
+    dependencies:
+      - name: "pip"
+        version: ">=21.0.0"
+    optional:
+      - name: "Docker"
+        version: ">=20.0.0"
+        purpose: "For containerized deployment"
+
+# Environment Setup
+environment:
+  development:
+    setup_steps:
+      - description: "Install Python and pip"
+        command: "brew install python"
+      - description: "Set up virtual environment"
+        command: "python -m venv .venv && source .venv/bin/activate"
+      - description: "Install dependencies"
+        command: "pip install -r requirements.txt"
+    configuration:
+      env_file: ".env"
+      required_variables:
+        - "MCP_SERVER_NAME"
+        - "MCP_HOST"
+        - "MCP_PORT"
+        - "MCP_LOG_LEVEL"
+        - "ENV"
+        - "DEBUG"
+        - "ENABLE_METRICS"
+        - "ENABLE_TRACING"
+        - "METRICS_PATH"
+        - "HEALTH_PATH"
+        - "TOOL_TIMEOUT"
+        - "MAX_RETRIES"
+        - "RETRY_DELAY"
+        - "API_KEY"
+  production:
+    setup_steps:
+      - description: "Install Python and pip"
+        command: "apt-get install python3 python3-pip"
+    configuration:
+      env_file: ".env.production"
+      required_variables:
+        - "MCP_SERVER_NAME"
+        - "MCP_HOST"
+        - "MCP_PORT"
+        - "MCP_LOG_LEVEL"
+        - "ENV"
+        - "DEBUG"
+        - "ENABLE_METRICS"
+        - "ENABLE_TRACING"
+        - "METRICS_PATH"
+        - "HEALTH_PATH"
+        - "TOOL_TIMEOUT"
+        - "MAX_RETRIES"
+        - "RETRY_DELAY"
+        - "API_KEY"
+
+# Runtime and Technical Details
+runtime:
+  environment: "Python 3.10+"
+  requirements:
+    - "FastMCP 1.2.1 or higher"
+    - "pip package manager"
+    - "Git for version control"
+
+# Project Structure
+structure:
+  rootFolder:
+    name: "src"
+    purpose: "Contains all source code for the project"
+    contents: "Python source files organized by feature and responsibility"
+    subfolders:
+      - name: "kareem_machine_ctrl"
+        purpose: "Core functionality and tools"
+        contents: "Server, tools, and utilities"
+  conventions:
+    - "All tool categories in separate modules"
+    - "Clear separation of concerns between tools"
+  specialFolders:
+    - path: "src/kareem_machine_ctrl/tools"
+      description: "Tool implementations by category"
+      purpose: "Organize tools by functionality"
+
+# Usage and Setup
+usage:
+  prerequisites:
+    - package: "mcp[cli]"
+      version: ">=1.2.1"
+      details: "Install via pip install mcp[cli]"
+  setup:
+    instructions: "Run pip install -e ."
+    tools:
+      - "Python 3.10 or higher"
+      - "pip 21.0 or higher"
+  commands:
+    - description: "Start development server"
+      usage: "python -m kareem_machine_ctrl.server --transport sse"
+      environment: "development"
+    - description: "Run tests"
+      usage: "pytest tests/"
+      environment: "development"
+
+# Documentation and References
+documentation:
+  references:
+    - url: "https://github.com/kareemaly/kareem-machine-ctrl"
+      description: "Main repository documentation"
+      type: "documentation"
+
+# Scripts
+scripts:
+  - name: "validate"
+    description: "Validates project structure and documentation"
+    path: "genome validate"
+    type: "shell"
+    environment: "development"
+  - name: "test"
+    description: "Runs all tests"
+    path: "pytest tests/"
+    type: "shell"
+    environment: "development" 
