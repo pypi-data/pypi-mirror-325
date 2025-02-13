@@ -1,0 +1,10 @@
+honeypot/__init__.py,sha256=5k1_r6HIVWRma8XwfdmRu661QdBXt3Kf49MOI05oroI,109
+honeypot/client.py,sha256=9uzdo4TLxq8OgWBfL0zc4gsigWnuC0cVPELOGxT-GA8,10642
+honeypot_server_api/__init__.py,sha256=3WoIzkeG5JFwO-Epd0SDpxPbB9LZ91sK7gD9Z5BztOc,26
+honeypot_server_api/crypto.py,sha256=PXPZIpeM3vLciTCMkI_4sFYW2f4u0LGEh5NiO4TOS4w,3318
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_crypto.py,sha256=M_3VC5IG2AMegvkIaok_zwuA0Nx_OmiXGnsJjYKOp4k,604
+honeypot_py-0.2.1.dist-info/METADATA,sha256=ozMw0eG_EZTxUelcfy8YvrfTPelKVC6FIcRkQGv14ZA,640
+honeypot_py-0.2.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+honeypot_py-0.2.1.dist-info/top_level.txt,sha256=sT-6NTce8BDKGIfHNfPL1mCebXY2LSqD0wUkDUQrjBc,35
+honeypot_py-0.2.1.dist-info/RECORD,,
