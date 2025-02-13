@@ -1,0 +1,39 @@
+[project]
+name = "gam7"
+dynamic = [
+    "dependencies",
+    "version",
+]
+authors = [
+    { name="Jay Lee", email="jay0lee@gmail.com" },
+    { name="Ross Scroggs", email="Ross.Scroggs@gmail.com" },
+]
+description = "CLI tool to manage Google Workspace"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = {text = "Apache License (2.0)"}
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/GAM-team/GAM"
+Issues = "https://github.com/GAM-team/GAM/issues"
+
+[tool.hatch.version]
+path = "src/gam/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gam"]
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["src/requirements.txt"]
+
+[build-system]
+requires = [
+    "hatchling",
+    "hatch-requirements_txt",
+]
+build-backend = "hatchling.build"
