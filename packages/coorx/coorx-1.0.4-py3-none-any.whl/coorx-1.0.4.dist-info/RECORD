@@ -1,0 +1,16 @@
+coorx/__init__.py,sha256=3mEJFRXyOchcJdlPBI8RBqke0yLz5lE34ffS7O0rI14,1049
+coorx/_util.py,sha256=cQDcjVflz2FO-CbN0gfH7YbbushTbtqLX-a0-65DcXA,169
+coorx/base_transform.py,sha256=xr_FLWUxfqme539wyE4Xm2dq5YvZa_mHyptn71T7Dk4,17444
+coorx/composite.py,sha256=LIYVFWQ8K8DZwagQNWnLizKpP2XdQzoiCTnTDcJsC4Q,9378
+coorx/coordinates.py,sha256=IhLq5TKWzK9c5APl-3IQ0heTzHlYUI1h6QrxElLqKK0,6424
+coorx/linear.py,sha256=JjNsdi4pObsJwLY7KIA--9zXXNTj4LmUOz5oqxDADSg,37795
+coorx/matrices.py,sha256=J0LAcRxtkC0b9oF2fmRUC9AATaURrlOcl5kyyjRZpFQ,5092
+coorx/nonlinear.py,sha256=6SSOhWk4-TwzJUHQg817xwPSUZeE20Jzc5WmsM3JVfI,5162
+coorx/systems.py,sha256=aspbrkSv9xB-S3-mrtuqtX8H2F9k8KnlCkx_vov5CMQ,7398
+coorx/types.py,sha256=FLseiyzO1ZEgMUXubVcho9EkxIPGM-WbQUbgVEqhd74,331
+coorx/util.py,sha256=b0pON_yGJ4y6CFnJ5ClsEs8435vZCee8uIJvuxXrShY,2219
+coorx-1.0.4.dist-info/LICENSE.txt,sha256=3_3-6p7ZIB4-eWty1c6HBjGyrjj-U3jKfzVpIC8pb2w,1817
+coorx-1.0.4.dist-info/METADATA,sha256=kroz5Z0Z65QFhFK4olH1Xq1KQJn8eUh9H6zJRWJsJX0,2952
+coorx-1.0.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+coorx-1.0.4.dist-info/top_level.txt,sha256=SEeGS1b8XjKHEghC1T_5Sg-TC5xlwEw51_c4C3FfGjs,6
+coorx-1.0.4.dist-info/RECORD,,
