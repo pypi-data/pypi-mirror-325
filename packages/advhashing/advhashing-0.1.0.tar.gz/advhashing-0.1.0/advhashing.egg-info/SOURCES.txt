@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+advhashing.egg-info/PKG-INFO
+advhashing.egg-info/SOURCES.txt
+advhashing.egg-info/dependency_links.txt
+advhashing.egg-info/top_level.txt
+tests/test_advhashing.py

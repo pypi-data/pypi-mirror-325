@@ -1,0 +1,45 @@
+Metadata-Version: 2.2
+Name: advhashing
+Version: 0.1.0
+Summary: Advanced cryptographic hashing library with salt, multi-threading, and HMAC authentication.
+Home-page: https://github.com/Sumedh1599/advhashing
+Author: Sumedh Patil
+Author-email: admin@aipresso.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# advhashing
+
+`advhashing` is an advanced cryptographic hashing library with enhanced security features.
+
+## Features
+
+- **Salted SHA-256 & SHA-512 hashing**
+- **HMAC-based authentication**
+- **Multi-threaded hashing for large datasets**
+- **High-speed and cryptographic-grade security**
+
+## Installation
+
+```bash
+pip install advhashing
+
+USAGE:
+from advhashing import advhashing
+
+print(advhashing.hash_sha256("secure_data"))  # Salted SHA-256
+print(advhashing.hmac_sha256("secret_key", "message"))  # HMAC Authentication
+hashes = advhashing.multi_threaded_hash(["data1", "data2"])  # Multi-threaded hashing
+```
