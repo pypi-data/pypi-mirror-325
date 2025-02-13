@@ -1,0 +1,44 @@
+Metadata-Version: 2.2
+Name: NoMedia
+Version: 1.0.1
+Summary: Hides the indicated folders from the cell phone's media
+Author-email: RuanMiguel-DRD <ruanmigueldrd@outlook.com>
+License: Unlicense
+Project-URL: Homepage, https://github.com/RuanMiguel-DRD/NoMedia
+Project-URL: Source Code, https://github.com/RuanMiguel-DRD/NoMedia
+Project-URL: Issue Tracker, https://github.com/RuanMiguel-DRD/NoMedia/issues
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: vermin; extra == "dev"
+Requires-Dist: virtualenv; extra == "dev"
+
+# NoMedia
+
+Program to control whether Android files should appear in media or not
+
+**This program was made to work on Android operating systems, together with Termux**
+
+In the Android operating system, it is commonly configured so that folders containing a ".nomedia" file do not have their contents displayed in the device's public gallery.
+
+In certain cases, applications or even the user himself may have many images and videos in the device's memory, but the user does not want to see them in the cell phone's media. With this in mind, this tool was developed for Termux.
+
+With a single command, you can hide all the contents of a folder, so that they no longer appear in the media.
+
+`nomedia folder`
+
+if you do not specify a folder, it will always assume the current folder by default. If you want all subfolders in that directory to also be hidden, add the argument `-r`
+
+`nomedia -r folder`
+
+And if you want to revert or make a folder visible to the cell phone's media, just add the parameter `-u` or `--unhide`
+
+`nomedia -r -r folder`
+
+Need help? Try running `nomedia --help`
