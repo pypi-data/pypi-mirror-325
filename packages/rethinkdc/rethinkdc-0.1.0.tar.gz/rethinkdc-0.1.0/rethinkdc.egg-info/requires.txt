@@ -1,0 +1,13 @@
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+matplotlib>=3.10
+plotly>=6.0
+pandas>=2.2
+numpy>=2.2
+wandb>=0.19
+build>=1.2
+rich>=13.9
+huggingface-hub>=0.28
+datasets>=3.2
+pyyaml>=6.0
