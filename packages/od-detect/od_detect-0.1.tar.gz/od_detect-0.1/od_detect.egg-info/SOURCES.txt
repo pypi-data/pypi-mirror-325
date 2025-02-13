@@ -1,0 +1,11 @@
+README.md
+setup.py
+object_detector/__init__.py
+object_detector/detect.py
+object_detector/util.py
+od_detect.egg-info/PKG-INFO
+od_detect.egg-info/SOURCES.txt
+od_detect.egg-info/dependency_links.txt
+od_detect.egg-info/entry_points.txt
+od_detect.egg-info/requires.txt
+od_detect.egg-info/top_level.txt
