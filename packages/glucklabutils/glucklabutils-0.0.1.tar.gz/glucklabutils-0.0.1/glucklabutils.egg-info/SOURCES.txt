@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+glucklabutils/__init__.py
+glucklabutils.egg-info/PKG-INFO
+glucklabutils.egg-info/SOURCES.txt
+glucklabutils.egg-info/dependency_links.txt
+glucklabutils.egg-info/requires.txt
+glucklabutils.egg-info/top_level.txt
+glucklabutils/autoscore/__init__.py
+glucklabutils/autoscore/autoscore.py
+glucklabutils/subjectid_to_seqid/__init__.py
+glucklabutils/subjectid_to_seqid/subjectid_to_seqid.py

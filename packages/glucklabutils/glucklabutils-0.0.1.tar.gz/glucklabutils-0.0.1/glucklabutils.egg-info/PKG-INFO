@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: glucklabutils
+Version: 0.0.1
+Summary: GluckLab utils
+Author: Jose Mojica Perez
+Author-email: jlmojicaperez@gmail.com
+Keywords: python,first package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+Requires-Dist: pandas
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: summary
+
+GluckLab useful tools
