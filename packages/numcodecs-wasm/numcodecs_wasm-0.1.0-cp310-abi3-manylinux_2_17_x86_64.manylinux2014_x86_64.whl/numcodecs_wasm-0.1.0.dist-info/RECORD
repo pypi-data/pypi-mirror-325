@@ -1,0 +1,8 @@
+numcodecs_wasm-0.1.0.dist-info/METADATA,sha256=znuaXVf77RudP4ZF8RwyGWg4gTPRtvrcp_HGcBNkNF0,2024
+numcodecs_wasm-0.1.0.dist-info/WHEEL,sha256=1L8UL2wrWiNkziZv-3hQSZMxy7RYSqejqwbCb6Xe2FM,128
+numcodecs_wasm-0.1.0.dist-info/licenses/LICENSE,sha256=vb7GNPaxxsW0QAHxTlkSQpy5RMXxVjLIoiikLMNj-sw,16766
+numcodecs_wasm/.gitignore,sha256=q8aR3fx9rX0uZgG2TaFhN3IvtAAcK1Slqbd-52Dwisc,12
+numcodecs_wasm/__init__.py,sha256=qI9vV0lX2zGOS13bxy9kt8cfNc9sKoCQYuxSzUKIHqc,5303
+numcodecs_wasm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numcodecs_wasm/_wasm.abi3.so,sha256=LL8BgdVsQgSxgtThUFY--mfLp548FhJO7gx858_ATOE,25012592
+numcodecs_wasm-0.1.0.dist-info/RECORD,,
