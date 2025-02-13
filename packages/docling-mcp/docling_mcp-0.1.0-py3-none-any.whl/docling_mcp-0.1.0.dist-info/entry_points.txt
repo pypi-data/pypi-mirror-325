@@ -1,0 +1,2 @@
+[console_scripts]
+docling-mcp = docling_mcp:main
