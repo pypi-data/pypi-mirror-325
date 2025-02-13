@@ -1,0 +1,7 @@
+bpp_af/__init__.py,sha256=cdIpv1gbMem9qlpTFzLjnIQoR13ZqgvhoGxvg5MR6mM,142
+bpp_af/af.py,sha256=8TGL5hquqmXsQRz26AxI3A2PVjO5Vg-bqYXG9oX41vI,2803
+bpp_af/extract.py,sha256=GgAIDp17lu2Lcu2fOoofQr7xf5iTurg_fX6E4GeIbTk,1253
+bpp_af/instance.py,sha256=46ojmj-s3kIfR7eXz70Ju5wUdvqetvRv9qOdfZl-Pdw,1122
+bpp_af-0.0.1.dist-info/METADATA,sha256=yYR_oKA-c1DGKMUPnZpAvPxMEQzg0Wun46Lq6cKkTEM,398
+bpp_af-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+bpp_af-0.0.1.dist-info/RECORD,,
