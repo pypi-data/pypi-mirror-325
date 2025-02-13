@@ -1,0 +1,11 @@
+backstage_simple_client/__init__.py,sha256=PKVFxMhGWaOwZqBAyyYb9ZlDKWTjQjGk7eqCn99bwnA,157
+backstage_simple_client/client.py,sha256=j6dGivqCsxSKXRdncSEiskrpUDsgH6NiJrr6mNSY-1M,5698
+backstage_simple_client/common.py,sha256=NXXv_w31PLZcKTEKg020hqkY43lvNztOWfInYFjk-j8,437
+backstage_simple_client/filters.py,sha256=jBfsc7-a9YXYyOa8P6atWS9MMJI_-6wc-6zlw9pMeaA,838
+backstage_simple_client/models/entities.py,sha256=EnOzdrPDCkM5OuWMJyidspPzI4Asx2CNf0ZfBDKbys8,1203
+backstage_simple_client/models/requests.py,sha256=nvPHDsJLiM_2SblAtop3tMe4X3ZNOoPMHQjZPEuXS1w,1827
+backstage_simple_client/models/responses.py,sha256=cdhy7sxU7LVA8yC77jiTEN4Zt1cDdih0xHTpQbQxmlA,522
+backstage_simple_client-0.1.3.dist-info/LICENSE,sha256=vpKYolzJKbumvGtfmJ1tKzUcLgRlAy8dTo607WHdE6g,1071
+backstage_simple_client-0.1.3.dist-info/METADATA,sha256=_Te0xQA-l9LIM6W9DbnIN_qdpbCCOfVe1TBqyaPE-Vo,3142
+backstage_simple_client-0.1.3.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+backstage_simple_client-0.1.3.dist-info/RECORD,,
