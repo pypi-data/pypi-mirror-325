@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+jbb.py
+pyproject.toml
+jbb.egg-info/PKG-INFO
+jbb.egg-info/SOURCES.txt
+jbb.egg-info/dependency_links.txt
+jbb.egg-info/entry_points.txt
+jbb.egg-info/top_level.txt
+tests/test.py
