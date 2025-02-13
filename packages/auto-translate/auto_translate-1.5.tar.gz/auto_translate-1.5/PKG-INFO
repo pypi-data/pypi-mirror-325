@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: auto_translate
+Version: 1.5
+Summary: A simple automatic translation library
+Home-page: 
+Author: v4d6
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: deep_translator
+Requires-Dist: langdetect
+
+# Auto Translate
+
+Auto Translate is a simple Python package that automatically translates text to a selected language.
+
+## Installation
+
+```sh
+pip install auto_translate
+```
+
+## Usage
+
+```sh 
+from auto_translate import AutoTranslate
+
+translate = AutoTranslate("es")  # Set preferred language to Spanish
+text = translate.translate("Hello, how are you?")
+print(text)  # Output: "Hola, Â¿cÃ³mo estÃ¡s?"
+```
+## License
+
+```sh
+This project is licensed under the MIT License.
+```
+
+---
