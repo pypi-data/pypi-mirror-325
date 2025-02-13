@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+requirements.txt
+src/ailibrary/__init__.py
+src/ailibrary/client.py
+src/ailibrary.egg-info/PKG-INFO
+src/ailibrary.egg-info/SOURCES.txt
+src/ailibrary.egg-info/dependency_links.txt
+src/ailibrary.egg-info/requires.txt
+src/ailibrary.egg-info/top_level.txt
+src/ailibrary/_internal/__http_client.py
+src/ailibrary/_internal/__init__.py
+src/ailibrary/_internal/_agent.py
+src/ailibrary/_internal/_files.py
+src/ailibrary/_internal/_knowledge_base.py
+src/ailibrary/_internal/_notes.py
+src/ailibrary/_internal/_utilities.py
