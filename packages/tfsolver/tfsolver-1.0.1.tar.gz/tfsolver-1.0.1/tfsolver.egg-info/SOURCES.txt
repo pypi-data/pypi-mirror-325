@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+tfsolver/__init__.py
+tfsolver/mm44_torch.py
+tfsolver.egg-info/PKG-INFO
+tfsolver.egg-info/SOURCES.txt
+tfsolver.egg-info/dependency_links.txt
+tfsolver.egg-info/requires.txt
+tfsolver.egg-info/top_level.txt
