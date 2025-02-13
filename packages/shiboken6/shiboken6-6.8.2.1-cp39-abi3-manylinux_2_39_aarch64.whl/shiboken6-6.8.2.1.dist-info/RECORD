@@ -1,0 +1,11 @@
+shiboken6/Shiboken.abi3.so,sha256=S52722X553gXe2slc7tWiIBOfD3lhtvHVHTdwapKOFE,68544
+shiboken6/Shiboken.pyi,sha256=HDQY3Xhso0bP2bWMx5dDf1AO-w0nzSS6MAva6G3jYlw,1046
+shiboken6/__init__.py,sha256=JVRJ83FTPp7kcdOxBh-yrcC3a1KcFhUsuEQi_VfdTss,671
+shiboken6/_config.py,sha256=2dh43y-pLELUNlBPsqYYNlkBWt8AttFn5nmWBNBzJZY,186
+shiboken6/_git_shiboken_module_version.py,sha256=zJ7aQ1__2ZtIAdvqxnp-df6xs6kNsIwM2szcTkxod60,694
+shiboken6/libshiboken6.abi3.so.6.8,sha256=cPOUOQoDNXuhea4gYp-cOz64P8A_scygaPvRVjRjY8k,466488
+shiboken6/py.typed,sha256=FU0rOhJVlG7EURp5Uv2wfPvgGm7px8bq5d-r1GDIM8E,33
+shiboken6-6.8.2.1.dist-info/METADATA,sha256=rKobyGmbXjD4Lo7rVOaAY7DZQK1tvXdVmKK9GSJBiWE,2514
+shiboken6-6.8.2.1.dist-info/WHEEL,sha256=kjq13wFDxWP8UqhSBW4_vDXai-AwSUbfAHTiai0XT3M,112
+shiboken6-6.8.2.1.dist-info/top_level.txt,sha256=_l8XHEOFzOmXURG6zBXSK6LXG8BEzHn9ABBSMFdV098,19
+shiboken6-6.8.2.1.dist-info/RECORD,,
