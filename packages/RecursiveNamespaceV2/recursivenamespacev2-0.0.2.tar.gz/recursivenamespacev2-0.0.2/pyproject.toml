@@ -1,0 +1,88 @@
+[build-system]
+requires = [
+    "pdm-backend",
+    "versioneer[toml]",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "RecursiveNamespaceV2"
+dynamic = []
+description = "Recursive Namespace. An extension of SimpleNamespace. Enhance get/set and parse from JSON"
+readme = "README.md"
+authors = [
+    { name = "VienPQ", email = "pasxd245@gmail.com" },
+]
+requires-python = ">=3.8"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+version = "0.0.2"
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+homepage = "https://github.com/pasxd245/RecursiveNamespaceV2"
+repository = "https://github.com/pasxd245/RecursiveNamespaceV2"
+
+[project.optional-dependencies]
+test = [
+    "pytest>=6.0",
+    "coverage>=7.0",
+]
+
+[tool.versioneer]
+VCS = "git"
+style = "pep440"
+tag_prefix = "v"
+parentdir_prefix = "recursivenamespacev2-"
+versionfile_source = "src/recursivenamespace/_version.py"
+versionfile_build = "recursivenamespace/_version.py"
+
+[tool.pdm.version]
+source = "call"
+getter = "versioneer:get_version"
+write_to = "recursivenamespace/_version_pdm.py"
+write_template = "__version__ = '{}'"
+
+[tool.ruff]
+line-length = 80
+target-version = "py310"
+fix = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--strict-markers --strict-config --capture=no --durations=30 --junitxml=out/test-data.xml"
+testpaths = [
+    "tests",
+]
+junit_family = "xunit2"
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+ignore_errors = false
+show_missing = true
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "AbstractMethodError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]
+
+[tool.coverage.html]
+directory = "coverage_html_report"
+
+[tool.codespell]
+ignore-words-list = "rns"
+ignore-regex = "https://([\\w/\\.])+"
