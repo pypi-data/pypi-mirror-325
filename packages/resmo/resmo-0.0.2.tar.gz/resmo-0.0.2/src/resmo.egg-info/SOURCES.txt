@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/resmo/__init__.py
+src/resmo/generate_modified_data.py
+src/resmo/util.py
+src/resmo.egg-info/PKG-INFO
+src/resmo.egg-info/SOURCES.txt
+src/resmo.egg-info/dependency_links.txt
+src/resmo.egg-info/requires.txt
+src/resmo.egg-info/top_level.txt
+src/resmo/modification/__init__.py
+src/resmo/modification/mask_residue.py
+src/resmo/modification/modification.py
+src/resmo/modification/signature.py
+src/resmo/protein_model/__init__.py
+src/resmo/protein_model/base.py
+src/resmo/protein_model/mol2.py
