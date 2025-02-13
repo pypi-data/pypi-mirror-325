@@ -1,0 +1,13 @@
+httpx
+aiohttp
+pandas
+numpy
+matplotlib
+tiktoken
+python-docx
+pdf2image
+Pillow
+boto3
+pinecone-client
+python-dotenv
+fastmcp 
