@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+actions/__init__.py
+actions/actions.py
+actions_python.egg-info/PKG-INFO
+actions_python.egg-info/SOURCES.txt
+actions_python.egg-info/dependency_links.txt
+actions_python.egg-info/top_level.txt
