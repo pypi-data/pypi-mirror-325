@@ -1,0 +1,27 @@
+[misp]
+
+# MISP Server Name
+name = "MISP Priv"
+
+# MISP server URL
+url = "https://192.168.56.107/"
+
+# API key to access MISP server
+key = "eo4knjlRR4RWVXBdGSKVcnHJqGaF0QbeW0eBpvoF"
+
+# TLS verification
+ssl = false
+
+# Enable
+enable = true
+
+
+[[misp-feeds]]
+name = "CIRCL OSINT Feed"
+url = "https://www.circl.lu/doc/misp/feed-osint"
+enable = true
+
+[[misp-feeds]]
+name = "The Botvrij.eu Data"
+url = "http://www.botvrij.eu/data/feed-osint"
+enable = false
