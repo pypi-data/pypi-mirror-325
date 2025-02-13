@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: simple_otel_py
+Version: 0.0.5
+Summary: A simple library for setting up OpenTelemetry logging, tracing, and metrics in Python applications. To send them to an open otel collector
+Author-email: Linus Pauls <hadoken79@protonmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/hadoken79/simple_otel_py
+Project-URL: Bug Tracker, https://github.com/hadoken79/simple_otel_py/issues
+Keywords: Metrics,Logging,Tracing,CNF,OpenTelemetry,Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: opentelemetry-sdk<2.0.0,>=1.29.0
+Requires-Dist: opentelemetry-api<2.0.0,>=1.29.0
+Requires-Dist: opentelemetry-instrumentation-logging==0.50b0
+Requires-Dist: opentelemetry-instrumentation-requests==0.50b0
+Requires-Dist: opentelemetry-exporter-richconsole==0.50b0
+Requires-Dist: opentelemetry.exporter.otlp.proto.grpc<2.0.0,>=1.29.0
