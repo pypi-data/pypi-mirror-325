@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: tuyactl
+Version: 0.0.1
+Summary: A server and client cli tool for controlling Tuya devices
+Author-email: "@cabra.lat" <admin@cabra.lat>
+License-File: LICENSE.md
+Requires-Python: >=3.13
+Requires-Dist: colour>=0.1.5
+Requires-Dist: numpy>=2.2.2
+Requires-Dist: quart>=0.20.0
+Requires-Dist: scipy>=1.15.1
+Requires-Dist: tinytuya>=1.16.1
+Description-Content-Type: text/markdown
+
+# tuyactl - A CLI tool for managing Tuya devices
+
+## Please note this is just a experimental and unstable project.
+
+So far the daemon and client program controls rgb light bulbs using [tinytuya](https://github.com/jasonacox/tinytuya) library,
+which involves some previous setup follow the tutorial [here](https://github.com/jasonacox/tinytuya#setup-wizard---getting-local-keys).
+Once you generated your `snapshot.json` place it in your home directory.
+There are ways of configure the snapshot.json location using environment variables (look the head of tuyad script)
