@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enigmabox"
+version = "1.1.0"
+description = "EnigmaBox  is a Python library for secure text encryption and decryption using AES-256  and Argon2id . It combines industry-standard cryptographic algorithms with a simple, intuitive interface, making it easy to protect sensitive data with strong encryption. Perfect for developers who need robust security without complexity."
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+    "cryptography",
+    "argon2-cffi"
+]
+
+[tool.setuptools]
+packages = ["enigmabox"]

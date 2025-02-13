@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+enigmabox/EnigmaBox.py
+enigmabox/__init__.py
+enigmabox.egg-info/PKG-INFO
+enigmabox.egg-info/SOURCES.txt
+enigmabox.egg-info/dependency_links.txt
+enigmabox.egg-info/requires.txt
+enigmabox.egg-info/top_level.txt

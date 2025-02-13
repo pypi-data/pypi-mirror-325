@@ -1,0 +1,83 @@
+
+# EnigmaBox
+
+EnigmaBox is a Python library designed to provide secure and straightforward encryption and decryption using AES-256 with Argon2id key derivation. It balances security and simplicity, making it easy to integrate into your projects while ensuring robust protection for your data.
+
+## Features
+
+- **AES-256 Encryption**: Utilizes the Advanced Encryption Standard with a 256-bit key for strong encryption.
+- **Argon2id Key Derivation**: Derives cryptographic keys from passwords using the secure Argon2id algorithm.
+- **Simple API**: Easy-to-use methods for encryption and decryption.
+- **Secure Random Salt and IV**: Ensures each encryption operation is unique and secure.
+
+## Installation
+
+You can install EnigmaBox using pip:
+
+```bash
+pip install enigmabox
+```
+
+## Usage
+
+Here's how you can use EnigmaBox to encrypt and decrypt messages:
+
+```python
+from EnigmaBox import EnigmaBox
+
+# Encrypt a message
+password = "your_secure_password"
+message = "Your secret message"
+encrypted_message = EnigmaBox.encrypt(password, message)
+print("Encrypted Message:", encrypted_message)
+
+# Decrypt the message
+decrypted_message = EnigmaBox.decrypt(password, encrypted_message)
+print("Decrypted Message:", decrypted_message)
+```
+
+## API
+
+### `encrypt(password: str, message: str) -> str`
+
+Encrypts a message using the provided password.
+
+- **Parameters**:
+  - `password` (str): The password used for encryption.
+  - `message` (str): The message to be encrypted.
+
+- **Returns**:
+  - `str`: The encrypted message as a base64-encoded string.
+
+### `decrypt(password: str, encrypted_message: str) -> str`
+
+Decrypts an encrypted message using the provided password.
+
+- **Parameters**:
+  - `password` (str): The password used for decryption.
+  - `encrypted_message` (str): The encrypted message to be decrypted.
+
+- **Returns**:
+  - `str`: The decrypted message.
+
+## Security Considerations
+
+- **Key Derivation**: EnigmaBox uses Argon2id for key derivation, which is resistant to side-channel attacks and provides strong security against brute-force attacks.
+- **Random Salt and IV**: Each encryption operation uses a randomly generated salt and initialization vector (IV) to ensure that identical messages encrypted with the same password yield different ciphertexts.
+- **Error Handling**: The library includes error handling to manage invalid inputs and decryption failures, enhancing usability and security.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please open an issue on the GitHub repository.
+
+---
+
+EnigmaBox aims to provide a secure and user-friendly encryption solution. By balancing security and simplicity, it ensures that your data remains protected without compromising ease of use.
