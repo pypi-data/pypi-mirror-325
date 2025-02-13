@@ -1,0 +1,14 @@
+tree_sitter_elixir/__init__.py,sha256=_Nfu-XmAcCZyJxMHWHayuiOD5RHQsOl36q4QeXl5evQ,94
+tree_sitter_elixir/__init__.pyi,sha256=u8xQzb5Klx7aVoyDlksLHkE7SXkMIO0hmR6yvl_L_40,28
+tree_sitter_elixir/_binding.pyd,sha256=7TNbcsilS5wiWObhCicaeB8Q7fOu299H1_m4slP8pZw,1418240
+tree_sitter_elixir/binding.c,sha256=6-F_fzroUN1xAtg5d_PE_LyvvmjmRs5KEdzrUqnGqoA,710
+tree_sitter_elixir/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_elixir/queries/highlights.scm,sha256=b7Z1uowt-elmnJloJS68ZJArMq0tc6LlG6eCmB5tJ14,4453
+tree_sitter_elixir/queries/injections.scm,sha256=38J4U16ndN-wdbqnH6s_1cBu3yh_ZEWMaSvWd6ySiCY,205
+tree_sitter_elixir/queries/tags.scm,sha256=rQWzhsZ2xEDRDRSfKqSvD2XtbVVflm-kkQmpNyCH1vc,1596
+tree_sitter_elixir-0.3.4.dist-info/LICENSE,sha256=bR2Wj7Il7KNny38LiDGrASo12StUfpReF--OewXD5cw,10349
+tree_sitter_elixir-0.3.4.dist-info/METADATA,sha256=d1I9TXfBXDUh334XbdARf-eeQy9M4DUaxzqTGoRKLWU,1130
+tree_sitter_elixir-0.3.4.dist-info/NOTICE,sha256=q3ZEw0572KOPw_-ktgtcIKR0kdVggjCLekB_x285u20,3035
+tree_sitter_elixir-0.3.4.dist-info/WHEEL,sha256=Km2SULLAYztPmE6Egwt7IwqzQL3l0RxDC7ilalXSXt8,99
+tree_sitter_elixir-0.3.4.dist-info/top_level.txt,sha256=v6k2n1n52fJWFlzZyYV1Q3k57dsJosQ-mJnXrJ_il2c,28
+tree_sitter_elixir-0.3.4.dist-info/RECORD,,
