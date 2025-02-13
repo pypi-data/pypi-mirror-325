@@ -1,0 +1,2 @@
+django-cms>=3.11
+django-boxed-alerts>=2.0.0
