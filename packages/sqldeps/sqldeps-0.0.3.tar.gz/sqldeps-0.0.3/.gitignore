@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Cache files
+.pytest_cache
+.ruff_cache
+uv.lock
+
+# Virtual environments & env variables
+.venv
+.env
+
+# Data
+data/*
+!/data/examples
+
+# Ignore temporary notebooks (upload only the inference one)
+notebooks/*
+!notebooks/inference.ipynb
+!notebooks/database.ipynb
