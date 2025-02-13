@@ -1,0 +1,32 @@
+[project]
+name = "deepsearch-latest"
+version = "0.1.2"
+description = "Deep search tool for document analysis"
+dependencies = [
+    "httpx",
+    "aiohttp",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "tiktoken",
+    "python-docx",
+    "pdf2image",
+    "Pillow",
+    "boto3",
+    "pinecone-client",
+    "python-dotenv",
+    "fastmcp"
+]
+
+[project.scripts]
+deepsearch = "deepsearch:main"
+
+[tool.deepsearch]
+server_name = "deepsearch"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["deepsearch"]
