@@ -1,0 +1,6 @@
+
+[tests]
+pycodestyle
+pydocstyle
+pyflakes
+coverage
