@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: quantum_bb84simulator
+Version: 1.1.0
+Summary: A comprehensive Python library for simulating the BB84 quantum key distribution protocol.
+Home-page: 
+Author: Syon Balakrishnan
+Author-email: balakrishnansyon@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+Requires-Dist: qiskit>=0.37.0
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: numpy>=1.21.0
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+
+# BB84 Simulation Library
+
+A comprehensive Python library for simulating the **BB84 quantum key distribution protocol**, now enhanced with **AI-based eavesdropping detection, advanced noise models, Qiskit integration, and improved visualization tools.**
+
+---
+
+## **Features**
+### **🔑 Complete BB84 Protocol**
+- Qubit preparation, transmission, and measurement.
+- Key sifting, error correction, and privacy amplification.
+
+### **🔍 Advanced Eavesdropping & Security Features**
+- Configurable noise models: depolarizing, amplitude damping, phase damping, and readout errors.
+- **NEW:** AI-based eavesdropper detection using **Isolation Forest**.
+- **NEW:** Simulated **lossy channel effects** on key transmission.
+
+### **📊 Visualization Tools**
+- Protocol workflow visualization.
+- Noise impact visualization.
+- Key sifting visualization.
+- **NEW:** **Real-time QBER visualization** for intrusion detection.
+
+### **💻 Quantum Execution**
+- **NEW:** IBM **Qiskit Integration** for running BB84 on real quantum hardware.
+
+### **🛠 Extensible & Modular Design**
+- Modular architecture for easy integration of additional features.
+- **NEW:** Caching for quantum noise models to optimize performance.
+
+---
+
+## **Installation**
+
+### **Prerequisites**
+- Python 3.8+
+- pip package manager
+- Install dependencies:
+  ```bash
+  pip install -r requirements.txt

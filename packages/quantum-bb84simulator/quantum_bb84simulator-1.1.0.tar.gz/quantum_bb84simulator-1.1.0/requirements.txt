@@ -1,0 +1,12 @@
+# Core dependencies
+qiskit>=0.37.0
+qiskit-aer>=0.11.0  # Required for noise simulation
+matplotlib>=3.5.0
+numpy>=1.21.0
+scikit-learn>=1.0.0  # Required for anomaly detection (AI-based eavesdropper detection)
+
+# Development dependencies (optional)
+# Uncomment the lines below if needed for development or testing
+# pytest>=7.0.0
+# pytest-cov>=3.0.0
+# sphinx>=4.0.0
