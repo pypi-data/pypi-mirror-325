@@ -1,0 +1,4 @@
+[himena.plugin]
+Distribution IO = himena_stats.io
+Statistical distributions = himena_stats.distributions
+Statistical testing = himena_stats.test_tools
