@@ -1,0 +1,17 @@
+shade/__init__.py,sha256=OmAO9CyJN5KQb5uumsX_wyxVmZoTedchOfpve49_3qA,746
+shade/enums.py,sha256=dRtb-KrNyStIPYwNox3UIz2T1OvdOBOgXYTCWMm7Wbg,186
+shade/query_builder.py,sha256=Joh0rfAWBv99rxEiCD_sevrr7OTPF11ESpDVe3jRkGQ,7152
+shade/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shade/resources/abc_resource.py,sha256=lUtrI8UxpkjglvFBJGQag0mOFJvlgYCoFjvKprsFYy0,223
+shade/resources/asset.py,sha256=WTprll39AJvtDMGB_WdO1IKHwapX0tc7Vvc1v-qLHCg,3336
+shade/resources/billing.py,sha256=ZNEupD6BgBeh0IfzWZ1zUMlrt1NB-yNwlOKwsb2oADQ,639
+shade/resources/drive.py,sha256=_CPIblaONaEOL2LupqrecJ1OXRjJfPg9ddFTPjOr9-g,2002
+shade/resources/file.py,sha256=6tirLoIzi_7J1j-BDMOKzxxyUKQKMUWfs_ex9nhjtp4,1404
+shade/resources/share.py,sha256=ML_K6oOM19W5PAFy0VoIpTXKUURS4izVBnUCp7qaXIo,1199
+shade/resources/workspace.py,sha256=TjyyBH6_S6NWfz8kdIv4d_0TBQZlzEFTVV6lyjqRhbc,3615
+shade/utils.py,sha256=glDGLbx-o9Tm1TKNBIpChY22kPsQNlyFHjNL9FC01v8,122
+shade_python_sdk-1.0.1.dist-info/LICENSE,sha256=5E8E7q1eksyqqUvr-ZCY8RexzPzePBHA9l203dkQl8M,1066
+shade_python_sdk-1.0.1.dist-info/METADATA,sha256=jc6ZHyFQnPMzvj7IRHrV4OCTMrXQcjHBezaq-Efj-yI,711
+shade_python_sdk-1.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+shade_python_sdk-1.0.1.dist-info/entry_points.txt,sha256=cinpE2uYRox597iM3FXGCbTeiIhJy2AlRcXal2d7zJs,58
+shade_python_sdk-1.0.1.dist-info/RECORD,,
