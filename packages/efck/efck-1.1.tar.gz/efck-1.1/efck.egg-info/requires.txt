@@ -1,0 +1,11 @@
+
+[dev]
+flake8
+coverage
+pyinstaller==6.9
+pillow
+
+[doc]
+
+[extra]
+unicodedata2
