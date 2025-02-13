@@ -1,0 +1,170 @@
+Metadata-Version: 2.2
+Name: django-admin-ai
+Version: 0.1.4
+Summary: An AI-powered assistant for Django Admin, allowing data import using OpenAI.
+Home-page: https://github.com/aritzjl/django-admin-ai
+Author: Aritz Jaber Lopes
+Author-email: aritzzjl@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django>=3.2
+Requires-Dist: openai>=1.61.0
+Requires-Dist: annotated-types==0.7.0
+Requires-Dist: anyio==4.8.0
+Requires-Dist: asgiref==3.8.1
+Requires-Dist: build==1.2.2.post1
+Requires-Dist: certifi==2025.1.31
+Requires-Dist: colorama==0.4.6
+Requires-Dist: distro==1.9.0
+Requires-Dist: h11==0.14.0
+Requires-Dist: httpcore==1.0.7
+Requires-Dist: httpx==0.28.1
+Requires-Dist: idna==3.10
+Requires-Dist: jiter==0.8.2
+Requires-Dist: packaging==24.2
+Requires-Dist: pydantic==2.10.6
+Requires-Dist: pydantic_core==2.27.2
+Requires-Dist: pyproject_hooks==1.2.0
+Requires-Dist: setuptools==75.8.0
+Requires-Dist: sniffio==1.3.1
+Requires-Dist: sqlparse==0.5.3
+Requires-Dist: tqdm==4.67.1
+Requires-Dist: typing_extensions==4.12.2
+Requires-Dist: tzdata==2025.1
+Requires-Dist: PyPDF2>=2.10.1
+Requires-Dist: python-doctr==0.11.0
+Requires-Dist: Pillow>=8.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Django Admin AI
+
+An **AI-powered enhancement** for Django Admin that integrates artificial intelligence directly into the Django admin panel. This package provides utilities for **AI-assisted data processing, automatic form population, intelligent suggestions, and more**.
+
+## 🚀 Key Features
+
+✅ **AI-driven form population**: Automatically fill forms by extracting data from various document types (PDF, images, text files).  
+✅ **Seamless Django Admin integration**: Enable AI-enhanced forms with a single line of code.  
+✅ **Easy setup**: Minimal configuration required to get started.  
+
+### 🔮 Future Enhancements (Planned Features)
+
+🚀 **Voice input support**: Record audio directly in Django Admin and let AI extract and fill form data.  
+🚀 **Foreign Key handling**: AI-driven form population for ForeignKey fields.  
+🚀 **Embedded AI chatbot**: A chatbot trained with your database schema to assist users and execute database queries on demand.  
+
+---
+
+## 🛠 Installation
+
+### Prerequisites
+- Python **3.8+**  
+- Django **3.0+**  
+
+### Install via pip
+
+```bash
+pip install django-admin-ai
+```
+
+---
+
+## ⚙️ Setup
+
+### 1️⃣ Add `django_admin_ai` to your Django settings
+
+In your project's `settings.py`, update the following:
+
+```python
+import django_admin_ai
+import os
+
+INSTALLED_APPS = [
+    ...,
+    'django_admin_ai',  # Add this line
+]
+
+TEMPLATES = [
+    {
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates/'),
+            os.path.join(os.path.dirname(django_admin_ai.__file__), 'templates'),
+        ],
+    },
+]
+```
+
+Define your OpenAI API key in `settings.py`:
+
+```python
+DJANGO_ADMIN_AI_CONFIG = {
+    "openai_api_key": "<YOUR_OPENAI_API_KEY>"
+}
+```
+
+---
+
+### 2️⃣ Configure URL routing
+
+In your project's `urls.py`, include Django Admin AI:
+
+```python
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin-ai/', include('django_admin_ai.urls')),
+]
+```
+
+---
+
+### 3️⃣ Enable AI-powered forms in your models
+
+In your Django **app’s `admin.py`**, simply add the `ai_import` flag to your admin models:
+
+```python
+from django.contrib import admin
+from .models import YourModel
+
+class YourModelAdmin(admin.ModelAdmin):
+    ai_import = True  # Enable AI-driven form filling
+
+admin.site.register(YourModel, YourModelAdmin)
+```
+
+Now, when you upload a **PDF, text file, or image**, the AI will extract relevant information and populate the fields automatically! 🎉
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. Feel free to contribute and improve the project!
+
+---
+
+## 💡 Contributing
+
+We welcome contributions! If you’d like to add a feature or fix a bug, feel free to fork the repository and submit a pull request.
+
+### 📬 Stay Updated
+Follow the repository and stay tuned for updates!
+
+---
+
+🔥 Start enhancing your Django Admin with AI today! 🔥
