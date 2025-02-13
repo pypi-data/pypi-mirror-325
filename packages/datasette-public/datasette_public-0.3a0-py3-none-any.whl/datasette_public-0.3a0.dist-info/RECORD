@@ -1,0 +1,10 @@
+datasette_public/__init__.py,sha256=CQkl36kZAvTaXMLRefdEV4ImiqegGzfdIgr51E6kThU,9497
+datasette_public/templates/public_database_change_privacy.html,sha256=C0ShRJC15hwOgFDWBH8y8ONnBf2rqSHiIpr6aZqiYjY,2226
+datasette_public/templates/public_table_change_privacy.html,sha256=8g7OsSbL4UuczzqomXZWlAdnXF_HvM10hmcSTc_btwg,1108
+tests/test_public.py,sha256=X1R5EI72xCQjzAyCJyPmCOjNxJsY24Vgv9KBxGhkFEs,8601
+datasette_public-0.3a0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_public-0.3a0.dist-info/METADATA,sha256=zjObp3b5mXmdY87A93YDKi8-JhRitC9XS4Ni3A81ygM,2650
+datasette_public-0.3a0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+datasette_public-0.3a0.dist-info/entry_points.txt,sha256=0szTjnB33E-f7i7S99pYEWT2crAFBvw1Zv-OivT0fCA,39
+datasette_public-0.3a0.dist-info/top_level.txt,sha256=xB55A3Nzeg6va1mJLeEEImQocYwKD23nxRZ3kmh5I40,23
+datasette_public-0.3a0.dist-info/RECORD,,
