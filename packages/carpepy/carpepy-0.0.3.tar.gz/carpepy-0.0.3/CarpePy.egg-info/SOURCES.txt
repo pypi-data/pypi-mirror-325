@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+CarpePy.egg-info/PKG-INFO
+CarpePy.egg-info/SOURCES.txt
+CarpePy.egg-info/dependency_links.txt
+CarpePy.egg-info/requires.txt
+CarpePy.egg-info/top_level.txt
+carpepy.egg-info/PKG-INFO
+carpepy.egg-info/SOURCES.txt
+carpepy.egg-info/dependency_links.txt
+carpepy.egg-info/requires.txt
+carpepy.egg-info/top_level.txt
