@@ -1,0 +1,4 @@
+django-torque
+pgvector
+orjson
+sentence-transformers
