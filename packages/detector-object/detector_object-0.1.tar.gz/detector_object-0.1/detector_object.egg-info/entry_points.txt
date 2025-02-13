@@ -1,0 +1,2 @@
+[console_scripts]
+detector-object = detector_object.detect:main
