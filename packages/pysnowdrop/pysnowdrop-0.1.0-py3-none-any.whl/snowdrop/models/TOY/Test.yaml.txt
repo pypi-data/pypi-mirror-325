@@ -1,0 +1,39 @@
+name:  Tracking car motion
+
+symbols:
+   variables: [z,x,vx,y,vy]
+   measurement_variables : [obs_z]
+   shocks: [ex,ey]
+   measurement_shocks : [ez]
+   parameters: [dt]
+
+equations:
+    - z  = vx**2  + vy**2
+    - x  = x(-1)  + vx*dt 
+    - vx = vx(-1) + 0.1*dt + ex    
+    - y  = y(-1)  + vy*dt
+    - vy = vy(-1) + 0.2*dt + ey   
+    
+measurement_equations: 
+    - obs_z = z + ez
+
+calibration:
+      # Parameters
+      dt : 0.1
+      # Initial values
+      z : y/x
+      x : 1
+      vx : 0.1
+      y : 1
+      vy : 0.2 
+      # Standard deviation of shocks
+      std_ex : .1
+      std_ey : .1
+      # Standard deviations of measurement variables
+      std_ez : .1
+    
+options:
+    range : ["2000,1,1","2025,1,1"]
+    filter_range : ["2000,1,1","2020,1,1"]
+    frequency: 0 #yearly
+   

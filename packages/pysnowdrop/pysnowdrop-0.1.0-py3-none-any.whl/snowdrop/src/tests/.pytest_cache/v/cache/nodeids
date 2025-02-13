@@ -1,0 +1,6 @@
+[
+  "test_kalman_filter.py::test_kalman_filter",
+  "test_model_estimation.py::test_model_estimation",
+  "test_optimization.py::test_optimization",
+  "test_toy_models.py::test_toy_models"
+]

@@ -1,0 +1,679 @@
+
+
+!transition_variables
+"Surveyed 2yr-ahead expectations of annual inflation (in %)" E8_dot4_cpi_ber
+"E8_dot4_cpi_ber converted to levels" lcpi_ber
+
+"Real GDP (100*log)" lgdp
+"Trend in Real GDP (100*log)" lgdp_eq
+"Output Gap (in %)" lgdp_gap
+"Quarterly Growth in Real GDP(in % pa)" dot_gdp
+"Annual Growth in Real GDP (in %)" dot4_gdp
+"Quarterly Growth in GDP Trend (in % pa)" dot_gdp_eq
+"Quarterly Growth in GDP Long-run Trend (in % pa)" gg
+
+"CPI (level, 100*log)" lcpi
+"Quarterly Inflation (in % pa)" dot_cpi
+"Annual Inflation (in %)" dot4_cpi
+
+"Core CPI (level, 100*log)" lcpi_core
+"Quarterly Core Inflation (in % pa)" dot_cpi_core
+"Annual Core Inflation (in %)" dot4_cpi_core
+
+"Services CPI (level, 100*log)" lcpi_serv
+"Quarterly Services Inflation (in % pa)" dot_cpi_serv
+"Annual Services Inflation (in %)" dot4_cpi_serv
+"Real Marginal Cost - Services Inflation (in %)" rmc_serv
+"Quarterly Inflation of Import Prices (in % pa)" dot_pm_serv
+"Annual Import Inflation (in %)" dot4_pm_serv
+
+"Core Goods CPI (level, 100*log)" lcpi_goodsx
+"Quarterly Core Goods Inflation (in % pa)" dot_cpi_goodsx
+"Annual Core Goods Inflation (in %)" dot4_cpi_goodsx
+"Real Marginal Cost - Core Goods Inflation (in %)" rmc_goodsx
+"Quarterly Inflation of Import Prices (in % pa)" dot_pm_goodsx
+"Annual Import Inflation (in %)" dot4_pm_goodsx
+
+"Food CPI (level, 100*log)" lcpi_food
+"Quarterly Food Inflation (in % pa)" dot_cpi_food
+"Annual Food Inflation (in %)" dot4_cpi_food
+"Real Marginal Cost - Food Inflation (in %)" rmc_food
+
+"Electricity CPI (level, 100*log)" lcpi_elec
+"Quarterly Electricity Inflation (in % pa)" dot_cpi_elec
+"Annual Electricity Inflation (in %)" dot4_cpi_elec
+"Real MArginal Cost - Electricity" rmc_elec
+
+"Petrol CPI (level, 100*log)" lcpi_petr
+"Quarterly Petrol Inflation (in % pa)" dot_cpi_petr
+"Annual Petrol Inflation (in %)" dot4_cpi_petr
+
+"Petrol Price (in rands 100*log)" lpetrol
+"Quarterly Change in Petrol Price (in % pa)" dot_petrol
+"Annual Change in Petrol Price (in % pa)" dot4_petrol
+"Petrol Tax (in rands 100*log)" lpettax
+"Quarterly Change in Petrol Tax (in % pa)" dot_pettax
+"Annual Change in Petrol Tax (in % pa)" dot4_pettax
+"Basic Fuel Price (in rands 100*log)" lbfp
+"Quarterly Change in Basic Fuel Price (in % pa)" dot_bfp
+"Annual Change in Basic Fuel Price (in % pa)" dot4_bfp
+"Weight of Basic Fuel Price in petrol prices" w_bfp
+
+"Inflation Target (in % pa)" target
+
+"Inflation expectations 1 year ahead consistent with rr definition" edot4_cpi
+"Inflation expectations 10 years ahead consistent with rr40" edot40_cpi 
+
+"Weight of services in the CPI basket" w_serv
+"Weight of core goods in the CPI basket" w_goodsx
+"Weight of food in the CPI basket" w_food
+"Weight of electricity in the CPI basket" w_elec
+"Weight of petrol in the CPI basket" w_petr
+
+"Wages (average salaries) (100*log)" lw
+"Quarterly Wage Inflation (in % pa)" dot_w
+"Annual Wage Inflation (in %)" dot4_w
+"Real Wage Gap (in %)" lrw_gap
+"Quarterly Growth in Trend Real Wage (in % pa)" dot_rw_eq
+"Quarterly Growth in Real Wage Long-run Trend (in % pa)" gg_dot_rw_eq
+
+"Quarterly Growth in real wages" dot_rw
+"Annual Growth in real wages" dot4_rw
+"Real wages (100*log)" lrw
+"Trend in Real wages (100*log)" lrw_eq
+
+"Employment (100*log)" lemp
+"Trend in Employment (100*log)" lemp_eq
+"Employment Gap (in %)" lemp_gap
+"Quarterly Growth in Employment(in % pa)" dot_emp
+"Annual Growth in Employment (in %)" dot4_emp
+"Quarterly Growth in Employment Trend (in % pa)" dot_emp_eq
+"Quarterly Growth in Employment Long-run Trend (in % pa)" gg_dot_emp_eq
+
+"Real Unit Labour Cost Gap (in %)" lrulc_gap
+
+"Unit Labour Costs (100*log)" lulc
+"Quarterly Unit Labour Cost Inflation (in % pa)" dot_ulc
+"Annual Unit Labour Cost Inflation (in %)" dot4_ulc
+
+"Nominal Exchange Rate (ZAR/USD, 100*log)" ls
+"Quarterly Change in Nominal Exchange Rate (in % pa)" dot_s
+"Annual Change in Nominal Exchange Rate (in %)" dot4_s
+"Country Risk Premium (in % pa)" prem
+"Equilibrium Country Risk Premium (in % pa)" prem_eq
+"Persistent Shock in Country Risk Premium (in % pa)" shock_prem
+
+
+"Nominal Interest Rate (in % pa)" rn
+"Real Interest Rate (in % pa)" rr
+"Trend Real Interest Rate (in % pa)" rr_eq
+"Real Interest Rate Gap (in pp)" rr_gap
+"Nominal Policy Neutral Interest Rate (in % pa)" rn_neutral
+
+"10-year Nominal Interest Rate (in % pa)" rn40
+"10-year Real Interest Rate (in % pa)" rr40
+"10-year Trend Real Interest Rate (in % pa)" rr40_eq
+
+"Weighted Real Interest Rate (in % pa)" lrr
+"Weighted Trend Real Interest Rate (in % pa)" lrr_eq 
+"Weighted Real Interest Rate Gap (in pp)" lrr_gap
+
+"10 year term premium - deviation from expectations hypothesis (in % pa)" term40 
+"10 year term premium (in pp)" term40_gap
+
+"Real Interest Rate - Core CPI - (in % pa)" rr_core
+"Real Interest Rate Gap - Core CPI - (in pp)" rr_core_gap
+
+"Real Exchange Rate (level, 100*log)" lz
+"Trend Real Exchange Rate (level, 100*log)" lz_eq
+"Real Exchange Rate Gap (in %)" lz_gap
+"Quarterly Change in Real Exchange Rate (in % pa)" dot_z
+"Quarterly Change in Trend Real Exchange Rate (in % pa)" dot_z_eq 
+"Quarterly Change in Long-run Trend Real Exchange Rate (in % pa)" gg_dot_z_eq
+
+"World Food Price Index (level, in USD 100*log)" lfood
+"Quarterly Change in World Food Price Index (in % pa)" dot_food
+"Annual Change in World Food Price Index (in %)" dot4_food
+"Real World Food Price (level, 100*log)" lqfood
+"Trend Real World Food Price (level, 100*log)" lqfood_eq
+"Real World Food Price Gap (in %)" lqfood_gap
+"Quarterly Trend Change in Real World Food Price (in % pa)" dot_qfood_eq
+
+"World Commodities Price (level, in USD 100*log)" lforcmd
+"Quarterly Change in World Commodities Price (in % pa)" dot_forcmd
+"Real World Commodities Price (level, 100*log)" lqforcmd
+"Trend Real World Commodities Price (level, 100*log)" lqforcmd_eq
+"Real World Commodities Price Gap (in %)" lqforcmd_gap
+"Quarterly Trend Change in Real World Commodities Price (in % pa)" dot_qforcmd_eq
+
+"World Oil Price (Implied level, in USD 100*log)" loil
+"Quarterly Change in World Oil Price (in % pa)" dot_oil
+"Annual change in World Oil Price (in % pa)" dot4_oil
+"Real World Oil Price (level, 100*log)" lqoil
+"Trend Real World Oil Price (level, 100*log)" lqoil_eq
+"Real World Oil Price Gap (in %)" lqoil_gap
+"Quarterly Trend Change in Real World Oil Price (in % pa)" dot_qoil_eq
+
+"Foreign Real GDP (100*log)" lx_gdp
+"Foreign Trend in Real GDP (100*log)" lx_gdp_eq
+"Foreign Output Gap (in %)" lx_gdp_gap
+"Foreign Quarterly Growth in Real GDP(in % pa)" dot_x_gdp
+"Foreign Annual Growth in Real GDP (in %)" dot4_x_gdp
+"Foreign Quarterly Growth in GDP Trend (in % pa)" dot_x_gdp_eq
+"Foreign Quarterly Growth in GDP Long-run Trend (in % pa)" g_x
+
+"Foreign Nominal Interest Rate (in % pa)" x_rn
+"Foreign Real Interest Rate (in % pa)" x_rr
+"Foreign Trend Real Interest Rate (in % pa)" x_rr_eq
+"Foreign Real Interest Rate Gap (in pp)" x_rr_gap
+
+"Foreign CPI (level, 100*log)" lx_cpi
+"Foreign Quarterly Inflation (in % pa)" dot_x_cpi
+"Foreign Annual Inflation (in % pa)" dot4_x_cpi
+
+% variables required for equation decompositions
+E1_dot_cpi
+E1_dot4_cpi
+E3_dot4_cpi
+E4_dot4_cpi
+E5_dot4_cpi
+E1_lgdp_gap
+E1_dot4_x_cpi
+E1_dot_z_eq
+
+E0_dot4_cpi
+E1_ls
+
+
+
+!transition_shocks
+e_E8_dot4_cpi_ber
+
+e_lgdp_gap, e_g, e_lgdp_eq
+
+e_lcpi, e_lcpi_core, e_dot_cpi_serv, e_dot_cpi_goodsx
+e_dot_cpi_food, e_dot_cpi_elec, e_dot_cpi_petr
+
+e_dot_pm_serv, e_dot_pm_goodsx 
+
+e_target
+
+e_lpetrol, e_dot_bfp, e_dot_pettax, e_w_bfp
+
+e_w_serv, e_w_goodsx, e_w_food, e_w_petr, e_w_elec
+
+e_dot_w, e_lemp_gap, e_dot_rw_eq, e_dot_emp_eq, e_lrw_eq, e_lemp_eq
+
+e_ls, e_rn, e_rr_eq, e_dot_z_eq, e_prem, e_prem_eq, e_term40, e_lz_eq
+
+e_dot_qfood_eq, e_lqfood_gap
+e_dot_qforcmd_eq
+e_lqforcmd_gap
+e_dot_qoil_eq, e_lqoil_gap
+
+e_lx_gdp_gap, e_x_rn, e_dot_x_cpi, e_x_rr_eq
+e_lx_gdp_eq
+e_g_x
+
+
+
+!measurement_variables
+obs_E8_dot4_cpi_ber
+
+obs_lgdp
+obs_gg
+obs_lgdp_eq
+
+obs_lcpi_serv
+obs_lcpi_goodsx
+obs_lcpi_food
+obs_lcpi_petr
+obs_lcpi_elec
+obs_lcpi_core
+
+% obs_target
+
+obs_lpettax
+obs_lbfp
+obs_w_bfp
+
+obs_w_serv
+obs_w_goodsx
+obs_w_food
+obs_w_petr
+obs_w_elec
+
+obs_lw
+obs_lemp
+
+obs_ls
+obs_rn
+obs_prem
+obs_rn40
+
+obs_lfood
+obs_lforcmd
+obs_loil
+
+obs_lx_cpi
+obs_lx_gdp_gap
+obs_x_rn
+obs_g_x
+obs_lx_gdp
+
+
+
+!measurement_shocks
+mes_g, mes_lgdp_eq
+
+
+% ------------------------------------------------------------------------------- %
+%% Aggregate supply
+mes_g_x
+
+% ------------------------------------------------------------------------------- %
+%% Miscellaneous identities & definitions
+
+
+!parameters
+% Fiscal block
+% fiscalswitch
+% Inflation expectations wedge
+% wedgeswitch
+
+
+%==========================================================================
+% Expectations wedge
+%==========================================================================
+
+u1 = 0.4
+u2 = 0.1
+
+a1, a2, a3, a4, a5, a6, a7
+j1
+theta
+
+b11, b12, b13, b14, b15, b16
+b21, b22, b23, b24, b25, b26
+b31, b32, b33, b34, b35, b36, b37
+b41, b42, b43
+
+c1, t1, h6
+
+ss_target
+ss_dot_pettax
+
+w1, w2, w3
+k1, k2
+h1, h8
+ss_dot_emp_eq
+ss_prem_eq
+theta1
+theta2
+
+ss_rr_eq, ss_dot_z_eq, ss_g, ss_term40, lrrw01, lrrw40
+e1, f1, f2, f3, g2, h0, h4, h5, h7, hh0, h9, theta3
+
+ss_dot_qfood_eq
+ss_dot_qforcmd_eq
+ss_dot_qoil_eq
+g4, h2
+
+ss_dot_x_cpi, ss_x_rr_eq, ss_g_x, jx1, h3
+
+
+
+!transition_equations
+E8_dot4_cpi_ber =  u1*(dot_cpi{-1} ...
+                     + dot_cpi{-2} ...
+                     + dot_cpi{-3} ...
+                     + dot_cpi{-4})/4  ...
+                + u2*ss_target ...
+                + (1-u1-u2)*E8_dot4_cpi_ber{-1} ...   
+                + e_E8_dot4_cpi_ber;    
+            
+%ag lcpi_ber = lcpi_ber{-4} + E8_dot4_cpi_ber;
+lcpi_ber = lcpi_ber{-1} + E8_dot4_cpi_ber/4;
+
+% IS curve
+    lgdp_gap = a1*lgdp_gap{+1} + a2*lgdp_gap{-1} - ...
+        a3*(lrr_gap+0*term40_gap) + a4*lz_gap + a5*lx_gdp_gap + ...
+        a6*(lqforcmd_gap-0.15*lqoil_gap) + e_lgdp_gap;
+
+% Underlying trend and potential growth
+gg      = j1*gg{-1} + (1-j1)*ss_g + e_g;
+lgdp_eq = lgdp_eq{-1} + gg/4 - ...
+    theta*((lgdp_eq{-1}-lgdp_eq{-2})-gg{1}/4) + e_lgdp_eq;
+
+% Identities
+dot_gdp    = 4*(lgdp - lgdp{-1});
+dot4_gdp   = lgdp - lgdp{-4};
+dot_gdp_eq = 4*(lgdp_eq-lgdp_eq{-1});
+lgdp_gap   = lgdp - lgdp_eq;
+
+% Headline CPI
+
+lcpi =# w_food*lcpi_food ...
+    + w_elec*lcpi_elec ... 
+    + w_petr*lcpi_petr ...
+    + w_goodsx*lcpi_goodsx ...
+    + w_serv*lcpi_serv ...
+    + e_lcpi;
+
+
+% Core CPI
+lcpi_core*(w_goodsx+w_serv) =# w_goodsx*lcpi_goodsx ...
+        + w_serv*lcpi_serv ...
+        + e_lcpi_core;
+    
+% Core inflation: services
+    dot_cpi_serv =  (1-b11-b12)*((1-b16)*dot_cpi{+1} + b16*E8_dot4_cpi_ber) + ...
+        b11*dot_cpi_serv{-1} + b12*dot_pm_serv + ...
+        rmc_serv  + e_dot_cpi_serv;
+
+% Core inflation: core goods
+    dot_cpi_goodsx = (1-b21-b22)*((1-b26)*dot_cpi{+1} + b26*E8_dot4_cpi_ber) + ...
+        b21*dot_cpi_goodsx{-1} + b22*dot_pm_goodsx + ...
+        rmc_goodsx + e_dot_cpi_goodsx;
+
+% Real marginal cost - core inflation
+rmc_serv = b13*lgdp_gap + b14*lrulc_gap + b15*lz_gap; 
+rmc_goodsx = b23*lgdp_gap + b24*lrulc_gap + b25*lz_gap; 
+
+% Import prices - core inflation
+dot_pm_serv = c1*dot_pm_serv{-1} + ...
+    (1-c1)*(dot_s + dot_x_cpi - dot_z_eq) + e_dot_pm_serv; 
+dot_pm_goodsx = c1*dot_pm_goodsx{-1} + ...
+    (1-c1)*(dot_s + dot_x_cpi - dot_z_eq) + e_dot_pm_goodsx; 
+
+% Food price inflation
+    dot_cpi_food = (1-b31-b32-b36)*((1-b37)*dot_cpi{+1} + b37*E8_dot4_cpi_ber) + ...
+        b31*dot_cpi_food{-1} + b32*(dot_food + dot_s) + rmc_food + ...
+        b36*dot4_cpi_petr + e_dot_cpi_food;
+
+% Real marginal cost - food
+rmc_food = b33*lgdp_gap + b34*lrulc_gap + b35*(lqfood_gap + lz_gap); 
+
+% Electricity price inflation
+dot_cpi_elec = b41*dot_cpi_elec{-1} + (1-b41)*dot_cpi{+1} ...
+    + b42*rmc_elec + e_dot_cpi_elec;
+
+% Real marginal cost - electricity
+rmc_elec = b43*lgdp_gap + (1-b43)*lrulc_gap;
+
+% Petrol price CPI inflation
+dot_cpi_petr = dot_petrol + e_dot_cpi_petr; 
+
+% Log of 95 ULP petrol price
+lpetrol =# w_bfp*lbfp + (1-w_bfp)*lpettax + e_lpetrol;
+
+% Basic fuel price
+dot_bfp = dot_oil + dot_s + e_dot_bfp;
+
+% Taxes and levies on petrol
+dot_pettax = h6*dot_pettax{-1} + (1-h6)*ss_dot_pettax + e_dot_pettax;
+
+% Trends
+target = t1*target{-1} + (1-t1)*ss_target + e_target;
+
+% Identities
+lcpi        = lcpi{-1}        + dot_cpi/4;
+lcpi_core   = lcpi_core{-1}   + dot_cpi_core/4;
+lcpi_serv   = lcpi_serv{-1}   + dot_cpi_serv/4;
+lcpi_goodsx = lcpi_goodsx{-1} + dot_cpi_goodsx/4;
+lcpi_food   = lcpi_food{-1}   + dot_cpi_food/4;
+lcpi_elec   = lcpi_elec{-1}   + dot_cpi_elec/4;
+lcpi_petr   = lcpi_petr{-1}   + dot_cpi_petr/4;
+
+dot4_cpi        = lcpi        - lcpi{-4};
+dot4_cpi_core   = lcpi_core   - lcpi_core{-4};
+dot4_cpi_serv   = lcpi_serv   - lcpi_serv{-4};
+dot4_cpi_goodsx = lcpi_goodsx - lcpi_goodsx{-4};
+dot4_cpi_food   = lcpi_food   - lcpi_food{-4};
+dot4_cpi_elec   = lcpi_elec   - lcpi_elec{-4};
+dot4_cpi_petr   = lcpi_petr   - lcpi_petr{-4};
+
+dot4_pm_goodsx = (dot_pm_goodsx + dot_pm_goodsx{-1} + ...
+    dot_pm_goodsx{-2} + dot_pm_goodsx{-3})/4 ;
+dot4_pm_serv   = (dot_pm_serv   + dot_pm_serv{-1}   + ...
+    dot_pm_serv{-2}   + dot_pm_serv{-3})/4  ;
+
+dot_petrol  = (lpetrol-lpetrol{-1})*4;
+dot4_petrol = (lpetrol-lpetrol{-4});
+
+lbfp = lbfp{-1} + dot_bfp/4;
+dot4_bfp = (lbfp-lbfp{-4});
+
+lpettax = lpettax{-1} + dot_pettax/4;
+dot4_pettax = (lpettax-lpettax{-4});
+
+edot4_cpi  = (dot4_cpi{+1} + dot4_cpi{+2} + dot4_cpi{+3} + dot4_cpi{+4})/4; 
+edot40_cpi = (edot4_cpi      + edot4_cpi{+4}  + edot4_cpi{+8}  + ...
+              edot4_cpi{+12} + edot4_cpi{+16} + edot4_cpi{+20} + ...
+              edot4_cpi{+24} + edot4_cpi{+28} + edot4_cpi{+32} + ...
+              edot4_cpi{+36})/10;
+
+% Time varying weights
+w_bfp  =# w_bfp{-1} + e_w_bfp !! w_bfp  = 0.44811;
+
+w_food   =# w_food{-1}  + e_w_food  !! w_food  = 0.1724; 
+w_petr   =# w_petr{-1}  + e_w_petr  !! w_petr  = 0.0458; 
+w_elec   =# w_elec{-1}  + e_w_elec  !! w_elec  = 0.0375; 
+w_goodsx =# w_goodsx{-1} + e_w_goodsx !! w_goodsx = 0.2313;
+w_serv   =# w_serv{-1}  + e_w_serv  !! w_serv  = 0.5130;
+
+% Wages phillips curve
+dot_w = (1-w1-w2)*dot_w{+1} + w1*dot_w{-1} + ...
+    w2*(dot_cpi{-1}+dot_rw_eq) - w3*lrulc_gap + ...
+    e_dot_w;
+
+% Real Unit Labour Costs
+lrulc_gap = lrw_gap - (lgdp_gap - lemp_gap);
+
+% Employment
+lemp_gap = k1*lemp_gap{-1} + k2*lgdp_gap{-1} + e_lemp_gap;
+
+% Trends
+gg_dot_rw_eq  = h8*gg_dot_rw_eq{-1} + (1-h8)*(gg - gg_dot_emp_eq)  + e_dot_rw_eq;
+lrw_eq  = lrw_eq{-1} + gg_dot_rw_eq/4 - ...
+    theta1*((lrw_eq{-1}-lrw_eq{-2})-gg_dot_rw_eq{1}/4) + e_lrw_eq;
+
+gg_dot_emp_eq = h1*gg_dot_emp_eq{-1} + (1-h1)*ss_dot_emp_eq + e_dot_emp_eq; 
+lemp_eq = lemp_eq{-1} + gg_dot_emp_eq/4 - ...
+    theta2*((lemp_eq{-1}-lemp_eq{-2})-gg_dot_emp_eq{1}/4) + e_lemp_eq;
+
+% Identities
+lw = lw{-1} + dot_w/4;
+dot4_w = (dot_w + dot_w{-1} + dot_w{-2} + dot_w{-3})/4;
+
+lrw     = lrw{-1} + dot_rw/4;
+dot_rw  = dot_w - dot_cpi;
+% lrw   = lw - lcpi;
+% dot_rw = 4*(lrw - lrw{-1});
+dot4_rw = (dot_rw + dot_rw{-1} + dot_rw{-2} + dot_rw{-3})/4;
+dot_rw_eq = 4*(lrw_eq-lrw_eq{-1});
+lrw_gap = lrw - lrw_eq; 
+
+dot_emp = 4*(lemp - lemp{-1});
+dot4_emp = lemp - lemp{-4};
+dot_emp_eq = 4*(lemp_eq-lemp_eq{-1});
+lemp_gap = lemp - lemp_eq;
+
+lulc     = lulc{-1} + dot_ulc/4;
+dot_ulc  = dot_w + dot_emp - dot_gdp;
+dot4_ulc = (dot_ulc + dot_ulc{-1} + dot_ulc{-2} + dot_ulc{-3})/4;
+
+% Uncovered Interest Rate Parity (UIP) 
+ls = e1*ls{+1} + (1-e1)*(ls{-1} + ...
+    2/4*(target - ss_dot_x_cpi + dot_z_eq)) + ...
+    (- rn + x_rn + prem)/4 + e_ls;
+
+% Country risk premium AR process
+    prem = h0*prem{-1} + (1-h0)*prem_eq + e_prem;
+
+% Trends
+gg_dot_z_eq = h5*gg_dot_z_eq{-1} + (1-h5)*(ss_dot_z_eq - g2*dot_qforcmd_eq) + e_dot_z_eq;
+lz_eq = lz_eq{-1} + gg_dot_z_eq/4 - ...
+    theta3*((lz_eq{-1}-lz_eq{-2})-gg_dot_z_eq{1}/4) + e_lz_eq;
+dot_z_eq{+1} = rr_eq - x_rr_eq - prem_eq + shock_prem;
+
+prem_eq = hh0*prem_eq{-1} + (1-hh0)*ss_prem_eq + e_prem_eq;
+
+rr_eq = h4*rr_eq{-1} + (1-h4)*(ss_rr_eq) + e_rr_eq;
+
+% real yields
+rr40    = movavg(rr,40);
+rr40_eq = movavg(rr_eq,40);
+
+lrr     = lrrw01*rr + lrrw40*rr40;
+lrr_eq  = lrrw01*rr_eq + lrrw40*rr40_eq;
+lrr_gap = lrr - lrr_eq;
+
+% term premium
+term40 = h4*term40{-1} + (1-h4)*ss_term40 + ...
+    h7*(prem-ss_prem_eq) + e_term40;
+     
+term40_gap = term40 - ss_term40;
+
+% nominal yields
+rn40 = rr40 + edot40_cpi + term40;
+
+% Monetary policy reaction function (a forward-looking Taylor rule)
+
+
+rn = f1*rn{-1} + ...
+      (1-f1)*(rn_neutral + ...
+      f2*((dot4_cpi{+3}+dot4_cpi{+4}+dot4_cpi{+5})/3 - ss_target) + ...
+      f3*lgdp_gap) + e_rn;
+
+
+% Identities
+ls     = ls{-1} + dot_s/4;
+dot4_s = (dot_s + dot_s{-1} + dot_s{-2} + dot_s{-3})/4;
+
+lz     = ls + lx_cpi - lcpi;
+dot_z  = 4*(lz - lz{-1});
+dot_z_eq = 4*(lz_eq-lz_eq{-1});
+lz_gap = lz - lz_eq;
+
+rn_neutral = rr_eq + target; 
+
+rr     = rn - dot4_cpi{+1};
+rr_gap = rr - rr_eq;
+
+rr_core     = rn - dot4_cpi_core{+1};
+rr_core_gap = rr_core - rr_eq;
+
+% Mining sector - price of commodities
+dot_forcmd     = 4*(lforcmd - lforcmd{-1});
+lqforcmd       = lforcmd - lx_cpi;
+lqforcmd       = lqforcmd_eq + lqforcmd_gap;
+dot_qforcmd_eq = 4*(lqforcmd_eq - lqforcmd_eq{-1});
+lqforcmd_gap   = g4*lqforcmd_gap{-1} + e_lqforcmd_gap;
+%lqforcmd_eq = lqforcmd_eq{-1} + e_dot_qforcmd_eq;
+dot_qforcmd_eq  = g4*dot_qforcmd_eq{-1} + (1-g4)*(ss_dot_qforcmd_eq) + e_dot_qforcmd_eq;
+
+% World Food Prices
+dot_food 	  = 4*(lfood - lfood{-1});
+dot4_food     = (dot_food + dot_food{-1} + dot_food{-2} + dot_food{-3})/4;
+lqfood  	  = lfood - lx_cpi;
+lqfood        = lqfood_eq + lqfood_gap;
+dot_qfood_eq  = h2*dot_qfood_eq{-1} + (1-h2)*(ss_dot_qfood_eq) + e_dot_qfood_eq;
+dot_qfood_eq  = 4*(lqfood_eq - lqfood_eq{-1});
+lqfood_gap    = h2*lqfood_gap{-1} + e_lqfood_gap;
+
+% World Oil Prices
+dot_oil 	 = 4*(loil - loil{-1});
+dot4_oil 	 = (loil - loil{-4});
+lqoil  	     = loil - lx_cpi;
+lqoil        = lqoil_eq + lqoil_gap;
+dot_qoil_eq  = h2*dot_qoil_eq{-1} + (1-h2)*(ss_dot_qoil_eq) + e_dot_qoil_eq;
+dot_qoil_eq  = 4*(lqoil_eq - lqoil_eq{-1});
+lqoil_gap    = h2*lqoil_gap{-1} + e_lqoil_gap;
+
+x_rn = h3*x_rn{-1} + (1-h3)*(x_rr_eq + dot_x_cpi) + e_x_rn;
+x_rr = x_rn - dot4_x_cpi{+1};
+x_rr_eq = h3*x_rr_eq{-1} + (1-h3)*ss_x_rr_eq + e_x_rr_eq;
+x_rr_gap = x_rr - x_rr_eq;
+dot_x_cpi = h3*dot_x_cpi{-1} + (1-h3)*ss_dot_x_cpi + e_dot_x_cpi;
+lx_cpi = lx_cpi{-1} + dot_x_cpi/4;
+
+lx_gdp = lx_gdp{-1} + dot_x_gdp/4;
+dot4_x_gdp      = (dot_x_gdp + dot_x_gdp{-1} + dot_x_gdp{-2} + dot_x_gdp{-3})/4;
+
+dot4_x_cpi      = (dot_x_cpi + dot_x_cpi{-1} + dot_x_cpi{-2} + dot_x_cpi{-3})/4;
+
+% Global
+lx_gdp_eq    = lx_gdp_eq{-1} +  g_x/4 + e_lx_gdp_eq;
+g_x          = jx1*g_x{-1} + (1-jx1)*ss_g_x + e_g_x;
+dot_x_gdp_eq = 4*(lx_gdp_eq-lx_gdp_eq{-1});
+lx_gdp_gap   = lx_gdp - lx_gdp_eq;
+lx_gdp_gap   = h3*lx_gdp_gap{-1} + e_lx_gdp_gap;
+
+
+E0_dot4_cpi = dot4_cpi;
+E1_dot_cpi  = dot_cpi{+1} ;
+E1_dot4_cpi = dot4_cpi{+1};
+E3_dot4_cpi = dot4_cpi{+3};
+E4_dot4_cpi = dot4_cpi{+4};
+E5_dot4_cpi = dot4_cpi{+5};
+E1_lgdp_gap = lgdp_gap{+1};
+E1_dot4_x_cpi = dot4_x_cpi{+1};
+E1_dot_z_eq = dot_z_eq{+1};
+E1_ls = ls{+1};
+
+!stop
+
+
+!measurement_equations
+obs_E8_dot4_cpi_ber = E8_dot4_cpi_ber; 
+%% Aggregate demand
+obs_lgdp    = lgdp;
+obs_gg      = gg + mes_g;
+obs_lgdp_eq = lgdp_eq + mes_lgdp_eq;
+
+obs_lcpi_serv   = lcpi_serv;
+obs_lcpi_goodsx = lcpi_goodsx;
+obs_lcpi_food   = lcpi_food;
+obs_lcpi_elec   = lcpi_elec;
+obs_lcpi_petr   = lcpi_petr;
+obs_lcpi_core   = lcpi_core;
+
+% obs_target = target;
+
+obs_lpettax = lpettax;
+obs_lbfp    = lbfp   ;
+obs_w_bfp   = w_bfp  ;
+
+obs_w_serv   = w_serv;
+obs_w_goodsx = w_goodsx;
+obs_w_food   = w_food;
+obs_w_petr   = w_petr;
+obs_w_elec   = w_elec;
+
+% ------------------------------------------------------------------------------- %
+%% Labour market
+obs_lw = lw;
+obs_lemp  = lemp;
+
+% ------------------------------------------------------------------------------- %
+%% Financial sector
+obs_prem          = prem;
+obs_ls            = ls;
+obs_rn            = rn;
+obs_rn40 = rn40;
+
+% ------------------------------------------------------------------------------- %
+%% Commmodities
+obs_lfood         = lfood        ;
+obs_loil          = loil         ;
+obs_lforcmd       = lforcmd      ;
+
+% ------------------------------------------------------------------------------- %
+%% Foreign sector
+obs_lx_cpi        = lx_cpi       ;
+obs_lx_gdp_gap    = lx_gdp_gap   ;
+obs_x_rn          = x_rn         ;
+obs_g_x = g_x + mes_g_x;
+obs_lx_gdp    = lx_gdp;
+
