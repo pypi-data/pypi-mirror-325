@@ -1,0 +1,1 @@
+{"name":"bloggy","model":"openai/gpt-4o","description":"","hand_off":[],"termination":null,"input":"blog_idea","output":"funny_blog_title, blog_headers","tools":null,"use_cache":false}

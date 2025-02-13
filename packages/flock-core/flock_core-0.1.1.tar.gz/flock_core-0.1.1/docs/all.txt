@@ -1,0 +1,212 @@
+# File: src/flock/__init__.py
+def main() -> None:
+    print("Hello from flock!")
+
+
+# File: src/flock/core\agent.py
+# src/your_package/core/agent.py
+from typing import Any, Callable, List, Literal
+from pydantic import BaseModel, Field
+class Task:
+    """A simple task representation."""
+    def __init__(self, name: str, description: str):
+        self.name = name
+        self.description = description
+
+class Agent(BaseModel):
+    """An agent with specific capabilities through providers."""    
+
+    name: str = Field(default="Agent", description="Identifier name for the agent")
+    model: str = Field(default="openai/gpt-4o-mini", description="Model of the agent")
+    description: str = Field(default="", description="Description of the agent")
+
+# File: src/flock/core\agent_registry.py
+from flock.core.agent import Agent
+
+
+class AgentRegistry:
+    _instance = None
+
+    def __new__(cls):
+        """Singleton pattern implementation."""
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+            cls._instance._initialize()
+        return cls._instance
+    
+    def _initialize(self):
+        self._agents = []
+        
+    def register_agent(self, agent):
+        self._agents.append(agent)
+        
+    def get_agent(self, name) -> Agent | None:
+        for agent in self._agents:
+            if agent.name == name:
+                return agent
+        return None
+
+# File: src/flock/core\flock.py
+# src/your_package/core/manager.py
+import asyncio
+import uuid
+
+from temporalio.client import Client
+from temporalio.worker import Worker
+
+from flock.core.agent_registry import AgentRegistry
+from flock.workflow.activities import run_agent
+from flock.workflow.workflow import FlockWorkflow
+
+from .agent import Agent
+
+
+class Flock:
+    """Manages creation and execution of agents.
+    This is a high-level class that the user interacts with directly.
+    """
+
+    def __init__(self):
+        self.agents = {}
+        self.agent_registry = AgentRegistry()
+
+    def add_agent(self, agent: Agent):
+        self.agents[agent.name] = agent
+        self.agent_registry.register_agent(agent)
+
+    async def activate(self, start_agent: Agent, input: str) -> dict:
+        client_worker = await Client.connect("localhost:7233", namespace="default")
+        worker = Worker(client_worker, task_queue="flock-queue", workflows=[FlockWorkflow], activities=[run_agent])
+        asyncio.create_task(worker.run())
+        await asyncio.sleep(1)
+
+        context = {}
+        context["current_agent"] = start_agent.name
+        context["init_input"] = input
+        context["agents"] = []
+
+        client = await Client.connect("localhost:7233")
+        result = await client.execute_workflow(
+            FlockWorkflow.run, context, id=uuid.uuid4().hex, task_queue="flock-queue"
+        )
+        return result
+
+
+# File: src/flock/core\agents\declarative_agent.py
+# src/your_package/core/agent.py
+from pydantic import Field
+
+from flock.core.agent import Agent
+
+
+class Task:
+    """A simple task representation."""
+
+    def __init__(self, name: str, description: str):
+        self.name = name
+        self.description = description
+
+
+class DeclarativeAgent(Agent):
+    """An agent with specific capabilities through providers."""
+
+    input: str = Field(default="", description="Input domain for the agent")
+    output: str = Field(default="", description="Output domain for the agent")
+
+
+# File: src/flock/workflow\activities.py
+from temporalio import activity
+
+from flock.core.agent import Agent
+from flock.core.agent_registry import AgentRegistry
+from flock.core.agents.declarative_agent import DeclarativeAgent
+
+
+@activity.defn
+async def get_next_agent(name: str) -> Agent | None:
+    registry = AgentRegistry()
+    return registry.get_agent(name)
+
+
+@activity.defn
+async def run_agent(context: dict) -> dict:
+    registry = AgentRegistry()
+    agent = registry.get_agent(context["current_agent"])
+
+    if not agent:
+        return {"error": "Agent not found"}
+
+    if isinstance(agent, DeclarativeAgent):
+        import dspy
+
+        lm = dspy.LM(agent.model)
+        dspy.configure(lm=lm)
+        agent_task = dspy.Predict(f"{agent.input} -> {agent.output}")
+        kwargs = {agent.input: context["init_input"]}
+        result = agent_task(**kwargs).toDict()
+        result[agent.input] = context["init_input"]
+
+    return result
+
+
+# File: src/flock/workflow\temporal_setup.py
+import asyncio
+from temporalio.client import Client
+from temporalio.worker import Worker
+
+async def create_temporal_client() -> Client:
+    return await Client.connect("localhost:7233")
+
+async def run_worker(client: Client, task_queue: str, workflows, activities):
+    worker = Worker(
+        client,
+        task_queue=task_queue,
+        workflows=workflows,
+        activities=activities
+    )
+    await worker.run()
+
+# File: src/flock/workflow\workflow.py
+from datetime import timedelta
+
+from temporalio import workflow
+
+from flock.workflow.activities import run_agent
+
+# Import activity, passing it through the sandbox without reloading the module
+with workflow.unsafe.imports_passed_through():
+    from flock.workflow.activities import run_agent
+
+
+@workflow.defn
+class FlockWorkflow:
+    def __init__(self) -> None:
+        self._state = None
+
+    @workflow.run
+    async def run(self, initial_state: dict) -> dict:
+        self._state = initial_state
+        try:
+            result = await workflow.execute_activity(
+                run_agent, self._state, start_to_close_timeout=timedelta(minutes=5)
+            )
+
+            self._state["agents"].append(
+                {
+                    self._state["current_agent"]: result,
+                    "success": True,
+                    "timestamp": workflow.info().start_time.strftime("%Y-%m-%d %H:%M:%S"),
+                }
+            )
+        except Exception as e:
+            self._state["agents"].append(
+                {
+                    self._state["current_agent"]: f"Failed: {e}",
+                    "success": False,
+                    "timestamp": workflow.info().start_time.strftime("%Y-%m-%d %H:%M:%S"),
+                }
+            )
+
+        return self._state
+
+

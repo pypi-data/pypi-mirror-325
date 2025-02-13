@@ -1,0 +1,63 @@
+[
+    {
+        "agent_id": "7a95fb91-13d4-22f2-941e-8c36d6ffaa1b",
+        "agent_name": "weather_forecaster",
+        "date": "2023-10-24T09:00:00",
+        "input": {
+            "current_weather_data": {
+                "temp": 15.4,
+                "humidity": 78,
+                "wind_speed": 12
+            },
+            "historical_weather_data": [
+                {
+                    "date": "2023-10-23",
+                    "avg_temp": 14.8
+                }
+            ],
+            "location": "London"
+        },
+        "output": {
+            "forecast_period": "24h",
+            "temperature_range": {
+                "min": 13.2,
+                "max": 16.7
+            },
+            "weather_conditions": [
+                "rain",
+                "cloudy"
+            ],
+            "confidence_score": 0.87
+        }
+    },
+    {
+        "agent_id": "7a95fb91-13d4-22f2-941e-8c36d6ffaa1b",
+        "agent_name": "weather_forecaster",
+        "date": "2023-10-25T14:30:00",
+        "input": {
+            "current_weather_data": {
+                "temp": 28.9,
+                "humidity": 45,
+                "wind_speed": 5
+            },
+            "historical_weather_data": [
+                {
+                    "date": "2023-10-24",
+                    "avg_temp": 27.3
+                }
+            ],
+            "location": "Dubai"
+        },
+        "output": {
+            "forecast_period": "48h",
+            "temperature_range": {
+                "min": 26.5,
+                "max": 31.2
+            },
+            "weather_conditions": [
+                "sunny"
+            ],
+            "confidence_score": 0.95
+        }
+    }
+]
