@@ -1,0 +1,14 @@
+resmo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resmo/generate_modified_data.py,sha256=-J2GOvJlXtGmsvrkkhbtyNwK_FBmWvEzHjXDoNlAqrw,1590
+resmo/util.py,sha256=f2awl4VCGT9zFtE9tQjsyK08Qt5yKET1IPhCsEaBE74,743
+resmo/modification/__init__.py,sha256=meZeS91KAd5rDyludKwqZI05CU9n5FV981JeWWohkyg,192
+resmo/modification/mask_residue.py,sha256=D47aZ68D3-lti6oQilV5cXIVkFEVPNwXOmaLMiS5YQ0,837
+resmo/modification/modification.py,sha256=3WK0CFBgJtl6GxuELYTpwQOvewIP8MqETg1eEhScWGw,653
+resmo/modification/signature.py,sha256=9FfUxMhXbfrIYWkuPhDI8Bw7E-MBJg5E7Qrwt_DKE0g,265
+resmo/protein_model/__init__.py,sha256=oitpPm1VfVpKubwtgUaF5DARCQQtwbozVLmI7oLX7dI,110
+resmo/protein_model/base.py,sha256=kqXoIZkTwCSC3KierD-OLawJmX1nGVpHqGsmBsW3O00,1948
+resmo/protein_model/mol2.py,sha256=1qkkh7vUeCxpD8tdmImCBBRn5iccJuaTiKCTs35UK_A,12048
+resmo-0.0.7.dist-info/METADATA,sha256=5GbCVPiNmO8vbD977ArSoGaQY5Pj0Msp9jKIWadRiIs,933
+resmo-0.0.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+resmo-0.0.7.dist-info/top_level.txt,sha256=nWKIJKzBh6xvBZPwx75DSlJLqcTdWuQ19nqhOiHZ4OQ,6
+resmo-0.0.7.dist-info/RECORD,,
