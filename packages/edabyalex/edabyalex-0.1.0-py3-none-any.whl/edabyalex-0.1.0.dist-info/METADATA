@@ -1,0 +1,76 @@
+Metadata-Version: 2.4
+Name: edabyalex
+Version: 0.1.0
+Summary: A Python package for streamlined Exploratory Data Analysis (EDA)
+Project-URL: Homepage, https://github.com/alexyang790/EDAbyAlex
+Author-email: Alex Yang <zy7ts@virginia.edu>
+License-Expression: MIT
+License-File: LICENSE
+License-File: LICENSE.txt
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: glob2>=0.7
+Requires-Dist: numpy>=1.18.0
+Requires-Dist: openpyxl>=3.0.0
+Requires-Dist: pandas>=1.0.0
+Description-Content-Type: text/markdown
+
+# EDAbyAlex
+
+A Python package for streamlined Exploratory Data Analysis (EDA) with support for various file formats.
+
+## Features
+
+- **Flexible Data Loading**
+  - Support for both CSV and Excel (.xlsx) files
+  - Single file loading with automatic sheet detection
+  - Multiple file loading with pattern matching
+  - Smart Excel sheet handling
+
+- **Comprehensive EDA Tools**
+  - Quick data preview (first 10 rows)
+  - Statistical description of numerical columns
+  - Dataset information and structure
+  - Column listings
+  - Unique value analysis
+  - Missing value detection
+
+## Installation
+
+```bash
+pip install edabyalex
+```
+
+## Quick Start
+
+```python
+from extractor import extractor
+```
+
+## Initialize with a File Path 
+
+## Requirements
+
+- pandas >= 1.0.0
+- numpy >= 1.18.0
+- openpyxl >= 3.0.0 (for Excel support)
+
+## Version
+
+Current version: 0.1.0
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Alex Yang
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
