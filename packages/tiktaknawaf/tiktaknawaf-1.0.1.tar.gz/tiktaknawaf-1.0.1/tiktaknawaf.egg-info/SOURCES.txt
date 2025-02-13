@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+tiktaknawaf/__init__.py
+tiktaknawaf/tiktaknawaf.py
+tiktaknawaf.egg-info/PKG-INFO
+tiktaknawaf.egg-info/SOURCES.txt
+tiktaknawaf.egg-info/dependency_links.txt
+tiktaknawaf.egg-info/requires.txt
+tiktaknawaf.egg-info/top_level.txt
