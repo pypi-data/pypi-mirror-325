@@ -1,0 +1,58 @@
+Metadata-Version: 2.2
+Name: arxa
+Version: 0.1.2
+Summary: A research automation tool for fetching, summarizing, and enhancing arXiv papers.
+Home-page: https://github.com/binaryninja/ArxivSummarizer
+Author: Jeremy Richards
+Author-email: jeremy@richards.ai
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: PyPDF2
+Requires-Dist: arxiv
+Requires-Dist: anthropic
+Requires-Dist: ollama
+Requires-Dist: openai
+Requires-Dist: requests
+Requires-Dist: tenacity
+Requires-Dist: tqdm
+Requires-Dist: aiohttp
+Requires-Dist: pyyaml
+Requires-Dist: tiktoken
+Requires-Dist: httpx<1,>=0.23.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+# arxa
+
+arxa is a tool to automatically generate research reviews from an arXiv paper or a local PDF. It even supports optional GitHub repository cloning and analysis if a GitHub URL is detected in the review.
+
+## Features
+
+• Generate a review for a single arXiv paper by providing its ID:
+  arxa -aid 1234.5678 -o output.md
+
+• Generate a review from a local PDF file:
+  arxa -pdf /path/to/paper.pdf -o output.md
+
+• Specify the LLM backend provider and model:
+  arxa -pdf /path/to/paper.pdf -o output.md -p openai -m o3-mini
+
+• Enable GitHub cloning (disabled by default):
+  arxa -pdf /path/to/paper.pdf -o output.md -g
+
+• Use a configuration file for additional settings:
+  arxa -c config.yaml
+
+## Installation
+
+You can install via pip:
+
+  pip install .
+
+Then run it with the command-line interface as shown above.
