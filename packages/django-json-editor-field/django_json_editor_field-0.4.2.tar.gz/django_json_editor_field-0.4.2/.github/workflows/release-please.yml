@@ -1,0 +1,24 @@
+# SPDX-FileCopyrightText: 2024 Birger Schacht <birger.schacht@oeaw.ac.at>
+# SPDX-License-Identifier: MIT
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: release-please
+
+jobs:
+  release-please:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        id: release
+        with:
+          release-type: python
+          package-name: django-json-editor-field
+      - uses: actions/checkout@v4
