@@ -1,0 +1,15 @@
+caux8_moodle_parser/__init__.py,sha256=6KzJmRFHxJmsFV1KIH5rKZIoHu4NyNewLqjvROGunAw,424
+caux8_moodle_parser/export.py,sha256=9y55IKta_z5rK-VAWojrzZajeVn4Y1mLunatOOZkB0c,3316
+caux8_moodle_parser/question.py,sha256=ucNxrp2aaRTHOK5iDQapAJPraZ0PQk_7htD-Amy56I8,10109
+caux8_moodle_parser/util.py,sha256=eGx_KumHPxCpI-X43rGkFzGY6JhMFow1RcRa8iC56d0,1811
+caux8_moodle_parser/ext_fmt/__init__.py,sha256=7Q7karF49-6pvk8YoIvsMiIFibQFm6FTkOCaBOPvyPU,145
+caux8_moodle_parser/ext_fmt/fps_xml.py,sha256=C66Sh9dGFueoBxrkHgGvXKRgjDSLospoAQJFE9JYzsY,3312
+caux8_moodle_parser/ext_fmt/ybt.py,sha256=7dU1ErfjLE-UMrjZpp6QZSjVZ8OFhntdTcTweL2oeF0,3396
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_export.py,sha256=kxKl-NfAsRLl2ISRi-oVwqAHz_joqoQtun3kjoqdz74,2896
+tests/test_fps.py,sha256=QXYRnZHCAFdty0dqSL2yrnvzcTKlefNRl5PeLogzEqg,620
+caux8_moodle_parser-1.0.0.dist-info/LICENSE,sha256=jfKmsmNi_woER8e_VptT5JSs7-lpOpWoSos4DIH5y1o,1074
+caux8_moodle_parser-1.0.0.dist-info/METADATA,sha256=mR0s0r-eUS8A5MPDZ3MvVlqiuD9U4WV3iU7Vp2-c3WU,7400
+caux8_moodle_parser-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+caux8_moodle_parser-1.0.0.dist-info/top_level.txt,sha256=eYs8nzspM9lDD81ujr5Xh39OT3bxlkvtQL2kcIeLhTo,26
+caux8_moodle_parser-1.0.0.dist-info/RECORD,,
