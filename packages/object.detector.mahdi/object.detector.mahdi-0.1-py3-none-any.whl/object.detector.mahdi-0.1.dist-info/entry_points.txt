@@ -1,0 +1,2 @@
+[console_scripts]
+object-detector-mahdi = object.detector.mahdi.detect:main
