@@ -1,0 +1,16 @@
+iithlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iithlp/cli.py,sha256=UKLQHmu0CYc9fwZHsLeL-e2CvdxI63exIt6cEBs7MbM,1603
+iithlp/convert.py,sha256=zs5Jn0tOPN1Xz-x5pVWlXLVx2HuGV6eoyigDVY1NF3s,1406
+iithlp/maps/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iithlp/maps/bengali_map.py,sha256=HZkQPVT16ZrJMy7fCgK_rkH5AxvBKdmx4oEZIrZ6qw8,1480
+iithlp/maps/devanagari_map.py,sha256=GemvulUOJt58UvEUkOagcg7FoOyaFp32ddLK45GUX18,1270
+iithlp/maps/kannada_map.py,sha256=QcseLLS0nbD0gGF9da1ditmGlEehhCLY33xfYIzBMP4,1125
+iithlp/maps/malayalam_map.py,sha256=J7rvl3QQhYiXE_lV_dJhqbLbM2R2IKcWVcEIczRFLo8,1084
+iithlp/maps/tamil_map.py,sha256=LHIacdr1XPpwbKI-MGK4YtWfRkH8mXYyl6QrsIMEKr8,988
+iithlp/maps/telugu_map.py,sha256=u4X-GCSvduI9TiaPHttQVvZTm-KOd53QJnICeZg0qcE,1440
+iithlp-0.1.0.dist-info/LICENSE,sha256=hMIQ2tS_SYhgiPql_sCTNBGh7kZGidtlyQeglSUN1A8,1080
+iithlp-0.1.0.dist-info/METADATA,sha256=3d7tPr35XBiIqud1QGSMwrGgvLnnLVfjD1TCGO3juto,1672
+iithlp-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+iithlp-0.1.0.dist-info/entry_points.txt,sha256=J7NRbJAfainJPXRKbTER6I1xiLF_tjYBEyk_QmB_b8E,43
+iithlp-0.1.0.dist-info/top_level.txt,sha256=cxVePR0jt9djdVJhqytOyHlV9MgHEMN6Dbdeqztb39U,7
+iithlp-0.1.0.dist-info/RECORD,,
