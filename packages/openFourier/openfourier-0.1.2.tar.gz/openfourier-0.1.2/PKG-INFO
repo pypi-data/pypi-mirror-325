@@ -1,0 +1,48 @@
+Metadata-Version: 2.2
+Name: openFourier
+Version: 0.1.2
+Summary: A package for computing 2D Fourier transform amplitude spectrum
+Home-page: https://github.com/bemoregt/openFourier
+Author: WonwooPark
+Author-email: bemore.one@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.19.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+
+# openFourier
+
+A Python package for computing 2D Fourier transform amplitude spectrum of images.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install openFourier
+
+## Usage
+
+import cv2
+import openFourier as of
+
+# 이미지 로드
+image = cv2.imread('example.png')
+
+# 진폭 스펙트럼 계산
+spectrum = of.ww_amplitude_spectrum(image)
+
+# 결과 저장
+cv2.imwrite('amplitude_spectrum.png', spectrum * 255)
