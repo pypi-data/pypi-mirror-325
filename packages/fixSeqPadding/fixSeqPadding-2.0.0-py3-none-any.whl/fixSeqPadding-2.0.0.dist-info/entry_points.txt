@@ -1,0 +1,2 @@
+[console_scripts]
+fixseqpadding = fixseqpadding.__main__:main
