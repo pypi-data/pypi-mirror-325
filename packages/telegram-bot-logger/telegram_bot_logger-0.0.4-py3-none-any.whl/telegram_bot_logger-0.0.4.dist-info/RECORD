@@ -1,0 +1,10 @@
+telegram_bot_logger/__init__.py,sha256=24_PEpdJj-fwRayJM4YIsZWAztRTJLTNr0G_7kKRuXE,151
+telegram_bot_logger/api_server.py,sha256=TiU7giEA_Mwn_sCo6jPOD87Y93hAvJjU12wOe2e9T5w,625
+telegram_bot_logger/exceptions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telegram_bot_logger/formatters.py,sha256=0aefY-Vpwu5c4wDSMuq40UaURlNNtRDhJ7799P5s0-c,6384
+telegram_bot_logger/handlers.py,sha256=INP4gKEYYAsZ95Q-XepugyQCeikHuF34uzU2xDUaJ8Y,8873
+telegram_bot_logger/utils.py,sha256=sft9WUX3Gfqi_Ev5-2uxb9-Ek4xSCivDGmqfOtWhr6c,119
+telegram_bot_logger-0.0.4.dist-info/METADATA,sha256=VnUSYY9CtbOSAZ2LfyPUesnSMN2wIVOIt-Ifk2k0QVQ,5453
+telegram_bot_logger-0.0.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+telegram_bot_logger-0.0.4.dist-info/top_level.txt,sha256=bqv2Mi_DjPmnZhi6nA7Kj200bPtuIPCAPox86FvNepo,20
+telegram_bot_logger-0.0.4.dist-info/RECORD,,
