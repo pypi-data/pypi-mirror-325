@@ -1,0 +1,2 @@
+[console_scripts]
+start_khan43_flask = CYB600_LAB1.main:main
