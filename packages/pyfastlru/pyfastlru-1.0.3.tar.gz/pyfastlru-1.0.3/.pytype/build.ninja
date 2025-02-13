@@ -1,0 +1,9 @@
+rule infer
+  command = /Users/petrov/libs/corepto/scorecheck/.venv/bin/python -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.11 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/petrov/libs/corepto/scorecheck/.venv/bin/python -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.11 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/petrov/libs/pyfastlru/.pytype/pyi/src/pyfastlru/lru_cache.pyi: check /Users/petrov/libs/pyfastlru/src/pyfastlru/lru_cache.py
+  imports = /Users/petrov/libs/pyfastlru/.pytype/imports/src.pyfastlru.lru_cache.imports
+  module = src.pyfastlru.lru_cache
