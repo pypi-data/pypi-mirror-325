@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: pytest-yaml-fei
+Version: 1.0.0
+Summary: a pytest yaml allure package
+Home-page: https://gitee.com/easyfei/pytest-yaml-fei.git
+Author: Fei Wu
+Author-email: 504294190@qq.com
+License: MIT License
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: build==1.2.1
+Requires-Dist: CacheControl==0.14.0
+Requires-Dist: certifi==2024.2.2
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: cleo==2.1.0
+Requires-Dist: colorama==0.4.6
+Requires-Dist: crashtest==0.4.1
+Requires-Dist: distlib==0.3.8
+Requires-Dist: dulwich==0.21.7
+Requires-Dist: fastjsonschema==2.19.1
+Requires-Dist: filelock==3.14.0
+Requires-Dist: idna==3.7
+Requires-Dist: importlib_metadata==7.1.0
+Requires-Dist: installer==0.7.0
+Requires-Dist: jaraco.classes==3.4.0
+Requires-Dist: keyring==24.3.1
+Requires-Dist: more-itertools==10.2.0
+Requires-Dist: msgpack==1.0.8
+Requires-Dist: packaging==24.0
+Requires-Dist: pexpect==4.9.0
+Requires-Dist: pipenv==2024.0.1
+Requires-Dist: pkginfo==1.10.0
+Requires-Dist: platformdirs==4.2.2
+Requires-Dist: poetry==1.8.3
+Requires-Dist: poetry-core==1.9.0
+Requires-Dist: poetry-plugin-export==1.8.0
+Requires-Dist: ptyprocess==0.7.0
+Requires-Dist: pyproject_hooks==1.1.0
+Requires-Dist: pywin32-ctypes==0.2.2
+Requires-Dist: rapidfuzz==3.9.1
+Requires-Dist: requests==2.31.0
+Requires-Dist: requests-toolbelt==1.0.0
+Requires-Dist: shellingham==1.5.4
+Requires-Dist: tomli==2.0.1
+Requires-Dist: tomlkit==0.12.5
+Requires-Dist: trove-classifiers==2024.5.17
+Requires-Dist: urllib3==2.2.1
+Requires-Dist: virtualenv==20.26.2
+Requires-Dist: zipp==3.18.2
+
+# pytest-yaml-fei
+
+#### 介绍
+pytest插件，实现零代码编写测试用例，用于简化YAML文件的读写操作，提高测试效率和代码质量。
+
+#### 软件架构
+软件架构说明
+
+
+#### 安装教程
+
+1.  xxxx
+2.  xxxx
+3.  xxxx
+
+#### 使用说明
+
+1.  xxxx
+2.  xxxx
+3.  xxxx
+
+#### 参与贡献
+
+1.  Fork 本仓库
+2.  新建 Feat_xxx 分支
+3.  提交代码
+4.  新建 Pull Request
+
+
+#### 特技
+
+1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
+2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
+3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
+4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
+5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
+6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
