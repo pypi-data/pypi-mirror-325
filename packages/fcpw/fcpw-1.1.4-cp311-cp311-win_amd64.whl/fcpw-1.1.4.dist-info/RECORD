@@ -1,0 +1,11 @@
+fcpw/__init__.py,sha256=sjZhvEip9W55l4YD1eDQxT7dVpkEQPxN_Hu_tfAjgwo,1057
+fcpw/gfx.dll,sha256=Lf-S6IYj6QmWYh9DyIkL5T1kyZmmUxR6jUZV-YOv-yM,2085376
+fcpw/gfx.lib,sha256=-I6iwdcqNkU4QHaQCHDC8iQh18aUuMhRFfD_Lz73uNo,3400
+fcpw/py.cp311-win_amd64.pyd,sha256=A8TGBivj99_JctntbN8ZGH0mS8VLQjd8J86DD8_sRVQ,1060864
+fcpw/slang-glslang.dll,sha256=D2S5r4WoOduLG1OklZmFT6zlqYJIpgAVwpoFsswe1UE,9609216
+fcpw/slang.dll,sha256=LLO_98Vk8SW7EAPqW8ZF-p9vSakNHbVUaE60urTXkr4,22953984
+fcpw/slang.lib,sha256=i8aMinCoNU_7-Ip0FZtCc5k0-_2NwjTHpvFt94I1xaU,77606
+fcpw-1.1.4.dist-info/METADATA,sha256=3aylWWL4TdUX7tLXoGkzIUD9hfig61f204WXy0FlOeE,10259
+fcpw-1.1.4.dist-info/WHEEL,sha256=kXCl1J14PkmxQKXf5U_5vxmme_OmC3Ydcral7u0yA3M,106
+fcpw-1.1.4.dist-info/licenses/LICENSE,sha256=OM34hJX1wFJsrLbR95msoOnvTziXucpZNLrOoYHxzKU,1091
+fcpw-1.1.4.dist-info/RECORD,,
