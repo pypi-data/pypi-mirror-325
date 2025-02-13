@@ -1,0 +1,12 @@
+dmt_auto_gui/__init__.py,sha256=-FY0t-T1bnByVpnv-01f-V21MQGYle1VqgsDJfWWt60,379
+dmt_auto_gui/gui_controller.py,sha256=f7dGgwnoTPgm3C6VA8i6yqZXEZtVl1mhrOOb8cf0CN4,3494
+dmt_auto_gui/keyboard_controller.py,sha256=KzDlIakgwjOq49xTpudKmZmvmRCPYsalLFsfn-KCmU0,1227
+dmt_auto_gui/models/__init__.py,sha256=L-VJ2oqJfZlzsN3Cwz_QXTC-HmM-WQ6FQvD9kgsSKjU,102
+dmt_auto_gui/models/model_autogui_error.py,sha256=VJBajk5PUOCqS5bLBoi2ShJEcgjCS8oLk2_rEqKMN6k,255
+dmt_auto_gui/models/model_autogui_reponse.py,sha256=MVkBv1Qnib4fEu9Y4FVVK214yrzClQ4eTs1nZpaJ2bw,311
+dmt_auto_gui/models/model_response.py,sha256=AustNeVleXFpIfs1gJPa3tJrHgLltDedYb_IGj0Filg,94
+dmt_auto_gui/screen_controller.py,sha256=rQJclpPhVDrpTYiJ66JwBXAwCUOWmvHAl3haX7azH2Q,1206
+dmt_auto_gui/system_controller.py,sha256=WhxAj8AgnAqmb54G-jIweEdaMLM-URMNwvn5s_EbW3M,854
+dmt_auto_gui-0.1.0.dist-info/METADATA,sha256=OzSpC9HE6JFDoxU8P2qm5N_5T2xxz4R1VscoFgTsaTw,438
+dmt_auto_gui-0.1.0.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+dmt_auto_gui-0.1.0.dist-info/RECORD,,
