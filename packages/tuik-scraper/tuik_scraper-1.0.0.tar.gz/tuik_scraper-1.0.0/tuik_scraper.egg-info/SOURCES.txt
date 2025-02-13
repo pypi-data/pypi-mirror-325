@@ -1,0 +1,9 @@
+README.md
+setup.py
+tuik_scraper/__init__.py
+tuik_scraper/scraper.py
+tuik_scraper.egg-info/PKG-INFO
+tuik_scraper.egg-info/SOURCES.txt
+tuik_scraper.egg-info/dependency_links.txt
+tuik_scraper.egg-info/requires.txt
+tuik_scraper.egg-info/top_level.txt
