@@ -1,0 +1,11 @@
+RobotLog2DB/RobotLog2DB.pdf,sha256=haWR6yxxLWG_ZHwTEv7dz9UhJz2q2iPAjn1mSRhfRKQ,588634
+RobotLog2DB/__init__.py,sha256=YKDTJjDsnQkr5X-gjjO8opwKUVKm6kc8sIUpURYMk48,596
+RobotLog2DB/__main__.py,sha256=xergazqeCEt0pZZoV8vWIeUO-sM_Q1HRQ4_jQZWAiOQ,678
+RobotLog2DB/robotlog2db.py,sha256=g_JAMx-x4zzSjSdg4XhVHVi9gmhgbpXlJaysENUvG3k,46960
+RobotLog2DB/version.py,sha256=Juk9zYEJ93BjS_AgWo8WKHRkuzfrwS9scEABx3gx9W0,915
+RobotLog2DB/xsd/robot.xsd,sha256=KoGIyKQ_ABDeEmyU80JiMsu3KaNzLTExE0kx4GUDwQA,23744
+robotframework_robotlog2db-1.5.4.dist-info/METADATA,sha256=Yoxw0MpwcKbRF3_NrKNcIZ9v8l5yy35ylD33BKQEEzY,11646
+robotframework_robotlog2db-1.5.4.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+robotframework_robotlog2db-1.5.4.dist-info/entry_points.txt,sha256=iV7pnQttI4TUTOgGn5OwnvP_QUe56fpPtz-R6-hR6fs,69
+robotframework_robotlog2db-1.5.4.dist-info/top_level.txt,sha256=xVvId-boDFsOhbQ-_uM2EU_GXNqeuFE5ETo1F4McyuY,12
+robotframework_robotlog2db-1.5.4.dist-info/RECORD,,
