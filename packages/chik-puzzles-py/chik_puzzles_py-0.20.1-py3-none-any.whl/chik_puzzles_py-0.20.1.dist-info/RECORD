@@ -1,0 +1,9 @@
+chik_puzzles_py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chik_puzzles_py/manage_klvm.py,sha256=ShG3u9Pkpo_cA79MGT24lxXi8OZfn8M06oxSPebDI6A,175
+chik_puzzles_py/programs.py,sha256=A-R__jXX0BhEDX_aSABuk3Jmy_f_ZMMOh-7u3gtrLVc,84229
+chik_puzzles_py/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chik_puzzles_py/tests/test_import.py,sha256=YJ2ZCNEefAoklBRuuEh9H4_y8YKFtDYzBFoUsI3voGo,5904
+chik_puzzles_py-0.20.1.dist-info/LICENSE,sha256=zd5UgsHO2cKAaKIaHHYl1a7XA_tRfnTvmpWIAwdrU9k,11347
+chik_puzzles_py-0.20.1.dist-info/METADATA,sha256=LyuiiAq5mK8GHohvCnwwVU-AamGe_dfdzjc--kb2mH8,1842
+chik_puzzles_py-0.20.1.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+chik_puzzles_py-0.20.1.dist-info/RECORD,,
