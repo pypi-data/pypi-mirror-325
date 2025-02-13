@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: cdetector
+Version: 0.1.1
+Summary: A license plate and vehicle detector using YOLO and EasyOCR.
+Home-page: https://pypi.org/project/cdetector/
+Author: Your Name
+Author-email: Mahdihuseine001@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: ultralytics
+Requires-Dist: easyocr
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
