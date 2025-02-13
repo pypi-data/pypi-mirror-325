@@ -1,0 +1,6 @@
+duckdb_extension_parquet/__about__.py,sha256=ST3EfdPC0lzFt4ZrzktZGMo3g35GfK-INBRYLYr8XbM,120
+duckdb_extension_parquet/__init__.py,sha256=R_Zn6Ra5W3zTrUXr3nNqFIwm9ITl2c79xQe6L7AEzO8,98
+duckdb_extension_parquet/extensions/v1.2.0/parquet.duckdb_extension,sha256=A9OWIExEGavYZPVyuOPf3KYAjXtOWpdYk0SWZQRGJZE,45234094
+duckdb_extension_parquet-1.2.0a0.dist-info/METADATA,sha256=E7zFro6VlLJWUYbGryMgoC_2ckewHg5FHrJFLdceWYI,2140
+duckdb_extension_parquet-1.2.0a0.dist-info/WHEEL,sha256=ElIck4UKS1gfqi_USxboIISULsrnySUDnW4muwHK3us,104
+duckdb_extension_parquet-1.2.0a0.dist-info/RECORD,,
