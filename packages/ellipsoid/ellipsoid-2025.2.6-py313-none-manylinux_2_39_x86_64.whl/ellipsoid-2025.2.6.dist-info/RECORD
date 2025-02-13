@@ -1,0 +1,6 @@
+geowheel/__init__.py,sha256=2rp6eHj0FRZ7C6KtQfcut5LcwvnqOGhSQ6HoCFazOLE,962
+geowheel/ellipsoid.cpython-313-x86_64-linux-gnu.so,sha256=tsRXtsfkboF3VpLTpE83SMrqTdj-lxJskseiQrHwFSM,13151992
+ellipsoid-2025.2.6.dist-info/METADATA,sha256=Pgha4LRC8k94YCJkLXvcUYmlYhjA2p-ItjA27S1wRSs,133587
+ellipsoid-2025.2.6.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ellipsoid-2025.2.6.dist-info/top_level.txt,sha256=LFrP0TQihqLWzLpdJrC-5f4AwQfN7clcXS7dZxfyvCI,9
+ellipsoid-2025.2.6.dist-info/RECORD,,
