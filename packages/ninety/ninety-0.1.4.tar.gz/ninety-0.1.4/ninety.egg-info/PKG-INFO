@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: ninety
+Version: 0.1.4
+Summary: A scalable pipeline for generating and validating code outputs
+Author: 90x AI
+Requires-Python: >=3.8
+Requires-Dist: openai>=1.0.0
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: pyverilog>=1.3.0
+Requires-Dist: sqlparse>=0.4.0
+Requires-Dist: tqdm>=4.65.0
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
