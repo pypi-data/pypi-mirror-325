@@ -1,0 +1,3 @@
+[build-system]
+requires = ["setuptools", "wheel"]  # These are the build dependencies
+build-backend = "setuptools.build_meta" # This tells setuptools to use the build backend

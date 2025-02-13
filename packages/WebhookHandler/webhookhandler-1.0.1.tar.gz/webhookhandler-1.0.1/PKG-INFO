@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: WebhookHandler
+Version: 1.0.1
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: requests
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python
