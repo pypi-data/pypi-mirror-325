@@ -1,0 +1,7 @@
+digraph D {
+    node1 [fontname="Courier New",shape="rectangle",label="a"]
+    
+    node2 [fontname="Courier New",shape="rectangle",label="c"]
+    
+    node1 -> node2 [color="#ff0000",style="dashed",]
+}
