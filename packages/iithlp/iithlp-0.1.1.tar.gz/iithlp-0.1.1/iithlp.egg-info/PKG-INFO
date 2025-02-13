@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: iithlp
+Version: 0.1.1
+Summary: A package to convert Indic script characters to iithlp format.
+Author-email: Ramanan Sivasubramanian <ramanan93@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
