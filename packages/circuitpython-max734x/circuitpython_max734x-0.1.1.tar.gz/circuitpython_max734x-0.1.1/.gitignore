@@ -1,0 +1,15 @@
+# SPDX-FileCopyrightText: 2025 Roman Ondráček
+#
+# SPDX-License-Identifier: MIT
+
+# IDEs
+.idea/
+
+# CircuitPython build files
+build-circuitpython-*/
+build_deps/
+bundles/
+
+# Virtual environments
+venv/
+.venv/

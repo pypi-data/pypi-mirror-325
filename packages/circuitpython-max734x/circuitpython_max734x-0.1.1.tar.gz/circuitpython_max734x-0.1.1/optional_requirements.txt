@@ -1,0 +1,6 @@
+# SPDX-FileCopyrightText: 2025 Roman Ondráček
+#
+# SPDX-License-Identifier: MIT
+
+adafruit-circuitpython-typing
+build
