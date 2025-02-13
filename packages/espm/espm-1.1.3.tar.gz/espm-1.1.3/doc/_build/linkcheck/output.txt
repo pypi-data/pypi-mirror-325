@@ -1,0 +1,2 @@
+references.rst:3: [redirected permanently] https://doi.org/10.5281/zenodo.7263263 to https://zenodo.org/records/7263263
+contributing.rst:54: [redirected with Found] https://github.com/adriente/esmpy/releases/new to https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fadriente%2Fespm%2Freleases%2Fnew
