@@ -1,0 +1,26 @@
+
+---
+
+### **Next Steps**  
+1. **Replace your existing `README.md` with this updated one.**  
+2. **Ensure `setup.py` reads from `README.md`:**  
+
+   ```python
+   from setuptools import setup, find_packages
+
+   setup(
+       name="redis-jwt-auth",
+       version="0.0.2",  # Increment version number
+       author="Your Name",
+       author_email="your@email.com",
+       description="A FastAPI middleware for JWT authentication with Redis caching",
+       long_description=open("README.md", "r", encoding="utf-8").read(),
+       long_description_content_type="text/markdown",
+       packages=find_packages(),
+       install_requires=[
+           "fastapi",
+           "redis",
+           "pyjwt",
+           "pydantic",
+       ],
+   )
