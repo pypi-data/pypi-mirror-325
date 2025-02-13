@@ -1,0 +1,46 @@
+Metadata-Version: 2.2
+Name: supertracker
+Version: 0.0.1
+Summary: An easy-to-use library for implementing various multi-object tracking algorithms.
+Author-email: Syahvan Alviansyah <syahvanalviansyah91@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/Hirai-Labs/supertracker
+Keywords: supertracker
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: scipy>=1.7.0
+Requires-Dist: pytest
+Provides-Extra: all
+Requires-Dist: supertracker[extra]; extra == "all"
+Provides-Extra: extra
+Requires-Dist: pandas; extra == "extra"
+
+# supertracker
+
+
+[![image](https://img.shields.io/pypi/v/supertracker.svg)](https://pypi.python.org/pypi/supertracker)
+[![image](https://img.shields.io/conda/vn/conda-forge/supertracker.svg)](https://anaconda.org/conda-forge/supertracker)
+
+[![image](https://pyup.io/repos/github/Hirai-Labs/supertracker/shield.svg)](https://pyup.io/repos/github/Hirai-Labs/supertracker)
+
+
+**An easy-to-use library for implementing various multi-object tracking algorithms.**
+
+
+-   Free software: MIT License
+-   Documentation: https://Hirai-Labs.github.io/supertracker
+    
+
+## Features
+
+-   TODO
