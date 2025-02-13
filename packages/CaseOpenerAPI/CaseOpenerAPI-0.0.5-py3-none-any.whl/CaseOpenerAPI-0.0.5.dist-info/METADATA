@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: CaseOpenerAPI
+Version: 0.0.5
+Summary: Case Opener api tools
+Author: Narkshubat
+Author-email: markshubat@gmail.com
+Keywords: skin generation caseopener
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+//Nothing there)
