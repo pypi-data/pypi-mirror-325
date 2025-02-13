@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+wqhelp/__init__.py
+wqhelp/wqhelp.py
+wqhelp.egg-info/PKG-INFO
+wqhelp.egg-info/SOURCES.txt
+wqhelp.egg-info/dependency_links.txt
+wqhelp.egg-info/entry_points.txt
+wqhelp.egg-info/requires.txt
+wqhelp.egg-info/top_level.txt
