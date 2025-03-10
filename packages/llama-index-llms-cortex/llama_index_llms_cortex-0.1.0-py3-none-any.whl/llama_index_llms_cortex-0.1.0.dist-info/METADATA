@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: llama-index-llms-cortex
+Version: 0.1.0
+Summary: llama-index llms cortex integration
+License: MIT
+Author: Quinton Mays
+Author-email: qmazedev@gmail.com
+Requires-Python: >3.9.1,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.11.11,<4.0.0)
+Requires-Dist: cryptography (>=44.0.0)
+Requires-Dist: llama-index-core (>=0.12.0,<0.13.0)
+Requires-Dist: pyjwt (>=2.10.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# LlamaIndex Llms Integration: Cortex
+
+## Overview
+
+Integrate with Snowflake Cortex API.
+
+## Installation
+
+```bash
+pip install llama-index-llms-cortex
+```
+
+## Example
+
+```python
+import os
+from llama_index.llms.cortex import Cortex
+
+
+llm = Cortex(
+    model="llama3.2-1b",
+    user=os.environ["YOUR_SF_USER"],
+    account=os.environ["YOUR_SF_ACCOUNT"],
+    private_key_file=os.environ["PATH_TO_SF_PRIVATE_KEY"],
+)
+
+completion_response = llm.complete(
+    "write me a haiku about a snowflake", temperature=0.0
+)
+print(completion_response)
+```
+
