@@ -1,0 +1,2 @@
+[opentelemetry_instrumentor]
+smolagents = openinference.instrumentation.smolagents:SmolagentsInstrumentor
