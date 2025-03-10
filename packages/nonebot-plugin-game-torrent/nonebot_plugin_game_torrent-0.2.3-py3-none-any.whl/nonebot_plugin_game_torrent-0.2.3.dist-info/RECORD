@@ -1,0 +1,15 @@
+nonebot_plugin_game_torrent-0.2.3.dist-info/METADATA,sha256=5ulqqJN5zlWQ-bHnmLc36OKEf6di0nIpEj5ZIoQxqiI,4437
+nonebot_plugin_game_torrent-0.2.3.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+nonebot_plugin_game_torrent-0.2.3.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+nonebot_plugin_game_torrent-0.2.3.dist-info/licenses/LICENCE,sha256=0_zgOjiNpRT7R0-H25grr29Z0DyiWbRX7vLIr8SBGo4,1065
+nonebot_plugin_game_torrent/__init__.py,sha256=W-2VAiY-Ej27KyLXwNIsF0cEZOIEMceBSwLiTwClTts,642
+nonebot_plugin_game_torrent/__main__.py,sha256=t-sNCupB9He_204WQspsUOHe8FU3zzxxVq0XurI7dt0,4707
+nonebot_plugin_game_torrent/config.py,sha256=C4pEdL_d1tokUFpgYdtFk-XjdzAZQQuFOTHu6D7r0Jk,454
+nonebot_plugin_game_torrent/exception.py,sha256=f1S5GSoFVaJ4bbrAkHYpy4y5RtnH_0AvkLaBPymh95o,54
+nonebot_plugin_game_torrent/fetcher/__init__.py,sha256=WYO24QaW_wdLozYD9oEC4WhfQCxJT3Myf0rCoRbb2YQ,227
+nonebot_plugin_game_torrent/fetcher/aimhaven.py,sha256=K-1DGkIxqf1IBc3zjRO9rAC0-kHynSJxFJSXzEAGTk8,2447
+nonebot_plugin_game_torrent/fetcher/base_model.py,sha256=eEi8oA3mDeWBhzHsXMkG7x9i_GWeDHNaCOdvG_xdYBw,2203
+nonebot_plugin_game_torrent/fetcher/fitgirl.py,sha256=_yj8Rjtfib768KhAVM-LsZzQvaclmFSTI2ohgFSNdo4,1886
+nonebot_plugin_game_torrent/hook.py,sha256=RE3eRSQNrThb0qoqDeIbrl479rdeS1kVn54L3gMMtFs,889
+nonebot_plugin_game_torrent/utils.py,sha256=oqWe5eIW21pUNuSjvvp3p-nhctMZHhGbA0jR5OGHmW0,456
+nonebot_plugin_game_torrent-0.2.3.dist-info/RECORD,,
