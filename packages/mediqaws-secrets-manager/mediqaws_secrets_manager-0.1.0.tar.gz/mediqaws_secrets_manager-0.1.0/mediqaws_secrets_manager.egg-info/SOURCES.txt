@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mediqaws_secrets_manager/__init__.py
+mediqaws_secrets_manager.egg-info/PKG-INFO
+mediqaws_secrets_manager.egg-info/SOURCES.txt
+mediqaws_secrets_manager.egg-info/dependency_links.txt
+mediqaws_secrets_manager.egg-info/requires.txt
+mediqaws_secrets_manager.egg-info/top_level.txt
+tests/test_msm.py

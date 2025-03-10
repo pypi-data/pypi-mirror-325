@@ -1,0 +1,46 @@
+Metadata-Version: 2.2
+Name: mediqaws-secrets-manager
+Version: 0.1.0
+Summary: AWS Secrets Manager with caching
+Home-page: https://github.com/SmartMediQ/mediqaws-secrets-manager
+Author: Smartmediq
+Author-email: dev@smartmediq.com
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# mediqaws-secrets-manager
+
+AWS Secrets Manager with caching
+
+## Installation
+
+`pip install mediqaws-secrets-manager`
+
+## Example
+
+```python
+from mediqaws_secrets_manager import SecretsManager
+
+secrets_manager = SecretsManager()
+
+secret = secrets_manager.get_secret("secret_name")
+print(secret)
+```
