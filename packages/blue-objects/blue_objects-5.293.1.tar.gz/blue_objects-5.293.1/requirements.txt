@@ -1,0 +1,13 @@
+abcli
+
+dill
+
+opencv-python
+
+# https://github.com/shapely/shapely/issues/2208
+shapely!=2.0.7
+
+mlflow
+
+pandas
+urllib3
