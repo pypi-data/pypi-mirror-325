@@ -1,0 +1,2 @@
+[console_scripts]
+create-django-vite-app = django_vite_app.scripts.create_project:main

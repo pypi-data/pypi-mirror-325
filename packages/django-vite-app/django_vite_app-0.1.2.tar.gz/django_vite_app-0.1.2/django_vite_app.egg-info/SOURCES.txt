@@ -1,0 +1,11 @@
+README.md
+setup.py
+django_vite_app/__init__.py
+django_vite_app.egg-info/PKG-INFO
+django_vite_app.egg-info/SOURCES.txt
+django_vite_app.egg-info/dependency_links.txt
+django_vite_app.egg-info/entry_points.txt
+django_vite_app.egg-info/requires.txt
+django_vite_app.egg-info/top_level.txt
+django_vite_app/scripts/__init__.py
+django_vite_app/scripts/create_project.py
