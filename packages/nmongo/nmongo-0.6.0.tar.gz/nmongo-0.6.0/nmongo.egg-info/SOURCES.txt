@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.rst
+nmongo.py
+setup.py
+nmongo.egg-info/PKG-INFO
+nmongo.egg-info/SOURCES.txt
+nmongo.egg-info/dependency_links.txt
+nmongo.egg-info/top_level.txt
