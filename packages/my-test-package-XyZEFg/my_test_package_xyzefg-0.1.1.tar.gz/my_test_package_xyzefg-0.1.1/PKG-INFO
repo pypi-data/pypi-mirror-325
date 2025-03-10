@@ -1,0 +1,25 @@
+Metadata-Version: 2.2
+Name: my_test_package_XyZEFg
+Version: 0.1.1
+Summary: A simple test package for PyPI
+Author: Julia Joseph
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-python
+Dynamic: summary
+
+# Test Package
+
+Test package for PyPi
+
+## Usage
+
+```python
+from test_package import hello
+
+print(hello())
