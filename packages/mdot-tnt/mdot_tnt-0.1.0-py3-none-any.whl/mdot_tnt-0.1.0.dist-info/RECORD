@@ -1,0 +1,9 @@
+mdot_tnt/__init__.py,sha256=zi0ujbN19nv_dt8wdxPQgsOuDi-4gIg4sq6y9fDfAkI,2657
+mdot_tnt/mdot.py,sha256=EUch7ECZxDWDoNW3S84qyCx6-qbG6Mu1_XlWow862Wc,4620
+mdot_tnt/rounding.py,sha256=Q7QBPsFzBqnMZKnlV147ruStUCme6gwt6HnjTjqBezk,2405
+mdot_tnt/truncated_newton.py,sha256=YEkWJxL5H4XsuWQzfdZ0E5Ju3Npk3kKoe2l_go8wq2A,10314
+mdot_tnt-0.1.0.dist-info/LICENSE,sha256=sXw3FpVqouAddNhfwD6nXaSgABFyLnXuSn_ghjU0AhY,1837
+mdot_tnt-0.1.0.dist-info/METADATA,sha256=2Ou4X10K6bUGHQhnMXoFjrv-4YUeIyreSKibMLM2gq0,2972
+mdot_tnt-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+mdot_tnt-0.1.0.dist-info/top_level.txt,sha256=HmxTNtoLH7F20hgZVFdfUowIQ2fviSX64wSG1HP8Iao,9
+mdot_tnt-0.1.0.dist-info/RECORD,,
