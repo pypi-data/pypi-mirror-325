@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: weather-analysis-jory-3
+Version: 0.1.3
+Summary: A package for loading and analyzing weather data
+Author: Jory Pitts
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pandas
+Dynamic: author
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

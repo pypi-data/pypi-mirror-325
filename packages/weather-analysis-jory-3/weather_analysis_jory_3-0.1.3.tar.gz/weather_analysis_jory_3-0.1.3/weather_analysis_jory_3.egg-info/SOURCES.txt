@@ -1,0 +1,10 @@
+setup3.py
+weather_analysis_jory_3/__init__.py
+weather_analysis_jory_3/data_loader2.py
+weather_analysis_jory_3/data_processor.py
+weather_analysis_jory_3/weather_analysis.py
+weather_analysis_jory_3.egg-info/PKG-INFO
+weather_analysis_jory_3.egg-info/SOURCES.txt
+weather_analysis_jory_3.egg-info/dependency_links.txt
+weather_analysis_jory_3.egg-info/requires.txt
+weather_analysis_jory_3.egg-info/top_level.txt
