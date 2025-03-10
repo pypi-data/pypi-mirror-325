@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: wattmaven-solarnetwork-tools
+Version: 0.1.0
+Summary: The WattMaven SolarNetwork tools.
+Project-URL: Homepage, https://wattmaven.com
+Project-URL: Source, https://github.com/wattmaven/wattmaven-solarnetwork-tools
+Author-email: Elijah Passmore <elijah.passmore@wattmaven.com>
+License: MIT
+License-File: LICENSE
+Keywords: solarnetwork,wattmaven
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.10
+Requires-Dist: requests>=2.32.3
+Description-Content-Type: text/markdown
+
+# `wattmaven-solarnetwork-tools`
+
+The WattMaven SolarNetwork tools.
