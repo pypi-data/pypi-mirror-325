@@ -1,0 +1,2 @@
+[console_scripts]
+cowpilot = cowpilot.cli:main
