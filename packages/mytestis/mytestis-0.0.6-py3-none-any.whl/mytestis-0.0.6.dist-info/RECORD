@@ -1,0 +1,14 @@
+mytestis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mytestis/main.py,sha256=RU_AYiuZzixIhS_QNYTPLkDoS5Rq5uhQFALXzVhXINA,527
+mytestis/.system/imports.py,sha256=CsRhO_XWL1YA7Wf-cpc8sUop8iIONFx6CCjRrv8Mbug,122
+mytestis/.system/index.py,sha256=xumz2GAkjvGN8mbYQBj_m46FRI9Qb_1mF5qlpPW0c7Q,779
+mytestis/.system/modules/jobs.py,sha256=KGITUbwkDDyN3CmsMzEycYp65U41VisKSl4LV7UEkj4,538
+mytestis/.system/sources/-clight.json,sha256=p4GPeTtZrOcGBNZYZIoGqEfITKSbBs5Ngod-DcVfMrk,309
+mytestis/.system/sources/clight.json,sha256=HKAuXKoqBwBDuSBExvg2UJQHwgMYMeH2nWWzUDf41I4,272
+mytestis/.system/sources/logo.ico,sha256=uGPVXqDB8-B0i3nniK613X-kcUMPxAqMOFb1-hQ0qPY,13701
+mytestis-0.0.6.dist-info/LICENSE,sha256=3U_CaMRQisXoQHsc9kJrlUBUKI6_M5KcJvzkURHBRmU,1096
+mytestis-0.0.6.dist-info/METADATA,sha256=KpXksN2wkg8LI5YfyTg9MALyVFZl8hK7Sl2Hq0wCRiE,1257
+mytestis-0.0.6.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mytestis-0.0.6.dist-info/entry_points.txt,sha256=BdfW45wgFwow6cu49oSeNXnKm6L4LotKGhua20VyGSY,48
+mytestis-0.0.6.dist-info/top_level.txt,sha256=q6Y0JDzkNzGp-RCHMTM8pCUo-G75noZrw5yAwcs79TA,9
+mytestis-0.0.6.dist-info/RECORD,,

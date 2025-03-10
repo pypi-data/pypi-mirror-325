@@ -1,0 +1,12 @@
+{
+  "Name": "Test Project",
+  "Version": "0.0.6",
+  "Description": "Test Description",
+  "Link": "#",
+  "CMD": "mytestis",
+  "Author": "Irakli Gzirishvili",
+  "Mail": "gziraklirex@gmail.com",
+  "Repository Type": "GitHub",
+  "License": "MIT License",
+  "Operating System": "Microsoft / Windows"
+}
