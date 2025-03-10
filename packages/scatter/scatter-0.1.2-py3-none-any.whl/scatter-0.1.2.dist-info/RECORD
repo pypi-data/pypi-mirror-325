@@ -1,0 +1,15 @@
+scatter/__init__.py,sha256=nCG0UG3FKoZdMw8rGWnbqAizvEvRXpW3ny7xWa-20BI,59
+scatter/bench.py,sha256=_EX9qcTDowlQf40v2_0uWijhTXgopbB2jeEWQXvmo2M,236
+scatter/main.py,sha256=9OTzJ1WIlFFmNaqN8xpy4iYGeUinUVw7jrT_0jVcAQg,7055
+scatter/scatter_function.py,sha256=KD9bUHVMks5muEPY8mXoZl-GTAfzk6Z2mXr3TuKYNns,13287
+scatter/state_manager.py,sha256=NWjVgAevDFBnyGfYedZEwNMJ2dBw4oxEwngvUYxH_Fo,1425
+scatter/utils.py,sha256=LWImry3lnJhm-lnjZ77PIKM3HvMvFt3-zoNOfIh9Oiw,397
+scatter/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scatter/cli/main.py,sha256=vX3YzFvxhtbPXDpFTg-mAW2fUn04x6Lk6ikAKOgEm8k,1104
+scatter/cli/sync.py,sha256=KO3BeJf_mTPjXvyrUAeUU-gCYukTmxN_vrjx1Tzn-dM,3618
+scatter-0.1.2.dist-info/LICENSE,sha256=WM8wDJYc4mNgNOQhdGKeLdlKaI_ef4C7Ml70HxiAKa4,1071
+scatter-0.1.2.dist-info/METADATA,sha256=UBw4XpN44dBYEcFOSnK0ya-NOXXpojrtt7Nvq8ho1f0,9417
+scatter-0.1.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+scatter-0.1.2.dist-info/entry_points.txt,sha256=co2bGYDWSkywAKh6MQ96dua_044HvyeFkVE1jfjBfyw,49
+scatter-0.1.2.dist-info/top_level.txt,sha256=0YnHzFKjJgvMMXkOXc37NYbGshsvedeGWYiPKXXlalk,8
+scatter-0.1.2.dist-info/RECORD,,
