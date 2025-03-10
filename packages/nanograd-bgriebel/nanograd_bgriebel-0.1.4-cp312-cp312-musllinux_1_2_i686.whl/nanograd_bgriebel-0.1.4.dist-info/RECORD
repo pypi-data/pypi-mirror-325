@@ -1,0 +1,11 @@
+nanograd_bgriebel.libs/libstdc++-0530927c.so.6.0.32,sha256=h2p2et0WB0CYcMcUEViWjYXOe8uir-_tHJJZui-6GRc,3537509
+nanograd_bgriebel.libs/libgcc_s-1257a076.so.1,sha256=wbXWo2Qh33OuE7spB8-mVbZoEiUkvZu6ZH78pUNr9X8,168321
+nanograd_bgriebel/_core.cpython-312-i386-linux-musl.so,sha256=c-QQT1CRCfqire867UMUwnX1vtHVYCYNBt7y-ovi0do,302881
+nanograd_bgriebel/__init__.py,sha256=4MT02nfRedgx3Asng7KqIGum1GJec3IqLOCSyM_pZs0,399
+nanograd_bgriebel/_core/engine.pyi,sha256=xt6ThfWqsB9vdKQ6Ra3GRx3oCZXMcJzk--bLCq_pJ_s,829
+nanograd_bgriebel/_core/nn.pyi,sha256=iPua_JZ1xZ4ICkTgEvefUObtb4MR--qCXiIoURfBPxM,892
+nanograd_bgriebel/_core/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nanograd_bgriebel-0.1.4.dist-info/WHEEL,sha256=ZhHK34skZqMWskGLCZN3y6YqiZiS2Ut-RMu-sdXDcYM,115
+nanograd_bgriebel-0.1.4.dist-info/RECORD,,
+nanograd_bgriebel-0.1.4.dist-info/METADATA,sha256=ylIgwrIuq1T7Q13lKzV7lk9KLDaKW0aN_nNLqwhsOFk,5041
+nanograd_bgriebel-0.1.4.dist-info/licenses/LICENSE,sha256=sEyMISZYYZMeJbmQjMfv-s3VUVL35v3KseNxg5WUMRY,1062
