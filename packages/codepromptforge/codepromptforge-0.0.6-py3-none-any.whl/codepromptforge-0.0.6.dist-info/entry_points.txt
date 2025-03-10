@@ -1,0 +1,4 @@
+[console_scripts]
+cli_assistant = codepromptforge.assistant.cli_assistant:main
+codepromptforge = codepromptforge.core.cli:main
+web_assistant = codepromptforge.assistant.web_assistant:main
