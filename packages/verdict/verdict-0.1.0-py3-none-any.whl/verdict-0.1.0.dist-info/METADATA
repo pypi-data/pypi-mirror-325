@@ -1,0 +1,46 @@
+Metadata-Version: 2.4
+Name: verdict
+Version: 0.1.0
+Summary: LLM evaluation pipelines
+Project-URL: homepage, https://verdict.haizelabs.com
+Project-URL: documentation, https://verdict.haizelabs.com/docs
+Project-URL: repository, https://github.com/haizelabs/verdict
+Project-URL: issues, https://github.com/haizelabs/verdict/issues
+Author-email: Nimit Kalra <nimit@haizelabs.com>
+License: MIT License
+License-File: LICENSE.md
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: datasets
+Requires-Dist: dill
+Requires-Dist: eval-type-backport
+Requires-Dist: graphviz
+Requires-Dist: instructor==1.7.2
+Requires-Dist: krippendorff
+Requires-Dist: litellm==1.53.7
+Requires-Dist: loguru
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: openai~=1.59.3
+Requires-Dist: pandas
+Requires-Dist: pillow
+Requires-Dist: pydantic
+Requires-Dist: rich
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: tokenizers
+Requires-Dist: typing-extensions
+Provides-Extra: dev
+Requires-Dist: isort; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Requires-Dist: sphinx; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# verdict
+Coming soon.
