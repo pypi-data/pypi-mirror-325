@@ -1,0 +1,2 @@
+[console_scripts]
+scatter = scatter.cli.main:app
