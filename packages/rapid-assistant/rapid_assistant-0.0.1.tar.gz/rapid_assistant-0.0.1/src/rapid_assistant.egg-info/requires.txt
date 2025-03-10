@@ -1,0 +1,9 @@
+python-dotenv
+anyio
+trio
+boto3
+openai
+mcp
+
+[dev]
+argparse
