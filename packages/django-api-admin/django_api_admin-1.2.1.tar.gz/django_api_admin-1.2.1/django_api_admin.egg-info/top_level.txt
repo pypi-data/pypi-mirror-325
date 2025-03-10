@@ -1,0 +1,2 @@
+assets
+django_api_admin
