@@ -1,0 +1,15 @@
+arxa/__init__.py,sha256=KAjuMZLESDlJP8AYUslZfP0OwNgg0eFtWXHuiWCJt2o,48
+arxa/arxiv_utils.py,sha256=gGvzZjvQrQriJDmtmPg8JDtwhF1kiZsKEXFoa14nOQs,2262
+arxa/cli.py,sha256=c09maezEyd-8cGNT_5TKDA7_47jd9WpNQzXRnQ0wADE,9673
+arxa/config.py,sha256=vvJq2poSX8i61iQ_ob6eUJ1JfTkUV-IIJ4rLiZLWtvo,382
+arxa/llm_backends.py,sha256=C1YalTusSj9BenC5taHfeDyXC3guCq_SM4o09TDIzWw,3912
+arxa/pdf_utils.py,sha256=Y0FocjMH_4j1YsRa4ggqswGfmdhwKlMCuECpBIP0tLM,808
+arxa/prompts.py,sha256=pPq4CzfePcbZ-VfMiIZgv7asYKLhf5BDri_2sAAjujM,1974
+arxa/repo_utils.py,sha256=uXJ3z_v6aziuO2kByQUfXJcYrk6gF0GqoW0gfoHi-rI,754
+arxa/research_review.py,sha256=5dO05FLDKrMz9jSO03nA6dpEAEgGqypKD-xTtgMh0f4,2596
+arxa/server.py,sha256=kkYq89EfiAOqk9BeQim0AURoXpd38WEadPuhBGEkR00,7239
+arxa-0.1.10.dist-info/METADATA,sha256=rjiQLGM5f_-ccAx_OxYB6W8DcDW6FV2Amcp4BCReYyY,2837
+arxa-0.1.10.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+arxa-0.1.10.dist-info/entry_points.txt,sha256=YNZIke8Rh2DvSsGjLdZerwOmztRRsMcNca5itHaRHMk,39
+arxa-0.1.10.dist-info/top_level.txt,sha256=O0iL57fIfWxGxGn5--jBnf1LW6xHkgHXkUAheQOKn5s,5
+arxa-0.1.10.dist-info/RECORD,,
