@@ -1,0 +1,13 @@
+codepromptforge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codepromptforge/assistant/web_assistant/static/style.css,sha256=Akt37DNYj66SVMyVGMqUgZgaFFpCciFLnba0seVndgQ,963
+codepromptforge/assistant/web_assistant/static/terminal.css,sha256=9xSJU3ikQCgpOwAVh-PNBVbu23mHbW7a8hDcofEf6rM,1343
+codepromptforge/assistant/web_assistant/templates/index.html,sha256=zLkxbKiyW51F2kYU2bD93mLOBddIEf4iB3yDPIfArK8,1873
+codepromptforge/core/__init__.py,sha256=6NW06p9zxPzWA4blTu7wOimdpQO6O-2tyyOU3aI3o4s,289
+codepromptforge/core/cli.py,sha256=r0X9goFg-TAJirculy1Oev5kTpKQfO6EPC9zIl3uy4s,5795
+codepromptforge/core/main.py,sha256=Fmcolqn4cuuGuvBamrVFg4qGajHQV8itZvagiLkm-n0,11747
+codepromptforge/core/prompt.py,sha256=ogq9glu2tOpGmE1evXvoBsB8V4Ei8_bRXcISOFanMGY,3689
+codepromptforge-0.0.5.dist-info/METADATA,sha256=2zt8a0G9pR8YrR8GUrrm6ra4mRg64e1gPHvPkOhD6ZM,8258
+codepromptforge-0.0.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+codepromptforge-0.0.5.dist-info/entry_points.txt,sha256=9bSLROLreiKI8olHOR3JGo3EHtBCilaXCkmrvjCzYq4,66
+codepromptforge-0.0.5.dist-info/top_level.txt,sha256=HIxsiMdMYkVjMF-DLt8oW6GsoUYZk4xKp1-3LFGmNVs,16
+codepromptforge-0.0.5.dist-info/RECORD,,
