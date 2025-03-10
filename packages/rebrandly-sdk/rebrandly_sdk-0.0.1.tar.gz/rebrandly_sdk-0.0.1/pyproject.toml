@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rebrandly-sdk"
+version = "0.0.1"
+authors = [
+  { name="Rebrandly Devs", email="dev@rebrandly.com" },
+]
+description = "A Python SDK to wrap Rebrandly's API"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+dependencies = [
+"pytest",
+"requests~=2.28.2",
+"python-dotenv==1.0.1"]
+
+
+[project.urls]
+Homepage = "https://github.com/rebrandly/rebrandly-python"
