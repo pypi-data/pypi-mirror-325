@@ -1,0 +1,53 @@
+Metadata-Version: 2.2
+Name: EchoCore
+Version: 0.0.1
+Summary: EchoCore is a platform where developers post ready-to-use plugins and codes for free and paid
+Home-page: https://github.com/ishikki-akabane/EchoCore
+Download-URL: https://github.com/ishikki-akabane/EchoCore/releases/latest
+Author: ishikki-Akabane
+Author-email: ishikkiakabane@outlook.com
+License: MIT
+Project-URL: Tracker, https://github.com/ishikki-akabane/EchoCore/issues
+Project-URL: Community, https://t.me/EchoCore
+Project-URL: Source, https://github.com/ishikki-akabane/EchoCore
+Project-URL: Documentation, https://echocore.live
+Keywords: telegram free bot plugin api client library python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Communications
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Build Tools
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: download-url
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: summary
+
+# EchoCore
+

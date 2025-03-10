@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+EchoCore.egg-info/PKG-INFO
+EchoCore.egg-info/SOURCES.txt
+EchoCore.egg-info/dependency_links.txt
+EchoCore.egg-info/requires.txt
+EchoCore.egg-info/top_level.txt
+echocore/__init__.py
+echocore/client.py
