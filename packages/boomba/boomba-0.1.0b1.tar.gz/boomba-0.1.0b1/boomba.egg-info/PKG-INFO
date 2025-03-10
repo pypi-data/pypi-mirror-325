@@ -1,0 +1,44 @@
+Metadata-Version: 2.2
+Name: boomba
+Version: 0.1.0b1
+Summary: Light and Fast ETL Framework
+Home-page: https://github.com/Baboomba/boomba
+Author: SungEun An
+Author-email: bach0918@gmail.com
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: polars
+Requires-Dist: pyarrow
+Requires-Dist: SQLAlchemy
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Boomba - ETL Pipeline Framework
+
+Boomba is a lightweight and efficient ETL pipeline framework designed to simplify and automate the process of data extraction, transformation, and loading (ETL). With Boomba, you can easily create and manage data pipelines while ensuring high performance and flexibility.
+
+## Features:
+- Schedule and automate ETL jobs
+- Support for data extraction, transformation, and loading tasks
+- Build efficient data pipelines with ease
+
+## Beta Version:
+This is a beta version of Boomba. Please note that some features may be subject to change as I continue to refine and improve the framework.
+
+## Installation:
+```bash
+pip install boomba
+```
+
+## Usage:
+(Include basic usage examples here if needed)
+
+## License:
+(Include license information here)
