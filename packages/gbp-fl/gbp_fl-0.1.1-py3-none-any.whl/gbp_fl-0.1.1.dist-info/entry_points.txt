@@ -1,0 +1,17 @@
+[console_scripts]
+
+[gbp_fl.records]
+django = gbp_fl.records.django_orm
+memory = gbp_fl.records.memory
+
+[gbpcli.subcommands]
+fl = gbp_fl.cli
+
+[gentoo_build_publisher.apps]
+gbp_fl = gbp_fl:APP
+
+[gentoo_build_publisher.graphql_schema]
+gbp_fl = gbp_fl.graphql
+
+[gui_scripts]
+
