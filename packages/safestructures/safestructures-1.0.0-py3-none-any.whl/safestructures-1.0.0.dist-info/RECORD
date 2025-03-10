@@ -1,0 +1,17 @@
+safestructures/__init__.py,sha256=pM5LBKtnKQGVwddo-DudlRvfBor0wQFAHwHrIP-EteI,286
+safestructures/constants.py,sha256=xwcVEhlUzZ_r7Ev2IdlHO2e6u11AMWusAqssJqXHQrQ,314
+safestructures/defaults.py,sha256=B31ltfAYED_IqSvwr3bJ38r_KcxHKvyvWlKsM4q0z80,1768
+safestructures/serializer.py,sha256=0CpC5qa6eKQHcBmSCIN8z_CsjD3eDxwxinwDGdd1v7I,6361
+safestructures/wrapper.py,sha256=PkOg7G3Bkvr7mukgRBBOE0J5kCF2FfoHJXjIaVcA2hE,2497
+safestructures/processors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safestructures/processors/base.py,sha256=rabvoc1apKtoF6hoL6RbiZijhKw4gmchorsnBAgtLlM,6124
+safestructures/processors/basic.py,sha256=Xv8ewvKVjwq3t0khdFKujK8rlmON1jEMTegEne-h3mY,1786
+safestructures/processors/iterable.py,sha256=YgnG9MTStq8DgCtDl5agM2SK5AoHioKluAEHDE3F9Qk,2625
+safestructures/processors/tensor.py,sha256=RlbZbqmJk_V8nG__dRVz3PgeqadEw7l9cdgpw2P21Xs,2050
+safestructures/utils/dataclass.py,sha256=1T13usXVzjBaGJcs154T-qnCR8beCJo84Y124h9KtmI,243
+safestructures/utils/module.py,sha256=3mePpLZzYkEUO-aUXK4zh5v_i67a8rYy8xrkI-BmUTw,1076
+safestructures-1.0.0.dist-info/LICENSE,sha256=3WWheyPnjtbeiqOKwmhgAh3oqwVTaqCmLAnRiBu4HJw,11345
+safestructures-1.0.0.dist-info/METADATA,sha256=bzG_E8YhvwyFzJanbcDPesln579T2h2Kf6wt-syipJk,16958
+safestructures-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+safestructures-1.0.0.dist-info/top_level.txt,sha256=sk1u9A_ZhYCNNMVlEK2yUuGYBMg_IZvHSDYFFR3CW9g,15
+safestructures-1.0.0.dist-info/RECORD,,
