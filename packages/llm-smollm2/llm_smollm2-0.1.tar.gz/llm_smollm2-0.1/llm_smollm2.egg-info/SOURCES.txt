@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+llm_smollm2/SmolLM2-135M-Instruct.Q4_1.gguf
+llm_smollm2/__init__.py
+llm_smollm2.egg-info/PKG-INFO
+llm_smollm2.egg-info/SOURCES.txt
+llm_smollm2.egg-info/dependency_links.txt
+llm_smollm2.egg-info/entry_points.txt
+llm_smollm2.egg-info/requires.txt
+llm_smollm2.egg-info/top_level.txt
+tests/test_smollm2.py
