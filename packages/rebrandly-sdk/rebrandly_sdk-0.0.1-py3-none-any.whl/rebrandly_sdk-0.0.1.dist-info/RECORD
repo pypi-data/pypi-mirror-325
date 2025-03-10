@@ -1,0 +1,10 @@
+rebrandly_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rebrandly_sdk/domains.py,sha256=aJcFrpcp-Er_XUHW22oWuJURR5IUnKBQHuMcY8aSeSI,795
+rebrandly_sdk/links.py,sha256=l27hLlOFqvbLl8Lghn5HUFeBFIYFUDEsM35pRrtf4Ug,12746
+rebrandly_sdk/paginated_response.py,sha256=E3qSjFtTJruiVesNHT2OOC6wE-jqSR2ivBrYNI9ucSU,1881
+rebrandly_sdk/rebrandly_client.py,sha256=Nz6jATENAQ50RA-adg0bg_OzNQZxHoYcJjnBKI-9oic,748
+rebrandly_sdk/workspaces.py,sha256=nTVbgKyXPOemLYyRTrQdvGHkerAatuc60NiNX-VQ7hs,4331
+rebrandly_sdk-0.0.1.dist-info/METADATA,sha256=6eF08Bk0EiddZZDbE_-ijh82QTHtqSKD_O2l-4Uw-GY,3697
+rebrandly_sdk-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+rebrandly_sdk-0.0.1.dist-info/licenses/LICENSE,sha256=KMXHvTwP62S2q-SG7CFfMU_09rUwxiqlM0izaYGdcgY,1103
+rebrandly_sdk-0.0.1.dist-info/RECORD,,
