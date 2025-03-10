@@ -1,0 +1,7 @@
+numpy
+opencv-python
+httpx
+pandas
+pypylon
+pydantic-settings
+kafka-python-ng
