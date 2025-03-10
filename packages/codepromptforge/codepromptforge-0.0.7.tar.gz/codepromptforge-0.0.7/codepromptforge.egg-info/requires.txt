@@ -1,0 +1,15 @@
+pytest
+pydantic
+langchain
+pathspec
+langchain_community
+
+[assistant]
+langchain_ollama
+langgraph
+ollama
+duckduckgo-search
+flask
+codepromptforge.assistant
+codepromptforge.assistant.web_assistant
+codepromptforge.assistant.common
