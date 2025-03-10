@@ -1,0 +1,9 @@
+nanograd_bgriebel/_core.cpython-312-i386-linux-gnu.so,sha256=BO54n6e-RZW23FA3Q0w1KNa9O2pe1aWjpOo6YB-MMmI,342580
+nanograd_bgriebel/__init__.py,sha256=4MT02nfRedgx3Asng7KqIGum1GJec3IqLOCSyM_pZs0,399
+nanograd_bgriebel/_core/engine.pyi,sha256=xt6ThfWqsB9vdKQ6Ra3GRx3oCZXMcJzk--bLCq_pJ_s,829
+nanograd_bgriebel/_core/nn.pyi,sha256=iPua_JZ1xZ4ICkTgEvefUObtb4MR--qCXiIoURfBPxM,892
+nanograd_bgriebel/_core/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nanograd_bgriebel-0.1.4.dist-info/WHEEL,sha256=UYMj6W6YBXcj1Nw_K0-VGv2XMvh515-0mF3OS5_yat8,152
+nanograd_bgriebel-0.1.4.dist-info/RECORD,,
+nanograd_bgriebel-0.1.4.dist-info/METADATA,sha256=ylIgwrIuq1T7Q13lKzV7lk9KLDaKW0aN_nNLqwhsOFk,5041
+nanograd_bgriebel-0.1.4.dist-info/licenses/LICENSE,sha256=sEyMISZYYZMeJbmQjMfv-s3VUVL35v3KseNxg5WUMRY,1062
