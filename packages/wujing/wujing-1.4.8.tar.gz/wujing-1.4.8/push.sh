@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -eux
+
+uv publish --username=__token__ --password=pypi-AgEIcHlwaS5vcmcCJDAyZTQyMTM1LTk4MzMtNGYxMy04OGVmLWEzMTc0Mjk5NzExYQACKlszLCI1Y2UxODZmNS03ZTg4LTQ1ZjYtYTk4ZC0xMDJlMWY4MGMxZTQiXQAABiAfvsezIHXNk1508aZaBy0uqrDbYj7O6i3Mh9s-pKseCA
