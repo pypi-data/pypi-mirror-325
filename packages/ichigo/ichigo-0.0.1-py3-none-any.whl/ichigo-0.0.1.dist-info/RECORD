@@ -1,0 +1,16 @@
+ichigo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ichigo/asr/__init__.py,sha256=PnbfT4NELJ2bdLn-yWme8Gw3fb2RAMcRHK6RM3ZYpss,856
+ichigo/asr/transcriber.py,sha256=UsGeZ6bD1cbfuxexfGuPLABH7wHgXfNXJ6HP4WfRvpA,6949
+ichigo/asr/arch/__init__.py,sha256=N1i6xIAXN0Iv73ynEGihrAllAZK427m_ANEzxfeDc7c,138
+ichigo/asr/arch/layers.py,sha256=krcToeK3i7d-_V1O2AvMH2vVCpZpBmdFgfV0FOOTmls,9220
+ichigo/asr/arch/quantizer.py,sha256=6ayg3IZ9fLLrx6EYi32m6v9VlVBYkSzyF8S9reaEAjY,5184
+ichigo/asr/arch/r2t.py,sha256=pgKPSHybITRPlCZUJNeX6FtxElpC1hG0KhZZcc_TO2A,623
+ichigo/asr/arch/s2r.py,sha256=Za_mSFPTegENhSII2AnshDZhClQ2QMIEs_s9Gnu2Umk,868
+ichigo/asr/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ichigo/asr/config/merge-2560d.yaml,sha256=jTM1u9b9zXsPIwYEbJHTBlHXv2agXVzRm4RU8DyOoe8,1180
+ichigo/llm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ichigo/tts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ichigo-0.0.1.dist-info/METADATA,sha256=pWRTBEBQ2RG2PxBMqn3SsgWdaQxLvXB7Vj83EIp7bOc,6997
+ichigo-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ichigo-0.0.1.dist-info/top_level.txt,sha256=RzcZAJzZZpquc_3YlxMvDJfRN-oWLhj9RW2dPCEMsfY,7
+ichigo-0.0.1.dist-info/RECORD,,
