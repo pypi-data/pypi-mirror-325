@@ -1,0 +1,7 @@
+metagame/__init__.py,sha256=BfLDRblYcndM7ivuM6cNupXDcXqVaFThBXqbjiYgW6w,116
+metagame/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metagame/trading_client.py,sha256=ZkuiZTqcXd2tdnvzbM8AxGt5Bx5iQOd37OuJZ1Cblig,18708
+metagame/websocket_api.py,sha256=meiGfLtuvhNjkAn5MQYJkWwfb1W96rPcD84mvyRL-p0,12684
+metagame-0.4.0.dist-info/METADATA,sha256=vTKj_n4tsBkf6p8LWbF2EJdU_waTq8c5tFDJ51TdKas,361
+metagame-0.4.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+metagame-0.4.0.dist-info/RECORD,,
