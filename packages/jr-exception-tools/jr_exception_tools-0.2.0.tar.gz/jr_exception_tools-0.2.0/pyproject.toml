@@ -1,0 +1,31 @@
+[project]
+name = "jr_exception_tools"
+version = "0.2.0"
+description = "A abstract base class for exceptions"
+readme = "README.md"
+requires-python = ">=3.12.8"
+license = { text = "MIT" }
+dependencies = [
+    "pytest>=8.3.4",
+    "rich>=13.9.4",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py", "tests_*.py"]
+addopts = "-v"
+
+[project.urls]
+Repository = "https://github.com/JuniorVieira99/jr_exceptions_tools"

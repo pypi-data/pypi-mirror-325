@@ -1,0 +1,579 @@
+Metadata-Version: 2.2
+Name: jr_exception_tools
+Version: 0.2.0
+Summary: A abstract base class for exceptions
+License: MIT
+Project-URL: Repository, https://github.com/JuniorVieira99/jr_exceptions_tools
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.12.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest>=8.3.4
+Requires-Dist: rich>=13.9.4
+
+# jr_exception_tools
+
+---
+
+## Index
+
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Notes](#notes)
+4. [Exception Message Example](#exception-message-example)
+5. [Installation](#installation)
+6. [Usage](#usage)
+    1. [Basic Exception Handling](#basic-exception-handling)
+    2. [Filling all parameters](#filling-all-parameters)
+    3. [Automatic context capture](#automatic-context-capture)
+    4. [Custom exception mode](#custom-exception-mode)
+    5. [Traceback mode](#traceback-mode)
+    6. [Logging Integration](#logging-integration)
+    7. [Additional information](#additional-information)
+7. [Exception Modes](#exception-modes)
+8. [Custom Keys](#custom-keys)
+9. [Signature](#signature)
+10. [Attributes](#attributes)
+11. [Messages Modes](#messages-modes)
+12. [Running the tests](#running-the-tests)
+13. [Contributing](#contributing)
+14. [License](#license)
+
+---
+
+## Overview
+
+ExceptionBase is a customizable, structured exception-handling framework for Python. It provides enhanced error reporting, automatic context capture, rich formatting options, and seamless logging integration. The library is lightweight and optimized using caches for better performance and memory efficiency.
+
+---
+
+## Features
+
+- Multiple Exception Formats: Supports simple, complex, traceback, and custom exception modes.
+
+- Automatic Context Capture: Extracts filename, function, line number, and more.
+
+- Rich Formatting: Supports JSON, rich table output, and structured logging.
+
+- Thread-Safe: Uses locking to ensure safe exception handling.
+
+- Exception Chaining: Easily tracks nested exceptions.
+
+- Lightweight: Requires minimal dependencies.
+
+- Logging Integration: Logs exceptions using the provided logger.
+
+---
+
+## Notes
+
+- The `ExceptionBase` class is designed to be used as a base class for custom exceptions.
+- rich attribute will make a table with the exception details.
+
+## Exception Message Example
+
+```css
+====== BookValidationException ======
+Message: Error performing validation operation
+Time Stamp: 2025-02-05 22:45:05
+Filename: book_exceptions.py
+Class: BookValidationException
+Module: MyModule
+Function: do_something
+Line: 354
+Exception: TypeError
+Error Message: unsupported operand type(s) for +: 'int' and 'str'
+```
+
+## Installation
+
+Ensure rich and pytest(in case of testing) are installed:
+
+```bash
+pip install rich pytest
+```
+
+Then install the library:
+
+```bash
+pip install jr_exception_tools
+```
+
+---
+
+## Usage
+
+### Basic Exception Handling
+
+```python
+from jr_exception_tools import ExceptionBase
+
+# Define your custom exception class inheriting from ExceptionBase
+class MyCustomException(ExceptionBase):
+    pass
+
+try:
+    # Raise a error
+    raise ValueError("Invalid operation")
+except ValueError as e:
+    # Raise your custom exception
+    raise MyCustomException(
+        message="A custom exception occurred",
+        exception=e,
+        mode="simple"
+    )
+```
+
+### Filling all parameters
+
+```python
+try:
+    raise RuntimeError("Runtime error")
+except RuntimeError as e:
+    # You can fill all parameters with your own values
+    raise MyCustomException(
+        message="Detailed error report",
+        filename="my_file.py",
+        class_name="MyClass",
+        module_name="my_module",
+        function="my_function",
+        line=100,
+        exception=e,
+        mode="complex",
+    )
+```
+
+### Automatic context capture
+
+```python
+try:
+    raise RuntimeError("Runtime error")
+except RuntimeError as e:
+    # Captures the source code information automatically
+    raise MyCustomException(
+        message="Detailed error report",
+        exception=e,
+        mode="complex",
+    )
+```
+
+### Custom exception mode
+
+```python
+try:
+    raise RuntimeError("Runtime error")
+except RuntimeError as e:
+    # Custom exception will uses a list of keys
+    raise MyCustomException(
+        message="Detailed error report",
+        exception=e,
+        mode="custom",
+        list_of_keys=["time", "function", "line"],
+        # Time, Function, and Line will be displayed in the exception
+    )
+```
+
+### Traceback mode
+
+```python
+try:
+    raise RuntimeError("Runtime error")
+except RuntimeError as e:
+    # Traceback mode will display the traceback
+    raise MyCustomException(
+        message="Detailed error report",
+        exception=e,
+        mode="traceback",
+    )
+```
+
+### Logging Integration
+
+```python
+logger = logging.getLogger("my_logger")
+
+try:
+    raise ValueError("Something went wrong")
+except ValueError as e:
+    raise ExceptionBase(
+        message="Error with logging",
+        exception=e,
+        mode="complex",
+        logger=logger # Will log the exception
+    )
+```
+
+### Additional information
+
+```python
+additional_info = {
+    "user": "John Doe",
+    "operation": "Operation 1",
+}
+
+try:
+    raise ValueError("Something went wrong")
+except ValueError as e:
+    # Additional information will be displayed in the exception message
+    raise ExceptionBase(
+        message="Error with additional information",
+        exception=e,
+        additional_message=additional_info,
+        mode="complex",
+    )
+```
+
+## Exception Modes
+
+| Mode | Description |
+| --- | --- |
+| simple | Simple mode will display only the message and exception type. |
+| complex | Complex mode will display the filename, message, class, module, function, and line number. Along with the exception type and error message. |
+| traceback | Traceback mode will display the traceback. |
+| custom | Custom mode will display the message and additional information. |
+
+## Custom Keys
+
+- Set of keys to use as the `list_of_keys` parameter for custom exception message.
+```python
+raise MyCustomException(
+    message="Custom error report",
+    exception=e,
+    mode="custom",
+    list_of_keys=["time", "class" "function", "line"],
+) # Time, Class, Function, and Line will be displayed in the exception
+```
+
+| Key | Description |
+| --- | --- |
+| time | The time the exception was raised. |
+| filename | The filename where the exception was raised. |
+| class | The class name where the exception was raised. |
+| module | The module name where the exception was raised. |
+| function | The function name where the exception was raised. |
+| line | The line number where the exception was raised. |
+
+## Signature
+
+```python
+def __init__(
+    self,
+    message: str | None = None,
+    additional_message: Dict[str, Any] | None = None,
+    filename: str | None = None,
+    class_name: str | None = None,
+    module_name: str | None = None,
+    function: str | None = None,
+    line: int | None = None,
+    exception: Exception | None = None,
+    mode: Literal["simple", "complex", "traceback", "custom"] = "simple",
+    list_of_keys: list[str] | None = None,
+    logger: Logger | None = None,
+    use_rich: bool = False,
+    json: bool = False,
+) -> None:
+```
+
+## Attributes
+
+| Attribute | Type | Description |
+| --- | --- | --- |
+| message | str | The message associated with the exception. |
+| additional_message | Dict[str, Any] | The additional message associated with the exception. |
+| filename | str | The filename associated with the exception. |
+| class_name | str | The class name associated with the exception. |
+| module_name | str | The module name associated with the exception. |
+| function | str | The function name associated with the exception. |
+| line | int | The line number associated with the exception. |
+| exception | Exception | The exception associated with the exception. |
+| mode | Literal["simple", "complex", "traceback", "custom"] | The mode associated with the exception. |
+| list_of_keys | list[str] | The list of keys associated with the exception. |
+| logger | Logger | The logger associated with the exception. |
+| use_rich | bool | Whether to use rich formatting or not. |
+| json | bool | Whether to return the additional message as a JSON string, as the sole output. |
+
+## Messages Modes
+
+### Simple:
+
+```python
+try:
+    ...
+    raise TypeError ("unsupported operand type(s) for +: 'int' and 'str'")
+except TypeError as e:
+    raise BookValidationException(
+        message="Error performing validation operation",
+        exception=e,
+        mode="simple".
+    )
+```
+
+Output:
+
+```css
+====== BookValidationException ======
+Message: Error performing validation operation
+Exception: TypeError
+Error Message: unsupported operand type(s) for +: 'int' and 'str'
+```
+
+### Complex:
+
+```python
+try:
+    ...
+    raise TypeError ("unsupported operand type(s) for +: 'int' and 'str'")
+except TypeError as e:
+    raise BookValidationException(
+        message="Error performing validation operation",
+        exception=e,
+        mode="complex".
+    )
+```
+
+Output:
+
+```css
+====== BookValidationException ======
+Message: Error performing validation operation
+Time Stamp: 2025-02-05 22:45:05
+Filename: book_exceptions.py
+Class: BookValidationException
+Module: __main__
+Function: do_something
+Line: 354
+Exception: TypeError
+Error Message: unsupported operand type(s) for +: 'int' and 'str'
+```
+
+### Custom:-> ["time","function", "line"]
+
+```python
+try:
+    ...
+    raise TypeError ("unsupported operand type(s) for +: 'int' and 'str'")
+except TypeError as e:
+    raise BookValidationException(
+        message="Error performing validation operation",
+        exception=e,
+        mode="custom",
+        list_of_keys = ["time","function", "line"]
+    )
+```
+
+Output:
+
+```css
+====== BookValidationException ======
+Message: Error performing validation operation
+Time Stamp: 2025-02-06 17:56:54
+Function: do_something
+Line: 745
+Exception: TypeError
+Error Message: unsupported operand type(s) for +: 'int' and 'str'
+```
+
+### Additional Message:
+
+```python
+try:
+    ...
+    raise TypeError ("unsupported operand type(s) for +: 'int' and 'str'")
+except TypeError as e:
+    raise BookValidationException(
+        message="Error performing validation operation",
+        exception=e,
+        mode="simple".
+        additional_message = {
+            "user" = "John Doe",
+            "Operation" = "Operation 1"
+        }
+)
+```
+
+Output:
+
+```css
+CBookSecurityException:
+====== CBookSecurityException ======
+Message: Security error occurred while performing operation
+Exception: TypeError
+Error Message: Some TypeError
+
+====== Additional Information ======
+user: John Doe
+operation: Operation 1
+```
+
+### Nested Exceptions:
+
+```css
+CBookSecurityException:
+====== CBookSecurityException ======
+Message: Security error occurred while performing operation
+Time Stamp: 2025-02-06 20:35:17
+Filename: module_exceptions.py
+Class: CBookSecurityException
+Module: __main__
+Function: do_something
+Line: 783
+
+====== Chain of Exceptions ======
+CBookSecurityException -> BookValidationException
+
+====== BookValidationException ======
+Message: Error performing validation operation
+Time Stamp: 2025-02-06 20:35:17
+Filename: module_exceptions.py
+Class: BookValidationException
+Module: __main__
+Function: do_something
+Line: 781
+Error Message: unsupported operand type(s) for +: 'int' and 'str'
+```
+
+### Rich:
+
+```python
+try:
+    ...
+    raise TypeError ("unsupported operand type(s) for +: 'int' and 'str'")
+except TypeError as e:
+    raise BookValidationException(
+        message="Error performing validation operation",
+        exception=e,
+        mode="simple",
+        use_rich= True
+    )
+```
+
+Output:
+
+```css
+CBookSecurityException:                         CBookSecurityException
+┏━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Key           ┃ Value                                              ┃
+┡━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ message       │ Security error occurred while performing operation │
+│ exception     │ BookValidationException                            │
+│ error_message │ Error performing validation operation              │
+└───────────────┴────────────────────────────────────────────────────┘
+```
+
+### Nested Rich:
+
+```css
+CBookSecurityException:                            CBookSecurityException
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Key                 ┃ Value                                              ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ message             │ Security error occurred while performing operation │
+│ time                │ 2025-02-06 20:34:30                                │
+│ filename            │ module_exceptions.py                               │
+│ class               │ CBookSecurityException                             │
+│ module              │ __main__                                           │
+│ function            │ do_something                                       │
+│ line                │ 783                                                │
+│ chain_of_exceptions │ CBookSecurityException -> BookValidationException  │
+└─────────────────────┴────────────────────────────────────────────────────┘
+
+
+                       BookValidationException
+┏━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Key           ┃ Value                                              ┃
+┡━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ message       │ Error performing validation operation              │
+│ time          │ 2025-02-06 20:34:30                                │
+│ filename      │ module_exceptions.py                               │
+│ class         │ BookValidationException                            │
+│ module        │ __main__                                           │
+│ function      │ do_something                                       │
+│ line          │ 781                                                │
+│ exception     │ TypeError                                          │
+│ error_message │ unsupported operand type(s) for +: 'int' and 'str' │
+└───────────────┴────────────────────────────────────────────────────┘
+```
+
+### Direct JSON Output:
+
+```python
+try:
+    ...
+    raise TypeError ("unsupported operand type(s) for +: 'int' and 'str'")
+except TypeError as e:
+    raise BookValidationException(
+       additional_message= {
+            "message": "Security error occurred while performing operation",
+            "exception": "TypeError",
+            "error_message": "unsupported operand type(s) for +: 'int' and 'str'"
+        }
+    )
+```
+
+Output:
+
+```css
+{
+    "message": "Security error occurred while performing operation",
+    "exception": "TypeError",
+    "error_message": "unsupported operand type(s) for +: 'int' and 'str'"
+}
+```
+
+## Make JSON message
+
+- Get a JSON formatted message from the exception
+
+```python
+try:
+    ...
+    raise TypeError("unsupported operand type(s) for +: 'int' and 'str'")
+except TypeError as e:
+    # Make JSON message
+    ex = MyCustomException(
+        message="Security error occurred while performing operation",
+        exception=e,
+        mode="complex",
+    )
+    print(ex._JSONMessage())
+```
+
+Output:
+
+```css
+{
+    "message": "Security error occurred while performing operation",
+    "time": "2025-02-06 21:11:03",
+    "filename": "module_exceptions.py",
+    "class": "CBookSecurityException",
+    "module": "__main__",
+    "function": "do_something",
+    "line": 816,
+    "chain_of_exceptions": "CBookSecurityException -> BookValidationException",
+    "exception": "BookValidationException",
+    "exception_message": "Error performing validation operation",
+    "error_type": "TypeError",
+    "error_message": "unsupported operand type(s) for +: 'int' and 'str'"
+}
+```
+
+## Running the tests
+
+To run the tests, you can use the following command:
+
+```bash
+pytest tests_exceptions.py
+```
+
+## Contributing
+
+Contributions are welcome! Feel free to submit issues or pull requests.
+
+## License
+
+MIT License
