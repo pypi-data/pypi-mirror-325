@@ -1,0 +1,36 @@
+[project]
+name = "frogtab"
+version = "2.0.0b1"
+description = "Frogtab Local"
+readme = "README.md"
+license = {text="MIT"}
+authors = [
+    {name="Dave Wilding", email="tech@dpw.me"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "Flask>=2.2.5",
+    "requests>=2.31.0",
+]
+
+[project.scripts]
+frogtab = "frogtab.cli:main"
+
+[build-system]
+requires = [
+    "setuptools",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+frogtab = [
+    "legacy/**",
+    "local_server/**",
+]

@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: frogtab
+Version: 2.0.0b1
+Summary: Frogtab Local
+Author-email: Dave Wilding <tech@dpw.me>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE_openpgp
+Requires-Dist: Flask>=2.2.5
+Requires-Dist: requests>=2.31.0
+
+# Frogtab Local
+
+Beta version
