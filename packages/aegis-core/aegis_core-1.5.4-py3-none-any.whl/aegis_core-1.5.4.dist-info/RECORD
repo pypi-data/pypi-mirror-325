@@ -1,0 +1,16 @@
+aegis_core/__init__.py,sha256=ShXQBVjyiSOHxoQJS2BvNG395W4KZfqMxZWBAR0MZrE,22
+aegis_core/ast/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aegis_core/ast/features/__init__.py,sha256=tHhGEEOGHo_uw-2plizU12WuOx2SVPm8bF8dlUuDsKA,1305
+aegis_core/ast/features/provider.py,sha256=ZWHoJTJvOLJiK0PFQk5U5UqbUIoNqL3SOhRj6ipAV_M,1769
+aegis_core/ast/features/resource_location.py,sha256=_IOGLdIBFy7-LDDp-teR6aGlNl8dkd2ffc2i47X4xs0,6686
+aegis_core/ast/features/variable.py,sha256=oUfuN73hjENdQULb38FLkymrpGHl-bO2KDVIKo4KBdA,1359
+aegis_core/ast/helpers.py,sha256=w9vxn1eUVhMvsTC3KiiTeZynRJIF9xcO6ZTMH_ec-6I,861
+aegis_core/ast/metadata.py,sha256=JlGE5ixPUOXLJl7fTO7kdSPw914jmiKRnCS1RXL3S_Q,2417
+aegis_core/indexing/__init__.py,sha256=mAAXsyb4563bpkMgCNok6oNtdKqDiGabKhFEZWI_I_0,29
+aegis_core/indexing/project_index.py,sha256=-xbn3GdxDtKN0LA0OF6oXHFvTAeb6KDjzDaoM8ZkGLk,5180
+aegis_core/reflection/__init__.py,sha256=JuW0hWaZuMF5sOhpgKs0d09W-VjGeKWFIq22C6Ecouw,7807
+aegis_core/registry.py,sha256=DZTVwUU9k-ISp_BQNyfMc-OzeKCSEEB417lL_Knl704,406
+aegis_core/semantics.py,sha256=bmYFi2F_-kNdxQYXzYYpZSrU4sB2ZcBEqKVXVDzFkJI,854
+aegis_core-1.5.4.dist-info/METADATA,sha256=_gde3hRMnS0ZdeGwEFvFEupLIfLb2-AgioLaE22wTJo,734
+aegis_core-1.5.4.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+aegis_core-1.5.4.dist-info/RECORD,,
