@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+mdot_tnt/__init__.py
+mdot_tnt/mdot.py
+mdot_tnt/rounding.py
+mdot_tnt/truncated_newton.py
+mdot_tnt.egg-info/PKG-INFO
+mdot_tnt.egg-info/SOURCES.txt
+mdot_tnt.egg-info/dependency_links.txt
+mdot_tnt.egg-info/top_level.txt
