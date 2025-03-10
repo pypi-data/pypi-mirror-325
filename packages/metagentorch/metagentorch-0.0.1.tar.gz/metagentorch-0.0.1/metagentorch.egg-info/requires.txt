@@ -1,0 +1,13 @@
+eccore
+fastcore
+matplotlib
+numpy
+pandas
+tqdm
+ipywidgets
+keras==3.8
+torch==2.5
+
+[dev]
+nbdev
+wandb
