@@ -1,0 +1,75 @@
+Metadata-Version: 2.2
+Name: boomba
+Version: 0.1.0b2
+Summary: Light and Fast ETL Framework
+Home-page: https://github.com/Baboomba/boomba
+Author: SungEun An
+Author-email: SungEun An <bach0918@gmail.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2025, SungEun An
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are
+        met:
+        
+            * Redistributions of source code must retain the above copyright
+               notice, this list of conditions and the following disclaimer.
+        
+            * Redistributions in binary form must reproduce the above
+               copyright notice, this list of conditions and the following
+               disclaimer in the documentation and/or other materials provided
+               with the distribution.
+        
+            * Neither the name of the copyright holder nor the names of any
+               contributors may be used to endorse or promote products derived
+               from this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+        "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+        LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+        A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+        OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+        SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+        LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+        DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+        THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+        (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Project-URL: repository, https://github.com/Baboomba/boomba
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: polars
+Requires-Dist: pyarrow
+Requires-Dist: SQLAlchemy
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# Boomba - ETL Pipeline Framework
+
+Boomba is a lightweight and efficient ETL pipeline framework designed to simplify and automate the process of data extraction, transformation, and loading (ETL). With Boomba, you can easily create and manage data pipelines while ensuring high performance and flexibility.
+
+## Features:
+- Schedule and automate ETL jobs
+- Support for data extraction, transformation, and loading tasks
+- Build efficient data pipelines with ease
+
+## Beta Version:
+This is a beta version of Boomba. Please note that some features may be subject to change as I continue to refine and improve the framework.
+
+## Installation:
+```bash
+pip install boomba
+```
+
+## Usage:
+(Include basic usage examples here if needed)
+
+## License:
+(Include license information here)
