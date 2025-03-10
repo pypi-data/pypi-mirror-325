@@ -1,0 +1,14 @@
+sms-spam-detection/__init__.py,sha256=PVrWLkS19WQ2dIL5UE4prdSFiOXPR5gw0SwbqGNDDIs,24
+sms-spam-detection/app.py,sha256=ZJlJ_4PNuot6DBoG30uhCQN0nA5BBHvbibybJXnqz_s,3022
+sms-spam-detection/test.py,sha256=RISMNXgTr-5WeINpQRwW5gZDR-qKWceS9OdkqNxC510,698
+sms_spam_detection/__init__.py,sha256=PVrWLkS19WQ2dIL5UE4prdSFiOXPR5gw0SwbqGNDDIs,24
+sms_spam_detection/app.py,sha256=Es8Lhiokhtoo731ZXCzYnkD2_8vCkCMIJQ0Hrnngh1o,3335
+sms_spam_detection/best_extra_trees_model.pkl,sha256=0XGvsXIxrWKmtKkBX_BEaYNwf2opogWJLYAGLFNjUqw,33056777
+sms_spam_detection/best_logistic_regression_model.pkl,sha256=nienzMBscqoT0G5mCjX14cFkvWESD4zGVJpOjQHLAkw,3491
+sms_spam_detection/test.py,sha256=RISMNXgTr-5WeINpQRwW5gZDR-qKWceS9OdkqNxC510,698
+sms_spam_detection/word2vec.model,sha256=VhWVKsCnLqfURBkB7VpVTpOc37I-EB9iDmTSTHGMfxo,8253584
+sms_spam_detection-0.1.6.dist-info/LICENSE,sha256=yR0_UtSeMehmxHiGvJJKCM00ms7l3IvBQvNUFh6O5TU,1067
+sms_spam_detection-0.1.6.dist-info/METADATA,sha256=Mz6mIYhYgl1gpYjwhkkAqk-01U0dLq_DUsyg1HfEpBQ,2527
+sms_spam_detection-0.1.6.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+sms_spam_detection-0.1.6.dist-info/top_level.txt,sha256=Q_ts5ILx56V96U0a-baEObniwSoKoErpkV6sUMqc0ss,19
+sms_spam_detection-0.1.6.dist-info/RECORD,,
