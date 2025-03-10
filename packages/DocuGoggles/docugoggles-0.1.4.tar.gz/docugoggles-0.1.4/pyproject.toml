@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DocuGoggles"
+version = "0.1.4"
+description = "A tool for scanning and analyzing files in directories"
+authors = [
+    {name = "Naif ALqurashi", email = "Naif.cen@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+docugoggles = "file_search.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["file_search"]
