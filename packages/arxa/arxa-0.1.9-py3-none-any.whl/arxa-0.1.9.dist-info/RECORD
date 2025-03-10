@@ -1,0 +1,14 @@
+arxa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arxa/arxiv_utils.py,sha256=gGvzZjvQrQriJDmtmPg8JDtwhF1kiZsKEXFoa14nOQs,2262
+arxa/cli.py,sha256=SPK3PGuHO2eTibJLaf8l_sL7XAhgNM5Yg4FDHJc3q-8,9201
+arxa/config.py,sha256=vvJq2poSX8i61iQ_ob6eUJ1JfTkUV-IIJ4rLiZLWtvo,382
+arxa/llm_backends.py,sha256=C1YalTusSj9BenC5taHfeDyXC3guCq_SM4o09TDIzWw,3912
+arxa/pdf_utils.py,sha256=Y0FocjMH_4j1YsRa4ggqswGfmdhwKlMCuECpBIP0tLM,808
+arxa/repo_utils.py,sha256=uXJ3z_v6aziuO2kByQUfXJcYrk6gF0GqoW0gfoHi-rI,754
+arxa/research_review.py,sha256=jBhz_d42ry-WsiVRshJNRrIKh9ks9-j6QH_oY-NEaOw,4370
+arxa/server.py,sha256=doMD_i64PjIg-w7RxrajvxJW2B5Waw3063QQvh4cecA,3451
+arxa-0.1.9.dist-info/METADATA,sha256=ne1rWAurNUJ5F-QWJPSNWtbtBaykKNJsglbTFKaTqss,2836
+arxa-0.1.9.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+arxa-0.1.9.dist-info/entry_points.txt,sha256=YNZIke8Rh2DvSsGjLdZerwOmztRRsMcNca5itHaRHMk,39
+arxa-0.1.9.dist-info/top_level.txt,sha256=O0iL57fIfWxGxGn5--jBnf1LW6xHkgHXkUAheQOKn5s,5
+arxa-0.1.9.dist-info/RECORD,,
