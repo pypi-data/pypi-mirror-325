@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "specArt"
+version = "0.0.1"
+description = "specArt: Convert images into spectrum art ready to be broadcast on your favourite frequency."
+readme = "README.md"
+requires-python = ">=3.12"
+license = {file = "LICENSE.txt"}
+keywords = ["dsp", "signal", "radio", "wave", "art", "spectrum", "sdr"]
+authors = [
+  { name = "importThat" }
+]
+
+classifiers = [
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: Implementation :: CPython"
+]
+
+dependencies = [
+  "numpy",
+  "pillow"
+]
+
+[project.urls]
+Homepage = "https://github.com/importThat/specArt"
+Source = "https://github.com/importThat/specArt"
+
+[tool.pylint]
+max-line-length = 120
+disable = [
+]

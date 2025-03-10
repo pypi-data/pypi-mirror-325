@@ -1,0 +1,68 @@
+Metadata-Version: 2.4
+Name: specArt
+Version: 0.0.1
+Summary: specArt: Convert images into spectrum art ready to be broadcast on your favourite frequency.
+Project-URL: Homepage, https://github.com/importThat/specArt
+Project-URL: Source, https://github.com/importThat/specArt
+Author: importThat
+License: MIT License
+        
+        Copyright (c) 2024, specArt Developers.
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE.txt
+Keywords: art,dsp,radio,sdr,signal,spectrum,wave
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.12
+Requires-Dist: numpy
+Requires-Dist: pillow
+Description-Content-Type: text/markdown
+
+<picture align="center">
+  <img alt="dsproc logo" src="dsproc_logo.png">
+</picture>
+
+------------------
+
+# specArt - Create your own spectrum art!
+
+## What is it?
+Encodes pictures into a wave form which can then be transmitted to display your picture in the spectrum using a
+waterfall plot or similar visualiser.
+
+------------------
+
+## Minimal example
+Use the command line interface
+```commandline
+python specArt.py -i my_pic.jpg -o complex_wave.64 -fs 1000000 -t 0.008 -amp_res 64
+```
+
+For help use the expected:
+```commandline
+python specArt.py -h
+```
+
+## Installation
+```commandline
+pip install specart
+```
