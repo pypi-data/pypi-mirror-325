@@ -1,0 +1,16 @@
+agefreighter/__init__.py,sha256=r0winL5GJQg8azfnN-_NzoLhUK27tseYo7U5qiZJedw,537
+agefreighter/agefreighter.py,sha256=4mEv-a1m7ZJHpqfYdK8FPVpHLo9-DRKUyqqNNxOFyBU,40853
+agefreighter/avrofreighter.py,sha256=JBu4VUNOnab4bbKW0melVA8mK7iAxJmtJNSY79lIIvE,4095
+agefreighter/azurestoragefreighter.py,sha256=TbIxIVlOPAdktK3e7uAT8sbD6RwsIu_Owgep-XYUx-I,39144
+agefreighter/cosmosgremlinfreighter.py,sha256=ZQGv15Ufkt_zukz4YGwIKhSqa_lTn3G7GP7AlA2pJNE,7652
+agefreighter/csvfreighter.py,sha256=bfZxQVur38ldeagGwRS_zwanHzdOQqhoSRD9dRQfOJU,3337
+agefreighter/multiazurestoragefreighter.py,sha256=zA31T1yzKfClGjoGBoeTTv-yNyShcU-gLu--HTCbH40,37725
+agefreighter/multicsvfreighter.py,sha256=7-hp6OXfokHfmTIcrR75dFDr4X56I9_ySBUrcUXiRwk,5037
+agefreighter/neo4jfreighter.py,sha256=_dVQealwvctVYxssn9TvgRSMT2S2vp7TZJQ6EvNrT-I,4592
+agefreighter/networkxfreighter.py,sha256=IbwNycKlfNdnVxhw6ZZ6-G_aiSEw_ACADczuGpYlXY0,4972
+agefreighter/parquetfreighter.py,sha256=BOO3ENIj8pEYNRKjrs9dnzTsZuU9ErxfayvEgItL1k4,3447
+agefreighter/pgfreighter.py,sha256=jQaYnGpnc_J6Uuxa8RJM623GIcTquIe7h1dwRrxruRg,5773
+agefreighter-0.7.5.dist-info/METADATA,sha256=TeEpRoUdWxga2IY0ezqKq6RGdsWuqCVr1uL1wEBXe8s,48063
+agefreighter-0.7.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+agefreighter-0.7.5.dist-info/licenses/LICENSE,sha256=x5SvHA2CHS2vITdBCpOsEhoDuzgXjGsYsQQlCEIvnsw,1067
+agefreighter-0.7.5.dist-info/RECORD,,
