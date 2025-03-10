@@ -1,0 +1,9 @@
+valk/__init__.py,sha256=3COUbIOi6Ip7HN8-FYXVymVGjMB0c6mIiZ5Mk_hwOEY,58
+valk/computer.py,sha256=0zq9z6LS_t2HlX14DfYn4X2BWICZAFhqFkd8tdgr2O4,6797
+valk/debug_viewer.py,sha256=xnEUhdiewPE4D8C8zabo2eHD3KfXnlpYuxj_yeXfLH0,6138
+valk/integrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+valk/integrations/anthropic.py,sha256=x5-AUkbWn65tCDxjP_1MBoVjt508kXZim4MAYpS2Rto,8009
+valk-0.0.1.dist-info/METADATA,sha256=SGCuZ0TDczcXoB3b0-ZNnSjG498KcUCrRSJpgkkUEzQ,1220
+valk-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+valk-0.0.1.dist-info/licenses/LICENSE,sha256=yQ_KDCU6CrXp3Sx0JMmxYndHA6cAnyvaC790nrqzbJo,1065
+valk-0.0.1.dist-info/RECORD,,
