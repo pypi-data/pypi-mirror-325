@@ -1,0 +1,16 @@
+aicommit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aicommit/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aicommit/cli/main.py,sha256=1UVtTPZVdl559T_FHqAt9P827WU2XO11RuaODB4x7d4,4624
+aicommit/models/__init__.py,sha256=1yzUi3ZJnO_coWWn45cB5YVOGPHqkZvQCPPEsEa27Os,272
+aicommit/models/base.py,sha256=7hJcHzQtzNeikDkN6pFK4WTgo8G684ZPvXMyT1YS2Ms,2826
+aicommit/models/config.py,sha256=iuLrOPLHyjemVXTh4K29d4jPHnFXRMjVCvWcqlMerZo,2241
+aicommit/models/deepseek.py,sha256=oF0RpIdhzC-9o_dubkk7nUnY_5ThThbjcCXKaS9kPyw,1311
+aicommit/models/openai.py,sha256=8cl_yufGQSsXnSk9bYkhI81ZqXeIMpMwtbCy1l0KvKc,1255
+aicommit/models/prompts.py,sha256=l19nqJKjvwkyQXh8PcRyLnSDpF9OCE0E7ttJvGItlvk,3522
+aicommit/models/qwen.py,sha256=K5lGFirzYFCCzcPz2ttLlYihP8ZJ52TljSrLgjFOaXg,1504
+aicommit/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aicommit/utils/git.py,sha256=bjAoxmQ6X4MK93JaaunlKLchzHg6cUltV16nDH76rek,1422
+aicommit_simongino-0.1.0.dist-info/METADATA,sha256=XAaBjfl01FJl4yoDy46mb-Y9n9oMrzyCClQRvS9ueQ0,4588
+aicommit_simongino-0.1.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+aicommit_simongino-0.1.0.dist-info/entry_points.txt,sha256=XCtlgkwCWwfC_DBt0Yxf8HxA5bIflOMmfxx8xk5RAYE,68
+aicommit_simongino-0.1.0.dist-info/RECORD,,
