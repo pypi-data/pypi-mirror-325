@@ -1,0 +1,16 @@
+metagentorch/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+metagentorch/_modidx.py,sha256=hMVD76HuC8ciWRRFJnSGS1ohtUrycxLHIYZ4v53MZ_Y,28309
+metagentorch/art.py,sha256=Utj4OruVt3eBjdZe7ycpl3Tzu21jqZbMC8E5uUY9QzQ,7871
+metagentorch/bio.py,sha256=tuUPWvrG_Whq_b2qxmznZK8CK6idGDqjB9RP0pLcg-E,3440
+metagentorch/core.py,sha256=KIKKYfQX2wNX6mmSb7MAVx-QJjROCVLpmo-NegI2fgo,27857
+metagentorch/wandb.py,sha256=BhpghK9iEBfJhl8jRou4vQFTJCj1bdSIjElOF_SOq8s,10914
+metagentorch/cnn_virus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metagentorch/cnn_virus/architecture.py,sha256=xO4ztZ4XpDDxZDzUldRMXIknGJ9-DIRSmAosGiqwSE0,3520
+metagentorch/cnn_virus/data.py,sha256=2SGSyj6lOtSoBDkAl2ZvWAc3pX5r8hZ8_SV2sHpsINU,26316
+metagentorch/cnn_virus/utils.py,sha256=T-XXinCAp7cdwcWN45_K9a5ECMf0ptHy_H6qwyiMxZw,2468
+metagentorch-0.0.1.dist-info/LICENSE,sha256=2_bGHF8nfuV-J5EAgrX1xBD-lY1gsSs69EO1iRGP45w,11374
+metagentorch-0.0.1.dist-info/METADATA,sha256=ZNVbLjZBI4whAlqgInfH88VTyjcNAWQGl1K8SXY70mY,3176
+metagentorch-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+metagentorch-0.0.1.dist-info/entry_points.txt,sha256=8ua-XjiGU73rRGyfEEbVb93W4N4P8XA3nD7CToHXjfY,46
+metagentorch-0.0.1.dist-info/top_level.txt,sha256=-5DKJTwyQb_YoR2LZ4U41rHZ2p7gzvNnWqVNcoovaAs,13
+metagentorch-0.0.1.dist-info/RECORD,,
