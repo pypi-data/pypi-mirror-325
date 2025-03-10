@@ -1,0 +1,11 @@
+smoothtext/__init__.py,sha256=Z_EDs-SCj0LJxCCKiB7he2Ak0Z8wd2W9Tf8WfJoFtfI,620
+smoothtext/backend.py,sha256=QE1umRrbxfMCijJL75CYVtOYPHyI27hvuNmjarHoAkI,5244
+smoothtext/language.py,sha256=XUQRH0oPvCgdJuCKIMAIRjmfnDtYgRkUyJGAtX4VFko,9204
+smoothtext/py.typed,sha256=gdHZmJdHaHOmD4STtA4EdfCZ7XPM-3VoYOw61mpgOOU,76
+smoothtext/readability.py,sha256=px_iak2UOBANkRsysfBlUTpAReX0F5nMkIq6FLKGiwk,2600
+smoothtext/smoothtext.py,sha256=M-YBkqN_mXD3oTWWRSqT5PdoPD5Onnx6ddcDs9b-6s8,31222
+smoothtext-0.1.1.dist-info/LICENSE,sha256=40-yCitnfWYGFyoTrmbi_Mk6uyGayE8fXofpmL-6mf4,1092
+smoothtext-0.1.1.dist-info/METADATA,sha256=4nmHe6jwD_Glm3m2A3_krXohw-aYwl3cRVPpNIJCAhA,9794
+smoothtext-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+smoothtext-0.1.1.dist-info/top_level.txt,sha256=7QndjCiovNfZf_ylUQqfaP0PuEvZ0i2eEL0_zeOH7vU,11
+smoothtext-0.1.1.dist-info/RECORD,,
