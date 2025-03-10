@@ -1,0 +1,27 @@
+Metadata-Version: 2.2
+Name: rapid-assistant
+Version: 0.0.1
+Summary: A lightweight building block for rapidly prototyping LLM-powered agents with customizable behaviors and pluggable tools
+Author-email: Zhi Yan Liu <lzy.dev@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/rapid-assistant/rapid-assistant
+Project-URL: Repository, https://github.com/rapid-assistant/rapid-assistant.git
+Keywords: llm,agent,assistant,prototype
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-dotenv
+Requires-Dist: anyio
+Requires-Dist: trio
+Requires-Dist: boto3
+Requires-Dist: openai
+Requires-Dist: mcp
+Provides-Extra: dev
+Requires-Dist: argparse; extra == "dev"
+
+Under development
