@@ -1,0 +1,12 @@
+file_search/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_search/main.py,sha256=Bq_ANsFSKDYNpWqU_C26Tf7qtwfCSzKYyVIJggpjNBE,3539
+file_search/file_scanner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_search/file_scanner/scanner.py,sha256=NxD7-pQ1fqQmBBTbcm7Aq3FIxPN477r2W4xAF3f_CEI,3532
+file_search/text_extractor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_search/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DocuGoggles-0.1.4.dist-info/LICENSE,sha256=V7UA6_oghIp7GfQo5AVdTsr8cvZ5FDexGG325ykwHts,1107
+DocuGoggles-0.1.4.dist-info/METADATA,sha256=h-w1MAb01gbl6VFUrXXxV_nq69wbn-3EESKOrRNaud4,1847
+DocuGoggles-0.1.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+DocuGoggles-0.1.4.dist-info/entry_points.txt,sha256=fIkPFyDtP6oWM5_lGwzCKeYUQZcpzUReRYJ1MluzSQA,54
+DocuGoggles-0.1.4.dist-info/top_level.txt,sha256=O9_QQKi5_iloREB-oZlf6CAq__uaXAhFIeBHD5nEkM4,12
+DocuGoggles-0.1.4.dist-info/RECORD,,
