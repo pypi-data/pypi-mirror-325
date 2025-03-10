@@ -1,0 +1,17 @@
+odoo/addons/sales_team_security_sale/README.rst,sha256=GwyByxQNXc2VXs9YBJ9rd-cu39eqvczuvAfdad3goy0,3868
+odoo/addons/sales_team_security_sale/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/sales_team_security_sale/__manifest__.py,sha256=xdZPAcbHU4oNxv7peQW_PxMyGRjygxOqbPhYdgYaqO0,625
+odoo/addons/sales_team_security_sale/i18n/it.po,sha256=gyR2FmNliDLUD0s8XGoDtRr26ox40irTcuP5K19gi6I,411
+odoo/addons/sales_team_security_sale/i18n/sales_team_security_sale.pot,sha256=MSiEHPDUKhvGZ0dHQExrrZDUtp-bjziejrPpkzYMeWg,341
+odoo/addons/sales_team_security_sale/readme/CONFIGURE.md,sha256=c6qkOkmxJGPCmS7cTLNe8YFy8WodYF9_jIs-CcMPWxM,183
+odoo/addons/sales_team_security_sale/readme/CONTRIBUTORS.md,sha256=2_eBYyNI2H9OBc8GAyzdrMFgPvjruRGGUxiJYGeksP0,298
+odoo/addons/sales_team_security_sale/readme/DESCRIPTION.md,sha256=dMkU4Jl9QawKLBGV7oSONaVGCrAPVmSr48dxLWZKVjg,228
+odoo/addons/sales_team_security_sale/security/security.xml,sha256=MiPRwHoHUlV9hIGpXOThmDjCcBwEUm631Y6oJFdLiao,1521
+odoo/addons/sales_team_security_sale/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/sales_team_security_sale/static/description/index.html,sha256=dViLD27UwB25YaQ75YTBzn9JCU5WZGIgsPego9sDF3M,13780
+odoo/addons/sales_team_security_sale/tests/__init__.py,sha256=n443Fs2Ab3FBlO3iesbw_5Atv17BsIv2G_NQSxTbJ-4,109
+odoo/addons/sales_team_security_sale/tests/test_sales_team_security_sale.py,sha256=b0nftUQ62gOkNkNcJTCd56LMoEHt05PUiWFFFc1hnqY,1009
+odoo_addon_sales_team_security_sale-17.0.1.0.0.3.dist-info/METADATA,sha256=FncYqgk2rQAoRCyDWh1Bn0x8zAPowWlFQTzsNxI-tbg,4571
+odoo_addon_sales_team_security_sale-17.0.1.0.0.3.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_sales_team_security_sale-17.0.1.0.0.3.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_sales_team_security_sale-17.0.1.0.0.3.dist-info/RECORD,,
