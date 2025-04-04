@@ -1,0 +1,5 @@
+pyproject.toml
+pypi_pigletwinnerspin.egg-info/PKG-INFO
+pypi_pigletwinnerspin.egg-info/SOURCES.txt
+pypi_pigletwinnerspin.egg-info/dependency_links.txt
+pypi_pigletwinnerspin.egg-info/top_level.txt
