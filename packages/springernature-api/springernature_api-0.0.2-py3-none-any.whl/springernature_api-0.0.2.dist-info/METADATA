@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: springernature_api
+Version: 0.0.2
+Summary: Springer Nature API Wrapper
+Author-email: Springer Nature <supportapi@springernature.com>
+Keywords: API,Springer Nature,wrapper,requests
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+
+test
