@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+dpysts/__init__.py
+dpysts/index.py
+dpysts.egg-info/PKG-INFO
+dpysts.egg-info/SOURCES.txt
+dpysts.egg-info/dependency_links.txt
+dpysts.egg-info/requires.txt
+dpysts.egg-info/top_level.txt
