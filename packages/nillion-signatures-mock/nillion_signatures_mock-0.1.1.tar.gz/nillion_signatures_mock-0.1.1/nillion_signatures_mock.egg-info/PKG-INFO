@@ -1,0 +1,25 @@
+Metadata-Version: 2.2
+Name: nillion-signatures-mock
+Version: 0.1.1
+Summary: A mocked first version of a signature library
+Home-page: https://github.com/NillionNetwork/signatures-py
+Author: Dave Butler
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography>=3.4.7
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Crypto Signing Mock
+
+A mock library for cryptographic signing operations using ECDSA and EdDSA. 
