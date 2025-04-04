@@ -1,0 +1,17 @@
+BrainpyLib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GraphLib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Mapping/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Models/EImodel.py,sha256=15gewCvC_8nIqfEbQ_gL9Jdd8NXcqQhUT6-eH4-G0fw,4908
+Models/EImodel_Izhikevich.py,sha256=yAG7sPwywwQ9MO1Tu-1xS7i_kvEFARp20R5lhVUqcm0,7863
+Models/EImodel_new.py,sha256=BULu74zyff8345UVdkGRLx9vcc9T1glcztQ-COjZfSI,9954
+Models/EImodel_new_complex.py,sha256=r_M0Lce4W-d9wvbSGq9oZysYflzglOYlIX4WOxl-yeY,14165
+Models/EImodel_new_lb2.py,sha256=p5Qwd0jusnlMTeg7fZBnWab0wYNS4rVa0MmmbeJqXFc,8280
+Models/EImodel_new_lb2_int8.py,sha256=bU6gchs2W1luzI2xXmX93JlTVnUG2w5jRblJodl4Z9c,10593
+Models/Emodel_legancy.py,sha256=zVDY4FNaLmkKW9SZMnTzzzkrJHOs2w6mCdrN75y3ik8,11503
+Models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Models/neuron4EIModel.py,sha256=3PelAq5wINdN8rXi5WmwaX_j1jSW_wK8bOh_rq4KQL8,11236
+SNNCompiler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bpusdk-0.3.dist-info/METADATA,sha256=vz8YfXrHb6GWQZvUFHOHEK77ZgimzFQXqrfj39dT678,147
+bpusdk-0.3.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+bpusdk-0.3.dist-info/top_level.txt,sha256=-Pf8gknMGPjVb8rU7MaStn8TYtDnGN60sdgOikqldW8,47
+bpusdk-0.3.dist-info/RECORD,,
