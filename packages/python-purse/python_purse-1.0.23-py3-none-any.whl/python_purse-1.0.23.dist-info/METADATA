@@ -1,0 +1,100 @@
+Metadata-Version: 2.4
+Name: python-purse
+Version: 1.0.23
+Summary: Snippets and utils for python projects
+Project-URL: Repository, https://github.com/andrei-samofalov/purse
+Project-URL: Issues, https://github.com/andrei-samofalov/purse/issues
+Author-email: Andrei Samofalov <andrei.e.samofalov@gmail.com>
+License: Copyright 2025 Andrei Samofalov
+        
+        Permission is hereby granted, free of charge, to any person obtaining
+        a copy of this software and associated documentation files (the “Software”),
+        to deal in the Software without restriction, including without limitation
+        the rights to use, copy, modify, merge, publish, distribute, sublicense,
+        and/or sell copies of the Software, and to permit persons to whom the Software
+        is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+        INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+        PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+        HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+        OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+        OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+License-File: LICENSE
+Keywords: aiogram,aiohttp,logging,python,signals,snippets
+Requires-Python: >=3.11
+Provides-Extra: aiogram
+Requires-Dist: aiogram>=3.17.0; extra == 'aiogram'
+Provides-Extra: django
+Requires-Dist: django>=5.1.5; extra == 'django'
+Description-Content-Type: text/markdown
+
+# python‑purse
+
+**python‑purse** is a library that collects a variety of snippets and utilities for both
+asynchronous and synchronous Python projects. Whether you're building bots, web applications,
+or other tools, this library provides ready-to-use code modules to speed up development.
+
+## Features
+
+- **Dataclasses Utilities**  
+  Enhance your work with Python dataclasses with extra helpers and shortcuts.
+
+- **Datetime Helpers**  
+  Tools for common datetime operations.
+
+- **HTTP Clients**  
+  Built-in support for multiple HTTP clients including `httpx`, `requests`, and builtin http module.
+
+- **Framework Extensions**
+    - **aiogram**: Bootstrap modules, decorators, routers, and utilities for Telegram bots.
+    - **aiohttp**: Simplified app creation and server utilities.
+    - **django**: ASGI/WSGI handlers, repository patterns, and more for Django projects.
+
+- **Logging**  
+  Custom logging configurations and integrations (including Telegram-based logging).
+
+- **Interfaces and Repositories**  
+  Protocol definitions and in-memory repository implementations for fast prototyping.
+
+- **JSON and Functional Helpers**  
+  Utility functions to simplify JSON handling and functional programming patterns.
+
+- **Additional Utilities**  
+  Signal handling, system-level helpers, type utilities, and more.
+
+## Installation
+
+If **python‑purse** is published on PyPI, you can install it via pip:
+
+```bash
+pip install python-purse
+```
+
+Or, with extras:
+```bash
+pip install python-purse[aiogram]
+```
+
+## Contributing
+
+Contributions are welcome! If you’d like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature/my-feature).
+3. Commit your changes (git commit -am 'Add new feature').
+4. Push your branch (git push origin feature/my-feature).
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contacts
+
+[email](mailto:andrei.e.samofalov@gmail.com)
+[telegram](https://t.me/samofalov_andrey)
+
