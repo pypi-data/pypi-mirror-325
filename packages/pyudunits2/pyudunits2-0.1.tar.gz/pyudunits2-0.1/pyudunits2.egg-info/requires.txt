@@ -1,0 +1,15 @@
+sympy
+
+[dev]
+jinja2
+ruff
+pyudunits2[doc,test]
+
+[doc]
+
+[test]
+cf-units
+pytest
+
+[xml]
+lxml
