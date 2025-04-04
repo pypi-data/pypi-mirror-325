@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: sr-data
+Version: 0.0.41
+Summary: GitHub repositories to numerical vectors
+License: MIT
+Author: h1alexbel
+Author-email: h1alexbelx@gmail.com
+Requires-Python: >=3.10.dev0,<3.13.dev0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4 (==4.13.3)
+Requires-Dist: cohere (==5.13.11)
+Requires-Dist: langdetect (==1.0.9)
+Requires-Dist: loguru (==0.7.3)
+Requires-Dist: markdown (==3.7)
+Requires-Dist: markdown-it-py (==3.0.0)
+Requires-Dist: nltk (==3.9.1)
+Requires-Dist: numpy (<2)
+Requires-Dist: pandas (==2.2.3)
+Requires-Dist: pyyaml (==6.0.2)
+Requires-Dist: requests (==2.32.3)
+Requires-Dist: scikit-fuzzy (==0.5.0)
+Description-Content-Type: text/markdown
+
+# SR Data
+
+`sr-data` consists of a set of scripts that filter collected metadata about
+GitHub repositories, and converts them into numerical vectors.
+
+## Collected Metadata
+
+<!-- metadata_begin -->
+```text
+repo
+releases
+pulls
+open_issues
+branches
+has_workflows
+has_release_workflow
+w_simplicity
+tests
+```
+<!-- metadata_end -->
+
+## How to test?
+
+Run this:
+
+```bash
+poetry run pytest sr-data
+```
+
