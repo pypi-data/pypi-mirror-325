@@ -1,0 +1,7 @@
+Metadata-Version: 2.3
+Name: gwerks
+Version: 2025.2.1738909153
+Summary: 'Lightweight python modules useful in most projects'
+Author-email: Ron Glasmann <ron@glasmann.net>
+Requires-Dist: boto3
+Requires-Dist: tenacity
