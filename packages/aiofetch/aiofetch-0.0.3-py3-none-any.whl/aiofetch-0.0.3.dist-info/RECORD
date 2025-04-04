@@ -1,0 +1,11 @@
+aiofetch/__init__.py,sha256=I03bgGE9mHajyGOj-8j_82CC4WYFj1rQMsqdKR555HA,743
+aiofetch/crawler.py,sha256=fkcvOajbXBM6r6UKZ8IfQUslPYcsyJA8xE72hp-e7oM,6928
+aiofetch/downloader.py,sha256=grHBh5RaBUz8SHODh1GnX2W-qdHtzmwcYhYHPDN3SUs,4238
+aiofetch/utils.py,sha256=ZX6t7j8nNzbX-sWAkSucYBzPT31QElG3ICAk_-F8PUk,13916
+aiofetch/logger/__init__.py,sha256=TWstK7dRe9omY66Y3QO3y4a53VEIXzeRrUuaULG9uz0,159
+aiofetch/logger/logger.py,sha256=X2UV4tY3rccVdWq9vs3sWjOkgAS7FVEW8SmkyDVhup4,4269
+aiofetch-0.0.3.dist-info/LICENSE.md,sha256=bG7Mav4rmt3o7INeyRBqB2JV-xZA4cnWPdjNSjT0Q00,1083
+aiofetch-0.0.3.dist-info/METADATA,sha256=lF3kTbbBfvawidBd6zpXHKPq3p_HBTrNYzIF-MASYnE,4979
+aiofetch-0.0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+aiofetch-0.0.3.dist-info/top_level.txt,sha256=BMW14qErESyZavH_bflNpienrf8tam0xbGj2agkSfEw,9
+aiofetch-0.0.3.dist-info/RECORD,,
