@@ -1,0 +1,9 @@
+getoptify/__init__.py,sha256=8QsJB7da7nq4uQsSJf442d2iNh3G0LE2mYCQVKDRGSA,59
+getoptify/core.py,sha256=xk-eh0F-1D50VHHp6q1dcHW3lRDyv2fNgCKRTdzUeJM,1445
+getoptify/tests/__init__.py,sha256=ucXkZY-iCMq5WqI3KZGWj0SrLAMpQKUlF8Tc3_u_P5A,230
+getoptify/tests/test_easy.py,sha256=Xjs5VnkTxvqvBI4mQewI7nK51DC_mvYPnQBzvXSRMO0,2287
+getoptify-1.0.3.dist-info/LICENSE.txt,sha256=QwqYepQwTN5xG57cngKt6xxYD9z9hw9d3lcI8zSLiNg,1074
+getoptify-1.0.3.dist-info/METADATA,sha256=omrvKqR2S2wqwc3Eg-1oYPReQL-iXHQj4zlg7rICOAs,2312
+getoptify-1.0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+getoptify-1.0.3.dist-info/top_level.txt,sha256=iEeJJxbaqOcbn-oOHRCvMlnf8scDcAjWHEecf4Za_Q8,10
+getoptify-1.0.3.dist-info/RECORD,,
