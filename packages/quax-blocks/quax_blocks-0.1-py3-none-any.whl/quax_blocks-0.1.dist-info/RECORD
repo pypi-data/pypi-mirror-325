@@ -1,0 +1,16 @@
+quax_blocks/__init__.py,sha256=BpGcrj_SBJCQcc3s_kbMuzjmkGlQ5f03Io3mOLFgn_4,6889
+quax_blocks/_version.py,sha256=7V2ukxSfzXlOjRj21NN9XMWrUwTZJIQZggSzFRx5qs8,406
+quax_blocks/_version.pyi,sha256=o7uNL6MhuJoiqpEnriU7rBT6TmkJZA-i2qMoNz9YcgQ,82
+quax_blocks/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quax_blocks/_src/__init__.py,sha256=shYDwrD4iw6dxOUyLpqj_GU66ZajcZG_3ZO7NwFwnh0,41
+quax_blocks/_src/binary.py,sha256=0ghGV5hTh8Y0EkC2uF2Np6t0DvCBn8gWwti6ZaxCMdE,45088
+quax_blocks/_src/container.py,sha256=V-SWYDQuuhfZin6_0H89UgcXWghuDLDzeD1Op5Wz8lA,2851
+quax_blocks/_src/copy.py,sha256=BtQAqTUAxn5cA7Av8UrAcTF77Yk50hpRVmuZXQ7bToc,1615
+quax_blocks/_src/example.py,sha256=kZieeuT4jS5g_592h4ZvFTBYDcqHfhbt2f1k6uZuK4I,460
+quax_blocks/_src/rich.py,sha256=UYwvANASzHbkld3Y6MMhZOwxrgq1YBdE757n6d5SyUY,10056
+quax_blocks/_src/round.py,sha256=M4hG0wmRI6exGf8nYq-rhL0_URQM6ta_ExvPBIut4fU,5622
+quax_blocks/_src/unary.py,sha256=ZeSQKeQ4upx6dvXuguqUm4VxWmx6VT4fJiaNfK73DAE,4691
+quax_blocks-0.1.dist-info/METADATA,sha256=Mj0a-5WrQ-uYYzqBZoMUd5WURKm1K1Y3teHPovVJQrQ,9597
+quax_blocks-0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+quax_blocks-0.1.dist-info/licenses/LICENSE,sha256=P6foBl0H2WeXsCnK2m4-YzKz5yA2R3i78w4p7GcF5dQ,1528
+quax_blocks-0.1.dist-info/RECORD,,
