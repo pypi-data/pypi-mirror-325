@@ -1,0 +1,58 @@
+Metadata-Version: 2.4
+Name: mttools-lib
+Version: 0.1.0
+Summary: Tools to read and process MT data
+Project-URL: Changelog, https://chaytus.github.io/mttools-lib/changelog
+Project-URL: Discussions, https://github.com/chaytus/mttools-lib/discussions
+Project-URL: Documentation, https://chaytus.github.io/mttools-lib
+Project-URL: Homepage, https://chaytus.github.io/mttools-lib
+Project-URL: Issues, https://github.com/chaytus/mttools-lib/issues
+Project-URL: Repository, https://github.com/chaytus/mttools-lib
+Author-email: Brady Fry <dev@chaytus.com>
+License: MIT
+License-File: LICENSE
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.12
+Requires-Dist: dill>=0.3.9
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: numpy>=2.1.3
+Requires-Dist: polars>=1.12
+Requires-Dist: pyigrf>=0.3.3
+Requires-Dist: python-dateutil>=2.9.0.post0
+Requires-Dist: scipy>=1.14.1
+Requires-Dist: toml>=0.10.2
+Description-Content-Type: text/markdown
+
+# mttools-lib
+
+
+[![Rye](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/rye/main/artwork/badge.json)](https://rye.astral.sh)
+[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
+[![pre-commit enabled](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![documentation](https://img.shields.io/badge/docs-mkdocs%20material-blue.svg?style=flat)](https://chaytus.github.io/mttools-lib/)
+![GitHub CI](https://github.com/chaytus/mttools-lib/actions/workflows/ci.yml/badge.svg)
+[![pypi version](https://img.shields.io/pypi/v/tempper.svg)](https://pypi.org/project/mttools-lib)
+
+## Tools to read and process MT data.
+
+[//]: # (<p align="center">)
+
+[//]: # (    <em>Tools to read and process MT data.</em>)
+
+[//]: # (</p>)
+
+## Installation
+
+With `pip`:
+
+```bash
+pip install mttools-lib
+```
+
+With [`rye`](https://rye.astral.sh/):
+
+```bash
+rye add mttools-lib
+```
