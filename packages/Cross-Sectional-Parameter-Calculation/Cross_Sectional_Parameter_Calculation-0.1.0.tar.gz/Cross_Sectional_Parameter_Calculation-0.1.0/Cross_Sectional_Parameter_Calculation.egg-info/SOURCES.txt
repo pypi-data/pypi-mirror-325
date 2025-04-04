@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+Cross_Sectional_Parameter_Calculation.egg-info/PKG-INFO
+Cross_Sectional_Parameter_Calculation.egg-info/SOURCES.txt
+Cross_Sectional_Parameter_Calculation.egg-info/dependency_links.txt
+Cross_Sectional_Parameter_Calculation.egg-info/top_level.txt
