@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: python-download-manager
+Version: 0.7.7
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE
