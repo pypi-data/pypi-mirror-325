@@ -1,0 +1,11 @@
+gwerks/__init__.py,sha256=A2A77P_xPcmP2bXfJeMtC0dMqajP5iouZZvEqc9ejZs,2757
+gwerks/aws.py,sha256=OtX00tj3JtyEcp0LyI8MLH6IdAzbTNL0Rf5_ak2A9xE,39447
+gwerks/builds.py,sha256=PLKLnD8lZgE4sSeupGT9venzJt7YEhVWpLlBGu_GDns,4992
+gwerks/cli.py,sha256=0CY_VY6r1RyXhfwIAwR_baLJyC7U-nToKyLVqgn_pIU,1846
+gwerks/decorators.py,sha256=x_Zt64aH18sQGpwkeH-QAWvUQ_umGtlFPV-FiRKvHOc,656
+gwerks/docker.py,sha256=T_QYcZ9TRO6IUlC3mLRNlHSBDuhjQhDyqqUDtnDFjK4,9866
+gwerks/messaging.py,sha256=oZEvMNqfBVR5Ts-Odo7DrZoLFhAVyfEwCmkTh-XffqY,1082
+gwerks-2025.2.1738909155.dist-info/entry_points.txt,sha256=7bf_omKlqrG3qm4T6j31ileS0iIPrqZtO4qMxrAGGww,142
+gwerks-2025.2.1738909155.dist-info/WHEEL,sha256=ssQ84EZ5gH1pCOujd3iW7HClo_O_aDaClUbX4B8bjKY,100
+gwerks-2025.2.1738909155.dist-info/METADATA,sha256=rzLB18wuFnsB8evstE-N_Et6wn5hOcrhav0vz-3TGzY,215
+gwerks-2025.2.1738909155.dist-info/RECORD,,
