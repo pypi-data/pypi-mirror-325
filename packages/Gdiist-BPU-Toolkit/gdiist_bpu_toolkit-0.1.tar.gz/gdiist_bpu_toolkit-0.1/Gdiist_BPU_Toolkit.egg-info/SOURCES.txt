@@ -1,0 +1,17 @@
+README.rst
+setup.cfg
+setup.py
+Gdiist_BPU_Toolkit.egg-info/PKG-INFO
+Gdiist_BPU_Toolkit.egg-info/SOURCES.txt
+Gdiist_BPU_Toolkit.egg-info/dependency_links.txt
+Gdiist_BPU_Toolkit.egg-info/requires.txt
+Gdiist_BPU_Toolkit.egg-info/top_level.txt
+tests/test_lb1_fp32.py
+tests/test_lb1_int8.py
+tests/test_lb2_b1s1_fp32.py
+tests/test_lb2_b1s1_int8.py
+tests/test_lb2_b2s2_fp32.py
+tests/test_lb2_b2s2_int8.py
+tests/test_lb2_mode1.py
+tests/test_lb2_mode2.py
+tests/test_running_time.py
