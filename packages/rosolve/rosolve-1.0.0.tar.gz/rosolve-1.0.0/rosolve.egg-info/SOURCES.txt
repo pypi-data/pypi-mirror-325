@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+rosolve/__init__.py
+rosolve/client.py
+rosolve/errors.py
+rosolve/types.py
+rosolve.egg-info/PKG-INFO
+rosolve.egg-info/SOURCES.txt
+rosolve.egg-info/dependency_links.txt
+rosolve.egg-info/requires.txt
+rosolve.egg-info/top_level.txt
