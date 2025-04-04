@@ -1,0 +1,14 @@
+univlm/Model.py,sha256=GwhdcbEyhOSQHAp3vB8njRQeQFlw5ztyk-xQKSjMK2Y,12994
+univlm/Model_utils.py,sha256=v5h2n-r-kShY_382C_E1AyedyxmWTYyyTK6L5GuR4CM,37993
+univlm/__init__.py,sha256=EQujhj-_--g6Nc-ALHsolmMAzFU0Nc9LEwJ0gbFitgw,96
+univlm/scripts/__init__.py,sha256=KWrMKFCtk-vsnyDqShxAzgp6q-fylWRmtUTCpVsSnqc,1244
+univlm/scripts/download_src.sh,sha256=UlXI9VEw4wI-EVOyNOIn6_RLf00lG6YWfDltBPc4jfY,1644
+univlm/scripts/install_and_test.py,sha256=V_niwZ6JhTjcGDD2VrVSSsqS0kBdZ9v_LPsX2LB2I4s,2021
+univlm/scripts/install_and_test.sh,sha256=dq0tosfvIy12SbiPUALHOe2IFq4VyedEqPXkUjW3VPo,1130
+univlm/scripts/testing.py,sha256=W_y-teP5iKZJOlFG13q3KgDVBgH_q8fypK1u_BBm54o,3252
+univlm-0.0.99.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+univlm-0.0.99.dist-info/METADATA,sha256=TPoD6Fv6Xy3mUTBHkwCYnJtZfhybEUotZ9tzMpqZJ98,2707
+univlm-0.0.99.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+univlm-0.0.99.dist-info/entry_points.txt,sha256=LH0Bam-5nnW8clfaNjrboKN4ksS-CNAD6Fru4W1hkM8,78
+univlm-0.0.99.dist-info/top_level.txt,sha256=YeUKy-saFKGxpYK1f6YYU6ZRlJtaWvIaOGuPjWY9DD8,7
+univlm-0.0.99.dist-info/RECORD,,
