@@ -1,0 +1,21 @@
+[project]
+name = "my-dodois-wrapper"
+version = "0.1.0"
+description = "Python-библиотека-обертка для DodoIS API"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Dodo Samara", email = "youremail@example.com" }
+]
+requires-python = ">=3.8"
+
+dependencies = [
+    "httpx>=0.28.1",
+    "pydantic>=2.10.6",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+    "ruff>=0.9.5",
+]
