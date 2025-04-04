@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: nbipackager
+Version: 0.0.2
+Summary: A package manager for Singularity images
+Author: Andrea Telatin
+Author-email: andrea.telatin@quadram.ac.uk
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: click>=8.0.0
+Requires-Dist: configparser>=5.0.0
+Dynamic: requires-dist

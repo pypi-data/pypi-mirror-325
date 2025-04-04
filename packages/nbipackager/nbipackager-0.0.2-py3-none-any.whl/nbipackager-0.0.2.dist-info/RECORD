@@ -1,0 +1,15 @@
+nbipackager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nbipackager/cli.py,sha256=iG8qsfClAYXvgju93_z9BMzmrkiCbm-yehVPmhzKhVE,5448
+nbipackager/config.py,sha256=MCggbndSHI7d0_FRdu2wVAgNVJcM0qZ5BpCW2UiNJYc,1979
+nbipackager/commands/__init__.py,sha256=6kyeCzrjZUSkTE0cKPx2Y9mzXz-wOhwL7IDdiZPriGU,219
+nbipackager/commands/addpackage.py,sha256=moeN1HZSsp444Oxd2IXLQiAxsYYjqD3fA1vpt8-nhxE,3952
+nbipackager/commands/addtobundle.py,sha256=fBt7nv0wF1rmXwqf7_hVO6j5HWuCjXxK82t0ch0d1Tg,5944
+nbipackager/commands/findpackage.py,sha256=kQZVP7l08R72S9YpeE3ZtyQ8dx1mR7Z9htikT4OybwI,1675
+nbipackager/commands/makebundle.py,sha256=dsrgzOPRvN3RXGwBCCZmBokNjhTy58BQdcMH_2ImJg4,5655
+nbipackager/commands/scanpackages.py,sha256=QWySQmbuCHIrfGpfAjcf2ivUSkldHXZf1CW9pAnDlt8,4654
+nbipackager-0.0.2.dist-info/LICENSE,sha256=LCybd1MZ2zzIHbF6H6wCw8m2xcbXxGt5g1OhQ6Omhfo,1059
+nbipackager-0.0.2.dist-info/METADATA,sha256=xFH-QQL1xnJNpHKJXI8QInts3OqrTunkE20dOyv3N6I,302
+nbipackager-0.0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+nbipackager-0.0.2.dist-info/entry_points.txt,sha256=yKHmjYh3O49pVxnzjhmhJPCyqrgakrrQBHH76RC40ac,50
+nbipackager-0.0.2.dist-info/top_level.txt,sha256=-37Gt1lSEpshAyoYMx1seKqrJc_N0b9Tz_mPO1TMUt0,12
+nbipackager-0.0.2.dist-info/RECORD,,
