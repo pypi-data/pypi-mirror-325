@@ -1,0 +1,8 @@
+default&post:
+  INPUTS: 
+  OUTPUTS!required:
+  SKIPPABLE: True
+  __VALIDATE_STAGE:
+    "*object": stagecoach.validation.StageValidator
+    outputs: ${OUTPUTS}
+    skippable: ${SKIPPABLE}
