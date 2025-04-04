@@ -1,0 +1,34 @@
+Metadata-Version: 2.2
+Name: django-pgpy
+Version: 0.2.1
+Summary: OpenPGP encryption for django.
+Home-page: https://github.com/gyrotools/django-pgpy
+Author: Felix Eichenberger
+Author-email: felix.eichenberger@gyrotools.com
+Maintainer: Felix Eichenberger
+Maintainer-email: felix.eichenberger@gyrotools.com
+License: BSD
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Environment :: Web Environment
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: pycryptodome==3.21.0
+Requires-Dist: django_enum_choices==2.1.4
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: platform
+Dynamic: requires-dist
+Dynamic: summary
