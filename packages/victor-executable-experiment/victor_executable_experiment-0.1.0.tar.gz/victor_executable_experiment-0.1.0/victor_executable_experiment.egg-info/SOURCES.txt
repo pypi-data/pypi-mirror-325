@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+vee/__init__.py
+vee/main.py
+victor_executable_experiment.egg-info/PKG-INFO
+victor_executable_experiment.egg-info/SOURCES.txt
+victor_executable_experiment.egg-info/dependency_links.txt
+victor_executable_experiment.egg-info/entry_points.txt
+victor_executable_experiment.egg-info/top_level.txt

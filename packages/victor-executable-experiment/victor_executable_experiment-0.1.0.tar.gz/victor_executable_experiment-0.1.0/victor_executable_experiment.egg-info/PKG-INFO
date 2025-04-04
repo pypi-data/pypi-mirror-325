@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: victor-executable-experiment
+Version: 0.1.0
+Summary: An experiment that displays 'Hello World' from an executable package
+Home-page: https://github.com/DreamerChaserHAH/python-executable-pypi-experiment
+Author: Victor Mak
+Author-email: programmer.htetaung@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
