@@ -1,0 +1,15 @@
+parade_manage/__init__.py,sha256=3T4E9DKn5pL0nmf67AJlYvfWbuOoHkMSUp7BDpguyYs,32
+parade_manage/base.py,sha256=ctcx317vUPDkRLcnTSxc8Rt08HUCPw1jtOFV3FxmJVM,8467
+parade_manage/constants.py,sha256=kd12g80npplf9rYPxfpeyb7ArrWOFS3tfKmk9qNQE2M,43
+parade_manage/decorators.py,sha256=43ZDictMga9EujlEdJswVU45n1758ll2rWrV5OCFHXc,192
+parade_manage/plugin.py,sha256=BTnMcWJN2VDodc4myjGDR4Vl7RDBVZpVYfvk2VGDaCA,602
+parade_manage/task.py,sha256=5HyCdT-m7t3WZ1wtTTEswKlGhEWPr3itZlRJ4VlLWG4,1968
+parade_manage/utils.py,sha256=GxXC8MlK_cHZYgS95K1Kp-bcaOlRlA8axf3tzjHGlbQ,5058
+parade_manage/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parade_manage/common/dag.py,sha256=eU7JZoRVK6gxgKV0-lQL6RbxtlWYJ8mLbMmYY9E5nsk,8214
+parade_manage/common/node.py,sha256=0jqpOjs-g8p1s9vzSolFEV94raDCMx4H4L7qD2Wsshs,1938
+parade_manage-0.0.2.11.dist-info/LICENSE,sha256=WgoHulnPOoAVeidLv4ltf4iFULcDNhHkaI0N4pia2D8,1065
+parade_manage-0.0.2.11.dist-info/METADATA,sha256=tfY5B1Tlg62Qv-FIhxoIL9w1LH4Bm9avPYJRGgrmeP8,1836
+parade_manage-0.0.2.11.dist-info/WHEEL,sha256=9Hm2OB-j1QcCUq9Jguht7ayGIIZBRTdOXD1qg9cCgPM,109
+parade_manage-0.0.2.11.dist-info/top_level.txt,sha256=-Wt4fUYcAuidrFvawDwHpSyeZ6zH8LH6nhZYqmvMzrs,14
+parade_manage-0.0.2.11.dist-info/RECORD,,
