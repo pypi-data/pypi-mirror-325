@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: talktollm
+Version: 0.1.0
+License-File: LICENSE
+Requires-Dist: pywin32
+Requires-Dist: pyautogui
+Requires-Dist: pillow
+Requires-Dist: webbrowser
+Requires-Dist: optimisewait
