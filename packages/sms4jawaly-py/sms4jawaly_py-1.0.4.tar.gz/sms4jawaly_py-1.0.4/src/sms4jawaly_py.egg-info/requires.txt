@@ -1,0 +1,10 @@
+requests>=2.25.0
+pydantic>=1.8.0
+
+[dev]
+pytest>=6.0
+black>=21.0
+flake8>=3.9
+mypy>=0.910
+twine>=3.4
+build>=0.7.0
