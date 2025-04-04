@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "snoopy-SHiP"
+version = "0.1.1"
+description = ""
+authors = ["meliebsc <melvin.liebsch@cern.ch>"]
+readme = "README.md"
+packages = [{include = "snoopy"}]
+include = [
+    { path= "fem_c/bin/*", format = "wheel"},
+    ]
+    
+[tool.poetry.build]
+generate-setup-file = false
+script = "build.py"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.2.1"
+pandas = "^2.2.3"
+gmsh = "^4.13.1"
+matplotlib = "^3.10.0"
+scipy = "^1.14.1"
+tqdm = "^4.67.1"
+pyqt6 = "^6.8.0"
+networkx = "^3.4.2"
+pyvista = "^0.44.2"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0",
+            "poetry-dynamic-versioning",
+            "Cython",
+            "numpy"]
+build-backend = "poetry_dynamic_versioning.backend"
