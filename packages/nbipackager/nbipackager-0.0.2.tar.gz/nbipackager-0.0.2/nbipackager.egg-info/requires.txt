@@ -1,0 +1,2 @@
+click>=8.0.0
+configparser>=5.0.0
