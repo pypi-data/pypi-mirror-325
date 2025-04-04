@@ -1,0 +1,21 @@
+include README.md
+include requirements.txt
+include pyproject.toml
+include CHANGELOG.md
+include LICENSE
+
+recursive-include src *
+recursive-include docs *.md
+
+# 開発用ディレクトリの除外
+prune dev_docs
+prune tests
+prune test_env
+prune dist
+prune __pycache__
+
+# 不要なファイルの除外
+global-exclude *.py[cod]
+global-exclude *.so
+global-exclude .DS_Store
+global-exclude .*rules

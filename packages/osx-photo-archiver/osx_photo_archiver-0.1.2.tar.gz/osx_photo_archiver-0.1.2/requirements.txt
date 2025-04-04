@@ -1,0 +1,10 @@
+# Core dependencies
+osxphotos>=0.28.5  # pyobjc依存関係の問題に対応
+python-dateutil>=2.8.2  # 日付処理用
+click>=8.0.0  # CLIインターフェース用
+
+# Development dependencies
+pytest>=7.0.0  # テスト用
+black>=22.0.0  # コードフォーマット用
+flake8>=4.0.0  # リント用
+mypy>=0.900  # 型チェック用

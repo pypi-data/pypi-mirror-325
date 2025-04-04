@@ -1,0 +1,2 @@
+[console_scripts]
+osx-photo-archiver = osx_photo_archiver.cli:main
