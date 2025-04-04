@@ -1,0 +1,2 @@
+[console_scripts]
+testeron = testeron.main:main
