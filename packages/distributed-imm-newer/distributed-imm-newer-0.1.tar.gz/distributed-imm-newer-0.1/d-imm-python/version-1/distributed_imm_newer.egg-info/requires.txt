@@ -1,0 +1,6 @@
+pyspark>=3.0.0
+scikit-learn
+pandas
+numpy
+graphviz
+cython
