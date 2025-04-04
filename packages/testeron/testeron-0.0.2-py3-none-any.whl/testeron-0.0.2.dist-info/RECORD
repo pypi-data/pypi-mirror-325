@@ -1,0 +1,13 @@
+testeron/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testeron/main.py,sha256=LFiPSf1rNCAESqdaQSPfu0rD-177VxcYEGqJAc0XPRc,515
+testeron/.system/imports.py,sha256=yzAejDMXbUQqCTPh2WssEeW23-tUN67hts7pIE_JXo4,117
+testeron/.system/index.py,sha256=Yh4xEd4y5Q_53-drgD2OXeY61-L7gl-qkfTgPmMjDj8,851
+testeron/.system/modules/jobs.py,sha256=kATR6WexrH4kKCZjzwgqYXS2McslSwMW21qnq_jimFQ,519
+testeron/.system/sources/clight.json,sha256=N_DBNhV8ip0LE5yKcx8YWZ0S62RU5pCy8N5y7Cy1Br4,272
+testeron/.system/sources/logo.ico,sha256=uGPVXqDB8-B0i3nniK613X-kcUMPxAqMOFb1-hQ0qPY,13701
+testeron-0.0.2.dist-info/LICENSE,sha256=3U_CaMRQisXoQHsc9kJrlUBUKI6_M5KcJvzkURHBRmU,1096
+testeron-0.0.2.dist-info/METADATA,sha256=hDCXGkgr_0-NHhStDwj8UCO-LFTOTyoZ0UT7bhLM3gI,1290
+testeron-0.0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+testeron-0.0.2.dist-info/entry_points.txt,sha256=QEtrhcuUd4wglR3mIQfJLmJIA4fKpauYKdgifXiCg_g,48
+testeron-0.0.2.dist-info/top_level.txt,sha256=G_j3XudiU7dduxkVxRbgw2Fioc96WW6Un7lcl_guAhw,9
+testeron-0.0.2.dist-info/RECORD,,
