@@ -1,0 +1,31 @@
+Metadata-Version: 2.2
+Name: regex-ease
+Version: 0.1.0
+Summary: A simple regex library to make your life easy :)
+Home-page: https://github.com/Collaborative-Open-Source-Projects
+Author: Siddesh Shewde
+Author-email: siddesh.shewde@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# easy-regex
+
+A simple regex-based validation library for Python.
+
+## Installation
+```bash
+pip install easy-regex
