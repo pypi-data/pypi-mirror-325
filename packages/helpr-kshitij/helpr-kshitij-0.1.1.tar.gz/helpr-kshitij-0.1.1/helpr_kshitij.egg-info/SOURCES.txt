@@ -1,0 +1,7 @@
+README.rst
+setup.py
+helpr_kshitij.egg-info/PKG-INFO
+helpr_kshitij.egg-info/SOURCES.txt
+helpr_kshitij.egg-info/dependency_links.txt
+helpr_kshitij.egg-info/requires.txt
+helpr_kshitij.egg-info/top_level.txt

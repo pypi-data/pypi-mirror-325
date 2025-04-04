@@ -1,0 +1,54 @@
+Helpr
+=====
+
+A Python package to help you with your daily tasks.
+
+Installation
+------------
+
+You can install `helpr` using pip:
+
+.. code-block:: bash
+
+    pip install helpr
+
+Usage
+-----
+
+Import the package and use its functionality:
+
+.. code-block:: python
+
+    from helpr.utils import greet
+
+    print(greet("Kshitij"))  # Output: Hello, Kshitij!
+
+Features
+--------
+
+- Provides utility functions to simplify daily coding tasks.
+- Lightweight and easy to integrate into existing projects.
+
+Contributing
+------------
+
+We welcome contributions! To contribute:
+
+1. Clone the repository:
+
+   .. code-block:: bash
+
+       git clone https://github.com/kshitijclinikally/testinghelpr.git
+
+2. Install dependencies:
+
+   .. code-block:: bash
+
+       pip install -r requirements.txt
+
+3. Make changes and submit a pull request.
+
+License
+-------
+
+`helpr` is released under the MIT License.
