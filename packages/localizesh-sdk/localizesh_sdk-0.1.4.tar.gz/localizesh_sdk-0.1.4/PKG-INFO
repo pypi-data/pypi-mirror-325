@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: localizesh-sdk
+Version: 0.1.4
+Summary: Localize.sh SDK
+Requires-Dist: protobuf>=5.26.1
+Dynamic: description
+Dynamic: requires-dist
+Dynamic: summary
+
+# sdk-py
