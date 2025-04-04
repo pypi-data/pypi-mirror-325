@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rosolve"
+version = "1.1.0"
+description = "An async Python client for the RoSolve API"
+readme = "README.md"
+authors = [{ name = "SillyVoidi", email = "nothanks@email.com" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable"
+]
+keywords = ["rosolve", "captcha", "roblox", "funcaptcha"]
+dependencies = [
+    "aiohttp>=3.8.0",
+    "curl_cffi>=0.5.0",
+    "colorama>=0.4.6",
+]
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/rosolve" 
