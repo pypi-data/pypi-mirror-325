@@ -1,0 +1,15 @@
+README.md
+setup.py
+rethinkdc/__init__.py
+rethinkdc/imagenet_ipc.py
+rethinkdc/train_KD.py
+rethinkdc/utils.py
+rethinkdc/utils_fkd.py
+rethinkdc.egg-info/PKG-INFO
+rethinkdc.egg-info/SOURCES.txt
+rethinkdc.egg-info/dependency_links.txt
+rethinkdc.egg-info/entry_points.txt
+rethinkdc.egg-info/requires.txt
+rethinkdc.egg-info/top_level.txt
+rethinkdc/dc_config/standard_hard_config.yaml
+rethinkdc/dc_config/standard_soft_config.yaml
