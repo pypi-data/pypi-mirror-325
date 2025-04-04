@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+exifool/__init__.py
+exifool/cli.py
+exifool/errors.py
+exifool/extractor.py
+exifool/pdf.py
+exifool/utility.py
+exifool.egg-info/PKG-INFO
+exifool.egg-info/SOURCES.txt
+exifool.egg-info/dependency_links.txt
+exifool.egg-info/entry_points.txt
+exifool.egg-info/requires.txt
+exifool.egg-info/top_level.txt
+tests/test_cli.py

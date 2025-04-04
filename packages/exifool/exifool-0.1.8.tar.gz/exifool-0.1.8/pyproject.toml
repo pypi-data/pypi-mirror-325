@@ -1,0 +1,26 @@
+[project]
+name = "exifool"
+version = "0.1.8"
+description = "Metadata retrieval tool"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.1.8",
+    "pypdf>=5.2.0",
+    "rich>=13.9.4",
+]
+
+[project.scripts]
+exifool = "exifool.cli:cli"
+
+[tool.uv]
+package = true
+
+[dependency-groups]
+dev = [
+    "mkautodoc>=0.2.0",
+    "mkdocs-material>=9.6.2",
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+    "ruff>=0.9.5",
+]
