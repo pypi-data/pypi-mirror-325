@@ -1,0 +1,11 @@
+exifool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+exifool/cli.py,sha256=jkRMK17oNgNy21tMfsTWHpZl-rI91QyH-ESye1ctMiU,670
+exifool/errors.py,sha256=R21maaRaYTfm5UbeYMmuLXzW82JZfZ1TP9L7QzDfQCU,419
+exifool/extractor.py,sha256=Jflho2kZNH_VOEhUAmO_zjtuyWaPfbTfFJGN68MKJv0,628
+exifool/pdf.py,sha256=O6FamhV_l50BNetfv6CL8f6hj-XNVvugdITmZyZJUyc,301
+exifool/utility.py,sha256=8C3HeyriSsKh2yqxoGHrKe6Wj-dE5yGG8qol5MW6VA4,524
+exifool-0.1.8.dist-info/METADATA,sha256=nk97zVpA1vK1lI71gwZ4t8Rs_lcZDxkg0tuzNAgjSXk,2019
+exifool-0.1.8.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+exifool-0.1.8.dist-info/entry_points.txt,sha256=ha2pgsqhHdVtmChCZUjPiXsmTkv2MT0mdeJGeRiUq6E,44
+exifool-0.1.8.dist-info/top_level.txt,sha256=tdLYgfFvnF-2JB-3L8B_zVe6-I5XPPJf2X601n6Wg4E,8
+exifool-0.1.8.dist-info/RECORD,,
