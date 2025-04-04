@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: retrotv-log
+Version: 0.0.1a0
+Summary: 로깅을 위한 패키지
+Home-page: https://github.com/retrotv-pypi-repo/log
+Author: RetroTV
+Author-email: yjj8353@gmail.com
+Keywords: retrotv,RetroTV,yjj8353,log,Log,logging,Logging,pypi
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+License-File: LICENSE
