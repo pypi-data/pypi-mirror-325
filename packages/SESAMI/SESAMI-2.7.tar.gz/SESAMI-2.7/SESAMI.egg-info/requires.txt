@@ -1,0 +1,8 @@
+flask
+matplotlib
+numpy
+pandas
+pymongo[srv]==4.1.1
+scikit-learn
+scipy
+statsmodels
