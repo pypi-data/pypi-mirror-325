@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+loadcfg/__init__.py
+loadcfg.egg-info/PKG-INFO
+loadcfg.egg-info/SOURCES.txt
+loadcfg.egg-info/dependency_links.txt
+loadcfg.egg-info/requires.txt
+loadcfg.egg-info/top_level.txt
+tests/test_loadcfg.py
