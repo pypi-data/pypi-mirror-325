@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: commons-imaging
+Version: 0.1.0
+Summary: 
+Author: hzr
+Author-email: 198436259@qq.com
+Requires-Python: >=3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pillow (>=11.1.0,<12.0.0)
+Description-Content-Type: text/markdown
+
+
