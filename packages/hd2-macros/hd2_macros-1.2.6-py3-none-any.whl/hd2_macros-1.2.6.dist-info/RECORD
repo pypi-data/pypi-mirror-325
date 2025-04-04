@@ -1,0 +1,12 @@
+hd2_macros/__init__.py,sha256=cjEatKKRQufk_XSlL8sCk-098zMK8h2PlvLkdfr0LJo,23
+hd2_macros/__main__.py,sha256=L8U_cb_xP0SHET2m_6a0r-sAozgO3nuaaRFy8KeFGEc,95
+hd2_macros/config.py,sha256=n89uZpWjxi8NTPPI_lcc4lG_S2uzIpfS1RXsg2DDCQY,2621
+hd2_macros/config.toml,sha256=YI8bRNHHbqulF8s3Cyd5H26YgJK5nyJMnjKyiAdyaq4,2181
+hd2_macros/constants.py,sha256=j_M3TtxQBI1diwd1OtCgQfFW_8kV6T8GFx7e3__hk9w,5663
+hd2_macros/macro.py,sha256=qVWs62haw0nnpMSv4-ELAPA6OMLD8GITJ3jgcfdIMWs,6853
+hd2_macros/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hd2_macros-1.2.6.dist-info/LICENSE,sha256=ezX1OgiQAuHcuSzCGTn068SMkM0FdRJwhzF-vVrlLO0,1099
+hd2_macros-1.2.6.dist-info/METADATA,sha256=gfdhmuj69EUoyO0KQ-sBeJbLbxl-qjMLaSmY4R2Y7RA,6308
+hd2_macros-1.2.6.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+hd2_macros-1.2.6.dist-info/top_level.txt,sha256=5yj0aFm4nvl-0n391W_xNTHcoesN9vmWvP7o-xcNKk0,11
+hd2_macros-1.2.6.dist-info/RECORD,,
