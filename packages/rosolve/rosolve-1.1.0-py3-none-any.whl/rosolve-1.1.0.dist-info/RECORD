@@ -1,0 +1,8 @@
+rosolve/__init__.py,sha256=AeCHOhHxcyNYR5ZN2cQFysFVB2YBimFnRsmzGUrBDD8,208
+rosolve/client.py,sha256=ezcpVBgmUQ_Umfb6NWcxTn3Er7tuS9xSH9oPj5FZ9XY,5580
+rosolve/errors.py,sha256=xzq0AVeZ4ux0SF9mZjX43Y_ICc21yCGFs5_owInfwlQ,811
+rosolve/types.py,sha256=wh_XKn_cr2srsFDXjioNlQVqwxK-u34yAlMn5KEc08I,447
+rosolve-1.1.0.dist-info/METADATA,sha256=PjQ9KZhqZokQOjaO7c06DQUh43kHCW1Vk_LfPmAcHv0,6532
+rosolve-1.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+rosolve-1.1.0.dist-info/top_level.txt,sha256=Yx_HYUpOcgaMC3u5sXXb8ZBpMkNy4YWHYXzF5yBvgJ4,8
+rosolve-1.1.0.dist-info/RECORD,,
