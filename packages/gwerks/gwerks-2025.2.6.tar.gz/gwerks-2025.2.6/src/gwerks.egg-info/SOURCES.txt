@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/gwerks/__init__.py
+src/gwerks/_version.py
+src/gwerks/aws.py
+src/gwerks/cli.py
+src/gwerks/decorators.py
+src/gwerks/docker.py
+src/gwerks/messaging.py
+src/gwerks.egg-info/PKG-INFO
+src/gwerks.egg-info/SOURCES.txt
+src/gwerks.egg-info/dependency_links.txt
+src/gwerks.egg-info/requires.txt
+src/gwerks.egg-info/top_level.txt

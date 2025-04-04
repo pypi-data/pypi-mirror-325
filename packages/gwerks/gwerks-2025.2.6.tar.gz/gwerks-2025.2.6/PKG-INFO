@@ -1,0 +1,7 @@
+Metadata-Version: 2.2
+Name: gwerks
+Version: 2025.2.6
+Author-email: Ron Glasmann <ron@glasmann.net>
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: tenacity
