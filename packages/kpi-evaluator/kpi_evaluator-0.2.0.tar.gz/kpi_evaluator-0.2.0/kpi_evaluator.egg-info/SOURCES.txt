@@ -1,0 +1,7 @@
+README.md
+setup.py
+kpi_evaluator.egg-info/PKG-INFO
+kpi_evaluator.egg-info/SOURCES.txt
+kpi_evaluator.egg-info/dependency_links.txt
+kpi_evaluator.egg-info/requires.txt
+kpi_evaluator.egg-info/top_level.txt
