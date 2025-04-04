@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyprotodef/__init__.py
+pyprotodef/protodef.py
+pyprotodef.egg-info/PKG-INFO
+pyprotodef.egg-info/SOURCES.txt
+pyprotodef.egg-info/dependency_links.txt
+pyprotodef.egg-info/top_level.txt
