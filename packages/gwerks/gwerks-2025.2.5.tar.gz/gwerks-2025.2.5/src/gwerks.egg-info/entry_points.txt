@@ -1,0 +1,4 @@
+[console_scripts]
+version_get = gwc.builds:cli_get_version
+version_notify = gwc.builds:cli_notify_version
+version_set = gwc.builds:cli_set_version
