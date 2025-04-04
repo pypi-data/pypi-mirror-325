@@ -1,0 +1,12 @@
+gwerks/__init__.py,sha256=TXJ1-9kfENWA0sRcXZ_m8JekLZE-_DbcpVN6-4PwenM,2834
+gwerks/_version.py,sha256=jHdYX_7WsMfNSd-Phigt8z1ZdtO7JZk8r7F5kf5weGg,500
+gwerks/aws.py,sha256=OtX00tj3JtyEcp0LyI8MLH6IdAzbTNL0Rf5_ak2A9xE,39447
+gwerks/cli.py,sha256=0CY_VY6r1RyXhfwIAwR_baLJyC7U-nToKyLVqgn_pIU,1846
+gwerks/decorators.py,sha256=x_Zt64aH18sQGpwkeH-QAWvUQ_umGtlFPV-FiRKvHOc,656
+gwerks/docker.py,sha256=T_QYcZ9TRO6IUlC3mLRNlHSBDuhjQhDyqqUDtnDFjK4,9866
+gwerks/messaging.py,sha256=oZEvMNqfBVR5Ts-Odo7DrZoLFhAVyfEwCmkTh-XffqY,1082
+gwerks-2025.2.6.dist-info/LICENSE,sha256=yTtRzfWdJZGg_MT4AnMMkDSRCB0k7_UtcvCKbYPwrns,1069
+gwerks-2025.2.6.dist-info/METADATA,sha256=q7rSBFEGdLyVqIx-UKqjofQq2c2jqkSh5MYVJiTldaY,166
+gwerks-2025.2.6.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+gwerks-2025.2.6.dist-info/top_level.txt,sha256=4dhG1DZrUGp3egjn1Woqx_LVoJ2drY1DaGA5_NZyk0o,7
+gwerks-2025.2.6.dist-info/RECORD,,
