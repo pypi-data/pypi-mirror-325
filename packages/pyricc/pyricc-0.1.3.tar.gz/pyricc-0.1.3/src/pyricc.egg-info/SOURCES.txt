@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+MANIFEST.in
+Makefile
+README.md
+VERSION
+build.sh
+pyproject.toml
+upload.sh
+src/pyricc/__init__.py
+src/pyricc/_version.py
+src/pyricc/colors.py
+src/pyricc.egg-info/PKG-INFO
+src/pyricc.egg-info/SOURCES.txt
+src/pyricc.egg-info/dependency_links.txt
+src/pyricc.egg-info/top_level.txt
+tests/test_colors.py
