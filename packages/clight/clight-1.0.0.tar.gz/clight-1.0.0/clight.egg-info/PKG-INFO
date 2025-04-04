@@ -1,0 +1,55 @@
+Metadata-Version: 2.2
+Name: clight
+Version: 1.0.0
+Summary: CLight is a Python command-line interface application. A lightweight Framework that simplifies CLI app development and the package distribution process, with automatic deployment strategies from Local, GitHub and GitLab environments.
+Home-page: https://github.com/IG-onGit/CLight
+Author: Irakli Gzirishvili
+Author-email: gziraklirex@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: inquirer
+Requires-Dist: datetime
+Requires-Dist: importlib
+Requires-Dist: colored
+Requires-Dist: cryptography
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+# CLight v1.0
+
+**Project**: CLight
+<br>**Version**: 1.0
+<br>**OS**: Microsoft / Windows
+<br>**Author**: Irakli Gzirishvili
+<br>**Mail**: gziraklirex@gmail.com
+
+**CLight** is a Python command-line interface application. A lightweight Framework that simplifies CLI app development and the package distribution process, with automatic deployment strategies from Local, GitHub and GitLab environments.
+
+## Installation
+
+To use **CLight**, follow these steps:
+
+- Open CMD and run the following command to install `pip install clight` then restart your CMD
+- To check if **CLight** is installed correctly, run the following command `clight`
+
+## Commands
+
+These are the available commands you can use:
+
+- `clight` - To list available commands
+- `clight new` - Create new project
+- `clight module (name)` - Create new module
+- `clight reform (-t)` - Edit project params, (-t) to skip templates
+- `clight all` - List existing projects
+- `clight publish (-t)` - Publish project on PyPI, (-t) to test locally
+- `clight remove (project)` - Remove project
+- `clight pypidel` - Delete PyPI credentials
