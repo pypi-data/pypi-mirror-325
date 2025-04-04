@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gistlicenkey
+Version: 0.1.1
+Summary: A Python wrapper for software License Key management
+Home-page: https://pypi.org/project/gistlicenkey
+Author: Moh Iqbal Hidayat
+Author-email: iqbalmh18.dev@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/plain
+Requires-Dist: requests
+
+GistLicenKey is a Python wrapper for managing license key using GitHub Gists as storage, with machine ID-based verification and customizable expiration dates.
