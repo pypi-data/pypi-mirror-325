@@ -1,0 +1,8 @@
+setup.py
+gistlicenkey/__init__.py
+gistlicenkey/license.py
+gistlicenkey.egg-info/PKG-INFO
+gistlicenkey.egg-info/SOURCES.txt
+gistlicenkey.egg-info/dependency_links.txt
+gistlicenkey.egg-info/requires.txt
+gistlicenkey.egg-info/top_level.txt
