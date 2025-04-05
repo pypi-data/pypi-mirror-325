@@ -1,0 +1,8 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+main.py,sha256=3x3es9ROIFxAGvHEywD8AQbKDKVC3-jeRUdGo-P1JOg,964
+models.py,sha256=WOYkUcu2tWVoNFOn-PmGQ7VG5sEsQ0nYavQlY0DK5sI,383
+text_generation.py,sha256=nxBWHd2GNdsc4CWqEu1WUZxpb5bNlbHpB_TWs1480CM,1625
+demo_uv_tooling-0.3.0.dist-info/METADATA,sha256=qw4HtBVjKnghoTSfaJLHLrKwxoYhY1AfXFvulSyYVl0,9045
+demo_uv_tooling-0.3.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+demo_uv_tooling-0.3.0.dist-info/top_level.txt,sha256=_lsOaiHfhwjTMT1uPOS2C34AsX-xrcZlon1VjB1YWgA,37
+demo_uv_tooling-0.3.0.dist-info/RECORD,,
