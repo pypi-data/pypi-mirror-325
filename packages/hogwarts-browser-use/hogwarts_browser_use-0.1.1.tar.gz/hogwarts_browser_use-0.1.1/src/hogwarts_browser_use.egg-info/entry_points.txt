@@ -1,0 +1,3 @@
+[console_scripts]
+hogwarts-browser-debug = hogwarts_browser_use.service.chrome_debug:start
+hogwarts-browser-use = hogwarts_browser_use.service.__main__:main
