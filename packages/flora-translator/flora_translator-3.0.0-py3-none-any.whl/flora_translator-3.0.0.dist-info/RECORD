@@ -1,0 +1,11 @@
+flora_translator/__init__.py,sha256=AaSo7LhEMznc7yO7hOia0nZsZYu6FhhkiXWvzacYBYQ,135
+flora_translator/translate_controls_content.py,sha256=ZGouIRAfg5Rdb4gNsrpZexUM2AEK3w8lMZNmovnTinI,3261
+flora_translator/translate_page.py,sha256=morZXd1Z9KKASwtglCLYB-AvVU5UKDHnJtVuPGZIBes,4284
+flora_translator/translate_support_language.py,sha256=BIpIgYP8frTPj4-esjCwfNXf9Jnn0TWOs07hyTMp0NQ,7155
+flora_translator/translate_using_google.py,sha256=IlXoPE1Uph-H1TU3hPcV2iquPyC7tVDW5zh9lfterWQ,4028
+flora_translator/translate_using_mymemory.py,sha256=e_JEytZd5TcTTUOI3beSlHPDBjNc_lMJIYJ7J_YQBCk,4004
+flora_translator-3.0.0.dist-info/LICENSE,sha256=RyOeFIJJ6qI8KHvE3Ua2edtE0miPTmHM_BkDYrgA3H8,1062
+flora_translator-3.0.0.dist-info/METADATA,sha256=opovfU8aWuJW7cGp4sEeci2cxoYZDj-DfgYXLKh0hD4,743
+flora_translator-3.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+flora_translator-3.0.0.dist-info/top_level.txt,sha256=iEk1MH_jGhCNWc_o5Eac25o1Zm0BKpObVWUPH9RbWxk,17
+flora_translator-3.0.0.dist-info/RECORD,,
