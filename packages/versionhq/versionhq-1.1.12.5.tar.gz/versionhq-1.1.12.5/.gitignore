@@ -1,0 +1,36 @@
+deploy.py
+destinations.py
+
+entity_memory.py
+
+train.py
+
+# mkdocs.yml
+# docs/
+
+dist/
+lib/
+build/
+.pypirc
+uploads/
+sample_dataset/
+chroma.sqlite3
+*egg-info/
+test/
+db/
+rc-tests/*
+temp/*
+.vscode/*
+assets/*
+memo.txt
+site/
+
+__pycache__
+.ruff_cache/
+.pytest_cache/
+
+.DS_Store
+.vscode
+
+.env
+.venv/
