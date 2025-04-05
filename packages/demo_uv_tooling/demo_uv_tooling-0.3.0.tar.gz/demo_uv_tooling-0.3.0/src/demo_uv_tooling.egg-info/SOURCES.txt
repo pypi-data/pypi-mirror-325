@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/main.py
+src/models.py
+src/text_generation.py
+src/demo_uv_tooling.egg-info/PKG-INFO
+src/demo_uv_tooling.egg-info/SOURCES.txt
+src/demo_uv_tooling.egg-info/dependency_links.txt
+src/demo_uv_tooling.egg-info/requires.txt
+src/demo_uv_tooling.egg-info/top_level.txt
+tests/test_api.py
+tests/test_text_generation.py
