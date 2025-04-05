@@ -1,0 +1,159 @@
+# Commons 
+
+Commons is a set of functions that all the services share such as: field validations, authentification, password hashing and checking ... 
+
+
+## Utils 
+
+The `utils` folder contains a collection of utility functions that provide standardized processing and validation across the entire project. These functions help ensure consistency, security, and reliability.
+
+
+### Email handeling 
+
+This module contains functions for validating email addresses to ensure they meet the required format and structure.
+
+### Password handeling
+
+This module provides functions for securely managing user passwords, including hashing and verification.
+
+### Response handeling 
+
+Defines the common response formats returned by the API, ensuring uniformity across endpoints. Below are the standardized response types with examples:
+
+1. Base Success Response
+
+General success response for API requests.
+
+```{
+    "data": {"id": 1, "name": "John Doe"},
+    "message": "Success",
+    "status": True
+}
+```
+
+2. Base Success Response
+
+General error response for client-side issues.
+
+```
+{
+    "message": "Invalid request",
+    "code": 400,
+    "status": False
+}
+```
+
+3. Unauthorized Response
+
+When authentication is required but missing or incorrect.
+
+```
+{
+    "message": "Unauthorized access",
+    "code": 401,
+    "status": False
+}
+```
+
+4. Forbidden Response
+
+When a user lacks the required permissions.
+
+```
+{
+    "message": "Forbidden: Insufficient permissions",
+    "code": 403,
+    "status": False
+}
+```
+
+5. Not Found Response
+
+When the requested resource does not exist.
+
+```
+{
+    "message": "Resource not found",
+    "code": 404,
+    "status": False
+}
+```
+
+6. Validation Error Response
+
+When input validation fails.
+
+```
+{
+    "message": "Invalid input",
+    "code": 422,
+    "status": False,
+    "errors": {
+        "email": "Invalid email format",
+        "password": "Too short"
+    }
+}
+```
+
+7. Server Error Response
+
+When an unexpected error occurs on the server.
+
+```
+{
+    "message": "Internal Server Error",
+    "code": 500,
+    "status": False
+}
+```
+
+8. Conflict Response
+
+When a request conflicts with existing data (e.g., duplicate entries).
+
+```
+{
+    "message": "Conflict: Resource already exists",
+    "code": 409,
+    "status": False
+}
+```
+
+9. Created Response
+
+When a new resource is successfully created.
+
+```
+{
+    "data": {"id": 1, "name": "New User"},
+    "message": "Resource created successfully",
+    "code": 201,
+    "status": True
+}
+```
+
+10. No Content Response
+
+When a request is successful but has no content to return.
+
+```
+{
+    "message": "No content available",
+    "code": 204,
+    "status": True
+}
+```
+
+
+
+### Validation 
+
+This module contains a set of validation tools to ensure the integrity of user-input data before it is processed or stored.
+
+Supported Validations:
+- **Full Name Validation:** Ensures that names contain only letters, are properly formatted, and include at least two words.
+- **Company Name Validation:** Checks that company names are correctly structured, allowing only valid characters and ensuring they start with a letter.
+- **Password Validation:** Verifies that passwords meet security standards when first entered, enforcing rules such as length, uppercase/lowercase letters, digits, and special characters.
+
+These validation functions help maintain data integrity and prevent improper or malicious input from entering the system.
+
