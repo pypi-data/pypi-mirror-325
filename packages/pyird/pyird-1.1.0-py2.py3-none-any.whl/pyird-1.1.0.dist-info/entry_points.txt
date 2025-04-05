@@ -1,0 +1,2 @@
+[console_scripts]
+pyird-cli = pyird.cli:main
