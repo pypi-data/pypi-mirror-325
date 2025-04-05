@@ -1,0 +1,27 @@
+server:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 4
+  cors:
+    enabled: true
+    origins: ["*"]
+
+security:
+  api_key_header: "X-API-Key"
+  allowed_keys: [] # Configure in environment
+
+endpoints:
+  agent:
+    rate_limit: 100 # requests per minute
+    timeout: 300 # seconds
+    max_concurrent: 10
+
+  openai_compat:
+    enabled: true
+    models:
+      - gpt-4
+      - gpt-3.5-turbo
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
