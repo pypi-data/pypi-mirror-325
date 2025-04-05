@@ -1,0 +1,6 @@
+[console_scripts]
+cognition = cognition.main:run
+replay = cognition.main:replay
+run_crew = cognition.main:run
+test = cognition.main:test
+train = cognition.main:train
