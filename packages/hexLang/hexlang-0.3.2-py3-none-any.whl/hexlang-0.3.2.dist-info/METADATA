@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: hexLang
+Version: 0.3.2
+Summary: hexLang is an esoteric language inspired and based on the Riot Games Arcane Netflix series.
+Home-page: https://github.com/DiClub-Srmvdp/HexLang
+License: MIT
+Keywords: esolang,interpreter,rply,hexLang
+Author: Viraj Patel
+Author-email: viraj.patel482@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Interpreters
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Requires-Dist: munch (>=2.5.0,<3.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: rply (>=0.7.8,<0.8.0)
+Requires-Dist: setuptools (>=69.0.0,<70.0.0)
+Requires-Dist: typer (>=0.4.1,<0.5.0)
+Project-URL: Repository, https://github.com/DiClub-Srmvdp/HexLang
+Description-Content-Type: text/markdown
+
+# hexLang
+
+hexLang is an esoteric language inspired and based on the Riot Games Arcane Netflix series. This is a hobby project and is not meant to be used for serious software development.
+
+## Installation
+
+- hexLang requires **python >= 3.8**. Install python from [here](https://www.python.org/downloads/).
+- Install the hexLang interpreter using the following command:
+  `pip install hexLang`
+
+- test installation: `hexLang version`
+
+## Getting started
+
+hexLang is not a feature rich language and is not intended for serious use.
+
+### Run programs
+
+`hello_world.hexlang`:
+
+```
+HEXCORE ACTIVATED
+ECHO TO THE UNDERCITY "Hello, World!";
+ZAUN'S SHADOW FALLS
+```
+
+- Run the `hello_world.hexLang` program:
+
+  `hexLang run examples/hello_world.hexlang`
+
+will result in the following output:
+
+![hello world output](./imgs/hello-out.png)
+
