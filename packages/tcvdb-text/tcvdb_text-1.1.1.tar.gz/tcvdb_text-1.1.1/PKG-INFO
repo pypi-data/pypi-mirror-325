@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tcvdb_text
+Version: 1.1.1
+Summary: Tencent VectorDB Sparse Vector SDK
+Home-page: 
+Author: tencent vdb team
+Requires-Python: >=3
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: mmh3
+Requires-Dist: jieba>=0.42.1
