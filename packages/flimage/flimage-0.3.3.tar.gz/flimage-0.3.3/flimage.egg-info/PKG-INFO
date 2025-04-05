@@ -1,0 +1,87 @@
+Metadata-Version: 2.2
+Name: flimage
+Version: 0.3.3
+Summary: library for manipulating fluorescence microscopy series data
+Author-email: Paul Müller <dev@craban.de>
+License: MIT License
+        
+        Copyright (c) 2019 Refractive Index Imaging
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/RI-imaging/flimage
+Keywords: fluorescence microscopy,bleach correction
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Requires-Python: <4,>=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: h5py>=2.7.0
+Requires-Dist: lmfit>=0.9.8
+Requires-Dist: numpy>=1.9.0
+Requires-Dist: qpimage>=0.5.1
+Requires-Dist: scikit-image>=0.11.0
+
+flimage
+=======
+
+|PyPI Version| |Tests Status| |Coverage Status| |Docs Status|
+
+
+**flimage** is a Python3 library for handling fluorescence data.
+Its API is (as much as it makes sense) is identical to that of
+`qpimage <https://qpimage.readthedocs.io/en/stable/>`__, making
+it a convenient tool for phase- and fluorescence colocalization.
+
+
+Documentation
+-------------
+
+The documentation, including the code reference and examples, is available at
+`flimage.readthedocs.io <https://flimage.readthedocs.io/en/stable/>`__.
+
+
+Installation
+------------
+
+::
+
+    pip install flimage
+
+
+Testing
+-------
+
+::
+
+    pip install -e .
+    pip install pytest
+    pytest tests
+    
+
+.. |PyPI Version| image:: https://img.shields.io/pypi/v/flimage.svg
+   :target: https://pypi.python.org/pypi/flimage
+.. |Tests Status| image:: https://img.shields.io/github/actions/workflow/status/RI-Imaging/flimage/check.yml
+   :target: https://github.com/RI-Imaging/flimage/actions?query=workflow%3AChecks
+.. |Coverage Status| image:: https://img.shields.io/codecov/c/github/RI-imaging/flimage/master.svg
+   :target: https://codecov.io/gh/RI-imaging/flimage
+.. |Docs Status| image:: https://readthedocs.org/projects/flimage/badge/?version=latest
+   :target: https://readthedocs.org/projects/flimage/builds/
+

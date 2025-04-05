@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flimage"
+authors = [
+    {name = "Paul Müller", email = "dev@craban.de"}
+]
+description = "library for manipulating fluorescence microscopy series data"
+readme = "README.rst"
+license = {file = "LICENSE"}
+requires-python = ">=3.6, <4"
+dynamic = ["version"]
+keywords = ["fluorescence microscopy", "bleach correction"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research"
+]
+
+dependencies = [
+    "h5py>=2.7.0",
+    "lmfit>=0.9.8",
+    "numpy>=1.9.0",
+    "qpimage>=0.5.1",
+    "scikit-image>=0.11.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/RI-imaging/flimage"
+
+[tool.setuptools_scm]
+write_to = "flimage/_version.py"
+version_scheme = "post-release"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["flimage"]
+
+

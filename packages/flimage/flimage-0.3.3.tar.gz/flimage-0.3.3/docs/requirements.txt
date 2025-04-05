@@ -1,0 +1,6 @@
+lmfit
+qpimage
+scikit-image
+sphinx
+sphinxcontrib.bibtex
+sphinx_rtd_theme
