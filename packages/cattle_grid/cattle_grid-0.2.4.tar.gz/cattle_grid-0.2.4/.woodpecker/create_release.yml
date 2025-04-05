@@ -1,0 +1,14 @@
+when:
+  branch: [main]
+  event: [push]
+
+depends_on: ["test"]
+
+steps:
+  create_release:
+    image: ghcr.io/astral-sh/uv:python3.11-alpine
+    commands:
+      - pip install requests hatch
+      - python release.py
+    environment:
+      CODEBERG_TOKEN: { from_secret: codeberg_token }
