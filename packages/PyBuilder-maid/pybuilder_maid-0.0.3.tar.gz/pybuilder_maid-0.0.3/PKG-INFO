@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: PyBuilder-maid
+Version: 0.0.3
+Summary: Билд система на питоне в рамках проекта maid.
+Project-URL: Homepage, https://github.com/Thoru-san/PyBuilder-maid
+Project-URL: Issues, https://github.com/Thoru-san/PyBuilder-maid
+Author-email: Thoru-san <thoru.fun@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+
+# PyBuilder-maid
+Билд система на питоне в рамках проекта maid.
