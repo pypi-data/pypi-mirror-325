@@ -1,0 +1,62 @@
+# hexLang (Arcane-themed Esoteric Language)
+# --- Program Structure ---
+PGM_START: "HEXCORE ACTIVATED" # Start of program
+PGM_END: "HEXCORE DEACTIVATED" # End of program
+
+# --- Output ---
+PRINT: "ECHO TO THE UNDERCITY" # Print command
+
+# --- Variables & Assignment ---
+START_DECLARE: "PILTOVER DECLARES" # Variable declaration start
+DECLARE: "THE COUNCIL DECREES" # Declare variable
+ASSIGN: "INFUSE WITH" # Assign value
+
+# --- Flow Control ---
+IF_COND: "IF THE COUNCIL AGREES" # If statement
+ELSE_COND: "ELSE THE UNDERGROUND RISES" # Else statement
+WHILE_LOOP: "WHILE SHIMMER BURNS" # While loop
+FOR_START: "FROM THE DEPTHS" # For loop start
+FOR_RANGE_START: "TO THE SPIRES" # Range start (e.g., 1 to 10)
+FOR_RANGE_END: "ASCEND" # Range end
+END_BLOCK: "CHAOS CONTAINED" # End block (e.g., end of loop/if)
+BREAK_LOOP: "SHATTER THE HEXCORE" # Break loop
+
+# --- Functions ---
+FUNC_DECLARE: "VIKTOR'S BEDROOM" # Function declaration
+END_FUNC: "JINX'S CHAOS TAKES OVER" # End function
+FUNC_RETURN: "GIVE IT TO VIKTOR" # Return statement
+FUNC_CALL: "ENTER THE BEDROOM" # Call function
+
+###* Symbols *###
+# OPEN_PAREN: \(
+# CLOSE_PAREN: \)
+SEMI_COLON: \;
+L_BRACE: \{
+R_BRACE: \}
+# COLON: "\:"
+
+###* VARS *###
+NUMBER: \d+(:?\.\d+)?
+WORD: "[a-z_]+"
+STRING: \".*?\"
+BOOL_TRUE: "True"
+BOOL_FALSE: "False"
+
+###* MATH OPS *###
+SUM: \+
+SUB: \-
+MUL: \*
+DIV: \/
+MOD: \%
+# COMMA: \,
+
+###* LOGICAL OPS *###
+GT: ">(?!=)"
+LT: "<(?!=)"
+GTE: ">="
+LTE: "<="
+EQ: "=="
+NEQ: "!="
+
+# ASSIGN_ALT: \=
+DECLARE_ALT: ":="
