@@ -1,0 +1,78 @@
+[project]
+name = "netext"
+version = "0.3.0"
+description = "A graph (network) rendering library for the terminal."
+authors = [{ name = "Malte Klemm", email = "me@malteklemm.de" }]
+license = { text = "MIT Licence" }
+readme = "README.md"
+keywords = ["network", "graph", "terminal", "rich"]
+requires-python = ">=3.10"
+dependencies = ["rich>=13", "networkx~=3.0", "cachetools>=5.3.0"]
+
+[project.optional-dependencies]
+textual = ["textual>=1"]
+
+[project.urls]
+"Source code" = "https://github.com/mahrz24/netext"
+Documentation = "https://mahrz24.github.io/netext/"
+
+[dependency-groups]
+testing = [
+    "maturin>=1,<2",
+    "pytest>=8.0.0",
+    "syrupy>=4.0.1",
+    "jinja2>=3.1.2",
+    "pytest-cov>=3.0.0",
+    "coverage[toml]>=6.4.2",
+    "pyright>=1.1.391",
+    "pytest-asyncio>=0.21.1",
+    "importlib-metadata>=8.5.0",
+]
+docs = [
+    "mkdocs>=1.6.1",
+    "mkdocstrings[python]>=0.20.0",
+    "mkdocs-material>=9.0.5",
+    "ruff>=0.9.1",
+]
+linting = [
+    "pyright>=1.1.391",
+    "ruff>=0.9.1",
+    "maturin>=1,<2",
+]
+
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+python-source = "."
+module-name = "netext._core"
+features = ["pyo3/extension-module"]
+
+[tool.pyright]
+executionEnvironments = [{ root = "netext"}]
+typeCheckingMode = "standard"
+useLibraryCodeForTypes = true
+venvPath = "."
+venv = ".venv"
+pythonVersion = "3.10"
+
+[tool.black]
+preview = true
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.scriv]
+format = "md"
+
+[tool.setuptools]
+py-modules = ["netext"]
+
+[tool.uv]
+# this ensures that `uv run` doesn't actually build the package
+package = false
+
+[tool.uv.sources]
+netext = { workspace = true }

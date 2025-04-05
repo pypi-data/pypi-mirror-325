@@ -1,0 +1,43 @@
+ModalDialog {
+    align: center middle;
+}
+
+ModalDialog>Widget {
+    width: 100;
+    height: 80%;
+}
+
+#main-container {
+    overflow-x: auto;
+    overflow-y: auto;
+    align: center middle;
+}
+
+Graph {
+    padding: 1 2;
+    height: auto;
+    width: auto;
+    content-align: center middle;
+}
+
+TabbedContent {
+
+    overflow: auto;
+}
+
+Tree {
+    overflow: auto;
+    height: auto;
+    scrollbar-gutter: stable;
+}
+
+NodeView {
+    overflow: auto;
+    height: auto;
+}
+
+#sidebar {
+    dock: right;
+    width: 60;
+    height: 100%;
+}
