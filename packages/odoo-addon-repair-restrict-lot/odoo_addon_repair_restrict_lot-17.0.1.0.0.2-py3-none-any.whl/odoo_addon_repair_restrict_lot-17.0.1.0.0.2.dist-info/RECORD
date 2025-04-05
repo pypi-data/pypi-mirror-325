@@ -1,0 +1,14 @@
+odoo/addons/repair_restrict_lot/README.rst,sha256=jSFD4Q7ldzGcMyzuWMBnp__hlQDb0MerG2wqri1VSvE,3018
+odoo/addons/repair_restrict_lot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/repair_restrict_lot/__manifest__.py,sha256=g2kvuHeDavsiYTdo6vVy4VbG-frKb8k_45MxrliI5YI,502
+odoo/addons/repair_restrict_lot/i18n/repair_restrict_lot.pot,sha256=S2BFHukHv3YRtbM7PikUn45UYL19C-gewiAcE8MlkjM,511
+odoo/addons/repair_restrict_lot/readme/CONTRIBUTORS.md,sha256=YYSeBAWWsWXmlpmM6aMuXuu_HRVBNZOEHCg6Tt_tlPQ,42
+odoo/addons/repair_restrict_lot/readme/DESCRIPTION.md,sha256=ZJn3HMVrEOinrQ3YCX3R-I7-9YvLe84XnfKf_KTSflw,84
+odoo/addons/repair_restrict_lot/readme/USAGE.md,sha256=O-icAosnMvNVZ7HupvWUxwsSTbC7jIwA4sVd_PfQzl4,203
+odoo/addons/repair_restrict_lot/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/repair_restrict_lot/static/description/index.html,sha256=zHZtaVxmlZldIWqR1AKRlqWInBGK51WEBpwFfbCt-xY,12513
+odoo/addons/repair_restrict_lot/views/repair_order_view.xml,sha256=ZnnCNbz3HvkTvTCbWuCVRJVTSccAzRRQ1XfOLoE9pSs,990
+odoo_addon_repair_restrict_lot-17.0.1.0.0.2.dist-info/METADATA,sha256=x-xmzpI87B7gDhQ5AUKn4168thYXkiHlu8xTBZXpYxQ,3632
+odoo_addon_repair_restrict_lot-17.0.1.0.0.2.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_repair_restrict_lot-17.0.1.0.0.2.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_repair_restrict_lot-17.0.1.0.0.2.dist-info/RECORD,,
