@@ -1,0 +1,9 @@
+cffi
+findlibs>=0.0.5
+pandas
+packaging
+
+[dev]
+pytest
+pytest-cov
+pytest-flakes
