@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: llms-Arunsingh
+Version: 0.1.0
+Summary: A unified interface for multiple LLM providers
+Author: Arun Singh
+Author-email: arunsingh80475@gmail.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary
