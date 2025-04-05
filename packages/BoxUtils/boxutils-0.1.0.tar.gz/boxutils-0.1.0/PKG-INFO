@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: BoxUtils
+Version: 0.1.0
+Summary: A utility package for performing Box file and folder operations with a service account
+Home-page: https://github.com/kelvinlim/BoxUtils
+Author: Kelvin O. Lim
+Author-email: lim.kelvino@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-dotenv
+Requires-Dist: box_sdk_gen[jwt]
+
+*# BoxUtils*
+
+A class using the box_sdk_gen python SDK for doing basic file and folder operations.
