@@ -1,0 +1,24 @@
+include src/pyird/data/channel_H.list
+include src/pyird/data/channel_YJ.list
+include src/pyird/data/thar_ird2.dat
+include src/pyird/data/samples/aprefA
+include src/pyird/data/samples/aprefB
+include src/pyird/data/samples/aprefC
+include src/pyird/data/samples/apref_a
+include src/pyird/data/samples/apref_c
+include src/pyird/data/thar_mmf2_a_H_20210317.fits
+include src/pyird/data/samples/wflat_m2_20210317.dat
+include src/pyird/data/samples/wblaze_h_m2_20210317.dat
+include src/pyird/data/IP_fwhms_h.dat
+include src/pyird/data/hotpix_mask_h_202210_180s.fits
+include src/pyird/data/hotpix_mask_y_202210_180s.fits
+
+graft tests
+graft examples
+graft documents
+
+global-exclude *.py[co]
+
+prune documents/_build
+prune documents/_static
+prune documents/_templates

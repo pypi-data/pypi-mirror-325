@@ -1,0 +1,13 @@
+matplotlib
+tqdm
+scipy
+sep
+gpkron
+pandas
+astropy
+astroquery==0.4.7
+numpy<2
+
+[dev]
+pytest
+black
