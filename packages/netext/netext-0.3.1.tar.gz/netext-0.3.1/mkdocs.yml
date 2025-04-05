@@ -1,0 +1,72 @@
+site_name: netext Documentation
+
+nav:
+  - index.md
+  - tutorial.md
+  - 'User Guide':
+    - user-guide/styling-graphs.md
+    - user-guide/zoom-and-viewport.md
+    - user-guide/textual-widget.md
+  - 'Reference':
+    - reference/edges.md
+    - reference/nodes.md
+  - 'API':
+    - api/console-graph.md
+    - api/textual-widget.md
+    - api/styling.md
+    - api/layout-engines.md
+
+theme:
+  name: material
+  palette:
+    primary: deep purple
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.copy
+
+plugins:
+  - search:
+      lang: en
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            heading_level: 3
+            show_root_heading: true
+            show_root_full_path: false
+            separate_signature: true
+            show_signature: true
+            show_signature_annotations: true
+            allow_inspection: false
+            merge_init_into_class: true
+            members: true
+            show_source: false
+          import:
+            - https://rich.readthedocs.io/en/stable/objects.inv
+            - https://networkx.org/documentation/stable/objects.inv
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: textual
+          class: textual
+          format: !!python/name:textual._doc.format_svg
+        - name: rich
+          class: rich
+          format: !!python/name:textual._doc.rich
+  - pymdownx.details
+  - admonition
+  - markdown.extensions.attr_list
+
+repo_url: https://github.com/mahrz24/netext
