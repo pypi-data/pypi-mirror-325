@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: distributed-imm-newest
+Version: 0.1
+Summary: A distributed implementation of the IMM algorithm for explaining clusters in Spark ML pipelines.
+Author: Saadha
+Author-email: marium.20@cse.mrt.ac.lk
+Requires-Python: >=3.6
