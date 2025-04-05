@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: builder_maid
+Version: 0.0.1
+Summary: Система сборки в рамках проекта maid.
+Project-URL: Homepage, https://github.com/Thoru-san/builder_maid
+Project-URL: Issues, https://github.com/Thoru-san/builder_maid
+Author-email: Thoru-san <thoru.fun@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+
+# builder_maid
+Билд система на питоне в рамках проекта maid.
