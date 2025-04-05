@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: stalowa_bukmacherska
+Version: 0.3.0
+Summary: A description of your project
+Home-page: https://github.com/your_username/your_project_name
+Author: BARTOSZ RADOMSKI
+Author-email: your_email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Sports Analytics Package
+
+This Python package provides tools to perform statistical analysis and prediction modeling on sports data, with a focus on soccer/football match outcomes and team statistics. It includes a range of mathematical functions, machine learning models, and visualizations for analyzing match data.
+
+## Features
+
+- **Statistical Calculations**: Functions for calculating expected values, Poisson distribution probabilities, variances, entropies, and more.
+- **Team Statistics**: Calculate team performance metrics such as average goals scored and conceded, match outcomes, and more.
+- **Machine Learning Models**: Training and prediction using various classifiers such as Random Forest, SVM, Naive Bayes, and others.
+- **Visualizations**: Interactive plots for visualizing team statistics, match results, and predictive outcomes, including 3D plots.
+- **Gamma and Beta Functions**: Access to essential mathematical functions, including Gamma, Beta, and Poisson distributions, for statistical modeling.
+
+## Installation
+
+You can install this package using pip by running the following command:
+
+```bash
+pip install sports-analytics-package
+
+git clone https://github.com/yourusername/sports-analytics-package.git
+cd sports-analytics-package
+pip install .
+
+from sports_analysis_package import analiza_statystyczna, rysuj_wykresy
+
+# Example data
+druzyna1 = {'zdobyte': 30, 'stracone': 20}
+druzyna2 = {'zdobyte': 25, 'stracone': 15}
+mecze = 10
+
+# Perform statistical analysis
+statystyki1, statystyki2 = analiza_statystyczna(druzyna1, druzyna2, mecze)
+
+# Visualize the results
+rysuj_wykresy(statystyki1['Ĺ›rednia zdobytych'], statystyki1['Ĺ›rednia straconych'],
+              statystyki2['Ĺ›rednia zdobytych'], statystyki2['Ĺ›rednia straconych'])
+
+
+### How to use:
+1. Place the Python code you provided in a module or package folder (e.g., `sports_analysis_package`).
+2. Include the above `__init__.py` in your main package folder.
+3. Add the `README.md` to the root directory of your project to document the usage and installation steps.
+
+Let me know if you need more details or assistance!
