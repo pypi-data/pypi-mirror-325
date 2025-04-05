@@ -1,0 +1,68 @@
+Metadata-Version: 2.2
+Name: mooda
+Version: 2.0.0
+Summary: Module for Ocean Observatory Data Analysis
+Home-page: https://github.com/rbardaji/mooda
+Author: Raul Bardaji Benach
+Author-email: rbardaji@gmail.com
+License: MIT
+Keywords: ocean,sea,EMODnet,EMSO
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: elasticsearch>=7.8.0
+Requires-Dist: Flask>=1.1.2
+Requires-Dist: matplotlib>=3.3.0
+Requires-Dist: netCDF4>=1.5.3
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: pandas>=1.0.5
+Requires-Dist: plotly>=4.9.0
+Requires-Dist: scikit-learn>=0.23.1
+Requires-Dist: scipy>=1.5.1
+Requires-Dist: xarray>=0.16.0
+Requires-Dist: nbformat>=5.0.7
+Requires-Dist: requests>=2.24.0
+Requires-Dist: ipywidgets>=7.6.3
+Requires-Dist: gsw
+Requires-Dist: statsmodels
+Requires-Dist: stockstats
+Requires-Dist: erddap-python
+Requires-Dist: scikit-learn>=0.23.1
+Requires-Dist: h5netcdf>=0.8.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+
+MOODA - Module for Ocean Observatory Data Analysis
+
+Mooda is a Python package designed mainly for oceanographers and marine science students.
+It provides tools to:
+
+- Open and analyze data files from scientific instrumentation and platforms
+- Perform data quality control
+- Create plots commonly used in the oceanographic community
+- Export data files in netCDF and CSV formats
+
+Documentation: https://github.com/rbardaji/mooda
