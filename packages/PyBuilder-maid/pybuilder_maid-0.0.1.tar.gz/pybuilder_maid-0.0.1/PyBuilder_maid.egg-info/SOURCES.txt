@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PyBuilder-maid/__init__.py
+PyBuilder-maid/test.py
+PyBuilder_maid.egg-info/PKG-INFO
+PyBuilder_maid.egg-info/SOURCES.txt
+PyBuilder_maid.egg-info/dependency_links.txt
+PyBuilder_maid.egg-info/requires.txt
+PyBuilder_maid.egg-info/top_level.txt
