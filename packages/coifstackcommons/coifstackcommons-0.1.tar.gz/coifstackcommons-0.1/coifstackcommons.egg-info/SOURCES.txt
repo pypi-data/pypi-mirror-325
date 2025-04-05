@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+coifstackcommons/__init__.py
+coifstackcommons/auth.py
+coifstackcommons/middleware.py
+coifstackcommons.egg-info/PKG-INFO
+coifstackcommons.egg-info/SOURCES.txt
+coifstackcommons.egg-info/dependency_links.txt
+coifstackcommons.egg-info/requires.txt
+coifstackcommons.egg-info/top_level.txt
