@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/aiofetch/__init__.py
+src/aiofetch/crawler.py
+src/aiofetch/downloader.py
+src/aiofetch/logger.py
+src/aiofetch/utils.py
+src/aiofetch.egg-info/PKG-INFO
+src/aiofetch.egg-info/SOURCES.txt
+src/aiofetch.egg-info/dependency_links.txt
+src/aiofetch.egg-info/requires.txt
+src/aiofetch.egg-info/top_level.txt
+tests/test_content_parser.py
+tests/test_metadata.py
