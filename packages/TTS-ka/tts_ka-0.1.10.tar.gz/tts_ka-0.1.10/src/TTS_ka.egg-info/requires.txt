@@ -1,0 +1,4 @@
+edge-tts
+pyperclip
+keyboard
+pywin32
