@@ -1,0 +1,2 @@
+[console_scripts]
+kickstart-django = kickstart_django.cli:main

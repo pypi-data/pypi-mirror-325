@@ -1,0 +1,11 @@
+kickstart_django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kickstart_django/app_updater.py,sha256=iJiJQTI69zIWGCPdJDLbaMWnIg4usy3ZtCW8jz1WbQI,10579
+kickstart_django/cli.py,sha256=flVhd0gEN-eWvsXJIxB9OenJ6XllujT_fFWsH6huBlM,4058
+kickstart_django/setup_django.py,sha256=tDUjJdH2cYkM9xO0rEarsom8J997iPqBbI7kJaBw_cM,13549
+kickstart_django/utils.py,sha256=kd9OBO4FxUme1eDAv-VVM7jiE7UWxbjzx6QL6xROJGY,4332
+kickstart_django_cli-0.1.0.dist-info/LICENSE,sha256=ln17btG_PQm1IH2VgTzT70PhH3qV0f4UnOjjFyYkKP8,1097
+kickstart_django_cli-0.1.0.dist-info/METADATA,sha256=gDksdH7RBSbpSDKkmfDblbjrIuqD3b7aku38Go4ERmw,2393
+kickstart_django_cli-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+kickstart_django_cli-0.1.0.dist-info/entry_points.txt,sha256=nKM8rwN63t8tsBtkGEPL1VUFxqJmt4T522ONWuYrzBg,63
+kickstart_django_cli-0.1.0.dist-info/top_level.txt,sha256=motAaAyBWjKHi9ecwpJ2fa6WGQrj_PbGO8qtcpm8Nzo,17
+kickstart_django_cli-0.1.0.dist-info/RECORD,,
