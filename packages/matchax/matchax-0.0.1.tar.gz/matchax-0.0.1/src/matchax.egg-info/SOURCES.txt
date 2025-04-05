@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/matchax/__init__.py
+src/matchax/helloworld.py
+src/matchax.egg-info/PKG-INFO
+src/matchax.egg-info/SOURCES.txt
+src/matchax.egg-info/dependency_links.txt
+src/matchax.egg-info/requires.txt
+src/matchax.egg-info/top_level.txt

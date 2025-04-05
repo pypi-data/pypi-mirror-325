@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: matchax
+Version: 0.0.1
+Summary: A JAX library for generative models with diffusion and flow models
+Home-page: https://github.com/shuds13/pyexample
+Author: James Thornton
+Author-email: jamestomthornton@gmail.com
+License: Apache
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Requires-Dist: numpy
