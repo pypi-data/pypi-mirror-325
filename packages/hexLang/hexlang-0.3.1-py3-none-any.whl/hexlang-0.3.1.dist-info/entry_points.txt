@@ -1,0 +1,3 @@
+[console_scripts]
+hexLang=hexLang.__main__:app
+
