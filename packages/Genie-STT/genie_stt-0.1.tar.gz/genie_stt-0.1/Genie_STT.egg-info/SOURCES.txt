@@ -1,0 +1,6 @@
+setup.py
+Genie/__init__.py
+Genie_STT.egg-info/PKG-INFO
+Genie_STT.egg-info/SOURCES.txt
+Genie_STT.egg-info/dependency_links.txt
+Genie_STT.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: Genie-STT
+Version: 0.1
+Summary: this is speech to text package created by samir prasad
+Author: Samir Prasad
+Author-email: samirprasad075@gmail.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary
