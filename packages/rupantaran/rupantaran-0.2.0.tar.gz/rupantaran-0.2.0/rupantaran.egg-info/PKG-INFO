@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rupantaran
+Version: 0.2.0
+Summary: Rupantaran is a Python package that converts various Nepali-specific measurements into SI units or commonly used metric units.
+Home-page: https://github.com/biraj094/rupantaran
+Author: BIRAJ KOIRALA
+Author-email: koiralabiraj@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
