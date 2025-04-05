@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: wqhelp
+Version: 2.0.0
+Summary: Скрипт для получения информации о квестах в World of Warcraft
+Home-page: https://x.com/Lanaev0li
+Author: Avinion
+Author-email: shizofrin@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+# wqhelp
+
+Скрипт для получения информации о квестах в World of Warcraft.
+
+## Установка
+
+Вы можете установить wqhelp с помощью pip:
+
+```
+pip install wqhelp
+```
+
+## Использование
+
+Для запуска скрипта введите в консоли:
+
+```
+wqhelp
+```
+
+------
+
+Обновление 2.0.0
+
+1. Добавил выбор патча.
+
+2. Исправлены ошибки.
+
+------
+
+Затем введите ID квеста, информацию о котором вы хотите получить.
+
+## Автор
+
+Скрипт был создан Avinion.
+Telegram: @akrim
+
+## Лицензия
+
+Этот проект распространяется под лицензией MIT.
