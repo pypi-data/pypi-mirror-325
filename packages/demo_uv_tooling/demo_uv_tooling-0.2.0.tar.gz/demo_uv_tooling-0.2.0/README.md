@@ -1,0 +1,496 @@
+# Demo uv tooling
+
+Demonstrates the modern Python tooling with uv.
+
+## Description
+
+This is a demo for the modern Python tooling of Astral's uv.
+There are several design decisions to be made:
+
+- Use uv via Docker, `docker run ghcr.io/astral-sh/uv help` for example.
+- Use the most recent torch-compatible Python version 3.12.
+- Use anyIO for async I/O, as recommended by FastAPI.
+- Use Pydantic for data validation.
+- Use pytest and pytest-cov for coverage-aware testing.
+- Use Astral's Ruff for fast and comprehensive linting.
+- Use type hints for optional type annotations.
+- Use MyPy for type-checking tooling.
+- Use FastAPI for a modern, high-performance, async web framework.
+- Use Docker for containerization.
+- Use uv run to run tooling like MyPy and Pytest locally.
+- Use HTTPX as a modern HTTP Client to test the application.
+
+## Prerequisites
+
+- [Docker](https://www.docker.com/)
+- [git](https://git-scm.com/)
+- [Python3](https://www.python.org/)
+
+## Clone the repository
+
+```bash
+git clone git@gitlab.com:openknowledge-gmbh/openknowledge/university/learning-hours/learning-hour-uv-tooling.git demo-uv-tooling
+```
+
+## Go to clone
+
+```bash
+cd demo-uv-tooling
+```
+
+> Note: All following commands assume to run in this project's root directory.
+
+## (Re)create a virtual environment
+
+```bash
+rm -rf .venv | true && python3 -m venv .venv
+```
+
+## Upgrade pip
+
+```bash
+.venv/bin/python -m pip install --upgrade pip
+```
+
+```
+[...]
+Successfully installed pip-24.3.1
+```
+
+## Install uv
+
+```bash
+.venv/bin/python -m pip install uv
+```
+
+```
+[...]
+Successfully installed uv-0.5.15
+```
+
+Source: <https://docs.astral.sh/uv/getting-started/installation/>
+
+## Install interpreter
+
+```bash
+.venv/bin/python -m uv python install 3.10 3.11 3.12
+```
+
+```
+Installed 3 versions [...]
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-python-install>
+
+## Get help on uv
+
+```bash
+.venv/bin/python -m uv help
+```
+
+```
+[...]
+Use `uv help` for more details.
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-help>
+
+## Get uv version
+
+```bash
+.venv/bin/python -m uv version
+```
+
+```
+uv 0.5.15 (eb6ad9a4f 2025-01-06)
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-version>
+
+## Initialize an uv project
+
+```bash
+.venv/bin/python -m uv init .
+```
+
+```
+[...]Project is already initialized[...]
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-init>
+
+## Pin Python version
+
+```bash
+.venv/bin/python -m uv python pin 3.12
+```
+
+```
+Pinned `.python-version` to `3.12`
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-python-pin>
+
+## Resolve dependencies
+
+Resolve the dependencies listed in the `pyproject.toml` to the `uv.lock`.
+
+```bash
+.venv/bin/python -m uv lock
+```
+
+```
+Resolved 53 packages in 0.30ms
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-lock>
+
+## Upgrade 
+
+
+--upgrade
+
+## (Resolve &) install dependencies
+
+Ensure the virtual environment `.venv` contains the `uv.lock` dependencies.
+
+```bash
+.venv/bin/python -m uv sync
+```
+
+## Add (& lock & install) dependencies
+
+```bash
+.venv/bin/python -m uv add accelerate
+```
+
+```
+Installed 34 packages in 256ms
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-add>
+
+## Review dependencies
+
+```bash
+.venv/bin/python -m uv tree
+```
+
+```
+[...]
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-tree>
+
+## Remove dependencies
+
+```bash
+.venv/bin/python -m uv remove sentencepiece
+```
+
+```
+Resolved 52 packages in 568ms
+Uninstalled 1 package in 1ms
+ - sentencepiece==0.2.0
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-remove>
+
+## Install Ruff
+
+```bash
+.venv/bin/python -m uv tool install ruff
+```
+
+```
+Installed 1 executable: ruff
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-tool-install>
+
+## Run Ruff
+
+```bash
+.venv/bin/python -m uv tool run ruff check src tests
+```
+
+```
+All checks passed!
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-tool-run>
+
+## Install MyPy
+
+```bash
+.venv/bin/python -m uv tool install mypy
+```
+
+```
+Installed 1 executable: mypy
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-tool-install>
+
+## Run MyPy
+
+```bash
+.venv/bin/python -m uv tool run mypy --install-types src tests
+```
+
+```
+Success: no issues found [...]
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-tool-run>
+
+## Install Pytest
+
+```bash
+.venv/bin/python -m uv tool install pytest
+```
+
+```
+Installed 1 executable: pytest
+```
+
+> TODO Install pytest-cov
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-tool-install>
+
+## Run Pytest
+
+```bash
+# .venv/bin/python -m uv tool run pytest tests
+.venv/bin/python -m pytest tests --cov=src --cov=tests
+```
+
+```
+============================= test session starts ==============================
+[...]
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-tool-run>
+
+## List uv tools
+
+```bash
+.venv/bin/python -m uv tool list
+```
+
+```
+mypy v1.14.1
+- dmypy
+- mypy
+- mypyc
+- stubgen
+- stubtest
+pytest v8.3.4
+- py.test
+- pytest
+ruff v0.8.6
+- ruff
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-tool-list>
+
+## Run the application
+
+```bash
+.venv/bin/python src/text_generation.py
+```
+
+```
+Loading checkpoint shards: 100%|████████████████████████████████████████████████
+Explain quantum computing in simple terms:
+
+Quantum computing represents a significant shift from traditional computing.
+[...]
+```
+
+## Run FastAPI development server with reload
+
+```bash
+.venv/bin/python -m uv run fastapi dev --reload src/main.py
+```
+
+```
+FastAPI   Starting development server 🚀
+```
+
+## List development completions
+
+<http://localhost:8000/completions>
+
+```
+[]
+```
+
+## Stop the development server
+
+Press `Ctrl+C`.
+
+## Run production web server
+
+```bash
+.venv/bin/python -m uv run uvicorn src.main:app --reload
+```
+
+```
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+```
+
+## List production completions
+
+<http://localhost:8000/completions>
+
+```
+[]
+```
+
+## Request a completion
+
+```bash
+curl \
+    -X POST "http://localhost:8000/completions/" \
+    -H "accept: application/json" \
+    -H "Content-Type: application/json" \
+    -d "{\"prompt\":\"Explain quantum computing in simple terms:\"}"
+```
+
+```
+{
+    "prompt":"Explain quantum computing in simple terms:",
+    "response":"Quantum computing is a type of computing.",
+    "id":1
+}
+```
+
+## Stop the production server
+
+Press `Ctrl+C`.
+
+## Install Docker
+
+```bash
+.venv/bin/python -m uv tool install docker
+```
+
+```
+[...]
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-tool-install>
+
+## Build Docker image
+
+```bash
+.venv/bin/python -m uv tool run docker build -t demo-uv-tooling .
+```
+
+```
+[...]
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-tool-run>
+
+## Run Docker container
+
+```bash
+.venv/bin/python -m uv tool run docker run -p 8000:8000 demo-uv-tooling
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-tool-run>
+
+## Request completion
+
+```bash
+curl \
+    -X POST "http://localhost:8000/completions/" \
+    -H "accept: application/json" \
+    -H "Content-Type: application/json" \
+    -d "{\"prompt\":\"Explain quantum computing in simple terms:\"}"
+```
+
+> Note: This takes a lot of time the first time as it downloads the model.
+
+```
+{
+    "prompt":"Explain quantum computing in simple terms:",
+    "response":"Quantum computing is a type of computing.",
+    "id":1
+}
+```
+
+## Stop the container
+
+```bash
+docker stop $(docker ps -q)
+```
+
+## Remove the container
+
+```bash
+docker rm $(docker ps -a -q)
+```
+
+## Remove the image
+
+```bash
+docker rmi demo-uv-tooling
+```
+
+## Build the distribution
+
+```bash
+.venv/bin/python -m uv build
+```
+
+```
+Successfully built [...]
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-build>
+
+## Install the distribution
+
+```bash
+.venv/bin/python -m uv pip install dist/demo_uv_tooling-0.1.0-py3-none-any.whl
+```
+
+```
+Installed 1 package [...]
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-pip-install>
+
+## Install the source editable
+
+```bash
+.venv/bin/python -m uv pip install --editable .
+```
+
+```
+Installed 1 package [...]
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-pip-install>
+
+## Create PyPI API token
+
+- Open <https://pypi.org/manage/account/token/>
+- Save to `.pypi_api_token.txt`.
+
+## Publish the distribution
+
+```bash
+.venv/bin/python -m uv publish \
+    --username=__token__ \
+    --password=$(echo .pypi_api_token.txt)
+```
+
+```
+Uploading demo_uv_tooling [...]
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-publish>
