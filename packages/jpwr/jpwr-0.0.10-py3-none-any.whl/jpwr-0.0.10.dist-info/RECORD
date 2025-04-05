@@ -1,0 +1,15 @@
+jpwr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jpwr/clitool.py,sha256=bWExqTVb6JTNCmqhHxX4VKfkfrhLg101ngRBnelpVDs,6821
+jpwr/ctxmgr.py,sha256=9L-X5Ytd5VmPaS_oaS2nCYkqI_ThidwPpxi9CseYW_Q,2502
+jpwr/gpu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jpwr/gpu/pynvml.py,sha256=4_B9Ey4YtDCMa_epZ2r2ANGhYV0XumKEWCBSg8EJv7Y,706
+jpwr/gpu/rocm.py,sha256=EQMrsU3K0DVwMJcUL5rCYHq6vPbFcKyV8kcxs_Jl_ME,3903
+jpwr/ipu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jpwr/ipu/gc.py,sha256=z4v6ICicoA_LT7CmIAeXbaPuJcidlAfQeKnfjY0w2oU,1064
+jpwr/sys/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jpwr/sys/gh.py,sha256=_jIynfHpYh-PX7HSPXWF9G4HFwqA6xGFct5SVMeE3Jo,1420
+jpwr-0.0.10.dist-info/METADATA,sha256=zmm2NxL9UhjI9y0M9tAZuxVyQSJxrHLHmJXY3LI_G9Q,12021
+jpwr-0.0.10.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+jpwr-0.0.10.dist-info/entry_points.txt,sha256=pUNe1Z38ZJuhDcJl9AnbACK_1V_KfE82Daub-PUt3lk,43
+jpwr-0.0.10.dist-info/licenses/LICENSE,sha256=COh0SJICz8L2apjiRl_i-_RkwyvwbMmscysSTgFcVgA,34518
+jpwr-0.0.10.dist-info/RECORD,,
