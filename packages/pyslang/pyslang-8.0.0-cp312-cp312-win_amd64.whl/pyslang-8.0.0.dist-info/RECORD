@@ -1,0 +1,6 @@
+pyslang/__init__.pyi,sha256=5Nxm18wmwQNA3hp1ghvuUAi6f6wbMKiY7aoTTDRnQn8,694677
+pyslang.cp312-win_amd64.pyd,sha256=4q2QPWr-ZFmvgIfrypew1SiGxZ1-MZ0l3hoXd9YEiME,7322624
+pyslang-8.0.0.dist-info/METADATA,sha256=k713jndcnuAS6LmZZYWFGtOYrKkpWZ-d163YbV45MYk,8418
+pyslang-8.0.0.dist-info/WHEEL,sha256=GgB_RydHGtp7zP9kXrVRu7kuGtdM7WtO3JhH95Vv87o,106
+pyslang-8.0.0.dist-info/licenses/LICENSE,sha256=-efcIgv2RFRDgkn8k4JPLk9tH54pUwBs9Kk4MU6yNLM,1066
+pyslang-8.0.0.dist-info/RECORD,,
