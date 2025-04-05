@@ -1,0 +1,17 @@
+hogwarts_browser_use/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hogwarts_browser_use/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hogwarts_browser_use/model/task.py,sha256=Zyfj6b2Y1I_15tJZMwO2eKWcDMYpLV2OXEv-IsM87TY,421
+hogwarts_browser_use/service/__init__.py,sha256=h5bm3dCEQPUiFEhze1YqcrazonAPKk7occ3qg_1r0gM,254
+hogwarts_browser_use/service/__main__.py,sha256=jfmakkf9R4JXB9txOBIuO10b8V2dribdIxYoS7VqHyA,1342
+hogwarts_browser_use/service/chrome_debug.py,sha256=qkpNoSCy9HTJlwWQ5G9uo-a4YfOxEJRYVXNy8m4dKII,2473
+hogwarts_browser_use/service/controller.py,sha256=bkyd0vCecMZV_HGAWRcAz6c4Go2-ciAHLQ_qkhZ4uWA,823
+hogwarts_browser_use/service/core.py,sha256=aUgGV3l80ZvnrZ2Qy_Y78CCsISllEHN14Ig-hMCH7Qg,968
+hogwarts_browser_use/service/llm_factory.py,sha256=322JJ8Azm6IMyuw3D5LleszU6lkgVHWYaLt12TK2ukE,998
+hogwarts_browser_use/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hogwarts_browser_use/tests/it/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hogwarts_browser_use/tests/it/test_agent.py,sha256=Vf17I-jvt0y2go4KnPBMYBKwhxuB2WlNlz4Jx81dQA0,98
+hogwarts_browser_use-0.1.1.dist-info/METADATA,sha256=0XXiMj3o-DnEBOyuilareUzxPiKgPUT-ZVyArtjKWps,6527
+hogwarts_browser_use-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+hogwarts_browser_use-0.1.1.dist-info/entry_points.txt,sha256=lvLr43LrzNdpLyHoDoI4tkqHS8FUyH7CINMFMX2KhtI,157
+hogwarts_browser_use-0.1.1.dist-info/top_level.txt,sha256=3eOt4rP3wYgR5EBcZZDfjS46HenS4hKSZHOZEGudpzQ,21
+hogwarts_browser_use-0.1.1.dist-info/RECORD,,
