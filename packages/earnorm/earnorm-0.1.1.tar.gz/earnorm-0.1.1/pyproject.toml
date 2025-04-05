@@ -1,0 +1,144 @@
+[tool.poetry]
+name = "earnorm"
+version = "0.1.1"
+description = "EarnBase ORM - Async-first ORM for MongoDB and more"
+authors = ["EarnBase <dev@earnbase.com>"]
+readme = "README.md"
+homepage = "https://github.com/earnbase/earnorm"
+repository = "https://github.com/earnbase/earnorm"
+documentation = "https://earnorm.readthedocs.io"
+keywords = ["orm", "mongodb", "async", "database", "earnbase"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Database",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Framework :: AsyncIO",
+]
+packages = [
+    { include = "earnorm" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+motor = "^3.6.1"
+pymongo = "4.9.2"
+pydantic = "^2.6.1"
+dependency-injector = "^4.45.0"
+typing-extensions = "^4.12.2"
+python-dotenv = "^1.0.1"
+PyYAML = "^6.0.2"
+redis = "^5.2.1"
+prometheus-client = "^0.21.1"
+structlog = "^24.4.0"
+phonenumbers = "^8.13.52"
+asyncpg = "^0.30.0"
+aiomysql = "^0.2.0"
+fastapi = "^0.115.6"
+rich = "^13.9.4"
+psutil = "^6.1.1"
+jsonschema = "^4.23.0"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0.0"
+pytest-asyncio = "^0.23.5"
+pytest-cov = "^4.1.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.0"
+isort = "^5.13.0"
+mypy = "^1.8.0"
+pylint = "^3.0.3"
+pre-commit = "^3.5.0"
+mkdocs = "^1.5.0"
+mkdocs-material = "^9.5.0"
+mkdocstrings = {extras = ["python"], version = "^0.24.0"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+earnorm = "earnorm.cli:main"
+
+[tool.black]
+line-length = 120
+target-version = ['py312']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 120
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --cov=earnorm --cov-report=term-missing"
+
+[tool.coverage.run]
+source = ["earnorm"]
+branch = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "pass",
+    "raise ImportError",
+]
+
+[tool.pylint]
+disable = [
+    "C0111",  # missing-docstring
+    "C0103",  # invalid-name
+    "C0301",  # line-too-long
+    "C0302",  # too-many-lines
+    "C0330",  # wrong-hanging-indentation
+    "C0326",  # bad-whitespace
+    "W0311",  # bad-indentation
+    "W0603",  # global-statement
+    "W0703",  # broad-except
+    "R0903",  # too-few-public-methods
+    "R0913",  # too-many-arguments
+    "R0914",  # too-many-locals
+]
+
+[tool.ruff]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "N",   # pep8-naming
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "RUF", # ruff-specific rules
+]
+ignore = []
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F401"]  # Ignore unused imports in __init__.py files
+
+[tool.ruff.isort]
+known-first-party = ["earnorm"]
+combine-as-imports = true
