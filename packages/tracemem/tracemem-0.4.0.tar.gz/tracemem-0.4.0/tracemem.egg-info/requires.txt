@@ -1,0 +1,9 @@
+psutil
+
+[dev]
+wheel
+black
+pytest
+mypy
+setuptools
+build
