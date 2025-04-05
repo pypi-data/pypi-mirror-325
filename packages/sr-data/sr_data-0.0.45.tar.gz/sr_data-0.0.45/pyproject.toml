@@ -1,0 +1,153 @@
+# The MIT License (MIT)
+#
+# Copyright (c) 2024 Aliaksei Bialiauski
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included
+# in all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+[tool.poetry]
+name = "sr-data"
+version = "0.0.45"
+description = "GitHub repositories to numerical vectors"
+authors = ["h1alexbel <h1alexbelx@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "sr_data", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "==3.10.* || ==3.11.* || ==3.12.*"
+langdetect = "1.0.9"
+pandas = "2.2.3"
+numpy = "<2"
+beautifulsoup4 = "4.13.3"
+markdown = "3.7"
+requests = "2.32.3"
+nltk = "3.9.1"
+cohere = "5.13.11"
+loguru = "0.7.3"
+scikit-fuzzy = "0.5.0"
+markdown-it-py = "3.0.0"
+pyyaml = "6.0.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+
+[tool.poe.tasks.pipeline]
+script = "sr_data.pipeline:main(representation, steps, pipes, out)"
+args = [
+    { name = "representation" },
+    { name = "steps" },
+    { name = "pipes" },
+    { name = "out" }
+]
+
+[tool.poe.tasks.filter]
+script = "sr_data.steps.filter:main(repos, out, filtered)"
+args = [{name = "repos"}, {name = "out"}, {name = "filtered"}]
+
+[tool.poe.tasks.license_filter]
+script = "sr_data.steps.license_filter:main(repos, out)"
+args = [{name = "repos"}, {name = "out"}]
+
+[tool.poe.tasks.extract]
+script = "sr_data.steps.extract:main(repos, out)"
+args = [{name = "repos"}, {name = "out"}]
+
+[tool.poe.tasks.tfidf]
+script = "sr_data.steps.tfidf:main(repos, out)"
+args = [{name = "repos"}, {name = "out"}]
+
+[tool.poe.tasks.embed]
+script = "sr_data.steps.embed:main(repos, prefix, hf, cohere)"
+args = [ {name = "repos"}, {name = "prefix"}, {name = "hf"}, {name = "cohere"} ]
+
+[tool.poe.tasks.numerical]
+script = "sr_data.steps.numerical:main(repos, out)"
+args = [{name = "repos"}, {name = "out"}]
+
+[tool.poe.tasks.scores]
+script = "sr_data.steps.scores:main(repos, out)"
+args = [{name = "repos"}, {name = "out"}]
+
+[tool.poe.tasks.combination]
+script = "sr_data.steps.combination:main(scores, embeddings, dir, identifier)"
+args = [
+    {name = "scores"},
+    {name = "embeddings"},
+    {name = "dir"},
+    {name = "identifier"}
+]
+
+[tool.poe.tasks.pulls]
+script = "sr_data.steps.pulls:main(repos, out, token)"
+args = [{name = "repos"}, {name = "out"}, {name = "token"}]
+
+[tool.poe.tasks.maven]
+script = "sr_data.steps.maven:main(repos, out, token)"
+args = [{name = "repos"}, {name = "out"}, {name = "token"}]
+
+[tool.poe.tasks.swc]
+script = "sr_data.steps.swc:main(repos, out, config)"
+args = [{name = "repos"}, {name = "out"}, {name = "config"}]
+
+[tool.poe.tasks.mcw]
+script = "sr_data.steps.mcw:main(repos, out)"
+args = [{name = "repos"}, {name = "out"}]
+
+[tool.poe.tasks.lens]
+script = "sr_data.steps.lens:main(repos, out)"
+args = [{name = "repos"}, {name = "out"}]
+
+[tool.poe.tasks.final]
+script = "sr_data.steps.final:main(latest, out)"
+args = [{name = "latest"}, {name = "out"}]
+
+[tool.poe.tasks.snippets]
+script = "sr_data.steps.snippets:main(repos, out)"
+args = [{name = "repos"}, {name = "out"}]
+
+[tool.poe.tasks.links]
+script = "sr_data.steps.links:main(repos, out)"
+args = [{name = "repos"}, {name = "out"}]
+
+[tool.poe.tasks.ghmentions]
+script = "sr_data.steps.gh_mentions:main(repos, out)"
+args = [{name = "repos"}, {name = "out"}]
+
+[tool.poe.tasks.junit]
+script = "sr_data.steps.junit_tests:main(repos, out, token)"
+args = [{name = "repos"}, {name = "out"}, {name = "token"}]
+
+[tool.poe.tasks.no_readme]
+script = "sr_data.steps.no_readme:main(repos, out)"
+args = [{name = "repos"}, {name = "out"}]
+
+[tool.poe.tasks.sentiments]
+script = "sr_data.steps.sentiments:main(repos, out)"
+args = [{name = "repos"}, {name = "out"}]
+
+[tool.poe.tasks.workflows]
+script = "sr_data.steps.workflows:main(repos, out)"
+args = [{name = "repos"}, {name = "out"}]
+
+[tool.poe.tasks.merge]
+script = "sr_data.steps.merge:main(datasets, out, branch)"
+args = [{name = "datasets"}, {name = "out"}, {name = "branch"}]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
