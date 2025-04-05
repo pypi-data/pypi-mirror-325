@@ -1,0 +1,8 @@
+requests>=2.32.2.post1
+pywin32
+mutagen
+wmi
+beautifulsoup4
+pyunpack
+rarfile
+py7zr
