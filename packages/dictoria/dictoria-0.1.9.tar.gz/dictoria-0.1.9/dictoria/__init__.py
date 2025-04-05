@@ -1,0 +1,1 @@
+from .dictoria import Dictoria
