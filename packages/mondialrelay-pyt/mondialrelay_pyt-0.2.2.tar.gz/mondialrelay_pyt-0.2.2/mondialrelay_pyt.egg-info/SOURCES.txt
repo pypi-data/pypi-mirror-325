@@ -1,0 +1,9 @@
+README.md
+setup.py
+mondialrelay_pyt/__init__.py
+mondialrelay_pyt/mondialrelay_pyt.py
+mondialrelay_pyt.egg-info/PKG-INFO
+mondialrelay_pyt.egg-info/SOURCES.txt
+mondialrelay_pyt.egg-info/dependency_links.txt
+mondialrelay_pyt.egg-info/requires.txt
+mondialrelay_pyt.egg-info/top_level.txt
