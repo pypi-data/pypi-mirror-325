@@ -1,0 +1,43 @@
+[project]
+name = "cognition-ai"
+dynamic = ["version"]
+description = "Wrapper agent for crewai - Enables dynamic tooling, configuration, and more"
+authors = [{ name = "Nestor Colt", email = "nestor.colt@gmail.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.100.1,<1.0.0",
+    "langchain-community>=0.0.27",
+    "chromadb>=0.4.0",
+    "cognition-core==0.3.0",
+    "cognition-api==0.2.1",
+]
+
+[project.optional-dependencies]
+# Add any git dependencies here
+dev = []
+
+[project.scripts]
+cognition = "cognition.main:run"
+run_crew = "cognition.main:run"
+train = "cognition.main:train"
+replay = "cognition.main:replay"
+test = "cognition.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
+
+[tool.setuptools.dynamic]
+version = { attr = "cognition.__version__" }
+
+[tool.hatch.version]
+path = "src/cognition/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cognition"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
