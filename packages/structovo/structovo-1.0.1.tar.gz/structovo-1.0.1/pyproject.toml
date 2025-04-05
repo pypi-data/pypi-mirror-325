@@ -1,0 +1,30 @@
+[project]
+name = "structovo"
+version = "1.0.1"
+description = "A Python library offering a more concise syntax for data packing."
+license = { text = "MIT" }
+authors = [
+    { name = "GuangChen23333", email = "guangchenworks@outlook.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = [
+    "serialization", "network", "packet", "struct"
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+repository = "https://github.com/GuangChen2333/StructOvO"
+"Bug Tracker" = "https://github.com/GuangChen2333/StructOvO/issues"
+
+[tool.poetry]
+packages = [
+    { include = "structovo", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
