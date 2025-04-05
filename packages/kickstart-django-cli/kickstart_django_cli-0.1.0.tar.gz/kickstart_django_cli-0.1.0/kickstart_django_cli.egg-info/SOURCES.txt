@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+kickstart_django/__init__.py
+kickstart_django/app_updater.py
+kickstart_django/cli.py
+kickstart_django/setup_django.py
+kickstart_django/utils.py
+kickstart_django_cli.egg-info/PKG-INFO
+kickstart_django_cli.egg-info/SOURCES.txt
+kickstart_django_cli.egg-info/dependency_links.txt
+kickstart_django_cli.egg-info/entry_points.txt
+kickstart_django_cli.egg-info/requires.txt
+kickstart_django_cli.egg-info/top_level.txt
