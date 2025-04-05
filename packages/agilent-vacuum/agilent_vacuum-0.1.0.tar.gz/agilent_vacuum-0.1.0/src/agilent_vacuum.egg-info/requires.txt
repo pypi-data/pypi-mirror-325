@@ -1,0 +1,13 @@
+aiofiles>=24.1
+aioserial>=1.3
+pyserial>=3.5
+tenacity>=9.0
+
+[dev]
+ruff
+twine
+
+[test]
+pytest>8.3
+pytest-asyncio>0.24
+pytest-timeout>2.3
