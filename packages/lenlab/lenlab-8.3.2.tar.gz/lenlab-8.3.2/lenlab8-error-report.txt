@@ -1,0 +1,15 @@
+INFO:lenlab.app.main:Lenlab 8.3.2
+INFO:lenlab.app.main:Python 3.12.7 (main, Oct 16 2024, 00:21:24) [MSC v.1929 64 bit (AMD64)]
+INFO:lenlab.app.main:Python Virtual Environment C:\Users\Christoph\devel\lenlab_mspm0\.venv
+INFO:lenlab.app.main:PySide6 6.8.2.1
+INFO:lenlab.app.main:Qt 6.8.2
+INFO:lenlab.app.main:Architecture x86_64
+INFO:lenlab.app.main:Kernel Windows 11 Version 23H2
+INFO:lenlab.controller.lenlab:set reply timeout to 600 ms
+INFO:lenlab.launchpad.discovery:set probe timeout to 600 ms
+INFO:lenlab.launchpad.discovery:find
+INFO:lenlab.launchpad.discovery:available COM3, COM5
+INFO:lenlab.launchpad.discovery:probe COM3
+INFO:lenlab.launchpad.discovery:probe COM5
+INFO:lenlab.launchpad.discovery:select COM3
+INFO:lenlab.launchpad.discovery:terminal COM3 ready
