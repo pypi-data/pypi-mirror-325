@@ -1,0 +1,8 @@
+structovo/__init__.py,sha256=H22GSn8as8DAxY2qzb69aavKp2mdl2PVxhDSGDh-Fc8,83
+structovo/_enums.py,sha256=2bOYYQ4ysw9HCboiOGFz16Tu3IsWWNQzu1M_GGWXo_g,113
+structovo/_packet.py,sha256=l9hex3b91rpnxdTUCtAaB8fSudSFnmIyV7R47ZlnerA,1077
+structovo/_types.py,sha256=LPfQHwtJjgqdXnAs7d5oRit-Xgw0kmlCWNDLZ-mUGoo,6723
+structovo-1.0.1.dist-info/LICENSE,sha256=aNehmyEWBHt5xWfhy_Au7TxqNoQ7p_CIN0-KAy09fsM,1069
+structovo-1.0.1.dist-info/METADATA,sha256=B8FPEOm4_4q7ygkrqV6IFBXYZKbPYuGOmlIwUE3Qplo,3517
+structovo-1.0.1.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+structovo-1.0.1.dist-info/RECORD,,
