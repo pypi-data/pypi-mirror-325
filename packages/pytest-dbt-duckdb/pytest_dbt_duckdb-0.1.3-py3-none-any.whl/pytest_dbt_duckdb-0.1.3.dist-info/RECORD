@@ -1,0 +1,12 @@
+pytest_dbt_duckdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_dbt_duckdb/connector.py,sha256=PdXfIv_AwA8FWyJdq3ii2ogbfKcVT0760GHOOeKhhS4,6061
+pytest_dbt_duckdb/dbt_executor.py,sha256=jH2L3A8w6p2f9tG2Pun2YcqRWNHG3KeMjK6HSzDf864,1959
+pytest_dbt_duckdb/dbt_validator.py,sha256=WE0UwdRJuAJF0u6CiAuSBHqcbVvxjqNmENlWZRWEtzY,6436
+pytest_dbt_duckdb/plugin.py,sha256=DQxV-Pi-0K8UimeQPSME2yEH2z9PDQTHsmUWKxz_9gE,3109
+pytest_dbt_duckdb/snowflake_functions.py,sha256=-DVAdfi1-hplKRHRZsg6eCaR0nf7Hd2CxCopbzVk_yA,2234
+pytest_dbt_duckdb/sql_methods.py,sha256=Uabiv_oN8cAC9VdpgsiKxv6cX8HCFbNKamkPfOMjR5U,706
+pytest_dbt_duckdb-0.1.3.dist-info/METADATA,sha256=HHlKPgA0JnjBJpY0H1ivtpGoZ32ktSP7YPcg2f4TkKY,702
+pytest_dbt_duckdb-0.1.3.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pytest_dbt_duckdb-0.1.3.dist-info/entry_points.txt,sha256=S--Eqoip_WLIOQV08aMzf_wx4BK_NY7c8wdyCRKa1mg,48
+pytest_dbt_duckdb-0.1.3.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytest_dbt_duckdb-0.1.3.dist-info/RECORD,,
