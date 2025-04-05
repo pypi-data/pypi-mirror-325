@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: tiny-eval
+Version: 0.1.0
+Summary: TinyEval: A tiny evaluation framework for language models
+Author-Email: Daniel Tan <dtch1997@users.noreply.github.com>
+License: MIT
+Requires-Python: >=3.11
+Requires-Dist: openrouter>=1.0
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: openai>=1.60.1
+Requires-Dist: ipykernel>=6.29.5
+Requires-Dist: backoff>=2.2.1
+Requires-Dist: fireworks-ai>=0.15.12
+Provides-Extra: experiments
+Requires-Dist: pandas>=2.2.3; extra == "experiments"
+Requires-Dist: streamlit>=1.41.1; extra == "experiments"
+Requires-Dist: matplotlib>=3.10.0; extra == "experiments"
+Requires-Dist: seaborn>=0.13.2; extra == "experiments"
+Requires-Dist: plotly>=6.0.0; extra == "experiments"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.3.4; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.25.3; extra == "dev"
+Requires-Dist: pyright>=1.1.393; extra == "dev"
+Description-Content-Type: text/markdown
+
+# Tiny-Eval
+
+Tiny-Eval is a minimal framework for evaluating language models. It provides a clean, async-first API for interacting with various LLM providers and running evaluation experiments.
+
+## Features
+
+- **Multi-Provider Support**
+  - OpenAI API integration
+  - OpenRouter API integration for access to multiple model providers
+  - Extensible interface for adding new providers
+
+- **Robust API Handling**
+  - Automatic rate limiting with configurable parameters
+  - Built-in exponential backoff retry logic
+  - Async-first design for efficient request handling
+
+- **Evaluation Utilities**
+  - Log probability calculation support
+  - Async function chaining for complex evaluation pipelines
+  - Batch processing capabilities
+
+- **Experiment Framework**
+  - Progress tracking for long-running experiments
+  - Structured data collection and analysis
+  - Built-in visualization tools using Streamlit
+
+## Installation
+
+```bash
+git clone https://github.com/dtch1997/tiny-eval.git
+cd tiny-eval
+pip install -e .
+```
+
+## Usage
+
+Minimal usage is shown as follows:
+
+```python
+import asyncio
+from tiny_eval.core.constants import Model
+from tiny_eval.model_api import build_model_api
+
+async def main():
+    model = Model.GPT_4o_mini
+    api = build_model_api(model)
+    question = "What is the capital of France?"
+    response = await api.get_response(question)
+    print("Question:", question)
+    print("Response:", response)
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+See `examples` for more examples.
