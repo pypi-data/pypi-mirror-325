@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: ftnick_core
+Version: 0.1.0
+Summary: A simple framework for my apps.
+Author: ftnick
+Author-email: ftnick <nicksdistrict@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/ftnick/ftnick_core
+Project-URL: Bug Tracker, https://github.com/ftnick/ftnick_core/issues
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# ftnick_core
+
+ftnick_core is a simple framework for some of my other apps.
+
+## Installation
+
+```sh
+pip install Jinxed

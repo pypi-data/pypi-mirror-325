@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+ftnick_core/__init__.py
+ftnick_core/core.py
+ftnick_core/utils.py
+ftnick_core.egg-info/PKG-INFO
+ftnick_core.egg-info/SOURCES.txt
+ftnick_core.egg-info/dependency_links.txt
+ftnick_core.egg-info/top_level.txt
