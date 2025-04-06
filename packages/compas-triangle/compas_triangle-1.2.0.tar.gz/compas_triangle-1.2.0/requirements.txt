@@ -1,0 +1,2 @@
+triangle
+compas >= 2.4

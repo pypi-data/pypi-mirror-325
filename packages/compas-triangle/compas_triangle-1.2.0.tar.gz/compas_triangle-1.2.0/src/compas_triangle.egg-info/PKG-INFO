@@ -1,0 +1,71 @@
+Metadata-Version: 2.2
+Name: compas_triangle
+Version: 1.2.0
+Summary: COMPAS-firendly wrappers for the Triangle library
+Author-email: tom van mele <tom.v.mele@gmail.com>
+Project-URL: Homepage, https://compas-dev.github.io/compas_triangle
+Project-URL: Documentation, https://compas-dev.github.io/compas_triangle
+Project-URL: Repository, https://github.com/compas-dev/compas_triangle
+Project-URL: Changelog, https://github.com/compas-dev/compas_triangle/blob/main/CHANGELOG.md
+Project-URL: Issues, https://github.com/compas-dev/compas_triangle/issues
+Project-URL: Forum, https://forum.compas-framework.org/
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.Triangle
+License-File: AUTHORS.md
+Requires-Dist: triangle
+Requires-Dist: compas>=2.4
+Provides-Extra: dev
+Requires-Dist: attrs>=17.4; extra == "dev"
+Requires-Dist: black>=22.12.0; extra == "dev"
+Requires-Dist: bump-my-version; extra == "dev"
+Requires-Dist: compas_invocations2; extra == "dev"
+Requires-Dist: compas_notebook; extra == "dev"
+Requires-Dist: compas_viewer; extra == "dev"
+Requires-Dist: invoke>=0.14; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: sphinx_compas2_theme; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: wheel; extra == "dev"
+
+# COMPAS Triangle
+
+COMPAS-firendly wrappers for the Triangle library.
+
+## Installation
+
+Stable releases can be installed from PyPI.
+
+```bash
+pip install compas_triangle
+```
+
+To install the latest version for development, do:
+
+```bash
+git clone https://github.com/blockresearchgroup/compas_triangle.git
+cd compas_triangle
+pip install -e ".[dev]"
+```
+
+## License
+
+`compas_triangle` uses the Cython wrapper for Jonathan Richard Shewchuk's Triangle library.
+The Cython wrapper is available here: <https://github.com/drufat/triangle>
+
+Use of the Triangle library is restricted to personal or academic purposes.
+The license of the library is included in this repo: [LICENSE.Triangle](LICENSE.Triangle)
+
+## Issue Tracker
+
+If you find a bug or if you have a problem with running the code, please file an issue on the [Issue Tracker](https://github.com/compas-dev/compas_triangle/issues).
