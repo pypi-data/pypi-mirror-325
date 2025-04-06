@@ -1,0 +1,57 @@
+Metadata-Version: 2.2
+Name: garf-io
+Version: 0.0.2
+Summary: Handles reading queries and writing GarfReport from garf-core package
+Author-email: "Google Inc. (gTech gPS CSE team)" <no-reply@google.com>
+License: Apache 2.0
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: garf-core
+Requires-Dist: smart_open
+Requires-Dist: rich
+Provides-Extra: bq
+Requires-Dist: google-cloud-bigquery; extra == "bq"
+Requires-Dist: pandas; extra == "bq"
+Requires-Dist: smart_open[gcs]; extra == "bq"
+Provides-Extra: sqlalchemy
+Requires-Dist: sqlalchemy; extra == "sqlalchemy"
+Requires-Dist: pandas; extra == "sqlalchemy"
+Provides-Extra: sheets
+Requires-Dist: gspread; extra == "sheets"
+Provides-Extra: all
+Requires-Dist: garf-io[bq,sheets,sqlalchemy]; extra == "all"
+
+# `garf-io` - Writing GarfReport to anywhere
+
+[![PyPI](https://img.shields.io/pypi/v/garf-io?logo=pypi&logoColor=white&style=flat-square)](https://pypi.org/project/garf-io)
+[![Downloads PyPI](https://img.shields.io/pypi/dw/garf-io?logo=pypi)](https://pypi.org/project/garf-io/)
+
+`garf-io` handles reading queries and writing `GarfReport` to various local/remote storages.
+
+Currently it supports writing data to the following destination:
+
+* Console
+* Local file
+    * CSV
+    * Json
+* Remote file
+    * CSV
+    * Json
+* Databases:
+    * BigQuery
+    * Any DB supported by SqlAlchemy
+* Google Sheets
+
+## Installation
+
+`pip install garf-io`
