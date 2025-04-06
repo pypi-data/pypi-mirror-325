@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+mpyfileopt.egg-info/PKG-INFO
+mpyfileopt.egg-info/SOURCES.txt
+mpyfileopt.egg-info/dependency_links.txt
+mpyfileopt.egg-info/entry_points.txt
+mpyfileopt.egg-info/requires.txt
+mpyfileopt.egg-info/top_level.txt
+mpyfopt/__init__.py
+mpyfopt/mpyfopt.py
+mpyfopt/on_micropython/__init__.py
+mpyfopt/on_micropython/src.py
