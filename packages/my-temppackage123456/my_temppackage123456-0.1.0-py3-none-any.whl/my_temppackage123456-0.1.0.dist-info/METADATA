@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: my-temppackage123456
+Version: 0.1.0
+Summary: 
+Author: Ben Hack
+Author-email: ben@compasslabs.ai
+Requires-Python: ==3.12.7
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+
