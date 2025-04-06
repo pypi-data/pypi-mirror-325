@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "my-temppackage123456"
+version = "0.1.1"
+description = ""
+authors = ["Ben Hack <ben@compasslabs.ai>"]
+readme = "README.md"
+packages = [
+	{include = "my_temppackage123456"},
+	{include = "numpy"}
+]
+
+[tool.poetry.dependencies]
+python = "3.12.7"
+dojo-compass = "^3.8.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
