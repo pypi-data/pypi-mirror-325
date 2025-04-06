@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: QuantSI
+Version: 0.0.post1
+Summary: unit system as used by the Brian2 simulator
+Keywords: SI,SI units,unit system,physical quantities
+Author: Sorin Birchi, Marcel Stimberg, Dan Goodman, Romain Brette
+License: GPLv3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.25
+Requires-Dist: sympy>=1.2
+Provides-Extra: test
+Requires-Dist: pytest>=8.3.4; extra == "test"
+Requires-Dist: pytest-xdist>=1.22.3; extra == "test"
+Requires-Dist: pdm-backend>=2.4.3; extra == "test"
+Provides-Extra: docs
+Requires-Dist: sphinx>=7; extra == "docs"
+Requires-Dist: ipython>=5; extra == "docs"
+Requires-Dist: sphinx-tabs>=3.4.7; extra == "docs"
+Description-Content-Type: text/markdown
+
+# QuantSI
+Work in progress: unit system as used by the Brian2 simulator

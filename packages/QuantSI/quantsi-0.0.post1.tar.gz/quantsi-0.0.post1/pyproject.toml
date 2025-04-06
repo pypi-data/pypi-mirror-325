@@ -1,0 +1,67 @@
+[project]
+name = "QuantSI"
+description = "unit system as used by the Brian2 simulator"
+authors = [
+    { name = "Sorin Birchi" },
+    { name = "Marcel Stimberg" },
+    { name = "Dan Goodman" },
+    { name = "Romain Brette" },
+]
+dependencies = [
+    "numpy>=1.25",
+    "sympy>=1.2",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+keywords = [
+    "SI",
+    "SI units",
+    "unit system",
+    "physical quantities",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+]
+dynamic = []
+version = "0.0.post1"
+
+[project.license]
+text = "GPLv3"
+
+[project.optional-dependencies]
+test = [
+    "pytest>=8.3.4",
+    "pytest-xdist>=1.22.3",
+    "pdm-backend>=2.4.3",
+]
+docs = [
+    "sphinx>=7",
+    "ipython>=5",
+    "sphinx-tabs>=3.4.7",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.version]
+source = "scm"
+tag_filter = "v*"
+version_format = "src.version_helper:format_version"
+write_to = "QuantSI/_version.py"
+write_template = "__version__ = '{}'"
+
+[tool.pytest.ini_options]
+addopts = "-ra"
