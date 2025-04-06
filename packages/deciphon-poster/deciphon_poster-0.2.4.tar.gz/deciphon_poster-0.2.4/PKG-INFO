@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: deciphon-poster
+Version: 0.2.4
+Summary: Poster for Deciphon scheduler.
+Author-email: Danilo Horta <danilo.horta@pm.me>
+License-Expression: MIT
+Requires-Python: ~=3.10
+Requires-Dist: deciphon-core<2,>=1.0.7
+Requires-Dist: deciphon-schema>=0.1.2
+Requires-Dist: pydantic<3,>=2.9.2
+Requires-Dist: requests-toolbelt<2,>=1.0.0
+Requires-Dist: requests<3,>=2.32.3
+Description-Content-Type: text/markdown
+
+# deciphon-poster
