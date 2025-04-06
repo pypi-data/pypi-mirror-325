@@ -1,0 +1,3 @@
+[console_scripts]
+make-readme=scripts.make_readme:main
+
