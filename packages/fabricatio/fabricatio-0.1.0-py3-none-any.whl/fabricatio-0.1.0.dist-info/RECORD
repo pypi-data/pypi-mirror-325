@@ -1,0 +1,16 @@
+fabricatio/__init__.py,sha256=eyBnyKBsNZJOuHwVoDNCpLNdTj3a_B2raHtHh8dsgSg,420
+fabricatio/config.py,sha256=aYvBVyJ3TBA6neDYJroxRKNEGgPA1Q8ncKE1YMH7jKU,3605
+fabricatio/core.py,sha256=XVvhpgR4BNDkhWnxTDouw8qyT0v--xKeRjp2BiRMO4E,5194
+fabricatio/fs.py,sha256=EBcqgSmsVWAKDm0ceiJ4IYYGPgP_qlO7tNl1O4tYUBk,30
+fabricatio/logger.py,sha256=NwfIbSvFnhOrkCREyU_WDC80c3DTJr9NA4OH8oZmrXE,581
+fabricatio/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fabricatio/models/action.py,sha256=6KAeG5MWnWQzsj_SrQAKkIMduTv1Ry4Bc_v7LRXfjfM,585
+fabricatio/models/events.py,sha256=0VtavawE3H60ICOFa1eb-t2Iunl0zhvq0PikzGCE1rw,1978
+fabricatio/models/generic.py,sha256=3CUCgXRVx_qKj-jTKh6GJ2jggRPHRwRXlNcOe_c6wlM,10624
+fabricatio/models/role.py,sha256=0OZX724IsQwmjdVecJxst0TSo_UcJKI_rlJBEFOgD9o,410
+fabricatio/models/tool.py,sha256=_Cj5yG447M5dQNFSu08bMuyVLmA7QZGvtAziyeNqJa0,2871
+fabricatio/models/utils.py,sha256=TT4m7CymJXSVc_bqI9k6Inymj3AHbz7bh2tVgw4LW7Y,2491
+fabricatio-0.1.0.dist-info/METADATA,sha256=ltTqOsOFVwkaRV8HIvrGuBf21wt9P-EyfmFMSIHEnkw,2082
+fabricatio-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+fabricatio-0.1.0.dist-info/licenses/LICENSE,sha256=do7J7EiCGbq0QPbMAL_FqLYufXpHnCnXBOuqVPwSV8Y,1088
+fabricatio-0.1.0.dist-info/RECORD,,
