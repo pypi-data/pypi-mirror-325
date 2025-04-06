@@ -1,0 +1,6 @@
+README.md
+setup.py
+mymathlib_ismail11_shma.egg-info/PKG-INFO
+mymathlib_ismail11_shma.egg-info/SOURCES.txt
+mymathlib_ismail11_shma.egg-info/dependency_links.txt
+mymathlib_ismail11_shma.egg-info/top_level.txt
