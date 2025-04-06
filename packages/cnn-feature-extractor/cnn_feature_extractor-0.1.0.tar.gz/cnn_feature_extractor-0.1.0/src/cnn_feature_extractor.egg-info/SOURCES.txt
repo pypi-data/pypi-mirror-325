@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/cnn_feature_extractor/__init__.py
+src/cnn_feature_extractor.egg-info/PKG-INFO
+src/cnn_feature_extractor.egg-info/SOURCES.txt
+src/cnn_feature_extractor.egg-info/dependency_links.txt
+src/cnn_feature_extractor.egg-info/requires.txt
+src/cnn_feature_extractor.egg-info/top_level.txt
