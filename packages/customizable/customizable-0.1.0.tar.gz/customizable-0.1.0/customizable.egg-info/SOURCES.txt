@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+customizable.egg-info/PKG-INFO
+customizable.egg-info/SOURCES.txt
+customizable.egg-info/dependency_links.txt
+customizable.egg-info/requires.txt
+customizable.egg-info/top_level.txt
+tests/__init__.py
+tests/test_complex_config_module.py
+tests/test_config_module.py
