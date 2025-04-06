@@ -1,0 +1,8 @@
+dmstockapi/__init__.py,sha256=WWw9eCr-ANuJevzTYFm31zxCZ4EmlVqP9AaDqQcxjis,160
+dmstockapi/client.py,sha256=Fgy_hyn1Bsh4xMPULWnV4XTTea_wKA-6kw_QRkNXF2U,10475
+dmstockapi/exceptions.py,sha256=CkuGpuc_CpgASeQKXLV29UuEFjTbH-wuPxny-i5GNRo,1052
+dmstockapi/future_client.py,sha256=Iy2C-bNMfCHJY0wjVH8smSXtpZoxnlQm9-hsmVExed8,4064
+dmstockapi2-0.2.0.dist-info/METADATA,sha256=Et9NY3lhSvM4A_2HvRC0HdvuodevkammEQrZRddN4RY,184
+dmstockapi2-0.2.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+dmstockapi2-0.2.0.dist-info/top_level.txt,sha256=3ERxNSdYoBRlqZDXoV_t6Nx7jpDX-ANxWQggOyHc3rQ,11
+dmstockapi2-0.2.0.dist-info/RECORD,,
