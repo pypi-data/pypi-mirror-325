@@ -1,0 +1,10 @@
+aiofetch/__init__.py,sha256=0yOc_s66y2oGTew0E39c4_RkpL7vF58aq7D9FzIKxOA,736
+aiofetch/crawler.py,sha256=soNag9q2f7Y0xhqgaRGfQmQISI73r-U9og4gNNt_qm0,6855
+aiofetch/downloader.py,sha256=9Svdpbp3365X25bGn7zkZKr1tMCbJvQPgTQb_CIOpU4,4239
+aiofetch/logger.py,sha256=gbJewC_nVeOLkAIL0rKpEUOLHHCAKSvSNhwCJpMGg9A,4477
+aiofetch/utils.py,sha256=cwdk5zV3hkLuqzFyBMI63Cfb_jq1uuyZQTkF2fixxIo,16200
+aiofetch-0.0.6.dist-info/LICENSE.md,sha256=bG7Mav4rmt3o7INeyRBqB2JV-xZA4cnWPdjNSjT0Q00,1083
+aiofetch-0.0.6.dist-info/METADATA,sha256=QOtcEoc-LsY0P2ocqa14z1tqJ7G8gYkLZomPLah0MNk,6809
+aiofetch-0.0.6.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+aiofetch-0.0.6.dist-info/top_level.txt,sha256=BMW14qErESyZavH_bflNpienrf8tam0xbGj2agkSfEw,9
+aiofetch-0.0.6.dist-info/RECORD,,
