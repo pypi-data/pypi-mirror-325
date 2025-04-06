@@ -1,0 +1,9 @@
+LICENCE,sha256=hgHUqCmk9yrJ70cqGNHzt5VA-4V7h3fiy8vh-qivyEc,1583
+gcages-0.1.0.dist-info/METADATA,sha256=1nsLKyElRPQYM8Lv5gYPfpq-myF5m4kK875QoaQjMj0,6687
+gcages-0.1.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+gcages-0.1.0.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+gcages-0.1.0.dist-info/licenses/LICENCE,sha256=hgHUqCmk9yrJ70cqGNHzt5VA-4V7h3fiy8vh-qivyEc,1583
+gcages/__init__.py,sha256=BXycWknqvkuo3ldUiq5sQZIQZAcJOX0wEFc8ywmXO6k,220
+gcages/operations.py,sha256=dhc67dRF2EqSgMSK2TbtQc7p0PyqFzseK1lrP1qCyO8,511
+gcages/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gcages-0.1.0.dist-info/RECORD,,
