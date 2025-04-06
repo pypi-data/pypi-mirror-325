@@ -1,0 +1,44 @@
+Metadata-Version: 2.2
+Name: rokon
+Version: 3.0.4
+Summary: A collection of RNet (lightweight CNN) models
+Home-page: https://github.com/rokayon/rokon
+Author: Rokonozzaman Ayon
+Author-email: rokayon.cse@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow>=2.18.0
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: matplotlib>=3.3.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Rokon Package
+
+This package contains custom models for deep learning, specifically RNet models. You can use the following models in your projects:
+
+- RNet1
+- RNet2
+- RNet3
+- RNet4
+- RNet5
+- RNet6
+- RNet7
+- RNet8
+
+## Installation
+
+To install the package, run the following command:
+
+```bash
+!pip install rokon
