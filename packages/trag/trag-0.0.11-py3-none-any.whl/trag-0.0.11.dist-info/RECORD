@@ -1,0 +1,13 @@
+trag/__init__.py,sha256=f1CygudUKbOfCVfHWi4EsqcGBzr-s0satSUbbLo2E4Q,229
+trag/cli.hy,sha256=0z-dcZvJXQsD2uzrYeipUM_mNf7BqhZKtGjoE6TmjH0,921
+trag/retrieve.hy,sha256=OCnPGMgl7rgjCX-hlMbTggdRca77dEP6RXZ71hSQmmM,8968
+trag/template.hy,sha256=Vw7RSTdPjdubEj0xY5FfSwueM5CU25A5er9CW7Lpa-k,3852
+trag/templates/latex.toml,sha256=CSp5ntHR6Vs2M4-xhw40zVt-VHlLB3WE6GlfKyYWOO0,1209
+trag/templates/retrieval.toml,sha256=4Hd-ik9gunY62HLdbwxv0Ub0JUGS9c8QR81g1KIGTn8,2417
+trag/templates/summary.toml,sha256=jMnX25U6_6yoT2iL_oh5s4swb0G4j0P-vC8MsKl0_j0,1265
+trag-0.0.11.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+trag-0.0.11.dist-info/METADATA,sha256=ZuLZ0CHLTmM7EXjLrAgCwodCviKz_L7b5_PFFMYXYDw,41962
+trag-0.0.11.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+trag-0.0.11.dist-info/entry_points.txt,sha256=khKq-vv9Dum3n9qftpEssP1xe3Jb0NuHbErRcxVjhmE,38
+trag-0.0.11.dist-info/top_level.txt,sha256=OiTStp1LhhxkNVU9RA3O2Bv5E4GhHyHtSVTRs4t-Qeg,5
+trag-0.0.11.dist-info/RECORD,,
