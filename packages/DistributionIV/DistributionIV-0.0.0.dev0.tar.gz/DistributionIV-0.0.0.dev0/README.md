@@ -1,0 +1,30 @@
+# Distributional Instrumental Variable Method (DIV)
+
+Distributional Instrumental Variable Method is a neural network-based method to estimate distributional causal effects (interventional distributions) proposed in the paper "[*Distributional Instrumental Variable Method*]()" by A. Holovchak, S. Saengkyongam, N. Meinshausen and X. Shen (2025). 
+
+
+## Installation
+The latest release of the Python package can be installed through pip:
+```sh
+pip install div
+```
+
+
+## Usage Example
+
+```python
+from div import DIV
+
+## Fit a DIV model to data (x, y, z)
+model = DIV(1, 1, 1, num_layer=4)
+model.train(x, y, z, 10000, print_every_iter=1000)
+
+## Evaluation
+x_eval = torch.linspace(x.min(), x.max(), 5000).unsqueeze(1)
+## interventional mean function
+y_est_mean = model.predict_causal(x_eval, sample_size=1000)
+```
+
+
+## Contact information
+If you meet any problems with the code, please submit an issue or contact [Xinwei Shen](mailto:xinwei.shen@stat.math.ethz.ch).
