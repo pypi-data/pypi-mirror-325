@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: demo_project_2025_02_07
+Version: 0.0.1
+Summary: Demonstration PyPI Upload
+Author-email: Thomas Benkenstein <thomas.benkenstein@experteach.de>
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=2.0.0
+Requires-Dist: pandas
+
+# Demo Projekt
+
+Demonstration eines Uploads auf den Python Package Index.
+Nachmachen ist erwünscht ;-)
