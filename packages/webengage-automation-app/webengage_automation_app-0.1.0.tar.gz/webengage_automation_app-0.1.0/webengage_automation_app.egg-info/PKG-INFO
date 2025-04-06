@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: webengage-automation-app
+Version: 0.1.0
+Summary: Webengage internal tool to send the app logs to their API for testing the data with DataModel
+Home-page: https://www.webengage.com/
+Author: Nipun Patel
+Author-email: nipunp27@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# WebEngage Automation Tool
+
+## Overview
+
+WebEngage Automation is an internal auditing tool designed for **Android applications**. It ensures that all data sent to WebEngage by customers adheres to the expected format. This is crucial for maintaining accuracy and consistency in event tracking and analytics.
+
+## How It Works
+
+- The tool captures **Android application logs** in real-time.
+- It extracts logs related to event tracking and forwards them to a user-specified **endpoint**.
+- Once the auditing session starts, logs are continuously sent until the auditor manually closes the session.
+- These logs are later processed by the **internal WebEngage AI tools** to generate **data accuracy insights**.
+
+## Installation
+
+To install the package, run:
+
+```sh
+pip install webengage-automation-app
+```
+
+## Usage
+
+Run the following command to start tracking logs:
+
+```sh
+track --webengage-android <YOUR_ENDPOINT_URL>
+```
+
+Replace `<YOUR_ENDPOINT_URL>` with the API endpoint where logs should be sent.
+
+## Legal Notice
+
+This tool is an **internal property** of **WebEngage** and is strictly for **auditing purposes**. It is owned by **Nipun Patel (Copyright)** and any misuse, unauthorized distribution, or external sharing will lead to **legal consequences**.
+
+---
+
+Â© WebEngage. All rights reserved.
