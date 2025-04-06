@@ -1,0 +1,9 @@
+prometheus_remote_writer/__init__.py,sha256=4CLv0eXt1Eo2pyAK-zK1DgssoW591bNIPxJ5jcrn-Ac,3408
+prometheus_remote_writer/proto/gogoproto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prometheus_remote_writer/proto/gogoproto/gogo_pb2.py,sha256=1HYkk6f37MD87BSCX1nfphm73eD1bEuCD6ZGiMdMDpA,7941
+prometheus_remote_writer/proto/remote_pb2.py,sha256=gw8a9I6ya5awvHb_SN2h_YY47gwOxBNqSW1y4kH9inU,3509
+prometheus_remote_writer/proto/types_pb2.py,sha256=v8-TXaLJSBAbXxBtyMPD_kn3aNVtNGYIayF-k3Ee5WE,8044
+prometheus_remote_writer-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+prometheus_remote_writer-0.0.2.dist-info/METADATA,sha256=B1K-LqYl3ij9AM5aBhpwuk238J9r28lDKNXEe4GT_4Q,3838
+prometheus_remote_writer-0.0.2.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+prometheus_remote_writer-0.0.2.dist-info/RECORD,,
