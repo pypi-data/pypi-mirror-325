@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: playervectors
+Version: 0.1.0
+Summary: A package to summarise the playing styles of individual football players.
+Author: Raphael Senn
+Author-email: raphaelsenn@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+License-File: LICENSE
+Requires-Dist: seaborn
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

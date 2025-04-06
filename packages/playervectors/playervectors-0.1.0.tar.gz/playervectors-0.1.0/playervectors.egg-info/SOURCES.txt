@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+playervectors/__init__.py
+playervectors/extract_data.py
+playervectors/playervectors.py
+playervectors.egg-info/PKG-INFO
+playervectors.egg-info/SOURCES.txt
+playervectors.egg-info/dependency_links.txt
+playervectors.egg-info/requires.txt
+playervectors.egg-info/top_level.txt
