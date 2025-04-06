@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+gcloud_cache/__init__.py
+gcloud_cache/cache.py
+gcloud_cache/storage.py
+gcloud_cache.egg-info/PKG-INFO
+gcloud_cache.egg-info/SOURCES.txt
+gcloud_cache.egg-info/dependency_links.txt
+gcloud_cache.egg-info/requires.txt
+gcloud_cache.egg-info/top_level.txt
