@@ -1,0 +1,12 @@
+pylak/__init__.py,sha256=JK9SNvIxTqRSFDrclQXHrhV_kcC93e2DCC0jqXfhPjo,456
+pylak/animation.py,sha256=Xt-tdfqPfENmrWN-Dn-VW2tzdtp-CMhm8zpZbphhEeI,5111
+pylak/collider.py,sha256=vtHzePtgqXYHJUzLqPMREoGVNr-WK-zlQUaI3G3tMw8,931
+pylak/engine.py,sha256=1zh1IRfXRe4BRTfuBqiaBoJyaVcMLF5HOOn6twai1pI,4233
+pylak/physics.py,sha256=5-qbj-7ZlQzvvLhAFirlKes2KIrUv-gCouKKT7frjRg,4966
+pylak/player.py,sha256=5mTfGBYhcJiJRePnVwifg7Wt60J5I3zduBxpDcYOpEw,1139
+pylak/robot.py,sha256=-JTiK4AKTCq1qlojNBnY_Zzq3MeqxCjQ6_iN-xPIfkk,4218
+pylak-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pylak-0.0.2.dist-info/METADATA,sha256=7xcXhi7yzeGMubCdb35ptf9XmGFkuwTCCTFhbBbsqVY,607
+pylak-0.0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pylak-0.0.2.dist-info/top_level.txt,sha256=tVoMB9YBx9FjW1A8PfQ75odGISv5DflO8MLzRsaHziQ,6
+pylak-0.0.2.dist-info/RECORD,,
