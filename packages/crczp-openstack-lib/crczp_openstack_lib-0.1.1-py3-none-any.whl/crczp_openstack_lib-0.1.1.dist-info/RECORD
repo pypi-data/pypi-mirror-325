@@ -1,0 +1,11 @@
+crczp/openstack_driver/__init__.py,sha256=BTZuaU_UOYc9LjhHSs4i4V3swJaGEgN4QzvE6xEQ2J4,115
+crczp/openstack_driver/decorators.py,sha256=Bdx1YcoQhD8y2KbkfJZOGKV_yqR9GI2B8C5-QGo5x8U,691
+crczp/openstack_driver/open_stack_client.py,sha256=nXd1SVdebbE-hko-zE2y47qPZIeiy6iRppXRzlxnJz8,7692
+crczp/openstack_driver/open_stack_proxy.py,sha256=HD5QTn_d_pCsLPk6jc5DJHuoWia0FLfhIcAsrAfOGrU,13867
+crczp/openstack_driver/templates/terraform-deploy-template.j2,sha256=sh578KBxbLik4C3ILnmRcqjbu6dBLm9c0rG1Pswcj2o,5980
+crczp/openstack_driver/templates/terraform-provider-template.j2,sha256=cdQIAYcrD00HQBXuqlxSUpBZ_dfXpdT421WaXMmUeRI,465
+crczp/openstack_driver/utils.py,sha256=zzLoXPM2tRi0Hzlg4k05z-fmmaoDqdiQ5hPFzMIOheY,4018
+crczp_openstack_lib-0.1.1.dist-info/LICENSE,sha256=TVPm-LYe3aihw4C57s4TZDYneYSAnQWK1hHBt8m4iGw,1107
+crczp_openstack_lib-0.1.1.dist-info/METADATA,sha256=PrfZVfGn7YgeLxLI4TER8Hsv_-tvq6t7yBn7EDFPnug,2226
+crczp_openstack_lib-0.1.1.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+crczp_openstack_lib-0.1.1.dist-info/RECORD,,
