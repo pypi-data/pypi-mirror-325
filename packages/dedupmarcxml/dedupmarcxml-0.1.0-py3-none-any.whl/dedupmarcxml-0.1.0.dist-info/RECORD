@@ -1,0 +1,15 @@
+dedupmarcxml/__init__.py,sha256=APVdfodVEV9vwrGAUyYNgS1RaJpuY1Wxzo2LanDJMN8,108
+dedupmarcxml/briefrecord.py,sha256=C5oOTITcIjC4fhS4wIQ2_hO1y6q1ouFbf-XYjFpmPag,28094
+dedupmarcxml/evaluate.py,sha256=xcjTI7w-LYt-gu2AbiStIhwI6HkNLy_9z-M92AuPToA,14794
+dedupmarcxml/tools.py,sha256=VLqvKSGq35xNwCsZx-2l35BJ2PbcsiL5rUnBZFBR7tg,8716
+dedupmarcxml/score/__init__.py,sha256=GM4Kb0AA19VS2TLPckyUi3dYQpvzIYRvTv6Ir0uk_Ds,176
+dedupmarcxml/score/editions.py,sha256=kfDngfxEF_f1oeRoPLeZnlYZB84z284Uu0wgnOy-y9M,1654
+dedupmarcxml/score/extent.py,sha256=QCgF5JM8gtjqOE945y9t2p1U9fE2Z7lM2Dd5Jdm0YNI,1154
+dedupmarcxml/score/methods.py,sha256=aWTCQ3qMAsee35jLMRH75yw6grRP5Yso2EdtjSEW-14,514
+dedupmarcxml/score/names.py,sha256=Iqo0CaIvu9BV9HxQGvj5alguHjO6G5hiswH45EhwTU8,3557
+dedupmarcxml/score/publishers.py,sha256=q8yUnrutQj2nUFEd6WoKTIKT_cVMpNBjy76JDLNFBMI,7219
+dedupmarcxml-0.1.0.dist-info/METADATA,sha256=SxHYitEFXIsloiY1agDpW0FdsoMDcs42-duQ-mGXLQU,1298
+dedupmarcxml-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+dedupmarcxml-0.1.0.dist-info/license.txt,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+dedupmarcxml-0.1.0.dist-info/top_level.txt,sha256=oJJUxxoMHj8OCbeCHBnk2lYEBA2NYAi8X_bG0nbfIPo,13
+dedupmarcxml-0.1.0.dist-info/RECORD,,
