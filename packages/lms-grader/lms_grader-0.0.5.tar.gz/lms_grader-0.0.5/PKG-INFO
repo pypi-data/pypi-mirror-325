@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: lms-grader
+Version: 0.0.5
+Summary: A Learning Management System Grader.
+Author: nqabenhle
+Author-email: nqmlabajhb024@student.wethinkcode.co.za
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: certifi (>=2025.1.31,<2026.0.0)
+Requires-Dist: charset-normalizer (==3.4.1)
+Requires-Dist: colorful-test (==1.0.1)
+Requires-Dist: idna (==3.10)
+Requires-Dist: python-gitlab (==5.6.0)
+Requires-Dist: requests (==2.32.3)
+Requires-Dist: requests-toolbelt (==1.0.0)
+Requires-Dist: urllib3 (==2.3.0)
+Description-Content-Type: text/markdown
+
+# LMS Grader
+
