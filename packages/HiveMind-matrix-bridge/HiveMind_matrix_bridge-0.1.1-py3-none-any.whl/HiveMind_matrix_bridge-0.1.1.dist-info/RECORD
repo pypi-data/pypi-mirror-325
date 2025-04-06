@@ -1,0 +1,10 @@
+hm_matrix_bridge/__init__.py,sha256=HdfHSVOAWukLGCUptRiLaCaRrQeDsL5lemXpQIOsI2w,1464
+hm_matrix_bridge/__main__.py,sha256=no1udi238vwW0Mvv28sfo5ODX7NFI_Kz8isoSEoPuw0,913
+hm_matrix_bridge/matrixapi.py,sha256=EKKjGIHHuCKOdd57d7newyRZR_-vz38pXfV8fpyh4WM,2977
+hm_matrix_bridge/version.py,sha256=YO17Z54RmHA5oRw9Kj8GqtARGSultBm53Tz4k26JgYE,114
+HiveMind_matrix_bridge-0.1.1.dist-info/LICENSE,sha256=fhKaz7wNdSCssQhbW9POMI1H4ZdfQiaYLd7fApHD6ZQ,11349
+HiveMind_matrix_bridge-0.1.1.dist-info/METADATA,sha256=o-unkVgc4YQLeQ1YcOpm83TaWxSnrHcyRFRnHSLGR0Y,960
+HiveMind_matrix_bridge-0.1.1.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+HiveMind_matrix_bridge-0.1.1.dist-info/entry_points.txt,sha256=WS6QXA0kQcOvLR22NSktOq1luVnqt4SEuZtnDl24Cmo,67
+HiveMind_matrix_bridge-0.1.1.dist-info/top_level.txt,sha256=K7mGJ7cgNI0A5nxBnqcMC4kwcbk63s8VLiE_r8pTYKU,17
+HiveMind_matrix_bridge-0.1.1.dist-info/RECORD,,
