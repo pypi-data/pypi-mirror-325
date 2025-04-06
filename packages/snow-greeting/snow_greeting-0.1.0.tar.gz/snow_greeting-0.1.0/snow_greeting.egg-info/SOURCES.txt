@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+greetings_snow/__init__.py
+greetings_snow/greetings.py
+snow_greeting.egg-info/PKG-INFO
+snow_greeting.egg-info/SOURCES.txt
+snow_greeting.egg-info/dependency_links.txt
+snow_greeting.egg-info/top_level.txt
