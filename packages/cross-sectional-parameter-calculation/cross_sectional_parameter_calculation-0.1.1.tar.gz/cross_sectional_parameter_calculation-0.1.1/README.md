@@ -1,0 +1,122 @@
+# 环形截面参数计算库
+
+## 简介
+这是一个用于计算环形几何属性的Python库，支持多种单位和常见计算，包括环形面积、惯性矩和回转半径。
+
+## 安装
+可以通过以下方式安装本库：
+
+~~~cmd
+```bash
+pip install cross_sectional_parameter_calculation
+~~~
+
+## 快速入门
+
+### 导入库
+
+在使用之前，首先需要导入库：
+
+```python
+from cross_sectional_parameter_calculation import annular_area_mm2, annular_area_cm2, annular_area_m2, annular_moment_of_inertia_mm4, annular_moment_of_inertia_cm4, annular_moment_of_inertia_m4, annular_radius_of_gyration_mm, annular_radius_of_gyration_cm, annular_radius_of_gyration_m
+```
+
+### 计算环形面积
+
+#### 单位为毫米（mm²）
+
+```python
+area_mm2 = annular_area_mm2(diameter_mm=100, thickness_mm=5)
+print(f"环形面积（mm²）：{area_mm2}")
+```
+
+#### 单位为厘米（cm²）
+
+```python
+area_cm2 = annular_area_cm2(diameter_cm=10, thickness_cm=0.5)
+print(f"环形面积（cm²）：{area_cm2}")
+```
+
+#### 单位为米（m²）
+
+```python
+area_m2 = annular_area_m2(diameter_m=0.1, thickness_m=0.005)
+print(f"环形面积（m²）：{area_m2}")
+```
+
+### 计算环形惯性矩
+
+#### 单位为毫米（mm⁴）
+
+```python
+moment_mm4 = annular_moment_of_inertia_mm4(diameter_mm=100, thickness_mm=5)
+print(f"环形惯性矩（mm⁴）：{moment_mm4}")
+```
+
+#### 单位为厘米（cm⁴）
+
+```python
+moment_cm4 = annular_moment_of_inertia_cm4(diameter_cm=10, thickness_cm=0.5)
+print(f"环形惯性矩（cm⁴）：{moment_cm4}")
+```
+
+#### 单位为米（m⁴）
+
+```python
+moment_m4 = annular_moment_of_inertia_m4(diameter_m=0.1, thickness_m=0.005)
+print(f"环形惯性矩（m⁴）：{moment_m4}")
+```
+
+### 计算环形回转半径
+
+#### 单位为毫米（mm）
+
+```python
+radius_mm = annular_radius_of_gyration_mm(diameter_mm=100, thickness_mm=5)
+print(f"环形回转半径（mm）：{radius_mm}")
+```
+
+#### 单位为厘米（cm）
+
+```python
+radius_cm = annular_radius_of_gyration_cm(diameter_cm=10, thickness_cm=0.5)
+print(f"环形回转半径（cm）：{radius_cm}")
+```
+
+#### 单位为米（m）
+
+```python
+radius_m = annular_radius_of_gyration_m(diameter_m=0.1, thickness_m=0.005)
+print(f"环形回转半径（m）：{radius_m}")
+```
+
+## 函数说明
+
+### 基础函数
+
+- `annular_area_*`: 计算环形面积。
+- `annular_moment_of_inertia_*`: 计算环形惯性矩。
+- `annular_radius_of_gyration_*`: 计算环形回转半径。
+
+### 输入参数
+
+- `diameter_*`: 环形外径。
+- `thickness_*`: 环形厚度。
+
+### 注意事项
+
+- 所有输入参数必须为正数。
+- 单位转换函数支持`mm`（毫米）、`cm`（厘米）、`m`（米）。
+- 
+
+## 许可证
+
+本项目使用 [MIT 许可证](LICENSE.txt)
+
+## 联系方式
+
+如果有任何问题或建议，请联系 [2727671635@QQ.COM]。
+
+## 致谢
+
+这是我的第一个开源项目，它非常的简单，但是对于我这个python初学者而言，它雀食耗费了我一些精力，这个项目里也学到了一些东西，同时，非常感谢互联网开源的大佬们，使得我能够从他们那里学到很多东西，并且享受他们成果带来的便捷。
