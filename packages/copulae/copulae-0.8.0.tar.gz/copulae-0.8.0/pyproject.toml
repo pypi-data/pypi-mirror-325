@@ -1,0 +1,93 @@
+[project]
+name = "copulae"
+version = "0.8.0"
+authors = [
+    { name = "Daniel Bok", email = "daniel.bok@outlook.com" }
+]
+maintainers = [
+    { name = "Daniel Bok", email = "daniel.bok@outlook.com" }
+]
+description = "Python copulae library for dependency modelling"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "numpy (>=2.0,<3.0.0)",
+    "pandas (>=2.1.4,<3.0.0)",
+    "scikit-learn (>=1.5.0,<2.0.0)",
+    "scipy (>=1.14.0,<2.0.0)",
+    "statsmodels (>=0.14.4,<1.0.0)",
+    "typing-extensions (>=4.0.0) ; python_version < \"3.11\"",
+    "wrapt (>=1.14.0,<2.0.0)",
+]
+
+keywords = [
+    "copula",
+    "copulae",
+    "dependency modelling",
+    "dependence structures",
+    "archimdean",
+    "elliptical",
+    "finance"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Programming Language :: Python",
+    "Topic :: Scientific/Engineering"
+]
+
+[project.urls]
+Documentation = "https://copulae.readthedocs.io/en/latest/"
+Code = "https://github.com/DanielBok/copulae"
+"Issue tracker" = "https://github.com/DanielBok/copulae/issues"
+
+[build-system]
+requires = ["numpy", "scipy", "cython", "setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.32.0"
+
+[tool.poetry.group.build.dependencies]
+cython = "^3.0.11"
+numpy = "^2.2.2"
+scipy = "^1.15.1"
+setuptools = "^75.8.0"
+
+[tool.poetry.group.test.dependencies]
+coverage = "^7.6.10"
+pytest = "^8.3.4"
+pytest-cov = "^6.0.0"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--tb=short",
+    "--cov=copulae",
+    "--cov-report=term-missing",
+    "--doctest-modules"
+]
+filterwarnings = [
+    "ignore::UserWarning",
+    "ignore:invalid value encountered in log",
+    "ignore:covariance is not positive-semidefinite."
+]
+
+[tool.coverage.report]
+omit = [
+    "*/__init__.py",
+    "copulae/_version.py",
+    "copulae/special/_machine.py",
+    "copulae/special/trig.py",
+    "copulae/types.py"
+]
