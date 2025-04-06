@@ -1,0 +1,57 @@
+Metadata-Version: 2.2
+Name: user-management
+Version: 0.1.0
+Summary: A user management package
+Home-page: https://github.com/clickstack/user-management
+Author: Brennen
+Author-email: brennen.barney@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# User Management
+
+A Python package for managing user-related operations.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install user-management
+```
+
+For development installation, clone the repository and install in editable mode:
+
+```bash
+git clone https://github.com/yourusername/user-management.git
+cd user-management
+pip install -e .
+```
+
+## Usage
+
+```python
+import user_management
+
+# Add usage examples here once functionality is implemented
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
