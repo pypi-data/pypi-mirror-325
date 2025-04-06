@@ -1,0 +1,90 @@
+Metadata-Version: 2.3
+Name: galadriel
+Version: 0.0.6
+Summary: 
+Author: Kaspar Peterson
+Author-email: kaspar@galadriel.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: dev
+Requires-Dist: aiofiles (>=22.0.0,<23.0.0)
+Requires-Dist: aiohttp (>=3.10.5,<4.0.0)
+Requires-Dist: audioop-lts (>=0.2.1,<0.3.0) ; python_version >= "3.13" and python_version < "4.0"
+Requires-Dist: black (>=24.8.0,<25.0.0) ; extra == "dev"
+Requires-Dist: boto3 (>=1.35.0,<2.0.0)
+Requires-Dist: build (>=1.2.2,<2.0.0) ; extra == "dev"
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: composio-langchain (>=0.6.19,<0.7.0)
+Requires-Dist: discord.py (>=2.4.0,<3.0.0)
+Requires-Dist: jupiter-python-sdk (>=0.0.2.0,<0.0.3.0)
+Requires-Dist: langchain-community (>=0.3.16,<0.4.0)
+Requires-Dist: litellm (>=1.58.2,<2.0.0)
+Requires-Dist: mypy (>=1.11.2,<2.0.0) ; extra == "dev"
+Requires-Dist: openai (>=1.55.3,<2.0.0)
+Requires-Dist: py (>=1.11.0,<2.0.0)
+Requires-Dist: pyTelegramBotAPI (>=4.26.0,<5.0.0)
+Requires-Dist: pylint (>=3.2.7,<4.0.0) ; extra == "dev"
+Requires-Dist: pynacl (>=1.5.0,<2.0.0)
+Requires-Dist: pytest (>=8.3.2,<9.0.0) ; extra == "dev"
+Requires-Dist: pytest-asyncio (==0.24.0) ; extra == "dev"
+Requires-Dist: pytest-cov (>=5.0.0,<6.0.0)
+Requires-Dist: pytest-mock (>=3.14.0,<4.0.0) ; extra == "dev"
+Requires-Dist: pytest-xprocess (>=0.18.0,<0.19.0) ; extra == "dev"
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: python-json-logger (>=2.0.7,<3.0.0)
+Requires-Dist: requests (==2.32.3)
+Requires-Dist: requests-oauthlib (>=2.0.0,<3.0.0)
+Requires-Dist: rich (>=13.9.4,<14.0.0)
+Requires-Dist: smolagents (>=1.6.0,<2.0.0)
+Requires-Dist: solana (>=0.35.0,<0.36.0)
+Requires-Dist: solders (>=0.21.0,<0.22.0)
+Requires-Dist: twine (>=5.1.1,<6.0.0) ; extra == "dev"
+Requires-Dist: types-aiofiles (>=24.1.0.20241221,<25.0.0.0)
+Requires-Dist: types-requests (>=2.32.0.20241016,<3.0.0.0) ; extra == "dev"
+Description-Content-Type: text/markdown
+
+# Galadriel
+
+Galadriel is a Python framework for building autonomous, economically useful AI Agents.
+
+## Quickstart
+Note: you should setup local env for this. In terminal
+```shell
+python3 -m venv venv
+source venv/bin/activate
+```
+
+And then, install `galadriel` package.
+```shell
+pip install galadriel
+```
+
+Now, create a new python file and copy the code below to create sample agent.
+It uses `TestClient` which sends 2 messages sequentially to the agent and prints the result of agent execution.
+
+```python
+import asyncio
+from galadriel import AgentRuntime, CodeAgent
+from galadriel.clients import SimpleMessageClient
+from galadriel.core_agent import LiteLLMModel, DuckDuckGoSearchTool
+
+model = LiteLLMModel(model_id="gpt-4o", api_key="<ADD YOUR OPENAI KEY HERE>")
+
+agent = CodeAgent(
+    model=model,
+    tools=[DuckDuckGoSearchTool()]
+)
+
+client = SimpleMessageClient("Explain the concept of blockchain")
+
+runtime = AgentRuntime(
+    agent=agent,
+    inputs=[client],
+    outputs=[client],
+)
+asyncio.run(runtime.run())
+```
