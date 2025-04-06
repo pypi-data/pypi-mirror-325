@@ -1,0 +1,2 @@
+[console_scripts]
+arnablog = arnablog.add_to_changelog:main
