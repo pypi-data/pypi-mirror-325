@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: slack-beta-ti
+Version: 0.0.1
+Summary: Slack Web API
+Home-page: 
+Author: Slack developer relations
+Author-email: team@openapitools.org
+Keywords: OpenAPI,OpenAPI-Generator,Slack Web API
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3<3.0.0,>=1.25.3
+Requires-Dist: python-dateutil>=2.8.2
+Requires-Dist: pydantic>=2
+Requires-Dist: typing-extensions>=4.7.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: summary
+
+    One way to interact with the Slack platform is its HTTP RPC-based Web API, a collection of methods requiring OAuth 2.0-based user, bot, or workspace tokens blessed with related OAuth scopes.
+    
