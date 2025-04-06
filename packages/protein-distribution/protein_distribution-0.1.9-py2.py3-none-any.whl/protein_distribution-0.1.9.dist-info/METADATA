@@ -1,0 +1,115 @@
+Metadata-Version: 2.2
+Name: protein-distribution
+Version: 0.1.9
+Summary: pyton package for accessing protein distribution data.
+Home-page: https://github.com/matthiaskoenig/protein-distribution
+Download-URL: https://pypi.org/project/protein-distribution
+Author: Matthias Koenig
+Author-email: konigmatt@googlemail.com
+Maintainer: Matthias Koenig
+Maintainer-email: konigmatt@googlemail.com
+License: LGPL-3.0
+Project-URL: Source Code, https://github.com/matthiaskoenig/protein-distribution
+Project-URL: Documentation, https://github.com/matthiaskoenig/protein-distribution
+Project-URL: Bug Tracker, https://github.com/matthiaskoenig/protein-distribution/issues
+Keywords: liver,CYP,UGT,SLC,ABC
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.12
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: requests>=2.32.3
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: numpy>=2.2.2
+Requires-Dist: scipy>=1.15.1
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: openpyxl>=3.1.5
+Requires-Dist: rich>=13.9.4
+Requires-Dist: xmltodict>=0.14.2
+Requires-Dist: pydantic>=2.10.6
+Requires-Dist: statsmodels>=0.14.4
+Provides-Extra: development
+Requires-Dist: pip-tools>6.5.1; extra == "development"
+Requires-Dist: black>=25.1.0; extra == "development"
+Requires-Dist: bump2version>=1.0.1; extra == "development"
+Requires-Dist: isort>=5.12.0; extra == "development"
+Requires-Dist: tox>=4.11.1; extra == "development"
+Requires-Dist: flake8>=4.0.1; extra == "development"
+Requires-Dist: flake8-mypy>=17.8.0; extra == "development"
+Requires-Dist: mypy>=0.931; extra == "development"
+Requires-Dist: pytest>=7.0.1; extra == "development"
+Requires-Dist: pytest-cov>=3.0.0; extra == "development"
+Dynamic: download-url
+
+.. image:: https://github.com/matthiaskoenig/protein-distribution/raw/main/docs/images/favicon/protein-distribution-100x100-300dpi.png
+   :align: left
+   :alt: protein-distribution logo
+
+protein-distribution: protein variability of CYP, UGT, ABC and SLC in human liver
+=================================================================================
+
+.. image:: https://github.com/matthiaskoenig/protein-distribution/workflows/CI-CD/badge.svg
+   :target: https://github.com/matthiaskoenig/protein-distribution/workflows/CI-CD
+   :alt: GitHub Actions CI/CD Status
+
+.. image:: https://img.shields.io/pypi/v/protein_distribution.svg
+   :target: https://pypi.org/project/protein_distribution/
+   :alt: Current PyPI Version
+
+.. image:: https://img.shields.io/pypi/pyversions/protein-distribution.svg
+   :target: https://pypi.org/project/protein-distribution/
+   :alt: Supported Python Versions
+
+.. image:: https://img.shields.io/pypi/l/protein_distribution.svg
+   :target: http://opensource.org/licenses/LGPL-3.0
+   :alt: GNU Lesser General Public License 3
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/ambv/black
+   :alt: Black
+
+.. image:: http://www.mypy-lang.org/static/mypy_badge.svg
+   :target: http://mypy-lang.org/
+   :alt: mypy
+
+The objective of this project is to provide a systematic overview of protein variability of CYP450, UGT, ABC and SLC isoforms in the human liver. Relationships within protein isoforms (e.g., subgroups such as sex or ethnicity) and between CYP450 isoforms (e.g., correlations) will be studied. The project will provide an important resource to elucidate factors affecting individual drug metabolism and for computational modeling of drug detoxification by the liver.
+
+An interactive web application is available from 
+`https://github.com/matthiaskoenig/protein-distribution-app <https://github.com/matthiaskoenig/protein-distribution-app>`__.
+
+License
+=======
+
+* Source Code: `LGPLv3 <http://opensource.org/licenses/LGPL-3.0>`__
+* Documentation: `CC BY-SA 4.0 <http://creativecommons.org/licenses/by-sa/4.0/>`__
+
+The protein-distribution source is released under both the GPL and LGPL licenses version 2 or
+later. You may choose which license you choose to use the software under.
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License or the GNU Lesser General Public
+License as published by the Free Software Foundation, either version 2 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+Funding
+=======
+Matthias König is supported by the Federal Ministry of Education and Research (BMBF, Germany)
+within the research network Systems Medicine of the Liver (**LiSyM**, grant number 031L0054)
+and by the German Research Foundation (DFG) within the Research Unit Programme FOR 5151
+"`QuaLiPerF <https://qualiperf.de>`__ (Quantifying Liver Perfusion-Function Relationship in Complex Resection -
+A Systems Medicine Approach)" by grant number 436883643 and by grant number
+465194077 (Priority Programme SPP 2311, Subproject SimLivA).
+
+© 2022-2025 Afruja Hossain, Sophie Silberhorn & Matthias König
