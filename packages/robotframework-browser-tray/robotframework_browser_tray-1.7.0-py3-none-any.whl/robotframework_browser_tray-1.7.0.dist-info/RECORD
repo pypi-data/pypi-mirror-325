@@ -1,0 +1,14 @@
+BrowserTray/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BrowserTray/__main__.py,sha256=QYhocfSCX0qrbm-s6Qr6NkhOTQZpyqxqa24T4iLtLGo,30
+BrowserTray/chromium.png,sha256=S1WWnBqfLCvU4EMc6pIdUmrLVop91NAoZILU-ZF5TUs,56248
+BrowserTray/cmdline_args.py,sha256=usxc_MzmcpcJLeLqlHDwQoFJzGCSwsdZg7yqHdsnsZ0,885
+BrowserTray/playwright.py,sha256=hnt7utKm3JEGCP73fm3TfTtH6nEl0P3MRyShGxKARDM,1574
+BrowserTray/tray.py,sha256=ZEn4APFpzWJmHgDhIqJXsoBXawiEfPgOANs1lwAGZnc,3330
+BrowserTray/BrowserRepl/__init__.py,sha256=DKx0pUbUDSGr0HL4rrj1EGQIkHIBuBynAJQbBLIpI_Q,653
+BrowserTray/ibrowser/__init__.py,sha256=rx4HPy6uYrhA4K-we6OZzlfClr0wboRMOuO28inDvdg,21
+BrowserTray/ibrowser/__main__.py,sha256=nU5RELN7iZviZc7V47K4dOkct966iAGGSDebJQr4I8M,30
+BrowserTray/ibrowser/repl.py,sha256=yvurktjGl4wJQiX-_iA7ogPOphC0k7UuK9gZ-eazJaI,4225
+robotframework_browser_tray-1.7.0.dist-info/entry_points.txt,sha256=Z-8RNvWyMoLcJLZb_JXMnvz-OAEWMxTcJB9ottP8Uk8,87
+robotframework_browser_tray-1.7.0.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+robotframework_browser_tray-1.7.0.dist-info/METADATA,sha256=Fjg45Qp7BsiA-lYLBc8wKDOSvIURuYSauLhYpg3G81M,3075
+robotframework_browser_tray-1.7.0.dist-info/RECORD,,
