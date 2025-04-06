@@ -1,0 +1,7 @@
+redis_entraid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redis_entraid/cred_provider.py,sha256=ipz4OJ5dZK3kob4R0OUF36o7Qxz_0TJzslwcYTQflu0,6524
+redis_entraid/identity_provider.py,sha256=8dcBHjtfvwvIOGl1YFD_5jgCCfTUsSbfCmRaWycH-0g,4868
+redis_entraid-0.2.0b1.dist-info/METADATA,sha256=MycOqoUDeWmgyGqvA8w9dcq5NU-IhKMwO7RCvMRngfs,3946
+redis_entraid-0.2.0b1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+redis_entraid-0.2.0b1.dist-info/top_level.txt,sha256=Uke6qhq-w1cCQ1YBIc-nyocIgKP9PDmxuAQ2qEkbzYU,14
+redis_entraid-0.2.0b1.dist-info/RECORD,,
