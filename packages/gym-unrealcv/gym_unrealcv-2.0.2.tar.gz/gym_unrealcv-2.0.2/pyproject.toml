@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gym_unrealcv"
+dynamic = ["version"]
+dependencies = [
+    "gym==0.10.9",
+    "matplotlib",
+    "numpy",
+    "unrealcv",
+    "wget",
+    "opencv-python",
+    "simple_pid",
+    "pynput",
+    "docker",
+]
+
+[tool.setuptools.package-data]
+"gym_unrealcv" = ["envs/setting/**/*"]
+
+[tool.setuptools]
+packages = ["gym_unrealcv"]
+
+[tool.setuptools.dynamic]
+version = {attr = "gym_unrealcv.__version__"}
