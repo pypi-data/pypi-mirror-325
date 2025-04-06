@@ -1,0 +1,8 @@
+graft src/urban
+graft var/urban
+graft docs
+include *.rst
+prune news
+global-exclude *.pyc
+global-exclude *.pyo
+exclude *.toml
