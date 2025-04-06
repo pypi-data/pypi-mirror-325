@@ -1,0 +1,8 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_complex_config_module.py,sha256=ibCCqP3AdwMXn7KxqWKQLNa9s-OAn51cRvWHVxoCC5o,7927
+tests/test_config_module.py,sha256=9V4Vtk7rVSH0LeJ9TaKvNhvB4Og1hRaUxCYGffFM7HI,4414
+customizable-0.1.0.dist-info/LICENSE,sha256=Mxyv-8s39H70vCdNcPY1eIV0rmRuPkucXzhtMKvhHeQ,1315
+customizable-0.1.0.dist-info/METADATA,sha256=KP00E6X3mD5vOMAgJR-30LQMkPTJRhSJP-ly7YtXem8,8003
+customizable-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+customizable-0.1.0.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+customizable-0.1.0.dist-info/RECORD,,
