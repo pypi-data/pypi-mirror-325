@@ -1,0 +1,11 @@
+pyboundfit/__init__.py,sha256=-g0iqKReWCxMfdpWx7pm7j-XWV2ocuWv6jrkr9sTdIc,380
+pyboundfit/boundfit_adaptive_splines.py,sha256=14n5_k9o-R6AqKmAxduDnvAt9BhSv8PDDbj9qOspBYs,969
+pyboundfit/boundfit_poly.py,sha256=yTDuDRUEMDSfUYT-lul4ATGNCV5Empqjl7iX-xT8yac,795
+pyboundfit/fun_residuals_spl.py,sha256=CsBOAVryFW55QDL4jIaobmEDEoyg0OYoY29WjcMwuZw,565
+pyboundfit/numsplines.py,sha256=XqXRF-fKrotYpZvelwnejebwhVQWqxhekNn0TOGL0gg,7759
+pyboundfit/version.py,sha256=iczSQOw9xnkQDk_ZvBp3JHUf7iQumsUpNXUyQ9mI_Eg,299
+pyboundfit-0.1.0.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyboundfit-0.1.0.dist-info/METADATA,sha256=rDtSbm2CwkGlUQgn0fnUjVoHa1GhwUo-gYNDIfx27lg,2510
+pyboundfit-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pyboundfit-0.1.0.dist-info/top_level.txt,sha256=VGOEgEHC_wlKEnld2sMhy0LZAkBihlfRymHndEDi-3k,11
+pyboundfit-0.1.0.dist-info/RECORD,,
