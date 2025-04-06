@@ -1,0 +1,7 @@
+[console_scripts]
+MSanalyst-customized_db = MSanalyst.main:customized_db
+MSanalyst-main = MSanalyst.main:main
+MSanalyst-mn_merging = MSanalyst.main:mn_merging
+MSanalyst-ms1search = MSanalyst.main:ms1search
+MSanalyst-ms2search = MSanalyst.main:ms2search
+MSanalyst-re-networking = MSanalyst.main:re_networking
