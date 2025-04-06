@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: allure-pytest-yaml
+Version: 1.1.1
+Summary: a pytest yaml allure package
+Home-page: https://gitee.com/easyfei/pytest-yaml-fei.git
+Author: Fei Wu
+Author-email: 504294190@qq.com
+License: MIT License
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Jinja2
+Requires-Dist: jmespath
+Requires-Dist: jsonpath
+Requires-Dist: pytest
+Requires-Dist: PyYAML
+Requires-Dist: requests
+Requires-Dist: allure-pytest
+Requires-Dist: pymysql
+Requires-Dist: DingtalkChatbot
