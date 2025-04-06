@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: gym_unrealcv
+Version: 2.0.1
+Requires-Dist: gym==0.10.9
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: unrealcv
+Requires-Dist: wget
+Requires-Dist: opencv-python
+Requires-Dist: simple_pid
+Requires-Dist: pynput
+Requires-Dist: docker
+Dynamic: requires-dist
