@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/js_dependency_audit/__init__.py
+src/js_dependency_audit/lock_file_content.py
+src/js_dependency_audit/py.typed
+src/js_dependency_audit/security_audit_request.py
+src/js_dependency_audit.egg-info/PKG-INFO
+src/js_dependency_audit.egg-info/SOURCES.txt
+src/js_dependency_audit.egg-info/dependency_links.txt
+src/js_dependency_audit.egg-info/requires.txt
+src/js_dependency_audit.egg-info/top_level.txt
+src/js_dependency_audit/audit/__init__.py
+src/js_dependency_audit/audit/action.py
+src/js_dependency_audit/audit/advisory.py
+src/js_dependency_audit/audit/metadata.py
+test/test_lockfile_read.py
