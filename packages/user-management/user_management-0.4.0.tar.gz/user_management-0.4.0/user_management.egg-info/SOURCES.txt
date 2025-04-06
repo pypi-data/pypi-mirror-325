@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+user_management/__init__.py
+user_management/firebase_client.py
+user_management.egg-info/PKG-INFO
+user_management.egg-info/SOURCES.txt
+user_management.egg-info/dependency_links.txt
+user_management.egg-info/requires.txt
+user_management.egg-info/top_level.txt
